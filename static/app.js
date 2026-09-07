@@ -43,13 +43,17 @@ function relativeTime(value) {
 
 function pageHeader(title, description, meta = '', action = '') {
   return `<header class="page-masthead">
-    <div class="page-heading"><h1>${escapeHTML(title)}</h1><p>${escapeHTML(description)}</p></div>
+    <div class="page-heading"><h1>${escapeHTML(title)}</h1><p>${escapeHTML(description)}${state.snapshotFallback ? ' 本轮获取失败，展示已有快照；获取时间见右侧。' : ''}</p></div>
     <div class="page-context">${meta ? `<span>${meta}</span>` : ''}${action}</div>
   </header>`;
 }
 
 async function api(path, options) {
-  if (window.cloudAPI) return window.cloudAPI(path);
+  if (window.cloudAPI) {
+    const data = await window.cloudAPI(path);
+    if (!path.startsWith('/api/meta')) state.snapshotFallback = !!data.fallback;
+    return data;
+  }
   const response = await fetch(path, options);
   const data = await response.json();
   if (!response.ok && response.status !== 207) throw new Error(data.error || data.message || `请求失败 ${response.status}`);

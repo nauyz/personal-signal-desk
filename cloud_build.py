@@ -59,6 +59,17 @@ def export():
         for scope in ('ai', 'all'):
             for sort in ('rank', 'time', 'score', 'comments'):
                 data[f'hn:{view}:{scope}:{sort}'] = server.query_hacker_news({'view': [view], 'scope': [scope], 'sort': [sort]})
+    seed_path = server.ROOT / 'public_snapshots.json'
+    if seed_path.exists():
+        seeds = json.loads(seed_path.read_text(encoding='utf-8'))
+        for key, snapshot in seeds.items():
+            if key in data and not data[key].get('snapshot') and snapshot.get('snapshot'):
+                data[key] = {**snapshot, 'fallback': True}
+        for key, view in data.items():
+            if key.startswith('launches:'):
+                for category in view['categories']:
+                    category['count'] = len(data[f"launches:{category['key']}"]['items'])
+        data['meta']['counts']['productHuntCategories'] = sum(len(data[f'launches:{key}']['items']) for key, _, _ in server.PRODUCTHUNT_CATEGORIES)
     (OUTPUT / 'data').mkdir(parents=True, exist_ok=True)
     (OUTPUT / 'data/site.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     # Copy only the public frontend, never the DB, configuration or credentials.
@@ -81,11 +92,24 @@ def export():
     print(f'Exported {len(data["content"])} content items to {OUTPUT}', flush=True)
 
 
+def export_seed():
+    """Publish existing public snapshots with their original timestamps."""
+    server.NETWORK_ENABLED = False
+    snapshots = {f'launches:{key}': server.query_producthunt({'category': [key]}) for key, _, _ in server.PRODUCTHUNT_CATEGORIES}
+    snapshots['xrank:tweets:7d'] = server.query_xrank({'kind': ['tweets'], 'range': ['7d']})
+    snapshots = {key: value for key, value in snapshots.items() if value.get('snapshot')}
+    (server.ROOT / 'public_snapshots.json').write_text(json.dumps(snapshots, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print(f'Exported {len(snapshots)} public fallback snapshots')
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--collect', action='store_true')
+    parser.add_argument('--seed', action='store_true')
     args = parser.parse_args()
     server.init_db()
+    if args.seed:
+        export_seed()
     if args.collect:
         collect()
     export()
