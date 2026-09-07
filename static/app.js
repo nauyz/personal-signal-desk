@@ -582,6 +582,7 @@ if (app.dataset.prerendered && (state.page !== 'content' || location.search)) {
 }
 setActiveNav();
 render().then(() => {
+  window.scheduleCloudWarmup?.();
   setInterval(checkAutomaticSync, 60_000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) checkAutomaticSync(); });
 });

@@ -33,7 +33,9 @@ jobs:
           key: signal-data-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: signal-data-
       - name: Test
-        run: python -m unittest discover -s tests -q
+        run: |
+          python -m unittest discover -s tests -q
+          node tests/prefetch.cjs
       - name: Refresh public source snapshots and export
         env:
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
