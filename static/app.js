@@ -105,7 +105,7 @@ function toast(message) {
 }
 
 async function checkAutomaticSync() {
-  if (state.checkingSync || document.hidden) return;
+  if (state.checkingSync || document.hidden || document.activeElement?.id === 'search') return;
   state.checkingSync = true;
   try {
     const previous = state.lastSyncAt;
@@ -113,6 +113,7 @@ async function checkAutomaticSync() {
     updateSyncLabel();
     if (previous && state.lastSyncAt && previous !== state.lastSyncAt) {
       const scrollTop = window.scrollY;
+      if (document.activeElement?.id === 'search') return;
       await render();
       requestAnimationFrame(() => window.scrollTo({ top: scrollTop }));
       toast('已载入最新一轮同步数据');
@@ -222,6 +223,11 @@ function filterRow(key, config, selected) {
   return `<div class="filter-row"><b>${escapeHTML(config.label)}</b><div class="filter-options" data-filter="${key}"><button data-value="all" aria-pressed="${!selected.length}" class="${selected.length ? '' : 'active'}">全部</button>${Object.entries(config.values).map(([value, label]) => `<button data-value="${value}" aria-pressed="${selected.includes(value)}" class="${selected.includes(value) ? 'active' : ''}">${escapeHTML(label)}</button>`).join('')}</div></div>`;
 }
 
+function contentResultsHTML(data) {
+  return `<div class="results-head" aria-live="polite"><span><strong>${data.page.total}</strong> 条结果</span><span>按发布时间从新到旧 · 当前载入 ${data.items.length} 条</span></div>
+    ${data.items.length ? `<section class="content-timeline">${contentTimeline(data.items)}</section>` : empty()}`;
+}
+
 async function renderContent() {
   const filters = getContentState();
   const data = await api(`/api/content?${contentQuery(filters)}`);
@@ -232,8 +238,7 @@ async function renderContent() {
     <section class="filters"><div class="filter-toolbar"><div class="scope-switch" aria-label="内容范围"><button data-scope="all" aria-pressed="${filters.scope === 'all'}" class="${filters.scope === 'all' ? 'active' : ''}">全部内容</button><button data-scope="selected" aria-pressed="${filters.scope === 'selected'}" class="${filters.scope === 'selected' ? 'active' : ''}">仅看精选</button></div><input class="search" id="search" value="${escapeHTML(filters.q)}" placeholder="搜索标题、摘要或信源" aria-label="搜索内容"></div>
     ${filterRow(filterEntries[0][0], filterEntries[0][1], filters[filterEntries[0][0]])}
     <details class="advanced-filters" ${['topic', 'form', 'entity'].some(key => filters[key].length) ? 'open' : ''}><summary>更多筛选 <span>技术方向 · 内容形态 · 公司与模型</span></summary><div class="advanced-filter-body">${filterEntries.slice(1).map(([key, config]) => filterRow(key, config, filters[key])).join('')}</div></details></section>
-    <div class="results-head"><span><strong>${data.page.total}</strong> 条结果</span><span>按发布时间从新到旧 · 当前载入 ${data.items.length} 条</span></div>
-    ${data.items.length ? `<section class="content-timeline">${contentTimeline(data.items)}</section>` : empty()}`;
+    <div id="content-results">${contentResultsHTML(data)}</div>`;
 
   app.querySelectorAll('[data-scope]').forEach(button => button.addEventListener('click', () => { filters.scope = button.dataset.scope; updateContentURL(filters); renderContent(); }));
   app.querySelectorAll('[data-filter] button').forEach(button => button.addEventListener('click', () => {
@@ -243,10 +248,41 @@ async function renderContent() {
     else filters[key] = filters[key].includes(value) ? filters[key].filter(item => item !== value) : [...filters[key], value];
     updateContentURL(filters); renderContent();
   }));
-  let searchTimer;
-  app.querySelector('#search').addEventListener('input', event => {
+  const search = app.querySelector('#search');
+  const results = app.querySelector('#content-results');
+  let searchTimer, revision = 0, composing = false;
+  function scheduleSearch() {
     clearTimeout(searchTimer);
-    searchTimer = setTimeout(() => { filters.q = event.target.value.trim(); updateContentURL(filters); renderContent(); }, 350);
+    const current = ++revision;
+    if (composing) return;
+    searchTimer = setTimeout(async () => {
+      if (!search.isConnected || state.page !== 'content') return;
+      filters.q = search.value.trim();
+      updateContentURL(filters);
+      const isCurrent = () => current === revision && search.isConnected && state.page === 'content';
+      try {
+        const next = await api(`/api/content?${contentQuery(filters)}`);
+        if (!isCurrent()) return;
+        state.content = next.items;
+        state.total = next.page.total;
+        results.innerHTML = contentResultsHTML(next);
+        app.querySelector('.page-context').innerHTML = `<span>当前显示　<strong>${Math.min(next.items.length, 120)} / ${next.page.total}</strong></span>`;
+      } catch {
+        if (!isCurrent()) return;
+        results.innerHTML = '<section class="error-state" role="alert"><h2>搜索暂时失败</h2><p>已保留输入内容，请重试。</p><button data-search-retry>重试搜索</button></section>';
+        results.querySelector('[data-search-retry]').addEventListener('click', scheduleSearch);
+      }
+    }, 350);
+  }
+  search.addEventListener('compositionstart', () => {
+    composing = true;
+    clearTimeout(searchTimer);
+    ++revision;
+  });
+  search.addEventListener('compositionend', () => { composing = false; scheduleSearch(); });
+  search.addEventListener('input', event => {
+    if (event.isComposing) { clearTimeout(searchTimer); ++revision; return; }
+    scheduleSearch();
   });
 }
 
