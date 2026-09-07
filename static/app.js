@@ -1,5 +1,7 @@
 const app = document.querySelector('#app');
 const syncLabel = document.querySelector('#sync-label');
+let renderEpoch = 0;
+let navigationEpoch = 0;
 
 const FILTERS = {
   category: { label: '主分类', values: { 'ai-models': '模型', 'ai-products': '产品', industry: '行业', paper: '论文', tutorial: '教程', opinion: '观点' } },
@@ -71,10 +73,13 @@ function setActiveNav() {
 }
 
 function navigate(page, push = true) {
+  const navigation = ++navigationEpoch;
   state.page = page;
   if (push) history.pushState({}, '', `/${page}`);
   setActiveNav();
-  render().then(() => app.focus({ preventScroll: true }));
+  render().then(() => {
+    if (navigation === navigationEpoch) app.focus({ preventScroll: true });
+  });
 }
 
 document.addEventListener('click', event => {
@@ -83,7 +88,7 @@ document.addEventListener('click', event => {
   event.preventDefault();
   navigate(link.dataset.nav);
 });
-window.addEventListener('popstate', () => { state.page = pageFromPath(); setActiveNav(); render(); });
+window.addEventListener('popstate', () => { ++navigationEpoch; state.page = pageFromPath(); setActiveNav(); render(); });
 
 function updateSyncLabel() {
   const states = state.meta?.sync || [];
@@ -185,8 +190,9 @@ function factCard(item, index = 0) {
 
 function empty() { return document.querySelector('#empty-template').innerHTML; }
 
-async function renderFacts() {
+async function renderFacts(epoch = ++renderEpoch) {
   const data = await api('/api/facts');
+  if (epoch !== renderEpoch) return;
   const latest = data.items[0]?.latest_at;
   const sync = state.meta?.sync?.find(item => item.resource === 'hot-topics');
   const failed = sync?.last_status === 'error';
@@ -237,10 +243,10 @@ function contentPageHTML(data, filters) {
     <div id="content-results">${contentResultsHTML(data)}</div>`;
 }
 
-async function renderContent() {
+async function renderContent(epoch = ++renderEpoch) {
   const filters = getContentState();
   const data = await api(`/api/content?${contentQuery(filters)}`);
-  if (state.page !== 'content') return;
+  if (epoch !== renderEpoch || state.page !== 'content') return;
   state.content = data.items;
   state.total = data.page.total;
   app.innerHTML = contentPageHTML(data, filters);
@@ -292,7 +298,7 @@ async function renderContent() {
   });
 }
 
-async function renderAbout() {
+async function renderAbout(epoch = ++renderEpoch) {
   app.innerHTML = `${pageHeader('说明', '说明数据从哪里来、本地做了什么，以及哪些边界不会越过。')}
   <section class="about-layout">
     <article class="about-card full"><p class="eyebrow">信息分层</p><h2>事实与内容，刻意分开</h2><p>事实回答“发生了什么”，内容回答“谁具体发布了什么”。第一阶段不建立二者的本地对应关系，因此不会因为多篇内容谈论同一事件就错误删除它们。</p><div class="layer-visual"><div class="layer-box"><b>事实层</b><span>只取 AIHOT 过去 48 小时 Top 10 热点事件，保留状态、综述、独立信源数与核对入口。</span></div><span class="layer-gap">≠</span><div class="layer-box"><b>内容层</b><span>文章、推文、论文、视频各自独立保存；全量与精选共用四组交叉筛选。</span></div></div></article>
@@ -337,8 +343,9 @@ function projectCard(item) {
   </div></article>`;
 }
 
-async function renderProjects() {
+async function renderProjects(epoch = ++renderEpoch) {
   const data = await api('/api/projects');
+  if (epoch !== renderEpoch) return;
   const snapshot = data.snapshot;
   app.innerHTML = `${pageHeader('项目', 'GitHub Trending 每日热门项目，保留英文简介与自然中文说明。', `最近获取　<strong>${snapshot ? formatTime(snapshot.fetched_at, true) : '暂无数据'}</strong>`, '<a class="source-button" href="https://github.com/trending" target="_blank" rel="noopener">打开 GitHub Trending ↗</a>')}
     ${data.items.length ? `<section class="project-list">${data.items.map(projectCard).join('')}</section>` : empty()}`;
@@ -374,13 +381,14 @@ function productHuntCard(item) {
   </article>`;
 }
 
-async function renderProductHunt() {
+async function renderProductHunt(epoch = ++renderEpoch) {
   const range = getProductHuntRange();
   const requestedCategory = new URLSearchParams(location.search).get('category') || '';
   app.innerHTML = `<div class="loading-state" role="status" aria-live="polite"><span></span><p>正在读取 Product Hunt…</p></div>`;
   const query = new URLSearchParams({ range });
   if (requestedCategory) query.set('category', requestedCategory);
   const data = await api(`/api/launches?${query}`);
+  if (epoch !== renderEpoch) return;
   const category = data.category || '';
   const tabs = `<div class="ph-range" aria-label="Product Hunt 时间范围">${Object.entries(PRODUCTHUNT_RANGES).map(([key, label]) => `<button data-ph-range="${key}" aria-pressed="${!requestedCategory && key === range}" class="${!requestedCategory && key === range ? 'active' : ''}">${label}</button>`).join('')}</div>`;
   const categoryTabs = `<div class="ph-categories" aria-label="Product Hunt 一级垂类">${(data.categories || []).map(item => `<button data-ph-category="${escapeHTML(item.key)}" aria-pressed="${item.key === category}" class="${item.key === category ? 'active' : ''}"><span>${escapeHTML(item.label_zh)}</span><small>${item.count || 20}</small></button>`).join('')}</div>`;
@@ -437,10 +445,11 @@ function hnCard(item) {
   </article>`;
 }
 
-async function renderHackerNews() {
+async function renderHackerNews(epoch = ++renderEpoch) {
   const current = getHNState();
   app.innerHTML = `<div class="loading-state" role="status" aria-live="polite"><span></span><p>正在读取 Hacker News…</p></div>`;
   const data = await api(`/api/hn?view=${encodeURIComponent(current.view)}&scope=${encodeURIComponent(current.scope)}&sort=${encodeURIComponent(current.sort)}`);
+  if (epoch !== renderEpoch) return;
   const snapshot = data.snapshot;
   app.innerHTML = `${pageHeader('HN', 'Hacker News 热门讨论与开发者新作品，可切换仅看 AI 或完整列表。', `${escapeHTML(HN_VIEWS[current.view].hint)}　<strong>${snapshot ? formatTime(snapshot.fetched_at, true) : '暂无数据'}</strong>`, `<a class="source-button" href="${safeURL(snapshot?.source_url || 'https://news.ycombinator.com/')}" target="_blank" rel="noopener">打开 Hacker News ↗</a>`)}
     <section class="hn-controls">
@@ -528,11 +537,12 @@ function prepareCreatorItems(items, current) {
   return filtered.sort((a, b) => direction * (Number(a[fields[current.sort]] || 0) - Number(b[fields[current.sort]] || 0))).map((item, index) => ({ ...item, _rank: index + 1 }));
 }
 
-async function renderXRank() {
+async function renderXRank(epoch = ++renderEpoch) {
   const current = getXRankState();
   const config = XRANK[current.kind];
   app.innerHTML = `<div class="loading-state" role="status" aria-live="polite"><span></span><p>正在读取 SoPilot AI 榜单…</p></div>`;
   const data = await api(`/api/xrank?kind=${encodeURIComponent(current.kind)}&range=${encodeURIComponent(current.range)}`);
+  if (epoch !== renderEpoch) return;
   const items = (current.kind === 'creators' ? prepareCreatorItems(data.items, current) : current.kind === 'tweets' ? data.items.filter(item => item._board === current.board).map((item, index) => ({ ...item, _rank: index + 1 })) : [...data.items].sort((a, b) => current.topicSort === 'time' ? new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0) : Number(b.heatScore || 0) - Number(a.heatScore || 0)).map((item, index) => ({ ...item, _rank: index + 1 })));
   const creatorControls = current.kind === 'creators' ? `<div class="xrank-account-controls"><div class="xrank-option-row"><b>排序</b><div>${Object.entries(CREATOR_SORTS).map(([key, label]) => `<button data-x-sort="${key}" aria-pressed="${key === current.sort}" class="${key === current.sort ? 'active' : ''}">${label}${key === current.sort ? (current.order === 'desc' ? ' ↓' : ' ↑') : ''}</button>`).join('')}</div></div><div class="xrank-option-row"><b>过滤</b><div>${Object.entries(CREATOR_FILTERS).map(([key, label]) => `<button data-x-filter="${key}" aria-pressed="${key === current.filter}" class="${key === current.filter ? 'active' : ''}">${label}</button>`).join('')}</div></div></div>` : '';
   const tweetControls = current.kind === 'tweets' ? `<div class="xrank-board-controls"><b>推文榜单</b><div class="xrank-board-tabs" aria-label="推文榜单分类">${Object.entries(TWEET_BOARDS).map(([key, label]) => `<button data-x-board="${key}" aria-pressed="${key === current.board}" class="${key === current.board ? 'active' : ''}">${label}</button>`).join('')}</div></div>` : '';
@@ -548,17 +558,20 @@ async function renderXRank() {
 }
 
 async function render() {
+  const epoch = ++renderEpoch;
   try {
     if (!state.meta) state.meta = await api('/api/meta');
+    if (epoch !== renderEpoch) return;
     updateSyncLabel();
-    if (state.page === 'facts') await renderFacts();
-    else if (state.page === 'content') await renderContent();
-    else if (state.page === 'projects') await renderProjects();
-    else if (state.page === 'launches') await renderProductHunt();
-    else if (state.page === 'xrank') await renderXRank();
-    else if (state.page === 'hn') await renderHackerNews();
-    else await renderAbout();
+    if (state.page === 'facts') await renderFacts(epoch);
+    else if (state.page === 'content') await renderContent(epoch);
+    else if (state.page === 'projects') await renderProjects(epoch);
+    else if (state.page === 'launches') await renderProductHunt(epoch);
+    else if (state.page === 'xrank') await renderXRank(epoch);
+    else if (state.page === 'hn') await renderHackerNews(epoch);
+    else await renderAbout(epoch);
   } catch (error) {
+    if (epoch !== renderEpoch) return;
     if (app.dataset.prerendered) {
       syncLabel.textContent = '已显示发布快照，筛选加载失败';
       if (!app.querySelector('[data-bootstrap-retry]')) {
