@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>个人信源 · 个人信息入口</title>
+  <meta name="description" content="由 AIHOT、GitHub、Product Hunt、SoPilot 与 Hacker News 提供的个人信源入口">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%231557a6'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='38' fill='%23ffffff'%3E%E6%BA%90%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css?v=20260906-editorial-signal-desk">
+</head>
+<body>
+  <a class="skip-link" href="#app">跳到主要内容</a>
+  <header class="sidebar">
+    <a class="brand" href="/facts" data-nav="facts" aria-label="个人信源首页">
+      <span class="brand-mark">源</span>
+      <span><b>个人信源</b><small>PERSONAL SIGNAL DESK</small></span>
+    </a>
+    <nav aria-label="主导航">
+      <a href="/facts" data-nav="facts"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="m9.5 12 1.7 1.8 3.6-4"/></svg><span>事实</span><small>48 小时热点</small></a>
+      <a href="/content" data-nav="content"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5.5h14v13H5zM8 9h8M8 12h8M8 15h5"/></svg><span>内容</span><small>筛选与阅读</small></a>
+      <a href="/projects" data-nav="projects"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 7.5h6l1.5 2h7.5v9h-15zM4.5 7.5V5h5l1.5 2.5"/></svg><span>项目</span><small>GitHub 热门</small></a>
+      <a href="/launches" data-nav="launches"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 16-2 2m10-2 2-2M9 15c-1.8-3.2-.8-6.7 3-10 3.8 3.3 4.8 6.8 3 10z"/><circle cx="12" cy="10" r="1.5"/></svg><span>新品</span><small>Product Hunt</small></a>
+      <a href="/xrank" data-nav="xrank"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 5 12 14M18 5 6 19"/></svg><span>X 热榜</span><small>仅看 AI 领域</small></a>
+      <a href="/hn" data-nav="hn"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18V6m12 12V6M6 12h12"/></svg><span>HN</span><small>热门与新项目</small></a>
+      <a href="/about" data-nav="about"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 11v5m0-8v.2"/></svg><span>说明</span><small>数据边界</small></a>
+      <details class="mobile-more"><summary>更多</summary><div><a href="/hn" data-nav="hn">HN</a><a href="/about" data-nav="about">说明</a></div></details>
+    </nav>
+    <div class="sidebar-foot">
+      <div class="source-lock"><span>独立数据源</span><strong>AIHOT · GitHub · PH · SoPilot · HN</strong></div>
+    </div>
+  </header>
+  <div class="header-actions">
+    <span class="live-dot" aria-live="polite"><i></i><span id="sync-label">读取中</span></span>
+  </div>
+
+  <main id="app" tabindex="-1">
+    <div class="loading-state" role="status" aria-live="polite"><span></span><p>正在整理信号…</p></div>
+  </main>
+
+  <footer>
+    <p>内容与事实来自 <a href="https://aihot.virxact.com/" target="_blank" rel="noopener">AIHOT</a>，项目来自 <a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending</a>，新品来自 <a href="https://www.producthunt.com/" target="_blank" rel="noopener">Product Hunt</a>，X 热榜来自 <a href="https://sopilot.net/zh/rank" target="_blank" rel="noopener">SoPilot</a>，社区信号来自 <a href="https://news.ycombinator.com/" target="_blank" rel="noopener">Hacker News</a>。重要信息请回原始页面核对。</p>
+  </footer>
+
+  <template id="empty-template">
+    <section class="empty"><span>∅</span><h2>这里暂时没有内容</h2><p>可以调整筛选条件；数据每 30 分钟自动同步。</p></section>
+  </template>
+  <script src="/app.js?v=20260906-editorial-signal-desk" defer></script>
+</body>
+</html>

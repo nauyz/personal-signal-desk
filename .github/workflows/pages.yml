@@ -1,0 +1,55 @@
+name: Collect and publish signal desk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+  push:
+    branches: [master, main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: signal-desk-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/cache/restore@v4
+        with:
+          path: data/personal_sources.db
+          key: signal-data-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: signal-data-
+      - name: Test
+        run: python -m unittest discover -s tests -q
+      - name: Refresh public source snapshots and export
+        env:
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          PYTHONUNBUFFERED: '1'
+        run: python cloud_build.py --collect
+      - uses: actions/cache/save@v4
+        with:
+          path: data/personal_sources.db
+          key: signal-data-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
