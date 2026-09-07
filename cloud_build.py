@@ -5,6 +5,8 @@ Without --collect this command never requests source APIs or translations.
 import argparse
 import json
 import shutil
+from contextlib import closing
+from datetime import datetime, timezone
 from pathlib import Path
 
 import server
@@ -12,32 +14,104 @@ import server
 OUTPUT = server.ROOT / 'dist'
 
 
+# Hours between attempts. Failed tasks also observe this interval.
+CADENCE = {
+    'aihot:content': 1, 'aihot:facts': 1, 'aihot:daily': 6,
+    'github': 3, 'hn': 1, 'ph:today': 1,
+    'ph:yesterday': 6, 'ph:7d': 6, 'ph:30d': 6, 'ph:categories': 12,
+    **{f'x:{kind}:{window}': 6 if kind == 'creators' else 1
+       for kind, windows in server.XRANK_RANGES.items() for window in windows},
+}
+
+
+def is_due(key, hours, now=None):
+    now = now or datetime.now(timezone.utc)
+    with closing(server.connect()) as conn:
+        row = conn.execute('SELECT last_synced_at FROM sync_state WHERE resource=?', (f'cloud:{key}',)).fetchone()
+    if not row or not row['last_synced_at']:
+        return True
+    try:
+        previous = datetime.fromisoformat(row['last_synced_at'].replace('Z', '+00:00'))
+        elapsed = (now - previous).total_seconds()
+        return elapsed < 0 or elapsed >= hours * 3600
+    except (ValueError, TypeError):
+        return True
+
+
+def attempt(key, operation):
+    if not is_due(key, CADENCE[key]):
+        print(f'Skipped (not due): {key}', flush=True)
+        return False
+    # Persist the start time, including failures, to avoid aggressive retries.
+    server.AIHotClient._state(f'cloud:{key}', None, 'running', None)
+    try:
+        operation()
+        status = 'ok'
+    except Exception:
+        status = 'error'
+    # Keep the attempt start timestamp; source snapshots retain success timestamps.
+    with closing(server.connect()) as conn, conn:
+        conn.execute('UPDATE sync_state SET last_status=? WHERE resource=?', (status, f'cloud:{key}'))
+    print(f'Collected: {key} ({status})', flush=True)
+    return status == 'ok'
+
+
 def collect():
-    # Keep collection out of HTTP/page reads. The workflow serializes runs.
-    print('Starting source refresh', flush=True)
-    result = server.sync_all()
-    print(json.dumps({'ok': result['ok'], 'durationMs': result.get('durationMs')}), flush=True)
-    for kind, ranges in server.XRANK_RANGES.items():
-        for range_key in sorted(ranges):
-            if range_key == server.XRANK_DEFAULTS[kind]:
-                continue
-            try:
-                server.sync_xrank(kind, range_key)
-            except Exception:
-                print(f'Keeping previous snapshot: {kind}/{range_key}', flush=True)
-    # Translation is performed only in the collector, with existing cache reuse.
-    for range_key in sorted(server.PRODUCTHUNT_RANGES):
-        server.ensure_producthunt_translations(server.query_producthunt({'range': [range_key]})['items'])
-    for key, _, _ in server.PRODUCTHUNT_CATEGORIES:
-        server.ensure_producthunt_translations(server.query_producthunt({'category': [key]})['items'])
-    for view in [*server.HN_FEEDS, 'shownew']:
-        server.ensure_hn_translations(server.query_hacker_news({'view': [view], 'scope': ['all']})['items'])
+    server.NETWORK_ENABLED = False
+    client = server.AIHotClient()
+
+    def content():
+        for window in ('24h', '7d'):
+            payload = client.get('/items', f'items:all:{window}', {'mode': 'all', 'window': window, 'limit': '100'})
+            if payload:
+                server.upsert_content(payload.get('items') or [])
+
+    def facts():
+        payload = client.get('/hot-topics', 'hot-topics')
+        if payload:
+            server.upsert_facts(payload, client)
+
+    def daily():
+        payload = client.get('/dailies/latest', 'daily:latest')
+        if payload:
+            server.upsert_daily(payload)
+
+    def ph(window):
+        server.sync_producthunt((window,))
+        server.ensure_producthunt_translations(server.query_producthunt({'range': [window]})['items'])
+
+    def categories():
+        try:
+            server.sync_producthunt_categories(force=True)
+        finally:
+            for key, _, _ in server.PRODUCTHUNT_CATEGORIES:
+                server.ensure_producthunt_translations(server.query_producthunt({'category': [key]})['items'])
+
+    def hn():
+        server.sync_hacker_news()
+        for view in [*server.HN_FEEDS, 'shownew']:
+            server.ensure_hn_translations(server.query_hacker_news({'view': [view], 'scope': ['all']})['items'])
+
+    attempt('aihot:content', content)
+    attempt('aihot:facts', facts)
+    attempt('aihot:daily', daily)
+    attempt('github', server.sync_github_trending)
+    if server.producthunt_token():
+        for window in sorted(server.PRODUCTHUNT_RANGES):
+            attempt(f'ph:{window}', lambda window=window: ph(window))
+    attempt('ph:categories', categories)
+    for kind, windows in server.XRANK_RANGES.items():
+        for window in sorted(windows):
+            attempt(f'x:{kind}:{window}', lambda kind=kind, window=window: server.sync_xrank(kind, window))
+    attempt('hn', hn)
 
 
 def export():
     server.NETWORK_ENABLED = False
     data = {'meta': server.query_meta(), 'facts': server.query_facts(), 'projects': server.query_projects(), 'content': []}
     data['meta'].update(cloud=True, publishedAt=server.utc_now())
+    data['meta']['cadenceHours'] = CADENCE
+    data['meta']['sync'] = [row for row in data['meta']['sync'] if not row['resource'].startswith('cloud:')]
     data['meta']['autoSync'] = {'enabled': True, 'intervalMinutes': 60}
     # Error messages may contain upstream response bodies. Never publish them.
     data['meta']['sync'] = [{k: row[k] for k in ('resource', 'last_synced_at', 'last_status') if k in row} for row in data['meta']['sync']]

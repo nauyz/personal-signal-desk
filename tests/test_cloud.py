@@ -1,6 +1,8 @@
 import json
+import gc
 import tempfile
 import unittest
+from datetime import datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
 
@@ -9,6 +11,30 @@ import server
 
 
 class CloudExportTests(unittest.TestCase):
+    def test_cadence_boundary_and_failed_attempt_are_persisted(self):
+        with tempfile.TemporaryDirectory() as directory, patch.object(server, 'DB_PATH', Path(directory) / 'test.db'):
+            server.init_db()
+            self.assertTrue(cloud_build.is_due('github', 3))
+            with patch.object(server, 'sync_github_trending', side_effect=RuntimeError('unavailable')) as fetch:
+                self.assertFalse(cloud_build.attempt('github', fetch))
+                self.assertFalse(cloud_build.attempt('github', fetch))
+                self.assertEqual(fetch.call_count, 1)
+            with server.connect() as conn:
+                row = conn.execute("SELECT * FROM sync_state WHERE resource='cloud:github'").fetchone()
+            conn.close()
+            self.assertEqual(row['last_status'], 'error')
+            started = datetime.fromisoformat(row['last_synced_at'].replace('Z', '+00:00'))
+            self.assertFalse(cloud_build.is_due('github', 3, started + timedelta(hours=3, seconds=-1)))
+            self.assertTrue(cloud_build.is_due('github', 3, started + timedelta(hours=3)))
+            gc.collect()
+
+    def test_producthunt_can_refresh_only_today(self):
+        with tempfile.TemporaryDirectory() as directory, patch.object(server, 'DB_PATH', Path(directory) / 'test.db'):
+            server.init_db()
+            with patch.object(server, 'fetch_producthunt_range', return_value=([], 'start', 'end')) as fetch:
+                server.sync_producthunt(('today',))
+                fetch.assert_called_once_with('today')
+
     def test_export_has_all_views_and_never_accesses_network(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

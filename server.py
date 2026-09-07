@@ -643,9 +643,9 @@ def fetch_producthunt_range(range_key: str, token: str | None = None) -> tuple[l
     return parse_producthunt_posts(payload), window_start, window_end
 
 
-def sync_producthunt() -> dict[str, int]:
+def sync_producthunt(ranges=("today", "yesterday", "7d", "30d")) -> dict[str, int]:
     counts: dict[str, int] = {}
-    for range_key in ("today", "yesterday", "7d", "30d"):
+    for range_key in ranges:
         resource = f"producthunt:{range_key}"
         try:
             items, window_start, window_end = fetch_producthunt_range(range_key)
