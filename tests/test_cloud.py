@@ -52,6 +52,9 @@ class CloudExportTests(unittest.TestCase):
                 html = (root / 'site/index.html').read_text(encoding='utf-8')
                 self.assertIn('href="#/content"', html)
                 self.assertIn('./cloud-api.js', html)
+                for asset in ('app.js', 'cloud-api.js', 'styles.css'):
+                    digest = cloud_build.hashlib.sha256((root / 'site' / asset).read_bytes()).hexdigest()[:12]
+                    self.assertIn(f'./{asset}?v={digest}', html)
                 self.assertFalse(list((root / 'site').rglob('*.db')))
                 js = (root / 'site/app.js').read_text(encoding='utf-8')
                 self.assertNotIn('location.pathname', js)

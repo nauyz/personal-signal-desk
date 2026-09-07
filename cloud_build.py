@@ -5,6 +5,8 @@ Without --collect this command never requests source APIs or translations.
 import argparse
 import json
 import shutil
+import hashlib
+import re
 from contextlib import closing
 from datetime import datetime, timezone
 from pathlib import Path
@@ -155,13 +157,17 @@ def export():
         html = html.replace(f'href="/{page}"', f'href="#/{page}"')
     html = html.replace('<script src="./app.js', '<script src="./cloud-api.js"></script>\n  <script src="./app.js')
     html = html.replace('数据每 30 分钟自动同步', '数据由云端定时更新')
-    (OUTPUT / 'index.html').write_text(html, encoding='utf-8')
     js = (server.STATIC / 'app.js').read_text(encoding='utf-8')
     js = js.replace('location.pathname', "(location.hash.split('?')[0].slice(1) || '/content')")
     js = js.replace('location.search', "(location.hash.includes('?') ? location.hash.slice(location.hash.indexOf('?')) : '')")
     js = js.replace("history.pushState({}, '', `/", "history.pushState({}, '', `#/")
     js = js.replace("history.replaceState({}, '', `/", "history.replaceState({}, '', `#/")
     (OUTPUT / 'app.js').write_text(js, encoding='utf-8')
+    # Give changed assets a new URL so browsers cannot reuse an older release.
+    for asset in ('app.js', 'cloud-api.js', 'styles.css'):
+        digest = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
+        html = re.sub(r'\./' + re.escape(asset) + r'(?:\?[^"\s]*)?', f'./{asset}?v={digest}', html)
+    (OUTPUT / 'index.html').write_text(html, encoding='utf-8')
     (OUTPUT / '.nojekyll').touch()
     print(f'Exported {len(data["content"])} content items to {OUTPUT}', flush=True)
 

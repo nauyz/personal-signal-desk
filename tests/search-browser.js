@@ -7,6 +7,14 @@ async page => {
     await page.locator('#search').waitFor();
     const input = page.locator('#search');
     const original = await input.elementHandle();
+    await input.fill('OpenAI Artificial Intelligence');
+    await page.waitForTimeout(500);
+    for (let i = 0; i < 32; i++) {
+      await page.keyboard.press('Backspace');
+      await page.waitForTimeout(100);
+      assert(await original.evaluate(el => el.isConnected && el === document.activeElement), 'Repeated backspace lost focus');
+    }
+    assert(await input.inputValue() === '', 'Repeated deletion did not clear input');
     for (const value of ['O', 'OpenAI', 'OpenA', '']) {
       await input.fill(value);
       await page.waitForTimeout(500);
@@ -32,7 +40,7 @@ async page => {
     await input.evaluate(el => { el.value = '中国'; el.dispatchEvent(new CompositionEvent('compositionend',{bubbles:true,data:'中国'})); });
     await page.waitForTimeout(500);
     assert(await original.evaluate(el => el.isConnected && el === document.activeElement && el.value === '中国'), 'Composition disrupted');
-    report.push({width, typing:true, deletion:true, clearing:true, caret:true, compositionEvents:true});
+    report.push({width, typing:true, deletion:true, repeatedDeletion:true, clearing:true, caret:true, compositionEvents:true});
   }
   await page.evaluate(() => {
     window.originalCloudAPI = window.cloudAPI;
