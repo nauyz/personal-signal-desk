@@ -118,9 +118,6 @@ main > * { width: min(100%, var(--content-width)); margin-left: auto; margin-rig
 .advanced-filters[open] summary::after { content: "−"; }
 .advanced-filters summary span { color: var(--ink-faint); font-size: 12px; font-weight: 400; }
 .advanced-filter-body { padding: 4px 0 2px; border-top: 1px solid var(--line); }
-.selection-summary { display: flex; flex-wrap: wrap; min-height: 38px; align-items: center; gap: 6px; padding-top: 11px; margin-top: 8px; border-top: 1px solid var(--line); color: var(--ink-faint); font-size: 12px; }
-.selection-summary button { min-height: 30px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 5px; color: var(--ink-soft); background: var(--surface); cursor: pointer; font-size: 12px; }
-.selection-summary .clear-filters { margin-left: auto; color: var(--blue); border-color: #b7c8dc; }
 .results-head { display: flex; min-height: 40px; align-items: center; justify-content: space-between; gap: 16px; margin: 0; color: var(--ink-faint); font-size: 12px; }
 .results-head strong { color: var(--ink); font: 650 17px var(--font-ui); }
 
@@ -318,8 +315,6 @@ footer a { color: var(--blue); }
   .filter-options button { flex: none; min-height: 44px; }
   .advanced-filters summary { min-height: 44px; }
   .advanced-filters summary span { display: none; }
-  .selection-summary button { min-height: 44px; }
-  .selection-summary .clear-filters { width: 100%; min-height: 44px; margin: 4px 0 0; }
   .results-head { align-items: flex-start; }
   .content-timeline { gap: 20px; }
   .timeline-date { margin-left: 55px; }

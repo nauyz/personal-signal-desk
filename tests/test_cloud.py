@@ -59,6 +59,7 @@ class CloudExportTests(unittest.TestCase):
                 self.assertIn("|| '/content'", js)
                 self.assertIn('当前暂无达到榜单门槛的热点事件', js)
                 self.assertIn('去看内容', js)
+                self.assertNotIn('selection-summary', js)
 
 
 if __name__ == '__main__':

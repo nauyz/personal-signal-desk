@@ -227,15 +227,11 @@ async function renderContent() {
   const data = await api(`/api/content?${contentQuery(filters)}`);
   state.content = data.items;
   state.total = data.page.total;
-  const chips = [];
-  if (filters.scope === 'selected') chips.push({ key: 'scope', value: 'selected', label: '仅看精选' });
-  Object.entries(FILTERS).forEach(([key, config]) => filters[key].forEach(value => chips.push({ key, value, label: config.values[value] || value })));
   const filterEntries = Object.entries(FILTERS);
   app.innerHTML = `${pageHeader('内容', '在同一个内容池中切换全部与精选，再按四个维度交叉筛选。', `当前显示　<strong>${Math.min(data.items.length, 120)} / ${data.page.total}</strong>`)}
     <section class="filters"><div class="filter-toolbar"><div class="scope-switch" aria-label="内容范围"><button data-scope="all" aria-pressed="${filters.scope === 'all'}" class="${filters.scope === 'all' ? 'active' : ''}">全部内容</button><button data-scope="selected" aria-pressed="${filters.scope === 'selected'}" class="${filters.scope === 'selected' ? 'active' : ''}">仅看精选</button></div><input class="search" id="search" value="${escapeHTML(filters.q)}" placeholder="搜索标题、摘要或信源" aria-label="搜索内容"></div>
     ${filterRow(filterEntries[0][0], filterEntries[0][1], filters[filterEntries[0][0]])}
-    <details class="advanced-filters" ${chips.some(chip => ['topic', 'form', 'entity'].includes(chip.key)) ? 'open' : ''}><summary>更多筛选 <span>技术方向 · 内容形态 · 公司与模型</span></summary><div class="advanced-filter-body">${filterEntries.slice(1).map(([key, config]) => filterRow(key, config, filters[key])).join('')}</div></details>
-    <div class="selection-summary"><span>已选条件</span>${chips.length ? chips.map(chip => `<button data-remove="${chip.key}" data-value="${chip.value}">${escapeHTML(chip.label)} ×</button>`).join('') : '<span>无，正在查看全部内容</span>'}${chips.length || filters.q ? '<button class="clear-filters" data-clear-filters>清除全部</button>' : ''}</div></section>
+    <details class="advanced-filters" ${['topic', 'form', 'entity'].some(key => filters[key].length) ? 'open' : ''}><summary>更多筛选 <span>技术方向 · 内容形态 · 公司与模型</span></summary><div class="advanced-filter-body">${filterEntries.slice(1).map(([key, config]) => filterRow(key, config, filters[key])).join('')}</div></details></section>
     <div class="results-head"><span><strong>${data.page.total}</strong> 条结果</span><span>按发布时间从新到旧 · 当前载入 ${data.items.length} 条</span></div>
     ${data.items.length ? `<section class="content-timeline">${contentTimeline(data.items)}</section>` : empty()}`;
 
@@ -247,16 +243,6 @@ async function renderContent() {
     else filters[key] = filters[key].includes(value) ? filters[key].filter(item => item !== value) : [...filters[key], value];
     updateContentURL(filters); renderContent();
   }));
-  app.querySelectorAll('[data-remove]').forEach(button => button.addEventListener('click', () => {
-    if (button.dataset.remove === 'scope') filters.scope = 'all';
-    else filters[button.dataset.remove] = filters[button.dataset.remove].filter(value => value !== button.dataset.value);
-    updateContentURL(filters); renderContent();
-  }));
-  app.querySelector('[data-clear-filters]')?.addEventListener('click', () => {
-    filters.scope = 'all'; filters.q = '';
-    Object.keys(FILTERS).forEach(key => { filters[key] = []; });
-    updateContentURL(filters); renderContent();
-  });
   let searchTimer;
   app.querySelector('#search').addEventListener('input', event => {
     clearTimeout(searchTimer);
