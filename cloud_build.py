@@ -7,6 +7,7 @@ import json
 import shutil
 import hashlib
 import re
+import subprocess
 from contextlib import closing
 from datetime import datetime, timezone
 from pathlib import Path
@@ -148,10 +149,33 @@ def export():
         data['meta']['counts']['productHuntCategories'] = sum(len(data[f'launches:{key}']['items']) for key, _, _ in server.PRODUCTHUNT_CATEGORIES)
     (OUTPUT / 'data').mkdir(parents=True, exist_ok=True)
     (OUTPUT / 'data/site.json').write_text(json.dumps(data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    manifest = {'meta': data['meta'], 'views': {}}
+    for key, value in data.items():
+        if key == 'meta':
+            continue
+        body = json.dumps(value, ensure_ascii=False, separators=(',', ':')).encode('utf-8')
+        digest = hashlib.sha256(body).hexdigest()[:16]
+        name = f'{key.replace(":", "-")}-{digest}.json'
+        (OUTPUT / 'data' / name).write_bytes(body)
+        manifest['views'][key] = f'data/{name}'
+    manifest_json = json.dumps(manifest, ensure_ascii=False, separators=(',', ':'))
+    (OUTPUT / 'data/manifest.json').write_text(manifest_json, encoding='utf-8')
     # Copy only the public frontend, never the DB, configuration or credentials.
     for name in ('styles.css', 'cloud-api.js'):
         shutil.copyfile(server.STATIC / name, OUTPUT / name)
     html = (server.STATIC / 'index.html').read_text(encoding='utf-8')
+    empty_html = re.search(r'<template id="empty-template">([\s\S]*?)</template>', html).group(1)
+    preview = {'items': data['content'][:12], 'page': {'total': len(data['content'])}}
+    rendered = subprocess.run(['node', str(server.ROOT / 'prerender.cjs')],
+        input=json.dumps({'script': str(server.STATIC / 'app.js'), 'data': preview, 'emptyHTML': empty_html}),
+        text=True, encoding='utf-8', capture_output=True, check=True).stdout
+    html = re.sub(r'(<main id="app"[^>]*>)[\s\S]*?(</main>)',
+        lambda match: match[1].replace('id="app"', 'id="app" data-prerendered="content"') + rendered + match[2], html)
+    # JSON is data, not executable JavaScript; escape HTML delimiters from sources.
+    boot = manifest_json.replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
+    html = html.replace('</head>', f'<script id="cloud-bootstrap" type="application/json">{boot}</script>\n</head>')
+    html = html.replace('<span id="sync-label">读取中</span>', '<span id="sync-label">已显示发布快照</span>')
+    html = html.replace('<a href="/content" data-nav="content">', '<a href="/content" data-nav="content" class="active" aria-current="page">')
     html = html.replace('href="/styles.css', 'href="./styles.css').replace('src="/app.js', 'src="./app.js')
     for page in ('facts', 'content', 'projects', 'launches', 'xrank', 'hn', 'about'):
         html = html.replace(f'href="/{page}"', f'href="#/{page}"')

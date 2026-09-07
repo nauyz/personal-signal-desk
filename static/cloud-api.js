@@ -1,23 +1,40 @@
 // Static deployment adapter. Published files contain public data only.
 (() => {
-  let bundle;
-  async function load(refresh) {
-    if (!bundle || refresh) {
-      const response = await fetch('data/site.json', {cache: 'no-cache'});
+  const bootstrap = document.querySelector('#cloud-bootstrap');
+  let manifest = bootstrap ? JSON.parse(bootstrap.textContent) : null;
+  let initialMeta = true;
+  const cache = new Map();
+  async function metadata() {
+    if (manifest && initialMeta) { initialMeta = false; return manifest.meta; }
+    const response = await fetch('data/manifest.json', {cache: 'no-cache'});
+    if (!response.ok) throw new Error('云端目录尚未发布，请稍后重试');
+    manifest = await response.json();
+    initialMeta = false;
+    return manifest.meta;
+  }
+  async function load(key) {
+    if (!manifest) await metadata();
+    const path = manifest.views[key];
+    if (!path) throw new Error('该视图尚未发布');
+    if (!cache.has(path)) {
+      const pending = fetch(path).then(async response => {
       if (!response.ok) throw new Error('云端数据尚未发布，请稍后重试');
-      bundle = await response.json();
+        return response.json();
+      }).catch(error => { cache.delete(path); throw error; });
+      cache.set(path, pending);
     }
-    return bundle;
+    return cache.get(path);
   }
   window.cloudAPI = async path => {
     const url = new URL(path, location.origin);
     const p = url.searchParams;
-    const data = await load(url.pathname === '/api/meta');
+    if (url.pathname === '/api/meta') return metadata();
     if (url.pathname === '/api/content') {
+      const content = await load('content');
       const values = key => p.getAll(key).flatMap(v => v.split(',')).filter(v => v && v !== 'all');
       const q = (p.get('q') || '').trim().toLowerCase();
       const categories = values('category');
-      const items = data.content.filter(item => {
+      const items = content.filter(item => {
         if (p.get('scope') === 'selected' && !item.selected) return false;
         if (categories.length && !categories.includes(item.category)) return false;
         if (q && ![item.title, item.summary, item.source_name].some(v => String(v || '').toLowerCase().includes(q))) return false;
@@ -35,7 +52,6 @@
     if (key === 'launches') key += ':' + (p.get('category') || p.get('range') || 'today');
     if (key === 'xrank') key += ':' + (p.get('kind') || 'tweets') + ':' + (p.get('range') || '24h');
     if (key === 'hn') key += ':' + (p.get('view') || 'news') + ':' + (p.get('scope') || 'ai') + ':' + (p.get('sort') || 'rank');
-    if (!(key in data)) throw new Error('该视图尚未发布');
-    return data[key];
+    return load(key);
   };
 })();

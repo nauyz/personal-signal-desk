@@ -228,17 +228,23 @@ function contentResultsHTML(data) {
     ${data.items.length ? `<section class="content-timeline">${contentTimeline(data.items)}</section>` : empty()}`;
 }
 
-async function renderContent() {
-  const filters = getContentState();
-  const data = await api(`/api/content?${contentQuery(filters)}`);
-  state.content = data.items;
-  state.total = data.page.total;
+function contentPageHTML(data, filters) {
   const filterEntries = Object.entries(FILTERS);
-  app.innerHTML = `${pageHeader('内容', '在同一个内容池中切换全部与精选，再按四个维度交叉筛选。', `当前显示　<strong>${Math.min(data.items.length, 120)} / ${data.page.total}</strong>`)}
+  return `${pageHeader('内容', '在同一个内容池中切换全部与精选，再按四个维度交叉筛选。', `当前显示　<strong>${Math.min(data.items.length, 120)} / ${data.page.total}</strong>`)}
     <section class="filters"><div class="filter-toolbar"><div class="scope-switch" aria-label="内容范围"><button data-scope="all" aria-pressed="${filters.scope === 'all'}" class="${filters.scope === 'all' ? 'active' : ''}">全部内容</button><button data-scope="selected" aria-pressed="${filters.scope === 'selected'}" class="${filters.scope === 'selected' ? 'active' : ''}">仅看精选</button></div><input class="search" id="search" value="${escapeHTML(filters.q)}" placeholder="搜索标题、摘要或信源" aria-label="搜索内容"></div>
     ${filterRow(filterEntries[0][0], filterEntries[0][1], filters[filterEntries[0][0]])}
     <details class="advanced-filters" ${['topic', 'form', 'entity'].some(key => filters[key].length) ? 'open' : ''}><summary>更多筛选 <span>技术方向 · 内容形态 · 公司与模型</span></summary><div class="advanced-filter-body">${filterEntries.slice(1).map(([key, config]) => filterRow(key, config, filters[key])).join('')}</div></details></section>
     <div id="content-results">${contentResultsHTML(data)}</div>`;
+}
+
+async function renderContent() {
+  const filters = getContentState();
+  const data = await api(`/api/content?${contentQuery(filters)}`);
+  if (state.page !== 'content') return;
+  state.content = data.items;
+  state.total = data.page.total;
+  app.innerHTML = contentPageHTML(data, filters);
+  delete app.dataset.prerendered;
 
   app.querySelectorAll('[data-scope]').forEach(button => button.addEventListener('click', () => { filters.scope = button.dataset.scope; updateContentURL(filters); renderContent(); }));
   app.querySelectorAll('[data-filter] button').forEach(button => button.addEventListener('click', () => {
@@ -553,13 +559,30 @@ async function render() {
     else if (state.page === 'hn') await renderHackerNews();
     else await renderAbout();
   } catch (error) {
+    if (app.dataset.prerendered) {
+      syncLabel.textContent = '已显示发布快照，筛选加载失败';
+      if (!app.querySelector('[data-bootstrap-retry]')) {
+        const retry = document.createElement('button');
+        retry.dataset.bootstrapRetry = '';
+        retry.textContent = '重新加载搜索与筛选';
+        retry.addEventListener('click', () => { retry.remove(); render(); });
+        app.querySelector('.filters').append(retry);
+      }
+      return;
+    }
     app.innerHTML = `<section class="error-state"><h1>页面暂时无法读取</h1><p>${escapeHTML(error.message)}</p><button class="retry-button" data-retry>重新读取</button></section>`;
     app.querySelector('[data-retry]')?.addEventListener('click', render);
   }
 }
 
+if (!window.PRERENDER) {
+if (app.dataset.prerendered && (state.page !== 'content' || location.search)) {
+  delete app.dataset.prerendered;
+  app.innerHTML = '<div class="loading-state" role="status"><p>正在读取所选页面…</p></div>';
+}
 setActiveNav();
 render().then(() => {
   setInterval(checkAutomaticSync, 60_000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) checkAutomaticSync(); });
 });
+}

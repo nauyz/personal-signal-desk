@@ -43,6 +43,7 @@ class CloudExportTests(unittest.TestCase):
                  patch.object(server.urllib.request, 'urlopen', side_effect=AssertionError('network forbidden')), \
                  patch.object(server, 'NETWORK_ENABLED', False):
                 server.init_db()
+                server.upsert_content([{'id': 'prerender-test', 'title': '<script>alert(1)</script>', 'source': {'name': 'Test'}, 'publishedAt': '2026-09-07T00:00:00Z'}])
                 cloud_build.export()
                 data = json.loads((root / 'site/data/site.json').read_text(encoding='utf-8'))
                 self.assertEqual(len([k for k in data if k.startswith('launches:')]), 18)
@@ -52,6 +53,13 @@ class CloudExportTests(unittest.TestCase):
                 html = (root / 'site/index.html').read_text(encoding='utf-8')
                 self.assertIn('href="#/content"', html)
                 self.assertIn('./cloud-api.js', html)
+                self.assertIn('data-prerendered="content"', html)
+                self.assertIn('&lt;script&gt;alert(1)&lt;/script&gt;', html)
+                self.assertNotIn('正在整理信号', html)
+                self.assertIn('搜索准备中', html)
+                manifest = json.loads((root / 'site/data/manifest.json').read_text(encoding='utf-8'))
+                for key, path in manifest['views'].items():
+                    self.assertEqual(json.loads((root / 'site' / path).read_text(encoding='utf-8')), data[key])
                 for asset in ('app.js', 'cloud-api.js', 'styles.css'):
                     digest = cloud_build.hashlib.sha256((root / 'site' / asset).read_bytes()).hexdigest()[:12]
                     self.assertIn(f'./{asset}?v={digest}', html)
