@@ -1,0 +1,6 @@
+{
+  "name": "personal-signal-desk-checks",
+  "private": true,
+  "scripts": {"test:browser": "node tests/run-browser.cjs"},
+  "devDependencies": {"playwright": "1.63.0"}
+}

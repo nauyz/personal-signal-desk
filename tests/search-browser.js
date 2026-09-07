@@ -5,6 +5,7 @@ async page => {
     await page.setViewportSize({width, height: 900});
     await page.goto('http://127.0.0.1:8876/');
     await page.locator('#search').waitFor();
+    await page.waitForFunction(()=>!document.querySelector('#search').disabled);
     const input = page.locator('#search');
     const original = await input.elementHandle();
     await input.fill('OpenAI Artificial Intelligence');

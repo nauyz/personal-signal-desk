@@ -45,6 +45,20 @@ jobs:
         with:
           path: data/personal_sources.db
           key: signal-data-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Install browser test dependencies
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Browser regression gate
+        run: npm run test:browser
+      - name: Save browser test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-regression
+          path: test-artifacts/
+          retention-days: 7
+          if-no-files-found: ignore
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
