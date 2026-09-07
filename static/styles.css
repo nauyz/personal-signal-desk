@@ -245,6 +245,10 @@ main > * { width: min(100%, var(--content-width)); margin-left: auto; margin-rig
 .empty span { color: var(--blue); font-size: 30px; }
 .empty h2, .error-state h1 { margin: 10px 0 5px; font-size: 18px; }
 .empty p, .error-state p, .loading-state p { color: var(--ink-faint); font-size: 13px; }
+.facts-empty { background: var(--surface); }
+.facts-empty p { max-width: 58ch; margin: 12px 0 16px; font-size: 14px; }
+.facts-empty a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 16px; color: var(--surface); background: var(--blue); text-decoration: none; border-radius: 6px; }
+.facts-empty a:hover { background: var(--blue-deep); }
 .retry-button { min-height: 40px; padding: 8px 14px; border: 1px solid var(--blue); border-radius: 6px; color: #fff; background: var(--blue); cursor: pointer; font-size: 13px; font-weight: 650; }
 .retry-button:hover { background: var(--blue-deep); }
 .loading-state span { width: 160px; height: 3px; background: linear-gradient(90deg, var(--line), var(--blue), var(--line)); background-size: 200% 100%; }

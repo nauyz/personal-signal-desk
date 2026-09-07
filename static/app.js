@@ -12,7 +12,7 @@ const state = { page: pageFromPath(), meta: null, content: [], total: 0, lastSyn
 
 function pageFromPath() {
   const path = location.pathname.replace(/^\//, '').split('/')[0];
-  return ['facts', 'content', 'projects', 'launches', 'xrank', 'hn', 'about'].includes(path) ? path : 'facts';
+  return ['facts', 'content', 'projects', 'launches', 'xrank', 'hn', 'about'].includes(path) ? path : 'content';
 }
 
 function escapeHTML(value = '') {
@@ -187,8 +187,13 @@ function empty() { return document.querySelector('#empty-template').innerHTML; }
 async function renderFacts() {
   const data = await api('/api/facts');
   const latest = data.items[0]?.latest_at;
-  app.innerHTML = `${pageHeader('事实', 'AIHOT 过去 48 小时确认的热点事件，不把普通内容包装成事实。', `榜单最近信号　<strong>${escapeHTML(latest ? formatTime(latest, true) : '暂无数据')}</strong>`)}
-    <section class="grid fact-grid">${data.items.map(factCard).join('') || empty()}</section>`;
+  const sync = state.meta?.sync?.find(item => item.resource === 'hot-topics');
+  const failed = sync?.last_status === 'error';
+  const checked = ['ok', 'not-modified'].includes(sync?.last_status);
+  const title = failed ? '热点榜暂时未能更新' : checked ? '当前暂无达到榜单门槛的热点事件' : '热点榜暂时没有可展示的数据';
+  const detail = failed ? '本次未能获取 AIHOT 热点榜，后续采集会再次尝试。你可以先浏览内容。' : checked ? '这里展示 AIHOT 过去 48 小时内达到热度门槛的事件。当前榜单为空，不代表没有新的 AI 动态。' : '获取到热点榜后，事件会显示在这里。你可以先浏览内容。';
+  app.innerHTML = `${pageHeader('事实', 'AIHOT 过去 48 小时的热点事件，按报道与讨论热度筛选。', latest ? `榜单最近信号　<strong>${escapeHTML(formatTime(latest, true))}</strong>` : '当前热点　<strong>0 个事件</strong>')}
+    ${data.items.length ? `<section class="grid fact-grid">${data.items.map(factCard).join('')}</section>` : `<section class="empty facts-empty" aria-labelledby="facts-empty-title"><h2 id="facts-empty-title">${title}</h2><p>${detail}</p><a data-nav="content" href="${state.meta?.cloud ? '#/content' : '/content'}">去看内容</a></section>`}`;
 }
 
 function getContentState() {

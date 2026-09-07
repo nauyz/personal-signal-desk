@@ -157,7 +157,7 @@ def export():
     html = html.replace('数据每 30 分钟自动同步', '数据由云端定时更新')
     (OUTPUT / 'index.html').write_text(html, encoding='utf-8')
     js = (server.STATIC / 'app.js').read_text(encoding='utf-8')
-    js = js.replace('location.pathname', "(location.hash.split('?')[0].slice(1) || '/facts')")
+    js = js.replace('location.pathname', "(location.hash.split('?')[0].slice(1) || '/content')")
     js = js.replace('location.search', "(location.hash.includes('?') ? location.hash.slice(location.hash.indexOf('?')) : '')")
     js = js.replace("history.pushState({}, '', `/", "history.pushState({}, '', `#/")
     js = js.replace("history.replaceState({}, '', `/", "history.replaceState({}, '', `#/")

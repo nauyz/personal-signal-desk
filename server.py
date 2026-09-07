@@ -1608,7 +1608,7 @@ class Handler(SimpleHTTPRequestHandler):
                 return self.send_json({"error": "not found"}, 404)
             if parsed.path == "/today":
                 self.send_response(302)
-                self.send_header("Location", "/facts")
+                self.send_header("Location", "/content")
                 self.end_headers()
                 return
             if parsed.path in {"/facts", "/content", "/projects", "/launches", "/xrank", "/hn", "/about"}:

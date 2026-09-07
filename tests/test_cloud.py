@@ -56,6 +56,9 @@ class CloudExportTests(unittest.TestCase):
                 js = (root / 'site/app.js').read_text(encoding='utf-8')
                 self.assertNotIn('location.pathname', js)
                 self.assertNotIn('location.search', js)
+                self.assertIn("|| '/content'", js)
+                self.assertIn('当前暂无达到榜单门槛的热点事件', js)
+                self.assertIn('去看内容', js)
 
 
 if __name__ == '__main__':
