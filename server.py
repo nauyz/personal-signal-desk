@@ -745,6 +745,10 @@ def parse_producthunt_category_page(page: str) -> list[dict[str, Any]]:
     return items
 
 
+class ProductHuntAccessRestricted(RuntimeError):
+    pass
+
+
 def fetch_producthunt_category_page(category_key: str, page: int, attempts: int = 3) -> str:
     url = producthunt_category_url(category_key, page)
     last_error: Exception | None = None
@@ -757,6 +761,14 @@ def fetch_producthunt_category_page(category_key: str, page: int, attempts: int 
         try:
             with urllib.request.urlopen(request, timeout=45) as response:
                 return response.read().decode(response.headers.get_content_charset() or "utf-8", errors="replace")
+        except urllib.error.HTTPError as exc:
+            if exc.code in (401, 403):
+                raise ProductHuntAccessRestricted(f"HTTP {exc.code}: Product Hunt category access restricted") from exc
+            if exc.code == 429:
+                raise RuntimeError('HTTP 429: Product Hunt category rate limited; wait until next scheduled attempt') from exc
+            last_error = exc
+            if attempt + 1 < attempts:
+                time.sleep(1.2 * (attempt + 1))
         except Exception as exc:
             last_error = exc
             if attempt + 1 < attempts:
@@ -780,6 +792,7 @@ def producthunt_category_is_fresh(category_key: str) -> bool:
 
 
 def sync_producthunt_categories(force: bool = False) -> dict[str, int]:
+    restricted = threading.Event()
     pending = [entry for entry in PRODUCTHUNT_CATEGORIES if force or not producthunt_category_is_fresh(entry[0])]
     if not pending:
         with connect() as conn:
@@ -790,7 +803,15 @@ def sync_producthunt_categories(force: bool = False) -> dict[str, int]:
 
     def fetch_category(entry: tuple[str, str, str]) -> tuple[tuple[str, str, str], list[dict[str, Any]]]:
         key, _, _ = entry
-        pages = [fetch_producthunt_category_page(key, page_number) for page_number in (1, 2)]
+        pages = []
+        for page_number in (1, 2):
+            if restricted.is_set():
+                raise ProductHuntAccessRestricted('access restricted: skipped remaining category requests')
+            try:
+                pages.append(fetch_producthunt_category_page(key, page_number))
+            except ProductHuntAccessRestricted:
+                restricted.set()
+                raise
         parsed = [item for page_html in pages for item in parse_producthunt_category_page(page_html)]
         items: list[dict[str, Any]] = []
         seen: set[str] = set()
@@ -807,12 +828,14 @@ def sync_producthunt_categories(force: bool = False) -> dict[str, int]:
 
     completed: list[tuple[tuple[str, str, str], list[dict[str, Any]]]] = []
     errors: list[str] = []
+    category_errors: dict[str, str] = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=NETWORK_WORKERS) as executor:
         futures = {executor.submit(fetch_category, entry): entry for entry in pending}
         for future in concurrent.futures.as_completed(futures):
             try:
                 completed.append(future.result())
             except Exception as exc:
+                category_errors[futures[future][0]] = str(exc)
                 errors.append(f"{futures[future][0]}: {exc}")
 
     fetched_at = utc_now()
@@ -830,6 +853,10 @@ def sync_producthunt_categories(force: bool = False) -> dict[str, int]:
                 "INSERT INTO producthunt_category_items(category_key,rank,product_id,raw_json) VALUES(?,?,?,?)",
                 [(key, item["rank"], item["id"], json.dumps(item, ensure_ascii=False, separators=(",", ":"))) for item in items],
             )
+    for (key, _, _), _items in completed:
+        AIHotClient._state(f'producthunt:category:{key}', None, 'ok', None)
+    for key, error in category_errors.items():
+        AIHotClient._state(f'producthunt:category:{key}', None, 'error', error)
     if errors:
         AIHotClient._state("producthunt:categories", None, "error", "; ".join(errors))
         if not completed:
@@ -1415,6 +1442,8 @@ def query_producthunt(params: dict[str, list[str]]) -> dict[str, Any]:
             for key, label, label_zh in PRODUCTHUNT_CATEGORIES
         ]
         if category_key:
+            category_sync = conn.execute('SELECT last_status,last_error FROM sync_state WHERE resource IN (?,?) ORDER BY CASE WHEN resource=? THEN 0 ELSE 1 END LIMIT 1',
+                (f'producthunt:category:{category_key}', 'producthunt:categories', f'producthunt:category:{category_key}')).fetchone()
             snapshot = conn.execute(
                 "SELECT * FROM producthunt_category_snapshots WHERE category_key=?", (category_key,)
             ).fetchone()
@@ -1445,6 +1474,7 @@ def query_producthunt(params: dict[str, list[str]]) -> dict[str, Any]:
             item["tagline_zh"] = translations.get(item["id"], "")
     return {
         "range": range_key,
+        "sourceStatus": ('access-restricted' if any(code in str(category_sync['last_error']) for code in ('401', '403', 'access restricted')) else 'update-failed') if category_key and category_sync and category_sync['last_status'] == 'error' else 'ok',
         "category": category_key or None,
         "mode": "category" if category_key else "launches",
         "categories": categories,

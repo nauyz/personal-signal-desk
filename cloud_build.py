@@ -141,7 +141,7 @@ def export():
         seeds = json.loads(seed_path.read_text(encoding='utf-8'))
         for key, snapshot in seeds.items():
             if key in data and not data[key].get('snapshot') and snapshot.get('snapshot'):
-                data[key] = {**snapshot, 'fallback': True}
+                data[key] = {**snapshot, 'fallback': True, 'sourceStatus': data[key].get('sourceStatus', 'ok')}
         for key, view in data.items():
             if key.startswith('launches:'):
                 for category in view['categories']:

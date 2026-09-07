@@ -392,7 +392,9 @@ async function renderProductHunt(epoch = ++renderEpoch) {
   const category = data.category || '';
   const tabs = `<div class="ph-range" aria-label="Product Hunt 时间范围">${Object.entries(PRODUCTHUNT_RANGES).map(([key, label]) => `<button data-ph-range="${key}" aria-pressed="${!requestedCategory && key === range}" class="${!requestedCategory && key === range ? 'active' : ''}">${label}</button>`).join('')}</div>`;
   const categoryTabs = `<div class="ph-categories" aria-label="Product Hunt 一级垂类">${(data.categories || []).map(item => `<button data-ph-category="${escapeHTML(item.key)}" aria-pressed="${item.key === category}" class="${item.key === category ? 'active' : ''}"><span>${escapeHTML(item.label_zh)}</span><small>${item.count || 20}</small></button>`).join('')}</div>`;
-  const configNotice = !data.configured ? '<p class="ph-config">尚未在服务进程中配置 <code>PRODUCTHUNT_TOKEN</code>，配置并重启后会自动读取榜单。</p>' : '';
+  const configNotice = data.sourceStatus === 'access-restricted'
+    ? `<p class="ph-config">Product Hunt 限制了当前采集环境对分类页的访问。${data.snapshot ? '这里显示此前保存的快照，获取时间见上方，不代表最新榜单。' : '目前没有可用快照。'}可点击“打开 Product Hunt”查看原站。</p>`
+    : !data.configured && !requestedCategory ? '<p class="ph-config">尚未在服务进程中配置 <code>PRODUCTHUNT_TOKEN</code>，配置并重启后会自动读取榜单。</p>' : '';
   const sourceURL = data.snapshot?.source_url || 'https://www.producthunt.com/';
   const modeLabel = category ? '官网垂类 Top reviewed · 每类20个' : '官方新品榜顺序';
   app.innerHTML = `${pageHeader('新品', 'Product Hunt 新发布与官方垂类榜单，保留产品原始简介和中文说明。', `${escapeHTML(modeLabel)}　<strong>${data.snapshot ? formatTime(data.snapshot.fetched_at, true) : '等待首次同步'}</strong>`, `<a class="source-button" href="${safeURL(sourceURL)}" target="_blank" rel="noopener">打开 Product Hunt ↗</a>`)}

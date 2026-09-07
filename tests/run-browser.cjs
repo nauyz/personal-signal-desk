@@ -21,7 +21,7 @@ const server = http.createServer((req,res) => {
 (async () => {
   await new Promise(r=>server.listen(0,'127.0.0.1',r));
   const base = `http://127.0.0.1:${server.address().port}`;
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({channel:process.env.PLAYWRIGHT_CHANNEL || undefined});
   const reports = [];
   process.chdir(output);
   try {

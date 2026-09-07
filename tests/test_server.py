@@ -26,6 +26,30 @@ def sample(item_id="one", title="OpenAI 发布智能体教程", url="https://exa
 
 
 class PersonalSourcesTests(unittest.TestCase):
+    def test_category_access_denial_is_not_retried(self):
+        error = server.urllib.error.HTTPError('https://www.producthunt.com/categories/productivity', 403, 'Forbidden', {}, None)
+        with patch.object(server.urllib.request, 'urlopen', side_effect=error) as request, patch.object(server.time, 'sleep') as sleep:
+            with self.assertRaises(server.ProductHuntAccessRestricted):
+                server.fetch_producthunt_category_page('productivity', 1)
+            self.assertEqual(request.call_count, 1)
+            sleep.assert_not_called()
+
+    def test_category_access_denial_stops_queue_and_preserves_snapshot(self):
+        with server.connect() as conn:
+            conn.execute('INSERT INTO producthunt_category_snapshots VALUES(?,?,?,?,?,?)',
+                ('productivity','Productivity','效率工具','2026-09-01T00:00:00Z','https://www.producthunt.com/categories/productivity',20))
+        conn.close()
+        with patch.object(server, 'NETWORK_WORKERS', 1), patch.object(server, 'fetch_producthunt_category_page', side_effect=server.ProductHuntAccessRestricted('HTTP 403: access restricted')) as fetch:
+            with self.assertRaises(RuntimeError):
+                server.sync_producthunt_categories(force=True)
+            self.assertEqual(fetch.call_count, 1)
+        with patch.object(server, 'NETWORK_ENABLED', False):
+            result = server.query_producthunt({'category':['productivity']})
+        self.assertEqual(result['snapshot']['fetched_at'], '2026-09-01T00:00:00Z')
+        self.assertEqual(result['sourceStatus'], 'access-restricted')
+        import gc
+        gc.collect()
+
     def test_cache_mode_does_not_fetch_or_translate_on_page_reads(self):
         with patch.object(server, "NETWORK_ENABLED", False), \
              patch.object(server, "sync_xrank") as xrank, \
