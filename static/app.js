@@ -163,27 +163,26 @@ function contentMoment(item) {
   };
 }
 
-function contentTimeline(items) {
+function contentTimeline(items, renderItem = contentCard, getMoment = contentMoment) {
   const groups = new Map();
   items.forEach(item => {
-    const moment = contentMoment(item);
+    const moment = getMoment(item);
     if (!groups.has(moment.key)) groups.set(moment.key, { label: moment.date, items: [] });
     groups.get(moment.key).items.push({ item, moment });
   });
   return [...groups.values()].map(group => `<section class="timeline-group">
     <header class="timeline-date"><h2>${escapeHTML(group.label)}</h2><span>${group.items.length} 条</span></header>
-    <div class="timeline-list">${group.items.map(({ item, moment }) => `<div class="timeline-entry"><time datetime="${escapeHTML(moment.value)}">${escapeHTML(moment.clock)}</time><i aria-hidden="true"></i>${contentCard(item)}</div>`).join('')}</div>
+    <div class="timeline-list">${group.items.map(({ item, moment }) => `<div class="timeline-entry"><time${moment.value ? ` datetime="${escapeHTML(moment.value)}"` : ''}>${escapeHTML(moment.clock)}</time><i aria-hidden="true"></i>${renderItem(item)}</div>`).join('')}</div>
   </section>`).join('');
 }
 
-function factCard(item, index = 0) {
+function factCard(item) {
   const status = item.status === 'settled' ? '事件已稳定' : item.status === 'active' ? '持续更新' : '多源报道';
-  return `<article class="card fact-card ${index === 0 ? 'is-leading' : ''}"><span class="rank">${String(item.rank || '无').padStart(2, '0')}</span>
-    <div class="card-kicker"><span class="pill">${escapeHTML(status)}</span><span>${relativeTime(item.latest_at)}</span></div>
+  return `<article class="card content-card fact-card">
+    <div class="card-kicker"><span class="pill">${escapeHTML(status)}</span><span>热度排名 ${escapeHTML(item.rank || '未知')}</span></div>
     <h3>${escapeHTML(item.title)}</h3>
-    <div class="fact-signals"><span class="pill">${item.source_count ?? 0} 个独立信源</span><span class="pill">${item.signal_count ?? 0} 个讨论信号</span></div>
-    ${item.digest ? `<div class="digest"><b>AIHOT 综述</b><br>${escapeHTML(item.digest)}</div>` : ''}
-    <div class="card-meta"><span>代表信源：${escapeHTML(item.representative_source || '未知')}</span></div>
+    ${item.digest ? `<p class="fact-summary">${escapeHTML(item.digest)}</p>` : ''}
+    <div class="card-meta"><span>${item.source_count ?? 0} 个独立信源</span><span>${item.signal_count ?? 0} 个讨论信号</span><span>代表信源：${escapeHTML(item.representative_source || '未知')}</span></div>
     <div class="card-links"><a href="${safeURL(item.story_url)}" target="_blank" rel="noopener">查看事件综述 ↗</a><a href="${safeURL(item.original_url)}" target="_blank" rel="noopener">查看原始内容 ↗</a></div>
   </article>`;
 }
@@ -193,14 +192,16 @@ function empty() { return document.querySelector('#empty-template').innerHTML; }
 async function renderFacts(epoch = ++renderEpoch) {
   const data = await api('/api/facts');
   if (epoch !== renderEpoch) return;
-  const latest = data.items[0]?.latest_at;
+  const timestamp = item => Date.parse(item.latest_at) || 0;
+  const items = [...data.items].sort((a, b) => timestamp(b) - timestamp(a));
+  const latest = items.find(item => timestamp(item))?.latest_at;
   const sync = state.meta?.sync?.find(item => item.resource === 'hot-topics');
   const failed = sync?.last_status === 'error';
   const checked = ['ok', 'not-modified'].includes(sync?.last_status);
   const title = failed ? '热点榜暂时未能更新' : checked ? '当前暂无达到榜单门槛的热点事件' : '热点榜暂时没有可展示的数据';
   const detail = failed ? '本次未能获取 AIHOT 热点榜，后续采集会再次尝试。你可以先浏览内容。' : checked ? '这里展示 AIHOT 过去 48 小时内达到热度门槛的事件。当前榜单为空，不代表没有新的 AI 动态。' : '获取到热点榜后，事件会显示在这里。你可以先浏览内容。';
   app.innerHTML = `${pageHeader('事实', '关注发生了什么：汇集 AI Hot 过去 48 小时的热点事件与相关信源。', latest ? `榜单最近信号　<strong>${escapeHTML(formatTime(latest, true))}</strong>` : '当前热点　<strong>0 个事件</strong>')}
-    ${data.items.length ? `<section class="grid fact-grid">${data.items.map(factCard).join('')}</section>` : `<section class="empty facts-empty" aria-labelledby="facts-empty-title"><h2 id="facts-empty-title">${title}</h2><p>${detail}</p><a data-nav="content" href="${state.meta?.cloud ? '#/content' : '/content'}">去看内容</a></section>`}`;
+    ${items.length ? `<div class="results-head"><span><strong>${items.length}</strong> 个事件</span><span>按最近信号时间从新到旧</span></div><section class="content-timeline facts-timeline">${contentTimeline(items, factCard, item => contentMoment({published_at: item.latest_at}))}</section>` : `<section class="empty facts-empty" aria-labelledby="facts-empty-title"><h2 id="facts-empty-title">${title}</h2><p>${detail}</p><a data-nav="content" href="${state.meta?.cloud ? '#/content' : '/content'}">去看内容</a></section>`}`;
 }
 
 function getContentState() {
