@@ -199,7 +199,7 @@ async function renderFacts(epoch = ++renderEpoch) {
   const checked = ['ok', 'not-modified'].includes(sync?.last_status);
   const title = failed ? '热点榜暂时未能更新' : checked ? '当前暂无达到榜单门槛的热点事件' : '热点榜暂时没有可展示的数据';
   const detail = failed ? '本次未能获取 AIHOT 热点榜，后续采集会再次尝试。你可以先浏览内容。' : checked ? '这里展示 AIHOT 过去 48 小时内达到热度门槛的事件。当前榜单为空，不代表没有新的 AI 动态。' : '获取到热点榜后，事件会显示在这里。你可以先浏览内容。';
-  app.innerHTML = `${pageHeader('事实', 'AIHOT 过去 48 小时的热点事件，按报道与讨论热度筛选。', latest ? `榜单最近信号　<strong>${escapeHTML(formatTime(latest, true))}</strong>` : '当前热点　<strong>0 个事件</strong>')}
+  app.innerHTML = `${pageHeader('事实', '关注发生了什么：汇集 AI Hot 过去 48 小时的热点事件与相关信源。', latest ? `榜单最近信号　<strong>${escapeHTML(formatTime(latest, true))}</strong>` : '当前热点　<strong>0 个事件</strong>')}
     ${data.items.length ? `<section class="grid fact-grid">${data.items.map(factCard).join('')}</section>` : `<section class="empty facts-empty" aria-labelledby="facts-empty-title"><h2 id="facts-empty-title">${title}</h2><p>${detail}</p><a data-nav="content" href="${state.meta?.cloud ? '#/content' : '/content'}">去看内容</a></section>`}`;
 }
 
@@ -236,7 +236,7 @@ function contentResultsHTML(data) {
 
 function contentPageHTML(data, filters) {
   const filterEntries = Object.entries(FILTERS);
-  return `${pageHeader('内容', '在同一个内容池中切换全部与精选，再按四个维度交叉筛选。', `当前显示　<strong>${Math.min(data.items.length, 120)} / ${data.page.total}</strong>`)}
+  return `${pageHeader('内容', '关注具体发布了什么：阅读 AI Hot 收录的文章、推文、论文与视频。', `当前显示　<strong>${Math.min(data.items.length, 120)} / ${data.page.total}</strong>`)}
     <section class="filters"><div class="filter-toolbar"><div class="scope-switch" aria-label="内容范围"><button data-scope="all" aria-pressed="${filters.scope === 'all'}" class="${filters.scope === 'all' ? 'active' : ''}">全部内容</button><button data-scope="selected" aria-pressed="${filters.scope === 'selected'}" class="${filters.scope === 'selected' ? 'active' : ''}">仅看精选</button></div><input class="search" id="search" value="${escapeHTML(filters.q)}" placeholder="搜索标题、摘要或信源" aria-label="搜索内容"></div>
     ${filterRow(filterEntries[0][0], filterEntries[0][1], filters[filterEntries[0][0]])}
     <details class="advanced-filters" ${['topic', 'form', 'entity'].some(key => filters[key].length) ? 'open' : ''}><summary>更多筛选 <span>技术方向 · 内容形态 · 公司与模型</span></summary><div class="advanced-filter-body">${filterEntries.slice(1).map(([key, config]) => filterRow(key, config, filters[key])).join('')}</div></details></section>

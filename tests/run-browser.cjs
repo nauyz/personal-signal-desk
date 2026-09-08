@@ -25,7 +25,7 @@ const server = http.createServer((req,res) => {
   const reports = [];
   process.chdir(output);
   try {
-    for (const test of ['search-browser','navigation-browser']) {
+    for (const test of ['search-browser','navigation-browser','information-labels-browser']) {
       const context = await browser.newContext();
       await context.tracing.start({screenshots:true,snapshots:true});
       const page = await context.newPage();
