@@ -161,7 +161,7 @@ def export():
     manifest_json = json.dumps(manifest, ensure_ascii=False, separators=(',', ':'))
     (OUTPUT / 'data/manifest.json').write_text(manifest_json, encoding='utf-8')
     # Copy only the public frontend, never the DB, configuration or credentials.
-    for name in ('styles.css', 'cloud-api.js'):
+    for name in ('styles.css', 'cloud-api.js', 'analytics.js'):
         shutil.copyfile(server.STATIC / name, OUTPUT / name)
     html = (server.STATIC / 'index.html').read_text(encoding='utf-8')
     empty_html = re.search(r'<template id="empty-template">([\s\S]*?)</template>', html).group(1)
@@ -177,6 +177,7 @@ def export():
     html = html.replace('<span id="sync-label">读取中</span>', '<span id="sync-label">已显示发布快照</span>')
     html = html.replace('<a href="/content" data-nav="content">', '<a href="/content" data-nav="content" class="active" aria-current="page">')
     html = html.replace('href="/styles.css', 'href="./styles.css').replace('src="/app.js', 'src="./app.js')
+    html = html.replace('src="/analytics.js', 'src="./analytics.js')
     for page in ('facts', 'content', 'projects', 'launches', 'xrank', 'hn', 'about'):
         html = html.replace(f'href="/{page}"', f'href="#/{page}"')
     html = html.replace('<script src="./app.js', '<script src="./cloud-api.js"></script>\n  <script src="./app.js')
@@ -188,7 +189,7 @@ def export():
     js = js.replace("history.replaceState({}, '', `/", "history.replaceState({}, '', `#/")
     (OUTPUT / 'app.js').write_text(js, encoding='utf-8')
     # Give changed assets a new URL so browsers cannot reuse an older release.
-    for asset in ('app.js', 'cloud-api.js', 'styles.css'):
+    for asset in ('app.js', 'cloud-api.js', 'styles.css', 'analytics.js'):
         digest = hashlib.sha256((OUTPUT / asset).read_bytes()).hexdigest()[:12]
         html = re.sub(r'\./' + re.escape(asset) + r'(?:\?[^"\s]*)?', f'./{asset}?v={digest}', html)
     (OUTPUT / 'index.html').write_text(html, encoding='utf-8')

@@ -1,0 +1,64 @@
+async (page) => {
+  const assert = (v, m) => { if (!v) throw Error(m); };
+  let loads = 0, forbidden = 0, failSDK = false;
+  await page.route('https://www.clarity.ms/**', async r => { forbidden++; await r.abort(); });
+  await page.route('https://zya119.goatcounter.com/**', async r => { forbidden++; await r.abort(); });
+  await page.route('https://gc.zgo.at/count.js', async r => {
+    loads++;
+    await r.fulfill({contentType:'application/javascript', body:failSDK ? '' : 'window.goatCalls=[];window.goatcounter.count=d=>window.goatCalls.push(d);'});
+  });
+  await page.route('https://nauyz.github.io/personal-signal-desk/**', async r => {
+    const u = new URL(r.request().url());
+    const response = await r.fetch({url:'http://127.0.0.1:8876/' + u.pathname.slice('/personal-signal-desk/'.length) + u.search});
+    await r.fulfill({response});
+  });
+  const home = 'https://nauyz.github.io/personal-signal-desk/';
+  await page.goto('http://127.0.0.1:8876/');
+  await page.locator('#search:not(:disabled)').waitFor();
+  assert(loads === 0, 'Local preview loaded SDK');
+  await page.clock.install();
+  await page.goto(home);
+  await page.waitForFunction(() => window.goatCalls?.length);
+  assert(loads === 1, 'Auto-start failed');
+  assert(await page.locator('#analytics-toggle').count() === 0, 'Consent button remains');
+  assert(await page.evaluate(() => window.goatcounter.endpoint) === 'https://zya119.goatcounter.com/count', 'Wrong endpoint');
+  await page.locator('[data-nav="facts"]').first().click();
+  await page.locator('[data-nav="content"]').first().click();
+  await page.locator('#search:not(:disabled)').waitFor();
+  await page.locator('#search').fill('private-test-search');
+  await page.waitForTimeout(600);
+  await page.locator('[data-scope="selected"]').click();
+  await page.locator('#search:not(:disabled)').waitFor();
+  assert(await page.locator('#search').inputValue() === 'private-test-search', 'Filter lost search');
+  assert(!page.url().includes('private-test-search'), 'Search URL leak');
+  const calls = await page.evaluate(() => window.goatCalls);
+  assert(!JSON.stringify(calls).includes('private-test-search'), 'Search event leak');
+  for (const name of ['/content','/facts','nav_facts','content_search','content_scope_selected'])
+    assert(calls.some(c => c.path === name), 'Missing '+name);
+  assert(calls.filter(c => c.path === '/facts').length === 1, 'Duplicate SPA view');
+  assert(calls.filter(c => c.event).every(c => c.no_session), 'Click deduplication enabled');
+  await page.goto(home+'#/content?q=legacy-secret');
+  await page.waitForFunction(() => !location.href.includes('legacy-secret') && document.querySelector('#search')?.value === 'legacy-secret');
+  await page.locator('[data-nav="facts"]').first().click();
+  await page.clock.runFor(16000);
+  assert(await page.evaluate(() => window.goatCalls.filter(c => c.path === 'dwell_facts_15s').length) === 1, '15s missing');
+  await page.evaluate(() => { Object.defineProperty(document,'hidden',{configurable:true,value:true});document.dispatchEvent(new Event('visibilitychange')); });
+  await page.clock.runFor(60000);
+  assert(!await page.evaluate(() => window.goatCalls.some(c => c.path === 'dwell_facts_30s')), 'Background counted');
+  await page.evaluate(() => { Object.defineProperty(document,'hidden',{configurable:true,value:false});document.dispatchEvent(new Event('visibilitychange')); });
+  await page.clock.runFor(45000);
+  for (const s of [15,30,60]) assert(await page.evaluate(s => window.goatCalls.filter(c => c.path === 'dwell_facts_'+s+'s').length,s) === 1, 'Threshold duplicate/missing');
+  await page.clock.resume();
+  failSDK = true;
+  await page.reload();
+  await page.locator('h1').waitFor();
+  await page.locator('[data-nav="content"]').first().click();
+  await page.locator('#search:not(:disabled)').waitFor();
+  const before = loads;
+  await page.addInitScript(() => Object.defineProperty(navigator,'globalPrivacyControl',{value:true}));
+  await page.reload();
+  await page.locator('#search:not(:disabled)').waitFor();
+  assert(loads === before, 'GPC ignored');
+  assert(forbidden === 0, 'Live telemetry attempted');
+  return {autoStart:true,localExcluded:true,events:true,searchPrivacy:true,dwell:true,gpc:true,sdkFailure:true,sdkMocked:true};
+}

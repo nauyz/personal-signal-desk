@@ -63,6 +63,7 @@ async function api(path, options) {
 }
 
 function setActiveNav() {
+  window.dispatchEvent(new Event('signal-page'));
   document.querySelectorAll('[data-nav]').forEach(link => {
     const active = link.dataset.nav === state.page;
     link.classList.toggle('active', active);
@@ -206,7 +207,7 @@ async function renderFacts(epoch = ++renderEpoch) {
 
 function getContentState() {
   const params = new URLSearchParams(location.search);
-  const result = { scope: params.get('scope') === 'selected' ? 'selected' : 'all', q: params.get('q') || '' };
+  const result = { scope: params.get('scope') === 'selected' ? 'selected' : 'all', q: window.signalSearch || '' };
   Object.keys(FILTERS).forEach(key => result[key] = (params.get(key) || '').split(',').filter(Boolean));
   return result;
 }
@@ -223,6 +224,8 @@ function contentQuery(filters) {
 function updateContentURL(filters) {
   const params = contentQuery(filters);
   params.delete('limit');
+  params.delete('q');
+  window.signalSearch = filters.q;
   history.replaceState({}, '', `/content${params.size ? `?${params}` : ''}`);
 }
 
@@ -276,6 +279,7 @@ async function renderContent(epoch = ++renderEpoch) {
       try {
         const next = await api(`/api/content?${contentQuery(filters)}`);
         if (!isCurrent()) return;
+        window.dispatchEvent(new Event('signal-search'));
         state.content = next.items;
         state.total = next.page.total;
         results.innerHTML = contentResultsHTML(next);

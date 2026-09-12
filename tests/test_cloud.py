@@ -62,7 +62,7 @@ class CloudExportTests(unittest.TestCase):
                 manifest = json.loads((root / 'site/data/manifest.json').read_text(encoding='utf-8'))
                 for key, path in manifest['views'].items():
                     self.assertEqual(json.loads((root / 'site' / path).read_text(encoding='utf-8')), data[key])
-                for asset in ('app.js', 'cloud-api.js', 'styles.css'):
+                for asset in ('app.js', 'cloud-api.js', 'styles.css', 'analytics.js'):
                     digest = cloud_build.hashlib.sha256((root / 'site' / asset).read_bytes()).hexdigest()[:12]
                     self.assertIn(f'./{asset}?v={digest}', html)
                 self.assertFalse(list((root / 'site').rglob('*.db')))

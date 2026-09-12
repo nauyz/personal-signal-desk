@@ -25,7 +25,10 @@ const server = http.createServer((req,res) => {
   const reports = [];
   process.chdir(output);
   try {
-    for (const test of ['search-browser','navigation-browser','information-labels-browser','facts-timeline-browser']) {
+    const tests = ['search-browser','navigation-browser','information-labels-browser','facts-timeline-browser','analytics-browser'];
+    const requested = process.argv.slice(2);
+    if (requested.some(test => !tests.includes(test))) throw Error('Unknown browser test');
+    for (const test of (requested.length ? requested : tests)) {
       const context = await browser.newContext();
       await context.tracing.start({screenshots:true,snapshots:true});
       const page = await context.newPage();
