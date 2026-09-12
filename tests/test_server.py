@@ -26,6 +26,52 @@ def sample(item_id="one", title="OpenAI 发布智能体教程", url="https://exa
 
 
 class PersonalSourcesTests(unittest.TestCase):
+    def test_github_technical_terms(self):
+        self.assertEqual(server.polish_github_translation('The agent harness', '座席线束'), '智能体运行框架')
+        self.assertEqual(server.polish_github_translation('No Mermaid slop', '没有美人鱼粪便'), '没有Mermaid低质量生成内容')
+        self.assertEqual(server.polish_github_translation('An HTTP proxy', 'HTTP代理'), 'HTTP代理')
+
+    def test_github_translation_cache_change_failure_and_retry(self):
+        item = {'full_name': 'test/tool', 'description': 'An AI tool'}
+        with patch.object(server, 'translate_hn_text', return_value='一个人工智能工具') as translate:
+            server.ensure_github_translations([item, item, {'full_name':'test/empty','description':''}])
+            server.ensure_github_translations([item])
+            self.assertEqual(translate.call_count, 1)
+        item['description'] = 'A new AI tool'
+        with patch.object(server, 'translate_hn_text', side_effect=RuntimeError('offline')):
+            server.ensure_github_translations([item])
+        with server.closing(server.connect()) as conn, conn:
+            row = conn.execute('SELECT * FROM github_translations').fetchone()
+            self.assertEqual(row['description_source'], 'An AI tool')
+        with patch.object(server, 'translate_hn_text', return_value='一个新的人工智能工具') as translate:
+            server.ensure_github_translations([item])
+            translate.assert_called_once()
+        with server.closing(server.connect()) as conn, conn:
+            self.assertEqual(conn.execute('SELECT description_source FROM github_translations').fetchone()[0], item['description'])
+
+    def test_github_bad_translation_not_cached_and_chinese_no_duplicate(self):
+        for result in ['', 'An AI tool']:
+            with patch.object(server, 'translate_hn_text', return_value=result):
+                server.ensure_github_translations([{'full_name':'test/tool','description':'An AI tool'}])
+            with server.closing(server.connect()) as conn, conn:
+                self.assertEqual(conn.execute('SELECT COUNT(*) FROM github_translations').fetchone()[0], 0)
+        with patch.object(server, 'translate_hn_text') as translate:
+            server.ensure_github_translations([{'full_name':'test/chinese','description':'中文工具'}])
+            translate.assert_not_called()
+
+    def test_github_query_does_not_attach_stale_translation(self):
+        with server.closing(server.connect()) as conn, conn:
+            conn.execute('INSERT INTO github_trending_snapshots VALUES(?,?,?,?)', ('2026-09-12','now','https://github.com/trending',1))
+            conn.execute('INSERT INTO github_trending_items(snapshot_date,rank,full_name,owner,repo_name,description,repo_url) VALUES(?,?,?,?,?,?,?)', ('2026-09-12',1,'test/tool','test','tool','New text','https://github.com/test/tool'))
+            conn.execute('INSERT INTO github_translations VALUES(?,?,?,?)', ('test/tool','Old text','旧译文','now'))
+        with patch.object(server, 'NETWORK_ENABLED', False), patch.object(server, 'translate_hn_text') as translate:
+            item = server.query_projects()['items'][0]
+            translate.assert_not_called()
+            self.assertEqual(item['description_zh'], '')
+            self.assertEqual(item['translation_status'], 'pending')
+        with patch.object(server, 'NETWORK_ENABLED', True), patch.object(server, 'translate_hn_text', return_value='新的文字'):
+            self.assertEqual(server.query_projects()['items'][0]['description_zh'], '新的文字')
+
     def test_category_access_denial_is_not_retried(self):
         error = server.urllib.error.HTTPError('https://www.producthunt.com/categories/productivity', 403, 'Forbidden', {}, None)
         with patch.object(server.urllib.request, 'urlopen', side_effect=error) as request, patch.object(server.time, 'sleep') as sleep:

@@ -14,6 +14,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
+from contextlib import closing
 from datetime import datetime, timedelta, timezone
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -258,6 +259,10 @@ def init_db() -> None:
       PRIMARY KEY(snapshot_date, full_name)
     );
     CREATE INDEX IF NOT EXISTS idx_github_trending_rank ON github_trending_items(snapshot_date, rank);
+    CREATE TABLE IF NOT EXISTS github_translations (
+      full_name TEXT PRIMARY KEY, description_source TEXT NOT NULL,
+      description_zh TEXT NOT NULL, updated_at TEXT NOT NULL
+    );
     CREATE TABLE IF NOT EXISTS producthunt_snapshots (
       range_key TEXT PRIMARY KEY, fetched_at TEXT NOT NULL, source_url TEXT NOT NULL,
       window_start TEXT NOT NULL, window_end TEXT NOT NULL, item_count INTEGER NOT NULL
@@ -1116,12 +1121,12 @@ def polish_hn_translation(source: str, translated: str) -> str:
     return value
 
 
-def translate_hn_text(value: str, attempts: int = 1) -> str:
+def translate_hn_text(value: str, attempts: int = 1, *, source_language: str = "en", skip_chinese: bool = True) -> str:
     source = hn_text_excerpt(value)
-    if not source or re.search(r"[\u4e00-\u9fff]", source):
+    if not source or (skip_chinese and re.search(r"[\u4e00-\u9fff]", source)):
         return source
     query = urllib.parse.urlencode({
-        "client": "gtx", "sl": "en", "tl": "zh-CN", "dt": "t", "q": source,
+        "client": "gtx", "sl": source_language, "tl": "zh-CN", "dt": "t", "q": source,
     })
     url = f"https://translate.googleapis.com/translate_a/single?{query}"
     last_error: Exception | None = None
@@ -1415,13 +1420,74 @@ def query_daily() -> dict[str, Any]:
         return {"report": json.loads(row["raw_json"]) if row else None}
 
 
+def polish_github_translation(source: str, translated: str) -> str:
+    value = polish_hn_translation(source, translated)
+    if re.search(r'\bagents?\b|agentic', source, re.I):
+        value = value.replace('客服代表', '智能体').replace('座席', '智能体')
+        if not re.search(r'\bproxy\b', source, re.I):
+            value = value.replace('代理', '智能体')
+    if re.search(r'\bharness\b', source, re.I):
+        value = value.replace('线束', '运行框架')
+    if re.search(r'\bMermaid\b', source):
+        value = value.replace('美人鱼', 'Mermaid')
+    if re.search(r'\bslop\b', source, re.I):
+        value = value.replace('粪便', '低质量生成内容').replace('泔水', '低质量生成内容')
+    return value
+
+
+def ensure_github_translations(items: list[dict[str, Any]]) -> None:
+    """Cache only usable translations; a failed attempt remains retryable."""
+    pending = {}
+    with closing(connect()) as conn:
+        for item in items:
+            source = str(item.get('description') or '').strip()
+            if not source:
+                continue
+            cached = conn.execute('SELECT * FROM github_translations WHERE full_name=?', (item['full_name'],)).fetchone()
+            if not cached or cached['description_source'] != source or not cached['description_zh']:
+                pending[item['full_name']] = source
+
+    def translate(entry):
+        name, source = entry
+        # Pure Chinese needs no duplicate translated line; mixed descriptions still translate.
+        if re.search(r'[\u4e00-\u9fff]', source) and not re.search(r'[A-Za-z]{2,}', source):
+            return name, source, source
+        result = translate_hn_text(source, source_language='auto', skip_chinese=False).strip()
+        if not result or not re.search(r'[\u4e00-\u9fff]', result) or result == source:
+            raise ValueError('No usable Chinese translation')
+        return name, source, polish_github_translation(source, result)
+
+    completed = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=NETWORK_WORKERS) as executor:
+        for future in concurrent.futures.as_completed([executor.submit(translate, entry) for entry in pending.items()]):
+            try:
+                completed.append(future.result())
+            except Exception:
+                continue
+    with closing(connect()) as conn, conn:
+        conn.executemany('''INSERT INTO github_translations VALUES(?,?,?,?)
+          ON CONFLICT(full_name) DO UPDATE SET description_source=excluded.description_source,
+          description_zh=excluded.description_zh,updated_at=excluded.updated_at''',
+          [(*entry, utc_now()) for entry in completed])
+
+
 def query_projects() -> dict[str, Any]:
-    with connect() as conn:
+    with closing(connect()) as conn:
         snapshot = conn.execute("SELECT * FROM github_trending_snapshots ORDER BY date DESC LIMIT 1").fetchone()
         if not snapshot:
             return {"snapshot": None, "items": [], "count": 0}
         rows = conn.execute("SELECT * FROM github_trending_items WHERE snapshot_date=? ORDER BY rank", (snapshot["date"],)).fetchall()
-        return {"snapshot": dict(snapshot), "items": [dict(row) for row in rows], "count": len(rows)}
+        items = [dict(row) for row in rows]
+    if NETWORK_ENABLED:
+        ensure_github_translations(items)
+    with closing(connect()) as conn:
+        for item in items:
+            cached = conn.execute('SELECT * FROM github_translations WHERE full_name=?', (item['full_name'],)).fetchone()
+            source = str(item.get('description') or '').strip()
+            # Never attach a translation of an older description to new source text.
+            item['description_zh'] = polish_github_translation(source, cached['description_zh']) if cached and cached['description_source'] == source else ''
+            item['translation_status'] = 'ready' if item['description_zh'] else 'pending' if source else 'empty'
+    return {"snapshot": dict(snapshot), "items": items, "count": len(items)}
 
 
 def query_producthunt(params: dict[str, list[str]]) -> dict[str, Any]:

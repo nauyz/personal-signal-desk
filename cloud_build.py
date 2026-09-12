@@ -20,7 +20,7 @@ OUTPUT = server.ROOT / 'dist'
 # Hours between attempts. Failed tasks also observe this interval.
 CADENCE = {
     'aihot:content': 1, 'aihot:facts': 1, 'aihot:daily': 6,
-    'github': 3, 'hn': 1, 'ph:today': 1,
+    'github': 3, 'github:translations': 1, 'hn': 1, 'ph:today': 1,
     'ph:yesterday': 6, 'ph:7d': 6, 'ph:30d': 6, 'ph:categories': 12,
     **{f'x:{kind}:{window}': 6 if kind == 'creators' else 1
        for kind, windows in server.XRANK_RANGES.items() for window in windows},
@@ -99,6 +99,7 @@ def collect():
     attempt('aihot:facts', facts)
     attempt('aihot:daily', daily)
     attempt('github', server.sync_github_trending)
+    attempt('github:translations', lambda: server.ensure_github_translations(server.query_projects()['items']))
     if server.producthunt_token():
         for window in sorted(server.PRODUCTHUNT_RANGES):
             attempt(f'ph:{window}', lambda window=window: ph(window))

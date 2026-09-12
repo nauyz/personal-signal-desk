@@ -317,30 +317,9 @@ function numberLabel(value) {
   return value == null ? '未知' : new Intl.NumberFormat('zh-CN').format(value);
 }
 
-const PROJECT_DESCRIPTIONS_ZH = Object.freeze({
-  'fmtlib/fmt': '一个现代化的文本格式化库。',
-  'mattpocock/skills': '真正面向工程实践的 Agent 技能合集，直接整理自作者自己的 .agents 目录。',
-  'NousResearch/hermes-agent': '一个会随着你的使用不断成长的智能体。',
-  'DietrichGebert/ponytail': '让 AI 智能体像经验丰富又惜字如金的资深开发者一样思考：能不写的代码，就是最好的代码。',
-  'anthropics/skills': 'Anthropic 公开的 Agent Skills 仓库。',
-  'affaan-m/ECC': '面向 AI 编程智能体的性能优化体系，涵盖技能、习惯、记忆、安全与研究优先的开发方法，适配 Claude Code、Codex 等工具。',
-  'JuliusBrussee/caveman': '一个用“穴居人式”极简表达减少 Claude Code Token 消耗的技能，号称可节省 65%。',
-  'blader/humanizer': '用来消除文本中 AI 写作痕迹的 Agent 技能。',
-  'google-research/timesfm': 'Google Research 开发的预训练时间序列基础模型，用于时间序列预测。',
-  'averygan/reclip': '轻量、可自托管的视频下载工具，配有简洁的网页界面，可从大多数网站下载视频。',
-  'bannedbook/fanqiang': '提供翻墙与科学上网相关内容。',
-  'addyosmani/agent-skills': '面向 AI 编程智能体的生产级工程技能合集。',
-  'ByteByteGoHq/system-design-101': '用图解和浅显语言讲清复杂系统，帮助准备系统设计面试。',
-  'magnitudedev/magnitude': '开源本地推理服务器，可根据你的硬件运行合适的本地模型，并接入现有的智能体工具。',
-  'Imbad0202/academic-research-skills': '为 Claude Code 准备的学术研究技能，覆盖研究、写作、评审、修改到定稿的完整流程。',
-  'Gitlawb/openclaude': '可在各种环境中运行，也能接入不同工具。',
-  'debpalash/VoiceStudio': '完全本地运行的开源 ElevenLabs 替代方案，支持声音克隆、声音设计、视频配音、听写、转录和有声书制作，覆盖 646 种语言。',
-  'f/prompts.chat': '原 Awesome ChatGPT Prompts；用于分享、发现和收藏社区提示词，支持免费开源、自托管和组织内私有部署。',
-  'obra/superpowers': '一套可以实际落地的智能体技能框架与软件开发方法论。',
-});
 
 function projectCard(item) {
-  const descriptionZh = item.description_zh || PROJECT_DESCRIPTIONS_ZH[item.full_name] || '';
+  const descriptionZh = item.description_zh && item.description_zh.trim() !== (item.description || '').trim() ? item.description_zh : '';
   return `<article class="project-card"><span class="project-rank">${String(item.rank).padStart(2, '0')}</span><div class="project-main">
     <div class="project-title"><a href="${safeURL(item.repo_url)}" target="_blank" rel="noopener">${escapeHTML(item.full_name)}</a>${item.stars_today != null ? `<strong>今日 +${numberLabel(item.stars_today)} ★</strong>` : ''}</div>
     <div class="project-description"><span>项目简介</span><div class="project-description-copy"><p>${escapeHTML(item.description || '该项目暂未提供简介。')}</p>${descriptionZh ? `<p class="project-description-zh">${escapeHTML(descriptionZh)}</p>` : ''}</div></div>
