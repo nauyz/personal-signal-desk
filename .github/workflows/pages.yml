@@ -67,7 +67,7 @@ jobs:
           if ! git -C .fact-archive diff --cached --quiet; then
             git -C .fact-archive commit -m 'archive: preserve collected public facts'
             auth=$(git config --get http.https://github.com/.extraheader)
-            git -C .fact-archive -c "http.https://github.com/.extraheader=$auth" push origin HEAD:refs/heads/facts-archive
+            git -C .fact-archive -c http.https://github.com/.extraheader= -c "http.https://github.com/.extraheader=$auth" push origin HEAD:refs/heads/facts-archive
           fi
       - uses: actions/cache/save@v4
         with:
