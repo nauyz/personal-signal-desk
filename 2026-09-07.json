@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "7cf4cd3a-8d6c-4bb5-bfb2-aa568f79bc58",
+        "digest": null,
+        "latest_at": "2026-09-05T03:12:56.001Z",
+        "original_url": "https://openai.com/index/gpt-6-astra",
+        "rank": 1,
+        "recovered": true,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 8,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/7cf4cd3a-8d6c-4bb5-bfb2-aa568f79bc58",
+        "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录， cybersecurity 能力达 Critical 阈值"
+      },
+      "observed_at": "2026-09-07T02:45:16.937024Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "cc20e2b7-ed07-4932-a7f2-65904bc6c9bb",
+        "digest": "OpenAI 于 9 月 3 日发布 GPT-6 Astra，宣称其在电脑使用、浏览、软件工程、科学和专业工作方面达到最先进性能。发布后，企业安全客户先于 Pro 订阅者获得访问权限，引发高价 Pro 用户不满。\n9 月 4 日，CEO Sam Altman 在 X 平台为“混乱的发布”致歉，并宣布补偿机制：从 9 月 4 日起，付费用户每缺少一天 Astra 访问即获得一次额度重置。\n9 月 5 日，GPT-6 Astra 已面向所有 Plus、Pro 等付费用户推出。",
+        "latest_at": "2026-09-05T01:30:18.743Z",
+        "original_url": "https://www.ithome.com/0/998/661.htm",
+        "rank": 2,
+        "recovered": true,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 5,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/cc20e2b7-ed07-4932-a7f2-65904bc6c9bb",
+        "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出"
+      },
+      "observed_at": "2026-09-07T00:32:12.219963Z"
+    }
+  ],
+  "version": 1
+}

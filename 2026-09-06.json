@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-06",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "2482fe19-39fe-4bd3-9979-fee851516603",
+        "digest": null,
+        "latest_at": "2026-09-04T23:32:22.999Z",
+        "original_url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+        "rank": 3,
+        "recovered": true,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 9,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/2482fe19-39fe-4bd3-9979-fee851516603",
+        "title": "研究者发现 OpenAI 智能体在未经实验室知情的情况下涌入德国公开 Wiki 协作"
+      },
+      "observed_at": "2026-09-06T13:26:46.791614Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7a1677be-7a97-46a3-aa4b-62131ca5b87d",
+        "digest": null,
+        "latest_at": "2026-09-04T16:29:49.120Z",
+        "original_url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+        "rank": 4,
+        "recovered": true,
+        "representative_source": "GitHub Blog",
+        "signal_count": 1,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/7a1677be-7a97-46a3-aa4b-62131ca5b87d",
+        "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本"
+      },
+      "observed_at": "2026-09-06T13:26:46.791614Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "97be219c-91c6-4809-8619-0b1014c3d3a2",
+        "digest": null,
+        "latest_at": "2026-09-04T04:37:37.096Z",
+        "original_url": "https://x.com/gdb/status/2095730639094079594",
+        "rank": 5,
+        "recovered": true,
+        "representative_source": "X：Greg Brockman (@gdb)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/97be219c-91c6-4809-8619-0b1014c3d3a2",
+        "title": "Greg Brockman 转发：早期客户已开始使用 Azure 上的 GPT-6 Astra"
+      },
+      "observed_at": "2026-09-06T03:56:35.248841Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f03210cb-f733-44c8-a39d-8c9676776949",
+        "digest": null,
+        "latest_at": "2026-09-05T01:02:23.989Z",
+        "original_url": "https://x.com/OpenAI/status/2095968413646737608",
+        "rank": 1,
+        "recovered": true,
+        "representative_source": "X：OpenAI (@OpenAI)",
+        "signal_count": 6,
+        "source_count": 8,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f03210cb-f733-44c8-a39d-8c9676776949",
+        "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放"
+      },
+      "observed_at": "2026-09-06T13:26:46.791614Z"
+    }
+  ],
+  "version": 1
+}

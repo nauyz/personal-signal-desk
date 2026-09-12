@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-05",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "30634f67-793a-4fd0-81de-7375975ad159",
+        "digest": null,
+        "latest_at": "2026-09-03T18:01:59.106Z",
+        "original_url": "https://ifm.ai/blog/k2",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 1,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/30634f67-793a-4fd0-81de-7375975ad159",
+        "title": "IFM 发布 K2 Horizon 六款开源模型，覆盖 0.9B 到 375B-A23B 并开放完整训练生命周期"
+      },
+      "observed_at": "2026-09-05T06:43:32.740759Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3d7a3bd0-b541-442c-97a5-e89df4158976",
+        "digest": null,
+        "latest_at": "2026-09-04T01:32:03.189Z",
+        "original_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+        "rank": 6,
+        "recovered": true,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 3,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/3d7a3bd0-b541-442c-97a5-e89df4158976",
+        "title": "Google DeepMind 发布 WeatherNext 3 全球天气 AI 模型， hourly 更新且分辨率较上一代提升约 5 倍"
+      },
+      "observed_at": "2026-09-05T14:13:34.883036Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "697a905a-e2b6-4709-9c6e-faeea5c9cc32",
+        "digest": null,
+        "latest_at": "2026-09-04T01:30:02.247Z",
+        "original_url": "https://x.com/steipete/status/2095678161052901828",
+        "rank": 4,
+        "recovered": true,
+        "representative_source": "X：Peter Steinberger (@steipete)",
+        "signal_count": 17,
+        "source_count": 9,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/697a905a-e2b6-4709-9c6e-faeea5c9cc32",
+        "title": "NVIDIA 宣布收购 Hugging Face，黄仁勋称开放模型将受益于这桩联姻"
+      },
+      "observed_at": "2026-09-05T14:13:34.883036Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "73d31b55-c745-4256-992c-f1de7ec483b2",
+        "digest": null,
+        "latest_at": "2026-09-03T23:30:01.110Z",
+        "original_url": "https://openai.com/index/daybreak-for-frontline-defenders",
+        "rank": 9,
+        "recovered": true,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/73d31b55-c745-4256-992c-f1de7ec483b2",
+        "title": "OpenAI 推出 Daybreak for Frontline Defenders，投入10亿美元支持一线网络防御"
+      },
+      "observed_at": "2026-09-05T14:13:34.883036Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "79866660-dda7-45fc-b47c-1647b88e3446",
+        "digest": null,
+        "latest_at": "2026-09-05T01:30:18.743Z",
+        "original_url": "https://www.ithome.com/0/998/661.htm",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 1,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/79866660-dda7-45fc-b47c-1647b88e3446",
+        "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出"
+      },
+      "observed_at": "2026-09-05T14:13:34.883036Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "961ed844-9619-4970-bf11-5c55efc9e14b",
+        "digest": null,
+        "latest_at": "2026-09-04T23:30:17.725Z",
+        "original_url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+        "rank": 3,
+        "recovered": true,
+        "representative_source": "Anthropic：Research（发表成果 · 网页）",
+        "signal_count": 3,
+        "source_count": 7,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/961ed844-9619-4970-bf11-5c55efc9e14b",
+        "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明"
+      },
+      "observed_at": "2026-09-05T14:13:34.883036Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f757006b-16ba-49a3-80a7-cb64f1186d4f",
+        "digest": null,
+        "latest_at": "2026-09-04T23:30:17.725Z",
+        "original_url": "https://www.ithome.com/0/998/630.htm",
+        "rank": 8,
+        "recovered": true,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 2,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f757006b-16ba-49a3-80a7-cb64f1186d4f",
+        "title": "Anthropic IPO 推迟至中期选举前，最早 10 月中旬启动路演，目标估值 2 万亿美元"
+      },
+      "observed_at": "2026-09-05T14:13:34.883036Z"
+    }
+  ],
+  "version": 1
+}

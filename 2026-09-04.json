@@ -1,0 +1,210 @@
+{
+  "date": "2026-09-04",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "1a869339-cfba-415e-a511-c20b3a64151a",
+        "digest": null,
+        "latest_at": "2026-09-03T05:37:37.837Z",
+        "original_url": "https://x.com/claudeai/status/2095226833293685100",
+        "rank": 7,
+        "recovered": true,
+        "representative_source": "X：Claude (@claudeai)",
+        "signal_count": 3,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/1a869339-cfba-415e-a511-c20b3a64151a",
+        "title": "Claude 在 Cowork 和 Claude Code 中支持后台操作电脑"
+      },
+      "observed_at": "2026-09-04T07:45:18.648836Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "493ff54d-1a7e-409e-9f9f-f336d2d0c62a",
+        "digest": "英伟达正就收购 Hugging Face 展开深入谈判，最快可能于本周达成协议。交易总规模接近 140 亿美元，包括 129 亿美元收购价和 10 亿美元员工留任激励。\n该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍。\n双方尚未达成最终协议，时间与细节仍可能变动。",
+        "latest_at": "2026-09-02T02:48:18.699Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2094975190468010368",
+        "rank": 5,
+        "recovered": true,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 12,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/493ff54d-1a7e-409e-9f9f-f336d2d0c62a",
+        "title": "Nvidia 接近以 129 亿美元收购 Hugging Face"
+      },
+      "observed_at": "2026-09-03T21:29:00.599871Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "501eec1d-f3a3-4ce0-a73e-336f6e342827",
+        "digest": null,
+        "latest_at": "2026-09-03T01:27:09.815Z",
+        "original_url": "https://x.com/alexandr_wang/status/2095318449602138577",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/501eec1d-f3a3-4ce0-a73e-336f6e342827",
+        "title": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布"
+      },
+      "observed_at": "2026-09-04T05:30:39.300000Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5b746ea3-b60b-4b58-8d0a-15f05929ae5d",
+        "digest": "Anthropic 于 2026 年 9 月 2 日宣布，Claude Code 桌面应用的 Computer use 功能支持后台运行，Claude 可在用户允许的应用中操作，同时用户可继续工作。该功能为 Pro 和 Max 套餐的 beta 版，仅限 macOS；曾用过 computer use 的用户默认开启，也可在 Settings > General 中打开。\n9 月 3 日，Boris Cherny 进一步指出，Claude 现可在 Claude Cowork 和 Claude Code 中后台使用电脑，像人一样点击、输入和打开应用，同时用户可做其他事，并评论称后台 computer use 被低估了。",
+        "latest_at": "2026-09-03T05:37:37.837Z",
+        "original_url": "https://x.com/bcherny/status/2095378890370019683",
+        "rank": 8,
+        "recovered": true,
+        "representative_source": "X：Boris Cherny (@bcherny)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/5b746ea3-b60b-4b58-8d0a-15f05929ae5d",
+        "title": "Claude 在 Cowork 与 Claude Code 中支持后台操作电脑"
+      },
+      "observed_at": "2026-09-04T05:30:39.300000Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6aa08f30-fb7e-43b5-b942-acf2ee224be1",
+        "digest": "ARC Prize 公布 OpenAI 的 GPT-6 Astra 在 ARC-AGI-3 基准上的评测结果。使用标准 harness 时，GPT-6 Astra 得分为 63%；而采用新的 provider adapter harness 后，得分达到 99%。此外，在 96% 的关卡上，其动作效率超过受测人类中位数。\nARC Prize 观察到，GPT-6 Astra 能够将陌生环境转化为紧凑的符号世界模型，把游戏机制表示为逻辑规则，并自建领域速记语言来跟踪状态和规划动作。\nOpenAI 联合创始人 Greg Brockman 转发该评测，称 GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA，并认为该基准已趋于饱和。排行榜图还显示，更高推理层级通常成本更低，因为 Astra 用更少动作通关，减少了模型调用和 token 数。",
+        "latest_at": "2026-09-03T22:07:37.028Z",
+        "original_url": "https://x.com/gdb/status/2095629409017614390",
+        "rank": 8,
+        "recovered": true,
+        "representative_source": "X：Greg Brockman (@gdb)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/6aa08f30-fb7e-43b5-b942-acf2ee224be1",
+        "title": "Greg Brockman 转发：GPT-6 Astra 在 ARC-AGI-3 达到 SOTA，基准趋于饱和"
+      },
+      "observed_at": "2026-09-04T07:45:18.648836Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7b91b9e1-88b6-4346-af8d-6bbe82d3d454",
+        "digest": "Anthropic 于 2026 年 9 月 1 日发布 Claude Fable 5.1 与 Claude Mythos 5.1 两款模型，官方定位为编码和知识工作领域最先进的模型。Fable 5.1 已在 Claude 和 Claude Code 上线，并可通过 Anthropic API 使用；Mythos 5.1 仅向 Project Glasswing 参与者开放，主要面向经审核的网络安全和生命科学机构。\n性能方面，Fable 5.1 在 Terminal-Bench-Science 0.1 上得 52.6%，是 Fable 5（24.7%）的两倍以上；在 Terminal-Bench 4.0 上得 55.8%，高于 Fable 5 的 42.0%。成本方面，Fable 5.1 通常比 Fable 5 便宜约 25%，复杂智能体任务因缓存读取降价 75% 最高可便宜 45%。\n两款模型基于同一底层模型，但安全防护等级不同：Fable 5.1 全面开放，Mythos 5.1 限制更严。Anthropic 此次发布回应了客户对价格、数据保留和过度安全限制的批评。",
+        "latest_at": "2026-09-02T01:18:18.758Z",
+        "original_url": "https://www.ithome.com/0/997/193.htm",
+        "rank": 6,
+        "recovered": true,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 15,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7b91b9e1-88b6-4346-af8d-6bbe82d3d454",
+        "title": "Anthropic 发布 Claude Fable 5.1 和 Mythos 5.1：性能超越前代，缓存读取费用下调 75%"
+      },
+      "observed_at": "2026-09-03T21:29:00.599871Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9133c201-a7f1-4d65-82ed-949d0d43b008",
+        "digest": "Meta 于 2026 年 9 月 2 日发布 Muse Spark 1.3，官方称这是其在编码和智能体工作上的最大跃升，已在 Meta 模型 API 和 Muse Code 上推出，价格极低。Meta 首席 AI 官 Alexandr Wang 称其编码能力超越 GPT-5.6 Sol、与 Claude Fable 5.1 持平。\n该版本在多项基准测试中表现突出：DeepSWE 1.1 得分超过 GPT-5.6 和 Opus 5；长上下文 MRCR 256K–512K 得分 98.5，超过 GPT-5.6 Sol 的 91.5；JobBench 64.9、OSWorld 66.9、AutomationBench 49.4，接近 Opus 5 的 65.7、68.3、50.3。\n相比 1.2 版本，Muse Spark 1.3 减少 20% 工具调用和 25% token 用量。xhigh 版在 Artificial Analysis Intelligence Index 得 61 分，max 变体（合作伙伴限时预览）得 62 分，逼近 Claude 与 GPT-5.6。这是五个月内第四个 Muse Spark 版本。\n2026 年 9 月 3 日，Muse Spark 1.3 在 OpenCode 上免费开放使用。模型上下文窗口为 1M token，权重闭源不可自托管。",
+        "latest_at": "2026-09-03T19:01:57.318Z",
+        "original_url": "https://x.com/kimmonismus/status/2095265444999410146",
+        "rank": 5,
+        "recovered": true,
+        "representative_source": "X：Kim (@kimmonismus)",
+        "signal_count": 7,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/9133c201-a7f1-4d65-82ed-949d0d43b008",
+        "title": "Meta 发布 Muse Spark 1.3，Intelligence Index 得 61-62 分逼近 Claude 与 GPT-5.6"
+      },
+      "observed_at": "2026-09-04T07:45:18.648836Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a0530859-2bda-440b-a44d-77f9f03a9e3c",
+        "digest": "ARC-AGI-3 基准在发布仅 6 个月后即被 Astra 模型饱和。\n该基准发布时，François Chollet 曾预计前沿模型需要约一年才能饱和，实际进展速度约为预期的 2 倍。\nSherwin Wu 表示自己曾认为 ARC-AGI-3 很难，如今已被饱和；Kim 转发消息确认基准饱和，并呼吁尽快建立新基准。",
+        "latest_at": "2026-09-03T22:40:23.450Z",
+        "original_url": "https://x.com/sherwinwu/status/2095608725730119733",
+        "rank": 9,
+        "recovered": true,
+        "representative_source": "X：Sherwin Wu（@sherwinwu）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a0530859-2bda-440b-a44d-77f9f03a9e3c",
+        "title": "ARC-AGI-3 发布仅半年即被 Astra 饱和，进展快于 François Chollet 预期一倍"
+      },
+      "observed_at": "2026-09-04T07:45:18.648836Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a1d2721c-ffb0-4ae3-b63e-dde3aeba36ed",
+        "digest": null,
+        "latest_at": "2026-09-03T00:29:45.977Z",
+        "original_url": "https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 1,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/a1d2721c-ffb0-4ae3-b63e-dde3aeba36ed",
+        "title": "美国司法部在纽约时报版权案中支持 AI 训练属合理使用"
+      },
+      "observed_at": "2026-09-04T07:45:18.648836Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a7a11604-4ea2-4af7-b32d-8d2930834675",
+        "digest": null,
+        "latest_at": "2026-09-02T18:25:53.655Z",
+        "original_url": "https://cursor.com/blog/self-hosted-machines",
+        "rank": 9,
+        "recovered": true,
+        "representative_source": "Cursor Blog",
+        "signal_count": 1,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/a7a11604-4ea2-4af7-b32d-8d2930834675",
+        "title": "Cursor 推出 Self-Hosted Machines，云智能体可在企业自有机器上执行"
+      },
+      "observed_at": "2026-09-04T05:30:39.300000Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "bc5ccb43-f7bc-4bbf-9549-3d627087b555",
+        "digest": "通义千问（Qwen）与阿里云于2026年9月2日先后宣布，Qwen3.8-Max 升级为 Qwen3.8-Max-0902。新版本参数量为 2.4T，上下文窗口扩展至 1M token。该版本针对编码与协作（Coding & Cowork）进行了进一步后训练，旨在提升在复杂企业任务、科学研究和长程工作流中的表现。\n在基准测试方面，Qwen3.8-Max-0902 在 Code Arena: WebDev 以 1,691 分首次亮相即排名总榜第一，较前代提升 22 分，超过 Claude Opus 5（1688）和 Kimi K3（1674）。阿里云官方称其高出 Claude Opus 5 (Max) 3 分、Kimi K3 (Max) 17 分、上一版 Qwen3.8-Max 22 分。\n定价方面，通义千问官方称该模型以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型；而 Kim 的报道则给出每 1M tokens 定价 $2 输入、$6 输出，缓存命中 $0.17/$0.25。模型现已通过 QwenCloud API 上线，可在 QwenCloud 试用。",
+        "latest_at": "2026-09-02T08:08:23.512Z",
+        "original_url": "https://x.com/Alibaba_Qwen/status/2094982928371794077",
+        "rank": 9,
+        "recovered": true,
+        "representative_source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+        "signal_count": 4,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/bc5ccb43-f7bc-4bbf-9549-3d627087b555",
+        "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿"
+      },
+      "observed_at": "2026-09-03T21:29:00.599871Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e2551b9a-9796-4be2-b9b7-df7869e0e375",
+        "digest": null,
+        "latest_at": "2026-09-02T18:36:47.582Z",
+        "original_url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+        "rank": 3,
+        "recovered": true,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 19,
+        "source_count": 20,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/e2551b9a-9796-4be2-b9b7-df7869e0e375",
+        "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型"
+      },
+      "observed_at": "2026-09-04T07:45:18.648836Z"
+    }
+  ],
+  "version": 1
+}
