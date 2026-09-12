@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-08",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "62e2ccae-766e-4d33-9e8e-9b91cd90f0f4",
+        "digest": "OpenAI 于 2026 年 9 月 6 日发布内部研究加速报告，宣布已达成去年秋天设定的目标：在 2026 年 9 月拥有自动化研究实习生，即能在人类指导下完成耗时数天的明确研究任务的 AI 系统。公司同时计划在 2028 年 3 月前造出全自动 AI 研究员。\n报告披露了研究人员使用 AI 编程智能体的规模和成本：截至 8 月中旬，普通研究员日耗 Token 价值中位数超 600 美元（7 月为 162 美元），前 10% 用户超 7000 美元，数字按 API 公开推理价格估算，非实际支出。此外，研究部门每 1 个人类工作日运行 3.1 个智能体工作日，token 产出自 2025 年 12 月以来增长 124 倍。\nOpenAI 首席科学家 Jakub Pachocki 撰文警告，目前没有任何实验室已解决 AI 对齐与监控问题，暗示自动化研究推进需谨慎。",
+        "latest_at": "2026-09-07T13:25:46.865Z",
+        "original_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "rank": 1,
+        "recovered": true,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 0,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/62e2ccae-766e-4d33-9e8e-9b91cd90f0f4",
+        "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员"
+      },
+      "observed_at": "2026-09-08T06:00:59.253696Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ee6de1dd-026c-4815-acfe-d9c2b1be6143",
+        "digest": "OpenAI 宣布已达到「自动化研究实习生」里程碑，即其 AI 智能体可在人类监督下完成熟练研究员需数天的明确任务。截至 8 月中旬，OpenAI 研究组织每投入 1 个人工工作日，就使用 3.1 个智能体工作日的运行时长；该比值衡量的是运行时间而非等效生产力。中位研究员每天使用的推理资源按 API 价格计已超 600 美元，90 分位超 7000 美元；token 产出自 2025 年 12 月以来增长 124 倍，8 月实验数量达到统计以来最高点。\nOpenAI 首席科学家 Jakub Pachocki 撰文警告，目前尚无实验室解决 AI 对齐与监控问题。OpenAI 计划在 2028 年 3 月前建成全自动 AI 研究员。有 OpenAI 员工观点认为，递归自我改进或成为未来几年 AI 能力的关键，并呼吁其他 AI 公司同样公开数据。",
+        "latest_at": "2026-09-07T13:25:46.865Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+        "rank": 3,
+        "recovered": true,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/ee6de1dd-026c-4815-acfe-d9c2b1be6143",
+        "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍"
+      },
+      "observed_at": "2026-09-08T06:00:59.253696Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f7d4e6e2-a7cd-4b94-86db-a10d86a919b8",
+        "digest": "据 The Information 报道，Anthropic 自 2025 年 10 月以来已锁定至少 14.8 GW 新算力，未来十年相关成本或高达 5170 亿美元。\n其年化收入据称已超 650 亿美元，高于 OpenAI 的 400 多亿美元，但 OpenAI 称其规划的算力约为 Anthropic 的 2 倍。\nAnthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，并计划自建数据中心。",
+        "latest_at": "2026-09-07T18:27:10.491Z",
+        "original_url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+        "rank": 4,
+        "recovered": true,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f7d4e6e2-a7cd-4b94-86db-a10d86a919b8",
+        "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力"
+      },
+      "observed_at": "2026-09-08T07:11:19.260323Z"
+    }
+  ],
+  "version": 1
+}

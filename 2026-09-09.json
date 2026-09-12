@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "145776fa-cccf-4b50-af68-53efe1353dd5",
+        "digest": null,
+        "latest_at": "2026-09-07T13:25:46.865Z",
+        "original_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "rank": 8,
+        "recovered": true,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 1,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/145776fa-cccf-4b50-af68-53efe1353dd5",
+        "title": "OpenAI 公布内部研究加速测量数据：研究组织智能体工作量已达人类工作日的 3.1 倍"
+      },
+      "observed_at": "2026-09-08T22:43:58.638038Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "22dea21e-be5d-4ca0-8e45-9bb75ba86e1b",
+        "digest": "OpenAI 于 2026 年 9 月 6 日发布长文《An Alien Mind》，回溯 2023 年 RLSlow 项目确认推理模型可扩展训练的起点，系统阐述目标对齐与价值对齐的区分。文章指出链式思维（CoT）监控的效果正随着模型能力提升而逐步减弱，GPT‑6 Astra 在对齐上显著优于 GPT‑5.6 Sol。作者预期进展可能持续走向机器递归自我改进（RSI），呼吁自愿放缓扩展、建立第三方安全门槛并加强国际协调。\n次日，OpenAI 首席科学家 Jakub Pachocki 发表同一主题长篇博文，担心没有人准备好应对机器智能持续快速增长的后果，呼吁建立可由第三方审计、政府或国际组织执行的强制性安全门槛。\n相关评述指出，对齐与监控尚未跟上 Agent 竞赛的步伐。",
+        "latest_at": "2026-09-07T11:39:39.069Z",
+        "original_url": "https://openai.com/index/an-alien-mind",
+        "rank": 3,
+        "recovered": true,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/22dea21e-be5d-4ca0-8e45-9bb75ba86e1b",
+        "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱"
+      },
+      "observed_at": "2026-09-08T16:42:22.070425Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "27c7a3b1-479f-4968-a775-b9dc003ef8fe",
+        "digest": "OpenAI 宣布由一组智能体使用显著强于 GPT-6 Astra 的下一代模型，给出了 Navier-Stokes 千禧年大奖难题的一个 blow up 解。该问题涉及三维光滑流体运动的描述是否会崩溃，约 90 年未解。\nEmad Mostaque 转发 OpenAI 的公告并评论称这是迈向 ASI 的里程碑事件。\nJason Liu 转发并调侃 OpenAI 的公告，称该模型玩 RuneScape 也很强。",
+        "latest_at": "2026-09-08T17:57:09.214Z",
+        "original_url": "https://x.com/EMostaque/status/2097378223138959719",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "X：Emad Mostaque (@EMostaque)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/27c7a3b1-479f-4968-a775-b9dc003ef8fe",
+        "title": "Emad Mostaque 称 OpenAI 智能体求解 Navier-Stokes 千禧年难题是迈向 ASI 的里程碑"
+      },
+      "observed_at": "2026-09-09T06:06:03.265968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2bfa2880-986d-483d-b254-6f774796e12f",
+        "digest": null,
+        "latest_at": "2026-09-08T17:57:22.807Z",
+        "original_url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+        "rank": 9,
+        "recovered": true,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/2bfa2880-986d-483d-b254-6f774796e12f",
+        "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认"
+      },
+      "observed_at": "2026-09-09T06:06:03.265968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "954989b3-abe1-4bcc-ac18-e8cdd8e96472",
+        "digest": null,
+        "latest_at": "2026-09-09T04:00:13.177Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247510824&idx=1&sn=025a8b7c5fec54d8a00c8632f55f8d98",
+        "rank": 7,
+        "recovered": true,
+        "representative_source": "公众号：卡尔的AI沃茨",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/954989b3-abe1-4bcc-ac18-e8cdd8e96472",
+        "title": "OpenAI 上线 GPT Image 2.5，作者实测新版与 image2 的生图差异"
+      },
+      "observed_at": "2026-09-09T11:31:05.784939Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c6a7865e-3e46-45b1-84d7-731c82a3d06d",
+        "digest": null,
+        "latest_at": "2026-09-08T21:58:07.884Z",
+        "original_url": "https://runwayml.com/news/company-news/runway-for-adobe",
+        "rank": 5,
+        "recovered": true,
+        "representative_source": "Runway：News（网页）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/c6a7865e-3e46-45b1-84d7-731c82a3d06d",
+        "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑"
+      },
+      "observed_at": "2026-09-09T11:31:05.784939Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d93dbdad-d879-497b-85c4-a6641907cede",
+        "digest": null,
+        "latest_at": "2026-09-08T17:59:30.653Z",
+        "original_url": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+        "rank": 6,
+        "recovered": true,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/d93dbdad-d879-497b-85c4-a6641907cede",
+        "title": "Anthropic 发布 Claude Platform 降本指南：提示词缓存、清理反模式与校准 effort"
+      },
+      "observed_at": "2026-09-09T11:31:05.784939Z"
+    }
+  ],
+  "version": 1
+}

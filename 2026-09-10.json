@@ -1,0 +1,244 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0aae4e4a-8436-422f-8277-d105655302a5",
+        "digest": null,
+        "latest_at": "2026-09-08T16:09:39.300Z",
+        "original_url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+        "rank": 7,
+        "recovered": true,
+        "representative_source": "Mistral AI：News（网页）",
+        "signal_count": 4,
+        "source_count": 9,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/0aae4e4a-8436-422f-8277-d105655302a5",
+        "title": "Mistral 完成 30 亿欧元 D 轮融资，估值超 210 亿欧元"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "0bb52338-967f-4cc9-9397-944be68c7fb3",
+        "digest": "Anthropic 经济团队于 2026 年 9 月 9 日发布交互式经济情景探索工具（v1.0），基于技术报告《Economic Scenarios for Transformative AI》，将经济表示为任务束，推演 AI 到 2030 年对美国就业与工资的影响。用户可输入对 AI 能力和普及度的预测，查看 2030 年经济图景。该工具由 Anthropic 旗下研究机构 The Institute 发布，旨在探索 AI 对经济的潜在影响。\n最新报道披露了模型的三情景细节：温和情景下 AI 影响类似互联网；中间情景经济增速翻倍但知识工作者工资停滞；极端情景下产出每 4.5 年翻倍、知识工作者失业率达 17.9%、劳动占 GDP 份额从 60% 降至 45%。此前报道未提及具体情景参数，最新进展补充了这些量化结果。\n在极端情景中，全球知识工作者平均工资不涨反缩水超过 10%，劳动收入分配比例从 60%+ 降至 45.2%，财富更多沉淀到算力底座、模型巨头与资产所有者手中。Anthropic CEO 的悲观就业预测被归为极端情形，该模型为评估 AI 经济影响提供了量化框架。",
+        "latest_at": "2026-09-10T01:09:39.153Z",
+        "original_url": "https://www.anthropic.com/institute/econ-scenarios",
+        "rank": 5,
+        "recovered": true,
+        "representative_source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+        "signal_count": 2,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/0bb52338-967f-4cc9-9397-944be68c7fb3",
+        "title": "Anthropic 发布经济情景模型，推演 AI 对 2030 年美国就业与工资的影响"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "0ecffd4b-56d7-4fe9-a7e9-49759676be3c",
+        "digest": "OpenAI 宣布任命 Alignment Research Center 创始人 Paul Christiano 为 OpenAI 基金会董事会成员，并加入由 Zico Kolter 担任主席的安全与安保委员会（SSC）。同时，Christiano 将在 OpenAI Group PBC 董事会担任无投票权观察员。\nOpenAI 表示，Christiano 在 AI 对齐方面的工作以及在 NIST 的经历将加强基金会的监督，带来独立视角。该委员会负责对 OpenAI 的安全与安保实践进行治理，并对新模型发布拥有最终决定权。\nChristiano 表示，失去对 AI 系统控制的风险已十分严峻，若未能在更强有力对齐机制下构建超级智能，人类可能永久失去控制，大多数人可能丧命；他称包括 OpenAI 在内的 AI 行业目前未走在将风险降至可接受水平的轨道上，并呼吁国内外协调放缓开发、采用共同安全标准。",
+        "latest_at": "2026-09-10T04:40:23.505Z",
+        "original_url": "https://x.com/gdb/status/2097769891013280241",
+        "rank": 3,
+        "recovered": true,
+        "representative_source": "X：Greg Brockman (@gdb)",
+        "signal_count": 0,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/0ecffd4b-56d7-4fe9-a7e9-49759676be3c",
+        "title": "Paul Christiano 加入 OpenAI Foundation 董事会及安全与安全委员会"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "21fd4a52-f9ee-43c9-a997-22442acaf51e",
+        "digest": null,
+        "latest_at": "2026-09-09T19:34:44.877Z",
+        "original_url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+        "rank": 1,
+        "recovered": true,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 20,
+        "source_count": 14,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/21fd4a52-f9ee-43c9-a997-22442acaf51e",
+        "title": "OpenAI 发布 ChatGPT Images 2.5 图像模型"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4022cc36-099a-4e06-bec2-7263a98d20ae",
+        "digest": null,
+        "latest_at": "2026-09-09T15:07:37.148Z",
+        "original_url": "https://openrouter.ai/blog/announcements/us-in-region-routing",
+        "rank": 9,
+        "recovered": true,
+        "representative_source": "OpenRouter：Announcements（RSS）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/4022cc36-099a-4e06-bec2-7263a98d20ae",
+        "title": "OpenRouter 推出美国区域路由，与去年上线的 EU 路由配套保障数据驻留"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "50e3b72e-c715-4c57-b0e0-342233d44533",
+        "digest": "Suno 于 2026 年 9 月 9 日发布 v6 系列 AI 音乐模型，包含 v6、v6-wild 和 v6-mini 三款，并宣布与华纳音乐、BMG、Believe 等唱片公司达成合作。v6 为旗舰版本，v6-wild 面向实验性音乐，v6-mini 向所有用户免费开放，另两款需 Pro 或 Premier 订阅。新模型生成速度更快，几秒即可出音乐，支持自然语言编辑歌曲片段、从多个音频源生成混音、单独提取采样，并可从音频或图片等多模态输入生成歌曲。\nSuno 称 v6 使用 Warner Music Group、BMG、Believe 等授权数据训练，不使用训练旧版模型的数据，是首个获得唱片业支持的版本。模型分三档：面向付费用户的 base 版更可控，付费用户可用的 wild 实验版用于获取意外结果，mini 版更快并对所有用户开放。新模型支持用提示词编辑歌曲片段、以文本图片或视频为参考生成曲目，并可分离乐器采样制作节拍。\n官方演示显示 v6 可将图片、视频和语音备忘录转化为音乐，并对已创建的歌曲进行精确修改，同时提供 v6-wild 版本供探索更多可能性。",
+        "latest_at": "2026-09-10T00:37:37.454Z",
+        "original_url": "https://x.com/suno/status/2097846245540888664",
+        "rank": 6,
+        "recovered": true,
+        "representative_source": "X：Suno (@suno)",
+        "signal_count": 1,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/50e3b72e-c715-4c57-b0e0-342233d44533",
+        "title": "Suno v6 发布，支持图片、视频和语音备忘录生成音乐"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "68f5bc6a-ef17-4592-a21e-3e744982fb72",
+        "digest": null,
+        "latest_at": "2026-09-09T20:10:23.151Z",
+        "original_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+        "rank": 4,
+        "recovered": true,
+        "representative_source": "Anthropic：Research（发表成果 · 网页）",
+        "signal_count": 0,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/68f5bc6a-ef17-4592-a21e-3e744982fb72",
+        "title": "Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "868e20ea-e407-415a-9338-b367eca351aa",
+        "digest": null,
+        "latest_at": "2026-09-09T20:28:41.723Z",
+        "original_url": "https://x.com/thexpin/status/2097615997616406833",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "X：X.PIN (@thexpin)",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/868e20ea-e407-415a-9338-b367eca351aa",
+        "title": "NSA、FBI 和 CISA 指控 DeepSeek、月之暗面等六家中国 AI 公司大规模提取美国模型知识"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c18e9c41-5a5e-4dd7-9977-469857092dd2",
+        "digest": null,
+        "latest_at": "2026-09-09T21:57:52.304Z",
+        "original_url": "https://openai.com/index/navier-stokes-solution",
+        "rank": 2,
+        "recovered": true,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 5,
+        "source_count": 21,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/c18e9c41-5a5e-4dd7-9977-469857092dd2",
+        "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c3b43511-f452-4e95-80de-0c57b0ad41ec",
+        "digest": null,
+        "latest_at": "2026-09-09T08:59:12.201Z",
+        "original_url": "https://www.ithome.com/1/000/277.htm",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 2,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/c3b43511-f452-4e95-80de-0c57b0ad41ec",
+        "title": "《The Intercept》披露美国国防部曾要求 OpenAI 提供对军事指令最低拒绝率的特别版 AI"
+      },
+      "observed_at": "2026-09-09T16:43:36.211999Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c3b8591d-51dd-4593-83ac-26b066c8f9a7",
+        "digest": null,
+        "latest_at": "2026-09-09T06:59:12.167Z",
+        "original_url": "https://www.ithome.com/1/000/188.htm",
+        "rank": 8,
+        "recovered": true,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/c3b8591d-51dd-4593-83ac-26b066c8f9a7",
+        "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请"
+      },
+      "observed_at": "2026-09-10T06:02:25.564117Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "cb5e0164-d13c-457d-9b8c-21efb2e32623",
+        "digest": "OpenAI 发布 GPT-6 Astra，作者评测认为其计算机使用和图像渲染能力尤为突出，ARC-AGI-3 达 99.9%，前代 GPT-5.6 Sol 仅 7.8%。\nSebastian Raschka 解析 looped transformer 与隐藏推理链传闻，相关讨论在 Hacker News 成为热帖。",
+        "latest_at": "2026-09-09T17:27:48.333Z",
+        "original_url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "Hacker News：AI 热帖",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/cb5e0164-d13c-457d-9b8c-21efb2e32623",
+        "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻"
+      },
+      "observed_at": "2026-09-09T22:36:15.068867Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f6a6e13d-d24b-4901-bb20-3987a1012177",
+        "digest": null,
+        "latest_at": "2026-09-09T00:20:10.825Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686094&idx=1&sn=c06c40993f7ab28f2302619e4b89986b",
+        "rank": 9,
+        "recovered": true,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 1,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f6a6e13d-d24b-4901-bb20-3987a1012177",
+        "title": "GPT-6 Astra推理等级怎么选才最省Token"
+      },
+      "observed_at": "2026-09-09T16:43:36.211999Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fced10bf-8f24-49a8-a22b-981b54e2c801",
+        "digest": null,
+        "latest_at": "2026-09-09T00:13:13.197Z",
+        "original_url": "https://x.com/alexandr_wang/status/2097472059077202339",
+        "rank": 10,
+        "recovered": true,
+        "representative_source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/fced10bf-8f24-49a8-a22b-981b54e2c801",
+        "title": "Meta 智能体产品 Muse 开放体验，官方回应用户好评"
+      },
+      "observed_at": "2026-09-09T19:49:40.050991Z"
+    }
+  ],
+  "version": 1
+}
