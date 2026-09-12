@@ -36,7 +36,7 @@
       if (!manifest) await metadata();
       const first = ['facts', 'projects', 'launches:today', 'hn:news:ai:rank', 'xrank:tweets:24h'];
       const queue = [...new Set([...first, ...Object.keys(manifest.views)])]
-        .filter(key => manifest.views[key] && !cache.has(manifest.views[key]));
+        .filter(key => !key.startsWith('facts:') && manifest.views[key] && !cache.has(manifest.views[key]));
       async function worker() {
         while (queue.length) {
           const key = queue.shift();
@@ -77,6 +77,34 @@
       return {items: page, page: {count: page.length, total: items.length, offset, hasMore: offset + limit < items.length}};
     }
     let key = url.pathname.slice(5);
+    if (key === 'facts' && p.get('view') === 'events') {
+      const data = await load('facts:events');
+      const lower = p.has('from_ms') ? Number(p.get('from_ms')) : null;
+      const upper = p.has('to_ms') ? Number(p.get('to_ms')) : null;
+      const items = data.items.filter(item => {
+        if (lower === null && upper === null) return true;
+        const time = Date.parse(item.latest_at);
+        return Number.isFinite(time) && (lower === null || time >= lower) && (upper === null || time <= upper);
+      });
+      return {items, count:items.length};
+    }
+    if (key === 'facts' && p.get('view') === 'history') {
+      const history = await load('facts:history');
+      const start = p.get('from') || '', end = p.get('to') || '';
+      const seen = new Set();
+      const items = [...history.items].sort((a,b) => String(b.observed_at).localeCompare(String(a.observed_at))).filter(item => {
+        if ((start && item.archive_date < start) || (end && item.archive_date > end) || seen.has(item.aihot_story_id)) return false;
+        seen.add(item.aihot_story_id);
+        return true;
+      });
+      return {items, count:items.length};
+    }
+    if (key === 'facts' && p.get('date')) {
+      const current = await load('facts');
+      const date = p.get('date');
+      if (!(current.dates || []).includes(date)) return {items:[], count:0, dates:current.dates || [], date};
+      key += ':' + date;
+    }
     if (key === 'launches') key += ':' + (p.get('category') || p.get('range') || 'today');
     if (key === 'xrank') key += ':' + (p.get('kind') || 'tweets') + ':' + (p.get('range') || '24h');
     if (key === 'hn') key += ':' + (p.get('view') || 'news') + ':' + (p.get('scope') || 'ai') + ':' + (p.get('sort') || 'rank');

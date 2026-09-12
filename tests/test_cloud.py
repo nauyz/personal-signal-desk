@@ -70,7 +70,9 @@ class CloudExportTests(unittest.TestCase):
                 self.assertNotIn('location.pathname', js)
                 self.assertNotIn('location.search', js)
                 self.assertIn("|| '/content'", js)
-                self.assertIn('当前暂无达到榜单门槛的热点事件', js)
+                self.assertIn('这个时间范围没有已收录的事件', js)
+                self.assertIn('事件最近信号时间', js)
+                self.assertNotIn('data-facts-view', js)
                 self.assertIn('去看内容', js)
                 self.assertNotIn('selection-summary', js)
 

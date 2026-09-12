@@ -7,7 +7,7 @@ on:
     branches: [master, main]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -36,11 +36,39 @@ jobs:
         run: |
           python -m unittest discover -s tests -q
           node tests/prefetch.cjs
+      - name: Restore durable public facts archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          archive_ref=$(git ls-remote --heads origin refs/heads/facts-archive)
+          if [ -n "$archive_ref" ]; then
+            git fetch origin facts-archive
+            git worktree add .fact-archive FETCH_HEAD
+            git -C .fact-archive switch -c facts-archive
+          else
+            mkdir .fact-archive
+            git -C .fact-archive init -b facts-archive
+            git -C .fact-archive remote add origin "$(git remote get-url origin)"
+          fi
+          python fact_archive.py restore .fact-archive
       - name: Refresh public source snapshots and export
         env:
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           PYTHONUNBUFFERED: '1'
         run: python cloud_build.py --collect
+      - name: Persist facts independently of the cache
+        shell: bash
+        run: |
+          set -euo pipefail
+          python fact_archive.py save .fact-archive
+          git -C .fact-archive config user.name 'github-actions[bot]'
+          git -C .fact-archive config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C .fact-archive add -- '*.json'
+          if ! git -C .fact-archive diff --cached --quiet; then
+            git -C .fact-archive commit -m 'archive: preserve collected public facts'
+            auth=$(git config --get http.https://github.com/.extraheader)
+            git -C .fact-archive -c "http.https://github.com/.extraheader=$auth" push origin HEAD:refs/heads/facts-archive
+          fi
       - uses: actions/cache/save@v4
         with:
           path: data/personal_sources.db

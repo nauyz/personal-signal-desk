@@ -15,7 +15,7 @@ async (page) => {
     await page.locator('#search:not(:disabled)').waitFor();
     await page.evaluate(items => {
       const original = window.cloudAPI;
-      window.cloudAPI = path => path === '/api/facts' ? Promise.resolve({items}) : original(path);
+      window.cloudAPI = path => path === '/api/facts?view=events' ? Promise.resolve({items}) : original(path);
     },items);
     await page.locator('nav a[data-nav=facts]').first().click();
     await page.locator('.facts-timeline').waitFor();
@@ -33,7 +33,7 @@ async (page) => {
     await page.screenshot({path:`facts-timeline-${device}.png`});
     await page.evaluate(async () => {
       const original = window.cloudAPI;
-      window.cloudAPI = path => path === '/api/facts' ? Promise.resolve({items:[]}) : original(path);
+      window.cloudAPI = path => path === '/api/facts?view=events' ? Promise.resolve({items:[]}) : original(path);
       await renderFacts();
     });
     assert(await page.locator('.facts-empty').evaluate(el => getComputedStyle(el).borderTopWidth === '0px'), 'Unboxed empty state');

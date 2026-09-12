@@ -190,19 +190,59 @@ function factCard(item) {
 
 function empty() { return document.querySelector('#empty-template').innerHTML; }
 
+function factsFreshness(meta) {
+  const sync = meta?.sync?.find(row => row.resource === 'hot-topics');
+  const time = Date.parse(sync?.last_synced_at);
+  const failed = sync?.last_status === 'error';
+  const known = Number.isFinite(time) && ['ok', 'not-modified', 'error'].includes(sync?.last_status);
+  const stale = !known || failed || Date.now() - time > 3 * 3600000;
+  const label = !known ? '采集时间未知' : failed ? '最近采集失败' : sync.last_status === 'not-modified' ? '最后检查（无变化）' : '数据最后采集';
+  const html = `<span class="facts-freshness">${label}${known ? `　<strong>${escapeHTML(formatTime(sync.last_synced_at, true))}</strong>（北京时间）` : ''}${stale ? ' · 数据可能滞后' : ''}</span>`;
+  return {html, stale};
+}
+
 async function renderFacts(epoch = ++renderEpoch) {
-  const data = await api('/api/facts');
+  const params = new URLSearchParams(location.search);
+  const ranges = {all:'全部', '48h':'近 48 小时', '7d':'近 7 天', '30d':'近 30 天', custom:'自定义'};
+  const range = params.has('date') ? 'custom' : Object.hasOwn(ranges, params.get('range')) ? params.get('range') : 'all';
+  const start = range === 'custom' ? params.get('date') || params.get('from') || '' : '';
+  const end = range === 'custom' ? params.get('date') || params.get('to') || '' : '';
+  const query = new URLSearchParams({view:'events'});
+  if (['48h','7d','30d'].includes(range)) {
+    const now = Date.now();
+    const hours = {'48h':48,'7d':168,'30d':720}[range];
+    query.set('from_ms', String(now - hours * 3600000));
+    query.set('to_ms', String(now));
+  } else if (range === 'custom') {
+    if (start) query.set('from_ms', String(Date.parse(start + 'T00:00:00+08:00')));
+    if (end) query.set('to_ms', String(Date.parse(end + 'T23:59:59.999+08:00')));
+  }
+  const data = await api(`/api/facts?${query}`);
   if (epoch !== renderEpoch) return;
   const timestamp = item => Date.parse(item.latest_at) || 0;
-  const items = [...data.items].sort((a, b) => timestamp(b) - timestamp(a));
-  const latest = items.find(item => timestamp(item))?.latest_at;
-  const sync = state.meta?.sync?.find(item => item.resource === 'hot-topics');
-  const failed = sync?.last_status === 'error';
-  const checked = ['ok', 'not-modified'].includes(sync?.last_status);
-  const title = failed ? '热点榜暂时未能更新' : checked ? '当前暂无达到榜单门槛的热点事件' : '热点榜暂时没有可展示的数据';
-  const detail = failed ? '本次未能获取 AIHOT 热点榜，后续采集会再次尝试。你可以先浏览内容。' : checked ? '这里展示 AIHOT 过去 48 小时内达到热度门槛的事件。当前榜单为空，不代表没有新的 AI 动态。' : '获取到热点榜后，事件会显示在这里。你可以先浏览内容。';
-  app.innerHTML = `${pageHeader('事实', '关注发生了什么：汇集 AI Hot 过去 48 小时的热点事件与相关信源。', latest ? `榜单最近信号　<strong>${escapeHTML(formatTime(latest, true))}</strong>` : '当前热点　<strong>0 个事件</strong>')}
-    ${items.length ? `<div class="results-head"><span><strong>${items.length}</strong> 个事件</span><span>按最近信号时间从新到旧</span></div><section class="content-timeline facts-timeline">${contentTimeline(items, factCard, item => contentMoment({published_at: item.latest_at}))}</section>` : `<section class="empty facts-empty" aria-labelledby="facts-empty-title"><h2 id="facts-empty-title">${title}</h2><p>${detail}</p><a data-nav="content" href="${state.meta?.cloud ? '#/content' : '/content'}">去看内容</a></section>`}`;
+  const items = [...data.items].sort((a,b) => timestamp(b) - timestamp(a));
+  const rangeLabel = range === 'custom' ? `${start || '不限起始'} — ${end || '不限结束'}` : ranges[range];
+  const freshness = factsFreshness(state.meta);
+  app.innerHTML = `${pageHeader('事实', '关注发生了什么：汇集 AI Hot 热点事件与相关信源。', `时间范围　<strong>${escapeHTML(rangeLabel)}</strong>`, freshness.html)}
+    <section class="filters facts-controls"><div class="filter-row"><b id="facts-time-label">事件时间</b><div class="filter-options" aria-labelledby="facts-time-label">${Object.entries(ranges).map(([key,label]) => `<button data-facts-range="${key}" aria-pressed="${range === key}" class="${range === key ? 'active' : ''}">${label}</button>`).join('')}</div></div>
+    ${range === 'custom' ? `<form class="facts-custom-range"><label>开始日期<input type="date" name="from" aria-label="开始日期" value="${escapeHTML(start)}"></label><label>结束日期<input type="date" name="to" aria-label="结束日期" value="${escapeHTML(end)}"></label><div class="filter-options"><button type="submit">应用筛选</button></div><p class="facts-range-error" role="alert"></p></form>` : ''}</section>
+    <p class="facts-history-note">按事件最近信号时间筛选，与下方时间线一致；自定义日期按北京时间计算。</p>
+    ${items.length ? `<div class="results-head"><span><strong>${items.length}</strong> 个事件</span><span>按最近信号时间从新到旧</span></div><section class="content-timeline facts-timeline">${contentTimeline(items, factCard, item => contentMoment({published_at:item.latest_at}))}</section>` : `<section class="empty facts-empty" aria-labelledby="facts-empty-title"><h2 id="facts-empty-title">这个时间范围没有已收录的事件</h2><p>${freshness.stale ? '采集数据可能滞后，当前空结果不能代表没有新事件。' : ''}可以切换到“全部”或调整时间范围。没有收录记录，不代表当时没有热点。</p><a data-nav="content" href="${state.meta?.cloud ? '#/content' : '/content'}">去看内容</a></section>`}`;
+  const change = (nextRange, from = '', to = '', focus = '') => {
+    const query = new URLSearchParams();
+    if (nextRange !== 'all') query.set('range', nextRange);
+    if (from) query.set('from', from);
+    if (to) query.set('to', to);
+    history.pushState({}, '', `/facts${query.size ? '?' + query : ''}`);
+    render().then(() => app.querySelector(focus || `[data-facts-range="${nextRange}"]`)?.focus({preventScroll:true}));
+  };
+  app.querySelectorAll('[data-facts-range]').forEach(button => button.addEventListener('click', () => change(button.dataset.factsRange)));
+  app.querySelector('.facts-custom-range')?.addEventListener('submit', event => {
+    event.preventDefault();
+    const form = event.currentTarget, from = form.elements.from.value, to = form.elements.to.value;
+    if (from && to && from > to) { form.querySelector('[role="alert"]').textContent = '开始日期不能晚于结束日期'; form.elements.from.focus(); return; }
+    change('custom', from, to, '.facts-custom-range button');
+  });
 }
 
 function getContentState() {

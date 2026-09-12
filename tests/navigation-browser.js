@@ -31,7 +31,7 @@ async page => {
   await page.evaluate(()=>{
     const original=window.cloudAPI; let calls=0;
     window.cloudAPI=async path=>{
-      if(path!=='/api/facts') return original(path);
+      if(path!=='/api/facts?view=events') return original(path);
       if(++calls===1) {
         await new Promise(r=>setTimeout(r,700));
         return {items:[{title:'STALE RESPONSE',rank:1}]};

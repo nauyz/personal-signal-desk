@@ -73,6 +73,8 @@ def collect():
         payload = client.get('/hot-topics', 'hot-topics')
         if payload:
             server.upsert_facts(payload, client)
+        else:
+            server.archive_unchanged_facts()
 
     def daily():
         payload = client.get('/dailies/latest', 'daily:latest')
@@ -112,7 +114,12 @@ def collect():
 
 def export():
     server.NETWORK_ENABLED = False
+    server.recover_fact_history()
     data = {'meta': server.query_meta(), 'facts': server.query_facts(), 'projects': server.query_projects(), 'content': []}
+    data['facts:history'] = server.query_fact_history(deduplicate=False)
+    data['facts:events'] = server.query_fact_events()
+    for day in data['facts']['dates']:
+        data[f'facts:{day}'] = server.query_facts({'date': [day]})
     data['meta'].update(cloud=True, publishedAt=server.utc_now())
     data['meta']['cadenceHours'] = CADENCE
     data['meta']['sync'] = [row for row in data['meta']['sync'] if not row['resource'].startswith('cloud:')]

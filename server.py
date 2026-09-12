@@ -243,6 +243,11 @@ def init_db() -> None:
       original_url TEXT, in_current INTEGER NOT NULL DEFAULT 1,
       raw_json TEXT NOT NULL, created_at TEXT NOT NULL, updated_at TEXT NOT NULL
     );
+    CREATE TABLE IF NOT EXISTS fact_history (
+      archive_date TEXT NOT NULL, aihot_story_id TEXT NOT NULL,
+      observed_at TEXT NOT NULL, item_json TEXT NOT NULL,
+      PRIMARY KEY(archive_date, aihot_story_id)
+    );
     CREATE TABLE IF NOT EXISTS daily_reports (
       date TEXT PRIMARY KEY, window_start TEXT, window_end TEXT, generated_at TEXT,
       aihot_url TEXT, raw_json TEXT NOT NULL, created_at TEXT NOT NULL, updated_at TEXT NOT NULL
@@ -327,6 +332,7 @@ def init_db() -> None:
         for dimension, labels in TAXONOMY_LABELS.items():
             for slug, label in labels.items():
                 conn.execute("INSERT OR IGNORE INTO taxonomy_tags(dimension,slug,label) VALUES(?,?,?)", (dimension, slug, label))
+        archive_fact_rows(conn, conn.execute('SELECT * FROM fact_items').fetchall())
 
 
 class AIHotClient:
@@ -468,6 +474,7 @@ def upsert_facts(payload: dict[str, Any], client: AIHotClient) -> int:
             """, (public_id, topic.get("title"), story.get("status"), topic.get("rank"), source.get("name"),
                   topic.get("sourceCount"), topic.get("signalCount"), topic.get("latestAt"), story.get("digest"),
                   story_url or links.get("aihot"), links.get("original"), 1, raw, now, now))
+        archive_fact_rows(conn, conn.execute('SELECT * FROM fact_items WHERE in_current=1').fetchall(), now)
     return len(topics)
 
 
@@ -1320,6 +1327,8 @@ def sync_all() -> dict[str, Any]:
             payload = client.get("/hot-topics", "hot-topics")
             if payload:
                 result["facts"] = upsert_facts(payload, client)
+            else:
+                archive_unchanged_facts()
         except Exception as exc:
             result["errors"].append(f"hot-topics: {exc}")
         try:
@@ -1402,8 +1411,107 @@ def query_content(params: dict[str, list[str]]) -> dict[str, Any]:
         return {"items": output, "page": {"count": len(output), "total": total, "offset": offset, "hasMore": offset + len(output) < total}}
 
 
-def query_facts() -> dict[str, Any]:
+FACT_PUBLIC_FIELDS = ('aihot_story_id', 'title', 'status', 'rank', 'representative_source',
+                      'source_count', 'signal_count', 'latest_at', 'digest', 'story_url', 'original_url')
+
+
+def archive_fact_rows(conn, rows, observed_at=None):
+    """Keep each day's last observed version per event, including events that leave the list."""
+    for row in rows:
+        item = dict(row)
+        observed = observed_at or item['updated_at']
+        instant = datetime.fromisoformat(observed.replace('Z', '+00:00'))
+        day = instant.astimezone(timezone(timedelta(hours=8))).date().isoformat()
+        observed = instant.astimezone(timezone.utc).isoformat(timespec='microseconds').replace('+00:00', 'Z')
+        public = {key: item.get(key) for key in FACT_PUBLIC_FIELDS}
+        # Legacy rows prove one observation only, never reconstruct missing daily lists.
+        public['recovered'] = observed_at is None
+        conn.execute('''INSERT INTO fact_history VALUES(?,?,?,?)
+            ON CONFLICT(archive_date,aihot_story_id) DO UPDATE SET
+            observed_at=excluded.observed_at,item_json=excluded.item_json
+            WHERE excluded.observed_at > fact_history.observed_at''',
+            (day, item['aihot_story_id'], observed, json.dumps(public, ensure_ascii=False)))
+
+
+def recover_fact_history():
+    with closing(connect()) as conn, conn:
+        archive_fact_rows(conn, conn.execute('SELECT * FROM fact_items').fetchall())
+
+
+def archive_unchanged_facts():
+    """A 304 confirms the cached list is still current; failures do not create observations."""
+    with closing(connect()) as conn, conn:
+        state = conn.execute("SELECT last_status FROM sync_state WHERE resource='hot-topics'").fetchone()
+        if state and state[0] == 'not-modified':
+            archive_fact_rows(conn, conn.execute('SELECT * FROM fact_items WHERE in_current=1').fetchall(), utc_now())
+
+
+def query_fact_history(params=None, deduplicate=True):
+    params = params or {}
+    start, end = ((params.get(key) or [''])[0] for key in ('from', 'to'))
+    for day in (start, end):
+        if day:
+            datetime.strptime(day, '%Y-%m-%d')
+    if start and end and start > end:
+        raise ValueError('开始日期不能晚于结束日期')
+    with closing(connect()) as conn:
+        rows = conn.execute('''SELECT * FROM fact_history
+            WHERE (?='' OR archive_date>=?) AND (?='' OR archive_date<=?)
+            ORDER BY observed_at DESC,aihot_story_id ASC''', (start, start, end, end)).fetchall()
+    items, seen = [], set()
+    for row in rows:
+        if deduplicate and row['aihot_story_id'] in seen:
+            continue
+        seen.add(row['aihot_story_id'])
+        items.append({**json.loads(row['item_json']), 'observed_at': row['observed_at'], 'archive_date': row['archive_date']})
+    return {'items': items, 'count': len(items)}
+
+
+def query_fact_events(params=None):
+    """One latest saved version per event; filter the same signal timestamp the UI displays."""
+    params = params or {}
+    lower = int(params['from_ms'][0]) if params.get('from_ms') else None
+    upper = int(params['to_ms'][0]) if params.get('to_ms') else None
+    if lower is not None and upper is not None and lower > upper:
+        raise ValueError('开始时间不能晚于结束时间')
+    candidates = query_fact_history(deduplicate=False)['items']
+    candidates.extend({**item, 'observed_at': item['updated_at']} for item in query_facts()['items'])
+    latest = {}
+    for item in candidates:
+        key = item['aihot_story_id']
+        if key not in latest or item['observed_at'] > latest[key]['observed_at']:
+            latest[key] = item
+    items = []
+    for item in latest.values():
+        if lower is not None or upper is not None:
+            try:
+                instant = datetime.fromisoformat(item['latest_at'].replace('Z', '+00:00'))
+                if instant.tzinfo is None:
+                    continue
+                milliseconds = round(instant.timestamp() * 1000)
+            except (ValueError, TypeError, AttributeError, KeyError):
+                continue
+            if (lower is not None and milliseconds < lower) or (upper is not None and milliseconds > upper):
+                continue
+        items.append(item)
+    return {'items': items, 'count': len(items)}
+
+
+def query_facts(params=None) -> dict[str, Any]:
+    params = params or {}
+    if (params.get('view') or [''])[0] == 'events':
+        return query_fact_events(params)
+    if (params.get('view') or [''])[0] == 'history':
+        return query_fact_history(params)
+    requested = (params.get('date') or [''])[0]
+    if requested and not re.fullmatch(r'\d{4}-\d{2}-\d{2}', requested):
+        raise ValueError('日期格式应为 YYYY-MM-DD')
     with connect() as conn:
+        dates = [row[0] for row in conn.execute('SELECT DISTINCT archive_date FROM fact_history ORDER BY archive_date DESC')]
+        if requested:
+            rows = conn.execute('SELECT item_json,observed_at FROM fact_history WHERE archive_date=? ORDER BY observed_at DESC', (requested,)).fetchall()
+            items = [{**json.loads(row['item_json']), 'observed_at': row['observed_at']} for row in rows]
+            return {'items': items, 'count': len(items), 'dates': dates, 'date': requested}
         rows = conn.execute("SELECT * FROM fact_items WHERE in_current=1 ORDER BY rank ASC").fetchall()
         items = []
         for row in rows:
@@ -1411,7 +1519,7 @@ def query_facts() -> dict[str, Any]:
             item.pop("raw_json", None)
             item["in_current"] = bool(item["in_current"])
             items.append(item)
-        return {"items": items, "count": len(items)}
+        return {"items": items, "count": len(items), "dates": dates, "date": None}
 
 
 def query_daily() -> dict[str, Any]:
@@ -1685,7 +1793,7 @@ class Handler(SimpleHTTPRequestHandler):
             if parsed.path == "/api/content":
                 return self.send_json(query_content(params))
             if parsed.path == "/api/facts":
-                return self.send_json(query_facts())
+                return self.send_json(query_facts(params))
             if parsed.path == "/api/daily":
                 return self.send_json(query_daily())
             if parsed.path == "/api/projects":

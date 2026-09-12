@@ -25,7 +25,7 @@ const server = http.createServer((req,res) => {
   const reports = [];
   process.chdir(output);
   try {
-    const tests = ['search-browser','navigation-browser','information-labels-browser','facts-timeline-browser','analytics-browser','projects-translation-browser'];
+    const tests = ['search-browser','navigation-browser','information-labels-browser','facts-timeline-browser','analytics-browser','projects-translation-browser','facts-history-browser'];
     const requested = process.argv.slice(2);
     if (requested.some(test => !tests.includes(test))) throw Error('Unknown browser test');
     for (const test of (requested.length ? requested : tests)) {

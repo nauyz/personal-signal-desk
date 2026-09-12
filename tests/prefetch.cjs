@@ -3,6 +3,7 @@ const vm = require('node:vm');
 const assert = require('node:assert/strict');
 const views = Object.fromEntries(['content','facts','projects','launches:today','hn:news:ai:rank','xrank:tweets:24h','extra'].map(k => [k,k+'.json']));
 const counts = {};
+views['facts:2026-09-01'] = 'facts-history.json';
 let active = 0, peak = 0, fail = true;
 const context = vm.createContext({URL, Map, Set, Promise, setTimeout,
   location: {origin: 'https://example.com'},
@@ -30,6 +31,7 @@ vm.runInContext(fs.readFileSync('static/cloud-api.js','utf8'),context);
   fail = false;
   await context.window.prefetchCloudViews();
   assert.equal(counts['extra.json'], 2);
-  for (const key of Object.keys(views).filter(k=>k!=='extra')) assert.equal(counts[views[key]],1);
+  for (const key of Object.keys(views).filter(k=>k!=='extra' && !k.startsWith('facts:'))) assert.equal(counts[views[key]],1);
+  assert.equal(counts['facts-history.json'], undefined, 'History must not preload');
   console.log('PASS: deferred start, two workers, shared requests, cache reuse, failure retry');
 })().catch(e=>{console.error(e);process.exitCode=1;});
