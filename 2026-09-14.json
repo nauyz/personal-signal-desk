@@ -7,16 +7,16 @@
         "digest": null,
         "latest_at": "2026-09-13T01:11:44.000Z",
         "original_url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 3,
+        "signal_count": 2,
         "source_count": 2,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/036f18d8-db67-479f-855d-7bd2a6c4e6c3",
         "title": "NYU 数学家指控 OpenAI 在千禧年难题竞赛中不正当竞争，Bubeck 否认"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
@@ -41,16 +41,33 @@
         "digest": null,
         "latest_at": "2026-09-09T08:37:36.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2097605329123147987",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 5,
+        "signal_count": 3,
         "source_count": 0,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/212a965c-6fd8-4067-9263-5d5125d5b4fc",
         "title": "美国政府指控 DeepSeek 等 6 家中国 AI 公司工业规模蒸馏美国模型"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "36b78a69-27da-4cf0-a4a6-8a666ccd7223",
+        "digest": "OpenAI 宣布在 API 中正式发布全双工语音模型 GPT-Live-1。该模型此前已在 ChatGPT 中应用，支持边听边说的自然对话，并能处理打断、停顿及背景噪声。开发者可将其与后端文本模型（如 GPT-6 Astra）或第三方模型配对，以处理复杂推理和工具调用。\n\nGPT-Live-1 的前端语音层定价为每分钟 0.05 美元，后端模型及智能体工具的费用需另行计算。OpenAI 公司宣称，在其内部评测中，GPT-Live-1 在 Full Duplex Bench 测试中的表现比前代模型 GPT-Realtime-2.1 高出 30 个百分点；在搭配 GPT-6 Astra 中等推理强度时，于 Tau3 端到端语音智能体任务测试中排名第一。在早期评估中，语言学习平台 Speak 使用该模型后，学习者思考停顿期间的误打断次数较此前基于轮次的系统减少近 80%。\n\n该模型目前提供十二种新语音，涵盖不同口音、方言和语言，并支持原生语音识别转写和回复文本。OpenAI 表示，未来几个月将继续扩展语音选项和语言支持。开发者现可通过 API 使用 GPT-Live-1 构建语音应用，如电话预订、客户服务等场景。",
+        "latest_at": "2026-09-14T00:20:10.000Z",
+        "original_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 2,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/36b78a69-27da-4cf0-a4a6-8a666ccd7223",
+        "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1"
+      },
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
@@ -61,30 +78,30 @@
         "rank": 6,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 8,
+        "signal_count": 7,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/598b9f73-8f9e-4a03-948f-c96bda5d3b4e",
         "title": "OpenAI 发布 Agents API 公测版"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
         "aihot_story_id": "711b39b3-5fe7-4a3c-95f9-f956996a4d7a",
-        "digest": null,
-        "latest_at": "2026-09-12T14:05:18.000Z",
-        "original_url": "https://www.ithome.com/1/001/488.htm",
-        "rank": 3,
+        "digest": "据The Information报道，Anthropic正考虑在IPO期间允许员工和早期投资者出售部分股份，但要求他们对剩余股份等待更长时间再出售。此举旨在为内部人士提供流动性，同时避免上市后大量股份涌入市场，以帮助控制股价波动。报道指出，SpaceX和Cerebras在IPO中未允许现有股东出售股份，因此Anthropic的考虑方案有所不同。\n\n据路透社报道，英伟达正与Anthropic洽谈，考虑以基石投资者身份参与其IPO，投资至多100亿美元。Anthropic计划通过此次IPO融资最多1000亿美元，估值或达到约2万亿美元，这有望成为史上最大规模的IPO。谈判仍在进行中，融资规模、投资金额及其他安排均可能发生变化。Anthropic拒绝置评，英伟达未立即回应置评请求。\n\n据Business Insider援引知情人士披露，Anthropic已选定纳斯达克作为潜在IPO地点，目标估值约2万亿美元。该公司已于6月1日向美国证券交易委员会秘密提交S-1注册草案，并计划在2026年10月中旬启动路演，目标是在11月美国中期选举前完成挂牌。多家投行如高盛、摩根大通与摩根士丹利将担任主承销商。",
+        "latest_at": "2026-09-13T22:41:40.000Z",
+        "original_url": "https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo",
+        "rank": 2,
         "recovered": false,
-        "representative_source": "IT之家（RSS）",
-        "signal_count": 13,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 12,
         "source_count": 3,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/711b39b3-5fe7-4a3c-95f9-f956996a4d7a",
-        "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元"
+        "title": "Nvidia 拟向 Anthropic IPO 投资至多 100 亿美元"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
@@ -95,13 +112,13 @@
         "rank": 7,
         "recovered": false,
         "representative_source": "MarkTechPost（RSS）",
-        "signal_count": 5,
+        "signal_count": 4,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
         "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
@@ -109,16 +126,16 @@
         "digest": null,
         "latest_at": "2026-09-12T21:41:36.000Z",
         "original_url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-google",
-        "rank": 2,
+        "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 11,
-        "source_count": 7,
+        "signal_count": 8,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/9430c38f-c9b0-41ec-95a2-1aa5b0b804ec",
         "title": "研究分析称 OpenAI 智能体曾向 RubyGems 上传 2000 多个恶意包"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
@@ -146,13 +163,13 @@
         "rank": 5,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 10,
+        "signal_count": 6,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b9ebd413-667a-4099-ac65-17145aad06ad",
         "title": "Anthropic 发布四起 Claude 网络安全评估事故的对齐评估报告"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
@@ -160,16 +177,16 @@
         "digest": null,
         "latest_at": "2026-09-13T11:58:28.662Z",
         "original_url": "https://openai.com/index/navier-stokes-solution",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 7,
+        "signal_count": 5,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/c569fed6-5ad5-4c71-b7f2-6de4d75eb33f",
         "title": "OpenAI 宣布以内部 AI 系统给出 Navier–Stokes 千禧年问题解答"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     },
     {
       "item": {
@@ -180,13 +197,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "signal_count": 52,
+        "signal_count": 42,
         "source_count": 16,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
         "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑"
       },
-      "observed_at": "2026-09-13T22:27:44.444247Z"
+      "observed_at": "2026-09-14T01:11:37.428544Z"
     }
   ],
   "version": 1
