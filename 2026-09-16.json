@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "37de8617-5db1-47ff-b221-e2176095fe51",
+        "digest": null,
+        "latest_at": "2026-09-14T19:28:42.000Z",
+        "original_url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "Apple：Newsroom（RSS）",
+        "signal_count": 8,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/37de8617-5db1-47ff-b221-e2176095fe51",
+        "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "50f43968-6229-4d02-aee7-f811dd269c70",
+        "digest": null,
+        "latest_at": "2026-09-15T09:04:36.000Z",
+        "original_url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Ars Technica：AI（RSS）",
+        "signal_count": 35,
+        "source_count": 8,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/50f43968-6229-4d02-aee7-f811dd269c70",
+        "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "57c9927e-f041-4203-8708-27bf10343288",
+        "digest": null,
+        "latest_at": "2026-09-14T22:59:41.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 5,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/57c9927e-f041-4203-8708-27bf10343288",
+        "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "62dfe29a-0642-42b0-9167-499fe8e2ec51",
+        "digest": null,
+        "latest_at": "2026-09-14T19:06:13.000Z",
+        "original_url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "MarkTechPost（RSS）",
+        "signal_count": 14,
+        "source_count": 9,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/62dfe29a-0642-42b0-9167-499fe8e2ec51",
+        "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
+        "digest": "DeepSeek 发布 DeepSeek-V4.1-Flash，官方称其为新架构家族中最小模型，具备原生视觉理解，面向更强能力、更快推理、更高吞吐并支持扩展至更大模型。据 MarkTechPost 与 The Decoder 报道，该模型为 552B 骨干参数的多模态 MoE，另有 196B Engram 参数，1M token 上下文，采用因果编码器-解码器结构，prefill 激活 8B、decode 激活 16B；KV 缓存每 token 约 890 字节，约为 V4-Flash 的 1/4，较 V4-V1 缩小约 437 倍，HBM 需求降至 1/4、SSD 需求降至 1/8。模型以 MIT 许可在 Hugging Face 开放权重，并提供 vLLM、SGLang、Transformers 路径及公开 API。\n\n各方对性能与成本的评价多来自自测或官方口径。DeepSeek 自测显示 DeepSWE v1.1 达 74.2%，超过 GPT-5.6 Sol 的 73.0% 与 Opus 5；Artificial Analysis 测得 Intelligence Index 40 分，超过 DeepSeek V4 Pro 0813，但指出其输出冗长（每任务 89k tokens），成本约 $0.27/任务。Fireworks 自测 DeepSWE 74.34% pass@1、$0.43/任务，称与 GPT-6 Astra 同级精度但成本低 15 倍，99.6% 输入 token 为缓存命中。The Decoder 指出其在复杂科学任务与图像分析上仍与领先闭源系统存在差距。\n\nAPI 与生态方面，DeepSeek 第一方 API 定价为输入 $0.30/百万 token、输出 $1.20/百万 token，缓存命中输入 $0.006/百万 token，闲时再打五折。公司称自 9 月 14 日起 V4-Pro API 请求将临时路由至 V4.1-Flash，直至 V4.1-Pro 到来；Baseten 称 DeepSeek 已停用平台上的 V4-Flash 并将流量路由至 V4.1-Flash。模型陆续上线国家超算互联网中心、腾讯 WorkBuddy、阿里云 Token Plan（起价 $6/月）等平台。OpenRouter 称其 24 小时处理 1T tokens，预计 48 小时约 2.8T，其中 90% 为缓存读取。SemiAnalysis 称 AMD 公开发布镜像，功能开箱即用，但每美元性能目前最多落后 H200 14.8 倍、B200/B300 42 倍。\n\n技术解读方面，马东锡 NLP 介绍 Causal Encoder–Decoder 使 decoder 的 global KV 直接由 causal encoder 最终输出生成，第 21–40 层跨层共享 KV，从而减少 prefill 计算。DeepSeek Harness 团队同期发布 v0.1.5，称与 V4.1 Flash 模型训练深度结合并含实验性 Agent Teams 功能，团队仍在开放招聘。",
+        "latest_at": "2026-09-15T07:57:48.000Z",
+        "original_url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Fireworks AI（网页）",
+        "signal_count": 10,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
+        "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "89fef8dc-553e-45c9-9d2c-add0cb5a37f3",
+        "digest": null,
+        "latest_at": "2026-09-14T16:48:24.049Z",
+        "original_url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 20,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/89fef8dc-553e-45c9-9d2c-add0cb5a37f3",
+        "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ac2caa51-d0d3-4e27-a35f-471eb4acb691",
+        "digest": null,
+        "latest_at": "2026-09-14T19:28:42.000Z",
+        "original_url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Apple：Newsroom（RSS）",
+        "signal_count": 27,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/ac2caa51-d0d3-4e27-a35f-471eb4acb691",
+        "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "adc6a951-9694-467e-a82f-8598cd642379",
+        "digest": null,
+        "latest_at": "2026-09-15T06:51:02.000Z",
+        "original_url": "https://www.ithome.com/1/000/188.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/adc6a951-9694-467e-a82f-8598cd642379",
+        "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d11fb65f-023b-4b2b-8569-1974cebba02c",
+        "digest": null,
+        "latest_at": "2026-09-15T12:47:32.000Z",
+        "original_url": "https://tomtunguz.com/what-does-the-pause-mean",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Tomer Tunguz 博客（VC 分析）",
+        "signal_count": 32,
+        "source_count": 14,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
+        "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f6d460c2-3297-4f03-b10d-16951b0ddd13",
+        "digest": null,
+        "latest_at": "2026-09-15T09:04:36.000Z",
+        "original_url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 14,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f6d460c2-3297-4f03-b10d-16951b0ddd13",
+        "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机"
+      },
+      "observed_at": "2026-09-15T18:15:43.613382Z"
+    }
+  ],
+  "version": 1
+}
