@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-09-14T19:28:42.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
         "signal_count": 8,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.virxact.com/story/37de8617-5db1-47ff-b221-e2176095fe51",
         "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
@@ -24,16 +24,16 @@
         "digest": null,
         "latest_at": "2026-09-15T09:04:36.000Z",
         "original_url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
-        "rank": 1,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Ars Technica：AI（RSS）",
-        "signal_count": 35,
-        "source_count": 8,
+        "signal_count": 26,
+        "source_count": 7,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/50f43968-6229-4d02-aee7-f811dd269c70",
         "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
@@ -58,33 +58,33 @@
         "digest": null,
         "latest_at": "2026-09-14T19:06:13.000Z",
         "original_url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down",
-        "rank": 4,
+        "rank": 7,
         "recovered": false,
         "representative_source": "MarkTechPost（RSS）",
-        "signal_count": 14,
-        "source_count": 9,
+        "signal_count": 11,
+        "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/62dfe29a-0642-42b0-9167-499fe8e2ec51",
         "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
         "aihot_story_id": "7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
-        "digest": "DeepSeek 发布 DeepSeek-V4.1-Flash，官方称其为新架构家族中最小模型，具备原生视觉理解，面向更强能力、更快推理、更高吞吐并支持扩展至更大模型。据 MarkTechPost 与 The Decoder 报道，该模型为 552B 骨干参数的多模态 MoE，另有 196B Engram 参数，1M token 上下文，采用因果编码器-解码器结构，prefill 激活 8B、decode 激活 16B；KV 缓存每 token 约 890 字节，约为 V4-Flash 的 1/4，较 V4-V1 缩小约 437 倍，HBM 需求降至 1/4、SSD 需求降至 1/8。模型以 MIT 许可在 Hugging Face 开放权重，并提供 vLLM、SGLang、Transformers 路径及公开 API。\n\n各方对性能与成本的评价多来自自测或官方口径。DeepSeek 自测显示 DeepSWE v1.1 达 74.2%，超过 GPT-5.6 Sol 的 73.0% 与 Opus 5；Artificial Analysis 测得 Intelligence Index 40 分，超过 DeepSeek V4 Pro 0813，但指出其输出冗长（每任务 89k tokens），成本约 $0.27/任务。Fireworks 自测 DeepSWE 74.34% pass@1、$0.43/任务，称与 GPT-6 Astra 同级精度但成本低 15 倍，99.6% 输入 token 为缓存命中。The Decoder 指出其在复杂科学任务与图像分析上仍与领先闭源系统存在差距。\n\nAPI 与生态方面，DeepSeek 第一方 API 定价为输入 $0.30/百万 token、输出 $1.20/百万 token，缓存命中输入 $0.006/百万 token，闲时再打五折。公司称自 9 月 14 日起 V4-Pro API 请求将临时路由至 V4.1-Flash，直至 V4.1-Pro 到来；Baseten 称 DeepSeek 已停用平台上的 V4-Flash 并将流量路由至 V4.1-Flash。模型陆续上线国家超算互联网中心、腾讯 WorkBuddy、阿里云 Token Plan（起价 $6/月）等平台。OpenRouter 称其 24 小时处理 1T tokens，预计 48 小时约 2.8T，其中 90% 为缓存读取。SemiAnalysis 称 AMD 公开发布镜像，功能开箱即用，但每美元性能目前最多落后 H200 14.8 倍、B200/B300 42 倍。\n\n技术解读方面，马东锡 NLP 介绍 Causal Encoder–Decoder 使 decoder 的 global KV 直接由 causal encoder 最终输出生成，第 21–40 层跨层共享 KV，从而减少 prefill 计算。DeepSeek Harness 团队同期发布 v0.1.5，称与 V4.1 Flash 模型训练深度结合并含实验性 Agent Teams 功能，团队仍在开放招聘。",
+        "digest": null,
         "latest_at": "2026-09-15T07:57:48.000Z",
         "original_url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Fireworks AI（网页）",
         "signal_count": 10,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
         "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
@@ -95,13 +95,13 @@
         "rank": 6,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 20,
+        "signal_count": 18,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/89fef8dc-553e-45c9-9d2c-add0cb5a37f3",
         "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
@@ -118,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/ac2caa51-d0d3-4e27-a35f-471eb4acb691",
         "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
@@ -126,7 +126,7 @@
         "digest": null,
         "latest_at": "2026-09-15T06:51:02.000Z",
         "original_url": "https://www.ithome.com/1/000/188.htm",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 9,
@@ -135,24 +135,41 @@
         "story_url": "https://aihot.virxact.com/story/adc6a951-9694-467e-a82f-8598cd642379",
         "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
         "aihot_story_id": "d11fb65f-023b-4b2b-8569-1974cebba02c",
-        "digest": null,
-        "latest_at": "2026-09-15T12:47:32.000Z",
+        "digest": "Anthropic CEO Dario Amodei 于当地时间周六发表《We Must Pace the Frontier》长文，呼吁行业放慢前沿模型能力提升速度，让安全措施跟上。他提出三步方案：第一步由前沿实验室引入嵌入式第三方评估者（如 METR），给予接近内部风险团队的持续访问权限，可独立发表发现；第二步由民主国家的前沿公司协调建立共同安全标准与进展限制；第三步推动全球协调，并称全面全球暂停短期内不太可能发生。Anthropic 单方面承诺执行第一步，提供工位、工牌、公司笔记本电脑及类似内部风险团队的权限，评估者可不受编辑控制发表关键发现。Amodei 将近期能力加速与 OpenAI 智能体入侵 Hugging Face 事件（OAI-HF）列为理由，并警告若不设防，6 至 12 个月内智能体集群可能以持久僵尸网络接管整个互联网、造成数千亿美元损失。\n\n文章发布后数小时内，OpenAI CEO Sam Altman 表示同意放缓前沿，称独立评估者拥有员工级访问权限是好主意、OpenAI 也会照做，并称相关讨论已在 OpenAI 内部进行数周；xAI 的 Elon Musk 转发称“达里奥是对的”；Google DeepMind 的 Demis Hassabis 称文章指向正确方向、细节待完善；微软 CEO Satya Nadella 对“审慎调速”和嵌入式评估者表示欢迎，但提出该机制不能由少数实体控制、须纳入学术界。MarkTechPost 统计称，截至 9 月 13 日 Amodei 的公告帖在 X 上浏览量超过 6700 万，且除 Anthropic 外尚无其他实验室公布评估者访问的合同条款。\n\n并非所有回应都是支持。Google 研究员 Peyman Milanfar 反驳称递归自我改进是天真假设，反馈回路本身不稳定，稳定性才是速度上限，因此“限速”没有必要。Gartner 分析师 Daryl Plummer 在澳洲 Symposium 演讲中引用研究称软件商宣称 AI 带来 50% 生产力提升而客户仅报 16%，并表示不相信亿万富翁会真正放慢 AI 发展。中国官方背景的《环球时报》指责 Amodei 发动“无声 AI 冷战”、以技术壁垒和监管垄断遏制中国 AI 发展，称该提议“虚伪且短视”；中国外交部回应称渲染恐惧、对抗和恶性竞争只会扰乱全球 AI 治理进程，不符合任何人利益，北京支持国际 AI 治理但拒绝附带美方对华算力限制的放缓。据 Kim 引述，美国政府同样拒绝了这一放缓提议。\n\n后续报道还显示：Altman 澄清“pacing”不意味着“停止”，进展一直很快并将持续；Amodei 在 CBS 采访中澄清放慢不意味着 Anthropic 停止发布更先进模型，但每代模型须经过充分测试。Anthropic 计划以可能超过 2 万亿美元估值在纳斯达克上市，未按预期发布招股书，而是先向一小群投资者分享文件。在最新一次直播对谈中，Amodei 将放缓比作车祸——竞争对手可能从中获利，因此他更倾向与各方合作建立共同标准以避免事故，并明确不会退出放缓安排。",
+        "latest_at": "2026-09-15T17:54:05.000Z",
         "original_url": "https://tomtunguz.com/what-does-the-pause-mean",
-        "rank": 2,
+        "rank": 1,
         "recovered": false,
         "representative_source": "Tomer Tunguz 博客（VC 分析）",
-        "signal_count": 32,
-        "source_count": 14,
-        "status": null,
+        "signal_count": 31,
+        "source_count": 13,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
         "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "db118c4b-c51d-4827-ac12-6ecebbb6c970",
+        "digest": "Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 的名称最早出现在 GCP Console 配额页面，Testing Catalog 将其视为对 GPT Live 1 的回应，并称新 Gemini Live 模型基于最新的 Gemini 3.8 Flash。随后 Google AI 与 Google DeepMind 正式发布这两款实时对话模型，称其为迄今最先进的实时对话模型，在智能与并行推理上有重大升级。\n\n据 Google DeepMind 博客，Gemini 3.8 Live 主打规模与成本效率，可处理句中打断、在对话中自动检测并切换 97 种支持语言、近实时处理视觉输入，并在继续对话的同时在后台执行工具与 API 调用；Gemini 3.8 Live Extended Thinking 面向高复杂度任务，边推理边说话，可用「Let me check that…」等早期口头提示确认请求并实时叙述多步后台任务进度。Google 称 Gemini 3.8 Live 在 Speech Agent Arena 排名第二，Extended Thinking 在 Artificial Analysis 语音到语音质量指数以 82.6 居首，在 τ-Voice 得 68.6%、Sierra τ-Voice-banking 得 35.1%、Big Bench Audio 得 97.7%。两款模型即日起在 Gemini API 与 Google AI Studio 面向开发者推出，在 Gemini Enterprise 私密预览，Gemini 3.8 Live 面向所有人上线 Search Live，Extended Thinking 上线 Gemini Live 及 Workspace 等订阅场景。\n\n第三方报道给出不同侧重：The Decoder 称 Google 对音频输入每分钟收费 0.005 美元、输出 0.018 美元，远低于 OpenAI GPT-Live-1 的每分钟 0.05 美元，一小时语音对话约 1.38 美元对至少 3.00 美元，但认为 OpenAI 模型因全双工和演示听感仍可能提供更自然的对话，暗示 Google 再次以价格优先于质量；Rohan Paul 称 Gemini 3.8 Live 以约 0.84 美元/小时达到前沿级语音代理性能，综合分高于 GPT-Realtime-2 High 且实测成本低约 80%，并称 Extended Thinking 在 τ-Voice 的 68.6% 高于 GPT-Live-1 Astra medium 的 67.9%；Testing Catalog 则称 Extended Thinking (High) 在多数基准测试中超越 GPT Live 1 排名第一。\n\nGoogle 还表示正与 Salesforce、Genspark、Lumeris 合作，合作方称其延迟、流畅度与工具调用能力出色；中文翻译报道另提到 Agora、Fishjam、LangChain、LiveKit、Pipecat、Vercel、Vision Agents 等平台通过 Gemini Live API 支持开发者构建语音界面。",
+        "latest_at": "2026-09-15T20:53:09.000Z",
+        "original_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 0,
+        "source_count": 10,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/db118c4b-c51d-4827-ac12-6ecebbb6c970",
+        "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking"
+      },
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     },
     {
       "item": {
@@ -160,7 +177,7 @@
         "digest": null,
         "latest_at": "2026-09-15T09:04:36.000Z",
         "original_url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 14,
@@ -169,7 +186,7 @@
         "story_url": "https://aihot.virxact.com/story/f6d460c2-3297-4f03-b10d-16951b0ddd13",
         "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机"
       },
-      "observed_at": "2026-09-15T18:15:43.613382Z"
+      "observed_at": "2026-09-15T21:30:31.886152Z"
     }
   ],
   "version": 1
