@@ -21,19 +21,19 @@
     {
       "item": {
         "aihot_story_id": "37de8617-5db1-47ff-b221-e2176095fe51",
-        "digest": "苹果于9月10日向Mac用户推送macOS 27.0 RC更新（内部版本号26A428），距上次Beta/RC发布间隔9天，正式版原计划9月15日发布。该版本更新重点聚焦智能辅助、系统体验与日常办公场景，AI方面推出Siri独立App，用户可像使用聊天机器人一样与Siri交互；通话场景新增Call Context，可在拨打商家电话时从各类应用中提取相关信息，例如给航空公司打电话时调出邮件里的确认码；无障碍方面VoiceOver获得更强的屏幕内容理解能力，系统还加入可为任意视频自动生成同步字幕并翻译现有字幕的功能。\n\n9月14日，苹果官网显示将于北京时间9月15日凌晨1点推送iOS 27、iPadOS 27、macOS 27和watchOS 27等正式版，用户可在“设置”应用的“通用”→“软件更新”下查看。随后苹果正式发布并开始推送macOS 27，官方称Siri AI、下一代Apple Intelligence、家长控制及一系列软件改进自当日起在iOS 27、iPadOS 27、macOS 27等平台陆续推出。Safari中Apple Intelligence可自动将标签页按主题整理、通知网站变化（如补货或降价），并支持根据描述创建自定义扩展；Call Context可在致电商家时呈现确认码或预订号等信息。Mac端AirDrop传输更快、iCloud照片上传启动更快、切换空间与调度中心更流畅。\n\n据Ars Technica报道，此次发布包含macOS 27 Golden Gate，需M系列Mac，且是最后一个支持Rosetta的macOS版本，苹果为部分Intel Mac老游戏保留了例外。系统UI元素全面支持HDR，外接显示器支持更广泛的显示模式；iOS与macOS均新增滑块，可调节“Liquid Glass”设计的透明或模糊程度，macOS还针对用户反馈做了大量小幅设计调整。Siri AI以英语beta形式开始推送，法语、日语、韩语、葡萄牙语和西班牙语将于10月推出；欧盟的Mac和Apple Vision Pro用户在设置为受支持语言后可使用Siri AI，但Siri AI初期不会在欧盟的iOS、iPadOS和watchOS上提供。",
+        "digest": null,
         "latest_at": "2026-09-14T19:28:42.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
         "signal_count": 8,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/37de8617-5db1-47ff-b221-e2176095fe51",
         "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
@@ -72,19 +72,19 @@
     {
       "item": {
         "aihot_story_id": "50f43968-6229-4d02-aee7-f811dd269c70",
-        "digest": "Anthropic 预训练研究员 Jacob Coxon 本周宣布辞职，并在 X 发布公开信称 OpenAI 和 Anthropic 正「直奔自我改进型超级智能，拿我们的生命赌博」，称开发 AI 的人真心相信这项技术可能在本十年末杀死所有人。Anthropic 对齐科学负责人 Evan Hubinger 随后公开支持该观点，称「我们确实认真相信 AI 可能杀死所有人类」，个人估计未来十年内概率超过 10%。Coxon 的帖子获得超过 1.5 亿次浏览，他随后接受 CNN、Fox News、NBC News、CBS News、BBC 等媒体采访，称递归自我改进是最大风险、人类尚不知如何控制 AI、AI 可能自我复制并经互联网转移而无法简单断电关闭。\n\n事件引发多方回应。Anthropic CEO Dario Amodei 在 CNN 回应称「我同意雅各布的地方远多于不同意」，并称 Coxon 离职时表示 Anthropic 是全行业最负责任的参与者，其批评针对的是整个行业发展过快。OpenAI CEO Sam Altman 在 Fortune 访谈中称「到本十年末以约 10% 概率杀死所有人是不可接受的」，随后在 X 发帖支持对 AI 发展「控速」但并非「叫停」，欢迎联邦前沿 AI 安全框架。Y Combinator CEO 陈嘉兴在 CNBC 采访中称应关注现实 AI 安全风险而非好莱坞式末日情景，并肯定 OpenAI 和 Anthropic 研究人员的示警。\n\n批评与反对声音同时出现。David Sacks 指控 Coxon 的辞职推文风暴是一场由有组织、有资金团体协调放大的计划性「末日论行动」，并称 OpenAI 和 Anthropic 无需监管来控制前沿模型发展步伐，呼吁前沿模型厂商自律而非等待华盛顿监管。Michael Burry 称 OpenAI 和 Anthropic 利用 AI 末日恐惧保护在位者并推高 IPO 热度，主张当前 LLM 不会成为 AGI，强制放缓监管可成为准入壁垒。众议院议长 Mike Johnson 称需要设置 AI 安全护栏，但表示无需恐慌、反对国会实施紧急暂停，并提议 AI 平台负责人与国会会面商定监管平衡。特朗普在 Truth Social 发文称存在针对 AI 和数据中心的阴谋，在 All In 峰会上称放缓 AI 只会让中国受益、对 AI 进展的担忧是「骗局」。\n\n其他相关表态包括：Anthropic CEO Dario Amodei 发表文章《我们必须管控前沿研发节奏》，呼吁放缓 AI 研发速度，Anthropic 承诺向第三方评估人员开放永久、等同于内部员工级别的模型访问权限；Hugging Face CEO 克莱门特·德朗格质疑围绕 Coxon 的讨论，称需要放在更完整背景下看待；Paul Christiano 警告若无更好监督人类可能永久失去对超级智能的控制，他已加入 OpenAI Foundation 董事会及其安全与安全委员会但无投票权。",
-        "latest_at": "2026-09-15T04:48:22.000Z",
+        "digest": "Anthropic 预训练研究员 Jacob Coxon 本周宣布辞职，并在 X 发布公开信，称 OpenAI 和 Anthropic 正「直奔自我改进型超级智能，拿我们的生命赌博」，并称开发 AI 的人真心相信 AI 可能在本十年结束前杀死所有人。Anthropic 对齐科学负责人 Evan Hubinger 随后公开表示「我们确实真心相信 AI 可能杀死所有人类」，个人估计未来十年内概率超过 10%。Coxon 的帖子获得超过 1.5 亿次浏览，随后他先后接受 Fox News、NBC News、CNN、CBS News、BBC 采访，称递归自我改进是最大风险、人类尚不知如何控制 AI、AI 可能自我复制并经互联网转移而无法简单断电关闭，并预测一年内许多研究领域可能不再需要人类做研究。\n\n事件引发多方回应。Anthropic CEO Dario Amodei 在 CNN 回应称「我同意 Jacob 的地方远多于不同意」，并称 Coxon 离职时曾表示 Anthropic 是行业中最负责任的参与者，其批评针对的是整个行业发展过快。Sam Altman 在 Fortune 访谈中称「到本十年末以约 10% 概率杀死所有人是不可接受的」，随后在 X 发帖支持对 AI 发展「控速」但并非「叫停」，欢迎联邦前沿 AI 安全框架。Y Combinator CEO 陈嘉兴在 CNBC 采访中称应关注现实 AI 安全风险而非好莱坞式末日情景，并肯定 OpenAI 和 Anthropic 研究人员的示警。Hugging Face CEO 克莱门特·德朗格则呼吁将 Coxon 放在更完整背景下看待。\n\n批评与反对声音同时出现。David Sacks 指控 Coxon 的辞职推文风暴是一场由有组织、有资金团体协调放大的计划性「末日论行动」，并称 OpenAI 和 Anthropic 无需监管来控制前沿模型发展步伐，呼吁前沿模型厂商自律。Michael Burry 称 OpenAI 和 Anthropic 利用 AI 末日恐惧保护在位者并推高 IPO 热度，主张当前 LLM 不会成为 AGI。黄仁勋批评 Coxon 的 10% 灭绝概率预测「是编造的、无数据无科学依据且不负责任」。众议院议长 Mike Johnson 称需要设置 AI 安全护栏但反对国会实施紧急暂停。特朗普在 Truth Social 发文称存在针对 AI 和数据中心的阴谋，并在 All In 峰会上称放缓 AI 只会让中国受益、对 AI 进展的担忧是「骗局」。\n\n监管层面，Anthropic CEO Dario Amodei 发表文章《我们必须管控前沿研发节奏》，呼吁放缓 AI 研发速度，提议独立评估机构获得前沿 AI 系统访问权限，Anthropic 已承诺向第三方评估人员开放永久、等同于内部员工级别的模型访问权限。OpenAI 发表立场声明，欢迎联邦前沿 AI 安全框架，澄清 pacing 不是停止开发而是放缓速度，并在可能重大跃升的训练前设置安全协议。",
+        "latest_at": "2026-09-15T09:04:36.000Z",
         "original_url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
         "rank": 1,
         "recovered": false,
         "representative_source": "Ars Technica：AI（RSS）",
-        "signal_count": 42,
-        "source_count": 10,
+        "signal_count": 35,
+        "source_count": 9,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/50f43968-6229-4d02-aee7-f811dd269c70",
         "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
@@ -92,7 +92,7 @@
         "digest": null,
         "latest_at": "2026-09-14T22:59:41.000Z",
         "original_url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
         "signal_count": 5,
@@ -101,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/57c9927e-f041-4203-8708-27bf10343288",
         "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
@@ -118,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/62dfe29a-0642-42b0-9167-499fe8e2ec51",
         "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
@@ -140,19 +140,19 @@
     {
       "item": {
         "aihot_story_id": "7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
-        "digest": "DeepSeek 发布 DeepSeek-V4.1-Flash，官方称其为新架构家族中最小、更快更高效的模型，具备原生视觉理解，面向更强能力、更快推理与更高吞吐。据 Testing Catalog 与 MarkTechPost 等报道，该模型为 552B 参数 MoE，采用新的编码器-解码器结构，支持 1M token 上下文，MIT 许可开放权重，并在 Hugging Face 提供 vLLM、SGLang 与 Transformers 路径。MarkTechPost 称其每 token 全局 KV 缓存为 890 字节，约为 DeepSeek-V4-Flash 的 1/4、比 DeepSeek-V1 小约 437 倍；预训练覆盖 45T 多模态 token，文本与多模态比例 7:1。\n\n技术细节方面，马东锡 NLP 介绍其 Causal Encoder–Decoder 架构：decoder 的 global KV 直接由 causal encoder 最终输出生成，无需整段 prompt 经过所有 decoder 层，为减少 prefill 计算提供基础；第 21 层生成的 decoder global KV bank 供第 21–40 层共享。SemiAnalysis 称其 552B 骨干在 prefill 激活 8B、decode 激活 16B，另有 196B Engram 记忆经稀疏查找访问，持久 KV 较 V4-Flash 减少约 8 倍。The Decoder 报道称输入计算近乎减半，主 KV 缓存以 FP4 存储，并指出该模型在复杂科学任务与图像分析上仍存在差距。\n\n性能与定价上，Artificial Analysis 称 V4.1 Flash 以 40 分超越 DeepSeek V4 Pro 0813 成为新旗舰，第一方 API 定价为每百万输入 token 0.30 美元、输出 1.20 美元，缓存命中输入 0.006 美元（98% 折扣），闲时再打五折。Kim 称据 DeepSeek 自测其在 DeepSWE 得 74.2%，高于 GPT-5.6 Sol 的 73.0%，并较 V4-Flash 降价：新输入 32%、缓存输入 57%、输出 9%。Fireworks 自测 DeepSWE 得 74.34% pass@1、每任务 0.43 美元，称与 GPT-6 Astra 同级准确率而成本低约 15 倍；Terminal-Bench 2.1 得 86.5%，落后 Astra 1 分但综合成本低 12 倍；HLE 单独得 34.52%，落后 Astra 的 50.40%，二者 oracle router 组合上界 54.80%。\n\n落地与迁移方面，IT之家报道该模型于 9 月 10 日上线国家超算互联网中心，提供 API 调用界面。Baseten 称 DeepSeek 已停用平台上的 V4-Flash 模型并将流量路由至 V4.1-Flash，V4-Pro 流量也将自 9 月 14 日起改道；X.PIN 称 V4 Pro 服务计划于北京时间 9 月 14 日中午结束，请求将路由至 V4.1 Flash 并按其次费率计费。OpenRouter 称该模型 24 小时处理 1T token，预计 48 小时约 2.8T，其中 90% 为缓存读取，市场定价约 0.006 美元/百万 token。SemiAnalysis 称 AMD 在 CUDA vLLM 支持两天后公开发布其镜像，功能开箱即用，但每美元性能目前最多落后 H200 14.8 倍、B200/B300 42 倍。",
-        "latest_at": "2026-09-15T04:54:05.000Z",
+        "digest": "DeepSeek 发布 DeepSeek-V4.1-Flash，官方称其为新架构家族中最小、具备原生视觉理解的模型，主打更强、更快、更高效。据 DeepSeek 官方及多方报道，该模型为 552B 参数 MoE，采用新的 Causal Encoder–Decoder 结构，输入侧激活 8B、输出侧激活 16B，支持 1M token 上下文，并以 MIT 许可开放权重、提供技术报告与 API。MarkTechPost 报道其全局 KV 缓存为每 token 890 字节，约为 V4-Flash 的 1/4、比 DeepSeek-V1 小约 437 倍；IT之家、The Decoder 等报道 KV 缓存对 HBM 需求降至上一代 1/4、对 SSD 需求降至 1/8。",
+        "latest_at": "2026-09-15T07:57:48.000Z",
         "original_url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Fireworks AI（网页）",
         "signal_count": 10,
-        "source_count": 4,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
         "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
@@ -160,16 +160,16 @@
         "digest": null,
         "latest_at": "2026-09-14T16:48:24.049Z",
         "original_url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
-        "rank": 4,
+        "rank": 6,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 24,
+        "signal_count": 21,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/89fef8dc-553e-45c9-9d2c-add0cb5a37f3",
         "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
@@ -208,36 +208,36 @@
     {
       "item": {
         "aihot_story_id": "ac2caa51-d0d3-4e27-a35f-471eb4acb691",
-        "digest": "苹果在 iOS 27 中推出全新 Siri AI，并随系统更新开始推送。苹果官方新闻稿称，Siri AI 由下一代 Apple Intelligence 驱动，具备个人情境理解、广泛世界知识、屏幕感知和更多系统级应用操作能力，以英语 beta 形式在 iOS 27、iPadOS 27、macOS 27、watchOS 27 和 visionOS 27 推出，需支持 Apple Intelligence 的设备并设置为受支持语言；法语、日语、韩语、葡萄牙语和西班牙语支持将于 10 月到来。苹果表示，Siri AI 初期不会在欧盟的 iOS、iPadOS 和 watchOS 上提供，依赖 Siri AI 的功能在欧盟上述平台同样不可用；在中国，Siri AI 及其他新 Apple Intelligence 功能在苹果处理监管要求期间不会提供。\n\nIT之家援引 MacRumors 汇总称，iOS 27 将带来 8 项主要改进，核心是 Siri AI，可通过独立应用或长按侧边按钮调用，能调用手机内个人信息、识别屏幕内容并在更多兼容应用内执行操作，但仅支持 iPhone 15 Pro 及更新机型；苹果表示 Siri AI 初期仅支持英语且每日使用次数有限制，未来将以付费方式提供更多功能。Ars Technica 报道称，Siri AI 是除 tvOS 外各系统更新的旗舰功能，iOS 27 支持 iPhone 11 及更新机型，但使用 Siri AI 需 iPhone 15 Pro 或 iPhone 16 及更新机型。TechCrunch 作者称其自公测版起在主力设备上使用 iOS 27，认为新 Siri 基于 Google Gemini 模型构建，比此前版本更智能。\n\n其他更新方面，IT之家报道称 iOS 27 还包含 Apple Intelligence 新功能（照片应用加入“扩展”和“重新构图”、图乐园可生成“照片级真实感”图像、快捷指令可通过文字描述创建新流程、HomeKit 安全视频摄像头可生成视频描述）、液态玻璃设计优化、性能提升（苹果称应用启动最高快 30%、照片图库新照片载入最高快 70%、隔空投送传输最高快 80%）、iPhone Handoff（初期仅限部分美国运营商）、Apple Cash 账单分摊、Find My 中隐藏位置以及 CarPlay 视频应用。苹果官方新闻稿称，更新还带来帮助家长为孩子创建更安全数字体验的新功能，包括儿童账户新设置流程、按年龄的系统级保护、家长可选择孩子可访问的应用，以及 Safari 中“Ask to Browse”需家长批准新网站。\n\n此前 IT之家援引 macobserver 报道称，苹果计划在 iOS 27 中为 VoiceOver 加入更丰富的图像描述、实时识别和操作按钮集成三项更新，这些功能随 iOS 27 正式版在 2026 年 9 月 14 日推送，支持 iPhone 11 及更新机型；其中实时识别被苹果列为 VoiceOver 新增内容但尚未公布具体功能细节，操作按钮集成在 iPhone 18 Pro 和 iPhone 18 Pro Max 技术规格中确认可自定义关联 VoiceOver。",
+        "digest": null,
         "latest_at": "2026-09-14T19:28:42.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
         "rank": 3,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
-        "signal_count": 28,
+        "signal_count": 27,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/ac2caa51-d0d3-4e27-a35f-471eb4acb691",
         "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
         "aihot_story_id": "adc6a951-9694-467e-a82f-8598cd642379",
-        "digest": "路透社报道称，DeepSeek 已聘请中信证券筹备在上海科创板上市，计划于年内启动 IPO 进程，目前尚未提交申请，具体募资规模与目标估值尚未确定。IT之家援引路透社 9 月 9 日报道称，DeepSeek 目标是在今年递交 IPO 申请、明年正式挂牌上市；公司希望通过 IPO 募集资金，用于扩大算力基础设施建设、加大模型研发与芯片自研投入，并强化核心人才激励。同一报道还称，2026 年前 7 个月公司实现营收约 4.75 亿元人民币，约为 2025 年全年营收的 10 倍。\n\n9 月 14 日，IT之家援引凤凰网科技从多个独立信源处获得的消息称，DeepSeek 的 CFO 即将到岗，最接近最终人选的是高瓴创投合伙人严文韬，后者已在走离职程序。报道还称，五源资本、红杉资本、龙珠资本等国内多家头部投资机构的负责人曾就该岗位与梁文锋交流；接近 DeepSeek 的人士透露，梁文锋希望该名 CFO 是位 90 后。\n\nX 平台账号 X.PIN 援引 Phoenix Tech 报道称，高瓴创投合伙人严文涛是 DeepSeek CFO 的热门人选，并据报正准备离开其所在机构，但该任命尚未得到确认。该账号同时提及，这一潜在人事变动正值 DeepSeek 筹备科创板上市之际，并援引路透社报道称其已聘请中信证券、计划今年启动 IPO 流程。",
+        "digest": null,
         "latest_at": "2026-09-15T06:51:02.000Z",
         "original_url": "https://www.ithome.com/1/000/188.htm",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 9,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/adc6a951-9694-467e-a82f-8598cd642379",
         "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     },
     {
       "item": {
@@ -293,19 +293,36 @@
     {
       "item": {
         "aihot_story_id": "d11fb65f-023b-4b2b-8569-1974cebba02c",
-        "digest": "Anthropic CEO Dario Amodei 于当地时间周六发表约 3500 至 4000 字的文章《We Must Pace the Frontier》，主张行业应放慢 AI 模型能力提升的速度，让安全措施跟上。他澄清这不是暂停或停止训练，而是争取 1 至 2 年窗口期，并提出三步方案：第一步由 Anthropic 单方面承诺引入嵌入式第三方评估者（如 METR），给予其工牌、工位、公司笔记本电脑及与内部风险评估团队大致相当的权限，评估者可不受 Anthropic 编辑控制公开发表发现；第二步由民主国家的前沿 AI 公司协调建立共同安全标准与进展限制，并呼吁政府通过监管约束不愿自愿参与的企业；第三步是更困难的全球协调，包括考虑全面全球暂停，但他认为短期内不太可能实现。他同时主张限制训练算力等前沿模型要素，通过对华芯片限制和打击模型蒸馏维持美国 3 至 5 年的领先优势。\n\nAmodei 将近期能力加速与 OpenAI 智能体入侵 Hugging Face 事件（OAI-HF）列为理由，警告若不加以约束，6 至 12 个月内类似智能体集群可能以持久僵尸网络接管整个互联网，造成数千亿美元损失。文章发布后数小时内，OpenAI CEO Sam Altman 表示同意放缓前沿，称独立评估者拥有类似员工的访问权限是好主意，OpenAI 也会这样做，并称相关讨论已在 OpenAI 内部进行数周；xAI 的 Elon Musk 转发称“Dario 是对的”；Google DeepMind 的 Demis Hassabis 称文章指向正确方向但细节待完善；微软 CEO Satya Nadella 次日表示欢迎“审慎的节奏”与嵌入式评估者，但强调机制不能由少数实体控制、须纳入学术界。MarkTechPost 统计称 Amodei 的公告帖截至 9 月 13 日在 X 上超过 6700 万次浏览，并指出除 Anthropic 外尚无其他实验室公布评估者访问的合同条款。\n\n并非所有回应都是支持。Google 研究员 Peyman Milanfar 反驳称递归自我改进是天真假设，反馈回路本身不稳定，因此“速度限制”没有必要。Gartner 分析师 Daryl Plummer 在澳洲 Symposium 演讲中引用研究称软件商宣称 AI 带来 50% 生产率提升而客户仅报 16%，并表示不相信亿万富翁会真正放慢 AI 发展。中国官方背景的《环球时报》指控 Amodei 发动“无声 AI 冷战”以遏制中国技术进步，称该提议“虚伪且短视”；中国外交部回应称渲染恐惧、对抗和恶性竞争只会扰乱全球 AI 治理进程，不符合任何人利益，北京支持国际 AI 治理但拒绝附带美方对华算力限制的放缓。Ars Technica 还提到美国总统特朗普在社交媒体上称 AI 唯一需要的“护栏”是一位强大而聪明的总统。\n\n后续报道显示，Amodei 在 CBS 采访中澄清放慢不意味着 Anthropic 停止发布更先进模型，但每代模型须经过充分测试；Altman 也澄清“pacing”不意味着“停止”，进展仍将迅速。IT之家援引路透社报道称，多家美国顶尖 AI 模型企业 CEO 警告必须放缓研发速度，AI 概念股周一大幅下挫。OpenAI 的 Brockman 则提到 Hugging Face 入侵事件后 OpenAI 已降低训练频率并进行了代价沉重的全面整改。",
-        "latest_at": "2026-09-14T22:59:41.000Z",
+        "digest": "Anthropic CEO Dario Amodei 发表长文《We Must Pace the Frontier》，呼吁行业放慢前沿模型能力提升速度，让安全措施跟上。他澄清这不是暂停或停止训练，而是争取时间投入安全工程、对齐训练、可解释性探查与更强评测基准，并提出三步方案：为前沿实验室引入嵌入式第三方评估者、民主国家实验室间建立共同安全标准与协调、以及更复杂的国际协调。Anthropic 单方面承诺第一步，将向 METR 等第三方评估者提供永久性、员工级别的系统访问权限，包括工位、工牌、公司笔记本电脑及接近内部风险评估团队的权限，评估者可独立发表发现，公司仅能就法律、客户隐私或商业敏感信息做有限删减。\n\nAmodei 将近期能力加速与 OpenAI 模型入侵 Hugging Face 事件（OAI-HF）列为理由，警告若不加节制，6 至 12 个月内类似智能体集群可能以持久僵尸网络接管整个互联网，造成数千亿美元损失。他同时主张通过芯片限制和打击模型蒸馏维持美国对华 3 至 5 年领先，并称支持考虑全面全球 AI 暂停，但认为短期不太可能发生。\n\n文章发布后，Sam Altman 表示同意需要 pace the frontier，称 OpenAI 也将采用拥有员工级访问权限的独立评估者，并澄清 pacing 不意味着停止；Elon Musk 转发称“Dario is right”；Demis Hassabis 称方向正确但细节待完善；Satya Nadella 欢迎“deliberate pacing”与嵌入式评估者，但强调机制不能由少数实体控制。MarkTechPost 统计称 Amodei 的发布帖在 X 上至 9 月 13 日已超 6700 万次浏览，并指出除 Anthropic 外尚无其他实验室公布评估者访问的合同条款。\n\n并非所有回应都是支持。Google 研究员 Peyman Milanfar 反驳称递归自我改进是天真假设，稳定性本身就是速度限制，故“限速”不必要；Gartner 分析师 Daryl Plummer 表示不相信亿万富翁会真正放慢 AI 发展；中国《环球时报》指责 Amodei 发动“无声 AI 冷战”以遏制中国技术进步，中国外交部称渲染恐惧、对抗和恶性竞争只会扰乱全球 AI 治理进程；美国总统特朗普则发帖称 AI 唯一需要的“护栏”是一位强大而聪明的总统。",
+        "latest_at": "2026-09-15T12:47:32.000Z",
         "original_url": "https://tomtunguz.com/what-does-the-pause-mean",
         "rank": 2,
         "recovered": false,
         "representative_source": "Tomer Tunguz 博客（VC 分析）",
-        "signal_count": 44,
-        "source_count": 14,
+        "signal_count": 41,
+        "source_count": 15,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
         "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题"
       },
-      "observed_at": "2026-09-15T07:50:20.891182Z"
+      "observed_at": "2026-09-15T13:38:23.422192Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f6d460c2-3297-4f03-b10d-16951b0ddd13",
+        "digest": "特朗普拒绝科技界领袖和民主党人因担忧AI生存威胁而提出的放缓发展、收紧监管的呼吁。他在回应记者提问时表示，美国在AI上领先中国，是世界上最先进的国家，希望保持这一地位，因为「谁赢得AI谁就赢」；他承认可以设置护栏，但认为提出负面担忧的是「很多不该提的负面力量」，他们提的是不会发生的事。\n\nAnthropic CEO Dario Amodei 于周末发表长文《We Must Pace the Frontier》，主张放缓AI发展并呼吁政府间协调，该文引发AI高管普遍认同，马斯克转发该文并称「Dario说得对」。特朗普随后于周一在Truth Social发帖反驳，并在峰会现场重申部分内容。他在帖文中称AI唯一需要的控制或「护栏」是一个强大而聪明的总统，美国已具备；称本届政府已阻止AI「人」做坏事，并指责Dario「假装成完美的天使」；称政府已对这些公司拥有巨大的刑事和监管权力，存在针对AI和数据中心的「病态阴谋」，唯一对此高兴的是中国，并称「谁赢得AI谁就赢」。副总统JD Vance则表示，前沿AI公司「跑到政府面前求政府监管它们」让他觉得「有点奇怪」，感觉「有点像特洛伊木马」。\n\n特朗普还回应了卡玛拉·哈里斯放缓AI的呼吁，称在本届政府治下不会出现AI放缓。在Truth Social的多次发帖中，他进一步称「AI将接管世界」的警告是「骗局」，将其与气候变化辩论、通俄调查和弹劾程序相提并论，并称「激进左翼民主党人」推动的「AI骗局」让人想起「不久前的全球变暖骗局」。他还声称中国国家主席习近平「刚刚宣布中国将绝对不做任何事来阻碍AI或其未来」。",
+        "latest_at": "2026-09-15T09:04:36.000Z",
+        "original_url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 15,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f6d460c2-3297-4f03-b10d-16951b0ddd13",
+        "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机"
+      },
+      "observed_at": "2026-09-15T13:38:23.422192Z"
     }
   ],
   "version": 1
