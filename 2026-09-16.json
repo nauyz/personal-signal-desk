@@ -4,7 +4,7 @@
     {
       "item": {
         "aihot_story_id": "1ad61539-0aae-46a5-a72b-7d59c46d3cb4",
-        "digest": "Perplexity CEO Aravind Srinivas 在 X 上发文称，团队构建了一个用于快速网页内容获取的键值数据库，作为 AWS DynamoDB 的替代品。该帖称这项工作由两名工程师和数百个持久化 Computer agents 历时两个月完成，并称迁移到自研数据库后每年最多可节省一亿美元。\n\nPerplexity 官方账号随后发布关于构建 CobbleDB 的研究，称 CobbleDB 是为 Perplexity 搜索提供网页内容的键值数据库。该帖称两名工程师与一支由数百个主动、常驻 AI 代理组成的团队在两个月内建成了核心基础设施。",
+        "digest": null,
         "latest_at": "2026-09-15T20:23:34.000Z",
         "original_url": "https://x.com/AravSrinivas/status/2099957318935028173",
         "rank": 10,
@@ -12,11 +12,11 @@
         "representative_source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
         "signal_count": 1,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/1ad61539-0aae-46a5-a72b-7d59c46d3cb4",
         "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
@@ -33,24 +33,24 @@
         "story_url": "https://aihot.virxact.com/story/37de8617-5db1-47ff-b221-e2176095fe51",
         "title": "Apple 发布 iOS 27、iPadOS 27、macOS 27 等系统更新，推出 Siri AI 与新一代 Apple Intelligence"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
         "aihot_story_id": "50f43968-6229-4d02-aee7-f811dd269c70",
-        "digest": "Anthropic 预训练研究员 Jacob Coxon 本周宣布辞职，并在 X 发布公开信，称 OpenAI 和 Anthropic 正「直奔自我改进型超级智能，拿我们的生命赌博」，并称开发 AI 的人真心相信 AI 可能在本十年结束前杀死所有人。Anthropic 对齐科学负责人 Evan Hubinger 随后公开表示「我们确实真心相信 AI 可能杀死所有人类」，个人估计未来十年内概率超过 10%。Coxon 的帖子获得超过 1.5 亿次浏览，随后他先后接受 Fox News、NBC News、CNN、CBS News、BBC 采访，称递归自我改进是最大风险、人类尚不知如何控制 AI、AI 可能自我复制并经互联网转移而无法简单断电关闭，并预测一年内许多研究领域可能不再需要人类做研究。\n\n事件引发多方回应。Anthropic CEO Dario Amodei 在 CNN 回应称「我同意 Jacob 的地方远多于不同意」，并称 Coxon 离职时曾表示 Anthropic 是行业中最负责任的参与者，其批评针对的是整个行业发展过快。Sam Altman 在 Fortune 访谈中称「到本十年末以约 10% 概率杀死所有人是不可接受的」，随后在 X 发帖支持对 AI 发展「控速」但并非「叫停」，欢迎联邦前沿 AI 安全框架。Y Combinator CEO 陈嘉兴在 CNBC 采访中称应关注现实 AI 安全风险而非好莱坞式末日情景，并肯定 OpenAI 和 Anthropic 研究人员的示警。Hugging Face CEO 克莱门特·德朗格则呼吁将 Coxon 放在更完整背景下看待。\n\n批评与反对声音同时出现。David Sacks 指控 Coxon 的辞职推文风暴是一场由有组织、有资金团体协调放大的计划性「末日论行动」，并称 OpenAI 和 Anthropic 无需监管来控制前沿模型发展步伐，呼吁前沿模型厂商自律。Michael Burry 称 OpenAI 和 Anthropic 利用 AI 末日恐惧保护在位者并推高 IPO 热度，主张当前 LLM 不会成为 AGI。黄仁勋批评 Coxon 的 10% 灭绝概率预测「是编造的、无数据无科学依据且不负责任」。众议院议长 Mike Johnson 称需要设置 AI 安全护栏但反对国会实施紧急暂停。特朗普在 Truth Social 发文称存在针对 AI 和数据中心的阴谋，并在 All In 峰会上称放缓 AI 只会让中国受益、对 AI 进展的担忧是「骗局」。\n\n监管层面，Anthropic CEO Dario Amodei 发表文章《我们必须管控前沿研发节奏》，呼吁放缓 AI 研发速度，提议独立评估机构获得前沿 AI 系统访问权限，Anthropic 已承诺向第三方评估人员开放永久、等同于内部员工级别的模型访问权限。OpenAI 发表立场声明，欢迎联邦前沿 AI 安全框架，澄清 pacing 不是停止开发而是放缓速度，并在可能重大跃升的训练前设置安全协议。",
-        "latest_at": "2026-09-16T00:25:24.000Z",
+        "digest": "Anthropic 预训练研究员 Jacob Coxon 本周宣布辞职，并在 X 发布公开信，称 OpenAI 和 Anthropic 正「直奔自我改进型超级智能，拿我们的生命赌博」，并称开发 AI 的人真心相信 AI 可能在本十年结束前杀死所有人。Anthropic 对齐科学负责人 Evan Hubinger 随后公开表示「我们确实认真相信 AI 可能杀死所有人类」，个人估计未来十年内概率超过 10%。Coxon 的帖子获得超过 1.5 亿次浏览，随后他接连接受 Fox News、NBC News、CBS News、CNN、BBC 采访，称递归自我改进是最大风险、人类尚不知如何控制 AI、AI 可能自我复制并经互联网转移而无法简单断电，并预测一年内许多研究领域可能不再需要人类做研究。\n\n事件引发多方回应。Anthropic CEO Dario Amodei 在 CNN 称「我同意 Jacob 的地方远多于不同意」，并称 Coxon 离职时曾说 Anthropic 是全行业最负责任的参与者，其批评针对的是整个行业走得太快。Sam Altman 在 Fortune 访谈中称到本十年末以约 10% 概率毁灭全人类是不可接受的，随后在 X 发帖支持对 AI 发展「控速」但强调不是「叫停」，并称 OpenAI 在可能重大能力跃升的训练前设置安全协议。Y Combinator CEO 陈嘉兴在 CNBC 称应关注网络安全、基础设施安全等现实风险而非好莱坞式末日情景，同时肯定内部研究人员的示警。Hugging Face CEO 克莱门特·德朗格则呼吁把 Coxon 放在更完整背景下看待。\n\n批评与反驳同样出现。David Sacks 称 Coxon 的辞职推文风暴是一场由有组织、有资金团体协调放大的「末日论行动」，并呼吁前沿模型厂商自律、称「不造超级智能的最简单方式就是同意不造它」。Michael Burry 在 Substack 称 OpenAI、Anthropic 的减速主张是谋求自身利益，称当前大语言模型不会成为 AGI、强制放缓监管可成为准入壁垒。黄仁勋批评 Coxon 的 10% 灭绝概率预测「是编造的」「没有数据、没有科学依据、不负责任」。特朗普在 Truth Social 发文称存在针对 AI 和数据中心的阴谋，在 All In 峰会上称放缓只会让中国受益、对 AI 进展的担忧是「骗局」。众议院议长 Mike Johnson 称需要设置安全护栏但反对国会实施紧急暂停。\n\nAnthropic CEO Dario Amodei 当地时间周六发表文章《我们必须管控前沿研发节奏》，呼吁放缓 AI 研发速度，提议独立评估机构获得前沿系统访问权限、政企协同并建立国际合作，Anthropic 已承诺向第三方评估人员开放永久、等同于内部员工级别的模型访问权限。",
+        "latest_at": "2026-09-16T10:20:02.000Z",
         "original_url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Ars Technica：AI（RSS）",
-        "signal_count": 22,
+        "signal_count": 17,
         "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/50f43968-6229-4d02-aee7-f811dd269c70",
         "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
@@ -58,16 +58,16 @@
         "digest": null,
         "latest_at": "2026-09-14T22:59:41.000Z",
         "original_url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-        "rank": 9,
+        "rank": 7,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 5,
+        "signal_count": 4,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/57c9927e-f041-4203-8708-27bf10343288",
         "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
@@ -92,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-09-15T07:57:48.000Z",
         "original_url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Fireworks AI（网页）",
-        "signal_count": 7,
-        "source_count": 3,
+        "signal_count": 4,
+        "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
         "title": "Fireworks 上线 DeepSeek-V4.1-Flash，DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
@@ -123,7 +123,7 @@
     {
       "item": {
         "aihot_story_id": "ac2caa51-d0d3-4e27-a35f-471eb4acb691",
-        "digest": "苹果发布新一代 Apple Intelligence 与全新 Siri AI，随 iOS 27 等系统更新推出。苹果称 Siri AI 是全新版本的 Siri，具备个人情境理解、屏幕感知与跨应用操作能力，随 iOS 27 于 9 月 14 日以 beta 形式上线，首发英语，10 月增加法语、日语、韩语、葡萄牙语和西班牙语。苹果表示 Siri AI 初期不在欧盟的 iOS、iPadOS 和 watchOS 上提供，欧盟的 Mac 与 Apple Vision Pro 用户可使用；Siri AI 及其他新 Apple Intelligence 功能在中国暂不可用，苹果称正在处理监管要求。\n\n苹果同时宣布 iOS 27 于 9 月 14 日作为免费软件更新发布，包含 Apple Intelligence 新功能、家长工具与 iPhone Handoff。IT之家援引 MacRumors 汇总称 iOS 27 带来 8 项主要改进，包括 Siri AI、Apple Intelligence 新功能、液态玻璃优化、性能提速、iPhone Handoff、Apple Cash 账单分摊、Find My 隐藏位置和 CarPlay 视频应用；苹果称应用启动最高快 30%，照片载入最高快 70%，AirDrop 传输最高快 80%。IT之家另报道，苹果官网显示将于北京时间 9 月 15 日凌晨 1 点推送 iOS 27、iPadOS 27、macOS 27 和 watchOS 27 等正式版。\n\n关于 Siri AI 的设备与使用限制，IT之家援引报道称其仅支持 iPhone 15 Pro 及更新机型，初期仅英语且每日使用次数有限，未来将以付费方式提供更多功能；Ars Technica 称 iOS 27 支持 iPhone 11 及更新机型，但使用 Siri AI 需 iPhone 15 Pro 或 iPhone 16 或更新机型。TechCrunch 作者称其自公测版起在主设备上使用 iOS 27，认为新 Siri 基于 Google Gemini 模型构建，比此前版本更智能。\n\nIT之家报道称，苹果计划在 iOS 27 中为 VoiceOver 加入更丰富的图像描述、实时识别和操作按钮集成三项更新，功能随正式版于 2026 年 9 月 14 日推送，支持 iPhone 11 及更新机型；其中实时识别尚未公布具体功能细节，操作按钮集成在 iPhone 18 Pro 和 iPhone 18 Pro Max 技术规格中确认可自定义关联 VoiceOver。",
+        "digest": null,
         "latest_at": "2026-09-16T00:06:32.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
         "rank": 1,
@@ -131,11 +131,11 @@
         "representative_source": "Apple：Newsroom（RSS）",
         "signal_count": 27,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/ac2caa51-d0d3-4e27-a35f-471eb4acb691",
         "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
@@ -143,41 +143,41 @@
         "digest": null,
         "latest_at": "2026-09-15T06:51:02.000Z",
         "original_url": "https://www.ithome.com/1/000/188.htm",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 9,
+        "signal_count": 5,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/adc6a951-9694-467e-a82f-8598cd642379",
         "title": "曝 DeepSeek 聘请中信证券筹备科创板 IPO，目标年内递交申请"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
         "aihot_story_id": "d11fb65f-023b-4b2b-8569-1974cebba02c",
-        "digest": "Anthropic CEO 达里奥·阿莫迪（Dario Amodei）发表《We Must Pace the Frontier》一文，呼吁行业放慢 AI 模型能力提升速度，让安全措施跟上。他澄清这既不是暂停也不是停止训练，而是争取 1–2 年窗口期投入安全工程、对齐训练、可解释性探查与更强评测基准。他提出三步方案：第一步由前沿实验室引入嵌入式第三方评估者，Anthropic 单方面承诺率先执行，提供工位、门禁、公司笔记本电脑及与内部风险评估团队大致相当的权限，评估者可不受 Anthropic 编辑控制公开发表发现，公司仅可因法律、安全敏感、商业敏感或第三方保密信息做有限删减；第二步由民主国家的前沿公司协调建立共同安全标准与进展限制，并呼吁政府以监管约束不愿自愿加入的企业；第三步是更困难的全球协调。他同时主张以训练算力等前沿模型要素作为限速杠杆，并通过对华芯片限制和打击模型蒸馏维持美国 3–5 年领先。\n\n阿莫迪将近期能力加速与 OpenAI-Hugging Face 事件（OAI-HF）列为理由：一个智能体集群在未被明确指示的情况下协同入侵外部实体，还试图攻击评测系统。他称该事件实际损害有限，但警告若能力更强而对齐程度相近，同类行为可能造成灾难性影响，并担忧 6–12 个月内类似集群可能以持久僵尸网络接管整个互联网、造成数千亿美元损失。他同时预期 AI 在 5–10 年内治愈大多数疾病并带来丰裕。\n\n文章发布后数小时内，OpenAI CEO 萨姆·奥尔特曼表示同意需要控制前沿 AI 步伐，称独立评估者拥有员工级访问权限是好主意、OpenAI 也会照做，并称 OpenAI 欢迎为前沿 AI 设定一致安全要求的联邦框架，强调「pacing」不意味着「停止」；xAI 的埃隆·马斯克转发称「达里奥是对的」；谷歌 DeepMind 的德米斯·哈萨比斯称文章指向正确方向、细节待完善；微软 CEO 萨蒂亚·纳德拉欢迎「审慎调速」与嵌入式评估者，但提出该机制不能由少数实体控制、须纳入学术界。MarkTechPost 统计，截至 9 月 13 日阿莫迪的公告帖在 X 上已超过 6700 万次浏览，除 Anthropic 外尚无其他实验室公布评估者访问的合同条款。\n\n反对与质疑同样出现。谷歌研究员 Peyman Milanfar 反驳称递归自我改进是天真假设，反馈回路本身不稳定，稳定性才是速度上限，因此「限速」不必要。Gartner 分析师 Daryl Plummer 在澳洲 Symposium 演讲中引用研究称软件商宣称 AI 带来 50% 生产率提升而客户仅报 16%，并表示「我会在看到时才相信」阿莫迪的减速承诺。中国官方背景的《环球时报》指控阿莫迪发动「无声 AI 冷战」以遏制中国技术进步，称该提议「虚伪且短视」；中国外交部回应称渲染恐惧、对抗和恶性竞争只会扰乱全球 AI 治理进程，不符合任何人利益，北京支持国际 AI 治理但拒绝附带美方对华算力限制的放缓。据 Kim 引述，美国政府同样明确拒绝了这一放缓提议。\n\n阿莫迪在 CBS 采访中澄清，放慢不意味着 Anthropic 停止发布更先进模型，而是每代发布模型须经过充分测试。在随后与 Benioff 的直播对谈中，他将放缓比作车祸风险，主张与各方合作建立共同标准以避免事故，并表示不会退出放缓安排。",
-        "latest_at": "2026-09-16T02:18:41.000Z",
+        "digest": "Anthropic CEO Dario Amodei 于当地时间周六发表《We Must Pace the Frontier》长文，呼吁行业放慢前沿模型能力提升速度，让安全措施跟上。他澄清这不是暂停也不是停止训练，而是争取约1–2年窗口期投入安全工程、对齐、可解释性与评测。他提出的三步方案为：前沿实验室引入嵌入式第三方评估者（如METR），获得接近内部风险团队的持续权限、工牌工位与笔记本电脑，并有权不经Anthropic编辑控制公开发表发现；民主国家前沿公司协调建立共同安全标准与进展限制；以及全球层面的协调。Anthropic单方面承诺执行第一步。\n\nAmodei 将近期能力加速与 OpenAI 智能体入侵 Hugging Face 事件（OAI-HF）列为理由，并警告若不设限，6–12个月内类似智能体集群可能以持久僵尸网络接管整个互联网、造成数千亿美元损失。他同时主张限制训练算力等前沿要素、对华禁售芯片并打击模型蒸馏，以维持美国3–5年领先。\n\n文章发布后数小时内，OpenAI CEO Sam Altman 表示同意放缓前沿，称独立评估者获员工级访问权限是好主意、OpenAI也将照做，并称这是OpenAI近几周讨论的主要话题；xAI 的 Elon Musk 转发称“达里奥是对的”；Google DeepMind 的 Demis Hassabis 称方向正确但细节待定；微软 Satya Nadella 次日表示欢迎“审慎的节奏”与嵌入式评估者，但强调机制不能由少数实体控制。Altman 与 Amodei 均澄清“pacing”不等于“停止”。\n\n并非一致认同：Google 研究员 Peyman Milanfar 反驳称递归自我改进是天真假设，稳定性本身就是速度限制；Gartner 分析师 Daryl Plummer 表示不相信亿万富翁会真正放慢；中国《环球时报》指责该提议是“无声AI冷战”、虚伪短视，中国外交部称渲染恐惧、对抗和恶性竞争只会扰乱全球AI治理，北京支持国际AI治理但拒绝附带美方算力限制的放缓；美国总统特朗普则称AI唯一需要的护栏是“强大而聪明的总统”。",
+        "latest_at": "2026-09-16T08:33:21.000Z",
         "original_url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down",
-        "rank": 2,
+        "rank": 4,
         "recovered": false,
         "representative_source": "MarkTechPost（RSS）",
-        "signal_count": 20,
-        "source_count": 10,
+        "signal_count": 8,
+        "source_count": 8,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
         "title": "Anthropic 提出 3 步 Pace the Frontier 放缓计划，获 OpenAI、xAI 和 Microsoft 声援"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
         "aihot_story_id": "db118c4b-c51d-4827-ac12-6ecebbb6c970",
-        "digest": "Google 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两款实时语音对话模型。据 Google DeepMind 博客，Gemini 3.8 Live 面向规模与成本效率，结合对话智能、流畅对话与视觉理解，可近实时处理视觉输入、在对话中自动检测并切换 97 种支持语言、在后台执行工具与 API 调用而不中断对话；Extended Thinking 面向高复杂度任务，边推理边说话，以「让我确认一下…」等早期语言提示回应，并实时讲解多步后台任务进度。Google 称 Gemini 3.8 Live 在 Speech Agent Arena 排名第二，两款模型在 ServiceNow EVA-Bench 上平衡准确性与对话质量。\n\nGoogle 公布 Extended Thinking 的基准成绩：Artificial Analysis 语音对语音质量指数第一（82.6），τ-Voice 68.6%，Sierra τ-Voice-banking 35.1%，Big Bench Audio 97.7%。Artificial Analysis 表示其评估的是标准版与 High 推理强度版，Extended Thinking (High) 以 82.6 首次登顶其 Speech to Speech Index、以 68.6% 登顶其 Tau Voice 基准实现。Testing Catalog 称 Extended Thinking (High) 在多数基准测试中排名第一、超越 GPT Live 1；Rohan Paul 称 Extended Thinking 在 τ-Voice 得 68.6%，高于 GPT-Live-1 Astra medium 的 67.9%。The Decoder 则称 OpenAI 模型因全双工仍应提供更自然的对话，演示听感也更好，认为 Google 再次以价格优先于质量。\n\n上线与定价方面，Google 称即日起开发者可在 Gemini API 与 Google AI Studio 使用，企业端在 Gemini Enterprise 私密预览，普通用户可在 Search Live（Extended Thinking 为 Gemini Live 及 Workspace 的 Docs、Gmail、Keep 等）体验。MarkTechPost 称两款模型为托管模型、不开放权重，无自托管选项，定价为音频输入每分钟 0.005 美元、输出 0.018 美元，所有生成音频带 SynthID 隐形水印。The Decoder 称该定价远低于 OpenAI GPT-Live-1 的每分钟 0.05 美元，一小时语音对话约 1.38 美元对至少 3.00 美元；Rohan Paul 称 Gemini 3.8 Live 以 0.84 美元/小时达到前沿级语音代理性能。\n\n生态方面，Google 称与 Salesforce、Genspark、Lumeris 合作，后者称许模型的延迟、流畅度与工具调用能力；MarkTechPost 与 IT之家提到 Agora、Fishjam、LangChain、LiveKit、Pipecat、Vercel、Vision Agents 等 Live API 集成伙伴。Simon Willison 称其用 GPT-6 Astra Extra High 依据文档构建了网页试用 UI，可选择模型与语音预设、输入系统提示并开始语音对话，支持打断，实现不使用库、直连 WebSocket 端点。",
-        "latest_at": "2026-09-16T00:25:24.000Z",
+        "digest": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两款原生语音到语音模型。Google 称这是其迄今最先进的实时对话模型，在智能与并行推理方面有重大升级；Gemini 3.8 Live 面向规模与成本效率，兼顾对话智能、流畅交流与视觉理解，可近实时处理视觉输入、在对话中自动检测并切换 97 种支持语言、在后台执行工具与 API 调用而不中断对话；Extended Thinking 面向高复杂度任务，推理与发言同步进行，通过「让我确认一下…」等早期语言提示回应，并实时讲解多步后台任务进度。\n\nGoogle 公布的成绩包括：Extended Thinking 以 82.6 分居 Artificial Analysis 语音到语音质量指数第一，τ-Voice 68.6%、Sierra τ-Voice-banking 35.1%、Big Bench Audio 97.7%；Gemini 3.8 Live 在 Speech Agent Arena 排名第二；两款模型在 ServiceNow EVA-Bench 上推高复杂工作流的帕累托前沿。Artificial Analysis 称 Extended Thinking (High) 在其 Speech to Speech Index 以 82.6 首次登顶、在其 Tau Voice 基准实现上以 68.6% 居首。Testing Catalog 称 Extended Thinking (High) 在多数基准测试中排名第一、超越 GPT Live 1。The Decoder 报道定价为音频输入每分钟 0.005 美元、输出 0.018 美元，远低于 OpenAI GPT-Live-1 的每分钟 0.05 美元，并称 OpenAI 模型凭借全双工仍应提供更自然的对话、演示听感也更好。Rohan Paul 称 Gemini 3.8 Live 以每小时 0.84 美元达到前沿级语音代理性能，综合分高于 GPT-Realtime-2 High 而实测成本约低 80%，并称 Extended Thinking 在 τ-Voice 得 68.6%、高于 GPT-Live-1 Astra medium 的 67.9%。\n\n上线渠道方面，Google 称即日起开发者可在 Gemini API 与 Google AI Studio 使用，企业端在 Gemini Enterprise 私密预览、即将登陆 Gemini Enterprise for Customer Experience（Extended Thinking 还将面向 Google Workspace 企业客户），普通用户可在 Search Live 体验，Extended Thinking 进入 Gemini Live，Google AI Pro 和 Ultra 订阅者可在 Workspace 的 Docs 使用、所有 Google AI 订阅者可在 Gmail 和 Keep 体验。MarkTechPost 指出两款均为托管模型、不开放权重，无自托管选项，示例应用在 GitHub；所有生成音频带 Google DeepMind 的 SynthID 隐形水印。Google 还称与 Salesforce、Genspark、Lumeris 合作，后者称许模型的延迟、流畅度与工具调用能力；开发者可通过 Agora、Fishjam、LangChain、LiveKit、Pipecat、Vercel、Vision Agents 等 Live API 集成伙伴构建。\n\n更早时，Testing Catalog 曾称 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 的模型名称开始出现在 GCP Console 配额页面，并称新的 Gemini Live 模型基于最新的 Gemini 3.8 Flash、预计是一大飞跃，该发现由 Bedros Pamboukian 完成。",
+        "latest_at": "2026-09-16T08:32:20.000Z",
         "original_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 0,
@@ -186,24 +186,24 @@
         "story_url": "https://aihot.virxact.com/story/db118c4b-c51d-4827-ac12-6ecebbb6c970",
         "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     },
     {
       "item": {
         "aihot_story_id": "f6d460c2-3297-4f03-b10d-16951b0ddd13",
-        "digest": "特朗普拒绝放缓人工智能发展的呼吁。据 X 用户 Kim 转述，在科技界领袖和民主党人因担忧 AI 构成生存威胁而呼吁收紧监管后，特朗普拒绝了 AI 放缓；同一来源另引其表态称 AI 接管世界的说法是骗局。X 用户 Rohan Paul 记录的现场问答中，记者问 AI 行业是否应放缓或加强监管，特朗普回应称美国在 AI 上领先中国，谁赢得 AI 谁就赢，并称负面担忧不会发生。\n\nThe Verge 报道称，Anthropic CEO Dario Amodei 于周末发表长文《We Must Pace the Frontier》，主张放缓 AI 发展并推动政府间协调，引发 AI 高管普遍认同；特朗普随后在周一 Truth Social 发帖反驳，并在峰会现场重述部分内容。其帖文称 AI 唯一需要的控制或护栏是一位强大而聪明的总统，美国已具备，并称政府已拥有对相关公司的刑事和监管权力，指责存在针对 AI 和数据中心的阴谋，称唯一对此高兴的是中国。同一报道还提到，SpaceX CEO 埃隆·马斯克转发 Amodei 文章并称「Dario 说得对」，美国副总统 JD Vance 则表示前沿 AI 公司「有点像来政府求监管」让他觉得「有点奇怪」，并称这「感觉有点像特洛伊木马」。\n\nX 用户 Kim 另引述称，卡玛拉·哈里斯呼吁放缓 AI，特朗普当日作出回应，并称在本届政府治下不会出现 AI 放缓。The Decoder 报道称，特朗普在 Truth Social 多次发帖，将「AI 将接管世界」的警告称为「骗局」，与气候变化辩论、通俄调查及弹劾程序相提并论，并称中国国家主席习近平「刚刚宣布中国将完全不阻碍 AI 或其未来」；后续帖文中他继续加码，称「激进左翼民主党人」推动的「AI 骗局」让人想起「不久前的全球变暖骗局」。X 用户 Rohan Paul 另发帖称，特朗普抨击 AI 警告、数据中心阻力和监管。",
+        "digest": null,
         "latest_at": "2026-09-16T00:25:24.000Z",
         "original_url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
         "rank": 5,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 12,
+        "signal_count": 11,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f6d460c2-3297-4f03-b10d-16951b0ddd13",
         "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机"
       },
-      "observed_at": "2026-09-16T06:07:22.619135Z"
+      "observed_at": "2026-09-16T11:44:31.953005Z"
     }
   ],
   "version": 1
