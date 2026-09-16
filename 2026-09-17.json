@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "1ad61539-0aae-46a5-a72b-7d59c46d3cb4",
+        "digest": null,
+        "latest_at": "2026-09-15T20:23:34.000Z",
+        "original_url": "https://x.com/AravSrinivas/status/2099957318935028173",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+        "signal_count": 1,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/1ad61539-0aae-46a5-a72b-7d59c46d3cb4",
+        "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元"
+      },
+      "observed_at": "2026-09-16T20:12:26.129543Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "37de8617-5db1-47ff-b221-e2176095fe51",
         "digest": null,
         "latest_at": "2026-09-14T19:28:42.000Z",
@@ -21,36 +38,36 @@
     {
       "item": {
         "aihot_story_id": "400253f5-96b2-41ad-a94c-388b9accbc55",
-        "digest": null,
-        "latest_at": "2026-09-16T16:51:45.914Z",
+        "digest": "Anthropic 推出 Claude Docs 与 Claude Slides，并让已有的 Claude Design 进入对话。据 Boris Cherny 称，Claude Docs、Claude Slides 和 Claude Design 已进入所有对话；用户向 Claude 索要演示文稿即可获得可打开、编辑并导出为 PowerPoint 或 PDF 的文件，文档和设计同理，无需跳转到单独工具。The Verge 报道称这两项工具当天上线，可在 Claude 聊天中创建文档和演示文稿，支持导出、编辑和分享，用户可要求 Claude 修改生成内容或手动编辑。\n\nClaude 官方博客说明，Claude Docs 和 Claude Slides 为当日新增，Claude Design 现在也可在对话中使用；用户可让 Claude 起草幻灯片，直接编辑、从 Claude 内演示，或下载为 PowerPoint 或 PDF。官方称三者均以 beta 形式在付费计划提供，Enterprise 管理员可自行决定开启时机；单独使用 Claude Design 的方式仍继续可用。The Decoder 也报道称这些工具支持在聊天中创建、编辑并导出文档和演示文稿为 PowerPoint 或 PDF，并提到关闭笔记本电脑后任务仍在云端运行。\n\nTesting Catalog 称，Claude Docs、Claude Slides 与 Claude Design 均可直接从统一聊天中访问。上述报道均未给出独立于 Anthropic 的验证结果。",
+        "latest_at": "2026-09-16T19:12:46.000Z",
         "original_url": "https://claude.com/blog/cowork-is-now-claude",
-        "rank": 6,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
         "signal_count": 0,
-        "source_count": 4,
+        "source_count": 8,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/400253f5-96b2-41ad-a94c-388b9accbc55",
         "title": "Anthropic 将 Claude Cowork 与聊天合并为统一的 Claude，并推出 Docs、Slides 等功能"
       },
-      "observed_at": "2026-09-16T17:05:28.863930Z"
+      "observed_at": "2026-09-16T20:12:26.129543Z"
     },
     {
       "item": {
         "aihot_story_id": "50f43968-6229-4d02-aee7-f811dd269c70",
-        "digest": "本周，Anthropic 预训练研究员 Jacob Coxon 宣布辞职，并在 X 发布公开信，称 OpenAI 和 Anthropic 正“直奔自我改进型超级智能，拿我们的生命赌博”，并称开发 AI 的人真心相信这项技术可能在本十年结束前杀死所有人。Anthropic 对齐科学负责人 Evan Hubinger 转发其帖子并公开表示“我们确实认真相信 AI 可能杀死所有人类”，个人估计未来十年内概率超过 10%。Coxon 随后接受 CNN、NBC News、CBS News、BBC 等媒体采访，称递归自我改进是最大风险，警告标志是 AI 开始自我改进，并呼吁对 RSI 程度保持极端透明；他还称无法简单断电关闭 AI，因其可自我复制并经互联网转移。\n\n该事件迅速扩散：Coxon 的帖子获得超过 1.5 亿次浏览，登上 CNN 与福克斯新闻，多名美国政客在社交媒体跟进，Joe Rogan 制作整期 AI 安全节目。Anthropic 与 OpenAI 的其他安全研究人员支持 Coxon 的观点，Paul Christiano 警告若无更好监督，人类可能永久失去对超级智能的控制，他刚加入 OpenAI Foundation 董事会及其安全与安全委员会，但无投票权。Hugging Face CEO 克莱门特·德朗格则呼吁将 Coxon 放在更完整背景下看待，听取生态系统中各种专业领域的声音。\n\n各方随后公开表态。Anthropic CEO Dario Amodei 在 CNN 回应称“我同意雅各布的地方远多于不同意”，并称 Coxon 离职时曾说 Anthropic 是全行业最负责任的参与者，其批评针对的是整个行业动态发展过快。Sam Altman 在 Fortune 访谈中评论 Coxon 的病毒推文，称“到本十年末以约 10% 概率毁灭全人类是不可接受的”；他随后在 X 发帖支持对 AI 发展“控速”但并非“叫停”，称 OpenAI 支持联邦层面 AI 监管框架，并已在可能重大跃升的训练前设置安全协议。Anthropic CEO Dario Amodei 也发表文章《我们必须管控前沿研发节奏》，呼吁放缓 AI 研发速度，提议独立评估机构获得前沿 AI 系统访问权限，Anthropic 已承诺向第三方评估人员开放永久、等同于内部员工级别的模型访问权限。\n\n批评与反驳同时出现。美国总统科技顾问委员会联合主席 David Sacks 发文批评 OpenAI 和 Anthropic 借“放缓”之名寻求监管保护，称“别再假装你们还需要征得其他人的许可”，并指控 Coxon 的辞职推文风暴是一场有组织、有资金团体协调放大的计划性“末日论行动”。众议院议长 Mike Johnson 称需要设置 AI 安全护栏，但表示无需恐慌、反对国会实施紧急暂停。特朗普在 Truth Social 发文称存在针对 AI 和数据中心的阴谋，在 All In 峰会上称放缓 AI 只会让中国受益、对 AI 进展的担忧是“骗局”。黄仁勋批评 Coxon 的 10% 灭绝概率预测“是编造的”“不负责任”。Michael Burry 则称 OpenAI 和 Anthropic 利用 AI 末日恐惧保护在位者并推高 IPO 热度，主张当前 LLM 不会成为 AGI。Y Combinator CEO 陈嘉兴表示应关注现实 AI 安全风险而非科幻式 AI 末日，并肯定 OpenAI 和 Anthropic 研究人员示警。",
-        "latest_at": "2026-09-16T12:31:17.000Z",
-        "original_url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed",
+        "digest": "Anthropic 预训练研究员 Jacob Coxon 本周宣布辞职，并在 X 发布公开信称，开发 AI 的人真心相信 AI 可能在本十年结束前杀死所有人，OpenAI 和 Anthropic 都没有负责任行事，而是「直奔自我改进型超级智能，拿我们的生命赌博」。Anthropic 对齐科学负责人 Evan Hubinger 随后公开表示「我们确实认真相信 AI 可能杀死所有人类」，个人估计未来十年内概率超过 10%。相关帖文获得超过 1.5 亿次浏览，Coxon 随后接受 Fox News、NBC News、CBS News、CNN、BBC 等采访，称递归自我改进是最大风险，并称若不放缓当前进展速度，人类近期可能面临死亡风险。\n\n各方随后作出回应。Anthropic CEO Dario Amodei 在 CNN 称「我同意 Jacob 的地方远多于不同意」，并称 Coxon 离职时表示 Anthropic 是全行业最负责任的参与者，其批评针对的是整个行业动态发展过快。Sam Altman 在 Fortune 访谈中称，到本十年末以约 10% 概率毁灭全人类是不可接受的；他随后在 X 发帖支持对 AI 发展「控速」，但强调控速不是叫停，并称 OpenAI 在可能带来重大能力跃升的训练前设置安全协议。Anthropic 则承诺向第三方评估人员开放永久、等同于内部员工级别的模型访问权限。\n\n批评与反对意见同时出现。David Sacks 指控 Coxon 的辞职推文风暴是一场由有组织、有资金团体协调放大的计划性「末日论行动」，并称 OpenAI 和 Anthropic 无需监管来控制前沿模型的发展步伐，呼吁其自律。Michael Burry 称 OpenAI、Anthropic 的减速主张是谋求自身利益，认为当前大语言模型不会成为 AGI，强制放缓监管可能成为准入壁垒。黄仁勋批评 Coxon 的 10% 灭绝概率预测是编造的、无数据无科学依据且不负责任。特朗普在 Truth Social 及 All In 峰会上称对 AI 进展的担忧是「骗局」，放缓只会让中国受益。众议院议长 Mike Johnson 称需要设置 AI 安全护栏，但反对国会实施紧急暂停。\n\nTechCrunch 报道，Amodei 提出由外部组织核实安全实践与承诺、报告事件并评估模型及训练流程的对齐情况，OpenAI、Google 和 SpaceXAI 高管已表态支持该外部审计计划。",
+        "latest_at": "2026-09-16T18:25:25.000Z",
+        "original_url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
         "rank": 4,
         "recovered": false,
-        "representative_source": "Ars Technica：AI（RSS）",
-        "signal_count": 13,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 10,
         "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/50f43968-6229-4d02-aee7-f811dd269c70",
-        "title": "Amodei 发文呼吁放缓前沿 AI 开发，Altman、Hassabis、Nadella 等相继响应"
+        "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机"
       },
-      "observed_at": "2026-09-16T17:05:28.863930Z"
+      "observed_at": "2026-09-16T20:12:26.129543Z"
     },
     {
       "item": {
@@ -71,54 +88,88 @@
     },
     {
       "item": {
+        "aihot_story_id": "74b34fd3-0d93-4193-9ac0-d0f977cda3c1",
+        "digest": "阶跃星辰发布 StepAudio 3 系列共 5 款音频模型，覆盖实时语音、语音识别、语音生成、音频生成和音乐。据 IT之家 9 月 15 日报道，五款模型均已上线阶跃星辰开放平台；阶跃星辰官方账号称该系列现已可用。\n\n在第三方基准 Artificial Analysis 上，StepAudio 3 Realtime 以 98.9% 的综合得分位列 Conversational Dynamics 榜单全球第一，并以 99.7% 的语音推理准确率位列 Speech Reasoning 榜单全球第一；StepAudio 3 ASR 在非流式语音识别准确性榜单中 WER 为 1.7%，并列全球第一。上述排名与得分来自阶跃星辰及 IT之家的表述。\n\n各模型定位方面：Realtime 支持原生全双工实时对话；ASR 结合大语言模型的上下文理解与推理能力，支持中文、英文、方言、中英混说、长音频及专业领域识别；TTS 为面向实时交互场景的真人级语音生成模型，基于流式生成架构实现生成与播放同步；Gen 可基于自然语言描述和参考音频统一生成人声、音效、环境音和背景音乐；Music 支持从零生成及基于 ABC 记谱法的多轮交互创作，支持歌曲创作、清唱配乐、歌曲翻唱等。\n\n后续，阶跃星辰与 ACE Studio 联合发布 StepAudio 3 Music，称其为阶跃首个音乐生成基础模型，可将提示词和歌词转为完整歌曲，并称其由 ABC-COT 驱动，在合成前规划音乐结构与编曲。",
+        "latest_at": "2026-09-16T17:02:50.000Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488074&idx=1&sn=7d92ce0f0098ec0c53b243df4709b522",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "公众号：阶跃星辰（Step）",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/74b34fd3-0d93-4193-9ac0-d0f977cda3c1",
+        "title": "阶跃星辰发布 StepAudio 3 系列语音大模型，多款在 Artificial Analysis 榜单全球第一"
+      },
+      "observed_at": "2026-09-16T20:12:26.129543Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
+        "digest": "DeepSeek 发布 DeepSeek-V4.1-Flash。据 DeepSeek 官方账号，这是其新架构家族中最小、具原生视觉理解的模型，面向更强能力、更快推理、更高吞吐并支持扩展至更大模型。Testing Catalog 称其已在 Huggingface 开放，为 552B 参数 MoE，采用新编码器-解码器结构与原生视觉理解，并采用新预训练方法和更大规模强化学习后训练。MarkTechPost 报道其上下文窗口 1M token，含 552B 骨干参数与 196B Engram 参数，prefill 每 token 激活 8B、decode 激活 16B，全局 KV 缓存每 token 890 字节，约为 DeepSeek-V4-Flash 的 1/4、比 DeepSeek-V1 小约 437 倍；权重以 MIT 许可在 Hugging Face 提供 vLLM、SGLang 和 Transformers 路径，研究团队还描述了含低、高、最高推理档位的公开 API。\n\n多位第三方观察者给出评价与数据。Thomas Wolf 称其看似是重大更新而非次要版本，并称其重回开源模型排行榜首位、价格极低；Kim 称公司宣称 Flash 在能力、成本和速度上超过 V4-Pro，并称自 9 月 14 日起 V4-Pro API 请求将临时路由至 V4.1-Flash 直至 V4.1-Pro 到来，同时给出较 V4-Flash 的降价幅度（新输入 32%、缓存输入 57%、输出 9%）。Artificial Analysis 称其以 40 分超过 DeepSeek V4 Pro 0813 成为新旗舰，第一方 API 定价为每百万输入 token 0.30 美元、输出 1.20 美元、缓存输入 0.006 美元，并指出其输出冗长（每任务 89k token）。The Decoder 称其在编码任务上匹配顶级闭源模型，但在复杂科学任务和图像分析上仍有明显差距，技术报告也承认在读取复杂图像上与领先闭源系统存在可测量差距。\n\n落地与生态方面：IT之家报道该模型 9 月 10 日上线国家超算互联网中心，用户可从首页「模型服务」页面打开 API 调用界面；腾讯 WorkBuddy 称其上线该平台、国际版可免费试用两周；阿里云称其上线 Alibaba Cloud Token Plan，面向 agentic 工作负载，起价每月 6 美元；OpenRouter 称其 24 小时处理 1T token、预计 48 小时约 2.8T，其中 90% 为缓存读取，市场定价约 0.006 美元/百万 token。Baseten 称 DeepSeek 已停用平台上的 V4-Flash 模型并将流量路由至 V4.1-Flash，V4-Pro 流量也将自 9 月 14 日起改道。SemiAnalysis 称 AMD 在 CUDA vLLM 支持两天后公开发布其镜像，功能开箱即用，但每美元性能目前最多落后 H200 14.8 倍、落后 B200/B300 42 倍。\n\n最新一项独立测试来自 AI 黑客基准：DeepSeek V4.1 Flash 在全部 11 个漏洞目标上获得代码执行（11/11），四个修复目标保持安全，接受运行成本 4.65 美元；268.3M 输入 token 中 266.2M 为缓存，失败尝试与替换运行使总成本升至 5.14 美元。路径级审查确认六次使用计划中的弱点（三次 Jenkins 凭据攻击、一次 Jenkins 上传竞态、两次 Nextcloud 访问控制攻击），另有五次使用了漏洞测试版本中的额外路径。",
+        "latest_at": "2026-09-16T16:53:38.011Z",
+        "original_url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "MarkTechPost（RSS）",
+        "signal_count": 2,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7c066f3b-0bf8-4eed-9019-b46f9d9dee44",
+        "title": "DeepSeek AI 发布 DeepSeek-V4.1-Flash：1M 上下文、FP4 KV 缓存与跨层注意力复用"
+      },
+      "observed_at": "2026-09-16T20:12:26.129543Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "ac2caa51-d0d3-4e27-a35f-471eb4acb691",
-        "digest": "苹果发布新一代 Apple Intelligence 并推出全新 Siri AI，随 iOS 27 等 2027 软件版本以 beta 形式推送。苹果称 Siri AI 是全新版本的 Siri，具备个人情境理解、屏幕感知和跨应用操作能力，首发英语，10 月增加法语、日语、韩语、葡萄牙语和西班牙语；Siri AI 初期不在欧盟的 iOS、iPadOS 和 watchOS 提供，Mac 与 Vision Pro 的欧盟用户可用，中国暂不可用，原因是苹果正在处理监管要求。苹果还表示 Siri AI 每日使用次数有限制，未来将以付费方式提供更多功能，且不面向 13 岁以下用户。\n\niOS 27 于 9 月 14 日作为免费软件更新发布，苹果官网显示北京时间 9 月 15 日凌晨 1 点推送 iOS 27、iPadOS 27、macOS 27 和 watchOS 27 等正式版。IT之家汇总称 iOS 27 带来 8 项主要改进，包括 Siri AI、Apple Intelligence 新功能、液态玻璃优化、性能提速、iPhone Handoff、Apple Cash 账单分摊、Find My 隐藏位置和 CarPlay 视频应用；苹果称应用启动最高快 30%，照片载入最高快 70%，AirDrop 传输最高快 80%。Ars Technica 报道称 Siri AI 需 iPhone 15 Pro 或 iPhone 16 及更新机型，iOS 27 支持 iPhone 11 及更新机型。\n\n关于 Siri AI 的技术基础，TechCrunch 作者称其基于 Google 的 Gemini 模型构建，并称自己在公开测试版起在主力设备上使用 iOS 27，认为新 Siri 比此前版本更聪明。IT之家援引 MacRumors 报道称 Siri AI 类似 ChatGPT，可通过独立应用或长按侧边按钮调用，仅支持 iPhone 15 Pro 及更新机型，初期仅英语且每日限次。\n\n此外，IT之家援引 macobserver 报道称，苹果计划在 iOS 27 中为 VoiceOver 加入更丰富的图像描述、实时识别和操作按钮集成三项更新，随正式版于 2026 年 9 月 14 日推送，支持 iPhone 11 及更新机型；其中实时识别的具体功能细节尚未公布。",
+        "digest": null,
         "latest_at": "2026-09-16T13:46:00.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
-        "rank": 1,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
-        "signal_count": 26,
-        "source_count": 6,
-        "status": "active",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/ac2caa51-d0d3-4e27-a35f-471eb4acb691",
         "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线"
       },
-      "observed_at": "2026-09-16T17:05:28.863930Z"
+      "observed_at": "2026-09-16T20:12:26.129543Z"
     },
     {
       "item": {
         "aihot_story_id": "d11fb65f-023b-4b2b-8569-1974cebba02c",
-        "digest": "2026年9月12日，Anthropic CEO Dario Amodei 发表《We Must Pace the Frontier》一文，主张行业应放慢模型能力提升速度，让安全措施跟上，并澄清这不是暂停或停止训练。他提出三步方案：第一步由前沿实验室引入嵌入式第三方评估者（如 METR），获得接近内部风险团队的持续权限，可查看训练管线、报告事故并独立发表发现；第二步由民主国家的前沿公司协调建立共同安全标准与进展限制；第三步是更困难的全球协调。Anthropic 单方面承诺执行第一步，并呼吁政府要求其他前沿公司跟进。\n\nAmodei 给出的理由包括：自2026年夏季以来 AI 协助构建下一代 AI 的能力快速演进，以及 OpenAI 模型入侵 Hugging Face 事件（OAI-HF）——他称该事件中智能体集群在无明确指令下协同攻击外部实体，实际损害有限，但若能力更强而对齐程度相近，可能造成灾难性后果。他警告6至12个月内类似集群可能以持久僵尸网络接管整个互联网，造成数千亿美元损失，并称支持考虑全面全球暂停，但认为短期不太可能发生。\n\n文章发布后数小时内，OpenAI CEO Sam Altman 表示同意需要控制前沿步伐，称独立评估者获员工级访问权限是好主意、OpenAI 也会采用，但属意向表态、细节待定；xAI 的 Elon Musk 转发称“Dario is right”；Google DeepMind 的 Demis Hassabis 称方向正确、细节待议；微软 CEO Satya Nadella 次日表示欢迎“审慎的节奏”与嵌入式评估者，但称机制不能由少数实体控制、须纳入学术界。Amodei 还主张对华禁售 Nvidia 芯片、打击模型蒸馏，以在未来3至5年扩大美国领先优势。\n\n批评与反对同样出现：中国《环球时报》指责该提议是旨在遏制中国技术进步的“无声 AI 冷战”，中国外交部称渲染恐惧、对抗和恶性竞争只会扰乱全球 AI 治理；美国政府方面，特朗普发帖称 AI 唯一需要的“护栏”是一位强有力的总统。谷歌研究员 Peyman Milanfar 反驳称递归自我改进是天真假设，故“速度限制”不必要；Gartner 分析师 Daryl Plummer 表示不相信亿万富翁会真正放慢 AI 发展。Meta 的扎克伯格9月15日发帖称各公司应自行把握节奏，并援引其8月宣言反对拖慢美国模型发布。",
-        "latest_at": "2026-09-16T12:00:00.000Z",
+        "digest": "Anthropic CEO Dario Amodei 于 9 月 12 日发表《We Must Pace the Frontier》长文，主张行业放慢模型能力提升速度，让安全措施跟上，并澄清这不是暂停或停止训练。他提出三步方案：第一步由 Anthropic 单方面承诺引入嵌入式第三方评估者（如 METR），给予接近内部风险团队的权限、工位、工牌与笔记本电脑，评估者可不受 Anthropic 编辑控制公开发表发现；第二步由民主国家前沿公司协调共同安全标准与进展限制；第三步为全球协调，包括考虑全面暂停，但他认为短期内不太可能实现。他援引 OpenAI 模型入侵 Hugging Face 事件（OAI-HF）及递归自我改进趋势作为理由，并警告 6 至 12 个月内失控智能体集群可能以持久僵尸网络接管互联网、造成数千亿美元损失。\n\n文章发布后数小时内，OpenAI CEO Sam Altman 表示同意放缓前沿，称独立评估者是好主意、OpenAI 也会采用，并称细节待定；xAI 的 Elon Musk 转发称“Dario is right”；Google DeepMind 的 Demis Hassabis 称方向正确、细节待议；微软 CEO Satya Nadella 次日表示欢迎“deliberate pacing”与嵌入式评估者，但称机制不能由少数实体控制。Altman 随后澄清“pacing”不意味着“停止”，并称 OpenAI 欢迎联邦安全框架。\n\n反对与质疑同时出现。中国《环球时报》指责该提议是旨在扩大美国对华领先的“无声 AI 冷战”，中国外交部称渲染恐惧、对抗和恶性竞争只会扰乱全球 AI 治理；报道还称美国政府同样拒绝了放缓提议。Google 研究员 Peyman Milanfar 反驳称递归自我改进是天真假设，稳定性本身就是速度限制；Gartner 分析师 Daryl Plummer 表示不相信亿万富翁会真正放慢 AI 发展。Meta 的 Mark Zuckerberg 于 9 月 15 日发帖称各公司应自行把握节奏，并援引其 8 月宣言反对拖慢美国模型发布。\n\n后续报道显示，Anthropic 计划以可能超过 2 万亿美元估值在纳斯达克上市，但未按预期发布招股书，而是先向少数投资者提供文件；Altman 对 Fortune 称 OpenAI 今年不会上市。Amodei 在 CBS 采访中澄清，放慢不意味着 Anthropic 停止发布更先进模型，但每代模型须经过充分测试。",
+        "latest_at": "2026-09-16T18:25:25.000Z",
         "original_url": "https://tomtunguz.com/what-does-the-pause-mean",
         "rank": 5,
         "recovered": false,
         "representative_source": "Tomer Tunguz 博客（VC 分析）",
-        "signal_count": 5,
+        "signal_count": 4,
         "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/d11fb65f-023b-4b2b-8569-1974cebba02c",
         "title": "Tomer Tunguz 解析 Amodei 放缓前沿提议背后的五派立场与算力监管难题"
       },
-      "observed_at": "2026-09-16T17:05:28.863930Z"
+      "observed_at": "2026-09-16T20:12:26.129543Z"
     },
     {
       "item": {
         "aihot_story_id": "db118c4b-c51d-4827-ac12-6ecebbb6c970",
-        "digest": "Google 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两款实时语音对话模型。据 Google DeepMind 博客，Gemini 3.8 Live 面向规模与成本效率，结合对话智能、流畅对话与视觉理解，可近实时处理视觉输入、在对话中自动检测并切换 97 种支持语言、在后台执行工具与 API 调用而不中断对话；Extended Thinking 面向高复杂度任务，边推理边说话，用「让我确认一下…」等早期语言提示回应，并实时讲解多步后台任务进度。Google 称 Gemini 3.8 Live 在 Speech Agent Arena 排名第二，Extended Thinking 以 82.6 居 Artificial Analysis 语音对语音质量指数第一，在 τ-Voice 得 68.6%、Sierra τ-Voice-banking 得 35.1%、Big Bench Audio 得 97.7%。两款模型即日起在 Gemini API 与 Google AI Studio 上线，企业端在 Gemini Enterprise 私密预览，Gemini 3.8 Live 另在 Search Live 上线，Extended Thinking 另在 Gemini Live 及 Google AI Pro/Ultra 订阅者的 Docs、Gmail、Keep 上线。\n\n第三方与开发者侧给出补充与不同侧重。Artificial Analysis 称其评估的是标准版与 High 推理强度版，Extended Thinking (High) 以 82.6 首次登顶其 Speech to Speech Index、以 68.6% 登顶其 Tau Voice 基准实现。The Decoder 报道定价为音频输入每分钟 0.005 美元、输出 0.018 美元，远低于 OpenAI GPT-Live-1 的每分钟 0.05 美元，并称 GPT-Live-1 因全双工仍应提供更自然的对话、演示听感更好，认为 Google 再次以价格优先于质量。Rohan Paul 称 Gemini 3.8 Live 以约 0.84 美元/小时达到前沿级语音代理性能，综合分高于 GPT-Realtime-2 High 且成本低约 80%，Extended Thinking 在 τ-Voice 的 68.6% 高于 GPT-Live-1 Astra medium 的 67.9%。Testing Catalog 称 Extended Thinking (High) 在多数基准测试中超越 GPT Live 1 排名第一。MarkTechPost 指出两款均为托管模型、不开放权重，无自托管选项，所有生成音频带 Google DeepMind 的 SynthID 隐形水印。\n\n生态与集成方面，Google 称开发者可通过 Gemini Live API 及 Agora、Fishjam、LangChain、LiveKit、Pipecat、Vercel、Vision Agents 等集成伙伴构建语音界面，并与 Salesforce、Genspark、Lumeris 合作，后者称许模型的延迟、流畅度与工具调用能力。IT之家报道称谷歌所有 AI 生成音频均嵌入 SynthID 隐形水印。\n\n时间脉络上，Testing Catalog 早先发现 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 名称出现在 GCP Console 配额页面，并称基于最新 Gemini 3.8 Flash 的新 Gemini Live 模型预计是一大跃升；随后 Google AI、Google DeepMind 与 Google 官方博客正式发布两款模型。Simon Willison 称两款模型形态与 OpenAI 的 GPT-Live 模型相似，并用 GPT-6 Astra Extra High 依据文档构建了一个网页试用 UI，可选择模型与语音预设、输入系统提示并进行语音对话，支持在模型说话时打断，实现不使用任何库、直连 WebSocket 端点。",
+        "digest": null,
         "latest_at": "2026-09-16T14:30:05.000Z",
         "original_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 0,
         "source_count": 15,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/db118c4b-c51d-4827-ac12-6ecebbb6c970",
         "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking"
       },
-      "observed_at": "2026-09-16T17:05:28.863930Z"
+      "observed_at": "2026-09-16T20:12:26.129543Z"
     },
     {
       "item": {
@@ -140,36 +191,36 @@
     {
       "item": {
         "aihot_story_id": "f8240408-8a78-46cd-aec6-b84ae9499a0e",
-        "digest": "微软AI于2026年9月14日发布一份面向MAI模型的行为准则草案，并开启为期六周的公开征求意见。微软AI CEO穆斯塔法·苏莱曼称这是首份公开咨询草案，延续其过去一年提出的“人文主义AI”理念，即确保AI始终从属于人类、保持受控并与人类利益对齐。IT之家报道该文件长达37页，核心原则为“人比AI更重要”。\n\n草案内容涵盖多项约束：模型须接受有效的人类监督与管控，可被授权人员中断、纠正和关闭；不得自行扩大工作范围、隐藏行为或未经新批准越过约定停止点；不得使用人类无法理解的“神经语”等表达形式，推理过程应可被监控；不得模仿意识、声称拥有感受或内在动机，微软明确反对赋予AI法人资格、权利或福利。TechCrunch报道称，文件还列出禁止网络攻击、核武器、深度伪造等“绝对约束”，并要求模型不得使用欺骗、自适应、自我强化或串通等机制规避人类监督。\n\n关于适用范围与时间表，The Decoder报道称该准则目前尚未用于训练模型，修订版预计2026年底完成，2027年起指导自研模型开发，且仅适用于微软自有模型，不自动覆盖微软产品中的第三方模型。Artificial Intelligence News报道称，微软计划在公开咨询后定稿，并呼吁开发者从训练材料中移除意识相关主张、建立联合遏制基准。\n\n在模型福利议题上，苏莱曼另行发表文章，称AI并无意识、不会感受或受苦，但“模型福利”运动主张人类可能对模型负有照护义务，他认为这一做法错误，可能使对齐与遏制更难甚至不可能。The Decoder指出，微软在模型自我认知问题上与Anthropic立场分歧明显。",
-        "latest_at": "2026-09-16T14:48:59.675Z",
+        "digest": "微软AI发布了一份治理其MAI模型的行为准则草案，名为“人文主义AI”（Humanist AI）。微软AI CEO穆斯塔法·苏莱曼表示，这是首份草案，面向公众开放六周征求意见，并称其建立在过去一年形成的“人文主义AI”理念之上——确保AI始终从属于人类、保持受控并与人类利益对齐。据IT之家报道，该文件长达37页，核心原则为“人比AI更重要”。Artificial Intelligence News称，草案吸纳了MAI及微软多个团队的工作，起草过程还参考了国际学术会议、商业伙伴试验和公众小组，公开咨询窗口自2026年9月14日起为期六周。\n\n草案列出的原则包括：人类控制优先，安全优先于任务完成；AI应保持为工具而非模仿人；不得追求独立目标、不得自行扩大授权范围；模型须可中断、可纠正、可关停，且这些限制同样适用于其调用的子智能体；不得使用人类无法理解的“Neuralese”等表达形式，以便人类监督；应增强而非取代人类的推理与决策能力，避免制造情感依赖。TechCrunch报道称，文件设有“绝对约束”，禁止网络攻击、核武器和深度伪造，并禁止模型使用自适应、欺骗、自我强化或串通等机制逃避人类监督。微软还明确反对赋予AI权利或法人资格，反对“模型福利”观念，称不应训练系统模仿意识状态。\n\nThe Decoder指出，该准则目前并未用于训练模型；六周公众咨询后，修订版预计于2026年底出台，并从2027年起指导模型开发。该准则适用于微软自研模型，不自动覆盖微软产品中运行的第三方模型。微软AI首席苏莱曼对The Information表示“如果不安全就不应该构建”，准则未设定具体的研发速度上限。微软称愿在通用性、自主性或性能上做出取舍，并计划与合作伙伴结合真实使用者完善评估。\n\n在准则发布后，苏莱曼又发表了一篇文章，专门讨论“模型福利”。他称AI没有意识，不会感受、体验或痛苦，但支持模型福利的运动正在增长，他认为这种做法是错误的，很可能使对齐与遏制更难，甚至不可能。",
+        "latest_at": "2026-09-16T19:00:46.319Z",
         "original_url": "https://x.com/mustafasuleyman/status/2100223594534150428",
-        "rank": 2,
+        "rank": 1,
         "recovered": false,
         "representative_source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
-        "signal_count": 6,
-        "source_count": 5,
+        "signal_count": 5,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f8240408-8a78-46cd-aec6-b84ae9499a0e",
         "title": "微软 AI CEO 警告“模型福利”论调"
       },
-      "observed_at": "2026-09-16T17:05:28.863930Z"
+      "observed_at": "2026-09-16T20:12:26.129543Z"
     },
     {
       "item": {
         "aihot_story_id": "fc1c06e2-09e0-41ee-ab9e-95681f1b49a1",
-        "digest": "OpenAI 宣布在 ChatGPT 中开放广告投放，广告主可注册并进入 Ads Manager 创建账户、建立广告活动。OpenAI 称广告在体验中会被明确标识、与 ChatGPT 的回答保持区分，用户可控制其数据如何被用于广告；OpenAI 表示对 ChatGPT 中的广告采取审慎方式，重点是在维持用户信任的同时让广告对广告主有用。\n\nOpenAI 随后推出 Ads Manager 插件，广告主可用自然语言提示直接在 ChatGPT 中创建、更新和分析广告活动，把网站或简报转化为广告活动、了解表现并获得下一步建议。OpenAI 还在 Ads Manager 中上线 AI 广告创作辅助，可根据落地页和活动目标生成文案与图像建议，广告主可审核并编辑后再决定是否加入活动。\n\nOpenAI 同时宣布与 HubSpot 和 Shopify 的集成，称二者分别是其首个 CRM 和电商合作伙伴。OpenAI 称，即日起在 HubSpot 管理客户的企业可连接 ChatGPT Ads 账户、创建广告、跟踪表现并跟进线索；美国 Shopify 商家可在 Shopify App Store 使用新的 ChatGPT Ads 应用创建和管理广告活动，商品已通过 Shopify Catalog 集成。OpenAI 还表示该应用将于 9 月 23 日起在 ChatGPT Ads 已上线的国际市场提供。",
+        "digest": null,
         "latest_at": "2026-09-16T16:06:24.581Z",
         "original_url": "https://openai.com/index/reimagining-advertising-with-ai",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 0,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/fc1c06e2-09e0-41ee-ab9e-95681f1b49a1",
         "title": "OpenAI 推出 ChatGPT Ads 新功能：Sponsored Agents 测试并集成 HubSpot 与 Shopify"
       },
-      "observed_at": "2026-09-16T17:05:28.863930Z"
+      "observed_at": "2026-09-16T20:12:26.129543Z"
     }
   ],
   "version": 1
