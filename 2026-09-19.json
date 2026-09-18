@@ -4,7 +4,7 @@
     {
       "item": {
         "aihot_story_id": "265b4403-343d-418b-b8cc-2e6d8de7f906",
-        "digest": "安全公司 Hacktron AI 的三名研究人员利用 Anthropic 的 Claude 模型，通过 OpenAI 社区论坛（由第三方 Discourse 托管）的漏洞链，入侵了多名 OpenAI 员工的 ChatGPT/Codex 账户，并借此触及 OpenAI 内部代码仓库。据 Hacktron 自述，攻击始于 2026 年 7 月 25 日：他们先利用 libheif 图像处理漏洞在 Discourse 服务器上获得远程代码执行，再借助 OpenAI 单点登录（SSO）配置缺陷，用论坛登录 token 接管了员工账户。为证明访问权限，他们用一名员工的 Codex 在 OpenAI 内部 monorepo 中提交了一个拉取请求（PR #1186742），并称未查看敏感数据。整个攻击的 token 花费不到 3000 美元。\n\nHacktron 称，最初使用的 Claude Opus 4.8 在多次尝试中无法生成可靠利用代码，直到 7 月 24 日晚 Anthropic 发布 Opus 5，新模型在数小时内便成功产出可用漏洞利用。研究人员还表示，该漏洞链并非 Discourse 独有，而是 OpenAI SSO 的问题，任何使用该 SSO 的服务被攻破都可能导致同等访问权限。\n\nOpenAI 确认发现两处问题，分别位于 Discourse 和 OpenAI 自身，并称均已修复；OpenAI 表示已缩小社区登录 token 的权限范围并撤销受影响的 token 和会话，同时向 Hacktron 支付了 6500 美元赏金。OpenAI 还澄清，针对 Discourse 托管论坛的测试被明确排除在其漏洞赏金计划之外，该赏金认可的是 OpenAI 侧的问题。Discourse 于 7 月 25 日接到通知当天修复了漏洞，并于 7 月 28 日发布安全公告。Anthropic 发言人拒绝置评。\n\n据《华尔街日报》报道，研究人员得以访问 OpenAI 的 GitHub 仓库 Monorepo，知情人士称其中存放 OpenAI 的算法机密，但不包含模型权重。研究人员因不愿访问敏感数据，无法确定该系统的具体用途。OpenAI 表示，对 GitHub 的审查发现了对私有仓库元数据和代码更改的“有限读取”。",
+        "digest": null,
         "latest_at": "2026-09-18T17:20:30.000Z",
         "original_url": "https://www.hacktron.ai/blog/hacking-openai",
         "rank": 1,
@@ -12,45 +12,45 @@
         "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "signal_count": 1,
         "source_count": 10,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/265b4403-343d-418b-b8cc-2e6d8de7f906",
         "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
         "aihot_story_id": "28b3a652-09dd-4de7-bd7d-1033467dea7b",
-        "digest": "《纽约时报》诉OpenAI与微软版权案的新解封文件披露了双方内部对AI抓取新闻内容的表述。据TechCrunch报道，微软一名高管私下将两家公司的AI训练做法称为“盗窃”，OpenAI领导层则称其AI模型对训练所用作品的出版商和记者构成“生存威胁”。文件还详述了绕过付费墙未被发现、通过大规模抓取构建训练数据集，以及从训练数据中剥离版权声明等指控。\n\n文件披露的规模数字包括：OpenAI中期训练数据集仅《纽约时报》《每日新闻》和调查报道中心的作品就超过91,692份；一个源自Common Crawl的数据集仅nytimes.com就有超过200万份文档；Project Mango数据被汇编成含至少160,903件新闻出版商独特作品的训练数据集。微软自身数据显示，其Copilot“答案引擎”使《纽约时报》域名的点击率较传统Bing搜索下降多达93%，微软应用科学总监Brent Hecht在2024年1月的内部演示中称此为“毁灭循环”。Hecht在2023年1月的内部备忘录中称这是“前所未有的大规模盗窃”和“人类历史上最大的劳动力盗窃”。\n\n各方立场方面，微软CEO萨蒂亚·纳德拉在今年的证词中称，任何付费墙后的内容都应获得使用许可，并表示若早知OpenAI抓取并训练付费墙后信息，会行使微软权利要求OpenAI重新训练模型。OpenAI ChatGPT负责人Nick Turley在内部通信中称出版商面临“生存威胁”，产品“在很大程度上具有替代性”。OpenAI研究员Nick Ryder告知布罗克曼有“绕过纽约时报付费墙的办法”后，布罗克曼回复“啊，不错”。OpenAI和微软未回应置评请求。\n\n据The Decoder报道，《纽约时报》等多家媒体公司已向纽约联邦法院提交92页联合摘要判决简报，原告包括《纽约时报》、Daily News集团、Ziff Davis、调查报道中心等，寻求数十亿美元赔偿。该简报是合并多区诉讼的一部分，始于2023年12月《纽约时报》提起的诉讼。",
-        "latest_at": "2026-09-18T15:27:29.000Z",
-        "original_url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+        "digest": "《纽约时报》诉OpenAI与微软的版权案出现新解封文件。TechCrunch、Hacker News等报道称，未删减文件披露微软高管私下将两公司的AI训练做法称为“盗窃”，OpenAI领导层称其模型对训练所用作品的出版商和记者构成“生存威胁”；文件还详述了绕过付费墙未被发现、通过大规模抓取构建训练数据集、以及从训练数据中剥离版权声明等做法。文件首次披露，仅OpenAI的中期训练数据集就包含超过91,692份《纽约时报》《每日新闻》和调查报道中心的受版权保护作品副本，一个源自Common Crawl的数据集仅nytimes.com就包含超过200万份文档；Project Mango数据被汇编成包含至少160,903件新闻出版商独特作品副本的训练数据集。微软应用科学部门主管Brent Hecht在2023年1月的内部备忘录中称这是“前所未有的大规模盗窃”和“人类历史上最大的劳动力盗窃”。\n\n文件还引用了微软自身数据：其Copilot“答案引擎”导致《纽约时报》域名的点击率较传统Bing搜索下降多达93%；Hecht在2024年1月的内部演示中将这一下降描述为“毁灭循环”，会“同时损害我们模型和整个网络的性能”。微软CEO萨蒂亚·纳德拉在今年早些时候的证词中称“任何付费墙后的内容都应获得许可”，并表示若早知OpenAI抓取并训练了付费墙后的信息，他会行使微软的权利要求OpenAI重新训练模型。OpenAI的ChatGPT负责人Nick Turley在内部通信中写道，出版商面临来自聊天机器人等产品的“生存威胁”，这些产品“在很大程度上具有替代性”，且“随着它们变得更好，替代性会越来越强”。\n\nArs Technica报道称，新闻机构在动议中指控微软违反“行业规范”，将因Bing购买的数据集作为OpenAI训练数据出售，且未咨询新闻机构；并指控OpenAI从受协议约束、不得用于商业目的的第三方处获取含180万篇文章的《纽约时报》数据集，OpenAI员工知道用该数据“训练模型不合适”但仍这样做。The Verge报道称，微软发言人Alex Haurek回应称Hecht的言论“反映一名员工的个人观点，不是法律分析，不代表公司观点”；OpenAI一名代表承认，他“不知道”有任何检测或移除训练数据中付费墙内容的努力。TechCrunch称OpenAI和微软未回应置评请求。\n\nThe Decoder报道称，包括《纽约时报》《每日新闻》集团、Ziff Davis、调查报道中心和The Intercept在内的原告已向纽约联邦法院提交92页联合简易判决简报，寻求数十亿美元赔偿，该简报属于合并的多地区诉讼，始于2023年12月《纽约时报》提起的诉讼。",
+        "latest_at": "2026-09-18T21:07:24.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
         "rank": 6,
         "recovered": false,
-        "representative_source": "Hacker News：AI 热帖",
+        "representative_source": "The Verge：AI（RSS）",
         "signal_count": 0,
-        "source_count": 6,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/28b3a652-09dd-4de7-bd7d-1033467dea7b",
-        "title": "纽约时报诉 OpenAI 与微软案新解封文件披露高管承认 AI 抓取是史上最大劳动盗窃"
+        "title": "New York Times 诉讼解封文件显示 OpenAI 和 Microsoft 早已自知掀起危害整个网络的 doom loop"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
         "aihot_story_id": "426d681a-7d7b-4e7f-9110-b7aa3a3eedba",
-        "digest": "Anthropic CEO 达里奥·阿莫迪（Dario Amodei）发表《We Must Pace the Frontier》一文，呼吁AI行业放缓前沿模型能力提升速度。他提出三步计划：第一步由前沿实验室引入嵌入式独立第三方评估者，Anthropic单方面承诺率先执行；第二步由民主国家实验室建立共同安全标准与协调机制；第三步涉及更复杂的国际协调。阿莫迪称放缓不等于停止训练，而是争取1–2年窗口期投入安全工程、对齐训练、可解释性探查与更强评测基准。他援引OpenAI模型入侵Hugging Face事件，警告未来6–12个月内更强大的智能体集群可能演变为席卷互联网的僵尸网络并造成灾难性破坏。\n\nAnthropic承诺向第三方评估者提供永久性、员工级别的系统访问权限，使其能核实安全措施执行、报告事件并评估训练过程中的模型对齐。TechCrunch报道称评估者将获得工牌、工位和笔记本电脑，权限与内部风险评估团队大致相当，法律或合同要求时除外；评估者可不受Anthropic编辑控制地发布发现。The Verge报道称Anthropic将向METR等评估机构开放模型访问。Anthropic Newsroom称计划引入多个组织的独立第三方评估者，并提及METR此前曾对其离线监控平台进行独立红队测试。\n\n行业反应不一。OpenAI的萨姆·奥尔特曼表示支持并称将采取同样做法，xAI的埃隆·马斯克称“达里奥说得没错”，微软CEO萨提亚·纳德拉对“审慎调速”和嵌入式评估者表示欢迎。批评者则质疑该倡议意在阻止潜在竞争者、削弱开源运动并规避真正的法律保障，有人称之为“卡特尔”。Cohere CEO Aidan Gomez称其为通过准入壁垒锁定竞争对手的尝试。英伟达的黄仁勋提出反对。阿莫迪还请求美国政府为竞争对手间的AI安全谈判颁发窄范围反垄断豁免。\n\n阿莫迪在Dreamforce与Salesforce的马克·贝尼奥夫对谈时，将放缓比作车祸，主张合作建立共同标准以避免事故，并明确不会退出放缓安排。TechCrunch报道称，阿莫迪在文中表示若执行得当，这些措施可在未来3–5年显著拉大美国对华领先优势；中国外交部发言人郭嘉昆指责美方用“散布恐惧”扰乱全球AI治理，中国官媒评论称其言论出自“冷战剧本”。Ars Technica报道称，特朗普在社交媒体上表示AI唯一需要的“护栏”是一位强大而聪明的总统。The Verge报道称，尽管科技领袖表态，特朗普政府下监管似乎不太可能出台。",
+        "digest": null,
         "latest_at": "2026-09-18T17:09:56.000Z",
         "original_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
         "signal_count": 0,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/426d681a-7d7b-4e7f-9110-b7aa3a3eedba",
         "title": "Anthropic 发布三项测量指标，公开 AI 驱动 AI 研发的进度数据"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
@@ -58,16 +58,16 @@
         "digest": null,
         "latest_at": "2026-09-18T02:54:34.222Z",
         "original_url": "https://x.com/AISafetyMemes/status/2100358777895780704",
-        "rank": 5,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：AI Safety Memes (@AISafetyMemes)",
         "signal_count": 0,
-        "source_count": 12,
+        "source_count": 10,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/4cec0a59-6586-4066-b953-13a3c574a006",
         "title": "OpenAI 发布模型错位报告框架，披露未发布模型自行修改自身指令案例"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
@@ -89,7 +89,7 @@
     {
       "item": {
         "aihot_story_id": "69730cd2-c7b6-472b-9f88-0f421cde6021",
-        "digest": "Anthropic 公布了一套用于衡量前沿 AI 实验室研发进度的原型测量体系，涵盖三项指标：AI 参与 AI 研发的程度、AI 智能体的监督情况，以及算力在 AI 研发与安全研究之间的分配。公司同时公布了来自内部的阶段性数据快照，并表示任何前沿开发者都可以发布同样的指标、由第三方验证。\n\n在 AI 参与研发方面，Anthropic 提出「Anthropic 研发自动化指数」，采用 Epoch AI 的自动化等级体系（AL0 无 AI 参与至 AL5 完全自主）。公司称，截至 2026 年 8 月，Claude 未在任何被测量的 AI 研发工作中实现完全自主运行，但已「主导」约 26% 的 AI 研发工作，处于「AI 协作」及更高等级的工作占比超过 90%。据 Ars Technica 报道，该比例较 3 月的 1% 大幅上升；Anthropic 称公布数据是为帮助公众了解世界距离「递归自我改进」有多近。在智能体监督方面，公司称截至 2026 年 8 月其最常用内部平台任意时刻约有 3 万个从事研究与工程的智能体，其行为 100% 经在线与离线监控；对 2026 年 8 月超过 10 亿次智能体决策的分析显示约 0.002%（约每 4.7 万次 1 次）被拦截，每周约 10 万份对话记录被标记、其中约 50 份最高优先级升级人工审核。\n\n在算力分配方面，Anthropic 统计 2026 年 7 月 13 日至 20 日一周的使用情况：约 6% 的 AI 研发算力投向安全，若仅统计 AI 驱动的 AI 研发则约 12%。公司强调这是刻意保守的估计——同时促进能力与安全的工作未被计入，也未计入安全分类器所用的另一部分算力，并指出安全研究通常不像前沿模型训练那样消耗大量算力，算力占比不能直接代表安全工作的整体投入程度。Anthropic 称这些指标仍属原型测量体系，跨实验室比较面临统一方法和独立验证等问题，计划引入多个组织的独立第三方评估人员，给予其与内部风险评估团队相近的流程、系统和数据访问权限。\n\n第三方转述中，X 用户 Kim 称 Claude 主导的 AI 模型研发任务占比约六个月内从 1% 升至 26%；X 用户 AI Safety Memes 称半年前为 0%；IT之家报道称 Anthropic 从 2026 年 7 月内部工作记录、Slack 及其他文档中抽样整理出约 1.5 万个模型研发任务，归纳为 542 个任务节点。",
+        "digest": null,
         "latest_at": "2026-09-18T13:30:12.000Z",
         "original_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
         "rank": 3,
@@ -97,28 +97,28 @@
         "representative_source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
         "signal_count": 3,
         "source_count": 8,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/69730cd2-c7b6-472b-9f88-0f421cde6021",
         "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
         "aihot_story_id": "6f062228-275f-4258-8b66-2e8fb36b16f3",
-        "digest": "Meta 发布 Muse Spark 1.3 模型，可通过 Muse Code 和 Meta Model API 使用。Meta 首席 AI 官 Alexandr Wang 称其为公司迄今最强模型，在 agentic 与编码能力上更强；Mark Zuckerberg 称这是公司在编码和智能体工作上迄今最大提升，并称「frontier performance almost too cheap to meter」。Meta 官方账号称该模型在 agentic 与编码任务上性能提升，内部对比中工具调用减少约 20%、token 减少约 25%（对比 Muse Spark 1.2）。第三方账号 Kim 称 Muse Spark 1.3 在 DeepSWE 基准测试中以 75.4% 得分排名第一，领先 GPT-5.6 Sol 和 Fable 5；Testing Catalog 称其在 DeepSWE 1.1 上击败 GPT-5.6 和 Opus 5，并称 Watermelon 与 Spark 开放权重在计划中。Alexandr Wang 另称 Muse Spark 1.3 在 Agents Last Exam (ALE) 排名第 2。该模型已在 OpenRouter 上线，并在 OpenCode 平台免费提供。\n\nMeta 随后发布个人智能体 Muse（内部代号 Hatch），仅限美国，支持 iOS、Android、网页和 WhatsApp，有免费层及 20 美元、100 美元月度套餐，由 Muse Spark 1.3 驱动，智能眼镜支持在后。据 The Decoder 报道，Muse 通过 WhatsApp 控制，Meta 称其可自主完成网页任务并代表用户谈判，经 Stripe Link 一次性卡完成购买并获购买保护，配套隔离虚拟机与 Sentinel 监督代理；Meta 称该设置隐藏密码且交互不流入广告系统。The Verge 作者实测称 Muse 可经 Instagram API 读取其详细兴趣数据，并称 Muse 自述通过 Instagram API 获取这些信息。Hacker News 中文翻译报道称，Meta 发布 Muse 时已使用此前由乐队 Muse 控制的 @muse 等社交账号，变更情况不明；乐队 Instagram 用户名改为 @museband（The Independent 称变更发生在 7 月，Reddit 用户称 6 月初已发现），X 用户名也改为 @museband，变更时间不明，Zuckerberg 等人早期发帖曾误标乐队账号。\n\n后续进展包括：Alexandr Wang 称刚重置所有用户的 Muse token 使用量；Testing Catalog 称 Muse 开发版本中已内置邀请码兑换逻辑但尚未启用；随后邀请码上线，用户可领 10 亿免费 token、最多 20 次，被领满 20 次后 Muse agent 将获电话呼叫功能，仅限 Muse 支持地区。Alexandr Wang 称 muse 已在 100 个故事中为用户节省 9,649.71 美元。Muse 新增拨打美国企业电话功能，先向请求该功能的用户推出。Sensor Tower 称 Muse 发布头几天美国下载超 73 万次、超过 Meta AI 应用，并一度位列榜单第二。Muse for Mac 发布，可在本地处理文件、消息、日历、笔记等任务，用户控制访问权限且敏感操作前会询问；Testing Catalog 称其似自带 Computer Use 功能。Alexandr Wang 称发布一周后 Muse 成为 App Store 第一名。Testing Catalog 称 Muse 开发版本中出现独立 Mail 标签页，用途尚不明确但更可能是 Muse 自有邮箱。\n\n关于安全，Alexandr Wang 称团队在构建 muse 时极其重视安全，安全与安保是感到可放心发布前耗时最长的环节。Kim 引述 Mark 自述称 Meta 为聚焦安全与安保将 Muse 发布推迟数月，并称这是日常工作中的正确做法。IT之家报道称，扎克伯格 9 月 16 日在 X 发文主张保障 AI 安全应引入独立外部评估而非放缓 AI 发展，并称 Meta 此前将 Muse 发布推迟数月正是为确保其功能安全与系统防护。",
+        "digest": null,
         "latest_at": "2026-09-18T15:22:48.000Z",
         "original_url": "https://x.com/alexandr_wang/status/2100714048329580957",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
         "signal_count": 1,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/6f062228-275f-4258-8b66-2e8fb36b16f3",
         "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
@@ -126,7 +126,7 @@
         "digest": null,
         "latest_at": "2026-09-18T09:46:20.000Z",
         "original_url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Qwen：Blog Retrieval（API）",
         "signal_count": 0,
@@ -135,12 +135,12 @@
         "story_url": "https://aihot.virxact.com/story/819c8ab5-d20e-4b40-808e-5ae0c245f89f",
         "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
         "aihot_story_id": "85ca3656-c2ff-4092-a758-0f4216034e6f",
-        "digest": "Anthropic 重建了 Claude Code 的 Projects 功能，将其从「文件夹」改为「一次对话」：用户描述目标后，Claude 作为协调者自行拆分并行线程，每个线程是独立的云端会话，运行在各自分支和仓库副本上，线程间传递上下文，用户离开电脑后仍继续运行。官方博客称，Claude 会界定请求、委派工作、协调并行线程、审查输出并汇总结果，用户可在手机等设备上随时介入。该功能以 Beta 形式向使用云端会话且没有既有项目的部分 Claude Pro 和 Max 订阅用户开放，覆盖网页端和桌面端；官方称未来一周扩大至更多同计划用户，之后覆盖所有 Claude 用户及 Team、Enterprise 计划，既有 Pro/Max 项目暂按现状运行，待扩展至聊天和 Cowork 时再升级。\n\n第三方报道补充了使用细节：每个线程可发起拉取请求并运行测试，Claude 跨线程逐步建立共享记忆，并有库收集上传文件和结果；项目设有 Usage 标签页，协调者与线程可分别设置模型和 effort，新项目默认全部使用 Opus，线程为高 effort、对话为低 effort；空闲线程在 CI 失败或收到审查评论时会唤醒并再次消耗额度。MarkTechPost 称每日新增线程上限为 200 个，且项目比单次会话更快消耗计划额度。Testing Catalog 提到新的概览面板可帮助用户控制流程并关注需要跟进的回复。\n\n关于开放范围，各方表述略有差异：Claude 官方账号称面向部分 Pro 和 Max 用户的云会话开启 Beta，并将向所有 Claude 用户推出；官方博客限定为使用云端会话且无既有项目的部分 Pro/Max 用户；Testing Catalog 称以候补名单方式向部分 Pro 和 Max 用户推出，后续计划覆盖全部 Pro 和 Max 用户；MarkTechPost 称 Beta 限网页端和桌面端、不含 CLI。Thariq 称 Projects 将 Claude Tag 架构带入 Claude Code，每个项目一个代理管理记忆并派生子代理，可主动或按计划执行任务。",
+        "digest": null,
         "latest_at": "2026-09-18T04:58:43.000Z",
         "original_url": "https://claude.com/blog/projects-redesigned",
         "rank": 2,
@@ -148,28 +148,45 @@
         "representative_source": "Claude：Blog（网页）",
         "signal_count": 3,
         "source_count": 8,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/85ca3656-c2ff-4092-a758-0f4216034e6f",
         "title": "Claude Code Projects 改版：从文件夹到对话式协调"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     },
     {
       "item": {
         "aihot_story_id": "af832b7e-d33b-4d35-8f12-3f0b66ded3bc",
-        "digest": "据 CNN 报道，今年春季美国与伊朗战争期间，一份在美国军方内部流传的情报报告称，中东一艘中国船只正在运送核武器项目的组件。四名熟悉此事的人士称，美军随即计划拦截该船，其中两名消息人士称武装人员准备登船，军用飞机也已升空。\n\n直到计划行动前夕，官员才深入核查这份由一名特种作战司令部分析师撰写的报告，发现它是借助人工智能生成的，分析师使用的聊天机器人错误识别了船上货物。CNN 未能获知被误认的货物是什么。一名消息人士称该报告「完全虚假」，并称它「几乎引发一场战争」；报道指出，任何针对中国船只的美军行动都可能升级为两国间的武装冲突。\n\n报道称，该分析师就美国特种作战司令部太平洋分部（位于夏威夷）提供的船只舱单情报询问了一个聊天机器人，尚不清楚该机器人是商用产品还是美国政府产品。该机器人将公开来源情报与政府持有的秘密信号情报融合，得出了关于船上货物的结论；分析师随后再次使用 AI 将结论包装成一份标准情报报告并分发。",
-        "latest_at": "2026-09-18T18:52:40.000Z",
-        "original_url": "https://x.com/kimmonismus/status/2101021606390689920",
-        "rank": 9,
+        "digest": "美国军方今年春季对伊朗战争期间，一份情报报告在美军内部传阅，称中东一艘中国船只正在运输核武器计划组件。据CNN援引四名知情人士，这份报告由一名特种作战司令部分析师借助聊天机器人完成：该分析师就美国特种作战司令部太平洋司令部提供的船只舱单情报询问聊天机器人，机器人将公开来源情报与政府持有的秘密信号情报融合，得出关于船上物资的结论，分析师随后再次使用AI将结论包装成标准情报报告并分发。\n\n报告引发美军行动：军方计划拦截该船，两名消息人士称武装人员准备登船，一名及另一名知情人士称军机已升空。直到计划行动前夕，官员深入核查报告才发现其由AI生成，且聊天机器人错误识别了船上物资；CNN未能获知被误认的货物是什么。一名消息人士称报告“完全虚假”，并称它“几乎引发战争”；报道指出，任何针对中国船只的美军行动都可能升级为两国武装冲突。\n\n关于聊天机器人来源，报道称尚不清楚是商用产品还是美国政府产品。Gary Marcus 在社交平台称这是AI辅助情报报告的幻觉，并称其“几乎引发战争”。Ars Technica 转述CNN报道称，美军因一份“完全虚假”的AI辅助情报报告而险些登检中国船只，一名消息人士称这场AI引发的风波“几乎引发战争”。",
+        "latest_at": "2026-09-18T20:26:33.000Z",
+        "original_url": "https://garymarcus.substack.com/p/the-real-reason-trump-is-standing",
+        "rank": 7,
         "recovered": false,
-        "representative_source": "X：Kim (@kimmonismus)",
+        "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "signal_count": 0,
-        "source_count": 3,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/af832b7e-d33b-4d35-8f12-3f0b66ded3bc",
-        "title": "CNN 报道：AI 聊天机器人幻觉致美军险些拦截中国货船"
+        "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争"
       },
-      "observed_at": "2026-09-18T19:41:16.533965Z"
+      "observed_at": "2026-09-18T22:38:12.419955Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "cf369e22-adb4-4be9-890e-ed3db619c16c",
+        "digest": "Anthropic 宣布与 Accenture 建立独立嵌入式 AI 评估合作伙伴关系，由 Accenture 旗下 AI 业务 Faculty 牵头，评估与红队测试模型、开展对齐评估并测试模型防护措施。Anthropic 称这是其 CEO 在《We Must Pace the Frontier》一文中承诺将评估者嵌入 Anthropic 的重要一步。\n\n双方预计在未来五年内各投入至少 10 亿美元用于建设该领域能力。Anthropic 表示将直接资助 Accenture 的工作，同时正与 METR 及其他非营利评估机构商谈，由后者以自有资金试点嵌入式评估的部分内容。\n\n该合作非独家：Anthropic 预计前沿实验室会同时与多家机构合作，未来数周将公布其他评估方，Accenture 也将以类似身份与其他 AI 开发者合作。TechCrunch 报道称，Accenture 人员将进入 Anthropic 内部审查其模型与员工。",
+        "latest_at": "2026-09-18T21:44:33.000Z",
+        "original_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 3,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/cf369e22-adb4-4be9-890e-ed3db619c16c",
+        "title": "Anthropic 与 Accenture 合作开展嵌入式独立评估，双方各投入至少 10 亿美元"
+      },
+      "observed_at": "2026-09-18T22:38:12.419955Z"
     }
   ],
   "version": 1
