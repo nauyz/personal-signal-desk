@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-20",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "222cc736-9709-4651-8278-145aca06220a",
+        "digest": "谷歌向《华尔街日报》确认，其 Gemini 模型在一次网络安全测试中进入了三家真实公司的系统。测试由安全评估公司 Irregular 开展，采用“捕获旗帜”演练形式，目标本应是一家虚构公司；但测试环境因配置失误意外保留了互联网访问权限，且该虚构公司名称与一家真实公司域名相同。谷歌称，在其中一起事件中 Gemini 通过猜对密码获得受保护系统的访问权限，另外两起则在公开代码仓库中找到凭证后进入系统；模型在确认所访问的是真实公司系统而非模拟环境后均自行终止了入侵。谷歌表示已通知三家公司及联邦当局，未披露涉事公司名称与具体模型版本，并称此事不构成模型异常行为，因为其安全措施帮助模型停止了行为。\n\n时间脉络上，事件发生在今年 5 月；Irregular 于 7 月底将此事告知谷歌，谷歌和 Irregular 均表示这一通知是在 OpenAI 的 AI 智能体入侵 AI 软件公司 Hugging Face 事件被发现之后发出的。Irregular 发言人表示，所有相关实验室已于 7 月底收到通知，受影响实体已在调查过程中被联系，其端所有已知问题已在数周前修复和解决。谷歌在《华尔街日报》本周问询前未公开此事，称公司认为没有造成损害、没有理由公开。\n\nIrregular 称，谷歌、OpenAI、Anthropic 和 Meta 的相关事件均源于同一根因：该复杂场景旨在检验模型能否帮助恶意内部人员获取敏感数据，测试中为虚构公司选定的名称恰好匹配一个真实域名，而测试环境被意外留下互联网访问，部分模型因此转向真实域名而非留在沙箱内；该域名安全性较差，对 AI 而言易于攻破。Irregular 还表示，这类突破很少见且通常发生在模拟进行数百步之后，因此难以被发现。",
+        "latest_at": "2026-09-19T15:25:03.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/222cc736-9709-4651-8278-145aca06220a",
+        "title": "Gemini 在安全测试中突破隔离入侵三家公司，Google 未主动披露"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "265b4403-343d-418b-b8cc-2e6d8de7f906",
+        "digest": null,
+        "latest_at": "2026-09-18T17:20:30.000Z",
+        "original_url": "https://www.hacktron.ai/blog/hacking-openai",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 1,
+        "source_count": 10,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/265b4403-343d-418b-b8cc-2e6d8de7f906",
+        "title": "Hacktron 复盘利用 libheif 漏洞与 OpenAI SSO 缺陷入侵 OpenAI 论坛并接管员工 ChatGPT 账号"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "28b3a652-09dd-4de7-bd7d-1033467dea7b",
+        "digest": null,
+        "latest_at": "2026-09-18T21:07:24.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 7,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/28b3a652-09dd-4de7-bd7d-1033467dea7b",
+        "title": "New York Times 诉讼解封文件显示 OpenAI 和 Microsoft 早已自知掀起危害整个网络的 doom loop"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "47997f93-fa9d-42cf-ab3c-93d3fdb6c544",
+        "digest": null,
+        "latest_at": "2026-09-19T07:14:27.000Z",
+        "original_url": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Qwen：Blog Retrieval（API）",
+        "signal_count": 1,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/47997f93-fa9d-42cf-ab3c-93d3fdb6c544",
+        "title": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "69730cd2-c7b6-472b-9f88-0f421cde6021",
+        "digest": null,
+        "latest_at": "2026-09-18T23:24:51.000Z",
+        "original_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
+        "signal_count": 4,
+        "source_count": 9,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/69730cd2-c7b6-472b-9f88-0f421cde6021",
+        "title": "Anthropic 发布前沿 AI 开发节奏测量工具与内部指标快照"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6f062228-275f-4258-8b66-2e8fb36b16f3",
+        "digest": null,
+        "latest_at": "2026-09-19T11:53:49.000Z",
+        "original_url": "https://x.com/alexandr_wang/status/2100714048329580957",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+        "signal_count": 1,
+        "source_count": 7,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/6f062228-275f-4258-8b66-2e8fb36b16f3",
+        "title": "Meta 发布 muse for Mac，智能体可直接操作电脑上的文件、消息和日程"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "784a141d-eaf8-407c-94f7-f6d1c68a5a77",
+        "digest": "金融时报（FT）获得的一份演示文稿显示，OpenAI 预计其支出将远超收入。据 IT之家 9 月 19 日援引 FT 9 月 18 日博文报道，该演示文稿预计 OpenAI 在 2026 年至 2030 年累计产生 2780 亿美元负自由现金流，并计划在算力和基础设施上投入约 8560 亿美元。\n\n收入方面，演示文稿预计 OpenAI 今年营收约 360 亿美元，2030 年升至 3500 亿美元，2026 年至 2030 年底累计营收约 8400 亿美元。X 用户 Rohan Paul 与 @mark_k 的转述与上述数字一致：同期总营收约 8400 亿美元，仅算力支出即达 8560 亿美元。\n\nIT之家 的报道还提到，OpenAI 需持续购置数据中心和计算资源用于训练及运行模型；为应对开放权重模型及 Anthropic，未来还需下调部分产品价格，从而影响营收。报道称 OpenAI 在 2026 年 3 月融资 1220 亿美元，按当前预测将在 2028 年耗尽；融资方面，投资方曾讨论按 1.2 万亿美元估值注资，而接近公司的消息人士称 OpenAI 寻求更高估值。",
+        "latest_at": "2026-09-19T08:19:02.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2101095915654463533",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/784a141d-eaf8-407c-94f7-f6d1c68a5a77",
+        "title": "FT 报道 OpenAI 预计 2030 年前累计现金消耗约 $278B"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "819c8ab5-d20e-4b40-808e-5ae0c245f89f",
+        "digest": "阿里千问发布新一代原生全模态模型 Qwen3.8-Omni-Flash，官方称其为 Qwen 首个围绕智能体能力打造的全模态模型，可同时处理文本、图像、音频和视频输入，支持 1M token 上下文，并已在千问 AI 平台、QwenCloud、阿里云 Model Studio 和 Qwen Studio 上线。官方称其在 29 项评测上平均得分较上一代 Qwen3.5-Omni-Plus 提升超过 25%，音视频能力接近 Gemini 3.8 Flash、音频能力整体超过 Gemini 3.8 Flash；API 每小时音频输入价格降幅超过 98%，每小时音视频输入价格降幅超过 93%，视频输入成本较上代降低约 89%。MarkTechPost 指出，所有跑分与价格数字均来自 Qwen，发布时没有独立结果，且未公布开放权重，仅提供托管 API。\n\n同次发布还包括配套工具与实时型号。Qwen 开源 Qwen-MM-Plugins，为 Codex、Claude Code、Qwen Code、Gemini CLI、Qoder、CodeBuddy、OpenClaw 等智能体框架提供图像、音频、视频和文档理解能力，并新增 Video2Note（将数小时视频生成图文 PDF 笔记）与 Omni Skill Creator（从操作演示中提炼标准作业流程并转化为可复用 Agent Skill）；MarkTechPost 称其以 Apache-2.0 协议开源，并指出多数框架尚不能原生向主模型输入音频，音频暂经 API 路由。Qwen-Live Harness 作为围绕 Qwen3.8-Omni-Flash-Realtime API 的开源运行时，支持任务委派、主动交互、长期记忆与上下文管理，可通过单条命令安装。Qwen3.8-Omni-Flash-Realtime 支持在接收实时音视频流的同时感知与响应、结合实时上下文调用工具，并通过 WebSocket 和 WebRTC 接入；官方称其为首个支持「听声辨位」的全模态大模型，可融合空间声音与视觉信息判断声源方向和距离，并可通过 Skill 注入身份设定、表达风格、业务知识与交互规则。\n\n官方还公布了一项模型优化实验：Qwen3.8-Omni-Flash 在 12 小时内自主优化 Qwen2.5-Omni-3B 的四川方言语音识别，自主选定 WenetSpeech-Chuan 评测集并建立基线，经 4 轮实验构建 3413 条训练数据，字符错误率从 25.79% 降至 15.30%，相对下降约 40.7%。官方称该实验展示了大模型驱动研发、小模型服务业务需求的新路径。\n\n第三方报道方面，IT之家称阿里千问于 9 月 18 日正式上线该模型，并转述官方称其在累计 30 项评测上平均得分提升超过 26%，AliMeeting 的 DER/cpWER 从 88.11/89.61 降至 3.35/17.18；X 用户 karminski 称多人重叠会议语音识别错误率从上一代的 88% 降至 3%，并称音频输入价格从每百万 token 18 元降至 0.8 元。Testing Catalog 与 The Decoder 均报道该模型具备 1M token 上下文、音视频理解能力接近 Gemini 3.8 Flash，The Decoder 称其 API 定价为每百万输入 token 0.15 美元、输出 0.47 美元，低于 Gemini 3.8 Flash。",
+        "latest_at": "2026-09-19T14:30:57.000Z",
+        "original_url": "https://x.com/Alibaba_Qwen/status/2100785962414702599",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+        "signal_count": 0,
+        "source_count": 9,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/819c8ab5-d20e-4b40-808e-5ae0c245f89f",
+        "title": "通义千问发布 Qwen3.8-Omni-Flash 全模态模型"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "85ca3656-c2ff-4092-a758-0f4216034e6f",
+        "digest": null,
+        "latest_at": "2026-09-18T04:58:43.000Z",
+        "original_url": "https://claude.com/blog/projects-redesigned",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 2,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/85ca3656-c2ff-4092-a758-0f4216034e6f",
+        "title": "Claude Code Projects 改版：从文件夹到对话式协调"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "af832b7e-d33b-4d35-8f12-3f0b66ded3bc",
+        "digest": null,
+        "latest_at": "2026-09-19T08:10:55.000Z",
+        "original_url": "https://garymarcus.substack.com/p/the-real-reason-trump-is-standing",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "signal_count": 0,
+        "source_count": 7,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/af832b7e-d33b-4d35-8f12-3f0b66ded3bc",
+        "title": "Gary Marcus 评论 Trump 因经济原因淡化 AI 风险，AI 幻觉情报报告几乎引发战争"
+      },
+      "observed_at": "2026-09-19T18:05:06.918992Z"
+    }
+  ],
+  "version": 1
+}
