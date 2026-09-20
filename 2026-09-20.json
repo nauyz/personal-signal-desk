@@ -7,16 +7,16 @@
         "digest": null,
         "latest_at": "2026-09-19T19:40:26.000Z",
         "original_url": "https://x.com/kimmonismus/status/2101226451861180711",
-        "rank": 5,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Kim (@kimmonismus)",
         "signal_count": 7,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/0b089118-d684-425f-81b4-400181051717",
         "title": "路透：GPT-6 Astra挤压其企业业务领先地位，Anthropic可能推出新模型"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     },
     {
       "item": {
@@ -41,16 +41,16 @@
         "digest": null,
         "latest_at": "2026-09-19T22:06:05.000Z",
         "original_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-        "rank": 10,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 5,
+        "signal_count": 9,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/2383993d-c799-4482-b3c4-03d228176c21",
         "title": "Anthropic 与 Accenture 合作开展嵌入式前沿评测"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     },
     {
       "item": {
@@ -95,30 +95,47 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 15,
+        "signal_count": 20,
         "source_count": 9,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/3349e012-fd78-44db-a833-cae46d175505",
         "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "37962126-0791-462c-ae01-a1c7f052eaf3",
+        "digest": null,
+        "latest_at": "2026-09-19T14:37:00.000Z",
+        "original_url": "https://x.com/kimmonismus/status/2100909694759936384",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Kim (@kimmonismus)",
+        "signal_count": 9,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/37962126-0791-462c-ae01-a1c7f052eaf3",
+        "title": "据路透社报道，Anthropic悄然建立湿生物学实验室，将Claude与真实生物实验结合"
+      },
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     },
     {
       "item": {
         "aihot_story_id": "379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "digest": null,
-        "latest_at": "2026-09-19T21:58:22.000Z",
+        "latest_at": "2026-09-20T00:07:49.000Z",
         "original_url": "https://x.com/OpenRouter/status/2101061688338575739",
         "rank": 1,
         "recovered": false,
         "representative_source": "X：OpenRouter (@OpenRouter)",
-        "signal_count": 19,
+        "signal_count": 27,
         "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     },
     {
       "item": {
@@ -245,16 +262,16 @@
         "digest": null,
         "latest_at": "2026-09-19T14:33:12.000Z",
         "original_url": "https://garymarcus.substack.com/p/wake-up-people-what-we-should-actually",
-        "rank": 6,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "signal_count": 8,
+        "signal_count": 22,
         "source_count": 9,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/78519df1-3fb1-41fe-8d6a-ffb21373dabc",
         "title": "安全研究人员利用Claude模型攻入OpenAI内部系统"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     },
     {
       "item": {
@@ -296,16 +313,16 @@
         "digest": null,
         "latest_at": "2026-09-19T16:43:00.000Z",
         "original_url": "https://garymarcus.substack.com/p/the-real-reason-trump-is-standing",
-        "rank": 9,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-        "signal_count": 4,
+        "signal_count": 9,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/99ddcf86-a46c-4413-bce3-cb6fdbcc9465",
         "title": "报道称AI幻觉情报使美军准备拦截中国船只，险些引发冲突"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     },
     {
       "item": {
@@ -345,18 +362,18 @@
       "item": {
         "aihot_story_id": "b7c8c72a-2bdd-41b6-8d0c-50b80dd465f9",
         "digest": null,
-        "latest_at": "2026-09-19T16:48:33.000Z",
+        "latest_at": "2026-09-19T23:54:09.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2101095915654463533",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 10,
+        "signal_count": 13,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b7c8c72a-2bdd-41b6-8d0c-50b80dd465f9",
         "title": "FT报道：OpenAI预计支出将远超收入，2030年营收或达3500亿美元"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     },
     {
       "item": {
@@ -367,13 +384,30 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "Claude Code：GitHub Releases（RSS）",
-        "signal_count": 11,
+        "signal_count": 23,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/de989df3-8b0e-4f09-a6d8-210ae90951b7",
         "title": "Claude Code 2.1.277 在无 CLAUDE.md 时读取 AGENTS.md"
       },
-      "observed_at": "2026-09-19T23:11:59.741141Z"
+      "observed_at": "2026-09-20T01:14:59.761344Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "eedde638-650e-4842-8700-11f0922a705f",
+        "digest": null,
+        "latest_at": "2026-09-20T00:03:19.000Z",
+        "original_url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 11,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
+        "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息"
+      },
+      "observed_at": "2026-09-20T01:14:59.761344Z"
     }
   ],
   "version": 1
