@@ -12,28 +12,28 @@
         "representative_source": "IT之家（RSS）",
         "signal_count": 7,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/01e9a561-1008-400b-b764-6d0a42d630c2",
         "title": "硅基流动完成B+轮二期与C轮融资，2026年度累计股权融资额近29亿元"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
         "aihot_story_id": "09e121f4-e667-454f-bdd5-b3ebd16f4deb",
         "digest": null,
-        "latest_at": "2026-09-20T16:10:52.000Z",
+        "latest_at": "2026-09-20T23:07:42.000Z",
         "original_url": "https://qwen.ai/blog?id=qwen-image-2.1",
         "rank": 5,
         "recovered": false,
         "representative_source": "Qwen：Blog Retrieval（API）",
-        "signal_count": 4,
+        "signal_count": 5,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/09e121f4-e667-454f-bdd5-b3ebd16f4deb",
         "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
@@ -44,13 +44,13 @@
         "rank": 6,
         "recovered": false,
         "representative_source": "X：Kim (@kimmonismus)",
-        "signal_count": 13,
+        "signal_count": 12,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/0b089118-d684-425f-81b4-400181051717",
         "title": "路透：GPT-6 Astra挤压其企业业务领先地位，Anthropic可能推出新模型"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
@@ -61,13 +61,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 30,
-        "source_count": 10,
-        "status": "active",
+        "signal_count": 22,
+        "source_count": 7,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/3349e012-fd78-44db-a833-cae46d175505",
         "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
@@ -78,13 +78,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "X：OpenRouter (@OpenRouter)",
-        "signal_count": 36,
-        "source_count": 5,
-        "status": "active",
+        "signal_count": 34,
+        "source_count": 4,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
@@ -101,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/a6148dd8-72fa-4d6f-b8da-1b2850432024",
         "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
@@ -135,7 +135,7 @@
         "story_url": "https://aihot.virxact.com/story/c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
         "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
@@ -158,35 +158,35 @@
       "item": {
         "aihot_story_id": "eedde638-650e-4842-8700-11f0922a705f",
         "digest": null,
-        "latest_at": "2026-09-20T09:01:01.000Z",
+        "latest_at": "2026-09-20T23:03:53.272Z",
         "original_url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
-        "rank": 10,
+        "rank": 9,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 10,
+        "signal_count": 7,
         "source_count": 3,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
         "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息"
       },
-      "observed_at": "2026-09-20T19:30:48.491364Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
         "aihot_story_id": "f3836ac4-bf36-43bd-b65a-e6372943a1ff",
         "digest": null,
-        "latest_at": "2026-09-20T18:56:04.000Z",
+        "latest_at": "2026-09-20T23:03:53.272Z",
         "original_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
-        "rank": 9,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-        "signal_count": 7,
-        "source_count": 3,
+        "signal_count": 6,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f3836ac4-bf36-43bd-b65a-e6372943a1ff",
         "title": "Anthropic CEO Amodei此前提出含第三方评估与国际协议的三步放缓AI发展计划"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     },
     {
       "item": {
@@ -203,7 +203,7 @@
         "story_url": "https://aihot.virxact.com/story/f3d9aec3-34a0-4a09-9198-9e89b995ee50",
         "title": "特朗普发起为AI更名的投票，并称对AI的打压是民主党骗局之一"
       },
-      "observed_at": "2026-09-20T22:30:49.799513Z"
+      "observed_at": "2026-09-21T01:11:16.359799Z"
     }
   ],
   "version": 1
