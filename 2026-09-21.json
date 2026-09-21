@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-09-20T23:07:42.000Z",
         "original_url": "https://qwen.ai/blog?id=qwen-image-2.1",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Qwen：Blog Retrieval（API）",
         "signal_count": 5,
@@ -33,7 +33,7 @@
         "story_url": "https://aihot.virxact.com/story/09e121f4-e667-454f-bdd5-b3ebd16f4deb",
         "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
@@ -63,11 +63,11 @@
         "representative_source": "@typesafeai",
         "signal_count": 4,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/0bfc4192-bcb9-4e76-ab63-c7772c0d1a0e",
         "title": "作者称Jev现已向所有人开放，无需候补名单"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
@@ -75,33 +75,33 @@
         "digest": null,
         "latest_at": "2026-09-20T20:20:56.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2101078460332720372",
-        "rank": 2,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 17,
-        "source_count": 5,
+        "signal_count": 11,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/3349e012-fd78-44db-a833-cae46d175505",
         "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
         "aihot_story_id": "379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "digest": null,
-        "latest_at": "2026-09-21T01:44:53.000Z",
+        "latest_at": "2026-09-21T11:58:08.000Z",
         "original_url": "https://x.com/OpenRouter/status/2101061688338575739",
         "rank": 1,
         "recovered": false,
         "representative_source": "X：OpenRouter (@OpenRouter)",
-        "signal_count": 31,
+        "signal_count": 29,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
@@ -109,16 +109,16 @@
         "digest": null,
         "latest_at": "2026-09-20T17:17:56.918Z",
         "original_url": "https://www.ithome.com/1/004/423.htm",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 12,
+        "signal_count": 10,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/a6148dd8-72fa-4d6f-b8da-1b2850432024",
         "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
@@ -141,18 +141,18 @@
       "item": {
         "aihot_story_id": "c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
         "digest": null,
-        "latest_at": "2026-09-21T00:41:27.000Z",
+        "latest_at": "2026-09-21T06:37:18.000Z",
         "original_url": "https://x.com/StepFun_ai/status/2101510462685003786",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：阶跃星辰 StepFun (@StepFun_ai)",
         "signal_count": 11,
-        "source_count": 5,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
         "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
@@ -175,35 +175,35 @@
       "item": {
         "aihot_story_id": "eedde638-650e-4842-8700-11f0922a705f",
         "digest": null,
-        "latest_at": "2026-09-20T23:03:53.272Z",
+        "latest_at": "2026-09-21T10:31:27.000Z",
         "original_url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
-        "rank": 9,
+        "rank": 5,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 7,
-        "source_count": 3,
+        "signal_count": 6,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
         "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息"
       },
-      "observed_at": "2026-09-21T01:11:16.359799Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
         "aihot_story_id": "f00a478e-3c30-40db-906f-d70bcf857477",
         "digest": null,
-        "latest_at": "2026-09-21T01:02:59.000Z",
+        "latest_at": "2026-09-21T10:00:34.000Z",
         "original_url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-        "rank": 9,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
         "signal_count": 6,
-        "source_count": 2,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f00a478e-3c30-40db-906f-d70bcf857477",
         "title": "ZCode：作者称 UI 开关不能阻止上传：快照捕获侧车无条件实例化，隐私政策未披露整仓上传"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
@@ -211,16 +211,16 @@
         "digest": null,
         "latest_at": "2026-09-20T23:03:53.272Z",
         "original_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Anthropic：The Institute（旗舰研究长文 · 网页）",
-        "signal_count": 6,
+        "signal_count": 5,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f3836ac4-bf36-43bd-b65a-e6372943a1ff",
         "title": "Anthropic CEO Amodei此前提出含第三方评估与国际协议的三步放缓AI发展计划"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     },
     {
       "item": {
@@ -228,7 +228,7 @@
         "digest": null,
         "latest_at": "2026-09-20T18:56:04.000Z",
         "original_url": "https://x.com/mark_k/status/2101375842693566856",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "@mark_k",
         "signal_count": 5,
@@ -237,7 +237,7 @@
         "story_url": "https://aihot.virxact.com/story/f3d9aec3-34a0-4a09-9198-9e89b995ee50",
         "title": "特朗普发起为AI更名的投票，并称对AI的打压是民主党骗局之一"
       },
-      "observed_at": "2026-09-21T06:27:26.505704Z"
+      "observed_at": "2026-09-21T14:16:37.861280Z"
     }
   ],
   "version": 1
