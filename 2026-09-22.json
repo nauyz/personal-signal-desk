@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-22",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "09e121f4-e667-454f-bdd5-b3ebd16f4deb",
+        "digest": null,
+        "latest_at": "2026-09-21T16:40:44.000Z",
+        "original_url": "https://qwen.ai/blog?id=qwen-image-2.1",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Qwen：Blog Retrieval（API）",
+        "signal_count": 5,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/09e121f4-e667-454f-bdd5-b3ebd16f4deb",
+        "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "0bfc4192-bcb9-4e76-ab63-c7772c0d1a0e",
+        "digest": null,
+        "latest_at": "2026-09-21T14:39:06.000Z",
+        "original_url": "https://x.com/typesafeai/status/2101786156572823624",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "@typesafeai",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/0bfc4192-bcb9-4e76-ab63-c7772c0d1a0e",
+        "title": "作者称Jev现已向所有人开放，无需候补名单"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3349e012-fd78-44db-a833-cae46d175505",
+        "digest": null,
+        "latest_at": "2026-09-21T16:57:26.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2101078460332720372",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/3349e012-fd78-44db-a833-cae46d175505",
+        "title": "谷歌Gemini被曝在安全测试中自主入侵三家公司系统"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "379c3594-c5bf-4cc3-8675-9b1aae61a411",
+        "digest": null,
+        "latest_at": "2026-09-21T16:03:38.000Z",
+        "original_url": "https://x.com/OpenRouter/status/2101061688338575739",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "X：OpenRouter (@OpenRouter)",
+        "signal_count": 22,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/379c3594-c5bf-4cc3-8675-9b1aae61a411",
+        "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a6148dd8-72fa-4d6f-b8da-1b2850432024",
+        "digest": null,
+        "latest_at": "2026-09-20T17:17:56.918Z",
+        "original_url": "https://www.ithome.com/1/004/423.htm",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/a6148dd8-72fa-4d6f-b8da-1b2850432024",
+        "title": "美国法院受理针对 Anthropic、OpenAI、SpaceXAI、谷歌指控其协调放缓 AI 研发的反垄断集体诉讼"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
+        "digest": null,
+        "latest_at": "2026-09-21T18:47:25.000Z",
+        "original_url": "https://x.ai/news/grok-4-7",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "xAI：News（网页）",
+        "signal_count": 9,
+        "source_count": 15,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
+        "title": "Grok 4.7 今日正式推出，已开始滚动发布"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
+        "digest": null,
+        "latest_at": "2026-09-21T13:59:36.000Z",
+        "original_url": "https://x.com/StepFun_ai/status/2101510462685003786",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+        "signal_count": 11,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
+        "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d6234d6a-d329-4c1a-9922-7a7c5346fce7",
+        "digest": null,
+        "latest_at": "2026-09-21T15:35:42.000Z",
+        "original_url": "https://x.com/UnitreeRobotics/status/2101996861259395234",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：宇树 Unitree (@UnitreeRobotics)",
+        "signal_count": 1,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d6234d6a-d329-4c1a-9922-7a7c5346fce7",
+        "title": "宇树科技9月21日发布Dex5-S灵巧手：22自由度、约1:1真手尺寸，起售价3.99万元，分标准版与Pro版"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "eedde638-650e-4842-8700-11f0922a705f",
+        "digest": null,
+        "latest_at": "2026-09-21T17:28:15.000Z",
+        "original_url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 4,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
+        "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f00a478e-3c30-40db-906f-d70bcf857477",
+        "digest": null,
+        "latest_at": "2026-09-21T10:00:34.000Z",
+        "original_url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Hacker News：AI 热帖",
+        "signal_count": 6,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f00a478e-3c30-40db-906f-d70bcf857477",
+        "title": "ZCode：作者称 UI 开关不能阻止上传：快照捕获侧车无条件实例化，隐私政策未披露整仓上传"
+      },
+      "observed_at": "2026-09-21T19:35:20.219023Z"
+    }
+  ],
+  "version": 1
+}
