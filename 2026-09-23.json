@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-23",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "4c258d85-64d8-448a-938d-363b0cdbd38b",
+        "digest": null,
+        "latest_at": "2026-09-22T18:27:28.000Z",
+        "original_url": "https://x.com/ArtificialAnlys/status/2102462962758033624",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Artificial Analysis (@ArtificialAnlys)",
+        "signal_count": 1,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/4c258d85-64d8-448a-938d-363b0cdbd38b",
+        "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5fe5740e-34ac-4660-a8d5-4196324f58b3",
+        "digest": null,
+        "latest_at": "2026-09-22T14:35:15.000Z",
+        "original_url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/5fe5740e-34ac-4660-a8d5-4196324f58b3",
+        "title": "亚马逊屏蔽Meta的Muse AI代理，禁止其代用户在亚马逊购物，称未授权AI代理访问违反使用条件"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7339a97b-3f94-4475-a3b7-18817f09f6fd",
+        "digest": null,
+        "latest_at": "2026-09-22T16:51:25.134Z",
+        "original_url": "https://www.anthropic.com/claude-opus-5-5",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Hacker News：AI 热帖",
+        "signal_count": 0,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7339a97b-3f94-4475-a3b7-18817f09f6fd",
+        "title": "Anthropic称Claude Sonnet 5.5预计未来数周发布，将带来类似性能、效率与安全提升"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
+        "digest": null,
+        "latest_at": "2026-09-22T18:00:00.000Z",
+        "original_url": "https://x.com/claudeai/status/2102435511222890900",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "X：Claude (@claudeai)",
+        "signal_count": 16,
+        "source_count": 17,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
+        "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9c749600-0d9b-4155-8969-c3b78ba3ad3b",
+        "digest": null,
+        "latest_at": "2026-09-22T18:27:28.000Z",
+        "original_url": "https://x.com/ChatGPT/status/2102462020339613966",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：ChatGPT (@ChatGPT)",
+        "signal_count": 0,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/9c749600-0d9b-4155-8969-c3b78ba3ad3b",
+        "title": "OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
+        "digest": null,
+        "latest_at": "2026-09-22T09:19:46.000Z",
+        "original_url": "https://x.ai/news/grok-4-7",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "xAI：News（网页）",
+        "signal_count": 12,
+        "source_count": 14,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
+        "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b9d5ce95-abe0-4f9f-9f68-7cec9d72d805",
+        "digest": null,
+        "latest_at": "2026-09-22T16:51:25.134Z",
+        "original_url": "https://www.anthropic.com/claude-opus-5-5",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Hacker News：AI 热帖",
+        "signal_count": 0,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b9d5ce95-abe0-4f9f-9f68-7cec9d72d805",
+        "title": "Anthropic称Claude Haiku 5.5预计未来数周发布，将带来类似性能、效率与安全提升"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ecaee26d-48a7-44e6-ab81-0ac88b7af057",
+        "digest": null,
+        "latest_at": "2026-09-21T23:27:23.000Z",
+        "original_url": "https://x.com/OpenAI/status/2102093145051943229",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：OpenAI (@OpenAI)",
+        "signal_count": 6,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/ecaee26d-48a7-44e6-ab81-0ac88b7af057",
+        "title": "OpenAI宣布正与独立数学家顾问组合作，协助其负责任地分享AI与数学进展"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "eedde638-650e-4842-8700-11f0922a705f",
+        "digest": null,
+        "latest_at": "2026-09-22T11:09:09.000Z",
+        "original_url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 3,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
+        "title": "OpenAI团队部署代理群入侵Hugging Face，作者称媒体存在夸大并指OpenAI沙箱与监控漏洞是关键因素"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fb460b24-bf56-45b0-87a5-fe8eec08a784",
+        "digest": null,
+        "latest_at": "2026-09-22T16:00:37.000Z",
+        "original_url": "https://x.com/ArtificialAnlys/status/2102128560962187701",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Artificial Analysis (@ArtificialAnlys)",
+        "signal_count": 5,
+        "source_count": 11,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/fb460b24-bf56-45b0-87a5-fe8eec08a784",
+        "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首"
+      },
+      "observed_at": "2026-09-22T18:58:12.251460Z"
+    }
+  ],
+  "version": 1
+}
