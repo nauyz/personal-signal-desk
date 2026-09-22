@@ -58,16 +58,16 @@
         "digest": null,
         "latest_at": "2026-09-22T01:21:27.000Z",
         "original_url": "https://x.com/OpenRouter/status/2101061688338575739",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：OpenRouter (@OpenRouter)",
-        "signal_count": 8,
+        "signal_count": 5,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
@@ -80,11 +80,11 @@
         "representative_source": "腾讯混元：Research（API）",
         "signal_count": 1,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/3e5d2ef8-d379-4370-a8cd-003fdc250060",
         "title": "Hy Image3.5 preview 发布：主打文本渲染、真实感与编辑一致性的高性价比图像生成模型，支持文生图/图生图与2K输出"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
@@ -101,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/5fe5740e-34ac-4660-a8d5-4196324f58b3",
         "title": "亚马逊屏蔽Meta的Muse AI代理，禁止其代用户在亚马逊购物，称未授权AI代理访问违反使用条件"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
@@ -148,28 +148,28 @@
         "representative_source": "xAI：News（网页）",
         "signal_count": 12,
         "source_count": 16,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
         "title": "Grok 4.7 今日正式推出，已开始滚动发布"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
         "aihot_story_id": "b9c1b6b6-ff38-45bb-a977-db8ca321f7bf",
         "digest": null,
-        "latest_at": "2026-09-22T03:57:17.000Z",
+        "latest_at": "2026-09-22T11:42:11.000Z",
         "original_url": "https://x.com/XiaomiMiMo/status/2102138559952290106",
-        "rank": 10,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：小米 MiMo (@XiaomiMiMo)",
         "signal_count": 0,
-        "source_count": 4,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b9c1b6b6-ff38-45bb-a977-db8ca321f7bf",
         "title": "作者发布MiMo-V2.6-Flash：310B总参数、15B激活"
       },
-      "observed_at": "2026-09-22T05:06:05.861573Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
@@ -180,13 +180,13 @@
         "rank": 8,
         "recovered": false,
         "representative_source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-        "signal_count": 1,
+        "signal_count": 0,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
         "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
@@ -199,11 +199,11 @@
         "representative_source": "X：宇树 Unitree (@UnitreeRobotics)",
         "signal_count": 1,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/d6234d6a-d329-4c1a-9922-7a7c5346fce7",
         "title": "宇树科技9月21日发布Dex5-S灵巧手：22自由度、约1:1真手尺寸，起售价3.99万元，分标准版与Pro版"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
@@ -220,24 +220,24 @@
         "story_url": "https://aihot.virxact.com/story/ecaee26d-48a7-44e6-ab81-0ac88b7af057",
         "title": "OpenAI宣布正与独立数学家顾问组合作，协助其负责任地分享AI与数学进展"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
         "aihot_story_id": "eedde638-650e-4842-8700-11f0922a705f",
         "digest": null,
-        "latest_at": "2026-09-22T06:29:15.000Z",
+        "latest_at": "2026-09-22T11:09:09.000Z",
         "original_url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 2,
+        "signal_count": 3,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
         "title": "OpenAI团队部署代理群入侵Hugging Face，作者称媒体存在夸大并指OpenAI沙箱与监控漏洞是关键因素"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     },
     {
       "item": {
@@ -260,18 +260,18 @@
       "item": {
         "aihot_story_id": "fb460b24-bf56-45b0-87a5-fe8eec08a784",
         "digest": null,
-        "latest_at": "2026-09-22T04:02:09.000Z",
+        "latest_at": "2026-09-22T14:27:44.000Z",
         "original_url": "https://x.com/ArtificialAnlys/status/2102128560962187701",
         "rank": 2,
         "recovered": false,
         "representative_source": "X：Artificial Analysis (@ArtificialAnlys)",
-        "signal_count": 4,
-        "source_count": 8,
+        "signal_count": 5,
+        "source_count": 10,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/fb460b24-bf56-45b0-87a5-fe8eec08a784",
         "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首"
       },
-      "observed_at": "2026-09-22T10:03:50.444895Z"
+      "observed_at": "2026-09-22T15:00:11.333515Z"
     }
   ],
   "version": 1
