@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-09-21T16:40:44.000Z",
         "original_url": "https://qwen.ai/blog?id=qwen-image-2.1",
-        "rank": 7,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Qwen：Blog Retrieval（API）",
         "signal_count": 5,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.virxact.com/story/09e121f4-e667-454f-bdd5-b3ebd16f4deb",
         "title": "作者称Qwen团队开源发布Qwen-Image-2.1统一图像生成编辑模型"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     },
     {
       "item": {
@@ -56,35 +56,52 @@
       "item": {
         "aihot_story_id": "379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "digest": null,
-        "latest_at": "2026-09-21T16:03:38.000Z",
+        "latest_at": "2026-09-22T01:21:27.000Z",
         "original_url": "https://x.com/OpenRouter/status/2101061688338575739",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：OpenRouter (@OpenRouter)",
-        "signal_count": 17,
-        "source_count": 3,
-        "status": null,
+        "signal_count": 10,
+        "source_count": 5,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     },
     {
       "item": {
         "aihot_story_id": "5fe5740e-34ac-4660-a8d5-4196324f58b3",
         "digest": null,
-        "latest_at": "2026-09-21T22:24:38.000Z",
+        "latest_at": "2026-09-21T23:23:33.000Z",
         "original_url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
         "signal_count": 0,
-        "source_count": 5,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/5fe5740e-34ac-4660-a8d5-4196324f58b3",
         "title": "亚马逊屏蔽Meta的Muse AI代理，禁止其代用户在亚马逊购物，称未授权AI代理访问违反使用条件"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7a83ffb7-1613-4bdc-afbf-80e51e87a967",
+        "digest": null,
+        "latest_at": "2026-09-22T02:50:59.000Z",
+        "original_url": "https://x.com/haider1/status/2102098715620343839",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Haider (@haider1)",
+        "signal_count": 1,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7a83ffb7-1613-4bdc-afbf-80e51e87a967",
+        "title": "OpenAI新训练的内部模型解决纳维-斯托克斯千禧年大奖难题及100多个长期开放数学问题"
+      },
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     },
     {
       "item": {
@@ -107,35 +124,52 @@
       "item": {
         "aihot_story_id": "b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
         "digest": null,
-        "latest_at": "2026-09-21T23:06:26.000Z",
+        "latest_at": "2026-09-22T04:10:04.000Z",
         "original_url": "https://x.ai/news/grok-4-7",
         "rank": 1,
         "recovered": false,
         "representative_source": "xAI：News（网页）",
-        "signal_count": 11,
-        "source_count": 16,
+        "signal_count": 12,
+        "source_count": 18,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
         "title": "Grok 4.7 今日正式推出，已开始滚动发布"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b9c1b6b6-ff38-45bb-a977-db8ca321f7bf",
+        "digest": null,
+        "latest_at": "2026-09-22T03:57:17.000Z",
+        "original_url": "https://x.com/XiaomiMiMo/status/2102138559952290106",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：小米 MiMo (@XiaomiMiMo)",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b9c1b6b6-ff38-45bb-a977-db8ca321f7bf",
+        "title": "作者发布MiMo-V2.6-Flash：310B总参数、15B激活"
+      },
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     },
     {
       "item": {
         "aihot_story_id": "c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
         "digest": null,
-        "latest_at": "2026-09-21T13:59:36.000Z",
+        "latest_at": "2026-09-22T02:59:59.000Z",
         "original_url": "https://x.com/StepFun_ai/status/2101510462685003786",
         "rank": 5,
         "recovered": false,
         "representative_source": "X：阶跃星辰 StepFun (@StepFun_ai)",
-        "signal_count": 11,
+        "signal_count": 6,
         "source_count": 7,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/c4d627e5-9afd-4ea6-ab2f-370d649ed4a0",
         "title": "阶跃发布旗舰模型 Step 5 Preview，跻身 AA 榜单全球开源模型前三，10 月 15 日开源完整权重"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     },
     {
       "item": {
@@ -158,18 +192,18 @@
       "item": {
         "aihot_story_id": "ecaee26d-48a7-44e6-ab81-0ac88b7af057",
         "digest": null,
-        "latest_at": "2026-09-21T22:02:38.000Z",
+        "latest_at": "2026-09-21T23:27:23.000Z",
         "original_url": "https://x.com/OpenAI/status/2102093145051943229",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：OpenAI (@OpenAI)",
         "signal_count": 5,
-        "source_count": 3,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/ecaee26d-48a7-44e6-ab81-0ac88b7af057",
         "title": "OpenAI宣布正与独立数学家顾问组合作，协助其负责任地分享AI与数学进展"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     },
     {
       "item": {
@@ -177,16 +211,16 @@
         "digest": null,
         "latest_at": "2026-09-21T21:14:25.000Z",
         "original_url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 5,
-        "source_count": 6,
-        "status": "active",
+        "signal_count": 2,
+        "source_count": 5,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
         "title": "原文叙述：1200 个 OpenAI Agent 逃出沙箱、渗透 Hugging Face，1000 多个 Agent 建地下论坛发 7 万条加密信息"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     },
     {
       "item": {
@@ -209,18 +243,18 @@
       "item": {
         "aihot_story_id": "fb460b24-bf56-45b0-87a5-fe8eec08a784",
         "digest": null,
-        "latest_at": "2026-09-21T22:27:52.000Z",
+        "latest_at": "2026-09-22T03:57:17.000Z",
         "original_url": "https://x.com/ArtificialAnlys/status/2102128560962187701",
         "rank": 2,
         "recovered": false,
         "representative_source": "X：Artificial Analysis (@ArtificialAnlys)",
         "signal_count": 4,
-        "source_count": 6,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/fb460b24-bf56-45b0-87a5-fe8eec08a784",
         "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首"
       },
-      "observed_at": "2026-09-21T23:21:10.804707Z"
+      "observed_at": "2026-09-22T05:06:05.861573Z"
     }
   ],
   "version": 1
