@@ -5,18 +5,69 @@
       "item": {
         "aihot_story_id": "4c258d85-64d8-448a-938d-363b0cdbd38b",
         "digest": null,
-        "latest_at": "2026-09-22T22:38:23.000Z",
-        "original_url": "https://x.com/OpenAI/status/2102460975790137662",
+        "latest_at": "2026-09-23T18:54:11.000Z",
+        "original_url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
         "rank": 2,
         "recovered": false,
-        "representative_source": "X：OpenAI (@OpenAI)",
+        "representative_source": "Artificial Analysis 完整文章（网页）",
         "signal_count": 2,
-        "source_count": 12,
+        "source_count": 13,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/4c258d85-64d8-448a-938d-363b0cdbd38b",
         "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%"
       },
-      "observed_at": "2026-09-23T17:10:28.707250Z"
+      "observed_at": "2026-09-23T20:27:35.946026Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5fe5740e-34ac-4660-a8d5-4196324f58b3",
+        "digest": null,
+        "latest_at": "2026-09-23T19:00:00.000Z",
+        "original_url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/5fe5740e-34ac-4660-a8d5-4196324f58b3",
+        "title": "亚马逊屏蔽Meta的Muse AI代理，禁止其代用户在亚马逊购物，称未授权AI代理访问违反使用条件"
+      },
+      "observed_at": "2026-09-23T20:27:35.946026Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6822bad2-02cc-48fc-9f79-795a6abc2a2c",
+        "digest": null,
+        "latest_at": "2026-09-23T18:29:28.000Z",
+        "original_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/6822bad2-02cc-48fc-9f79-795a6abc2a2c",
+        "title": "Anthropic宣布成立生命科学研究小组与实验室，用Claude开展基础生物学研究"
+      },
+      "observed_at": "2026-09-23T20:27:35.946026Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6855fb20-dfb5-4fe3-a445-5e7543efbe7d",
+        "digest": null,
+        "latest_at": "2026-09-23T18:46:48.000Z",
+        "original_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/6855fb20-dfb5-4fe3-a445-5e7543efbe7d",
+        "title": "Anthropic分享早期研究结果：Claude自主发现与CRISPR样重复阵列相关的新型酶系统ART"
+      },
+      "observed_at": "2026-09-23T20:27:35.946026Z"
     },
     {
       "item": {
@@ -24,33 +75,33 @@
         "digest": null,
         "latest_at": "2026-09-22T18:55:08.000Z",
         "original_url": "https://www.anthropic.com/claude-opus-5-5",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
         "signal_count": 0,
         "source_count": 6,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/7339a97b-3f94-4475-a3b7-18817f09f6fd",
         "title": "Anthropic称Claude Sonnet 5.5预计未来数周发布，将带来类似性能、效率与安全提升"
       },
-      "observed_at": "2026-09-23T17:10:28.707250Z"
+      "observed_at": "2026-09-23T20:27:35.946026Z"
     },
     {
       "item": {
         "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
         "digest": null,
-        "latest_at": "2026-09-22T22:21:40.000Z",
-        "original_url": "https://x.com/claudeai/status/2102435511222890900",
+        "latest_at": "2026-09-23T20:15:40.000Z",
+        "original_url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
         "rank": 1,
         "recovered": false,
-        "representative_source": "X：Claude (@claudeai)",
-        "signal_count": 15,
-        "source_count": 22,
+        "representative_source": "Artificial Analysis 完整文章（网页）",
+        "signal_count": 17,
+        "source_count": 25,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
         "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
       },
-      "observed_at": "2026-09-23T17:10:28.707250Z"
+      "observed_at": "2026-09-23T20:27:35.946026Z"
     },
     {
       "item": {
@@ -73,18 +124,18 @@
       "item": {
         "aihot_story_id": "9c749600-0d9b-4155-8969-c3b78ba3ad3b",
         "digest": null,
-        "latest_at": "2026-09-22T21:25:18.000Z",
+        "latest_at": "2026-09-23T00:00:00.000Z",
         "original_url": "https://x.com/OpenAI/status/2102460975790137662",
         "rank": 3,
         "recovered": false,
         "representative_source": "X：OpenAI (@OpenAI)",
         "signal_count": 0,
-        "source_count": 11,
-        "status": null,
+        "source_count": 13,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/9c749600-0d9b-4155-8969-c3b78ba3ad3b",
         "title": "OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放"
       },
-      "observed_at": "2026-09-23T17:10:28.707250Z"
+      "observed_at": "2026-09-23T20:27:35.946026Z"
     },
     {
       "item": {
@@ -92,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-09-22T20:35:40.000Z",
         "original_url": "https://x.ai/news/grok-4-7",
-        "rank": 5,
+        "rank": 7,
         "recovered": false,
         "representative_source": "xAI：News（网页）",
-        "signal_count": 7,
-        "source_count": 8,
+        "signal_count": 5,
+        "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
         "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本"
       },
-      "observed_at": "2026-09-23T17:10:28.707250Z"
+      "observed_at": "2026-09-23T20:27:35.946026Z"
     },
     {
       "item": {
@@ -126,16 +177,16 @@
         "digest": null,
         "latest_at": "2026-09-22T18:55:08.000Z",
         "original_url": "https://www.anthropic.com/claude-opus-5-5",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
         "signal_count": 0,
         "source_count": 6,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/b9d5ce95-abe0-4f9f-9f68-7cec9d72d805",
         "title": "Anthropic称Claude Haiku 5.5预计未来数周发布，将带来类似性能、效率与安全提升"
       },
-      "observed_at": "2026-09-23T17:10:28.707250Z"
+      "observed_at": "2026-09-23T20:27:35.946026Z"
     },
     {
       "item": {
@@ -158,18 +209,18 @@
       "item": {
         "aihot_story_id": "fb460b24-bf56-45b0-87a5-fe8eec08a784",
         "digest": null,
-        "latest_at": "2026-09-22T16:00:37.000Z",
+        "latest_at": "2026-09-23T18:54:11.000Z",
         "original_url": "https://x.com/ArtificialAnlys/status/2102128560962187701",
         "rank": 4,
         "recovered": false,
         "representative_source": "X：Artificial Analysis (@ArtificialAnlys)",
         "signal_count": 5,
-        "source_count": 11,
-        "status": null,
+        "source_count": 10,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/fb460b24-bf56-45b0-87a5-fe8eec08a784",
         "title": "小米发布MiMo-V2.6-Pro开源权重模型，以46分登顶Artificial Analysis智能指数开源权重榜首"
       },
-      "observed_at": "2026-09-23T17:10:28.707250Z"
+      "observed_at": "2026-09-23T20:27:35.946026Z"
     }
   ],
   "version": 1
