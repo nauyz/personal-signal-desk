@@ -3,20 +3,37 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "3a89b70e-44a4-4f8d-889d-6c1130cb2604",
+        "digest": null,
+        "latest_at": "2026-09-23T23:34:00.000Z",
+        "original_url": "https://x.com/OpenAI/status/2102808325742322002",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：OpenAI (@OpenAI)",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/3a89b70e-44a4-4f8d-889d-6c1130cb2604",
+        "title": "ChatGPT Voice升级为运行GPT-6 Astra、Sol、Luna模型并首次可访问邮件、日历和Slack插件"
+      },
+      "observed_at": "2026-09-24T04:59:26.874010Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "4c258d85-64d8-448a-938d-363b0cdbd38b",
         "digest": null,
         "latest_at": "2026-09-23T18:54:11.000Z",
         "original_url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
         "signal_count": 2,
         "source_count": 13,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/4c258d85-64d8-448a-938d-363b0cdbd38b",
         "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%"
       },
-      "observed_at": "2026-09-23T23:45:50.397178Z"
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
@@ -34,6 +51,23 @@
         "title": "亚马逊屏蔽Meta的Muse AI代理，禁止其代用户在亚马逊购物，称未授权AI代理访问违反使用条件"
       },
       "observed_at": "2026-09-23T20:27:35.946026Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6052f179-8cbd-45cf-be60-2637ed40824a",
+        "digest": null,
+        "latest_at": "2026-09-24T02:44:38.000Z",
+        "original_url": "https://x.com/_LuoFuli/status/2102766365190901957",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：罗福莉 (@_LuoFuli)",
+        "signal_count": 3,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/6052f179-8cbd-45cf-be60-2637ed40824a",
+        "title": "小米MiMo核心组件HySparse 2今日发布，1M Token下预填充计算量降低5.02倍、KV缓存缩小4.5倍"
+      },
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
@@ -56,18 +90,18 @@
       "item": {
         "aihot_story_id": "6855fb20-dfb5-4fe3-a445-5e7543efbe7d",
         "digest": null,
-        "latest_at": "2026-09-23T22:17:39.000Z",
-        "original_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-        "rank": 5,
+        "latest_at": "2026-09-24T04:22:38.000Z",
+        "original_url": "https://x.com/AnthropicAI/status/2102824959827742916",
+        "rank": 2,
         "recovered": false,
-        "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 0,
-        "source_count": 6,
+        "representative_source": "X：Anthropic (@AnthropicAI)",
+        "signal_count": 8,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/6855fb20-dfb5-4fe3-a445-5e7543efbe7d",
         "title": "Anthropic分享早期研究结果：Claude自主发现与CRISPR样重复阵列相关的新型酶系统ART"
       },
-      "observed_at": "2026-09-23T23:45:50.397178Z"
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
@@ -90,18 +124,18 @@
       "item": {
         "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
         "digest": null,
-        "latest_at": "2026-09-23T20:15:40.000Z",
+        "latest_at": "2026-09-24T02:46:25.000Z",
         "original_url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
         "rank": 1,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
-        "signal_count": 19,
+        "signal_count": 20,
         "source_count": 27,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
         "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
       },
-      "observed_at": "2026-09-23T23:45:50.397178Z"
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
@@ -126,7 +160,7 @@
         "digest": null,
         "latest_at": "2026-09-23T00:00:00.000Z",
         "original_url": "https://x.com/OpenAI/status/2102460975790137662",
-        "rank": 4,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：OpenAI (@OpenAI)",
         "signal_count": 0,
@@ -135,24 +169,24 @@
         "story_url": "https://aihot.virxact.com/story/9c749600-0d9b-4155-8969-c3b78ba3ad3b",
         "title": "OpenAI发布GPT-6 Luna，API成本较5.6系列减半，并将向桌面应用和Free/Go用户开放"
       },
-      "observed_at": "2026-09-23T23:45:50.397178Z"
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
         "aihot_story_id": "9f73773d-3f40-4dbd-9b87-b38f81028034",
         "digest": null,
-        "latest_at": "2026-09-23T22:54:29.320Z",
+        "latest_at": "2026-09-24T01:24:00.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2102887365039816924",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 0,
-        "source_count": 3,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
         "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件"
       },
-      "observed_at": "2026-09-23T23:45:50.397178Z"
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
@@ -170,6 +204,23 @@
         "title": "YouTube的AI功能Ask YouTube获得多项新功能并更突出展示"
       },
       "observed_at": "2026-09-23T23:45:50.397178Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a72a72ae-3d5e-4f22-a44c-8b2dc78db09a",
+        "digest": null,
+        "latest_at": "2026-09-24T03:05:32.000Z",
+        "original_url": "https://x.com/testingcatalog/status/2102913764248998337",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Testing Catalog (@testingcatalog)",
+        "signal_count": 0,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a72a72ae-3d5e-4f22-a44c-8b2dc78db09a",
+        "title": "Meta在Connect大会发布AI可穿戴设备Muse Charm，尚未发货，计划12月假期前发货"
+      },
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
@@ -241,20 +292,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "f7a76f3b-b168-4a35-ab36-14bd68d3dda1",
+        "digest": null,
+        "latest_at": "2026-09-24T00:19:41.000Z",
+        "original_url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Meta Engineering Blog（RSS）",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f7a76f3b-b168-4a35-ab36-14bd68d3dda1",
+        "title": "Meta发布带摄像头的新一代AI眼镜Ray-Ban Meta (Gen 3)，含Aviator和Zena新款式"
+      },
+      "observed_at": "2026-09-24T04:59:26.874010Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "f988c06b-7a45-4585-aada-09da3acf77f5",
         "digest": null,
-        "latest_at": "2026-09-23T19:55:11.000Z",
+        "latest_at": "2026-09-24T00:50:44.000Z",
         "original_url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 2,
-        "source_count": 8,
+        "source_count": 9,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f988c06b-7a45-4585-aada-09da3acf77f5",
         "title": "Google发布Gemini 3.8 Flash TTS语音合成模型"
       },
-      "observed_at": "2026-09-23T23:45:50.397178Z"
+      "observed_at": "2026-09-24T04:59:26.874010Z"
     },
     {
       "item": {
