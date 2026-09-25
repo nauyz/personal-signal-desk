@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "2cfbeec9-9070-40a2-9bfe-d11790f131da",
+        "digest": null,
+        "latest_at": "2026-09-25T03:06:09.000Z",
+        "original_url": "https://x.com/odysseyml/status/2103146841378586820",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Odyssey (@odysseyml)",
+        "signal_count": 2,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/2cfbeec9-9070-40a2-9bfe-d11790f131da",
+        "title": "Agora-2 现可让最多20个人类与智能体实时共享一个模拟世界"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3ebe955f-c18f-4d6a-a576-553f9f51f263",
+        "digest": null,
+        "latest_at": "2026-09-25T16:16:52.000Z",
+        "original_url": "https://www.ithome.com/1/005/972.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/3ebe955f-c18f-4d6a-a576-553f9f51f263",
+        "title": "Meta 9月8日上线AI智能体Muse，基础版免费并提供每月20/100美元订阅，目前仅面向美加用户"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6855fb20-dfb5-4fe3-a445-5e7543efbe7d",
+        "digest": null,
+        "latest_at": "2026-09-25T09:27:24.000Z",
+        "original_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 8,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/6855fb20-dfb5-4fe3-a445-5e7543efbe7d",
+        "title": "Anthropic分享早期研究结果：Claude自主发现与CRISPR样重复阵列相关的新型酶系统ART"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
+        "digest": null,
+        "latest_at": "2026-09-25T18:22:47.000Z",
+        "original_url": "https://www.anthropic.com/claude-opus-5-5",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 1,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
+        "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9f73773d-3f40-4dbd-9b87-b38f81028034",
+        "digest": null,
+        "latest_at": "2026-09-25T07:56:55.000Z",
+        "original_url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "signal_count": 0,
+        "source_count": 8,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
+        "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a72a72ae-3d5e-4f22-a44c-8b2dc78db09a",
+        "digest": null,
+        "latest_at": "2026-09-24T17:39:24.000Z",
+        "original_url": "https://x.com/testingcatalog/status/2102913764248998337",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Testing Catalog (@testingcatalog)",
+        "signal_count": 0,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/a72a72ae-3d5e-4f22-a44c-8b2dc78db09a",
+        "title": "Meta在Connect大会发布AI可穿戴设备Muse Charm，尚未发货，计划12月假期前发货"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b7813122-1cce-46c6-97e4-6fa234127fc2",
+        "digest": null,
+        "latest_at": "2026-09-25T16:30:57.000Z",
+        "original_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b7813122-1cce-46c6-97e4-6fa234127fc2",
+        "title": "微软将AI个人助手Scout更名为Autopilot并作为新版Copilot体验的一部分推出"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c0aa666b-4c8a-4237-be11-a28dce74a056",
+        "digest": null,
+        "latest_at": "2026-09-25T07:15:01.000Z",
+        "original_url": "https://x.com/ViggleAI/status/2103247376399978746",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "X：Viggle AI (@ViggleAI)",
+        "signal_count": 3,
+        "source_count": 8,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/c0aa666b-4c8a-4237-be11-a28dce74a056",
+        "title": "Google 计划于10月1日发射搭载 TPUs 的 AI 卫星，测试其在太空环境中的表现"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d7237818-cfb3-4919-adbd-310a3e787937",
+        "digest": null,
+        "latest_at": "2026-09-25T16:24:59.000Z",
+        "original_url": "https://x.com/Meituan_LongCat/status/2103488918788411728",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：美团 LongCat (@Meituan_LongCat)",
+        "signal_count": 2,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d7237818-cfb3-4919-adbd-310a3e787937",
+        "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "daf72428-b3c4-48c0-b747-daf3aa963abc",
+        "digest": null,
+        "latest_at": "2026-09-25T16:30:57.000Z",
+        "original_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 0,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/daf72428-b3c4-48c0-b747-daf3aa963abc",
+        "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot"
+      },
+      "observed_at": "2026-09-25T18:41:53.735212Z"
+    }
+  ],
+  "version": 1
+}
