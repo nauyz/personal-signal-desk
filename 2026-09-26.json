@@ -92,50 +92,50 @@
         "digest": null,
         "latest_at": "2026-09-25T23:34:40.000Z",
         "original_url": "https://x.com/thsottiaux/status/2103620061156290622",
-        "rank": 5,
+        "rank": 7,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
         "signal_count": 1,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/7b608cc4-3eae-4080-99f5-e0d240238709",
         "title": "有声明称Codex服务中断并正努力恢复正常服务"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
         "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
         "digest": null,
-        "latest_at": "2026-09-26T01:00:01.000Z",
+        "latest_at": "2026-09-26T02:21:43.000Z",
         "original_url": "https://www.anthropic.com/claude-opus-5-5",
-        "rank": 7,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
         "signal_count": 0,
-        "source_count": 4,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
         "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
         "aihot_story_id": "99404518-f044-4a92-a46f-a98f09de7f3a",
         "digest": null,
-        "latest_at": "2026-09-26T00:51:54.000Z",
+        "latest_at": "2026-09-26T06:53:30.000Z",
         "original_url": "https://x.com/thsottiaux/status/2103637477760311522",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 3,
+        "signal_count": 4,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/99404518-f044-4a92-a46f-a98f09de7f3a",
         "title": "服务方称 Codex 和 ChatGPT 已恢复并将重置所有付费用户的用量限制"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
@@ -143,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-09-25T22:20:47.000Z",
         "original_url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
-        "rank": 6,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "signal_count": 0,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
         "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
@@ -194,7 +194,7 @@
         "digest": null,
         "latest_at": "2026-09-25T18:28:00.000Z",
         "original_url": "https://x.com/ViggleAI/status/2103247376399978746",
-        "rank": 1,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Viggle AI (@ViggleAI)",
         "signal_count": 3,
@@ -203,7 +203,7 @@
         "story_url": "https://aihot.virxact.com/story/c0aa666b-4c8a-4237-be11-a28dce74a056",
         "title": "Google 计划于10月1日发射搭载 TPUs 的 AI 卫星，测试其在太空环境中的表现"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
@@ -211,7 +211,7 @@
         "digest": null,
         "latest_at": "2026-09-25T21:36:20.000Z",
         "original_url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
         "signal_count": 0,
@@ -220,41 +220,75 @@
         "story_url": "https://aihot.virxact.com/story/c9cf5db4-0072-401f-928b-d5b3f93fdd5e",
         "title": "美国联邦上诉法院小组周五以2比1维持五角大楼对Anthropic的供应链风险列名，并推迟裁决立即生效"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
         "aihot_story_id": "d7237818-cfb3-4919-adbd-310a3e787937",
         "digest": null,
-        "latest_at": "2026-09-25T23:37:01.000Z",
+        "latest_at": "2026-09-26T06:16:08.000Z",
         "original_url": "https://x.com/Meituan_LongCat/status/2103488918788411728",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：美团 LongCat (@Meituan_LongCat)",
         "signal_count": 3,
-        "source_count": 2,
-        "status": null,
+        "source_count": 3,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/d7237818-cfb3-4919-adbd-310a3e787937",
         "title": "LongCat-2.5-Preview现已上线，含1.6T参数、约48B活跃参数、1M token上下文窗口，原生多模态"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
         "aihot_story_id": "daf72428-b3c4-48c0-b747-daf3aa963abc",
         "digest": null,
-        "latest_at": "2026-09-25T16:30:57.000Z",
+        "latest_at": "2026-09-26T02:15:16.000Z",
         "original_url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
         "signal_count": 0,
         "source_count": 7,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/daf72428-b3c4-48c0-b747-daf3aa963abc",
         "title": "宣布 Copilot 迄今最大更新，将 Autopilot、Code、Home 和 Office 整合在一起，并可在 Teams 中调用 Copilot"
       },
-      "observed_at": "2026-09-26T01:38:38.320374Z"
+      "observed_at": "2026-09-26T07:48:28.906593Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e716e125-4c63-46cb-9287-9441fa6a5499",
+        "digest": null,
+        "latest_at": "2026-09-26T06:53:00.000Z",
+        "original_url": "https://x.com/WorkBuddy_AI/status/2102611673962213506",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+        "signal_count": 2,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/e716e125-4c63-46cb-9287-9441fa6a5499",
+        "title": "DeepSeek 发布 DeepSeek-V4.1-Flash：以 CSA2 与 FP4 KV 缓存压缩推进长上下文智能体部署效率"
+      },
+      "observed_at": "2026-09-26T07:48:28.906593Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ed8e97b1-a572-4e3a-8e9c-86871d7045f4",
+        "digest": null,
+        "latest_at": "2026-09-26T07:11:18.000Z",
+        "original_url": "https://x.com/ClaudeDevs/status/2103561342057943314",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "X：Claude Devs (@ClaudeDevs)",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/ed8e97b1-a572-4e3a-8e9c-86871d7045f4",
+        "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾"
+      },
+      "observed_at": "2026-09-26T07:48:28.906593Z"
     },
     {
       "item": {
