@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "379c3594-c5bf-4cc3-8675-9b1aae61a411",
+        "digest": null,
+        "latest_at": "2026-09-27T11:32:15.779Z",
+        "original_url": "https://x.com/OpenRouter/status/2101061688338575739",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：OpenRouter (@OpenRouter)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/379c3594-c5bf-4cc3-8675-9b1aae61a411",
+        "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4c258d85-64d8-448a-938d-363b0cdbd38b",
+        "digest": null,
+        "latest_at": "2026-09-27T16:50:19.000Z",
+        "original_url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Artificial Analysis 完整文章（网页）",
+        "signal_count": 0,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/4c258d85-64d8-448a-938d-363b0cdbd38b",
+        "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
+        "digest": null,
+        "latest_at": "2026-09-27T09:20:08.000Z",
+        "original_url": "https://www.anthropic.com/claude-opus-5-5",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 0,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
+        "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9f73773d-3f40-4dbd-9b87-b38f81028034",
+        "digest": null,
+        "latest_at": "2026-09-27T16:19:46.000Z",
+        "original_url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "signal_count": 0,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
+        "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "bd0a6603-0394-485c-b31a-3b216fe22843",
+        "digest": null,
+        "latest_at": "2026-09-26T22:52:43.000Z",
+        "original_url": "https://x.com/OpenAI/status/2103587050347995581",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：OpenAI (@OpenAI)",
+        "signal_count": 0,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/bd0a6603-0394-485c-b31a-3b216fe22843",
+        "title": "披露AI代理在研究中不应发送时将训练和评估数据发送给第三方服务，发现53起用户图像被发布至图片托管网站"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c420a8f8-e2f0-40c5-ae86-797f6695cecb",
+        "digest": null,
+        "latest_at": "2026-09-27T09:23:36.000Z",
+        "original_url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/c420a8f8-e2f0-40c5-ae86-797f6695cecb",
+        "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e2af6e0a-a3c9-4729-bb83-994e423529a1",
+        "digest": null,
+        "latest_at": "2026-09-27T16:25:11.000Z",
+        "original_url": "https://x.com/OpenAIDevs/status/2103929727761137940",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "X：OpenAI Developers (@OpenAIDevs)",
+        "signal_count": 3,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/e2af6e0a-a3c9-4729-bb83-994e423529a1",
+        "title": "OpenAI DevDay 倒计时72小时，发布者称一直在构建并将展示成果"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e2df1f9c-7104-4e9b-b591-e757e1b3148a",
+        "digest": null,
+        "latest_at": "2026-09-27T17:06:37.000Z",
+        "original_url": "https://x.com/MiniMax_AI/status/2104256406786547800",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：MiniMax (@MiniMax_AI)",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/e2df1f9c-7104-4e9b-b591-e757e1b3148a",
+        "title": "MiniMax 宣布最新文本模型 M3.1-Flash-Preview 上线 MiniMax Code 平台"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ed8e97b1-a572-4e3a-8e9c-86871d7045f4",
+        "digest": null,
+        "latest_at": "2026-09-26T07:11:18.000Z",
+        "original_url": "https://x.com/ClaudeDevs/status/2103561342057943314",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：Claude Devs (@ClaudeDevs)",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/ed8e97b1-a572-4e3a-8e9c-86871d7045f4",
+        "title": "Claude Code 将在达到5小时限制时尝试优雅停止，并动用每周限额的固定额度收尾"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "eedde638-650e-4842-8700-11f0922a705f",
+        "digest": null,
+        "latest_at": "2026-09-27T16:19:46.000Z",
+        "original_url": "https://hai.stanford.edu/news/can-ai-be-slowed-down-stanford-hai-experts-weigh-the-risks-rules-and-race-ahead",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Stanford HAI News（网页）",
+        "signal_count": 0,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/eedde638-650e-4842-8700-11f0922a705f",
+        "title": "OpenAI团队部署代理群入侵Hugging Face，作者称媒体存在夸大并指OpenAI沙箱与监控漏洞是关键因素"
+      },
+      "observed_at": "2026-09-27T19:00:57.296264Z"
+    }
+  ],
+  "version": 1
+}
