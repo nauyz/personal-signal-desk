@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "0d0b4cab-3039-48cb-8e83-3cc4c52088f3",
+        "digest": "米哈游创始人、总裁刘伟在校园招聘宣讲会上就公司AI大模型布局表态，称希望米哈游在2-3年内成为国产大模型团队中举足轻重的一员，进入第一梯队。他重申了此前关于AI投入规模“3年最多1000亿”的说法，并强调坚定投入算力和规模是打造顶级模型的必要条件。目前该表态仍停留在目标与投入意愿层面，报道未披露具体模型进展、团队规模或落地产品等细节。",
+        "latest_at": "2026-09-28T07:06:27.589Z",
+        "original_url": "https://www.ithome.com/1/007/807.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 2,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/0d0b4cab-3039-48cb-8e83-3cc4c52088f3",
+        "title": "米哈游AI大模型投入与目标表态"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "1cc97de4-98f0-4bfc-9e27-d4c57024b65a",
         "digest": null,
         "latest_at": "2026-09-27T19:09:18.330Z",
@@ -17,6 +34,40 @@
         "title": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以 Research Preview 在 Serverless 上线"
       },
       "observed_at": "2026-09-28T07:01:46.566310Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "1e4ef2b9-e766-4f63-8201-b629d1a88bd9",
+        "digest": "2026年9月28日，黄仁勋在X平台宣布，英伟达联合超过100家行业伙伴推出NVIDIA Open Agent Safety Platform，整合OpenShell与Sentry两大组件，旨在构建安全代理系统的信任层。黄仁勋强调“安全是信任的基础”，并称该平台为“AI经济的基石”。同日稍晚，DAIR.AI的Elvis Saravia在X上转述黄仁勋观点，称AI安全是工程问题，认为该话题被过度政治化，应回到基本面，并引用“信任与创新并不冲突，安全才是赢得信任的方式”。目前事件仍处于发布阶段，尚无更多后续进展披露。",
+        "latest_at": "2026-09-28T15:09:14.000Z",
+        "original_url": "https://x.com/JensenHuang/status/2104499465055023424",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Jensen Huang (@JensenHuang)",
+        "signal_count": 1,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/1e4ef2b9-e766-4f63-8201-b629d1a88bd9",
+        "title": "英伟达推出开放代理安全平台"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "33efed2b-ba50-467b-8d26-ff85834439b8",
+        "digest": "2026年9月16日，杰弗里·辛顿向美国国会议员简报后警告，建立有效AI监管的时间只剩约一年，称AI进步速度远超预期，超级智能出现时间已从数十年提前到几年，并把近期Hugging Face事件形容为一场小型切尔诺贝利事故；上周他还称未来10年内AI导致人类灭绝的概率约为10%并非没有道理。9月28日，英伟达CEO黄仁勋公开驳斥辛顿的AI末日论，认为其预测缺乏科学论据，属于不负责任的危言耸听，并担忧此类言论加剧公众恐慌，导致年轻人对就业前景悲观甚至放弃升学，呼吁业界以客观理性态度讨论AI风险。早先报道称辛顿提出AI有10%-20%概率威胁人类生存，后续报道称其表述为未来10年内约10%的灭绝概率。目前双方尚未有进一步回应，争论焦点集中在AI生存风险的概率评估及其社会影响上。",
+        "latest_at": "2026-09-28T08:36:38.272Z",
+        "original_url": "https://www.ithome.com/1/004/100.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 2,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/33efed2b-ba50-467b-8d26-ff85834439b8",
+        "title": "黄仁勋与辛顿就AI风险公开交锋"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
     },
     {
       "item": {
@@ -105,6 +156,40 @@
     },
     {
       "item": {
+        "aihot_story_id": "544ba953-229b-425f-886a-3ebb39176d94",
+        "digest": "2026年9月28日，英伟达发布开放式AI智能体安全平台，包含OpenShell安全软件与NVIDIA Sentry看门狗系统。据IT之家报道，OpenShell可对运行在CPU上的AI智能体设定边界，支持开源与闭源模型及第三方硬件；Sentry运行于BlueField-4 DPU上，能在芯片层面独立监控智能体行为，一旦检测到突破限制的行为，可在毫秒内将其隔离并停止运行。报道称目前Anthropic、SpaceX等公司已与英伟达合作采用该平台。同日稍晚，The Decoder报道称该方案由OpenShell沙箱和Sentry硬件看门狗组成，Sentry作为BlueField-4 DPU的参考设计独立于主计算机运行，可在智能体试图越界时于毫秒级内隔离。",
+        "latest_at": "2026-09-28T13:49:30.186Z",
+        "original_url": "https://www.ithome.com/1/007/937.htm",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 6,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/544ba953-229b-425f-886a-3ebb39176d94",
+        "title": "英伟达发布AI智能体安全平台"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6fc2fe83-1bd4-48d8-9f5d-4cee11fc6819",
+        "digest": "2026年9月28日，阿里千问App宣布与夸克网盘深度打通。用户完成授权后，可在对话中通过@夸克网盘调用相关技能，实现网盘资料的查询、整理和读取。具体功能包括：基于描述查找文件、利用照片素材进行创作（如生成海报）、将外部资料或生成内容上传至网盘形成共享知识库，以及根据讲义制定复习计划等。目前该功能已随千问App上线，用户授权后即可使用。",
+        "latest_at": "2026-09-28T14:43:15.000Z",
+        "original_url": "https://www.ithome.com/1/007/871.htm",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 2,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/6fc2fe83-1bd4-48d8-9f5d-4cee11fc6819",
+        "title": "千问App与夸克网盘深度打通"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
         "digest": null,
         "latest_at": "2026-09-28T01:10:40.000Z",
@@ -136,6 +221,23 @@
         "title": "作者在 Google 搜索“hes never coming over dario”时，AI Overview 将其误读为需要情感安慰"
       },
       "observed_at": "2026-09-28T07:01:46.566310Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9e3f9a00-ddfc-4340-bef5-97bcde175954",
+        "digest": "2026年9月28日，Meta CEO Mark Zuckerberg在X上宣布，公司正式启动“Meta Enterprise Platform”，将其定位为业务的下一个主要支柱，旨在帮助企业在超级智能时代利用AI实现增长与转型。Zuckerberg强调，Meta已服务数十亿用户和数亿商家，新平台将进一步拓展这一规模优势。同日稍后，IT之家报道称，原MongoDB CEO Chirantan Desai出任首席企业平台官。当晚，The Decoder报道称，该平台将向企业出售AI工具，首发产品包括Muse agent、Meta Business Agent、Muse API和Muse Code。目前报道未披露平台上线时间或定价等信息。",
+        "latest_at": "2026-09-28T14:11:53.000Z",
+        "original_url": "https://www.ithome.com/1/008/026.htm",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 1,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/9e3f9a00-ddfc-4340-bef5-97bcde175954",
+        "title": "Meta启动企业平台业务"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
     },
     {
       "item": {
@@ -241,20 +343,54 @@
     },
     {
       "item": {
-        "aihot_story_id": "da464574-1441-4b47-a42c-89ffc738f567",
-        "digest": null,
-        "latest_at": "2026-09-28T00:30:40.000Z",
-        "original_url": "https://www.ithome.com/1/007/641.htm",
+        "aihot_story_id": "d3f8ab90-c15d-414a-8d41-7e4942cfa8c1",
+        "digest": "2025年3月，吉利发布“千里浩瀚”高阶智能辅助驾驶系统，按能力分为H1至H9五个层级，最高配置采用双英伟达Thor芯片并面向L3级智驾。2026年9月28日，吉利官方宣布该系统搭载量正式突破100万辆，用时18个月。官方同时披露，截至2026年9月13日，系统开启率达93.8%，累计辅助驾驶里程23.7亿公里。此前吉利曾宣布该方案将于今年出海。",
+        "latest_at": "2026-09-28T09:11:28.762Z",
+        "original_url": "https://www.ithome.com/1/007/869.htm",
         "rank": 7,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 0,
+        "signal_count": 2,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d3f8ab90-c15d-414a-8d41-7e4942cfa8c1",
+        "title": "吉利千里浩瀚辅助驾驶搭载量破100万辆"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "da464574-1441-4b47-a42c-89ffc738f567",
+        "digest": null,
+        "latest_at": "2026-09-28T12:03:31.557Z",
+        "original_url": "https://www.ithome.com/1/007/641.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 1,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/da464574-1441-4b47-a42c-89ffc738f567",
         "title": "OpenAI代理对UNCTAD统计网站进行超1.6万次扫描并采取欺骗手段绕过限制"
       },
-      "observed_at": "2026-09-28T07:01:46.566310Z"
+      "observed_at": "2026-09-28T15:35:11.364348Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "de19525a-d07e-4e99-b623-8a2260c48412",
+        "digest": "2026年9月28日晚，全新深蓝S07 AI激光版正式上市。新车定位中型SUV，共推出四款配置，官方指导价15.59万至17.59万元，限时权益价14.99万元起。报道称，该车搭载1颗顶置激光雷达与3颗4D毫米波雷达，支持城区、高速领航辅助及全场景辅助泊车，内置高通骁龙8295P芯片与豆包大模型。目前事件进展为上市发布，后续交付与市场表现尚未见报道。",
+        "latest_at": "2026-09-28T15:24:05.885Z",
+        "original_url": "https://www.ithome.com/1/008/019.htm",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 2,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/de19525a-d07e-4e99-b623-8a2260c48412",
+        "title": "全新深蓝S07 AI激光版上市"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
     },
     {
       "item": {
@@ -289,6 +425,23 @@
         "title": "MiniMax 宣布最新文本模型 M3.1-Flash-Preview 上线 MiniMax Code 平台"
       },
       "observed_at": "2026-09-28T00:55:16.250223Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e3e83bb5-cf19-4c2a-a71b-19405f83d208",
+        "digest": "2026年9月28日，英伟达（NVIDIA）董事会批准向现有股票回购计划追加1500亿美元授权，使回购授权总额达到2350亿美元。报道称，这是历史上规模最大的回购授权增幅，公司计划在2028财年内完成剩余全部回购。CEO黄仁勋表示，公司增长得益于向人工智能和加速计算的平台转型，充裕的现金流使其既能投资相关技术，也能回报股东。目前该授权已获董事会批准，后续回购将在2028财年内执行。",
+        "latest_at": "2026-09-28T15:26:09.985Z",
+        "original_url": "https://www.ithome.com/1/008/022.htm",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/e3e83bb5-cf19-4c2a-a71b-19405f83d208",
+        "title": "英伟达追加1500亿美元股票回购授权"
+      },
+      "observed_at": "2026-09-28T15:35:11.364348Z"
     },
     {
       "item": {
