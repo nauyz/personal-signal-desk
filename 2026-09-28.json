@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "1cc97de4-98f0-4bfc-9e27-d4c57024b65a",
+        "digest": null,
+        "latest_at": "2026-09-27T22:43:47.000Z",
+        "original_url": "https://fireworks.ai/blog/ember-1",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Fireworks AI（网页）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/1cc97de4-98f0-4bfc-9e27-d4c57024b65a",
+        "title": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以 Research Preview 在 Serverless 上线"
+      },
+      "observed_at": "2026-09-28T00:55:16.250223Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "379c3594-c5bf-4cc3-8675-9b1aae61a411",
         "digest": null,
         "latest_at": "2026-09-27T11:32:15.779Z",
@@ -24,16 +41,16 @@
         "digest": null,
         "latest_at": "2026-09-27T19:57:30.000Z",
         "original_url": "https://www.ithome.com/1/005/972.htm",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 0,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/3ebe955f-c18f-4d6a-a576-553f9f51f263",
         "title": "Meta 9月8日上线AI智能体Muse，基础版免费并提供每月20/100美元订阅，目前仅面向美加用户"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
@@ -41,16 +58,16 @@
         "digest": null,
         "latest_at": "2026-09-27T20:34:28.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2104256952004211117",
-        "rank": 4,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 0,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/48b9022f-4a4a-4066-967d-399b63482e65",
         "title": "特朗普计划与Anthropic CEO达里奥·阿莫迪在白宫举行首次一对一私下晚餐"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
@@ -58,7 +75,7 @@
         "digest": null,
         "latest_at": "2026-09-27T16:50:19.000Z",
         "original_url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
-        "rank": 5,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
         "signal_count": 0,
@@ -67,7 +84,7 @@
         "story_url": "https://aihot.virxact.com/story/4c258d85-64d8-448a-938d-363b0cdbd38b",
         "title": "OpenAI发布GPT-6 Sol，价格较GPT-5.6 Sol减半至$2/$10每百万tokens；AA测试显示智力指数持平、编码代理指数57分升2分，幻觉率由92%降至60%"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
@@ -84,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
         "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
@@ -96,12 +113,12 @@
         "recovered": false,
         "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "signal_count": 0,
-        "source_count": 5,
+        "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
         "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
@@ -126,7 +143,7 @@
         "digest": null,
         "latest_at": "2026-09-27T09:23:36.000Z",
         "original_url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 0,
@@ -135,7 +152,24 @@
         "story_url": "https://aihot.virxact.com/story/c420a8f8-e2f0-40c5-ae86-797f6695cecb",
         "title": "OpenAI公布安全事件调查并暂停最先进模型训练、评估及工具使用推理"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "cc3a3ccf-ca4a-4e35-9cf2-73f34e01a0c2",
+        "digest": null,
+        "latest_at": "2026-09-27T23:32:01.000Z",
+        "original_url": "https://x.com/testingcatalog/status/2104218540567924747",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Testing Catalog (@testingcatalog)",
+        "signal_count": 1,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/cc3a3ccf-ca4a-4e35-9cf2-73f34e01a0c2",
+        "title": "Google Flow 上 Nano Banana 2.5 Flash 参考版本被改为 Nano Banana 2.1"
+      },
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
@@ -152,7 +186,7 @@
         "story_url": "https://aihot.virxact.com/story/e2af6e0a-a3c9-4729-bb83-994e423529a1",
         "title": "OpenAI DevDay 倒计时72小时，发布者称一直在构建并将展示成果"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
@@ -160,7 +194,7 @@
         "digest": null,
         "latest_at": "2026-09-27T17:06:37.000Z",
         "original_url": "https://x.com/MiniMax_AI/status/2104256406786547800",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：MiniMax (@MiniMax_AI)",
         "signal_count": 0,
@@ -169,7 +203,7 @@
         "story_url": "https://aihot.virxact.com/story/e2df1f9c-7104-4e9b-b591-e757e1b3148a",
         "title": "MiniMax 宣布最新文本模型 M3.1-Flash-Preview 上线 MiniMax Code 平台"
       },
-      "observed_at": "2026-09-27T22:17:15.620029Z"
+      "observed_at": "2026-09-28T00:55:16.250223Z"
     },
     {
       "item": {
