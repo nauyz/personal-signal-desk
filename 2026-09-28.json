@@ -5,18 +5,18 @@
       "item": {
         "aihot_story_id": "1cc97de4-98f0-4bfc-9e27-d4c57024b65a",
         "digest": null,
-        "latest_at": "2026-09-27T22:43:47.000Z",
+        "latest_at": "2026-09-27T19:09:18.330Z",
         "original_url": "https://fireworks.ai/blog/ember-1",
-        "rank": 4,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Fireworks AI（网页）",
         "signal_count": 0,
-        "source_count": 2,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/1cc97de4-98f0-4bfc-9e27-d4c57024b65a",
         "title": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以 Research Preview 在 Serverless 上线"
       },
-      "observed_at": "2026-09-28T00:55:16.250223Z"
+      "observed_at": "2026-09-28T07:01:46.566310Z"
     },
     {
       "item": {
@@ -34,6 +34,23 @@
         "title": "TypeSafe AI 发布 System One 模型 Jev：返回带概率的类型化决策而非文本，以托管 API 早期访问开放"
       },
       "observed_at": "2026-09-27T19:00:57.296264Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3eab002e-35e0-4566-8885-4dae4f79e644",
+        "digest": null,
+        "latest_at": "2026-09-27T16:30:00.000Z",
+        "original_url": "https://www.ithome.com/1/007/688.htm",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/3eab002e-35e0-4566-8885-4dae4f79e644",
+        "title": "《周六夜现场》播出简·威克林模仿Anthropic CEO达里奥·阿莫代伊的AI末日讽刺段子"
+      },
+      "observed_at": "2026-09-28T07:01:46.566310Z"
     },
     {
       "item": {
@@ -90,35 +107,86 @@
       "item": {
         "aihot_story_id": "80211185-0b01-4268-b5f4-a37b003d4faa",
         "digest": null,
-        "latest_at": "2026-09-27T09:20:08.000Z",
+        "latest_at": "2026-09-28T01:10:40.000Z",
         "original_url": "https://www.anthropic.com/claude-opus-5-5",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
         "signal_count": 0,
-        "source_count": 5,
-        "status": null,
+        "source_count": 3,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/80211185-0b01-4268-b5f4-a37b003d4faa",
         "title": "Opus 5.5发布：沟通更好、每token价格低于Opus 5.0、具Fable 5.1的智能，现已在Claude Code可用"
       },
-      "observed_at": "2026-09-28T00:55:16.250223Z"
+      "observed_at": "2026-09-28T07:01:46.566310Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "95e6d374-8c0b-4c50-bf1a-dc4b68efd68c",
+        "digest": null,
+        "latest_at": "2026-09-27T20:12:54.000Z",
+        "original_url": "https://sancho.bearblog.dev/google-weird",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Hacker News：AI 热帖",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/95e6d374-8c0b-4c50-bf1a-dc4b68efd68c",
+        "title": "作者在 Google 搜索“hes never coming over dario”时，AI Overview 将其误读为需要情感安慰"
+      },
+      "observed_at": "2026-09-28T07:01:46.566310Z"
     },
     {
       "item": {
         "aihot_story_id": "9f73773d-3f40-4dbd-9b87-b38f81028034",
         "digest": null,
-        "latest_at": "2026-09-27T16:19:46.000Z",
+        "latest_at": "2026-09-27T17:51:03.203Z",
         "original_url": "https://garymarcus.substack.com/p/i-think-the-answer-is-we-have-to",
         "rank": 1,
         "recovered": false,
         "representative_source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
         "signal_count": 0,
         "source_count": 4,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/9f73773d-3f40-4dbd-9b87-b38f81028034",
         "title": "OpenAI 一款 AI 智能体 6 月未经授权侵入澳大利亚政府网站，访问公共和非公共文件"
       },
-      "observed_at": "2026-09-28T00:55:16.250223Z"
+      "observed_at": "2026-09-28T07:01:46.566310Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
+        "digest": null,
+        "latest_at": "2026-09-28T05:32:52.583Z",
+        "original_url": "https://x.ai/news/grok-4-7",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "xAI：News（网页）",
+        "signal_count": 1,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b2f7b4d5-9d43-4b1e-85e3-d66e8402969a",
+        "title": "Grok 4.7 发布，宣称更智能且能力更强，保持相同速度与成本"
+      },
+      "observed_at": "2026-09-28T07:01:46.566310Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b50fb3e1-a2ba-4ef6-ab42-e246dbe817a7",
+        "digest": null,
+        "latest_at": "2026-09-27T15:51:28.000Z",
+        "original_url": "https://tinyaiarena.com/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b50fb3e1-a2ba-4ef6-ab42-e246dbe817a7",
+        "title": "Show HN 发布 TinyAIArena AI 智能体对战平台，展示实时排行榜与比赛数据"
+      },
+      "observed_at": "2026-09-28T07:01:46.566310Z"
     },
     {
       "item": {
@@ -158,9 +226,9 @@
       "item": {
         "aihot_story_id": "cc3a3ccf-ca4a-4e35-9cf2-73f34e01a0c2",
         "digest": null,
-        "latest_at": "2026-09-27T23:32:01.000Z",
+        "latest_at": "2026-09-27T14:36:09.000Z",
         "original_url": "https://x.com/testingcatalog/status/2104218540567924747",
-        "rank": 5,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Testing Catalog (@testingcatalog)",
         "signal_count": 1,
@@ -169,24 +237,41 @@
         "story_url": "https://aihot.virxact.com/story/cc3a3ccf-ca4a-4e35-9cf2-73f34e01a0c2",
         "title": "Google Flow 上 Nano Banana 2.5 Flash 参考版本被改为 Nano Banana 2.1"
       },
-      "observed_at": "2026-09-28T00:55:16.250223Z"
+      "observed_at": "2026-09-28T07:01:46.566310Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "da464574-1441-4b47-a42c-89ffc738f567",
+        "digest": null,
+        "latest_at": "2026-09-28T00:30:40.000Z",
+        "original_url": "https://www.ithome.com/1/007/641.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 0,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/da464574-1441-4b47-a42c-89ffc738f567",
+        "title": "OpenAI代理对UNCTAD统计网站进行超1.6万次扫描并采取欺骗手段绕过限制"
+      },
+      "observed_at": "2026-09-28T07:01:46.566310Z"
     },
     {
       "item": {
         "aihot_story_id": "e2af6e0a-a3c9-4729-bb83-994e423529a1",
         "digest": null,
-        "latest_at": "2026-09-27T16:25:11.000Z",
+        "latest_at": "2026-09-26T19:28:30.000Z",
         "original_url": "https://x.com/OpenAIDevs/status/2103929727761137940",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：OpenAI Developers (@OpenAIDevs)",
         "signal_count": 3,
         "source_count": 1,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/e2af6e0a-a3c9-4729-bb83-994e423529a1",
         "title": "OpenAI DevDay 倒计时72小时，发布者称一直在构建并将展示成果"
       },
-      "observed_at": "2026-09-28T00:55:16.250223Z"
+      "observed_at": "2026-09-28T07:01:46.566310Z"
     },
     {
       "item": {
