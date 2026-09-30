@@ -4,36 +4,53 @@
     {
       "item": {
         "aihot_story_id": "0708dda9-d77b-4211-8456-eb7b422e0cc9",
-        "digest": "2026年9月30日上午，DeepSeek通过官方公众号宣布，正式开源面向华为昇腾算力平台的基础设施组件。据DeepSeek公众号发布的信息，此次开源的组件包括TileLang编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，涵盖TileLang高级语言编译工具、计算库和分布式通信库，与此前面向英伟达平台的开源组件一一对应。IT之家同日10时25分报道确认了这一消息，并称所有组件与此前英伟达平台开源组件一一对应。同日13时52分，X平台账号X.PIN (@thexpin) 发帖称，DeepSeek发布了一套与自家英伟达组件对应的昇腾工具包，包括TileLang、DeepGEMM、DeepEP、TileKernels、FlashMLA和DeepSelect，并称均已给出GitHub开源地址。上述报道均未披露这些组件的具体适用条件、收费或额度安排、地域限制及发布时间等进一步信息。截至上述报道，这是关于此事的最新进展。",
-        "latest_at": "2026-09-30T05:52:10.000Z",
+        "digest": null,
+        "latest_at": "2026-09-30T13:13:18.007Z",
         "original_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485843&idx=1&sn=565102c3642d88e814331390bf62d276&chksm=c2b41a7a4ae29752ec9555ae3de574d2c8f60b42aaf1db0aaf4511c38f174d7abc860a8ee56c&scene=126&sessionid=1790739034#rd",
-        "rank": 9,
+        "rank": 8,
         "recovered": false,
         "representative_source": "公众号：DeepSeek（深度求索）",
-        "signal_count": 14,
+        "signal_count": 21,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/0708dda9-d77b-4211-8456-eb7b422e0cc9",
-        "title": "DeepSeek开源华为昇腾算力平台基础设施组件"
+        "title": "DeepSeek开源华为昇腾平台基础设施组件"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "129c4994-da48-4698-8261-46e30d139e7f",
+        "digest": "2026年9月20日，特朗普在X和Truth Social发起投票，为人工智能征集新名称，称“Artificial Intelligence”不准确且不优雅，提议改用Superior Intelligence（SI）、Extreme Intelligence（EI）或Supreme Intelligence（SI）。同日据TechCrunch报道，特朗普还在Truth Social发文称AI安全担忧是民主党制造的又一骗局，并宣布将组建类似Space Force的AI Force，近期公布AI Czar人选。IT之家报道称，截至发稿X平台已有超18万人参与投票，卓越智能以40.4%领先；特朗普称将扶持AI产业、组建人工智能部队并任命一名AI事务总管，但未说明具体职责。9月23日，The Verge与X用户Rohan Paul报道，特朗普在联合国大会演讲中宣布美国将把artificial intelligence正式改称super intelligence（SI），理由是artificial一词让智能听起来像假的，并称不会抑制这项技术增长，将通过司法部密切关注，美国目前大幅领先中国。9月30日，Rohan Paul报道称，马斯克在特朗普面前差点说出“AI”，及时改口为“SI……超级智能”，并称在机器人和超级智能时代将实现全民高收入。同日The Verge报道，特朗普签署行政命令，要求美国行政部门的政策网站、政策文件和新闻稿不再使用artificial intelligence或AI，改称Super Intelligence；政府机构无需修改既往法规和文件，官员在相关场合被期望不承认“artificial intelligence”或“AI”的用法。特朗普在与科技CEO午餐会后表示应靠行业自律，并有司法部和FBI等监管，还称企业会为数据中心所在社区提供资源支持。目前AI Force与AI Czar人选尚未公布。",
+        "latest_at": "2026-09-30T11:19:49.000Z",
+        "original_url": "https://www.ithome.com/1/004/829.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 18,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/129c4994-da48-4698-8261-46e30d139e7f",
+        "title": "特朗普推动AI改名并筹建AI Force"
+      },
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
         "aihot_story_id": "1c691309-370b-4623-bb83-012b0804c3d1",
         "digest": null,
-        "latest_at": "2026-09-30T03:00:36.196Z",
+        "latest_at": "2026-09-30T11:27:44.000Z",
         "original_url": "https://www.worldlabs.ai/blog/amd-announcement",
         "rank": 3,
         "recovered": false,
         "representative_source": "World Labs：官网",
-        "signal_count": 74,
+        "signal_count": 75,
         "source_count": 10,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/1c691309-370b-4623-bb83-012b0804c3d1",
-        "title": "AMD收购World Labs并任命李飞飞为首席科学家"
+        "title": "AMD 82亿美元收购World Labs，李飞飞任首席科学家"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
@@ -72,121 +89,121 @@
     {
       "item": {
         "aihot_story_id": "8aeed342-ea41-4b31-bc89-974d2b403fdf",
-        "digest": "2026年9月29日，Artificial Analysis 报道 OpenAI 发布 GPT-6.1 Sol，接替仅上线 7 天的 GPT-6 Sol，其智能指数比 GPT-6 Sol 高 4 分、比 GPT-6 Astra 低 1 分。9月30日 DevDay 上，OpenAI 正式发布 GPT-6.1 Sol，称其在智能体编码、计算机使用和专业工作上接近 GPT-6 Astra，标准输入输出 token 价格约为 Astra 的五分之一；官方定价为每百万输入 token 2 美元、缓存输入 0.10 美元、输出 10 美元。该模型即日起面向 Plus、Pro、Business、Enterprise 和 Edu 用户在 ChatGPT Work 和 Codex 推出，尚未在 Chat 提供，可用性取决于套餐、客户端和工作区设置。同日 OpenAI 推出 Ultrafast 高速档，Codex 中 token 生成最高提速 8 倍（300 tokens/秒），API 最高 6 倍；GPT-6 Astra Ultrafast 即日起在 API、ChatGPT Work 和 Codex 面向 Pro 500 和 Enterprise 套餐开放，GPT-6.1 Sol Ultrafast 即将推出。OpenAI 同时推出每月 500 美元的 Pro 套餐，提供 25 倍使用容量并专享 Ultrafast。Artificial Analysis 评测显示 GPT-6.1 Sol 智能指数仅比 Astra 低 1 分，max effort 下每任务成本 0.72 美元，不到 Astra（3.26 美元）的四分之一。SemiAnalysis 称 GPT-6.1 Sol Ultrafast 运行在 NVIDIA GPU 上而非 Cerebras。早先报道称 GPT-6.1 Sol 缓存输入为标准输入价格的 95% 折扣，后续报道称缓存输入定价为每百万 0.10 美元。新报道显示，OpenAI Developers 于 9月30日发布 Codex Ultrafast 模式文档，并再次确认 GPT-6.1 Sol 缓存输入享有较标准输入定价 95% 的折扣。",
-        "latest_at": "2026-09-30T05:45:01.000Z",
-        "original_url": "https://x.com/OpenAIDevs/status/2105073608586670412",
+        "digest": "2026年9月29日，Artificial Analysis 报道 OpenAI 发布 GPT-6.1 Sol，接替仅上线 7 天的 GPT-6 Sol，其智能指数比 GPT-6 Sol 高 4 分、比 GPT-6 Astra 低 1 分。同日 OpenAI 发布 GPT-6 Astra 系统卡增补，称 GPT-6.1 Sol 沿用 Astra 的数据与训练方式，在生物与化学领域被定为 High capability，相关结果未越过 Critical 阈值；网络安全生产聊天评测中优于此前所有模型，但在合成与半合成智能体环境中较 GPT-5.6 Sol 小幅退步。9月30日 DevDay 上，OpenAI 正式发布 GPT-6.1 Sol，称其在智能体编码、计算机使用和专业工作上接近 GPT-6 Astra，标准输入输出 token 价格约为 Astra 的五分之一；标准 API 价格为每百万输入 token 2 美元、缓存输入 0.10 美元、输出 10 美元。该模型即日起面向 Plus、Pro、Business、Enterprise 和 Edu 用户在 ChatGPT Work 和 Codex 中开放，尚未在 Chat 中提供。同日 OpenAI 推出 Ultrafast 高速档：GPT-6 Astra Ultrafast 在 Codex 中最高提速 8 倍（300 tokens/秒）、API 最高 6 倍，面向 Pro 500 和 Enterprise 套餐开放；GPT-6.1 Sol Ultrafast 即将推出。OpenAI 同时推出每月 500 美元的 Pro 套餐，提供 25 倍使用容量并专享 Ultrafast。Artificial Analysis 后续评测称 GPT-6.1 Sol 智能指数仅比 Astra 低 1 分，max effort 下每任务成本 0.72 美元，不到 Astra（3.26 美元）的四分之一。SemiAnalysis 称 GPT-6.1 Sol Ultrafast 运行在 NVIDIA GPU 上而非 Cerebras。",
+        "latest_at": "2026-09-30T12:35:46.000Z",
+        "original_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
         "rank": 2,
         "recovered": false,
-        "representative_source": "X：OpenAI Developers (@OpenAIDevs)",
-        "signal_count": 55,
-        "source_count": 14,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 61,
+        "source_count": 12,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/8aeed342-ea41-4b31-bc89-974d2b403fdf",
-        "title": "OpenAI推出Ultrafast高速层级"
+        "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
         "aihot_story_id": "935ed291-4d58-4132-a878-ce7fc3176c83",
         "digest": null,
         "latest_at": "2026-09-30T05:26:15.000Z",
-        "original_url": "https://www.ithome.com/1/004/369.htm",
+        "original_url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
         "rank": 5,
         "recovered": false,
-        "representative_source": "IT之家（RSS）",
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 46,
         "source_count": 7,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/935ed291-4d58-4132-a878-ce7fc3176c83",
-        "title": "Anthropic 计划将 IPO 推迟至 11 月，估值约 2 万亿美元"
+        "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
         "aihot_story_id": "94903954-cf87-48d8-89a6-eff5deefeaa0",
-        "digest": null,
-        "latest_at": "2026-09-30T05:07:57.000Z",
-        "original_url": "https://www.ithome.com/1/007/650.htm",
+        "digest": "2026 年 9 月 28 日，Anthropic 发布 Claude 5.5 家族第二款模型 Claude Sonnet 5.5（claude-sonnet-5-5），已在 Claude API、Amazon Bedrock、Claude Platform on AWS、Google Cloud 和 Microsoft Foundry 可用。官方称其输出速度比 Sonnet 5 快 30% 以上，因每任务 token 消耗更少，多数任务成本最多降低 30%，定价与 Sonnet 5 相同：输入 $2、输出 $10 每百万 token，缓存读取 $0.20。Artificial Analysis 智能指数得分 56，max effort 下比 Sonnet 5 高 18 分，仅次于 Opus 5.5 (max)；Terminal-Bench 4.0 得分 70.6%，远高于 Sonnet 5 的 10.3%。Claude Code v2.1.284 将其设为默认 Sonnet 模型，支持 1M 上下文；Cursor、OpenRouter、Google Cloud 等平台陆续上线。Arena 数据显示 Sonnet 5.5 (High) 在 Code Arena: WebDev 以 1699 分列第 4，并计划于 9 月 30 日太平洋时间早 8 点起在 Direct Mode 限时开放 48 小时。官方称 Haiku 5.5 将在未来几周加入该系列。",
+        "latest_at": "2026-09-30T08:40:44.000Z",
+        "original_url": "https://www.anthropic.com/claude-sonnet-5-5",
         "rank": 4,
         "recovered": false,
-        "representative_source": "IT之家（RSS）",
-        "signal_count": 65,
-        "source_count": 17,
-        "status": null,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 67,
+        "source_count": 15,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0",
-        "title": "Claude Sonnet 5.5 疑似泄露，配置标识符现身并开启灰度测试"
+        "title": "Anthropic 发布 Claude Sonnet 5.5"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
         "aihot_story_id": "a303df3a-51f9-454b-8dda-5ac2f2f71842",
-        "digest": "2026 年 9 月下旬，OpenAI 常驻助手传闻陆续曝光。9 月 26 日 Testing Catalog 称其将命名为 \"o\"，引用短暂出现在部分用户 ChatGPT 升级界面，内部配置显示 \"o\" 为显示名、\"-o\" 为邮箱后缀；9 月 27 日该账号称 OpenAI 预告 DevDay 推出 \"o\" 常驻智能体，IT之家援引消息人士 Alexey Shabanov 称预计 9 月 29 日发布。9 月 29 日 The Verge 称 OpenAI 在常驻消费级智能体赛道落后于 Meta、Google，DevDay 上可能发布代号 Aeon 的智能体；同日 Testing Catalog 据版本字符串称产品将命名为 \"Dots\"，是 4 月 22 日发布的自定义智能体 aeons 的进化版。北京时间 9 月 30 日凌晨 DevDay 2026 上，OpenAI 正式发布 dots，由 GPT-6 Astra 驱动，每个 dot 拥有独立云电脑和浏览器，可 24/7 持续工作，连接 4,000 多个应用，支持语音通话、Slack 和 Microsoft Teams。官方称 dots 面向符合资格市场的 Pro 和 Business Premium 用户推出，Enterprise（含 Edu、Healthcare）须由工作区管理员开启测试版；套餐包含首个 dot，无额外费用，深度工作有单独额度、发布后首月提高额度；与 dot 对话不占 ChatGPT 使用额度，但让 dot 启动或管理 Codex、ChatGPT Work 任务仍照常计入相应额度。IT之家称首次公开演示时名为 \"Dottie\" 的 Dot 迟迟未响应，演示被迫暂停；另有报道称 dot.com 域名归属马斯克旗下 xAI。",
-        "latest_at": "2026-09-30T06:05:00.000Z",
-        "original_url": "https://x.com/testingcatalog/status/2103787365986623925",
+        "digest": null,
+        "latest_at": "2026-09-30T12:06:00.000Z",
+        "original_url": "https://openai.com/index/introducing-dots/",
         "rank": 1,
         "recovered": false,
-        "representative_source": "X：Testing Catalog (@testingcatalog)",
-        "signal_count": 60,
-        "source_count": 12,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 68,
+        "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/a303df3a-51f9-454b-8dda-5ac2f2f71842",
-        "title": "OpenAI 常驻助手 \"o\" 曝光，DevDay 下周揭晓"
+        "title": "OpenAI 发布常驻智能体 Dots"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
         "aihot_story_id": "bcce8a38-0067-4cfa-a9dc-0f44abe05876",
         "digest": null,
-        "latest_at": "2026-09-30T00:29:33.005Z",
+        "latest_at": "2026-09-30T08:40:35.000Z",
         "original_url": "https://arstechnica.com/ai/2026/09/openai-says-planned-gpt-6-1-is-too-insecure-to-release/",
         "rank": 7,
         "recovered": false,
         "representative_source": "Ars Technica：AI（RSS）",
-        "signal_count": 38,
+        "signal_count": 41,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/bcce8a38-0067-4cfa-a9dc-0f44abe05876",
-        "title": "OpenAI因安全问题推迟发布Astra 6.1模型"
+        "title": "OpenAI因安全对齐问题取消GPT-6.1 Astra发布"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
         "aihot_story_id": "c2ce7c22-c2b6-45b0-b931-5200b107c077",
-        "digest": null,
-        "latest_at": "2026-09-30T05:55:33.000Z",
+        "digest": "2026年9月11日，因GPT-6 Astra算力需求激增，OpenAI暂停了月费200美元ChatGPT Pro订阅的新用户注册。9月29日，OpenAI员工Tibo（Thibault Sottiaux）宣布将于次日向新用户重新开放Pro 200订阅，并调整用量计算方式：按他的算法，折算后相当于旧Pro计划的API花费减半。The Decoder据此称每美元对应的API额度减半，并指出这显示OpenAI正从高补贴订阅转向按量计费。新方案不再恢复5小时使用限制，仅保留周额度管理，订阅者可自由分配每周额度。Tibo还提到本周上线的GPT-6 Sol和GPT-6 Luna API价格为之前的一半，并预告订阅将新增不占用用量的内容。9月30日，OpenAI更新订阅说明，新增月费500美元的Pro 500档，独占Ultrafast功能，Pro 200同时重新开放新订阅。",
+        "latest_at": "2026-09-30T08:31:40.001Z",
         "original_url": "https://x.com/thsottiaux/status/2104823812042940713",
         "rank": 6,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
         "signal_count": 39,
-        "source_count": 6,
-        "status": null,
+        "source_count": 5,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/c2ce7c22-c2b6-45b0-b931-5200b107c077",
-        "title": "OpenAI调整Pro订阅用量计算并预告新功能"
+        "title": "OpenAI重开Pro 200并新增Pro 500档"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     },
     {
       "item": {
         "aihot_story_id": "c389aba2-5149-45a8-a66b-56a88fc3ff3e",
-        "digest": "2026年9月28日23:22，Manus 官方账号 @ManusAI 宣布推出 Manus 2.0。23:33，IT之家报道称，Manus 母公司蝴蝶效应发布面向海外用户的 Manus 2.0，并推出个人生活场景智能助理 Cue，同时宣布正组建团队开发国内市场产品，与国产模型厂商合作稳步进行。9月29日00:01，Testing Catalog 报道称，Manus 发布 2.0 系列产品与更新，包括更高效的 agent 架构 Cascade，以及 Cloud Computers 和事件触发的 Automations。01:43，Manus 官方宣布 Manus 与 @CueAgents 获得独立电话号码，智能体可拨打和接听电话、收发短信，用户还可将来电转接给智能体；该功能目前仅在部分国家可用，部分地区仅支持语音，官方称正努力扩展到更多国家。03:17，Frank Wang 玉伯发文祝贺，称其“朝着 general agent 的方向一路狂奔”，并以操作系统作类比：Claude Code 是 Unix，Codex 是 Windows 95，Manus 是 Windows 98 或 macOS。03:18，Manus 官方发布“Manus 2.0 彩蛋 👀”。03:37，玉伯再发一帖，转述“red”称 manus 挺像是一个卖电脑的生意，并抛出问题：cowork、codex、manus 等 general agent 里，谁最像 apple。05:27，Manus 官方宣布 Manus 2.0 现在可以构建游戏，并称非常简单，同时引导查看推文串了解用 Manus 制作的数十款游戏、提示词和可玩 demo。08:33，有文章进一步报道称，Cue 中每个 Agent 可拥有自己的邮箱、电话号码、钱包和电脑，代表用户与现实服务交互，多 Agent 可进入同一群聊处理扫码点餐、排队取号等事宜；Manus 同时在开发面向国内市场的产品，与国产模型厂商及生态伙伴的合作稳步进行。12:09，有新文章将此次发布概括为“Manus 2.0 全家桶”，称其包含新 agent 架构 Cascade、云电脑与自动化、可剪视频、生视频和做在线多人游戏的 Manus Studio，以及 Personal Agent 产品 Cue。14:59，Manus 官方宣布 Manus 2.0 全球活动系列启动，可线上或线下参与 Founder Briefing、Roadshow 或 Fellow 主导的社区聚会，首场为联合创始人兼 CPO @hidecloud 主持的 Founder Briefing 网络研讨会，9 月 30 日 SGT 晚 10 点。16:47，The Decoder 报道称，Manus 2.0 将 AI 智能体升级为平台，用户可编辑视频、托管多人游戏，并用手机远程操控智能体。20:44，玉伯再发文称，To C 的 Agent 没有垂类、只有 general agent，Manus 和各种 personal agent 都走对了方向；他引用 red 的洞见称 To B 的 Agent 像电脑、To C 的 Agent 像手机，很难有一家拿下超级市占率，而同时卖电脑和手机的 Manus 最像苹果，并表示向 Manus 致敬，同时坚定走 YouMind 自己的路。目前公开信息主要来自上述社交平台动态与报道，尚无更多细节披露。",
-        "latest_at": "2026-09-29T13:59:15.864Z",
+        "digest": null,
+        "latest_at": "2026-09-30T11:02:00.000Z",
         "original_url": "https://www.ithome.com/1/008/064.htm",
-        "rank": 10,
+        "rank": 9,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 27,
-        "source_count": 7,
+        "signal_count": 31,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/c389aba2-5149-45a8-a66b-56a88fc3ff3e",
-        "title": "Manus AI 发布 Manus 2.0"
+        "title": "Manus 发布 2.0 系列产品与更新"
       },
-      "observed_at": "2026-09-30T06:48:49.560463Z"
+      "observed_at": "2026-09-30T13:50:43.544638Z"
     }
   ],
   "version": 1
