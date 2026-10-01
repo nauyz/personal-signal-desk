@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-02",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0708dda9-d77b-4211-8456-eb7b422e0cc9",
+        "digest": null,
+        "latest_at": "2026-10-01T05:20:25.000Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485843&idx=1&sn=565102c3642d88e814331390bf62d276&chksm=c2b41a7a4ae29752ec9555ae3de574d2c8f60b42aaf1db0aaf4511c38f174d7abc860a8ee56c&scene=126&sessionid=1790739034#rd",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "公众号：DeepSeek（深度求索）",
+        "signal_count": 20,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/0708dda9-d77b-4211-8456-eb7b422e0cc9",
+        "title": "DeepSeek开源华为昇腾平台基础设施组件"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "129c4994-da48-4698-8261-46e30d139e7f",
+        "digest": null,
+        "latest_at": "2026-10-01T09:09:01.000Z",
+        "original_url": "https://www.ithome.com/1/004/829.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 20,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/129c4994-da48-4698-8261-46e30d139e7f",
+        "title": "特朗普推动AI改名并筹建AI Force"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2c6e1906-800f-40f0-a8fe-cefa7eaf8d9d",
+        "digest": null,
+        "latest_at": "2026-10-01T09:30:42.000Z",
+        "original_url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 17,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/2c6e1906-800f-40f0-a8fe-cefa7eaf8d9d",
+        "title": "FTC加大对AI实验室调查力度"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8ade9c6c-461d-4ad7-8ba0-c7927655b7e6",
+        "digest": null,
+        "latest_at": "2026-10-01T16:25:19.230Z",
+        "original_url": "https://www.ithome.com/1/004/058.htm",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 13,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/8ade9c6c-461d-4ad7-8ba0-c7927655b7e6",
+        "title": "赛力斯与华为回应问界专属专营模式调整"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8aeed342-ea41-4b31-bc89-974d2b403fdf",
+        "digest": null,
+        "latest_at": "2026-10-01T15:02:44.000Z",
+        "original_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 49,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/8aeed342-ea41-4b31-bc89-974d2b403fdf",
+        "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a303df3a-51f9-454b-8dda-5ac2f2f71842",
+        "digest": "2026 年 9 月下旬，OpenAI 常驻助手先以代号「o」在部分用户 ChatGPT 升级界面短暂曝光，内部配置显示「o」为显示名、\"-o\" 为邮箱后缀，暗示支持邮件处理；随后有消息称其将于 9 月 29 日 DevDay 发布。9 月 29 日，OpenAI 在 DevDay 2026 正式发布常驻主动式智能体 Dots，由 GPT-6 Astra 驱动，每个 dot 拥有独立云电脑和浏览器，可 24/7 持续工作，连接 4,000 多个应用，支持语音通话、Slack 和 Microsoft Teams 协作，并能随使用学习用户偏好。官方称 Dots 今日起在符合资格市场向 Pro 和 Business Premium 用户推出，Enterprise（含 Edu、Healthcare）须由工作区管理员开启测试版；套餐包含首个 dot 无额外费用，深度工作有单独额度且发布后首月提高额度，与 dot 对话不占 ChatGPT 使用额度，但让 dot 启动或管理 Codex、ChatGPT Work 任务仍照常计入相应额度。早先报道曾称该智能体代号为 Aeon，后续报道称 Dots 实为 Workspace 自定义 Agents（aeons）面向消费者的进化版；另有报道称其可能仅面向 Pro 200 计划，与官方 Pro 和 Business Premium 的说法不一致。演示环节中名为 Dottie 的 Dot 一度未响应，演示被迫暂停。",
+        "latest_at": "2026-10-01T19:15:44.000Z",
+        "original_url": "https://openai.com/index/introducing-dots/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 52,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a303df3a-51f9-454b-8dda-5ac2f2f71842",
+        "title": "OpenAI 发布常驻智能体 Dots"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d107c8d5-9422-4a53-ad7c-aa794bcfbdd3",
+        "digest": "2026 年 9 月 21 日，博主 @熠熠玩数码 透露华为 Mate 90 系列发布会将于 9 月 29 日 14:30 举行，并称华为当日未官宣该时间；后续报道显示发布会实际于 10 月 1 日举行，两者时间不一致。10 月 1 日发布会上，华为常务董事、终端 BG 董事长余承东宣布麒麟芯片开启「芯」纪元，推出旗舰 τ 芯片麒麟 9030、麒麟 9035 与逻辑折叠 τ 芯片麒麟 9050、麒麟 9050 Pro。Mate 90 标准版搭载麒麟 9030，对比 Mate 80 的麒麟 9020，CPU 提升 13%、GPU 提升 54%、NPU 提升 13%，支持 FFRT 软硬协同调度，图片加载速度提升 100%，内置移动安全处理器 MSP，支持后量子密码算法；Mate 90 Pro 首发麒麟 9035，对比 Mate 80 Pro 12GB 版搭载的麒麟 9030，CPU 提升 11%、GPU 提升 10%、NPU 提升 51%。Mate 90 正式发布，整机性能提升 27%，售价 5999 元起，配备 6.75 英寸直屏，搭载 HarmonyOS 7，提供 12GB+256GB 至 12GB+1TB 三种存储版本。系列首发 XMAGE「华为睿影」影像体系，全系配备 F1.4-F4.0 无级调节连续可变光圈、第三代红枫原色摄像头、超大底 2 亿像素长焦和 18EV 超高动态主摄；后续报道称余承东宣布华为睿影 XMAGE 影像品牌正式发布，Mate 90 系列首发搭载，并提及搭配 Mate 90 Pro Max 典藏版套装定价 19499 元。Mate 90 Pro Max 典藏版搭载麒麟 9050 Pro 逻辑折叠 τ 芯片、6800mAh 电池，16GB+512GB 售 10999 元、16GB+1TB 售 12999 元；后续首发体验称其晶体管个数达 2.38 亿 / mm²。鸿蒙 AI 升级包括小艺帮记、小艺图库助手一句话成片、隔空手势跨设备直传及单次查看隐私模式。",
+        "latest_at": "2026-10-01T14:39:18.000Z",
+        "original_url": "https://www.ithome.com/1/005/085.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d107c8d5-9422-4a53-ad7c-aa794bcfbdd3",
+        "title": "华为 Mate 90 系列发布：官宣麒麟 9030/9035 芯片"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "digest": null,
+        "latest_at": "2026-10-01T16:26:41.000Z",
+        "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 88,
+        "source_count": 17,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "title": "谷歌发布 Gemini 4 Argon 前沿模型"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "eb54737e-789a-4e7c-848c-63c1c5ef1497",
+        "digest": "2026年9月30日，Google DeepMind 发布 SynthID Bio，将水印技术引入合成生物学。据其官方博客，该技术把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。同日稍晚，Ars Technica 报道称，DeepMind 团队发表相关研究论文，提出基于 SynthID 的 SynthIDBio 技术，可在流行蛋白设计工具 ProteinMPNN 生成序列时嵌入不影响功能的水印，帮助 DNA 合成方筛查未知蛋白来源；该报道同时指出局限：极短的蛋白质可能嵌入的水印氨基酸过少而无法被识别，此外还有多种不依赖 ProteinMPNN 的 AI 蛋白质设计软件。10月1日，DeepMind 的 Demis Hassabis 在 X 上表示，相关论文发表于 Nature，团队同时开源 SynthID Bio 工具供研究社区使用，目标是加强 AI 时代的生物安全。同日，IT之家报道称，该技术通过引导氨基酸选择和调整预测 3D 结构的原子坐标，把可检测签名嵌入生物编码，并能在物理蛋白质上验证。10月1日晚，Google DeepMind 官方账号在 X 上补充称，SynthID Bio 是专为 AI 生成生物设计打造的新水印方法系列，水印如同数字身份证，可帮助 DNA 实验室验证合成蛋白质并保持序列数据库准确；同一账号还表示，正以开放方式发布这些工具供研究使用，以加强安全防护。10月2日，Google DeepMind 官方账号发布播客，探讨 AI 内容溯源与水印，其中包含 SynthID Bio 专题。目前公开信息来自 Google DeepMind 一手发布及上述跟进报道，未披露该技术的适用范围或使用条件，也未见第三方验证。",
+        "latest_at": "2026-10-01T17:11:05.000Z",
+        "original_url": "https://deepmind.google/blog/introducing-synthid-bio/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 12,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/eb54737e-789a-4e7c-848c-63c1c5ef1497",
+        "title": "Google DeepMind发布SynthID Bio蛋白质水印技术"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
+        "digest": "2026年10月2日，Tavus发布Griffin，公司称其为首个通过视频图灵测试的人类交互模型（HIM），可实时处理语音、表情、语调、手势和停顿并收发视频。据Tavus发布信息，48%与之实时对话的人认为它是真人，此前系统通过率低于3%；在NVIDIA全双工AI视频基准上Griffin得3.83分，真人为3.92分，次优系统为2.80分。Griffin将听、想、说和面部动画整合在单一系统中，可在对话者仍在说话时读取表情、语气并实时反应。同日，获早期访问的Elvis Saravia（DAIR.AI）称该视频到视频模型可边看边听、打断和被打断并反应房间内发生的事，并提及同一基准得分3.83/5、真人3.92。The Decoder报道称，名为Griffin-Lite的预览版仅向“部分测试者作为研究预览”开放，能力更强的版本将在“安全问题得到解决”后推出。关于通过率，早先报道称48%的实时对话者认为它是真人，后续Testing Catalog报道称120名参与者中45%认为其对话是真人。fal转发该发布并祝贺Tavus团队。上述数字与说法均来自Tavus发布信息及体验者转述，尚无独立验证。",
+        "latest_at": "2026-10-01T18:44:33.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2105715526748225562",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 4,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
+        "title": "Tavus发布Griffin视频交互模型"
+      },
+      "observed_at": "2026-10-01T19:35:58.577609Z"
+    }
+  ],
+  "version": 1
+}
