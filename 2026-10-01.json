@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "0708dda9-d77b-4211-8456-eb7b422e0cc9",
-        "digest": null,
-        "latest_at": "2026-09-30T13:13:18.007Z",
+        "digest": "2026年9月30日上午，DeepSeek通过官方公众号宣布，正式开源面向华为昇腾算力平台的基础设施组件，涵盖TileLang高级语言编译工具、计算库和分布式通信库。据DeepSeek公众号发布的信息，此次开源的组件包括TileLang编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前面向英伟达平台的开源组件一一对应。IT之家同日10时25分报道确认了这一消息，并称所有组件与此前英伟达平台开源组件一一对应。同日13时52分，X平台账号X.PIN (@thexpin) 发帖称，DeepSeek发布了一套与自家英伟达组件对应的昇腾工具包，包括TileLang、DeepGEMM、DeepEP、TileKernels、FlashMLA和DeepSelect，并称均已给出GitHub开源地址。2026年10月1日13时20分，X平台账号Rohan Paul (@rohanpaul_ai) 发帖称，DeepSeek开源六个华为昇腾项目，矩阵内核速度达到芯片峰值的99.8%；该帖还称，负责芯片间数据传输的DeepEP-Ascend未附带许可证文件，其余项目采用MIT许可证，因此目前无人能合法复用前者。上述报道均未披露这些组件的具体适用条件、收费或额度安排、地域限制及发布时间等进一步信息。截至上述报道，这是关于此事的最新进展。",
+        "latest_at": "2026-10-01T05:20:25.000Z",
         "original_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485843&idx=1&sn=565102c3642d88e814331390bf62d276&chksm=c2b41a7a4ae29752ec9555ae3de574d2c8f60b42aaf1db0aaf4511c38f174d7abc860a8ee56c&scene=126&sessionid=1790739034#rd",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "公众号：DeepSeek（深度求索）",
         "signal_count": 21,
-        "source_count": 3,
-        "status": null,
+        "source_count": 4,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/0708dda9-d77b-4211-8456-eb7b422e0cc9",
         "title": "DeepSeek开源华为昇腾平台基础设施组件"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-09-30T19:10:37.000Z",
         "original_url": "https://www.ithome.com/1/004/829.htm",
-        "rank": 10,
+        "rank": 8,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 20,
@@ -33,7 +33,7 @@
         "story_url": "https://aihot.virxact.com/story/129c4994-da48-4698-8261-46e30d139e7f",
         "title": "特朗普推动AI改名并筹建AI Force"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     },
     {
       "item": {
@@ -67,41 +67,75 @@
         "story_url": "https://aihot.virxact.com/story/2c6e1906-800f-40f0-a8fe-cefa7eaf8d9d",
         "title": "FTC加大对AI实验室调查力度"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7408ec28-0acf-4416-b31e-24b50417b134",
+        "digest": "2026年9月29日，Anthropic发布对智谱GLM-5.3网络攻击能力的分析成果，称其能自主构建端到端网络漏洞利用，在ExploitBench基准的410次尝试中成功50次，接近Claude Mythos Preview的56次，并指出相关防护措施容易被绕过。9月30日，X用户Yuchen Jin就Anthropic新博客中关于GLM-5.3越狱的内容提出质疑，称可以越狱任何Claude或闭源模型让它们说出同样的话，认为这并不能证明开源模型是危险的。同日，X用户小北转述该评估，称GLM-5.3在Chrome V8漏洞利用任务中的成功率接近Claude Mythos Preview。The Decoder同日报道重申ExploitBench的410次尝试中50次成功、Mythos Preview为56次，并称Anthropic通过Project Glasswing仅向部分防御者开放Mythos Preview，而GLM-5.3可供任何人下载。10月1日，SemiAnalysis称在ExploitGym上评估了GLM-5.3的网络能力并分析执行轨迹，称其将大部分执行预算用于测试隐藏的运行时条件是否改变结论，在问题arvo5665中通过sanitizer构建、语料测试和目标fuzzing探索了更多周边程序。早先报道称该评估基于ExploitBench基准的410次尝试，后续转述则提及Chrome V8漏洞利用任务，两者对测试任务的表述不一致；SemiAnalysis的评估则使用ExploitGym，与Anthropic的ExploitBench不同。",
+        "latest_at": "2026-09-30T20:30:05.000Z",
+        "original_url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Anthropic：Research（发表成果 · 网页）",
+        "signal_count": 14,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7408ec28-0acf-4416-b31e-24b50417b134",
+        "title": "Anthropic评估GLM-5.3网络攻击能力"
+      },
+      "observed_at": "2026-10-01T06:04:57.603061Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "80e77dd3-3d31-4f59-a08a-db3ec9de3a57",
+        "digest": "2026年9月30日，特朗普在Truth Social宣布《超级智能协议》（White House Accord on Super Intelligence），Google、OpenAI、Anthropic、Meta、xAI和Nvidia等主要AI公司高管在白宫签署。协议要求落实四层保障：监控模型训练与部署中的能力和对齐（含网络安全、生物安全和化学威胁等）、设立内部团队保障控制运行、引入独立外部审计、设立董事会独立委员会监督。Mark Zuckerberg称这是重要积极一步，各主要美国实验室负责人承诺实施稳健内部控制和多层审计与审查，董事会将独立审阅审计报告。Elon Musk和Jensen Huang表示在白宫正式会晤后与特朗普及其他AI高管共同签署。Sundar Pichai称在与特朗普、JD Vance、Speaker Johnson及政府与科技领袖会晤后，Google签署了该协议及《前沿责任联合承诺》，并称Google仅过去两年就在全栈投入数千亿美元；Demis Hassabis转发表示乐见进展并期待跟进。特朗普将该协议描述为“道德约束力”，依靠“自我监督和群体监督”的同行压力执行；文件称后续可能转为法律法规，但众议员预计11月中期选举后才返回华盛顿。后续The Decoder援引Politico报道称，该文件仅具道德约束力、不具法律效力，要求独立第三方审计核实AI模型“按预期运行”，并由独立董事会监督防止模型入侵系统的内部安全检查。The Verge随后公布协议全文，其正式名称为《前沿责任联合承诺》（Joint Commitment On Frontier Responsibilities），由David Sacks在网上分享，签署者包括Google的Sundar Pichai、Anthropic的Dario Amodei、Meta的Mark Zuckerberg、OpenAI的Greg Brockman、xAI的Elon Musk和Nvidia的Jensen Huang；The Verge称这些规则目前大多笼统，属任何科技公司都会采取的常识性安全程序，且未提及违反协议的处罚。Gary Marcus则批评这份协议软弱。10月1日，Jensen Huang补充称，协定约定开发该技术的公司负有安全部署和担责的首要责任，参与公司还将定期会晤制定安全标准与最佳实践。",
+        "latest_at": "2026-10-01T02:40:51.000Z",
+        "original_url": "https://x.com/JensenHuang/status/2105348324484342238",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Jensen Huang (@JensenHuang)",
+        "signal_count": 12,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/80e77dd3-3d31-4f59-a08a-db3ec9de3a57",
+        "title": "白宫《超级智能协议》签署与四层保障"
+      },
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     },
     {
       "item": {
         "aihot_story_id": "8aeed342-ea41-4b31-bc89-974d2b403fdf",
-        "digest": "2026年9月29日，Artificial Analysis报道OpenAI发布GPT-6.1 Sol，接替仅上线7天的GPT-6 Sol，其智能指数比GPT-6 Sol高4分、比GPT-6 Astra低1分。同日OpenAI发布GPT-6 Astra系统卡增补，称GPT-6.1 Sol沿用Astra的数据与训练方式，在生物与化学领域被定为High capability，相关结果未越过Critical阈值；网络安全生产聊天评测中优于此前所有模型，但在合成与半合成智能体环境中较GPT-5.6 Sol小幅退步。9月30日DevDay上，OpenAI正式发布GPT-6.1 Sol，称其在智能体编码、计算机使用和专业工作上接近GPT-6 Astra，标准输入输出token价格约为Astra的五分之一；标准API价格为每百万输入token 2美元、缓存输入0.10美元、输出10美元。该模型即日起面向Plus、Pro、Business、Enterprise和Edu用户在ChatGPT Work和Codex中开放，尚未在Chat中提供。同日OpenAI推出Ultrafast高速档：GPT-6 Astra Ultrafast在Codex中最高提速8倍（300 tokens/秒）、API最高6倍，面向Pro 500和Enterprise套餐开放；GPT-6.1 Sol Ultrafast即将推出。OpenAI同时推出每月500美元的Pro套餐，提供25倍使用容量并专享Ultrafast。Artificial Analysis后续评测称GPT-6.1 Sol智能指数仅比Astra低1分，max effort下每任务成本0.72美元，不到Astra（3.26美元）的四分之一。SemiAnalysis称GPT-6.1 Sol Ultrafast运行在NVIDIA GPU上而非Cerebras。10月1日，Arena榜单显示GPT-6.1 Sol (Max)以1759分位列Code Arena: WebDev第3名，混合价格8美元/百万token，较GPT-6 Sol (Max)同价提升70分、排名上升4位。同日Arena另发帖称对Claude Sonnet 5.5与GPT-6.1 Sol做了多提示词并排成本对比测试，结果由@petergostev发布在YouTube，未给出具体数字。10月1日，ARC Prize公布GPT-6.1 Sol在ARC-AGI-2上最佳成绩94.2%，与GPT-6 Astra的95.0%相当，成本低77%；ARC-AGI (Verified)成绩为ARC-AGI-3 52.7%（标准harness，7.6K美元）、provider adapter harness下96.4%（4.4K美元），ARC-AGI-2 94.2%（0.25美元/任务），ARC-AGI-1 98.5%（0.06美元/任务），并更新了排行榜。10月1日MarkTechPost报道称OpenAI发布GPT-6.1 Sol，定价为每百万token 2美元输入、10美元输出、0.10美元缓存输入，为GPT-6 Astra标准价格约五分之一。9月30日，Simon Willison发布博文《GPT 6.1 Sol：以五分之一价格实现接近 Astra 的智能》，归入OpenAI、生成式AI、LLM与GPT等标签，正文未披露具体参数、benchmark分数或定价细节。",
-        "latest_at": "2026-09-30T21:09:24.000Z",
+        "digest": "2026年9月29日，Artificial Analysis报道OpenAI发布GPT-6.1 Sol，接替仅上线7天的GPT-6 Sol，其智能指数比GPT-6 Sol高4分、比GPT-6 Astra低1分。同日OpenAI发布GPT-6 Astra系统卡增补，称GPT-6.1 Sol沿用Astra的数据与训练方式，在生物与化学领域被定为High capability，相关结果未越过Critical阈值；网络安全生产聊天评测中优于此前所有模型，但在合成与半合成智能体环境中较GPT-5.6 Sol小幅退步。9月30日DevDay上，OpenAI正式发布GPT-6.1 Sol，称其在智能体编码、计算机使用和专业工作上接近GPT-6 Astra，标准输入输出token价格约为Astra的五分之一；标准API价格为每百万输入token 2美元、缓存输入0.10美元、输出10美元。该模型即日起面向Plus、Pro、Business、Enterprise和Edu用户在ChatGPT Work和Codex中开放，尚未在Chat中提供。同日OpenAI推出Ultrafast高速档：GPT-6 Astra Ultrafast在Codex中最高提速8倍（300 tokens/秒）、API最高6倍，面向Pro 500和Enterprise套餐开放；GPT-6.1 Sol Ultrafast即将推出。OpenAI同时推出每月500美元的Pro套餐，提供25倍使用容量并专享Ultrafast。Artificial Analysis后续评测称GPT-6.1 Sol智能指数仅比Astra低1分，max effort下每任务成本0.72美元，不到Astra（3.26美元）的四分之一。SemiAnalysis称GPT-6.1 Sol Ultrafast运行在NVIDIA GPU上而非Cerebras。10月1日，Arena榜单显示GPT-6.1 Sol (Max)以1759分位列Code Arena: WebDev第3名，混合价格8美元/百万token，较GPT-6 Sol (Max)同价提升70分、排名上升4位。同日Arena另发帖称对Claude Sonnet 5.5与GPT-6.1 Sol做了多提示词并排成本对比测试，结果由@petergostev发布在YouTube，未给出具体数字。10月1日，ARC Prize公布GPT-6.1 Sol在ARC-AGI-2上最佳成绩94.2%，与GPT-6 Astra的95.0%相当，成本低77%；ARC-AGI (Verified)成绩为ARC-AGI-3 52.7%（标准harness，7.6K美元）、provider adapter harness下96.4%（4.4K美元），ARC-AGI-2 94.2%（0.25美元/任务），ARC-AGI-1 98.5%（0.06美元/任务），并更新了排行榜。10月1日MarkTechPost报道称OpenAI发布GPT-6.1 Sol，定价为每百万token 2美元输入、10美元输出、0.10美元缓存输入，为GPT-6 Astra标准价格约五分之一。9月30日，Simon Willison发布博文《GPT 6.1 Sol：以五分之一价格实现接近 Astra 的智能》，归入OpenAI、生成式AI、LLM与GPT等标签，正文未披露具体参数、benchmark分数或定价细节。10月1日，Artificial Analysis补充数据称GPT-6.1 Sol的Cost per Task约0.72美元，比GPT-6 Sol（1.05美元）低约30%，后者已约为GPT-5.6 Sol（1.99美元）的一半；其称GPT-6 Sol的低成本源于50%降价，而GPT-6.1 Sol则因使用更少轮次（降低输入token成本）和更低的缓存读取价格；在max effort下两者输出token均多于前代，部分抵消了成本下降。10月1日，OpenAI的Tibo表示GPT-6.1 Sol是公司有史以来需求最高的模型，API和订阅两方面均如此，ChatGPT和Codex承受巨大负载，已上线更多容量，未来几小时速度应大幅改善，达到前一日服务速度的近两倍。10月1日，Artificial Analysis再发评测称GPT-6.1 Sol推进OpenAI模型成本效率前沿，max effort下每Intelligence Index任务成本0.72美元，不到GPT-6 Astra（3.26美元）的四分之一，比GPT-6 Sol（1.04美元）低31%、比GPT-5.6 Sol（1.99美元）低64%；早先报道称GPT-6 Sol成本为1.05美元，后续报道称1.04美元。",
+        "latest_at": "2026-10-01T03:47:56.000Z",
         "original_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 65,
+        "signal_count": 68,
         "source_count": 15,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/8aeed342-ea41-4b31-bc89-974d2b403fdf",
         "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     },
     {
       "item": {
         "aihot_story_id": "935ed291-4d58-4132-a878-ce7fc3176c83",
         "digest": null,
-        "latest_at": "2026-09-30T18:04:46.837Z",
+        "latest_at": "2026-10-01T02:48:27.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 46,
-        "source_count": 6,
+        "signal_count": 34,
+        "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/935ed291-4d58-4132-a878-ce7fc3176c83",
         "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     },
     {
       "item": {
@@ -124,18 +158,18 @@
       "item": {
         "aihot_story_id": "a303df3a-51f9-454b-8dda-5ac2f2f71842",
         "digest": null,
-        "latest_at": "2026-09-30T22:26:03.000Z",
+        "latest_at": "2026-10-01T01:36:21.000Z",
         "original_url": "https://openai.com/index/introducing-dots/",
         "rank": 3,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 71,
-        "source_count": 11,
+        "signal_count": 72,
+        "source_count": 10,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/a303df3a-51f9-454b-8dda-5ac2f2f71842",
         "title": "OpenAI 发布常驻智能体 Dots"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     },
     {
       "item": {
@@ -160,7 +194,7 @@
         "digest": null,
         "latest_at": "2026-09-30T13:30:05.000Z",
         "original_url": "https://x.com/thsottiaux/status/2104823812042940713",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
         "signal_count": 39,
@@ -169,24 +203,24 @@
         "story_url": "https://aihot.virxact.com/story/c2ce7c22-c2b6-45b0-b931-5200b107c077",
         "title": "OpenAI重开Pro 200并新增Pro 500档"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     },
     {
       "item": {
         "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
-        "digest": "2026 年 9 月 18 日，IT之家报道谷歌以“gemini-3.8-flash”名称在 Arena 等平台测试最强模型 Gemini 4 Pro，内部代号 Argon，其“鹈鹕骑自行车”SVG 生图表现优秀，被拿来与 OpenAI 的 GPT-6 Astra Pro 对比。10 月 1 日，Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出；博客称介绍价为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入 token 享输入价 95% 折扣，将从付费 API 客户和 Google AI Ultra 订阅者开始。CEO Sundar Pichai 同日发推称其在复杂工作流、网络防御和软件工程展现前沿性能，模型已交付美国政府，并称对可信防御者和谷歌内部团队不设网络防护栏发布。DeepMind 称 Argon 输出上限 1M token，可一次性处理长篇多步骤问题。Testing Catalog 称其在 DeepSWE v1.1 得 77.9% 为新 SOTA；Artificial Analysis 称其智能指数 53 分，追平 GPT-6 Astra (max)，并称 50% 折扣为初始促销、结束日期未确认，缓存输入 95% 折扣折后每 1M 0.10 美元。Arena 称其以 1525 分登顶 Text Arena、列 Code Arena: WebDev 第八，后又称其在 Agent Arena 排第 8、净提升 +7.92%、每任务成本 0.62 美元。Ars Technica 则称 Argon 仍处有限测试、尚未开放使用且 API 定价未公布，与博客公布的介绍价不一致；Rohan Paul 称目前仅三组人可用，输出上限从 64K 提升至 1M。The Verge 称谷歌将在更广泛推出前强化关键前沿防护。Karina Nguyen 称 Gemini 4 在 PostTrainBench 达 45.3%。The Decoder 称 Argon 是七个多月来首款前沿模型，缩小了与 OpenAI、Anthropic 的差距但未明显领先。10 月 1 日 IT之家跟进报道称，谷歌于 9 月 30 日发布该模型，目前并未面向公众全面开放，第一阶段通过 Fairwind Program 提供给受信任的网络安全防御者，并参与美国政府的自愿预发布模型访问流程，计划先向付费 API 客户和 Google AI Ultra 用户开放，之后再扩大到企业和普通消费者。",
-        "latest_at": "2026-09-30T23:23:29.000Z",
+        "digest": "2026 年 9 月 18 日，IT之家报道谷歌以“gemini-3.8-flash”名称在 Arena 等平台测试最强模型 Gemini 4 Pro，内部代号 Argon，其“鹈鹕骑自行车”SVG 生图表现优秀，被拿来与 OpenAI 的 GPT-6 Astra Pro 对比。9 月 30 日至 10 月 1 日，Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出；博客称介绍价为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入 token 享输入价 95% 折扣，将从付费 API 客户和 Google AI Ultra 订阅者开始。CEO Sundar Pichai 同日发推称其在复杂工作流、网络防御和软件工程展现前沿性能，模型已交付美国政府，并称对可信防御者和谷歌内部团队不设网络防护栏发布。DeepMind 称 Argon 输出上限 1M token，可一次性处理长篇多步骤问题。Testing Catalog 称其在 DeepSWE v1.1 得 77.9% 为新 SOTA；Artificial Analysis 称其智能指数 53 分，追平 GPT-6 Astra (max)，并称 50% 折扣为初始促销、结束日期未确认，缓存输入 95% 折扣折后每 1M 0.10 美元。Arena 称其以 1525 分登顶 Text Arena、列 Code Arena: WebDev 第八，后又称其在 Agent Arena 排第 8、净提升 +7.92%、每任务成本 0.62 美元。Ars Technica 则称 Argon 仍处有限测试、尚未开放使用且 API 定价未公布，与博客公布的介绍价不一致；Rohan Paul 称目前仅三组人可用，输出上限从 64K 提升至 1M。The Verge 称谷歌将在更广泛推出前强化关键前沿防护。Karina Nguyen 称 Gemini 4 在 PostTrainBench 达 45.3%。The Decoder 称 Argon 是七个多月来首款前沿模型，缩小了与 OpenAI、Anthropic 的差距但未明显领先。10 月 1 日 IT之家跟进报道称，谷歌于 9 月 30 日发布该模型，目前并未面向公众全面开放，第一阶段通过 Fairwind Program 提供给受信任的网络安全防御者，并参与美国政府的自愿预发布模型访问流程，计划先向付费 API 客户和 Google AI Ultra 用户开放，之后再扩大到企业和普通消费者。10 月 1 日 TechCrunch 报道称，Alphabet 发布 Gemini 4 Argon，主打网络安全能力，可自主发现、验证并修复关键软件漏洞，目前仅通过 Fairwind 安全计划向部分网络安全合作伙伴开放。10 月 1 日 Arena 另称 Gemini 4 Argon 在生成任务中与顶级前沿模型对比，每任务成本比 GPT-6.1 Sol 低 33%、比 Claude Opus 5.5 低 70%。10 月 1 日 IT之家援引彭博社报道称，谷歌已开始向小批网络安全合作伙伴逐步推出 Argon，后续将优先面向付费订阅用户扩大开放；谷歌称该模型在多项基准测试中取得靠前成绩，安全测试成绩超过 OpenAI 的 Astra，但知情人士称其部分代码任务表现不佳、不擅前端设计，谷歌否认这一说法，DeepMind 负责人卡武库奥卢表示对性能感到鼓舞。",
+        "latest_at": "2026-10-01T05:26:10.309Z",
         "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
         "rank": 1,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 49,
-        "source_count": 17,
+        "signal_count": 69,
+        "source_count": 18,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "title": "谷歌发布 Gemini 4 Argon 前沿模型"
       },
-      "observed_at": "2026-09-30T23:55:37.894458Z"
+      "observed_at": "2026-10-01T06:04:57.603061Z"
     }
   ],
   "version": 1
