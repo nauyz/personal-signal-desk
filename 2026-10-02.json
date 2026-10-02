@@ -55,19 +55,53 @@
     {
       "item": {
         "aihot_story_id": "4d391f67-cbae-4a14-89e4-a1f8153d062a",
-        "digest": null,
-        "latest_at": "2026-10-02T05:35:28.328Z",
+        "digest": "2026年10月2日，Microsoft AI 发布流式语音转写模型 MAI-Transcribe-2-Streaming，并同时宣布 MAI-Voice-2.1 与 MAI-Voice-2.1-Flash 两款语音模型。据 X 平台账号 Artificial Analysis（@ArtificialAnlys）同日报道，该模型在 AA-WER Streaming 评测的 38 个模型中，以 2.5% 词错误率（WER）、语音结束后 0.13 秒返回最终转写，登顶 Final Transcript 与 First Partial Transcript 两项准确率排名。同日，Microsoft AI CEO Mustafa Suleyman（@mustafasuleyman）称其为全球最准确的实时转写模型，比 ElevenLabs 快 55%、便宜 60%，并称其超过此前第一的 Grok Voice Transcribe 2.0（2.7%、0.49 秒）；他给出的定价为流式转写每小时音频 0.54 美元，非流式每小时 0.10 美元（每 1,000 分钟 1.67 美元）。Microsoft AI 官方博客同日称该模型支持 60 种语言实时转录，收到音频约 100ms 即产出初步结果，内部评测显示字幕出现速度比最接近的竞品快 2 倍；官方给出的介绍价为每小时音频 0.54 美元，有效期至年底，并称其推理快 55%、比同类模型便宜约 60%。官方博客另列出每 100 万字符 22 美元、以及每 100 万字符 15 美元等定价，但未明确这些价格对应的具体模型。X 账号 Testing Catalog（@testingcatalog）同日称三款模型即将登陆 MAI Playground 和 API，MAI Playground 新增“Chatter”演示语音体验。IT之家同日（10 月 2 日）称微软于 10 月 1 日发布该模型，支持 60 种语言和自动语言检测，优惠价每小时 0.54 美元、约合每 1,000 分钟 9 美元，开发者可通过 Microsoft Foundry、MAI Playground、OpenRouter 等渠道体验或接入。The Decoder 同日报道称，该模型支持 60 种语言，首段结果仅约 100 毫秒，微软称其在 Artificial Analysis 准确率排名第一，限期内每小时音频 0.54 美元，并称定价为每 100 万字符 15 美元而非 22 美元。各报道在 2.5% WER、0.13 秒、38 个模型中第一等数据上一致；模型的开放范围、地域限制等仍未披露。",
+        "latest_at": "2026-10-02T11:23:00.000Z",
         "original_url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Microsoft AI：官方博客（网页）",
-        "signal_count": 8,
-        "source_count": 5,
-        "status": null,
+        "signal_count": 9,
+        "source_count": 6,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/4d391f67-cbae-4a14-89e4-a1f8153d062a",
-        "title": "Microsoft发布MAI-Transcribe-2-Streaming流式转写模型"
+        "title": "微软发布MAI-Transcribe-2-Streaming流式转写模型"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5971919b-97f0-444a-95e6-3bd40d1e0368",
+        "digest": "2026年10月1日，Anthropic 为 Claude Code 推出 mods，一种小型 TypeScript 函数，可挂接到 Claude Code 的事件流，改写提示词、拦截或重试工具调用、审批权限请求并添加新 UI，随插件安装和分享。官方称 mods 当日起在 Claude Code CLI 和桌面应用可用；Team 和 Enterprise 计划由管理员在管理控制台设置，Claude API 及第三方 API 计划由管理员向用户机器推送托管设置。同日，Claude.dev 开发者博客发布入门教程，介绍从零构建名为 Token Weather 的上下文窗口预报插件，称 mods 是以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本，并称 mods 默认开启，无需额外启用。\n\n10月2日，Claude Devs 在 X 上补充：Token Weather 新增上下文窗口预测，显示已用多少，外加最近 12 轮的迷你走势图；Claude Code 团队称已用 mods 构建 /diff 和 AGENTS.md 支持等功能，并邀请用户构建自己的功能；Claude Code Playground 仓库新增预构建示例 mod 供参考。同一来源还称，mods 支持修改模型行为、自定义 UI 并替换自有功能，用几行 TypeScript 即可编写，也可由 Claude 代为构建；mods 随插件分发，可在 CLI 或桌面应用中通过 /plugin 安装。该来源同时提醒，mod 运行时对机器的访问权限与 Claude Code 本身相同，应只从信任来源安装，mod 可自用或提交到 Claude 目录。\n\n10月2日稍晚，Thariq (@trq212) 在 X 上转述同一发布信息，称用户可修改行为、自定义 UI 并替换自有功能，mod 可用几行 TypeScript 编写或让 Claude 代为构建，随插件分发并通过 /plugin 安装，并称此举意在让软件可扩展成为一等公民；其另一条帖文称只需提示 Claude 即可为你制作 mods，并指向 Addy Osmani 的博客文章。10月2日，Boris Cherny (@bcherny) 亦在 X 上称，用户只需提示词即可自定义 Claude 的工作方式和界面外观，也可用几行 TypeScript 编写或让 Claude 代为构建，mods 随插件分发、通过 /plugin 在 CLI 或桌面应用安装，并可作为插件分享给他人。10月2日，Tianyi Cui (@tianyi) 在 X 上评论 Claude Code Mods，称其可通过提示词定制 Claude 的外观与工作方式，并能作为插件分享，并将其与 DeepSeekHarness 的全插件架构作对比。上述补充与早先报道未出现矛盾。",
+        "latest_at": "2026-10-02T08:34:15.000Z",
+        "original_url": "https://claude.com/blog/claude-code-mods",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/5971919b-97f0-444a-95e6-3bd40d1e0368",
+        "title": "Claude Code mods 发布与示例更新"
+      },
+      "observed_at": "2026-10-02T12:46:10.116002Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "69db2408-5efe-4929-b6e3-98be0972c21b",
+        "digest": "2026 年 10 月 2 日，X 用户马东锡 NLP（@dongxi_nlp）发帖称，arXiv 更新了面向所有投稿者的 rate limiting 政策，称此举是为公平分配审核时间、支持其员工、志愿者、读者与作者社区；该帖同时评论称，Vibe research 时代有想法就大概率能变成成果，但判定成果的标准已落后于时代，新标准尚无答案。同日 IT之家报道称，arXiv 发布博文宣布自 10 月 1 日起实施全新速率限制政策，将所有投稿者每月提交上限设为 2 篇、同时在审活跃稿件上限设为 3 篇；报道还称 2026 年 9 月单月投稿达 40,363 篇创历史新高，较 2024 年 9 月的 20,569 篇翻倍，cs.AI 类别两年内投稿量增长超 6 倍，生成式 AI 降低写作门槛导致低质稿件上升、志愿者审核时间被大量占用，高质量论文审核延迟数天至数周。同日 Hacker News 热门（buzzing.cc 中文翻译）跟进报道，同样称该政策自 2026 年 10 月 1 日起实施，每位提交者每个自然月最多提交 2 篇、任意时刻最多 3 篇活跃提交，并补充称该限制适用于所有类别；若某月提交两篇，无论是否被接收，都须等到下个月才能再次提交；在论文被公布前删除的稿件不计入月度提交或活跃提交限额。早先报道未披露限流的具体额度、生效时间与执行细节，后续报道则给出了每月 2 篇、在审 3 篇的具体数字及 10 月 1 日的生效时间。",
+        "latest_at": "2026-10-02T12:23:53.050Z",
+        "original_url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 6,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/69db2408-5efe-4929-b6e3-98be0972c21b",
+        "title": "arXiv 推出更严格投稿限流政策"
+      },
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     },
     {
       "item": {
@@ -75,7 +109,7 @@
         "digest": null,
         "latest_at": "2026-10-02T04:04:23.235Z",
         "original_url": "https://www.ithome.com/1/004/058.htm",
-        "rank": 4,
+        "rank": 8,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 15,
@@ -84,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/8ade9c6c-461d-4ad7-8ba0-c7927655b7e6",
         "title": "赛力斯与华为回应问界专属专营模式调整"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     },
     {
       "item": {
@@ -106,70 +140,70 @@
     {
       "item": {
         "aihot_story_id": "935ed291-4d58-4132-a878-ce7fc3176c83",
-        "digest": "据《华尔街日报》报道，Anthropic 计划将 IPO 推迟至 11 月，晚于投资者此前预期的 10 月，以留出时间展示第三季度财务数据；投资者此前预计其上市估值约 2 万亿美元，募资最高 1,000 亿美元，现有投资者预计公司 2026 年底年化收入超 1,100 亿美元，竞争对手 OpenAI 表示 2027 年前不上市。后续报道称，Anthropic 7 月年化收入达 650 亿美元，投资者预期其年底收入超 1,200 亿美元，但开始质疑其领先地位的持久性，同时有投资者看好其上市后估值达 4 万亿美元。The Information 和《华尔街日报》称，IPO 从原定 10 月推迟至最早 10 月末、更可能在 11 月，顾问称公司想先公布强劲的三季度业绩。路透社看到的招股书显示，公司 2025 年净亏损 420 亿美元，营收增长 12 倍接近 46 亿美元，并计划未来一年投入 5,180 亿美元用于云服务与算力基础设施，上市后估值有望突破 2 万亿美元；招股书还警示先进 AI 可能带来灾难性乃至生存性风险，261 页中约 80 页为风险因素，公司披露约 6% 的研发算力用于安全相关工作。后续报道补充称，公司 2025 年经营亏损超 80 亿美元，约 420 亿美元净亏损主要来自约 340 亿美元可转换融资重估而非经营支出，2026 年第二季度营收达 115 亿美元，去年近四分之一收入来自两家客户。新报道称，招股书披露对 SpaceX 的潜在算力账单最高达 845 亿美元，接近 SpaceX 此前宣布的约 450 亿美元数字的两倍，涵盖到 2029 年的 Nvidia 算力，Anthropic 提前 90 天通知即可取消其中大部分支出。最新报道称，保密版招股书显示去年 47% 的客户销售收入经由亚马逊和谷歌云渠道完成，截至 2026 年初长期采购承诺总额超过 4,170 亿美元，对应 3.5 吉瓦专用算力。据彭博社援引知情人士消息，Anthropic 计划最早于 11 月 9 日当周启动 IPO 推介，争取在 11 月 26 日感恩节前挂牌，仍计划最迟年底前上市；部分投资者认为其合理估值约 1.8 万亿至 2 万亿美元。",
-        "latest_at": "2026-10-02T02:24:59.000Z",
+        "digest": "据《华尔街日报》报道，Anthropic 计划将 IPO 推迟至 11 月，晚于投资者此前预期的 10 月，以留出时间展示第三季度财务数据；投资者此前预计其上市估值约 2 万亿美元，募资最高 1,000 亿美元，现有投资者预计公司 2026 年底年化收入超 1,100 亿美元，竞争对手 OpenAI 表示 2027 年前不上市。后续报道称，Anthropic 7 月年化收入达 650 亿美元，投资者预期其年底收入超 1,200 亿美元，但开始质疑其领先地位的持久性，同时有投资者看好其上市后估值达 4 万亿美元。The Information 和《华尔街日报》称，IPO 从原定 10 月推迟至最早 10 月末、更可能在 11 月，顾问称公司想先公布强劲的三季度业绩。路透社看到的招股书显示，公司 2025 年净亏损 420 亿美元，营收增长 12 倍接近 46 亿美元，并计划未来一年投入 5,180 亿美元用于云服务与算力基础设施，上市后估值有望突破 2 万亿美元；招股书还警示先进 AI 可能带来灾难性乃至生存性风险，261 页中约 80 页为风险因素，公司披露约 6% 的研发算力用于安全相关工作。后续报道补充称，公司 2025 年经营亏损超 80 亿美元，约 420 亿美元净亏损主要来自约 340 亿美元可转换融资重估而非经营支出，2026 年第二季度营收达 115 亿美元，去年近四分之一收入来自两家客户。新报道称，招股书披露对 SpaceX 的潜在算力账单最高达 845 亿美元，接近 SpaceX 此前宣布的约 450 亿美元数字的两倍，涵盖到 2029 年的 Nvidia 算力，Anthropic 提前 90 天通知即可取消其中大部分支出。最新报道称，保密版招股书显示去年 47% 的客户销售收入经由亚马逊和谷歌云渠道完成，截至 2026 年初长期采购承诺总额超过 4,170 亿美元，对应 3.5 吉瓦专用算力。据彭博社援引知情人士消息，Anthropic 计划最早于 11 月 9 日当周启动 IPO 推介，争取在 11 月 26 日感恩节前挂牌，仍计划最迟年底前上市；部分投资者认为其合理估值约 1.8 万亿至 2 万亿美元。最新报道称，Bloomberg 报道 Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管，10 月 14 日会议之后最早 11 月 9 日当周启动正式路演，感恩节前上市，按 SEC 规则需在 10 月下旬公布 S-1 文件；OpenAI 则以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。最新报道称，路透社公布的招股书警告美国政府对其态度可能影响客户、合作伙伴等商业关系甚至人类文明，并列举今年 2 月白宫下令联邦机构停用其模型、国防部将其列为供应链风险企业，今年 6 月商务部对 Fable 5 和 Mythos 5 实施全球出口限制、公司停止向所有客户提供这两款模型后限制被取消，来自政府机构合同的收入占全年收入不到 1%。",
+        "latest_at": "2026-10-02T11:27:37.011Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
         "rank": 2,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 14,
-        "source_count": 1,
+        "signal_count": 16,
+        "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/935ed291-4d58-4132-a878-ce7fc3176c83",
         "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     },
     {
       "item": {
         "aihot_story_id": "97076b2f-7819-4ece-a2f4-29dc76fdc10b",
-        "digest": "2026年10月2日，Cloudflare 发布两款由 Cloudflare 训练的决策模型 Clef 和 Clef-flash，托管在 Workers AI 上，并以 Apache 2.0 许可证在 Hugging Face 完全开源，供用户本地运行和实验。Cloudflare 称这两款模型为企业级，承诺不读取、不存储、不基于用户的请求或响应进行训练，但明确将微调产品排除在该承诺之外。同一报道还提到 Cloudflare 推出了 RL 微调服务。当天晚些时候，Peter Steinberger 在 X 上转述了这一发布，称“今天，我们发布两个由 Cloudflare 训练的决策模型，Clef 和 Clef-flash”，并附上 Cloudflare 博客链接，同时评论“从没见过一个想法传播得如此之快”。后续 MarkTechPost 报道补充：这是 Workers AI 团队训练的首批模型，Clef 为 27B（基于 Qwen3.8-27B）、Clef-flash 为 9B（基于 Qwen3.5-9B），二者为决策模型，针对类型化问题返回各选项概率而非自由文本，兼容 TypeSafe AI 的 Jev API；在 Workers AI 上，1 次请求最多可包含 64 个问题和 4 张图片，托管输入价格为 $0.24/M 与 $0.09/M；该服务先面向 Cloudflare 的前置部署工程师，自助平台稍后推出。X 用户小北将 Clef 理解为 Agent 的“分拣员”，负责快速做选择并分发任务，并称模型以 Apache 2.0 开源可自部署，也可使用 Workers AI 免费额度。新报道中，IT之家称 Cloudflare 于当地时间 10 月 1 日发布基于 Qwen 的开源多模态决策模型 Clef，包含 Clef 与 Clef-flash 两款，分别基于 Qwen3.8-27B 和 Qwen3.5-9B；早先报道称发布时间为 10 月 2 日，后续 IT之家报道称当地时间为 10 月 1 日。各报道在模型名称与开源方式上一致。",
-        "latest_at": "2026-10-02T05:24:10.705Z",
+        "digest": null,
+        "latest_at": "2026-10-02T09:01:26.000Z",
         "original_url": "https://blog.cloudflare.com/clef-decision-models/",
         "rank": 3,
         "recovered": false,
         "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "signal_count": 7,
+        "signal_count": 10,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/97076b2f-7819-4ece-a2f4-29dc76fdc10b",
         "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     },
     {
       "item": {
         "aihot_story_id": "a2df69da-f530-4cf9-812f-48c246e2402e",
         "digest": null,
-        "latest_at": "2026-10-02T01:34:56.000Z",
+        "latest_at": "2026-10-02T06:30:35.508Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2105699698023755976",
         "rank": 9,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 8,
+        "signal_count": 9,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
         "title": "OpenAI解雇3名安全研究员"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     },
     {
       "item": {
         "aihot_story_id": "a303df3a-51f9-454b-8dda-5ac2f2f71842",
-        "digest": null,
-        "latest_at": "2026-10-01T22:00:57.000Z",
+        "digest": "2026 年 9 月下旬，OpenAI 常驻助手先以代号「o」在部分用户 ChatGPT 升级界面短暂曝光，内部配置显示「o」为显示名、\"-o\" 为邮箱后缀，暗示支持邮件处理；随后有消息称其将于 9 月 29 日 DevDay 发布。9 月 29 日，OpenAI 在 DevDay 2026 正式发布常驻主动式智能体 Dots，由 GPT-6 Astra 驱动，每个 dot 拥有独立云电脑和浏览器，可 24/7 持续工作，连接 4,000 多个应用，支持语音通话、Slack 和 Microsoft Teams 协作，并能随使用学习用户偏好。官方称 Dots 今日起在符合资格市场向 Pro 和 Business Premium 用户推出，Enterprise（含 Edu、Healthcare）须由工作区管理员开启测试版；套餐包含首个 dot 无额外费用，深度工作有单独额度且发布后首月提高额度，与 dot 对话不占 ChatGPT 使用额度，但让 dot 启动或管理 Codex、ChatGPT Work 任务仍照常计入相应额度。早先报道曾称该智能体代号为 Aeon，后续报道称 Dots 实为 Workspace 自定义 Agents（aeons）面向消费者的进化版；另有报道称其可能仅面向 Pro 200 计划，与官方 Pro 和 Business Premium 的说法不一致。演示环节中名为 Dottie 的 Dot 一度未响应，演示被迫暂停。",
+        "latest_at": "2026-10-02T12:04:50.000Z",
         "original_url": "https://openai.com/index/introducing-dots/",
         "rank": 7,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 24,
+        "signal_count": 14,
         "source_count": 1,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/a303df3a-51f9-454b-8dda-5ac2f2f71842",
         "title": "OpenAI 发布常驻智能体 Dots"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     },
     {
       "item": {
@@ -192,18 +226,18 @@
       "item": {
         "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "digest": null,
-        "latest_at": "2026-10-02T04:41:14.000Z",
+        "latest_at": "2026-10-02T11:16:42.021Z",
         "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
         "rank": 1,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 91,
+        "signal_count": 94,
         "source_count": 17,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "title": "谷歌发布 Gemini 4 Argon 前沿模型"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     },
     {
       "item": {
@@ -226,18 +260,18 @@
       "item": {
         "aihot_story_id": "f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
         "digest": null,
-        "latest_at": "2026-10-02T04:27:10.000Z",
+        "latest_at": "2026-10-02T10:25:08.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2105715526748225562",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 7,
+        "signal_count": 8,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
         "title": "Tavus发布Griffin视频交互模型"
       },
-      "observed_at": "2026-10-02T05:47:46.512082Z"
+      "observed_at": "2026-10-02T12:46:10.116002Z"
     }
   ],
   "version": 1
