@@ -55,36 +55,36 @@
     {
       "item": {
         "aihot_story_id": "4d391f67-cbae-4a14-89e4-a1f8153d062a",
-        "digest": "2026年10月2日，Microsoft AI 发布流式语音转写模型 MAI-Transcribe-2-Streaming，并同时宣布 MAI-Voice-2.1 与 MAI-Voice-2.1-Flash 两款语音模型。据 X 平台账号 Artificial Analysis（@ArtificialAnlys）同日报道，该模型在 AA-WER Streaming 评测的 38 个模型中，以 2.5% 词错误率（WER）、语音结束后 0.13 秒返回最终转写，登顶 Final Transcript 与 First Partial Transcript 两项准确率排名。同日，Microsoft AI CEO Mustafa Suleyman（@mustafasuleyman）称其为全球最准确的实时转写模型，比 ElevenLabs 快 55%、便宜 60%，并称其超过此前第一的 Grok Voice Transcribe 2.0（2.7%、0.49 秒）；他给出的定价为流式转写每小时音频 0.54 美元，非流式每小时 0.10 美元（每 1,000 分钟 1.67 美元）。Microsoft AI 官方博客同日称该模型支持 60 种语言实时转录，收到音频约 100ms 即产出初步结果，内部评测显示字幕出现速度比最接近的竞品快 2 倍；官方给出的介绍价为每小时音频 0.54 美元，有效期至年底，并称其推理快 55%、比同类模型便宜约 60%。官方博客另列出每 100 万字符 22 美元、以及每 100 万字符 15 美元等定价，但未明确这些价格对应的具体模型。X 账号 Testing Catalog（@testingcatalog）同日称三款模型即将登陆 MAI Playground 和 API，MAI Playground 新增“Chatter”演示语音体验。新报道方面，IT之家同日（10 月 2 日）称微软于 10 月 1 日发布该模型，支持 60 种语言和自动语言检测，优惠价每小时 0.54 美元、约合每 1,000 分钟 9 美元，开发者可通过 Microsoft Foundry、MAI Playground、OpenRouter 等渠道体验或接入。各报道在 2.5% WER、0.13 秒、38 个模型中第一等数据上一致；模型的开放范围、地域限制等仍未披露。",
-        "latest_at": "2026-10-01T23:04:38.000Z",
+        "digest": null,
+        "latest_at": "2026-10-02T05:35:28.328Z",
         "original_url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
-        "rank": 9,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Microsoft AI：官方博客（网页）",
-        "signal_count": 5,
+        "signal_count": 8,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/4d391f67-cbae-4a14-89e4-a1f8153d062a",
         "title": "Microsoft发布MAI-Transcribe-2-Streaming流式转写模型"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
         "aihot_story_id": "8ade9c6c-461d-4ad7-8ba0-c7927655b7e6",
         "digest": null,
-        "latest_at": "2026-10-01T16:25:19.230Z",
+        "latest_at": "2026-10-02T04:04:23.235Z",
         "original_url": "https://www.ithome.com/1/004/058.htm",
         "rank": 4,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 13,
+        "signal_count": 15,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/8ade9c6c-461d-4ad7-8ba0-c7927655b7e6",
         "title": "赛力斯与华为回应问界专属专营模式调整"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
@@ -92,50 +92,67 @@
         "digest": null,
         "latest_at": "2026-10-01T15:02:44.000Z",
         "original_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-        "rank": 3,
+        "rank": 6,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 34,
+        "signal_count": 22,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/8aeed342-ea41-4b31-bc89-974d2b403fdf",
         "title": "OpenAI发布GPT-6.1 Sol与Ultrafast高速档"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
         "aihot_story_id": "935ed291-4d58-4132-a878-ce7fc3176c83",
-        "digest": null,
-        "latest_at": "2026-10-01T23:12:22.223Z",
+        "digest": "据《华尔街日报》报道，Anthropic 计划将 IPO 推迟至 11 月，晚于投资者此前预期的 10 月，以留出时间展示第三季度财务数据；投资者此前预计其上市估值约 2 万亿美元，募资最高 1,000 亿美元，现有投资者预计公司 2026 年底年化收入超 1,100 亿美元，竞争对手 OpenAI 表示 2027 年前不上市。后续报道称，Anthropic 7 月年化收入达 650 亿美元，投资者预期其年底收入超 1,200 亿美元，但开始质疑其领先地位的持久性，同时有投资者看好其上市后估值达 4 万亿美元。The Information 和《华尔街日报》称，IPO 从原定 10 月推迟至最早 10 月末、更可能在 11 月，顾问称公司想先公布强劲的三季度业绩。路透社看到的招股书显示，公司 2025 年净亏损 420 亿美元，营收增长 12 倍接近 46 亿美元，并计划未来一年投入 5,180 亿美元用于云服务与算力基础设施，上市后估值有望突破 2 万亿美元；招股书还警示先进 AI 可能带来灾难性乃至生存性风险，261 页中约 80 页为风险因素，公司披露约 6% 的研发算力用于安全相关工作。后续报道补充称，公司 2025 年经营亏损超 80 亿美元，约 420 亿美元净亏损主要来自约 340 亿美元可转换融资重估而非经营支出，2026 年第二季度营收达 115 亿美元，去年近四分之一收入来自两家客户。新报道称，招股书披露对 SpaceX 的潜在算力账单最高达 845 亿美元，接近 SpaceX 此前宣布的约 450 亿美元数字的两倍，涵盖到 2029 年的 Nvidia 算力，Anthropic 提前 90 天通知即可取消其中大部分支出。最新报道称，保密版招股书显示去年 47% 的客户销售收入经由亚马逊和谷歌云渠道完成，截至 2026 年初长期采购承诺总额超过 4,170 亿美元，对应 3.5 吉瓦专用算力。据彭博社援引知情人士消息，Anthropic 计划最早于 11 月 9 日当周启动 IPO 推介，争取在 11 月 26 日感恩节前挂牌，仍计划最迟年底前上市；部分投资者认为其合理估值约 1.8 万亿至 2 万亿美元。",
+        "latest_at": "2026-10-02T02:24:59.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
-        "rank": 10,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 15,
+        "signal_count": 14,
         "source_count": 1,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/935ed291-4d58-4132-a878-ce7fc3176c83",
         "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "97076b2f-7819-4ece-a2f4-29dc76fdc10b",
+        "digest": "2026年10月2日，Cloudflare 发布两款由 Cloudflare 训练的决策模型 Clef 和 Clef-flash，托管在 Workers AI 上，并以 Apache 2.0 许可证在 Hugging Face 完全开源，供用户本地运行和实验。Cloudflare 称这两款模型为企业级，承诺不读取、不存储、不基于用户的请求或响应进行训练，但明确将微调产品排除在该承诺之外。同一报道还提到 Cloudflare 推出了 RL 微调服务。当天晚些时候，Peter Steinberger 在 X 上转述了这一发布，称“今天，我们发布两个由 Cloudflare 训练的决策模型，Clef 和 Clef-flash”，并附上 Cloudflare 博客链接，同时评论“从没见过一个想法传播得如此之快”。后续 MarkTechPost 报道补充：这是 Workers AI 团队训练的首批模型，Clef 为 27B（基于 Qwen3.8-27B）、Clef-flash 为 9B（基于 Qwen3.5-9B），二者为决策模型，针对类型化问题返回各选项概率而非自由文本，兼容 TypeSafe AI 的 Jev API；在 Workers AI 上，1 次请求最多可包含 64 个问题和 4 张图片，托管输入价格为 $0.24/M 与 $0.09/M；该服务先面向 Cloudflare 的前置部署工程师，自助平台稍后推出。X 用户小北将 Clef 理解为 Agent 的“分拣员”，负责快速做选择并分发任务，并称模型以 Apache 2.0 开源可自部署，也可使用 Workers AI 免费额度。新报道中，IT之家称 Cloudflare 于当地时间 10 月 1 日发布基于 Qwen 的开源多模态决策模型 Clef，包含 Clef 与 Clef-flash 两款，分别基于 Qwen3.8-27B 和 Qwen3.5-9B；早先报道称发布时间为 10 月 2 日，后续 IT之家报道称当地时间为 10 月 1 日。各报道在模型名称与开源方式上一致。",
+        "latest_at": "2026-10-02T05:24:10.705Z",
+        "original_url": "https://blog.cloudflare.com/clef-decision-models/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 7,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/97076b2f-7819-4ece-a2f4-29dc76fdc10b",
+        "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash"
+      },
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
         "aihot_story_id": "a2df69da-f530-4cf9-812f-48c246e2402e",
-        "digest": "据《华尔街日报》报道，OpenAI已与安全团队3名研究员解除关系，原因据称是他们向一家外部AI安全组织共享了敏感公司信息。OpenAI发言人表示，内部调查确认这3人未经既定程序处理敏感信息，称其破坏了对工作至关重要的信任。TechCrunch转述该报道时指出，报道未公布涉事人姓名及涉事外部组织名称。后续IT之家援引同一报道称，OpenAI于当地时间1日宣布终止与三名研究人员的合作，并首次给出姓名：贾斯敏·王、托梅克·科尔巴克和米基塔·巴莱斯尼；其中科尔巴克属安全团队，另两人从事模型对齐研究。IT之家还称，OpenAI表示支持由独立机构评估安全论证，并向评估人员开放训练、评测和部署等环节的深度访问权限。早先报道仅称3人属安全团队，后续报道则称其中仅1人属安全团队、另2人从事模型对齐研究。目前公开信息来自上述报道及OpenAI发言人的回应，涉事研究员方面尚无公开说法。",
-        "latest_at": "2026-10-01T23:04:22.000Z",
+        "digest": null,
+        "latest_at": "2026-10-02T01:34:56.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2105699698023755976",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 7,
+        "signal_count": 8,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
         "title": "OpenAI解雇3名安全研究员"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
@@ -143,16 +160,16 @@
         "digest": null,
         "latest_at": "2026-10-01T22:00:57.000Z",
         "original_url": "https://openai.com/index/introducing-dots/",
-        "rank": 2,
+        "rank": 7,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 42,
+        "signal_count": 24,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/a303df3a-51f9-454b-8dda-5ac2f2f71842",
         "title": "OpenAI 发布常驻智能体 Dots"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
@@ -175,52 +192,52 @@
       "item": {
         "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "digest": null,
-        "latest_at": "2026-10-01T22:11:47.000Z",
+        "latest_at": "2026-10-02T04:41:14.000Z",
         "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
         "rank": 1,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 89,
+        "signal_count": 91,
         "source_count": 17,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "title": "谷歌发布 Gemini 4 Argon 前沿模型"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
         "aihot_story_id": "eb54737e-789a-4e7c-848c-63c1c5ef1497",
-        "digest": null,
-        "latest_at": "2026-10-01T17:11:05.000Z",
+        "digest": "2026年9月30日，Google DeepMind 发布 SynthID Bio，将水印技术引入合成生物学。据其官方博客，该技术把不可见签名嵌入生物序列和预测结构中，使水印可在合成的物理蛋白质上验证，且在湿实验中不损害生物功能。同日稍晚，Ars Technica 报道称，DeepMind 团队发表相关研究论文，提出基于 SynthID 的 SynthIDBio 技术，可在流行蛋白设计工具 ProteinMPNN 生成序列时嵌入不影响功能的水印，帮助 DNA 合成方筛查未知蛋白来源；该报道同时指出局限：极短的蛋白质可能嵌入的水印氨基酸过少而无法被识别，此外还有多种不依赖 ProteinMPNN 的 AI 蛋白质设计软件。10月1日，DeepMind 的 Demis Hassabis 在 X 上表示，相关论文发表于 Nature，团队同时开源 SynthID Bio 工具供研究社区使用，目标是加强 AI 时代的生物安全。同日，IT之家报道称，该技术通过引导氨基酸选择和调整预测 3D 结构的原子坐标，把可检测签名嵌入生物编码，并能在物理蛋白质上验证。10月1日晚，Google DeepMind 官方账号在 X 上补充称，SynthID Bio 是专为 AI 生成生物设计打造的新水印方法系列，水印如同数字身份证，可帮助 DNA 实验室验证合成蛋白质并保持序列数据库准确；同一账号还表示，正以开放方式发布这些工具供研究使用，以加强安全防护。10月2日，Google DeepMind 官方账号发布播客，探讨 AI 内容溯源与水印，其中包含 SynthID Bio 专题。同日，Sundar Pichai 在 X 上转发该消息并称赞其对科学诚信与生物安全的推进。目前公开信息来自 Google DeepMind 一手发布及上述跟进报道，未披露该技术的适用范围或使用条件，也未见第三方验证。",
+        "latest_at": "2026-10-02T01:12:06.000Z",
         "original_url": "https://deepmind.google/blog/introducing-synthid-bio/",
-        "rank": 6,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 12,
         "source_count": 3,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/eb54737e-789a-4e7c-848c-63c1c5ef1497",
         "title": "Google DeepMind发布SynthID Bio蛋白质水印技术"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     },
     {
       "item": {
         "aihot_story_id": "f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
-        "digest": "2026年10月2日，Tavus发布Griffin，公司称其为首个通过视频图灵测试的人类交互模型（HIM），可实时处理语音、表情、语调、手势和停顿并收发视频。据Tavus发布信息，48%与之实时对话的人认为它是真人，此前系统通过率低于3%；在NVIDIA全双工AI视频基准上Griffin得3.83分，真人为3.92分，次优系统为2.80分。Griffin将听、想、说和面部动画整合在单一系统中，可在对话者仍在说话时读取表情、语气并实时反应。同日，获早期访问的Elvis Saravia（DAIR.AI）称该视频到视频模型可边看边听、打断和被打断并反应房间内发生的事，并提及同一基准得分3.83/5、真人3.92。The Decoder报道称，名为Griffin-Lite的预览版仅向“部分测试者作为研究预览”开放，能力更强的版本将在“安全问题得到解决”后推出。关于通过率，早先报道称48%的实时对话者认为它是真人，后续Testing Catalog报道称120名参与者中45%认为其对话是真人。fal转发该发布并祝贺Tavus团队。新报道中，马东锡NLP（@dongxi_nlp）以玩笑方式畅想用Griffin和Agent开咨询公司、承接远程职位，并反问届时是否还需要人。上述数字与说法均来自Tavus发布信息及体验者转述，尚无独立验证。",
-        "latest_at": "2026-10-01T21:16:04.000Z",
+        "digest": null,
+        "latest_at": "2026-10-02T04:27:10.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2105715526748225562",
-        "rank": 5,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 5,
+        "signal_count": 7,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
         "title": "Tavus发布Griffin视频交互模型"
       },
-      "observed_at": "2026-10-01T23:56:14.292709Z"
+      "observed_at": "2026-10-02T05:47:46.512082Z"
     }
   ],
   "version": 1
