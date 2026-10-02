@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-03",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "4872cca6-eac6-4a7e-b5b8-8f1788445bf8",
+        "digest": "2026年10月2日，英伟达正式披露 DGX Spark 产品更新，推出 64GB 统一内存版本。据 IT之家报道，全新 64GB 版本起售价为 4,999 美元（约合 33,566 元人民币），将于 10 月 23 日正式发售；官方此前推出的 128GB 版本同步更新定价，128GB FE 版本售价调整为 6,950 美元（约合 46,666 元人民币），该价格自 10 月 2 日起生效。同日英伟达官方博客（NVIDIA Blog）发布消息称，64GB 配置将于 10 月 23 日起由 Acer、ASUS、Dell、Gigabyte、HP 和 MSI 等厂商合作伙伴发售，起步价 4,999 美元，且该配置仅通过厂商合作伙伴渠道提供；官方称其预装 DGX OS 与英伟达 AI 软件栈，支持最高 1000 亿参数模型在端侧运行。目前报道仅涉及产品发布、定价、发售时间与渠道，尚无更多配置细节或后续进展披露。",
+        "latest_at": "2026-10-02T17:17:56.000Z",
+        "original_url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "NVIDIA Blog（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/4872cca6-eac6-4a7e-b5b8-8f1788445bf8",
+        "title": "英伟达发布64GB内存版DGX Spark"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4d391f67-cbae-4a14-89e4-a1f8153d062a",
+        "digest": "2026年10月2日，Microsoft AI 发布流式语音转写模型 MAI-Transcribe-2-Streaming，同时宣布 MAI-Voice-2.1 与 MAI-Voice-2.1-Flash 两款语音模型。据 X 账号 Artificial Analysis（@ArtificialAnlys）同日报道，该模型在 AA-WER Streaming 评测的 38 个模型中，以 2.5% 词错误率（WER）、语音结束后 0.13 秒返回最终转写，登顶 Final Transcript 与 First Partial Transcript 两项准确率排名。同日，Microsoft AI CEO Mustafa Suleyman（@mustafasuleyman）称其为全球最准确的实时转写模型，比 ElevenLabs 快 55%、便宜 60%，并称其超过此前第一的 Grok Voice Transcribe 2.0（2.7%、0.49 秒）；他给出的定价为流式转写每小时音频 0.54 美元，非流式每小时 0.10 美元（每 1,000 分钟 1.67 美元）。Microsoft AI 官方博客同日称该模型支持 60 种语言实时转录，收到音频约 100ms 即产出初步结果，内部评测显示字幕出现速度比最接近的竞品快 2 倍；官方给出的介绍价为每小时音频 0.54 美元，有效期至年底，并称其推理快 55%、比同类模型便宜约 60%。官方博客另列出每 100 万字符 22 美元、以及每 100 万字符 15 美元等定价，但未明确这些价格对应的具体模型。X 账号 Testing Catalog（@testingcatalog）同日称三款模型即将登陆 MAI Playground 和 API，MAI Playground 新增“Chatter”演示语音体验。IT之家同日（10 月 2 日）称微软于 10 月 1 日发布该模型，支持 60 种语言和自动语言检测，优惠价每小时 0.54 美元、约合每 1,000 分钟 9 美元，开发者可通过 Microsoft Foundry、MAI Playground、OpenRouter 等渠道体验或接入。The Decoder 同日报道称，该模型支持 60 种语言，首段结果仅约 100 毫秒，微软称其在 Artificial Analysis 准确率排名第一，限期内每小时音频 0.54 美元，并称定价为每 100 万字符 15 美元而非 22 美元。\n\n后续进展：Mustafa Suleyman 于 10 月 2 日表示，所有模型当天已在 Microsoft Foundry 上线，并接入 Vercel 和 OpenRouter；当晚他再次发帖称该语音与流式转录模型现可在 Vercel 上使用，并称其质量与速度均排名第一、比任何其他超大规模云厂商便宜、比 Eleven Labs 便宜高达 60%。各报道在 2.5% WER、0.13 秒、38 个模型中第一等数据上一致；模型的开放范围、地域限制等仍未披露。",
+        "latest_at": "2026-10-02T16:20:00.000Z",
+        "original_url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Microsoft AI：官方博客（网页）",
+        "signal_count": 11,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/4d391f67-cbae-4a14-89e4-a1f8153d062a",
+        "title": "微软发布MAI-Transcribe-2-Streaming流式转写模型"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5971919b-97f0-444a-95e6-3bd40d1e0368",
+        "digest": null,
+        "latest_at": "2026-10-02T14:07:50.000Z",
+        "original_url": "https://claude.com/blog/claude-code-mods",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 11,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/5971919b-97f0-444a-95e6-3bd40d1e0368",
+        "title": "Claude Code mods 发布与示例更新"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "69db2408-5efe-4929-b6e3-98be0972c21b",
+        "digest": null,
+        "latest_at": "2026-10-02T14:19:02.000Z",
+        "original_url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 7,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/69db2408-5efe-4929-b6e3-98be0972c21b",
+        "title": "arXiv 推出更严格投稿限流政策"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8ade9c6c-461d-4ad7-8ba0-c7927655b7e6",
+        "digest": null,
+        "latest_at": "2026-10-02T04:04:23.235Z",
+        "original_url": "https://www.ithome.com/1/004/058.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 15,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/8ade9c6c-461d-4ad7-8ba0-c7927655b7e6",
+        "title": "赛力斯与华为回应问界专属专营模式调整"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "935ed291-4d58-4132-a878-ce7fc3176c83",
+        "digest": "据《华尔街日报》报道，Anthropic 计划将 IPO 推迟至 11 月，晚于投资者此前预期的 10 月，以留出时间展示第三季度财务数据；投资者此前预计其上市估值约 2 万亿美元，募资最高 1,000 亿美元，现有投资者预计公司 2026 年底年化收入超 1,100 亿美元，竞争对手 OpenAI 表示 2027 年前不上市。后续报道称，Anthropic 7 月年化收入达 650 亿美元，投资者预期其年底收入超 1,200 亿美元，但开始质疑其领先地位的持久性，同时有投资者看好其上市后估值达 4 万亿美元。The Information 和《华尔街日报》称，IPO 从原定 10 月推迟至最早 10 月末、更可能在 11 月，顾问称公司想先公布强劲的三季度业绩。路透社看到的招股书显示，公司 2025 年净亏损 420 亿美元，营收增长 12 倍接近 46 亿美元，并计划未来一年投入 5,180 亿美元用于云服务与算力基础设施，上市后估值有望突破 2 万亿美元；招股书还警示先进 AI 可能带来灾难性乃至生存性风险，261 页中约 80 页为风险因素，公司披露约 6% 的研发算力用于安全相关工作。后续报道补充称，公司 2025 年经营亏损超 80 亿美元，约 420 亿美元净亏损主要来自约 340 亿美元可转换融资重估而非经营支出，2026 年第二季度营收达 115 亿美元，去年近四分之一收入来自两家客户。新报道称，招股书披露对 SpaceX 的潜在算力账单最高达 845 亿美元，接近 SpaceX 此前宣布的约 450 亿美元数字的两倍，涵盖到 2029 年的 Nvidia 算力，Anthropic 提前 90 天通知即可取消其中大部分支出。最新报道称，保密版招股书显示去年 47% 的客户销售收入经由亚马逊和谷歌云渠道完成，截至 2026 年初长期采购承诺总额超过 4,170 亿美元，对应 3.5 吉瓦专用算力。据彭博社援引知情人士消息，Anthropic 计划最早于 11 月 9 日当周启动 IPO 推介，争取在 11 月 26 日感恩节前挂牌，仍计划最迟年底前上市；部分投资者认为其合理估值约 1.8 万亿至 2 万亿美元。最新报道称，Bloomberg 报道 Anthropic 已邀请机构投资者在其可能估值近 2 万亿美元的 IPO 前质询高管，10 月 14 日会议之后最早 11 月 9 日当周启动正式路演，感恩节前上市，按 SEC 规则需在 10 月下旬公布 S-1 文件；OpenAI 则以安全担忧为由排除 2026 年上市，正以约 1.4 万亿美元估值私下寻求至少 300 亿美元融资。最新报道称，路透社公布的招股书警告美国政府对其态度可能影响客户、合作伙伴等商业关系甚至人类文明，并列举今年 2 月白宫下令联邦机构停用其模型、国防部将其列为供应链风险企业，今年 6 月商务部对 Fable 5 和 Mythos 5 实施全球出口限制、公司停止向所有客户提供这两款模型后限制被取消，来自政府机构合同的收入占全年收入不到 1%。",
+        "latest_at": "2026-10-02T14:26:25.132Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 15,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/935ed291-4d58-4132-a878-ce7fc3176c83",
+        "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "97076b2f-7819-4ece-a2f4-29dc76fdc10b",
+        "digest": null,
+        "latest_at": "2026-10-02T16:26:43.000Z",
+        "original_url": "https://blog.cloudflare.com/clef-decision-models/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 12,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/97076b2f-7819-4ece-a2f4-29dc76fdc10b",
+        "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a2df69da-f530-4cf9-812f-48c246e2402e",
+        "digest": "据《华尔街日报》报道，OpenAI与安全团队3名研究员解除关系，原因据称是他们向一家外部AI安全组织共享了敏感公司信息。OpenAI发言人表示，内部调查确认这3人未经既定程序处理敏感信息，称其破坏了对工作至关重要的信任。TechCrunch转述该报道时指出，报道未公布涉事人姓名及涉事外部组织名称，并提到离职发生在《纽约时报》报道高管淡化员工安全警告两天后。后续IT之家援引同一报道称，OpenAI于当地时间1日宣布终止与三名研究人员的合作，并首次给出姓名：贾斯敏·王、托梅克·科尔巴克和米基塔·巴莱斯尼；其中科尔巴克属安全团队，另两人从事模型对齐研究。IT之家还称，OpenAI表示支持由独立机构评估安全论证，并向评估人员开放训练、评测和部署等环节的深度访问权限。早先报道仅称3人属安全团队，后续报道则称其中仅1人属安全团队、另2人从事模型对齐研究。最新The Decoder报道同样列出上述三人姓名，并称OpenAI未确认名单。目前涉事研究员方面尚无公开说法。",
+        "latest_at": "2026-10-02T13:05:00.000Z",
+        "original_url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 10,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
+        "title": "OpenAI解雇3名安全研究员"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "digest": "2026 年 9 月 18 日，IT之家报道谷歌以“gemini-3.8-flash”名称在 Arena 等平台测试最强模型 Gemini 4 Pro，内部代号 Argon，其“鹈鹕骑自行车”SVG 生图表现优秀，被拿来与 OpenAI 的 GPT-6 Astra Pro 对比。9 月 30 日至 10 月 1 日，Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出；博客称介绍价为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入 token 享输入价 95% 折扣，将从付费 API 客户和 Google AI Ultra 订阅者开始。CEO Sundar Pichai 同日发推称其在复杂工作流、网络防御和软件工程展现前沿性能，模型已交付美国政府，并称对可信防御者和谷歌内部团队不设网络防护栏发布。DeepMind 称 Argon 输出上限 1M token，可一次性处理长篇多步骤问题。Testing Catalog 称其在 DeepSWE v1.1 得 77.9% 为新 SOTA；Artificial Analysis 称其智能指数 53 分，追平 GPT-6 Astra (max)，并称 50% 折扣为初始促销、结束日期未确认，缓存输入 95% 折扣折后每 1M 0.10 美元。Arena 称其以 1525 分登顶 Text Arena、列 Code Arena: WebDev 第八，后又称其在 Agent Arena 排第 8、净提升 +7.92%、每任务成本 0.62 美元。Ars Technica 则称 Argon 仍处有限测试、尚未开放使用且 API 定价未公布，与博客公布的介绍价不一致；Rohan Paul 称目前仅三组人可用，输出上限从 64K 提升至 1M。The Verge 称谷歌将在更广泛推出前强化关键前沿防护。Karina Nguyen 称 Gemini 4 在 PostTrainBench 达 45.3%。The Decoder 称 Argon 是七个多月来首款前沿模型，缩小了与 OpenAI、Anthropic 的差距但未明显领先。10 月 1 日 IT之家跟进报道称，谷歌于 9 月 30 日发布该模型，目前并未面向公众全面开放，第一阶段通过 Fairwind Program 提供给受信任的网络安全防御者，并参与美国政府的自愿预发布模型访问流程，计划先向付费 API 客户和 Google AI Ultra 用户开放，之后再扩大到企业和普通消费者。10 月 1 日 TechCrunch 报道称，Alphabet 发布 Gemini 4 Argon，主打网络安全能力，可自主发现、验证并修复关键软件漏洞，目前仅通过 Fairwind 安全计划向部分网络安全合作伙伴开放。10 月 1 日 Arena 另称 Gemini 4 Argon 在生成任务中与顶级前沿模型对比，每任务成本比 GPT-6.1 Sol 低 33%、比 Claude Opus 5.5 低 70%。10 月 1 日 IT之家援引彭博社报道称，谷歌已开始向小批网络安全合作伙伴逐步推出 Argon，后续将优先面向付费订阅用户扩大开放；谷歌称该模型在多项基准测试中取得靠前成绩，安全测试成绩超过 OpenAI 的 Astra，但知情人士称其部分代码任务表现不佳、不擅前端设计，谷歌否认这一说法，DeepMind 负责人卡武库奥卢表示对性能感到鼓舞。",
+        "latest_at": "2026-10-02T16:52:40.000Z",
+        "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 97,
+        "source_count": 17,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "title": "谷歌发布 Gemini 4 Argon 前沿模型"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
+        "digest": null,
+        "latest_at": "2026-10-02T16:31:15.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2105715526748225562",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 11,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
+        "title": "Tavus发布Griffin视频交互模型"
+      },
+      "observed_at": "2026-10-02T18:29:33.843097Z"
+    }
+  ],
+  "version": 1
+}
