@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-04",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "341ef8c2-d918-4e24-9391-99616e1c1a9a",
+        "digest": "2026 年 10 月 3 日，OpenAI 首席执行官 Sam Altman 在其 X 账号（@sama）发文谈及 AI 模型安全。他表示，自己对人们试图将宗教般的力量、或对人类判断力的屈服归附于 AI 模型感到非常不安，并认为这是一个真实的安全问题。同日稍晚，X 用户 Yuchen Jin（@Yuchenj_UW）发帖引述了 Altman 的上述表态，内容与 Altman 原帖一致，同样提到“宗教般的力量”与“对人类判断力的屈服”，并称这是真实的安全问题。两篇报道在时间、表述上并无矛盾，均未提及具体模型、时间表或应对措施。Altman 的上述表态仅代表其个人在该来源中的说法，Yuchen Jin 的引述也只证明该来源如此转述。",
+        "latest_at": "2026-10-03T17:07:08.000Z",
+        "original_url": "https://x.com/Yuchenj_UW/status/2106395374923796759",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Yuchen Jin (@Yuchenj_UW)",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/341ef8c2-d918-4e24-9391-99616e1c1a9a",
+        "title": "Sam Altman 谈 AI 模型安全"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4872cca6-eac6-4a7e-b5b8-8f1788445bf8",
+        "digest": null,
+        "latest_at": "2026-10-03T16:02:00.000Z",
+        "original_url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "NVIDIA Blog（RSS）",
+        "signal_count": 13,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/4872cca6-eac6-4a7e-b5b8-8f1788445bf8",
+        "title": "英伟达发布64GB内存版DGX Spark"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4d391f67-cbae-4a14-89e4-a1f8153d062a",
+        "digest": null,
+        "latest_at": "2026-10-03T12:01:18.000Z",
+        "original_url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Microsoft AI：官方博客（网页）",
+        "signal_count": 12,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/4d391f67-cbae-4a14-89e4-a1f8153d062a",
+        "title": "微软发布MAI-Transcribe-2-Streaming流式转写模型"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "520acd88-e766-43f1-af56-5754af0ee294",
+        "digest": null,
+        "latest_at": "2026-10-03T13:25:42.593Z",
+        "original_url": "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 10,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/520acd88-e766-43f1-af56-5754af0ee294",
+        "title": "谷歌发射 TPU 卫星测试太空 AI 算力"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5971919b-97f0-444a-95e6-3bd40d1e0368",
+        "digest": null,
+        "latest_at": "2026-10-03T08:10:31.000Z",
+        "original_url": "https://claude.com/blog/claude-code-mods",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 15,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/5971919b-97f0-444a-95e6-3bd40d1e0368",
+        "title": "Claude Code mods 发布与示例更新"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "739a7589-bbae-4e8d-8bec-d6908b779010",
+        "digest": null,
+        "latest_at": "2026-10-03T15:00:00.000Z",
+        "original_url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 14,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/739a7589-bbae-4e8d-8bec-d6908b779010",
+        "title": "Meta否认Muse读取私信，Apple收紧macOS权限"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "935ed291-4d58-4132-a878-ce7fc3176c83",
+        "digest": null,
+        "latest_at": "2026-10-03T01:16:54.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 15,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/935ed291-4d58-4132-a878-ce7fc3176c83",
+        "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "97076b2f-7819-4ece-a2f4-29dc76fdc10b",
+        "digest": null,
+        "latest_at": "2026-10-02T20:21:32.000Z",
+        "original_url": "https://blog.cloudflare.com/clef-decision-models/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "signal_count": 13,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/97076b2f-7819-4ece-a2f4-29dc76fdc10b",
+        "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e3d54065-1571-44a0-91b5-79600744e735",
+        "digest": "2026年10月3日，Meta发布Muse Gadgets开源硬件计划，并推出自制的Muse Home Link设备。据当日报道，Muse Gadgets是一套开源程序，可让现成电子元件变成能与Muse配合工作的物理设备，代码以Apache 2.0协议公开在GitHub；设备SDK与固件同样以Apache 2.0协议开源，按现状提供、不含保修。The Verge报道补充，用户可用ESP32开发板或Raspberry Pi配合SDK连接显示屏、按钮、传感器等外设自建小设备；Meta自制的Muse Home Link借助社区技能可开灯、控制电视、向打印机发送文档等。关于首批Home Link，早先报道称共生产5000台，仅限美国、需有有效的Muse订阅方可免费获得，每位订阅者限1台；后续报道称该设备已开放候补名单，预计本月内发货，并同样提及制造了5000台。新报道称Meta提供开源固件和Linux SDK，官方给出电子墨水屏、HDMI电视棒等项目示例并开设Discord支持。上述数量、免费条件、地域与限购均针对首批Home Link设备，不适用于Muse Gadgets开源程序本身；展示的设备由其他公司制造和销售，Meta不予背书或担保。",
+        "latest_at": "2026-10-03T14:28:51.000Z",
+        "original_url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 15,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/e3d54065-1571-44a0-91b5-79600744e735",
+        "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
+        "digest": "据《商业内幕》报道，OpenAI 一名发言人于当地时间 2 日证实，安全系统团队负责人之一戴维·罗宾逊已离职，报道称其离职时间为上周。他此前还负责安全透明度工作，包括参与编写和发布系统卡。此前一日，OpenAI 披露已与三名违反敏感信息共享政策的研究人员终止合作；安全负责人约翰内斯·海德克也已于今年早些时候离职。罗宾逊 9 月初曾在 X 上表示，OpenAI 的情况每天都在发生重大变化，但不确定改变是否足够快。后续报道称，曾在 OpenAI Trustworthy AI 团队负责安全系统的罗宾逊在《大西洋月刊》撰文批评公司安全文化。TechCrunch 报道称，他在 OpenAI 工作三年半、负责撰写重大产品发布安全报告，在文中宣布离职并称公司文化已坏，认为迭代部署式的试错方法必然带来周期性失败，且随系统能力增强风险扩大，主张前沿 AI 公司应像核电站或机场一样以多层冗余运营，并将对齐视为待解的关键问题。The Verge 报道称其本周辞职，并提到 Anthropic 和 Google DeepMind 此前也有多名安全研究人员相继离职发声。目前公开信息确认罗宾逊离职及上述相关人事变动，未披露其离职原因与后续接任安排。",
+        "latest_at": "2026-10-03T16:30:01.000Z",
+        "original_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 7,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
+        "title": "OpenAI安全系统负责人戴维·罗宾逊离职"
+      },
+      "observed_at": "2026-10-03T18:00:28.628549Z"
+    }
+  ],
+  "version": 1
+}
