@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "4872cca6-eac6-4a7e-b5b8-8f1788445bf8",
-        "digest": "2026年10月2日，英伟达正式披露 DGX Spark 产品更新，推出 64GB 统一内存版本。据 IT之家报道，全新 64GB 版本起售价为 4,999 美元（约合 33,566 元人民币），将于 10 月 23 日正式发售；官方此前推出的 128GB 版本同步更新定价，128GB FE 版本售价调整为 6,950 美元（约合 46,666 元人民币），该价格自 10 月 2 日起生效。同日英伟达官方博客称，64GB 配置将于 10 月 23 日起由 Acer、ASUS、Dell、Gigabyte、HP 和 MSI 等厂商合作伙伴发售，起步价 4,999 美元，且该配置仅通过厂商合作伙伴渠道提供；官方称其预装 DGX OS 与英伟达 AI 软件栈，支持最高 1000 亿参数模型在端侧运行。10 月 3 日，MarkTechPost 报道补充称，该 64GB 版本保留 GB10 Grace Blackwell 超级芯片、最高 1 PFLOP FP4 AI 算力与 CUDA 软件栈，10 月 23 日开售，渠道包括 NVIDIA Marketplace、OEM 合作伙伴及零售；该报道还称其面向本地运行开放模型与常驻智能体，并称在自有硬件上无按 token 计费。需注意，早先英伟达官方博客称该配置仅通过厂商合作伙伴渠道提供，后续 MarkTechPost 报道则称渠道还包括 NVIDIA Marketplace 与零售。",
-        "latest_at": "2026-10-02T18:04:56.000Z",
+        "digest": null,
+        "latest_at": "2026-10-02T23:00:38.000Z",
         "original_url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
         "rank": 5,
         "recovered": false,
         "representative_source": "NVIDIA Blog（RSS）",
-        "signal_count": 10,
+        "signal_count": 11,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/4872cca6-eac6-4a7e-b5b8-8f1788445bf8",
         "title": "英伟达发布64GB内存版DGX Spark"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-10-02T16:20:00.000Z",
         "original_url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Microsoft AI：官方博客（网页）",
         "signal_count": 11,
@@ -33,58 +33,58 @@
         "story_url": "https://aihot.virxact.com/story/4d391f67-cbae-4a14-89e4-a1f8153d062a",
         "title": "微软发布MAI-Transcribe-2-Streaming流式转写模型"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
         "aihot_story_id": "5971919b-97f0-444a-95e6-3bd40d1e0368",
-        "digest": "2026年10月1日，Anthropic 为 Claude Code 推出 mods，一种小型 TypeScript 函数，可挂接到 Claude Code 的事件流，改写提示词、拦截或重试工具调用、审批权限请求并添加新 UI，随插件安装和分享。官方称 mods 当日起在 Claude Code CLI 和桌面应用可用；Team 和 Enterprise 计划由管理员在管理控制台设置，Claude API 及第三方 API 计划由管理员向用户机器推送托管设置。同日，Claude.dev 开发者博客发布入门教程，介绍从零构建名为 Token Weather 的上下文窗口预报插件，称 mods 是以 hooks 形式运行在插件内的 JavaScript 或 TypeScript 模块，可观察、重写或拒绝事件，甚至绘制自定义 UI，需 Claude Code 2.1.287 或更高版本，并称 mods 默认开启，无需额外启用。\n\n10月2日，Claude Code v2.1.287 发布，新增 Claude Mods，允许插件修改更深层行为，并加入可选插件 You should know，由侧边 agent 监控可能被忽略的问题，可用 /plugin enable cc-plugin-you-should-know@builtin 开启。同日 Claude Devs 在 X 上补充：Token Weather 新增上下文窗口预测，显示已用多少，外加最近 12 轮的迷你走势图；Claude Code 团队称已用 mods 构建 /diff 和 AGENTS.md 支持等功能；Claude Code Playground 仓库新增预构建示例 mod。同一来源还称，mods 支持修改模型行为、自定义 UI 并替换自有功能，用几行 TypeScript 即可编写，也可由 Claude 代为构建；mods 随插件分发，可在 CLI 或桌面应用中通过 /plugin 安装。该来源同时提醒，mod 运行时对机器的访问权限与 Claude Code 本身相同，应只从信任来源安装，mod 可自用或提交到 Claude 目录。Thariq (@trq212) 与 Boris Cherny (@bcherny) 亦在 X 上转述同一发布信息，Tianyi Cui (@tianyi) 将其与 DeepSeekHarness 的全插件架构作对比。\n\n10月3日，Claude Devs 在 X 上称 “You should know” 是一个 mod，通过派生 sideagent 观察 Claude 的输出，并指向最新博文；Thariq 称该插件是了解 Claude 能力边界的好方法，也是 mods 所能实现功能的示例。上述补充与早先报道未出现矛盾。",
+        "digest": null,
         "latest_at": "2026-10-02T20:53:04.000Z",
         "original_url": "https://claude.com/blog/claude-code-mods",
-        "rank": 9,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
         "signal_count": 12,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/5971919b-97f0-444a-95e6-3bd40d1e0368",
         "title": "Claude Code mods 发布与示例更新"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
         "aihot_story_id": "69db2408-5efe-4929-b6e3-98be0972c21b",
         "digest": null,
-        "latest_at": "2026-10-02T14:19:02.000Z",
+        "latest_at": "2026-10-02T18:02:32.000Z",
         "original_url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "signal_count": 7,
+        "signal_count": 8,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/69db2408-5efe-4929-b6e3-98be0972c21b",
         "title": "arXiv 推出更严格投稿限流政策"
       },
-      "observed_at": "2026-10-02T18:29:33.843097Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
         "aihot_story_id": "739a7589-bbae-4e8d-8bec-d6908b779010",
-        "digest": "2026年10月1日，TechCrunch报道称，Meta否认了记者Jason Aten提出的一项指控，即其AI智能体Muse在未经许可的情况下读取了用户的私人消息。同日，IT之家报道了Meta的进一步回应：Meta公关副总裁Andy Stone在X平台发帖否认该指控，称Mac版Muse应用的消息整合功能完全由用户主动选择是否启用，用户必须同时开启完整磁盘访问权限以及消息连接器，Muse才能读取消息内容；若不完成上述操作，它就无法读取。报道还称，在Mac设备上让Muse读取用户消息需完成三层独立的应用权限设置，且macOS系统本身自带防护机制。2026年10月3日，TechCrunch报道称，Apple宣布将为macOS的Full Disk Access设置引入额外控制，称AI智能体加大了这类高级别访问权限的风险；该权限可让应用访问文件、邮件、消息乃至浏览历史，只有“确实希望授予应用这种特殊级别访问权限”的用户，通过“非常明确的用户操作”才能授予。报道称此举发生在Jason Aten报告Meta的Muse应用未经授权知晓其私人消息内容（Meta对此提出异议）以及Wired报道ChatGPT Mac应用存在可能泄露敏感数据的漏洞之后。同日，The Verge报道称，Apple表示部分开发者滥用全盘访问，随着AI智能体能力增强，相关风险将大幅增长，但未公布更新上线时间。截至上述报道，事件仍处于Meta否认指控的阶段，未说明该指控是否已有进一步调查或处理结果。",
-        "latest_at": "2026-10-02T21:33:02.000Z",
-        "original_url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
-        "rank": 7,
+        "digest": "2026年10月1日，TechCrunch报道称，Meta否认记者Jason Aten提出的指控，即其AI智能体Muse在未经许可下读取用户私人消息。同日IT之家报道，Meta公关副总裁Andy Stone在X平台发帖否认，称Mac版Muse的消息整合功能完全由用户主动选择是否启用，用户必须同时开启完整磁盘访问权限以及消息连接器，Muse才能读取消息内容；若不完成上述操作就无法读取。报道还称，在Mac设备上让Muse读取用户消息需完成三层独立的应用权限设置，且macOS系统本身自带防护机制。10月3日，TechCrunch报道称，Apple宣布将为macOS的Full Disk Access设置引入额外控制，称AI智能体加大了这类高级别访问权限的风险；该权限可让应用访问文件、邮件、消息乃至浏览历史，只有“确实希望授予应用这种特殊级别访问权限”的用户，通过“非常明确的用户操作”才能授予。报道称此举发生在Jason Aten报告Meta的Muse应用未经授权知晓其私人消息内容（Meta对此提出异议）以及Wired报道ChatGPT Mac应用存在可能泄露敏感数据的漏洞之后。同日The Verge报道称，Apple表示部分开发者滥用全盘访问，随着AI智能体能力增强，相关风险将大幅增长，但未公布更新上线时间。同日Ars Technica报道称，Apple宣布修改macOS隐私设置，阻止第三方应用开发者滥用权限读取消息记录；该报道称Jason Aten表示Meta的Muse在未获授权下引用了他与同事的Apple Messages对话并发送通知。同日IT之家报道称，苹果开发者网站10月2日发布公告，宣布将升级macOS 27等系统的隐私管控，要求用户通过更明确的操作才能授予应用“完全磁盘访问权限”；苹果称该权限会大幅绕过系统常规数据保护控制，风险高于普通权限，部分开发者正以可能危及用户安全的方式使用它，但未公布新管控的具体形式、上线时间或适用范围。同日Hacker News热门条目也转述了Apple将引入额外控制、需“非常明确的用户操作”才能授予该权限的说法。截至上述报道，事件仍处于Meta否认指控的阶段，未说明该指控是否已有进一步调查或处理结果。",
+        "latest_at": "2026-10-03T00:39:54.866Z",
+        "original_url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+        "rank": 1,
         "recovered": false,
-        "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 10,
-        "source_count": 3,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 11,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/739a7589-bbae-4e8d-8bec-d6908b779010",
-        "title": "Meta否认Muse未经同意读取用户私信"
+        "title": "Meta否认Muse读取私信，Apple收紧macOS权限"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
@@ -107,52 +107,52 @@
       "item": {
         "aihot_story_id": "935ed291-4d58-4132-a878-ce7fc3176c83",
         "digest": null,
-        "latest_at": "2026-10-02T18:10:13.000Z",
+        "latest_at": "2026-10-03T01:16:54.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 16,
+        "signal_count": 17,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/935ed291-4d58-4132-a878-ce7fc3176c83",
         "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
         "aihot_story_id": "97076b2f-7819-4ece-a2f4-29dc76fdc10b",
-        "digest": "2026年10月2日，Cloudflare 发布两款由 Cloudflare 训练的决策模型 Clef 和 Clef-flash，托管在 Workers AI 上，并以 Apache 2.0 许可证在 Hugging Face 完全开源，供用户本地运行和实验。Cloudflare 称这两款模型为企业级，承诺不读取、不存储、不基于用户的请求或响应进行训练，但明确将微调产品排除在该承诺之外。同一报道还提到 Cloudflare 推出了 RL 微调服务。当天晚些时候，Peter Steinberger 在 X 上转述了这一发布，称“今天，我们发布两个由 Cloudflare 训练的决策模型，Clef 和 Clef-flash”，并附上 Cloudflare 博客链接，同时评论“从没见过一个想法传播得如此之快”。后续 MarkTechPost 报道补充：这是 Workers AI 团队训练的首批模型，Clef 为 27B（基于 Qwen3.8-27B）、Clef-flash 为 9B（基于 Qwen3.5-9B），二者为决策模型，针对类型化问题返回各选项概率而非自由文本，兼容 TypeSafe AI 的 Jev API；在 Workers AI 上，1 次请求最多可包含 64 个问题和 4 张图片，托管输入价格为 $0.24/M 与 $0.09/M；该服务先面向 Cloudflare 的前置部署工程师，自助平台稍后推出。X 用户小北将 Clef 理解为 Agent 的“分拣员”，负责快速做选择并分发任务，并称模型以 Apache 2.0 开源可自部署，也可使用 Workers AI 免费额度。新报道中，IT之家称 Cloudflare 于当地时间 10 月 1 日发布基于 Qwen 的开源多模态决策模型 Clef，包含 Clef 与 Clef-flash 两款，分别基于 Qwen3.8-27B 和 Qwen3.5-9B；早先报道称发布时间为 10 月 2 日，后续 IT之家报道称当地时间为 10 月 1 日。The Decoder 报道称，两款模型输出带概率的分类结果，智能体可据此自主决策并在必要时交给人类；据其自报数据，Clef-flash 中位延迟约 39 毫秒、Clef 约 209 毫秒，均快于竞品 Jev 的 524 毫秒以上；微调初期由前置部署工程师与客户对接，自助平台计划稍后推出。各报道在模型名称与开源方式上一致。",
+        "digest": null,
         "latest_at": "2026-10-02T20:21:32.000Z",
         "original_url": "https://blog.cloudflare.com/clef-decision-models/",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "signal_count": 13,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/97076b2f-7819-4ece-a2f4-29dc76fdc10b",
         "title": "Cloudflare 开源决策模型 Clef 与 Clef-flash"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
         "aihot_story_id": "a2df69da-f530-4cf9-812f-48c246e2402e",
-        "digest": "据《华尔街日报》报道，OpenAI与安全团队3名研究员解除关系，原因据称是他们向一家外部AI安全组织共享了敏感公司信息。OpenAI发言人表示，内部调查确认这3人未经既定程序处理敏感信息，称其破坏了对工作至关重要的信任。TechCrunch转述该报道时指出，报道未公布涉事人姓名及涉事外部组织名称，并提到离职发生在《纽约时报》报道高管淡化员工安全警告两天后。后续IT之家援引同一报道称，OpenAI于当地时间1日宣布终止与三名研究人员的合作，并首次给出姓名：贾斯敏·王、托梅克·科尔巴克和米基塔·巴莱斯尼；其中科尔巴克属安全团队，另两人从事模型对齐研究。IT之家还称，OpenAI表示支持由独立机构评估安全论证，并向评估人员开放训练、评测和部署等环节的深度访问权限。早先报道仅称3人属安全团队，后续报道则称其中仅1人属安全团队、另2人从事模型对齐研究。最新The Decoder报道同样列出上述三人姓名，并称OpenAI未确认名单。目前涉事研究员方面尚无公开说法。",
+        "digest": null,
         "latest_at": "2026-10-02T13:05:00.000Z",
         "original_url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 10,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
         "title": "OpenAI解雇3名安全研究员"
       },
-      "observed_at": "2026-10-02T18:29:33.843097Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
@@ -191,19 +191,19 @@
     {
       "item": {
         "aihot_story_id": "e3d54065-1571-44a0-91b5-79600744e735",
-        "digest": "2026年10月3日，Meta发布Muse Gadgets开源硬件计划，并推出Muse Home Link设备。据当日报道，Muse Gadgets是一套开源程序，可让现成电子元件变成能与Muse配合工作的物理设备，代码以Apache 2.0协议公开在GitHub；设备SDK与固件同样以Apache 2.0协议开源，按现状提供、不含保修。同日The Verge报道补充，用户可用ESP32开发板或Raspberry Pi配合SDK连接显示屏、按钮、传感器等外设自建小设备；Meta自制的Muse Home Link借助社区技能可开灯、控制电视、向打印机发送文档等。关于首批Home Link，早先报道称共生产5000台，仅限美国、需有有效的Muse订阅方可免费获得，每位订阅者限1台；后续报道称该设备已开放候补名单，预计本月内发货，并同样提及制造了5000台。上述数量、免费条件、地域与限购均针对首批Home Link设备，不适用于Muse Gadgets开源程序本身；展示的设备由其他公司制造和销售，Meta不予背书或担保。",
-        "latest_at": "2026-10-02T22:04:24.000Z",
+        "digest": "2026年10月3日，Meta发布Muse Gadgets开源硬件计划，并推出自制的Muse Home Link设备。据当日报道，Muse Gadgets是一套开源程序，可让现成电子元件变成能与Muse配合工作的物理设备，代码以Apache 2.0协议公开在GitHub；设备SDK与固件同样以Apache 2.0协议开源，按现状提供、不含保修。The Verge报道补充，用户可用ESP32开发板或Raspberry Pi配合SDK连接显示屏、按钮、传感器等外设自建小设备；Meta自制的Muse Home Link借助社区技能可开灯、控制电视、向打印机发送文档等。关于首批Home Link，早先报道称共生产5000台，仅限美国、需有有效的Muse订阅方可免费获得，每位订阅者限1台；后续报道称该设备已开放候补名单，预计本月内发货，并同样提及制造了5000台。新报道称Meta提供开源固件和Linux SDK，官方给出电子墨水屏、HDMI电视棒等项目示例并开设Discord支持。上述数量、免费条件、地域与限购均针对首批Home Link设备，不适用于Muse Gadgets开源程序本身；展示的设备由其他公司制造和销售，Meta不予背书或担保。",
+        "latest_at": "2026-10-03T00:45:39.000Z",
         "original_url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-        "rank": 4,
+        "rank": 2,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 8,
-        "source_count": 3,
+        "signal_count": 10,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/e3d54065-1571-44a0-91b5-79600744e735",
         "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     },
     {
       "item": {
@@ -220,7 +220,7 @@
         "story_url": "https://aihot.virxact.com/story/f89a7e27-e5e9-4e16-8a9e-8fca7920df7f",
         "title": "Tavus发布Griffin视频交互模型"
       },
-      "observed_at": "2026-10-02T23:01:32.164433Z"
+      "observed_at": "2026-10-03T02:03:38.710912Z"
     }
   ],
   "version": 1
