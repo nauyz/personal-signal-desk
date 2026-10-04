@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "15204c12-df46-428f-8dba-17be841c60bc",
-        "digest": "2026 年 10 月 4 日，Yuchen Jin（@Yuchenj_UW）在 X 上发文称“终端时代已经结束”，认为对编码智能体而言终端是错误的界面。他称自己已有一阵子没碰 Claude Code 或 Codex CLI，理由是标签页短暂而上下文持久，管理 30 个标签页是认知负担；他同时表示不太需要 Cursor 这类 IDE，很少再浏览整个代码库，并提出新的原语是智能体而非文件。\n\n同日 Elvis Saravia（@omarsar0，DAIR.AI）概括称，有开发者认为通过 CLI 使用编码智能体已过时，交互直接发生在智能体本身，其工作流混合使用高层持久智能体（如 dots）与专用智能体（如 codex desktop 会话），由持久智能体统一管理。Yuchen Jin 与 Saravia 均称 Codex 桌面应用是目前最好的智能体 UI，但认为仍处早期。\n\n后续报道进一步概括其观点：终端时代结束是因为它假设人类通过文件和命令直接操作计算机，而智能体只需表达意图即可操作机器。上述均为相关人士的个人表态。",
+        "digest": null,
         "latest_at": "2026-10-04T14:23:39.000Z",
         "original_url": "https://x.com/Yuchenj_UW/status/2106595769536872610",
-        "rank": 10,
+        "rank": 7,
         "recovered": false,
         "representative_source": "X：Yuchen Jin (@Yuchenj_UW)",
-        "signal_count": 3,
+        "signal_count": 5,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/15204c12-df46-428f-8dba-17be841c60bc",
         "title": "Yuchen Jin 称终端时代已终结"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-10-03T18:56:30.000Z",
         "original_url": "https://x.com/Yuchenj_UW/status/2106395374923796759",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Yuchen Jin (@Yuchenj_UW)",
         "signal_count": 6,
@@ -33,7 +33,7 @@
         "story_url": "https://aihot.virxact.com/story/341ef8c2-d918-4e24-9391-99616e1c1a9a",
         "title": "Sam Altman 谈 AI 模型安全"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -41,16 +41,16 @@
         "digest": null,
         "latest_at": "2026-10-04T10:04:39.000Z",
         "original_url": "https://www.ithome.com/1/009/688.htm",
-        "rank": 4,
+        "rank": 2,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 8,
+        "signal_count": 10,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/397fcf8b-ea91-4150-a638-8fd4679eed40",
         "title": "马斯克确认SpaceXAI将更名为SpaceXSI"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -58,16 +58,16 @@
         "digest": null,
         "latest_at": "2026-10-03T00:39:54.866Z",
         "original_url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-        "rank": 6,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 16,
-        "source_count": 5,
+        "signal_count": 9,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/739a7589-bbae-4e8d-8bec-d6908b779010",
         "title": "Meta否认Muse读取私信，Apple收紧macOS权限"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -75,7 +75,7 @@
         "digest": null,
         "latest_at": "2026-10-04T07:28:54.000Z",
         "original_url": "https://www.ithome.com/1/009/431.htm",
-        "rank": 7,
+        "rank": 5,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 9,
@@ -84,7 +84,7 @@
         "story_url": "https://aihot.virxact.com/story/94326823-aa00-4316-a253-28c8c4098a05",
         "title": "Gemini免费用户模型调整为Flash-Lite"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -92,7 +92,7 @@
         "digest": null,
         "latest_at": "2026-10-04T07:01:04.000Z",
         "original_url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "signal_count": 4,
@@ -101,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/b1397672-bf6e-47dc-af9a-895fd7021161",
         "title": "Aleph Alpha 开源德英双语模型 Kolibri"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -109,33 +109,33 @@
         "digest": null,
         "latest_at": "2026-10-04T07:38:49.000Z",
         "original_url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 8,
-        "source_count": 5,
+        "signal_count": 9,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b4cd84e9-f869-4131-8d66-a5f7c75f3c81",
         "title": "Anthropic 邀宗教思想家为 AI 定道德准则"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
         "aihot_story_id": "d5b32762-56e9-4fb8-8976-fef8dadd068a",
-        "digest": "特朗普宣布组建人工智能部队（AI Force），并任命国家情报总监 Jay Clayton 牵头。10 月 4 日他在 Truth Social 宣布成立 Super Intelligence Force，负责协调联邦政府确保美国在超级智能领域领先；据《华尔街日报》报道，Clayton 任主席，FTC 主席 Andrew Ferguson 等三人任副主席，任务组需在 120 天内提交 AI 风险与机遇报告，章程强调应对超级智能威胁同时防止过度监管。\n\n此前人选一度指向财政部长 Scott Bessent：9 月 23 日 Semafor 报道其为主要候选人，10 月 3 日又有报道称特朗普预计提名 Clayton 并保留其情报总监职位，将 AI 政策并入情报体系。Clayton 称超级智能是国家安全问题，主张全政府方式监管，但反对暂停 AI 发展。\n\n特朗普 9 月 19 日首次宣布组建 AI Force 并任命 AI 事务总管，称 AI 可能占美国 GDP 的 25%，承诺不阻碍 AI 增长、借现有司法体系惩处滥用行为，并将对先进系统的担忧称为骗局。该职位接替 3 月因特别政府雇员 130 天期限离任的 David Sacks。",
-        "latest_at": "2026-10-04T15:15:10.000Z",
+        "digest": "特朗普宣布成立“超级智能部队”（Super Intelligence Force），负责协调联邦政府确保美国在超级智能领域领先，由国家情报总监 Jay Clayton 担任主席，FTC 主席 Andrew Ferguson 等三人任副主席，任务组需在 120 天内提交 AI 风险与机遇报告，并直接向总统和幕僚长 Susie Wiles 汇报。章程称要应对超级智能威胁，同时防止过度监管。\n\n这一人选此前并不确定。9 月 23 日 Semafor 报道称财政部长 Scott Bessent 是 AI 事务主管的主要候选人；10 月 3 日又有报道称特朗普预计提名 Clayton 并保留其情报总监职位，将 AI 政策并入情报体系。Clayton 称超级智能是国家安全问题，主张以全政府方式监管，但反对暂停 AI 发展。\n\n特朗普 9 月 19 日首次宣布组建 AI Force 并承诺任命 AI 事务总管，称 AI 可能占美国 GDP 的 25%，承诺不阻碍 AI 增长、借现有司法体系惩处滥用行为，并将对先进系统的担忧称为骗局。该职位接替 3 月因特别政府雇员 130 天期限离任的 David Sacks。",
+        "latest_at": "2026-10-04T17:41:58.000Z",
         "original_url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 9,
+        "signal_count": 8,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/d5b32762-56e9-4fb8-8976-fef8dadd068a",
-        "title": "特朗普组建AI部队并敲定AI沙皇人选"
+        "title": "特朗普组建超级智能部队，任命Clayton牵头"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -143,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-10-03T14:28:51.000Z",
         "original_url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-        "rank": 3,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 18,
-        "source_count": 5,
+        "signal_count": 12,
+        "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/e3d54065-1571-44a0-91b5-79600744e735",
         "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     },
     {
       "item": {
@@ -169,7 +169,7 @@
         "story_url": "https://aihot.virxact.com/story/fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
         "title": "OpenAI安全负责人罗宾逊离职并撰文批评"
       },
-      "observed_at": "2026-10-04T17:40:58.027463Z"
+      "observed_at": "2026-10-04T21:35:00.476962Z"
     }
   ],
   "version": 1
