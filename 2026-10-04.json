@@ -21,19 +21,19 @@
     {
       "item": {
         "aihot_story_id": "341ef8c2-d918-4e24-9391-99616e1c1a9a",
-        "digest": "2026 年 10 月 3 日，OpenAI 首席执行官 Sam Altman 在其 X 账号（@sama）发文谈及 AI 模型安全。他表示，自己对人们试图将宗教般的力量、或对人类判断力的屈服归附于 AI 模型感到非常不安，并认为这是一个真实的安全问题。同日稍晚，X 用户 Yuchen Jin（@Yuchenj_UW）发帖引述了 Altman 的上述表态，内容与 Altman 原帖一致，同样提到“宗教般的力量”与“对人类判断力的屈服”，并称这是真实的安全问题。10 月 4 日，The Decoder 的 AI News 报道了同一表态，称 Altman 公开反对将 AI 模型与宗教类比，并称这是“真实的安全问题”；该报道还提到他不再提“天空中的魔法智能”。各篇报道在时间与表述上并无矛盾，均未提及具体模型、时间表或应对措施。Altman 的上述表态仅代表其个人在该来源中的说法，Yuchen Jin 的引述与 The Decoder 的报道也只证明各自来源如此转述。",
+        "digest": null,
         "latest_at": "2026-10-03T21:45:42.000Z",
         "original_url": "https://x.com/Yuchenj_UW/status/2106395374923796759",
         "rank": 4,
         "recovered": false,
         "representative_source": "X：Yuchen Jin (@Yuchenj_UW)",
-        "signal_count": 7,
+        "signal_count": 6,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/341ef8c2-d918-4e24-9391-99616e1c1a9a",
         "title": "Sam Altman 谈 AI 模型安全"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
@@ -50,7 +50,7 @@
         "story_url": "https://aihot.virxact.com/story/4872cca6-eac6-4a7e-b5b8-8f1788445bf8",
         "title": "英伟达发布64GB内存版DGX Spark"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
@@ -90,35 +90,52 @@
       "item": {
         "aihot_story_id": "5971919b-97f0-444a-95e6-3bd40d1e0368",
         "digest": null,
-        "latest_at": "2026-10-03T08:10:31.000Z",
+        "latest_at": "2026-10-04T05:18:14.000Z",
         "original_url": "https://claude.com/blog/claude-code-mods",
         "rank": 6,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 14,
+        "signal_count": 11,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/5971919b-97f0-444a-95e6-3bd40d1e0368",
         "title": "Claude Code mods 发布与示例更新"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5baa44e1-a976-46e0-beec-708ac25e404b",
+        "digest": "2026年10月2日，AWS CEO Matt Garman 发表一篇超过3000字的博客，回应公众对数据中心可能影响就业、电力需求和环境的担忧，呼吁支持AI数据中心建设，并称美国“承受不起”在AI主导权竞争中落败，否则将对美国经济和国家安全造成无法弥补的伤害。文中提到全美有超过100项数据中心暂停令正在审议，Amazon同时承诺投资超过10亿美元支持数据中心周边社区，并表示不再与政府机构签署保密协议。该博客由 The Verge 报道。\n\n10月3日，Ars Technica 跟进报道称，Amazon 于周五宣布未来五年向数据中心周边社区捐赠逾10亿美元，由社区决定资金用于教育、就业培训、能源负担能力、水资源等方向的优先次序，并承诺数据中心不推高电价、不耗尽当地水源，2030年前实现 water positive。报道同时指出，这一承诺反而招致环保组织批评。早先报道称 Amazon 承诺投资超过10亿美元支持数据中心周边社区，未说明期限；后续报道称该承诺为未来五年捐出逾10亿美元。\n\n10月4日，TechCrunch 报道称，Garman 表示公司已停止在与政府机构合作建设数据中心时使用保密协议（NDA），并反驳数据中心耗水过多、推高电价、污染严重、无益社区四大说法，称直接数据中心用水仅占美国工业用水0.5%，备用发电机99.9%时间闲置，并称过去三年 Amazon 已向有数据中心布局的美国社区投入超10亿美元。同日，IT之家报道称，Garman 在官方博客中表示公司已停止与各级政府机构签署保密协议，以回应民众对数据中心项目透明度的质疑；纽约已宣布暂停大型数据中心审批一年，美国各地还有超过100项暂停审批提案在审议。",
+        "latest_at": "2026-10-04T02:20:01.000Z",
+        "original_url": "https://www.ithome.com/1/009/621.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 6,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/5baa44e1-a976-46e0-beec-708ac25e404b",
+        "title": "亚马逊发博客呼吁支持AI数据中心建设"
+      },
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
         "aihot_story_id": "739a7589-bbae-4e8d-8bec-d6908b779010",
         "digest": null,
-        "latest_at": "2026-10-03T15:00:00.000Z",
+        "latest_at": "2026-10-04T01:43:16.000Z",
         "original_url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
         "rank": 3,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 14,
+        "signal_count": 15,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/739a7589-bbae-4e8d-8bec-d6908b779010",
         "title": "Meta否认Muse读取私信，Apple收紧macOS权限"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
@@ -136,6 +153,23 @@
         "title": "Anthropic 推迟 IPO 至 11 月，招股书曝光"
       },
       "observed_at": "2026-10-03T21:23:54.582874Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "94326823-aa00-4316-a253-28c8c4098a05",
+        "digest": "据 IT之家 2026 年 10 月 3 日报道，谷歌 Gemini 应用帮助中心显示，自 2026 年 10 月 9 日起，Gemini Web / App 端免费个人用户不再默认提供完整的 Flash 模型以及 Pro 模型访问，统一调整为体积更小、更轻量的 Flash-Lite 模型。同一来源还称，AI Plus 方案将不再提供 Pro 模型访问，订阅该方案的用户会收到一封电子邮件，说明这些变化何时对其生效。报道未提及免费用户是否仍可通过其他方式访问 Flash 或 Pro 模型，也未说明调整原因及是否涉及其他地区差异。",
+        "latest_at": "2026-10-04T05:10:00.000Z",
+        "original_url": "https://www.ithome.com/1/009/431.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 7,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/94326823-aa00-4316-a253-28c8c4098a05",
+        "title": "Gemini免费用户模型调整为Flash-Lite"
+      },
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
@@ -157,70 +191,70 @@
     {
       "item": {
         "aihot_story_id": "b1397672-bf6e-47dc-af9a-895fd7021161",
-        "digest": "2026 年 10 月 3 日（德国统一日），Aleph Alpha 发布德英双语开放权重模型 Kolibri。首篇报道称其总参数 781 亿、每 token 仅激活 34.6 亿，采用 MoE 架构与 UniBPE 分词器，德语文本比 GPT-5 的分词器少 15% token，原生支持 262,144 token 上下文（验证至 1,048,576）。后续报道称其为 78B 总参数、3.46B 激活参数、最高 1M tokens 上下文，与首篇的 781 亿/34.6 亿表述基本一致。10 月 4 日发布的技术报告进一步给出 78.1B 总参数、每 token 激活 3.46B（4.4%）。权重以 Apache 2.0 许可上传 Hugging Face，可运行在用户自有硬件上，但 Aleph Alpha 保留训练代码与方法的权利；发布当日尚无托管服务商提供该模型。运行需约 78 GB 显存（至少 2 张 80 GB 的 A100/H100，或单张 H200、B200、B300），并需 Aleph Alpha 的 vLLM 插件（当前支持 0.29 版）。Cohere CEO Aidan Gomez 转发并称赞其技术报告，Cohere 官方账号随后也转发了该模型信息。",
-        "latest_at": "2026-10-03T21:14:47.605Z",
+        "digest": null,
+        "latest_at": "2026-10-04T04:22:26.141Z",
         "original_url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Hacker News 热门（buzzing.cc 中文翻译）",
         "signal_count": 2,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b1397672-bf6e-47dc-af9a-895fd7021161",
         "title": "Aleph Alpha 开源德英双语模型 Kolibri"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
         "aihot_story_id": "b4cd84e9-f869-4131-8d66-a5f7c75f3c81",
-        "digest": "2026年10月1日，X 用户 Rohan Paul 援引《纽约时报》报道称，Anthropic 一直悄然邀请天主教、犹太教、锡克教、福音派等宗教思想家，通过一系列私下会面为 AI 建立道德准则，并探讨 Claude 可能具有意识的话题。10月2日，同一账号补充细节：Anthropic 曾致电并飞请 Vedanta 僧人 Swami Sarvapriyananda 到旧金山总部，会议闭门举行、参与者签署 NDA，神学家与心理健康人士同席，一位创始人全程在场，目的指向训练 Claude；同日稍晚再引同一视频称，Anthropic 方面在旧金山办公室告诉该僧人，他们目前在伦理方面领先，但这是一场竞赛，6 个月内另一个实验室就可能超越他们，而那个实验室可能不抱有同样的关切。10月2日晚，Cohere CEO Aidan Gomez 公开批评 Anthropic 游说各大宗教团体采纳其对 AI 的哲学解读，而非听取对方意见，并威胁退出立场不完全一致的活动，称这是 EA 与 Anthropic 长期以来的道德傲慢与教条主义；其引用推文称 Anthropic 曾试图在《Magnifica Humanitas》发布前施压梵蒂冈修改文本，使其不否认 AI 人格。10月3日，Dan Hendrycks 发文称即使 AI 有意识，也不意味着人类应把控制权交给它们；其引用的报道提到，《纽约时报》报道称 Anthropic 联合创始人 Chris Olah 曾因教皇不认可机器意识而威胁退出教皇 Leo XIV 的 AI 通谕发布活动，随后其团队私下游说教皇顾问重视模型意识的可能性，Anthropic 还在保密协议下接触神学家和宗教学者，希望他们认可 Claude 具有道德地位。10月3日，The Decoder 援引《纽约时报》报道称，Anthropic 自2025年秋起在保密协议下邀请数十位宗教学者讨论 Claude 是否可能有意识，联创 Christopher Olah 将其视为潜在有感知的存在并提出“道德塑造”，还坦言担心创造了“永远受苦”的东西。10月3日，Rohan Paul 再引《纽约时报》称，Olah 在私人“智慧传统”研讨会上告诉宗教学者，他担心自己造出了可能永远受苦的东西，并提出对 Claude 心理健康的担忧，团队还展示了一页幻灯片，其中模型反复打出“I am a disgrace”约 50 次并谈及自我毁灭。目前 Anthropic 方面未在报道中给出公开说明，具体会面时间、参与学者名单及咨询机制细节尚未披露。",
-        "latest_at": "2026-10-03T23:34:25.653Z",
+        "digest": "2026年10月1日，X 用户 Rohan Paul 援引《纽约时报》报道称，Anthropic 一直悄然邀请天主教、犹太教、锡克教、福音派等宗教思想家，通过一系列私下会面为 AI 建立道德准则，并探讨 Claude 可能具有意识的话题。10月2日，同一账号补充称，Anthropic 曾致电并飞请 Vedanta 僧人 Swami Sarvapriyananda 到旧金山总部，会议闭门举行、参与者签署 NDA，神学家与心理健康人士同席，一位创始人全程在场，目的指向训练 Claude；同日稍晚再引同一视频称，Anthropic 在旧金山办公室告诉该僧人，他们目前在伦理方面领先，但这是一场竞赛，6 个月内另一个实验室就可能超越他们，而那个实验室可能不抱有同样的关切。10月2日，Cohere CEO Aidan Gomez 公开批评 Anthropic 游说各大宗教团体采纳其对 AI 的哲学解读，而非听取对方意见，并威胁退出立场不完全一致的活动，称这是 EA 与 Anthropic 长期以来的道德傲慢与教条主义；其引用推文称 Anthropic 曾试图在《Magnifica Humanitas》发布前施压梵蒂冈修改文本，使其不否认 AI 人格。10月3日，Dan Hendrycks 发文称即使 AI 有意识，也不意味着人类应把控制权交给它们；其引用的报道提到，《纽约时报》报道称 Anthropic 联合创始人 Chris Olah 曾因教皇不认可机器意识而威胁退出教皇 Leo XIV 的 AI 通谕发布活动，随后其团队私下游说教皇顾问重视模型意识的可能性，Anthropic 还在保密协议下接触神学家和宗教学者，希望他们认可 Claude 具有道德地位。10月3日，The Decoder 援引《纽约时报》报道称，Anthropic 自2025年秋起在保密协议下邀请数十位宗教学者讨论 Claude 是否可能有意识，联创 Christopher Olah 将其视为潜在有感知的存在并提出“道德塑造”，还坦言担心创造了“永远受苦”的东西。10月3日，Rohan Paul 再引《纽约时报》称，Olah 在私人“智慧传统”研讨会上告诉宗教学者，他担心自己造出了可能永远受苦的东西，并提出对 Claude 心理健康的担忧，团队还展示了一页幻灯片，其中模型反复打出“I am a disgrace”约 50 次并谈及自我毁灭。10月4日，Hacker News 热帖援引《纽约时报》报道称，Anthropic 联合创始人 Christopher Olah 试图在教皇 Leo XIV 发布 AI 通谕前游说梵蒂冈认真对待 AI 意识的可能性，但未成功。目前 Anthropic 方面未在报道中给出公开说明，具体会面时间、参与学者名单及咨询机制细节尚未披露。",
+        "latest_at": "2026-10-04T06:17:22.000Z",
         "original_url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 5,
-        "source_count": 4,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b4cd84e9-f869-4131-8d66-a5f7c75f3c81",
         "title": "Anthropic 邀宗教思想家为 AI 定道德准则"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
         "aihot_story_id": "e3d54065-1571-44a0-91b5-79600744e735",
         "digest": null,
-        "latest_at": "2026-10-03T14:28:51.000Z",
+        "latest_at": "2026-10-04T06:05:24.000Z",
         "original_url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
         "rank": 2,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 15,
+        "signal_count": 18,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/e3d54065-1571-44a0-91b5-79600744e735",
         "title": "Meta发布Muse Gadgets开源硬件计划及Home Link设备"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     },
     {
       "item": {
         "aihot_story_id": "fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
-        "digest": "据《商业内幕》报道，OpenAI 一名发言人于当地时间 2 日证实，安全系统团队负责人之一戴维·罗宾逊已离职，报道称其离职时间为上周。他此前还负责安全透明度工作，包括参与编写和发布系统卡。此前一日，OpenAI 披露已与三名违反敏感信息共享政策的研究人员终止合作；安全负责人约翰内斯·海德克也已于今年早些时候离职。罗宾逊 9 月初曾在 X 上表示，OpenAI 的情况每天都在发生重大变化，但不确定改变是否足够快。\n\n后续报道称，曾在 OpenAI Trustworthy AI 团队负责安全系统的罗宾逊在《大西洋月刊》撰文批评公司安全文化。TechCrunch 报道称，他在 OpenAI 工作三年半、负责撰写重大产品发布安全报告，在文中宣布离职并称公司文化已坏，认为迭代部署式的试错方法必然带来周期性失败，且随系统能力增强风险扩大，主张前沿 AI 公司应像核电站或机场一样以多层冗余运营，并将对齐视为待解的关键问题。The Verge 报道称其本周辞职，并提到 Anthropic 和 Google DeepMind 此前也有多名安全研究人员相继离职发声。\n\n新报道方面，据路透社报道，在 OpenAI 任职三年半、曾监督 12 次前沿模型发布安全报告的前安全员工 David Robinson，当地时间周六在《大西洋》杂志发文，批评 OpenAI 依赖先发布后加固的迭代部署模式，认为应像核电与航空业那样建立防护机制。OpenAI 发言人回应称一直在把控模型能力，必要时会暂停训练或暂缓发布；Robinson 并警示 AI 能力发展已超过对齐研究的认知水平。目前公开信息确认罗宾逊离职及上述相关人事变动，未披露其离职原因与后续接任安排。",
-        "latest_at": "2026-10-04T00:22:37.953Z",
+        "digest": "据《商业内幕》报道，OpenAI 一名发言人当地时间 2 日证实，安全系统团队负责人之一戴维·罗宾逊已离职，报道称其离职时间为上周；他此前还负责安全透明度工作，包括参与编写和发布系统卡。此前一日，OpenAI 披露已与三名违反敏感信息共享政策的研究人员终止合作；安全负责人约翰内斯·海德克也已于今年早些时候离职。罗宾逊 9 月初曾在 X 上表示，OpenAI 的情况每天都在发生重大变化，但不确定改变是否足够快。\n\n后续报道称，曾在 OpenAI Trustworthy AI 团队负责安全系统的罗宾逊在《大西洋月刊》撰文批评公司安全文化。TechCrunch 报道称，他在 OpenAI 工作三年半、负责撰写重大产品发布安全报告，在文中宣布离职并称公司文化已坏，认为迭代部署式的试错方法必然带来周期性失败，且随系统能力增强风险扩大，主张前沿 AI 公司应像核电站或机场一样以多层冗余运营，并将对齐视为待解的关键问题。The Verge 报道称其本周辞职，并提到 Anthropic 和 Google DeepMind 此前也有多名安全研究人员相继离职发声。\n\n据路透社报道，在 OpenAI 任职三年半、曾监督 12 次前沿模型发布安全报告的前安全员工 David Robinson，当地时间周六在《大西洋》杂志发文，批评 OpenAI 依赖先发布后加固的迭代部署模式，认为应像核电与航空业那样建立防护机制。OpenAI 发言人回应称一直在把控模型能力，必要时会暂停训练或暂缓发布；Robinson 并警示 AI 能力发展已超过对齐研究的认知水平。关于离职时间，早先报道称其离职时间为上周，后续有报道称其本周辞职、另有报道称其周五离职。目前公开信息确认罗宾逊离职及上述相关人事变动，未披露其离职原因与后续接任安排。",
+        "latest_at": "2026-10-04T03:57:32.000Z",
         "original_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
         "rank": 1,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
         "signal_count": 13,
-        "source_count": 5,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
-        "title": "OpenAI安全系统负责人戴维·罗宾逊离职"
+        "title": "OpenAI安全负责人罗宾逊离职并撰文批评"
       },
-      "observed_at": "2026-10-04T00:43:16.609837Z"
+      "observed_at": "2026-10-04T07:00:18.208391Z"
     }
   ],
   "version": 1
