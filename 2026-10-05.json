@@ -27,13 +27,13 @@
         "rank": 10,
         "recovered": false,
         "representative_source": "X：Yuchen Jin (@Yuchenj_UW)",
-        "signal_count": 6,
+        "signal_count": 7,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/341ef8c2-d918-4e24-9391-99616e1c1a9a",
         "title": "Sam Altman 谈 AI 模型安全"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
@@ -44,13 +44,30 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 11,
+        "signal_count": 12,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/397fcf8b-ea91-4150-a638-8fd4679eed40",
         "title": "马斯克确认SpaceXAI将更名为SpaceXSI"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "59b0b4d1-c1e5-4149-91c5-69f920c1845e",
+        "digest": "OpenAI CEO 萨姆·奥尔特曼在《Decoded》专访中表示，AI 技术带来的巨大效益完全值得社会承担部分风险，技术应继续面向公众广泛开放。他同时澄清，自己也无法接受“真正毁灭性的灾难风险”，包括潜在的人类对 AI 严重失控。\n\n奥尔特曼称，OpenAI 与竞争对手 Anthropic 在 AI 监管问题上仍存在根本性的世界观分歧。",
+        "latest_at": "2026-10-05T01:02:06.000Z",
+        "original_url": "https://www.ithome.com/1/009/754.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/59b0b4d1-c1e5-4149-91c5-69f920c1845e",
+        "title": "奥尔特曼称AI效益值得承担部分风险"
+      },
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
@@ -72,19 +89,19 @@
     {
       "item": {
         "aihot_story_id": "8d77783c-db18-4e6a-b8e7-70b012886402",
-        "digest": "OpenAI Codex 负责人 Tibo（@thsottiaux）在 X 上宣布，接下来 28 天内 Codex 将每天发布一项更新：要么是对大多数 Codex 及工作用户明确有改进且相关的功能，要么进行一次全面重置。\n\n该承诺由 Tibo 本人提出，未说明具体功能内容、发布顺序或“全面重置”指什么，也未给出衡量“改进”的标准。",
-        "latest_at": "2026-10-04T20:33:43.000Z",
-        "original_url": "https://x.com/thsottiaux/status/2106845241357824205",
-        "rank": 3,
+        "digest": "OpenAI 核心产品与平台负责人 Thibault Sottiaux 在 X 上宣布，未来 28 天内每天为 Codex 和 ChatGPT Work 发布一项对多数用户有明显改善的功能更新，否则提供一次“重置”，周期预计从 10 月 5 日持续至 11 月 2 日。\n\n他未说明重置的具体方式，也未确认重置覆盖哪些用户或额度，同时称团队当前聚焦简化产品、提升使用效率、推出突破性功能与开发新模型。",
+        "latest_at": "2026-10-05T01:47:27.000Z",
+        "original_url": "https://www.ithome.com/1/009/761.htm",
+        "rank": 1,
         "recovered": false,
-        "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 9,
-        "source_count": 1,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 14,
+        "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/8d77783c-db18-4e6a-b8e7-70b012886402",
-        "title": "OpenAI Codex 宣布未来 28 天每日更新"
+        "title": "OpenAI Codex 与 ChatGPT Work 承诺 28 天每日更新"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
@@ -96,12 +113,12 @@
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 9,
-        "source_count": 2,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/94326823-aa00-4316-a253-28c8c4098a05",
         "title": "Gemini免费用户模型调整为Flash-Lite"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
@@ -118,7 +135,7 @@
         "story_url": "https://aihot.virxact.com/story/b1397672-bf6e-47dc-af9a-895fd7021161",
         "title": "Aleph Alpha 开源德英双语模型 Kolibri"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
@@ -126,50 +143,50 @@
         "digest": null,
         "latest_at": "2026-10-04T07:38:49.000Z",
         "original_url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 9,
+        "signal_count": 8,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b4cd84e9-f869-4131-8d66-a5f7c75f3c81",
         "title": "Anthropic 邀宗教思想家为 AI 定道德准则"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
         "aihot_story_id": "d5b32762-56e9-4fb8-8976-fef8dadd068a",
-        "digest": null,
-        "latest_at": "2026-10-04T17:41:58.000Z",
+        "digest": "特朗普宣布成立“超级智能工作组”（Super Intelligence Force），由国家情报总监杰伊·克莱顿任主席，FTC 主席安德鲁·弗格森等三人任副主席，负责协调联邦政府确保美国在超级智能领域领先，直接向总统和幕僚长 Susie Wiles 汇报，并需在 120 天内提交 AI 风险与机遇报告。\n\n这一人选此前并不确定：9 月 23 日 Semafor 报道称财政部长 Scott Bessent 是 AI 事务主管的主要候选人；10 月 3 日又有报道称特朗普预计提名克莱顿并保留其情报总监职位，将 AI 政策并入情报体系。克莱顿称超级智能是国家安全问题，主张以全政府方式监管，但反对暂停 AI 发展。\n\n特朗普 9 月 19 日首次宣布组建 AI Force 并承诺任命 AI 事务总管，称 AI 可能占美国 GDP 的 25%，承诺不阻碍 AI 增长、借现有司法体系惩处滥用行为，并将对先进系统的担忧称为骗局。该职位接替 3 月因特别政府雇员 130 天期限离任的 David Sacks。",
+        "latest_at": "2026-10-05T04:39:32.000Z",
         "original_url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth",
         "rank": 2,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 10,
-        "source_count": 2,
-        "status": null,
+        "signal_count": 12,
+        "source_count": 3,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/d5b32762-56e9-4fb8-8976-fef8dadd068a",
-        "title": "特朗普组建超级智能部队，任命Clayton牵头"
+        "title": "特朗普成立超级智能工作组，克莱顿牵头"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
         "aihot_story_id": "e3d54065-1571-44a0-91b5-79600744e735",
-        "digest": "Meta发布开源项目Muse Gadgets，让开发者用ESP32开发板或Raspberry Pi等现成硬件自建连接其AI智能体Muse的设备。Meta在GitHub按Apache 2.0许可公开ESP32固件和Linux设备SDK，官方给出电子墨水屏、HDMI电视棒等项目示例并开设Discord支持；设备SDK与固件按现状提供、不含保修。\n\nMeta同时推出自制的Muse Home Link，借助社区技能可开灯、控制电视、向打印机发送文档等。首批共制造5000台，仅限美国、需有有效的Muse订阅方可免费获得，每位订阅者限1台；该设备已开放候补名单，预计本月内发货。\n\nIT之家报道称，社区配对“没有制造商验证，无法防止主动中间人攻击”，建议在可信网络中完成配对。上述数量、免费条件、地域与限购均针对首批Home Link设备，不适用于Muse Gadgets开源程序本身；展示的设备由其他公司制造和销售，Meta不予背书或担保。",
+        "digest": null,
         "latest_at": "2026-10-05T00:00:33.000Z",
         "original_url": "https://www.ithome.com/1/009/743.htm",
-        "rank": 6,
+        "rank": 5,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 11,
+        "signal_count": 8,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/e3d54065-1571-44a0-91b5-79600744e735",
         "title": "Meta开源Muse Gadgets硬件计划并推Home Link"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     },
     {
       "item": {
@@ -177,7 +194,7 @@
         "digest": null,
         "latest_at": "2026-10-04T01:13:09.000Z",
         "original_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-        "rank": 1,
+        "rank": 3,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
         "signal_count": 14,
@@ -186,7 +203,7 @@
         "story_url": "https://aihot.virxact.com/story/fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
         "title": "OpenAI安全负责人罗宾逊离职并撰文批评"
       },
-      "observed_at": "2026-10-05T01:01:05.337900Z"
+      "observed_at": "2026-10-05T07:09:23.468872Z"
     }
   ],
   "version": 1
