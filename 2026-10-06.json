@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
+        "digest": "华为与高通宣布达成一项多年期、广泛的专利许可协议，包含双方在5G、计算、人工智能、网络等领域的专利组合交叉许可，高通还将收购华为在计算、人工智能、网络及其他技术领域的部分美国专利。这是双方首份涵盖5G技术的专利许可协议，双方称协议遵循FRAND原则，交易需获得必要监管审批后方可完成。\n\n高通另已同意授权华为逻辑折叠芯片制造技术所依赖的专利，彭博社称这有助于验证华为的芯片制造能力并推动其海外AI市场。华为称交易完成后全部专利许可协议累计总金额预计超过69亿美元，并自2021年起知识产权授权业务实现正向收入。协议公布后高通盘前股价最高涨超4%。",
+        "latest_at": "2026-10-05T13:51:05.025Z",
+        "original_url": "https://www.ithome.com/1/009/852.htm",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
+        "title": "华为高通达成5G等专利交叉许可协议"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "397fcf8b-ea91-4150-a638-8fd4679eed40",
+        "digest": null,
+        "latest_at": "2026-10-04T10:04:39.000Z",
+        "original_url": "https://www.ithome.com/1/009/688.htm",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 17,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/397fcf8b-ea91-4150-a638-8fd4679eed40",
+        "title": "马斯克确认SpaceXAI将更名为SpaceXSI"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "46c7f8e8-51cb-4cf2-8486-5e3402815813",
+        "digest": "谷歌宣布自2026年10月1日起，开源软件漏洞奖励计划（OSS VRP）不再接收产品漏洞提报，此前已提交的漏洞不受影响。谷歌称暂停原因是AI自动提交大幅增加，其中绝大多数报告无效；据Tom's Hardware报道，知情人士称数千份声称发现严重漏洞的报告实为AI幻觉、无法实际利用，挤占了修复真实高危漏洞的时间。\n\n针对可能影响谷歌云产品的谷歌云代码仓库，产品漏洞仍可能通过云漏洞奖励计划（Cloud VRP）接收；谷歌建议参与者改用其他漏洞奖励计划，并计划于2027年第一季度公布OSS VRP重组进展。",
+        "latest_at": "2026-10-04T20:31:07.000Z",
+        "original_url": "https://www.ithome.com/1/009/673.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/46c7f8e8-51cb-4cf2-8486-5e3402815813",
+        "title": "谷歌暂停OSS VRP产品漏洞提报"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8d77783c-db18-4e6a-b8e7-70b012886402",
+        "digest": null,
+        "latest_at": "2026-10-05T01:47:27.000Z",
+        "original_url": "https://www.ithome.com/1/009/761.htm",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 16,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/8d77783c-db18-4e6a-b8e7-70b012886402",
+        "title": "OpenAI Codex 与 ChatGPT Work 承诺 28 天每日更新"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "93ed3076-cae1-4349-9f3d-c629827d554c",
+        "digest": "OpenAI宣布在ChatGPT推出新的视觉广告格式，本月晚些时候在美国面向首批广告主，在图像生成场景中测试。据The Decoder报道，广告将在ChatGPT生成图像时以轮播或一排产品广告的形式出现在图片下方，带有广告标识并与生成内容分开；OpenAI称广告不影响ChatGPT的回答。\n\n据The Verge报道，Plus、Pro或Enterprise订阅用户不会看到广告；OpenAI称设有护栏，避免在情绪脆弱或敏感场景中投放。此前ChatGPT广告自2月起仅在聊天下方赞助位显示公司名、标志和链接。\n\n同期OpenAI扩展了广告测量工具与合作，接入Hightouch、AppsFlyer等转化与归因服务商，并与DoubleVerify和Integral Ad Science试点品牌安全评估；广告主还可设置否定关键词（Negative Phrases），该功能已向符合条件的广告主开放。该视觉广告格式目前仅限美国、图像生成场景和首批广告主。",
+        "latest_at": "2026-10-05T15:14:24.000Z",
+        "original_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 7,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/93ed3076-cae1-4349-9f3d-c629827d554c",
+        "title": "OpenAI在ChatGPT图像生成中测试视觉广告"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "94326823-aa00-4316-a253-28c8c4098a05",
+        "digest": "据 IT之家 2026 年 10 月 3 日报道，谷歌 Gemini 应用帮助中心显示，自 2026 年 10 月 9 日起，Gemini Web / App 端免费个人用户不再默认提供完整的 Flash 模型以及 Pro 模型访问，统一调整为体积更小、更轻量的 Flash-Lite 模型。同一来源还称，AI Plus 方案将不再提供 Pro 模型访问，订阅该方案的用户会收到一封电子邮件，说明这些变化何时对其生效。\n\n2026 年 10 月 4 日，The Decoder 跟进报道称，Google 自 2026 年 10 月起限制个人账号的 Gemini 模型访问，免费用户只能使用最小的 Flash-Lite，无法再用 Flash 和 Pro。该报道未提及 AI Plus 方案的具体变化，也未说明调整原因及是否涉及其他地区差异。",
+        "latest_at": "2026-10-04T07:28:54.000Z",
+        "original_url": "https://www.ithome.com/1/009/431.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 9,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/94326823-aa00-4316-a253-28c8c4098a05",
+        "title": "Gemini免费用户模型调整为Flash-Lite"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b4cd84e9-f869-4131-8d66-a5f7c75f3c81",
+        "digest": null,
+        "latest_at": "2026-10-04T07:38:49.000Z",
+        "original_url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 8,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/b4cd84e9-f869-4131-8d66-a5f7c75f3c81",
+        "title": "Anthropic 邀宗教思想家为 AI 定道德准则"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d5b32762-56e9-4fb8-8976-fef8dadd068a",
+        "digest": null,
+        "latest_at": "2026-10-05T04:39:32.000Z",
+        "original_url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 13,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/d5b32762-56e9-4fb8-8976-fef8dadd068a",
+        "title": "特朗普成立超级智能工作组，克莱顿牵头"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f4f04774-a627-409f-aeee-0bb78eff24cf",
+        "digest": "施耐德电气宣布以每股205美元、总价约226亿美元全现金收购总部位于波士顿的PTC，以扩充工业软件与人工智能赋能业务。施耐德称，该收购价较PTC上一交易日收盘价溢价超过40%，交易预计2027年第三季度完成。\n\n此前施耐德已敲定31亿美元收购Cognite、12亿欧元收购Shelly Group SE，本次收购资金由摩根士丹利与法国兴业银行提供过渡性贷款安排。",
+        "latest_at": "2026-10-05T06:07:35.000Z",
+        "original_url": "https://www.ithome.com/1/009/805.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 6,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f4f04774-a627-409f-aeee-0bb78eff24cf",
+        "title": "施耐德电气226亿美元全现金收购PTC"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
+        "digest": null,
+        "latest_at": "2026-10-04T01:13:09.000Z",
+        "original_url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 13,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/fd9e2bf7-831d-46b7-8eae-5cdeb44ca379",
+        "title": "OpenAI安全负责人罗宾逊离职并撰文批评"
+      },
+      "observed_at": "2026-10-05T16:07:57.284181Z"
+    }
+  ],
+  "version": 1
+}
