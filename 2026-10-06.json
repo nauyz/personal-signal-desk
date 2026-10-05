@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
-        "digest": "华为与高通宣布达成一项多年期、广泛的专利许可协议，包含双方在5G、计算、人工智能、网络等领域的专利组合交叉许可，高通还将收购华为在计算、人工智能、网络及其他技术领域的部分美国专利。这是双方首份涵盖5G技术的专利许可协议，双方称协议遵循FRAND原则，交易需获得必要监管审批后方可完成。\n\n高通另已同意授权华为逻辑折叠芯片制造技术所依赖的专利，彭博社称这有助于验证华为的芯片制造能力并推动其海外AI市场。华为称交易完成后全部专利许可协议累计总金额预计超过69亿美元，并自2021年起知识产权授权业务实现正向收入。协议公布后高通盘前股价最高涨超4%。",
-        "latest_at": "2026-10-05T13:51:05.025Z",
+        "digest": "华为与高通宣布达成一项多年期、广泛的专利许可协议，包含双方在5G、计算、人工智能、网络等领域的专利组合交叉许可，高通还将收购华为在计算、人工智能、网络及其他技术领域的部分美国专利。这是双方首份涵盖5G技术的专利许可协议，双方称协议遵循FRAND原则，交易需获得必要监管审批后方可完成。\n\n据Nikkei Asia报道，高通将首次成为净付款方，且购买的是部分华为美国专利的所有权而非仅使用权，财务条款未披露。高通另已同意授权华为逻辑折叠芯片制造技术所依赖的专利，彭博社称这有助于验证华为的芯片制造能力并推动其海外AI市场。\n\n华为称交易完成后全部专利许可协议累计总金额预计超过69亿美元，并自2021年起知识产权授权业务实现正向收入。协议公布后高通盘前股价最高涨超4%。",
+        "latest_at": "2026-10-05T16:32:23.000Z",
         "original_url": "https://www.ithome.com/1/009/852.htm",
         "rank": 4,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 10,
-        "source_count": 2,
+        "signal_count": 13,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
         "title": "华为高通达成5G等专利交叉许可协议"
       },
-      "observed_at": "2026-10-05T16:07:57.284181Z"
+      "observed_at": "2026-10-05T22:43:35.025640Z"
     },
     {
       "item": {
@@ -24,67 +24,101 @@
         "digest": null,
         "latest_at": "2026-10-04T10:04:39.000Z",
         "original_url": "https://www.ithome.com/1/009/688.htm",
-        "rank": 3,
+        "rank": 6,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 17,
+        "signal_count": 19,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/397fcf8b-ea91-4150-a638-8fd4679eed40",
         "title": "马斯克确认SpaceXAI将更名为SpaceXSI"
       },
-      "observed_at": "2026-10-05T16:07:57.284181Z"
+      "observed_at": "2026-10-05T22:43:35.025640Z"
     },
     {
       "item": {
         "aihot_story_id": "46c7f8e8-51cb-4cf2-8486-5e3402815813",
-        "digest": "谷歌宣布自2026年10月1日起，开源软件漏洞奖励计划（OSS VRP）不再接收产品漏洞提报，此前已提交的漏洞不受影响。谷歌称暂停原因是AI自动提交大幅增加，其中绝大多数报告无效；据Tom's Hardware报道，知情人士称数千份声称发现严重漏洞的报告实为AI幻觉、无法实际利用，挤占了修复真实高危漏洞的时间。\n\n针对可能影响谷歌云产品的谷歌云代码仓库，产品漏洞仍可能通过云漏洞奖励计划（Cloud VRP）接收；谷歌建议参与者改用其他漏洞奖励计划，并计划于2027年第一季度公布OSS VRP重组进展。",
+        "digest": null,
         "latest_at": "2026-10-04T20:31:07.000Z",
         "original_url": "https://www.ithome.com/1/009/673.htm",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 6,
+        "signal_count": 7,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/46c7f8e8-51cb-4cf2-8486-5e3402815813",
         "title": "谷歌暂停OSS VRP产品漏洞提报"
       },
-      "observed_at": "2026-10-05T16:07:57.284181Z"
+      "observed_at": "2026-10-05T22:43:35.025640Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "553aab31-30b1-4787-bd62-3b006d83295e",
+        "digest": "Reflection AI 发布首个开源权重模型 Beam，为纯文本稀疏 MoE 架构，总参数 501B、激活 23B，预训练数据 23.8 万亿 token，上下文窗口 100 万 token，主打编码、推理和智能体任务，公司称从零端到端训练。权重、技术报告、模型卡及开发者资料将于本月以 Apache 2.0 许可发布，并通过超大规模云厂商和新云分发，目前可登记获取早期访问。\n\n此前 Axios 报道称，Reflection 等多家西方企业本月将推出开放权重模型；Reflection 的模型预计最初落后于美国竞争对手最先进的闭源模型，但足以同中国友商的顶级开放权重模型竞争。开放权重模型支持客户本地部署，对微调和推理数据安全要求严格的行业是关键优势。\n\nNathan Lambert 转发祝贺 Beam 发布，称首个模型不易，期待其加速对生态的贡献；随后他又表示，Reflection 加入了 Nvidia 和 Thinking Machines 的行列——发布了自家最强模型却仍落后于中国同行。Artificial Analysis 称已获 Reflection 提供访问并开始独立基准测试，早期指标显示 Beam 在同等智能水平下 token 效率突出。",
+        "latest_at": "2026-10-05T21:20:31.000Z",
+        "original_url": "https://reflection.ai/blog/introducing-beam",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Hacker News：AI 热帖",
+        "signal_count": 14,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
+        "title": "Reflection 发布 501B 开源模型 Beam，本月放权重"
+      },
+      "observed_at": "2026-10-05T22:43:35.025640Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "59b0b4d1-c1e5-4149-91c5-69f920c1845e",
+        "digest": "OpenAI CEO 萨姆·奥尔特曼在 Politico 的《Decoded》播客中表示，AI 带来的收益巨大，世界应接受过程中发生一些坏事，例如黑客攻击和诈骗。他借此与竞争对手 Anthropic 的谨慎监管路线划清界限，自称 OpenAI 是务实中间派，并称双方在 AI 监管上仍存在根本性的世界观分歧。\n\n奥尔特曼同时澄清，自己也无法接受\"真正毁灭性的灾难风险\"，包括人类对 AI 严重失控的极端情形。他主张技术应继续面向公众广泛开放。",
+        "latest_at": "2026-10-05T16:44:21.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/59b0b4d1-c1e5-4149-91c5-69f920c1845e",
+        "title": "奥尔特曼称AI效益值得承担部分风险"
+      },
+      "observed_at": "2026-10-05T22:43:35.025640Z"
     },
     {
       "item": {
         "aihot_story_id": "8d77783c-db18-4e6a-b8e7-70b012886402",
-        "digest": null,
-        "latest_at": "2026-10-05T01:47:27.000Z",
+        "digest": "OpenAI 核心产品与平台负责人 Thibault Sottiaux 宣布，未来 28 天每天为 Codex 和 ChatGPT Work 发布一项对多数用户有明显改善的功能更新，否则提供一次“重置”，周期预计从 10 月 5 日持续至 11 月 2 日。他未说明重置的具体方式，也未确认重置覆盖哪些用户或额度。\n\n10 月 6 日，Sottiaux 公布首日更新：通过订阅为 GPT-6 Astra 和 GPT-6.1 Sol 优化默认速度，提升约 50%，覆盖 OpenAI 所有产品以及使用 Sign in With ChatGPT 的合作伙伴（包括 OpenCode、Pi、Amp、Devin 等），用户无需改动，预计两小时内可感受到。",
+        "latest_at": "2026-10-05T17:49:34.000Z",
         "original_url": "https://www.ithome.com/1/009/761.htm",
-        "rank": 1,
+        "rank": 3,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 16,
-        "source_count": 2,
-        "status": null,
+        "signal_count": 17,
+        "source_count": 3,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/8d77783c-db18-4e6a-b8e7-70b012886402",
-        "title": "OpenAI Codex 与 ChatGPT Work 承诺 28 天每日更新"
+        "title": "OpenAI 启动 Codex 与 ChatGPT Work 28 天每日更新"
       },
-      "observed_at": "2026-10-05T16:07:57.284181Z"
+      "observed_at": "2026-10-05T22:43:35.025640Z"
     },
     {
       "item": {
         "aihot_story_id": "93ed3076-cae1-4349-9f3d-c629827d554c",
-        "digest": "OpenAI宣布在ChatGPT推出新的视觉广告格式，本月晚些时候在美国面向首批广告主，在图像生成场景中测试。据The Decoder报道，广告将在ChatGPT生成图像时以轮播或一排产品广告的形式出现在图片下方，带有广告标识并与生成内容分开；OpenAI称广告不影响ChatGPT的回答。\n\n据The Verge报道，Plus、Pro或Enterprise订阅用户不会看到广告；OpenAI称设有护栏，避免在情绪脆弱或敏感场景中投放。此前ChatGPT广告自2月起仅在聊天下方赞助位显示公司名、标志和链接。\n\n同期OpenAI扩展了广告测量工具与合作，接入Hightouch、AppsFlyer等转化与归因服务商，并与DoubleVerify和Integral Ad Science试点品牌安全评估；广告主还可设置否定关键词（Negative Phrases），该功能已向符合条件的广告主开放。该视觉广告格式目前仅限美国、图像生成场景和首批广告主。",
+        "digest": null,
         "latest_at": "2026-10-05T15:14:24.000Z",
         "original_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-        "rank": 2,
+        "rank": 5,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 7,
+        "signal_count": 9,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/93ed3076-cae1-4349-9f3d-c629827d554c",
         "title": "OpenAI在ChatGPT图像生成中测试视觉广告"
       },
-      "observed_at": "2026-10-05T16:07:57.284181Z"
+      "observed_at": "2026-10-05T22:43:35.025640Z"
     },
     {
       "item": {
@@ -122,37 +156,54 @@
     },
     {
       "item": {
+        "aihot_story_id": "b92e615b-0baf-4821-a3ac-e621dde3db2c",
+        "digest": "OpenAI 公布应对欧盟《人工智能法案》的文本溯源方案，推出名为 textGrain 的文本水印技术，做法是在模型逐词选择过程中加入不可见的统计信号。全球 API 客户即日起可对部分模型选择性开启水印，但 API 中水印默认关闭；未来数周，OpenAI 将在欧盟地区为符合条件的 ChatGPT 和 Codex 文本输出添加隐形水印，覆盖所有套餐，且不设为全球默认。\n\n检测水印的工具暂只向获批的研究者和专家机构开放，OpenAI 称这些机构可帮助其评估和改进该技术；据 IT之家报道，该工具只报告是否检测到 OpenAI 水印，不透露用户或对话内容。The Decoder 称，与 Anthropic 对 Claude 的全球强制水印不同，OpenAI 允许全球 API 客户关闭水印。\n\nOpenAI 同时说明该水印不添加可见标记，不识别作者、组织、账号或对话来源，并称测试中未影响模型能力、速度或阅读体验；但 OpenAI 也承认文本水印存在明显局限：短文本中常难以检测，改写或翻译可完全去除水印。X 账号 Testing Catalog 称，OpenAI 官方测试显示 textGrain 效果追平或超过 SynthID 且质量无明显损失，并将开源；该账号同时表示这仍需实际测试验证。",
+        "latest_at": "2026-10-05T20:36:48.000Z",
+        "original_url": "https://openai.com/index/eu-text-provenance",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 13,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b92e615b-0baf-4821-a3ac-e621dde3db2c",
+        "title": "OpenAI公布欧盟文本溯源水印方案"
+      },
+      "observed_at": "2026-10-05T22:43:35.025640Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "d5b32762-56e9-4fb8-8976-fef8dadd068a",
         "digest": null,
         "latest_at": "2026-10-05T04:39:32.000Z",
         "original_url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth",
-        "rank": 5,
+        "rank": 7,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 13,
+        "signal_count": 14,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/d5b32762-56e9-4fb8-8976-fef8dadd068a",
         "title": "特朗普成立超级智能工作组，克莱顿牵头"
       },
-      "observed_at": "2026-10-05T16:07:57.284181Z"
+      "observed_at": "2026-10-05T22:43:35.025640Z"
     },
     {
       "item": {
         "aihot_story_id": "f4f04774-a627-409f-aeee-0bb78eff24cf",
-        "digest": "施耐德电气宣布以每股205美元、总价约226亿美元全现金收购总部位于波士顿的PTC，以扩充工业软件与人工智能赋能业务。施耐德称，该收购价较PTC上一交易日收盘价溢价超过40%，交易预计2027年第三季度完成。\n\n此前施耐德已敲定31亿美元收购Cognite、12亿欧元收购Shelly Group SE，本次收购资金由摩根士丹利与法国兴业银行提供过渡性贷款安排。",
+        "digest": null,
         "latest_at": "2026-10-05T06:07:35.000Z",
         "original_url": "https://www.ithome.com/1/009/805.htm",
         "rank": 8,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 6,
+        "signal_count": 8,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f4f04774-a627-409f-aeee-0bb78eff24cf",
         "title": "施耐德电气226亿美元全现金收购PTC"
       },
-      "observed_at": "2026-10-05T16:07:57.284181Z"
+      "observed_at": "2026-10-05T22:43:35.025640Z"
     },
     {
       "item": {
