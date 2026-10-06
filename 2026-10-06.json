@@ -3,8 +3,25 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "0cddfa1c-d7c4-401d-ac61-996742ec2a61",
+        "digest": "医疗初创公司 Nolla Health 宣布在犹他州推出试点：用户用其 App 扫描面部，AI 系统分析痤疮严重程度并自主开具处方。服务仅面向犹他州 18 岁及以上、轻中度痤疮的居民。\n\n医生监督随患者数量逐步放宽：前 100 名患者每张 AI 处方须经两名医生批准；增至 500 名后医生改为处方开出后复核；此后每月抽查至少 10% 的处方，并复核所有升级或出现副作用的案例。\n\n早先 X 用户 Rohan Paul 称这是美国首个获监管批准由 AI 开出初始处方的机构，并提到处方转给持证药剂师、医生早期逐例审核；Elvis Saravia 的说法则未提及成人、轻中度、药品清单和药剂师等限制，仅称需要时由临床医生介入。上述消息均来自社交平台帖文，未披露具体监管机构。",
+        "latest_at": "2026-10-05T20:14:57.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2107167721565941831",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 3,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/0cddfa1c-d7c4-401d-ac61-996742ec2a61",
+        "title": "Nolla Health在犹他州试点AI开痤疮处方"
+      },
+      "observed_at": "2026-10-06T03:04:31.021729Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
-        "digest": "华为与高通宣布达成一项多年期、广泛的专利许可协议，包含双方在5G、计算、人工智能、网络等领域的专利组合交叉许可，高通还将收购华为在计算、人工智能、网络及其他技术领域的部分美国专利。这是双方首份涵盖5G技术的专利许可协议，双方称协议遵循FRAND原则，交易需获得必要监管审批后方可完成。\n\n据Nikkei Asia报道，高通将首次成为净付款方，且购买的是部分华为美国专利的所有权而非仅使用权，财务条款未披露。高通另已同意授权华为逻辑折叠芯片制造技术所依赖的专利，彭博社称这有助于验证华为的芯片制造能力并推动其海外AI市场。\n\n华为称交易完成后全部专利许可协议累计总金额预计超过69亿美元，并自2021年起知识产权授权业务实现正向收入。协议公布后高通盘前股价最高涨超4%。",
+        "digest": null,
         "latest_at": "2026-10-05T16:32:23.000Z",
         "original_url": "https://www.ithome.com/1/009/852.htm",
         "rank": 4,
@@ -12,11 +29,11 @@
         "representative_source": "IT之家（RSS）",
         "signal_count": 13,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
         "title": "华为高通达成5G等专利交叉许可协议"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -33,7 +50,7 @@
         "story_url": "https://aihot.virxact.com/story/397fcf8b-ea91-4150-a638-8fd4679eed40",
         "title": "马斯克确认SpaceXAI将更名为SpaceXSI"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -55,19 +72,19 @@
     {
       "item": {
         "aihot_story_id": "553aab31-30b1-4787-bd62-3b006d83295e",
-        "digest": "Reflection AI 发布首个开源权重模型 Beam，为纯文本稀疏 MoE 架构，总参数 501B、激活 23B，预训练数据 23.8 万亿 token，上下文窗口 100 万 token，主打编码、推理和智能体任务，公司称从零端到端训练。权重、技术报告、模型卡及开发者资料将于本月以 Apache 2.0 许可发布，并通过超大规模云厂商和新云分发，目前可登记获取早期访问。\n\n此前 Axios 报道称，Reflection 等多家西方企业本月将推出开放权重模型；Reflection 的模型预计最初落后于美国竞争对手最先进的闭源模型，但足以同中国友商的顶级开放权重模型竞争。开放权重模型支持客户本地部署，对微调和推理数据安全要求严格的行业是关键优势。\n\nNathan Lambert 转发祝贺 Beam 发布，称首个模型不易，期待其加速对生态的贡献；随后他又表示，Reflection 加入了 Nvidia 和 Thinking Machines 的行列——发布了自家最强模型却仍落后于中国同行。Artificial Analysis 称已获 Reflection 提供访问并开始独立基准测试，早期指标显示 Beam 在同等智能水平下 token 效率突出。",
-        "latest_at": "2026-10-05T21:20:31.000Z",
+        "digest": "Reflection AI 发布首个开放权重模型 Beam，为纯文本稀疏 MoE 架构，总参数 501B、每 token 激活 23B，预训练数据 23.8 万亿 token，有效上下文 100 万 token，主打编码、推理和智能体任务，公司称从零端到端训练。目前尚不能自托管，早期访问通过 Reflection 平台候补名单登记；权重、技术报告、模型卡及开发者资料将于本月以 Apache 2.0 许可发布，并通过超大规模云厂商和新云分发。\n\n此前 Axios 报道称，Reflection 等多家西方企业本月将推出开放权重模型；Reflection 的模型预计最初落后于美国竞争对手最先进的闭源模型，但足以同中国友商的顶级开放权重模型竞争。Nathan Lambert 转发祝贺 Beam 发布，随后又称 Reflection 加入了 Nvidia 和 Thinking Machines 的行列——发布了自家最强模型却仍落后于中国同行。Artificial Analysis 称已获 Reflection 提供访问并开始独立基准测试，早期指标显示 Beam 在同等智能水平下 token 效率突出。",
+        "latest_at": "2026-10-06T00:42:20.000Z",
         "original_url": "https://reflection.ai/blog/introducing-beam",
         "rank": 1,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
-        "signal_count": 14,
-        "source_count": 8,
+        "signal_count": 20,
+        "source_count": 9,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
         "title": "Reflection 发布 501B 开源模型 Beam，本月放权重"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -89,19 +106,19 @@
     {
       "item": {
         "aihot_story_id": "8d77783c-db18-4e6a-b8e7-70b012886402",
-        "digest": "OpenAI 核心产品与平台负责人 Thibault Sottiaux 宣布，未来 28 天每天为 Codex 和 ChatGPT Work 发布一项对多数用户有明显改善的功能更新，否则提供一次“重置”，周期预计从 10 月 5 日持续至 11 月 2 日。他未说明重置的具体方式，也未确认重置覆盖哪些用户或额度。\n\n10 月 6 日，Sottiaux 公布首日更新：通过订阅为 GPT-6 Astra 和 GPT-6.1 Sol 优化默认速度，提升约 50%，覆盖 OpenAI 所有产品以及使用 Sign in With ChatGPT 的合作伙伴（包括 OpenCode、Pi、Amp、Devin 等），用户无需改动，预计两小时内可感受到。",
+        "digest": null,
         "latest_at": "2026-10-05T17:49:34.000Z",
         "original_url": "https://www.ithome.com/1/009/761.htm",
         "rank": 3,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 17,
+        "signal_count": 19,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/8d77783c-db18-4e6a-b8e7-70b012886402",
         "title": "OpenAI 启动 Codex 与 ChatGPT Work 28 天每日更新"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -112,13 +129,13 @@
         "rank": 5,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 9,
+        "signal_count": 10,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/93ed3076-cae1-4349-9f3d-c629827d554c",
         "title": "OpenAI在ChatGPT图像生成中测试视觉广告"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -136,6 +153,23 @@
         "title": "Gemini免费用户模型调整为Flash-Lite"
       },
       "observed_at": "2026-10-05T16:07:57.284181Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "aa02ac93-b059-4123-9fe0-8845706eb2e5",
+        "digest": "SemiAnalysis 通过逐项测量用量表变化，估算各 AI 订阅计划的 API 等价价值，结论是在中端模型档位，Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上。该测算依托其新推出的 Subscriptions Dashboard，仅面向 Tokenomics Model 订阅用户开放。\n\nSemiAnalysis 随后补充称，订阅计划的价值不能孤立地看：月费换取的是一定额度 credits，不同（模型、token 类型）组合消耗的 credits 不同，且 credit 成本比与 API 价格比差异巨大，因此同一 200 美元/月的 Claude 计划，其 API 等价价值会随所用模型和工作负载而变。",
+        "latest_at": "2026-10-05T23:30:07.000Z",
+        "original_url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "SemiAnalysis 长文 RSS（RSS）",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/aa02ac93-b059-4123-9fe0-8845706eb2e5",
+        "title": "SemiAnalysis：Anthropic订阅API等价价值约为OpenAI五倍"
+      },
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -157,19 +191,19 @@
     {
       "item": {
         "aihot_story_id": "b92e615b-0baf-4821-a3ac-e621dde3db2c",
-        "digest": "OpenAI 公布应对欧盟《人工智能法案》的文本溯源方案，推出名为 textGrain 的文本水印技术，做法是在模型逐词选择过程中加入不可见的统计信号。全球 API 客户即日起可对部分模型选择性开启水印，但 API 中水印默认关闭；未来数周，OpenAI 将在欧盟地区为符合条件的 ChatGPT 和 Codex 文本输出添加隐形水印，覆盖所有套餐，且不设为全球默认。\n\n检测水印的工具暂只向获批的研究者和专家机构开放，OpenAI 称这些机构可帮助其评估和改进该技术；据 IT之家报道，该工具只报告是否检测到 OpenAI 水印，不透露用户或对话内容。The Decoder 称，与 Anthropic 对 Claude 的全球强制水印不同，OpenAI 允许全球 API 客户关闭水印。\n\nOpenAI 同时说明该水印不添加可见标记，不识别作者、组织、账号或对话来源，并称测试中未影响模型能力、速度或阅读体验；但 OpenAI 也承认文本水印存在明显局限：短文本中常难以检测，改写或翻译可完全去除水印。X 账号 Testing Catalog 称，OpenAI 官方测试显示 textGrain 效果追平或超过 SynthID 且质量无明显损失，并将开源；该账号同时表示这仍需实际测试验证。",
+        "digest": null,
         "latest_at": "2026-10-05T20:36:48.000Z",
         "original_url": "https://openai.com/index/eu-text-provenance",
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 13,
+        "signal_count": 15,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b92e615b-0baf-4821-a3ac-e621dde3db2c",
         "title": "OpenAI公布欧盟文本溯源水印方案"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -177,7 +211,7 @@
         "digest": null,
         "latest_at": "2026-10-05T04:39:32.000Z",
         "original_url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 14,
@@ -186,7 +220,7 @@
         "story_url": "https://aihot.virxact.com/story/d5b32762-56e9-4fb8-8976-fef8dadd068a",
         "title": "特朗普成立超级智能工作组，克莱顿牵头"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
@@ -194,16 +228,16 @@
         "digest": null,
         "latest_at": "2026-10-05T06:07:35.000Z",
         "original_url": "https://www.ithome.com/1/009/805.htm",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
-        "signal_count": 8,
+        "signal_count": 11,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f4f04774-a627-409f-aeee-0bb78eff24cf",
         "title": "施耐德电气226亿美元全现金收购PTC"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T03:04:31.021729Z"
     },
     {
       "item": {
