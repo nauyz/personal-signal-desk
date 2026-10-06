@@ -21,19 +21,19 @@
     {
       "item": {
         "aihot_story_id": "2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
-        "digest": null,
-        "latest_at": "2026-10-05T16:32:23.000Z",
+        "digest": "华为与高通于2026年10月5日在深圳宣布达成一项多年期、广泛的专利许可协议，涵盖5G、计算、人工智能、网络等领域的专利组合交叉许可，高通还将收购华为在计算、AI、网络等领域的部分美国专利。这是双方首份涵盖5G技术的专利许可协议。协议需获得必要监管审批后方可完成，双方称协议遵循FRAND原则。\n\n华为称，交易完成后全部专利许可协议累计总金额预计将超过69亿美元，并自2021年起知识产权授权业务实现正向收入。据Nikkei Asia报道，高通将首次成为净付款方，且购买的是部分华为美国专利的所有权而非仅使用权；财务条款未披露。协议公布后高通盘前股价最高涨超4%。\n\n关于高通是否授权华为逻辑折叠芯片制造技术所依赖的专利，双方说法相左：彭博社曾报道高通已同意授权，IT之家后续报道称华为与高通就此分别作出回应，说法不一致。",
+        "latest_at": "2026-10-06T09:18:15.000Z",
         "original_url": "https://www.ithome.com/1/009/852.htm",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "IT之家（RSS）",
         "signal_count": 13,
         "source_count": 3,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/2db86cc5-e2f8-4e6f-b7c7-e987069aa6b0",
-        "title": "华为高通达成5G等专利交叉许可协议"
+        "title": "华为与高通达成5G等专利交叉许可协议"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
@@ -51,6 +51,23 @@
         "title": "马斯克确认SpaceXAI将更名为SpaceXSI"
       },
       "observed_at": "2026-10-06T03:04:31.021729Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
+        "digest": null,
+        "latest_at": "2026-10-06T06:44:57.000Z",
+        "original_url": "https://www.ithome.com/1/009/990.htm",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 7,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
+        "title": "DeepSeek接近完成至少800亿元融资"
+      },
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
@@ -78,35 +95,35 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
-        "signal_count": 20,
+        "signal_count": 27,
         "source_count": 9,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
         "title": "Reflection 发布 501B 开源模型 Beam，本月放权重"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
         "aihot_story_id": "59b0b4d1-c1e5-4149-91c5-69f920c1845e",
         "digest": "OpenAI CEO 萨姆·奥尔特曼在 Politico 的《Decoded》播客中表示，AI 带来的收益巨大，世界应接受过程中发生一些坏事，例如黑客攻击和诈骗。他借此与竞争对手 Anthropic 的谨慎监管路线划清界限，自称 OpenAI 是务实中间派，并称双方在 AI 监管上仍存在根本性的世界观分歧。\n\n奥尔特曼同时澄清，自己也无法接受\"真正毁灭性的灾难风险\"，包括人类对 AI 严重失控的极端情形。他主张技术应继续面向公众广泛开放。",
-        "latest_at": "2026-10-05T16:44:21.000Z",
+        "latest_at": "2026-10-06T06:38:27.000Z",
         "original_url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 6,
-        "source_count": 2,
+        "signal_count": 7,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/59b0b4d1-c1e5-4149-91c5-69f920c1845e",
         "title": "奥尔特曼称AI效益值得承担部分风险"
       },
-      "observed_at": "2026-10-05T22:43:35.025640Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
         "aihot_story_id": "8d77783c-db18-4e6a-b8e7-70b012886402",
-        "digest": null,
+        "digest": "OpenAI 核心产品与平台负责人 Thibault Sottiaux 宣布，未来 28 天每天为 Codex 和 ChatGPT Work 发布一项对多数用户有明显改善的功能更新，否则提供一次“重置”，周期预计从 10 月 5 日持续至 11 月 2 日。他未说明重置的具体方式，也未确认重置覆盖哪些用户或额度。\n\n10 月 6 日，Sottiaux 公布首日更新：通过订阅为 GPT-6 Astra 和 GPT-6.1 Sol 优化默认速度，提升约 50%，覆盖 OpenAI 所有产品以及使用 Sign in With ChatGPT 的合作伙伴（包括 OpenCode、Pi、Amp、Devin 等），用户无需改动，预计两小时内可感受到。",
         "latest_at": "2026-10-05T17:49:34.000Z",
         "original_url": "https://www.ithome.com/1/009/761.htm",
         "rank": 3,
@@ -114,11 +131,11 @@
         "representative_source": "IT之家（RSS）",
         "signal_count": 19,
         "source_count": 3,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/8d77783c-db18-4e6a-b8e7-70b012886402",
         "title": "OpenAI 启动 Codex 与 ChatGPT Work 28 天每日更新"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
@@ -126,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-10-05T15:14:24.000Z",
         "original_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 10,
+        "signal_count": 12,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/93ed3076-cae1-4349-9f3d-c629827d554c",
         "title": "OpenAI在ChatGPT图像生成中测试视觉广告"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
@@ -157,19 +174,19 @@
     {
       "item": {
         "aihot_story_id": "aa02ac93-b059-4123-9fe0-8845706eb2e5",
-        "digest": "SemiAnalysis 通过逐项测量用量表变化，估算各 AI 订阅计划的 API 等价价值，结论是在中端模型档位，Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上。该测算依托其新推出的 Subscriptions Dashboard，仅面向 Tokenomics Model 订阅用户开放。\n\nSemiAnalysis 随后补充称，订阅计划的价值不能孤立地看：月费换取的是一定额度 credits，不同（模型、token 类型）组合消耗的 credits 不同，且 credit 成本比与 API 价格比差异巨大，因此同一 200 美元/月的 Claude 计划，其 API 等价价值会随所用模型和工作负载而变。",
+        "digest": null,
         "latest_at": "2026-10-05T23:30:07.000Z",
         "original_url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
-        "rank": 9,
+        "rank": 8,
         "recovered": false,
         "representative_source": "SemiAnalysis 长文 RSS（RSS）",
-        "signal_count": 4,
+        "signal_count": 6,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/aa02ac93-b059-4123-9fe0-8845706eb2e5",
         "title": "SemiAnalysis：Anthropic订阅API等价价值约为OpenAI五倍"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
@@ -197,13 +214,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 15,
+        "signal_count": 19,
         "source_count": 7,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b92e615b-0baf-4821-a3ac-e621dde3db2c",
         "title": "OpenAI公布欧盟文本溯源水印方案"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
@@ -211,7 +228,7 @@
         "digest": null,
         "latest_at": "2026-10-05T04:39:32.000Z",
         "original_url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 14,
@@ -220,7 +237,7 @@
         "story_url": "https://aihot.virxact.com/story/d5b32762-56e9-4fb8-8976-fef8dadd068a",
         "title": "特朗普成立超级智能工作组，克莱顿牵头"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
@@ -237,7 +254,7 @@
         "story_url": "https://aihot.virxact.com/story/f4f04774-a627-409f-aeee-0bb78eff24cf",
         "title": "施耐德电气226亿美元全现金收购PTC"
       },
-      "observed_at": "2026-10-06T03:04:31.021729Z"
+      "observed_at": "2026-10-06T10:27:46.466054Z"
     },
     {
       "item": {
