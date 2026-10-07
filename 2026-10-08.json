@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "28375512-d27e-4a60-8a37-dee79df660d4",
+        "digest": "Google 发布 EmbeddingGemma 2，称其为首个原生多模态开源嵌入模型，基于 Gemma 4 架构，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间。权重已在 Hugging Face 和 Kaggle 开放下载，Gemini Enterprise Agent Platform Model Garden 即将上线。\n\n模型总参数 740M，由 270M 文本、170M 视觉和 300M 音频编码器组成，提供 740M 全模态、440M 文本+视觉、570M 文本+音频和 270M 纯文本四个版本，支持 8K 上下文和 100 多种语言。Google 称其性能超过部分体积两倍以上的专用模型，活跃内存占用约 191MB 至 567MB；Unsloth 称 270M 版本最低 0.5GB RAM、完整多模态版 1GB RAM 可本地运行。\n\n该模型可与 Gemma 4 搭配实现端侧检索增强生成，检索本地文件后由 Gemma 4 推理作答。llama.cpp 提供 Day-0 支持，Sentence Transformers、LiteRT-LM、Ollama 和 GGUF 构建已可用。Simon Willison 评论称 Apache 2.0 许可对嵌入模型很重要，因为厂商停供时用户需为重新计算存量向量付费。Google 同期推出 macOS 应用 AI Edge Foresight，可完全离线生成会议纪要，兼容 Apple 芯片 Mac，免费下载。",
+        "latest_at": "2026-10-07T15:20:41.000Z",
+        "original_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 19,
+        "source_count": 11,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/28375512-d27e-4a60-8a37-dee79df660d4",
+        "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "30e9531f-5f58-4e7e-8a67-705e2340a4b6",
+        "digest": "OpenAI 的 Decisions API 已从 10 月 1 日 Dev Day 发布时的限量预览，转为面向所有开发者的公开测试。OpenAI Developers 称，通过 Responses API 调用该 API 做决策的速度比 GPT-6 Luna 快最多 10 倍，并预计未来几周内正式可用（GA）。\n\n目前仅支持 gpt-6-luna 模型，输入价格为每百万 token 0.10 美元，且只对输入 token 计费，不收取缓存读写或输出 token 费用；该 API 对符合条件的客户支持零数据保留（ZDR）和 HIPAA 用途。\n\nSimon Willison 随后发布 llm-openai-decisions 0.1a0 插件接入该 API，并称 OpenAI 为每百万输入 token 0.10 美元、TypeSafe AI 的 Jev 为 4.2 美分，两者都只对输入计费。此前 TechCrunch 报道提到，开发者已用 Jev 监控 AI 智能体行为，单次监控成本 2.94 美元，而使用前沿 LLM 需 372 美元；这一成本对比来自该报道对 Jev 的表述，并非 OpenAI 对 Decisions API 的说明。",
+        "latest_at": "2026-10-07T15:36:39.000Z",
+        "original_url": "https://x.com/thsottiaux/status/2107574912349303197",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 8,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/30e9531f-5f58-4e7e-8a67-705e2340a4b6",
+        "title": "OpenAI Decisions API 从限量预览转公测"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "553aab31-30b1-4787-bd62-3b006d83295e",
+        "digest": null,
+        "latest_at": "2026-10-06T17:17:23.000Z",
+        "original_url": "https://reflection.ai/blog/introducing-beam",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Hacker News：AI 热帖",
+        "signal_count": 30,
+        "source_count": 11,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
+        "title": "Reflection 发布 501B 开源模型 Beam，本月放权重"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7e603124-6d1c-4e46-abf7-3c1b515383cb",
+        "digest": null,
+        "latest_at": "2026-10-07T01:21:22.000Z",
+        "original_url": "https://www.ithome.com/1/010/134.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/7e603124-6d1c-4e46-abf7-3c1b515383cb",
+        "title": "SpaceX洽谈借款400亿美元采购英伟达芯片"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9185ce03-ea6c-4422-abbf-bef5d5f8b884",
+        "digest": "Mistral AI 发布 Mistral Large 4（代号 Le Chonk）公开预览版：总参数 1T（1.05T）、激活参数 49B，采用细粒度 MoE 架构并配备 1.6B 视觉编码器，支持原生多模态。预览版 API 即日起在 Mistral Studio 开放，模型权重计划于 10 月底开放下载。官方称其为美欧最佳开放权重模型，在网络防御、制造和金融等关键工作负载达到 SOTA，视觉 grounding 上超越闭源前沿模型。\n\n第三方评测机构 Artificial Analysis 称该模型以研究公开预览版形式发布，在其智能指数得 38 分，与 GPT-6 Luna (max) 持平，为美中之外最智能的模型；预览版前两周按五折提供，任务成本降至 0.57 美元。据 VentureBeat，其在 DeepSWE 得分 62%，超过 GLM-5.3 的 61%，Finch 金融任务得分 67%，Harvey 法律智能体基准得分 15%，均为开源权重 SOTA。The Decoder 则指出其 38 分仍落后 Claude Opus 5.5 的 58 分，预览期按每百万输入 token 0.68 美元、输出 2.09 美元计费。TechCrunch 称目前仅能通过公开 guardrail 端点访问，安全测试完成后计划在三周内开放权重。\n\n发布前，CEO Arthur Mensch 在阿布扎比 Ai Everything 会议上预告当日发布，称该模型在网络安全等某些方面优于中国的模型，但未说明比较对象及网络安全以外的优势领域。",
+        "latest_at": "2026-10-07T14:12:37.000Z",
+        "original_url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Artificial Analysis 完整文章（网页）",
+        "signal_count": 35,
+        "source_count": 18,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/9185ce03-ea6c-4422-abbf-bef5d5f8b884",
+        "title": "Mistral 发布 Large 4 预览版，月底开放权重"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a36266a9-2877-42dd-afdb-1b2411431fa6",
+        "digest": "Google 推出实验性 AI 游戏平台 Playground，用户通过文本提示词即可创建、游玩和分享基于浏览器的游戏，无需编程经验。平台由 Google Labs 发布，并与 Unity 合作；用户可选择问答、竞速等类型及 2D 或 3D、单人或多人模式，上传图片转为游戏素材，作品可私密保存、通过链接分享或发布到 Explore 画廊。\n\nPlayground 面向美国 18 岁以上用户开放，网址为 playground.google。TechCrunch 称，浏览和游玩目录中的游戏免费，生成游戏采用每周 token 额度制，Google One AI 订阅用户额度更高；Google 称创建权限按 Google One 会员等级分层开放。Testing Catalog 则称，付费套餐用户可生成，所有人都可游玩画廊中的游戏。IT之家称，未来 Playground 将与 Unity Spark 集成，提供更强的修改程序和 3D 开发能力。",
+        "latest_at": "2026-10-07T15:41:17.000Z",
+        "original_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "Google Blog：AI（RSS）",
+        "signal_count": 6,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a36266a9-2877-42dd-afdb-1b2411431fa6",
+        "title": "Google 推出实验性 AI 游戏平台 Playground"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
+        "digest": "OpenAI 于 10 月 7 日在 GitHub 仓库 github.com/openai/math 公开一批由内部未发布前沿模型产出的数学结果，共 722 份手稿、372 个结果家族，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。OpenAI 称发布前咨询了普林斯顿高等研究院数学与人工智能独立顾问组，并依据其建议和公开建议决定发布方式。\n\n据 Testing Catalog 报道，绝大多数结果由同一流程、用未发布的内部模型完成，平均每个结果使用三小时 ChatGPT Pro thinking 算力，评估期间模型共被提出约 4,000 个问题；例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。IT之家报道称，咨询小组 AGMAI 呼吁通过学术渠道发布并披露模型名称、提示词和算力开销。\n\n此前数学界已有反对声音：agmai.org 于 9 月 29 日发布《Responsible Release of AI-Generated Mathematics》，明确反对在闭源模型上测试高难度数学问题；资深数学家委员会也建议 OpenAI 停止在专有模型上测试高等数学问题。",
+        "latest_at": "2026-10-07T08:54:43.000Z",
+        "original_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 28,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
+        "title": "OpenAI 公开内部模型数学成果与 Lean 证明"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b0de7ab6-57f6-4bb1-9267-e073ebc2cfa3",
+        "digest": null,
+        "latest_at": "2026-10-07T05:07:47.000Z",
+        "original_url": "https://ai.google.dev/gemini-api/docs/changelog#10-06-2026",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Gemini API：更新日志（网页）",
+        "signal_count": 20,
+        "source_count": 12,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/b0de7ab6-57f6-4bb1-9267-e073ebc2cfa3",
+        "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d0ee11b2-3ace-4e23-9668-fb3c82550bdb",
+        "digest": "马斯克在 X 发布关于 Grok @Bot 的说明称，SpaceX 今后将针对任何给定任务使用最佳后端模型，包括 Claude Opus 5.5、MidJourney、Suno 及其他领先 API，并称一切以最有可能带来最佳结果为准则。该说明未披露具体任务范围、调用方式，也未说明与 xAI 自有模型的分工。\n\nRohan Paul 转述同一说明时称，Claude Opus 5.5、MidJourney、Suno 已上线 Grok @bot。Testing Catalog 则称 Grok Bot 将由 Claude Opus 5.5 驱动，或总体使用市面上最好的模型，并认为 OpenAI 的模型应该不在考虑范围内。\n\n马斯克后续补充称，Grok @Bot 会采用对用户最有利的方案：简单问题路由到小型、快速的模型，复杂问题路由到大型模型。",
+        "latest_at": "2026-10-07T15:04:46.000Z",
+        "original_url": "https://x.com/testingcatalog/status/2107803665457189061",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Testing Catalog (@testingcatalog)",
+        "signal_count": 21,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d0ee11b2-3ace-4e23-9668-fb3c82550bdb",
+        "title": "SpaceX 宣布 Grok Bot 按任务选用最佳后端模型"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e0b8ed75-6851-478e-801d-e5d6189e66ac",
+        "digest": "Google 将 SynthID Detector 面向全球所有人开放，并上线 synthid.com 网站，任何人可上传图片、视频或音频文件，检查其中是否带有 AI 水印。此前该工具只向部分记者、媒体从业者和研究人员开放测试，外部用户只能通过 Gemini 检测，且旧版检测器只识别 Google 自家的 SynthID。\n\n新版检测器支持所有合作方的水印，合作方包括 OpenAI、NVIDIA、Kakao，Apple 即将加入。Google DeepMind 称，该工具可快速识别视频、音频和图像中的 SynthID 水印，即使内容经过添加滤镜等编辑仍可检测；用户也可使用 Chrome、Google 搜索和 Gemini 应用中已有的 AI 内容识别功能。据 Google 数据，仅 Gemini 就已集成超过 1800 亿张图片和视频以及 24 万年的音频。\n\nSynthID 是嵌入图像、视频像素和音频波形中的隐形水印。IT之家报道称，该工具的检测结果并非 100% 准确。",
+        "latest_at": "2026-10-07T14:47:41.000Z",
+        "original_url": "https://x.com/Google/status/2107836410254291345",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Google (@Google)",
+        "signal_count": 7,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/e0b8ed75-6851-478e-801d-e5d6189e66ac",
+        "title": "Google 全球开放 SynthID 水印检测器"
+      },
+      "observed_at": "2026-10-07T16:36:22.858258Z"
+    }
+  ],
+  "version": 1
+}
