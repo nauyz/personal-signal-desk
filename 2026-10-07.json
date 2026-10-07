@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "28375512-d27e-4a60-8a37-dee79df660d4",
-        "digest": "Google 发布 EmbeddingGemma 2，称其为首个原生多模态开源嵌入模型，基于 Gemma 4 架构，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间。权重已在 Hugging Face 和 Kaggle 开放下载，Gemini Enterprise Agent Platform Model Garden 即将上线。\n\n模型总参数 740M，由 270M 文本、170M 视觉和 300M 音频编码器组成，提供 740M 全模态、440M 文本+视觉、570M 文本+音频和 270M 纯文本四个版本，支持 8K 上下文和 100 多种语言。Google 称其性能超过部分体积两倍以上的专用模型，活跃内存占用约 191MB 至 567MB；Unsloth 称 270M 版本最低 0.5GB RAM、完整多模态版 1GB RAM 可本地运行。\n\n该模型可与 Gemma 4 搭配实现端侧检索增强生成，检索本地文件后由 Gemma 4 推理作答。llama.cpp 提供 Day-0 支持，Sentence Transformers、LiteRT-LM、Ollama 和 GGUF 构建已可用。Simon Willison 评论称 Apache 2.0 许可对嵌入模型很重要，因为厂商停供时用户需为重新计算存量向量付费。",
-        "latest_at": "2026-10-06T22:41:19.000Z",
+        "digest": "Google 发布 EmbeddingGemma 2，称其为首个原生多模态开源嵌入模型，基于 Gemma 4 架构，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间。权重已在 Hugging Face 和 Kaggle 开放下载，Gemini Enterprise Agent Platform Model Garden 即将上线。\n\n模型总参数 740M，由 270M 文本、170M 视觉和 300M 音频编码器组成，提供 740M 全模态、440M 文本+视觉、570M 文本+音频和 270M 纯文本四个版本，支持 8K 上下文和 100 多种语言。Google 称其性能超过部分体积两倍以上的专用模型，活跃内存占用约 191MB 至 567MB；Unsloth 称 270M 版本最低 0.5GB RAM、完整多模态版 1GB RAM 可本地运行。\n\n该模型可与 Gemma 4 搭配实现端侧检索增强生成，检索本地文件后由 Gemma 4 推理作答。llama.cpp 提供 Day-0 支持，Sentence Transformers、LiteRT-LM、Ollama 和 GGUF 构建已可用。Simon Willison 评论称 Apache 2.0 许可对嵌入模型很重要，因为厂商停供时用户需为重新计算存量向量付费。Google 同期推出 macOS 应用 AI Edge Foresight，可完全离线生成会议纪要，兼容 Apple 芯片 Mac，免费下载。",
+        "latest_at": "2026-10-07T07:32:06.000Z",
         "original_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 11,
+        "signal_count": 18,
         "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/28375512-d27e-4a60-8a37-dee79df660d4",
         "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
@@ -38,36 +38,36 @@
     {
       "item": {
         "aihot_story_id": "30e9531f-5f58-4e7e-8a67-705e2340a4b6",
-        "digest": "OpenAI 的 Decisions API 已从 10 月 1 日 Dev Day 发布时的限量预览，转为面向所有开发者的公开测试。OpenAI Developers 称，通过 Responses API 调用该 API 做决策的速度比 GPT-6 Luna 快最多 10 倍，并预计未来几周内正式可用（GA）。\n\n目前仅支持 gpt-6-luna 模型，输入价格为每百万 token 0.10 美元，且只对输入 token 计费，不收取缓存读写或输出 token 费用；该 API 对符合条件的客户支持零数据保留（ZDR）和 HIPAA 用途。\n\nSimon Willison 随后发布 llm-openai-decisions 0.1a0 插件接入该 API，并称 OpenAI 为每百万输入 token 0.10 美元、TypeSafe AI 的 Jev 为 4.2 美分，两者都只对输入计费。此前 TechCrunch 报道提到，开发者已用 Jev 监控 AI 智能体行为，单次监控成本 2.94 美元，而使用前沿 LLM 需 372 美元；这一成本对比来自该报道对 Jev 的表述，并非 OpenAI 对 Decisions API 的说明。",
+        "digest": null,
         "latest_at": "2026-10-07T00:03:31.762Z",
         "original_url": "https://x.com/thsottiaux/status/2107574912349303197",
-        "rank": 7,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
         "signal_count": 7,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/30e9531f-5f58-4e7e-8a67-705e2340a4b6",
         "title": "OpenAI Decisions API 从限量预览转公测"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
         "aihot_story_id": "3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
-        "digest": "据彭博社援引知情人士报道，DeepSeek 新一轮融资接近完成，规模至少 800 亿元人民币（约 120 亿美元），高于其原定约 500 亿元（约 75 亿美元）的募资目标。腾讯和宁德时代是本轮出资规模最大的投资方之一，融资预计很快完成。\n\n彭博社称此轮估值可能达 710 亿美元，已签署的 term sheet 可能使总额接近 150 亿美元；资金将用于硬件，包括为内蒙古数据中心规划至少 16 万块华为昇腾 950DT 加速器。另有报道称 DeepSeek 计划 2027 年初 IPO，细节仍可能变化。上述金额、估值与 IPO 计划均来自彭博社，最终条款尚未公布。",
+        "digest": null,
         "latest_at": "2026-10-06T17:32:05.000Z",
         "original_url": "https://x.com/thexpin/status/2107524306058289533",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 9,
+        "signal_count": 10,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
         "title": "DeepSeek接近完成至少800亿元融资"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
@@ -75,16 +75,33 @@
         "digest": null,
         "latest_at": "2026-10-06T17:17:23.000Z",
         "original_url": "https://reflection.ai/blog/introducing-beam",
-        "rank": 2,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
-        "signal_count": 29,
+        "signal_count": 30,
         "source_count": 11,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
         "title": "Reflection 发布 501B 开源模型 Beam，本月放权重"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7e603124-6d1c-4e46-abf7-3c1b515383cb",
+        "digest": "据彭博社报道，SpaceX 正就借款 400 亿美元采购英伟达芯片进行早期洽谈，由阿波罗全球管理牵头，太平洋投资管理公司也有参与。此前《金融时报》报道称，该方案包括约 100 亿美元银行贷款和 300 亿美元投资级债券，预计 2027 年完成。\n\n马斯克此前在业绩电话会议上称，SpaceX 将完全基于英伟达硬件开展建设，其中许多芯片用于出租，Anthropic 到 2029 年可能向其支付最多 845 亿美元。MarketAxess 数据显示，SpaceX 2056 年到期债券收益率已比美国国债高出约 2.27 个百分点。",
+        "latest_at": "2026-10-07T01:21:22.000Z",
+        "original_url": "https://www.ithome.com/1/010/134.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家（RSS）",
+        "signal_count": 7,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7e603124-6d1c-4e46-abf7-3c1b515383cb",
+        "title": "SpaceX洽谈借款400亿美元采购英伟达芯片"
+      },
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
@@ -106,19 +123,19 @@
     {
       "item": {
         "aihot_story_id": "9185ce03-ea6c-4422-abbf-bef5d5f8b884",
-        "digest": null,
+        "digest": "Mistral AI 发布 Mistral Large 4（代号 Le Chonk）公开预览版：总参数 1T（1.05T）、激活参数 49B，采用细粒度 MoE 架构并配备 1.6B 视觉编码器，支持原生多模态。预览版 API 即日起在 Mistral Studio 开放，模型权重计划于 10 月底开放下载。官方称其为美欧最佳开放权重模型，在网络防御、制造和金融等关键工作负载达到 SOTA，视觉 grounding 上超越闭源前沿模型。\n\n第三方评测机构 Artificial Analysis 称该模型以研究公开预览版形式发布，在其智能指数得 38 分，与 GPT-6 Luna (max) 持平，为美中之外最智能的模型；预览版前两周按五折提供，任务成本降至 0.57 美元。据 VentureBeat，其在 DeepSWE 得分 62%，超过 GLM-5.3 的 61%，Finch 金融任务得分 67%，Harvey 法律智能体基准得分 15%，均为开源权重 SOTA。The Decoder 则指出其 38 分仍落后 Claude Opus 5.5 的 58 分，预览期按每百万输入 token 0.68 美元、输出 2.09 美元计费。TechCrunch 称目前仅能通过公开 guardrail 端点访问，安全测试完成后计划在三周内开放权重。\n\n发布前，CEO Arthur Mensch 在阿布扎比 Ai Everything 会议上预告当日发布，称该模型在网络安全等某些方面优于中国的模型，但未说明比较对象及网络安全以外的优势领域。",
         "latest_at": "2026-10-06T20:18:19.000Z",
         "original_url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
         "rank": 1,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
-        "signal_count": 30,
+        "signal_count": 32,
         "source_count": 19,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/9185ce03-ea6c-4422-abbf-bef5d5f8b884",
         "title": "Mistral 发布 Large 4 预览版，月底开放权重"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
@@ -140,36 +157,36 @@
     {
       "item": {
         "aihot_story_id": "aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
-        "digest": "OpenAI 于 10 月 7 日在 GitHub 仓库 github.com/openai/math 公开一批由内部未发布前沿模型产出的数学结果，共 722 份手稿、372 个结果家族，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。OpenAI 称发布前咨询了普林斯顿高等研究院数学与人工智能独立顾问组，并依据其建议和公开建议决定发布方式。\n\n据 Testing Catalog 报道，绝大多数结果由同一流程、用未发布的内部模型完成，平均每个结果使用三小时 ChatGPT Pro thinking 算力，评估期间模型共被提出约 4,000 个问题；例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。IT之家报道称，咨询小组 AGMAI 呼吁通过学术渠道发布并披露模型名称、提示词和算力开销。\n\n此前数学界已有反对声音：agmai.org 于 9 月 29 日发布《Responsible Release of AI-Generated Mathematics》，明确反对在闭源模型上测试高难度数学问题；资深数学家委员会也建议 OpenAI 停止在专有模型上测试高等数学问题。",
+        "digest": null,
         "latest_at": "2026-10-07T01:15:20.000Z",
         "original_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-        "rank": 5,
+        "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 12,
+        "signal_count": 20,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
         "title": "OpenAI 公开内部模型数学成果与 Lean 证明"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
         "aihot_story_id": "b0de7ab6-57f6-4bb1-9267-e073ebc2cfa3",
-        "digest": "Google 发布图像生成与编辑模型 Nano Banana 2.1（gemini-nano-banana-2.1），取代 Nano Banana 2（gemini-3.1-flash-image），后者将于 2026 年 10 月 29 日停用。Google DeepMind 开发者体验的 Philipp Schmid 称其表现超越此前的 Pro 模型，价格从每张 0.134 美元降至 0.034 美元，约为四分之一。\n\n据 Testing Catalog 转述，图像输出按每 100 万 token 30 美元计费：1K（1024x1024px）每张消耗 1120 token、0.034 美元；2K 1680 token、0.050 美元；4K 2520 token、0.076 美元。OpenRouter 页面则给出不同价格：1K 每张 0.0336 美元、2K 0.0504 美元、4K 0.1134 美元，并称支持最多 14 张参考图、接入 Google Search grounding，以及 1:4、4:1、1:8、8:1 的 2K 和 4K 全景输出。The Decoder 则称 1K 从 6.70 美分降至 3.36 美分、4K 从 15.10 降至 7.56 美分。\n\nSchmid 称新版本改进了指令遵循和图内文字渲染，接入 Google Image Search 做接地，支持最多 5 个角色一致性并可使用 14 张参考图。Google 官方账号称其当天起在 Gemini App、Search AI Mode、Google AI Studio、Flow、Stitch、Google Ads 和 Gemini Enterprise Platform 推出；fal 和 OpenRouter 也宣布该模型已在其平台提供。Arena 榜单显示其进入 Text-to-Image、Image Edit 和 Multi-Image Edit 三项榜单，分别以 1328、1428 和 1431 分列第 5、第 6 和第 4 名。",
-        "latest_at": "2026-10-07T01:01:58.000Z",
+        "digest": "Google 发布图像生成与编辑模型 Nano Banana 2.1（模型 ID gemini-nano-banana-2.1），接替 2026 年 2 月发布的 Nano Banana 2，并弃用 gemini-3.1-flash-image（将于 2026 年 10 月 29 日关停）。Google 称其在视觉设计、基于蒙版的编辑和主体一致性上较前代提升，支持文本、图片、音频、视频输入，输出 1K、2K、4K 图像。\n\n价格方面，Google 官方定价为图像输出每百万 token 30 美元，1K 图消耗 1120 token、每张 0.034 美元，2K 为 0.050 美元，4K 为 0.076 美元。Google DeepMind 的 Philipp Schmid 称该价格约为此前 Pro 版每张 0.134 美元的四分之一；The Decoder 则称 1K 从 6.70 美分降至 3.36 美分、4K 从 15.10 降至 7.56 美分。OpenRouter 页面列出的价格为 1K 0.0336、2K 0.0504、4K 0.1134 美元。\n\n模型已在 Gemini API、Google AI Studio、Gemini App、Google Cloud、Flow、Search AI Mode、Stitch、Google Ads 和 Gemini Enterprise Platform 推出，并上线 fal、OpenRouter 等第三方平台。Arena 榜单显示其文生图 1328 分列第 5、图像编辑 1428 分列第 6、多图编辑 1431 分列第 4。",
+        "latest_at": "2026-10-07T05:07:47.000Z",
         "original_url": "https://ai.google.dev/gemini-api/docs/changelog#10-06-2026",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Gemini API：更新日志（网页）",
-        "signal_count": 14,
-        "source_count": 10,
+        "signal_count": 17,
+        "source_count": 12,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b0de7ab6-57f6-4bb1-9267-e073ebc2cfa3",
         "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
@@ -186,7 +203,7 @@
         "story_url": "https://aihot.virxact.com/story/b92e615b-0baf-4821-a3ac-e621dde3db2c",
         "title": "OpenAI在欧盟为ChatGPT文本加隐形水印"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     },
     {
       "item": {
@@ -208,19 +225,19 @@
     {
       "item": {
         "aihot_story_id": "edbb44d5-d114-49bc-8f13-575aca1d43b9",
-        "digest": "Anthropic 推出扩展版网络验证计划（CVP），整合 Project Glasswing 与原 CVP，为经核验的安全专业人员提供三档访问层级，开放更高级的网络能力并降低拦截分类器的触发。Anthropic 称，通过该计划可访问 Claude Mythos 5.1、Opus 5.5 和 Sonnet 5.5，并配有面向防御性工作的保障措施；新层级还支持经授权的攻击性安全工作，如渗透测试和红队演练。\n\n该计划要求注册组织保留数据，以便 Anthropic 监测网络滥用；在 Enterprise Frontier Safeguards（EFS）可用前，已能零数据保留使用 Claude Fable 5.1 或 Claude Mythos 5.1 的组织也可零数据保留使用 CVP。目前该层级仅面向组织，个人研究者不符合资格；CVP 也只在 Amazon Bedrock 上向符合 EFS 资格的客户提供。\n\n据 IT之家报道，三个层级均可使用 Claude Opus 5.5、Sonnet 5.5、Mythos 5.1 及后续新模型；红队层级增加授权渗透测试与红队演练权限，仅接受机构申请；约束最少的专项层级仅面向一小部分机构，允许测试电网、航空飞行系统、银行跨行转账基础设施等关键系统，Anthropic 会同美国政府审核每名参与成员资质。",
+        "digest": null,
         "latest_at": "2026-10-06T23:20:26.000Z",
         "original_url": "https://www.anthropic.com/news/cyber-verification-program",
-        "rank": 10,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 6,
+        "signal_count": 8,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/edbb44d5-d114-49bc-8f13-575aca1d43b9",
         "title": "Anthropic扩展CVP，三档开放Claude网络能力"
       },
-      "observed_at": "2026-10-07T01:37:22.194012Z"
+      "observed_at": "2026-10-07T08:47:19.467357Z"
     }
   ],
   "version": 1
