@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "28375512-d27e-4a60-8a37-dee79df660d4",
-        "digest": "Google 发布 EmbeddingGemma 2，一个基于 Gemma 4 的开源原生多模态嵌入模型，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间。模型提供 740M 全模态、440M 文本+视觉、570M 文本+音频和 270M 纯文本四个版本，支持 8K 上下文与 768/512/256/128 维 Matryoshka 嵌入，权重已在 Hugging Face 和 Kaggle 开放下载。\n\nGoogle 称，用户可通过 sentence-transformers（v6.1.0 或更高版本）在五类模态上运行该模型，其活跃内存占用约 191MB 至 567MB，单次可处理最长 5.5 分钟音频、29 张图片或 58 个视频帧；模型经过优化可在移动端和桌面端本地运行，无需联网，与 Gemma 4 搭配可实现端侧 RAG。Google DeepMind 称，这是其首个面向端侧嵌入的原生多模态开放模型，仅 740M 参数，在各项基准上超越了一些参数量是其两倍以上的专用模型。\n\nUnsloth 称，270M 版本最低 0.5GB RAM、完整多模态版 1GB RAM 本地运行，可通过其 GGUF 运行和微调；llama.cpp 已提供 Day-0 支持。Simon Willison 评论称，Apache 2.0 许可对嵌入模型至关重要，因为用户通常需存储大量向量，一旦厂商停供，重新计算存量向量的成本需由用户承担。",
-        "latest_at": "2026-10-06T21:05:47.000Z",
+        "digest": "Google 发布 EmbeddingGemma 2，称其为首个原生多模态开源嵌入模型，基于 Gemma 4 架构，采用 Apache 2.0 许可，将文本、代码、图像、视频和音频映射到统一的 768 维向量空间。权重已在 Hugging Face 和 Kaggle 开放下载，Gemini Enterprise Agent Platform Model Garden 即将上线。\n\n模型总参数 740M，由 270M 文本、170M 视觉和 300M 音频编码器组成，提供 740M 全模态、440M 文本+视觉、570M 文本+音频和 270M 纯文本四个版本，支持 8K 上下文和 100 多种语言。Google 称其性能超过部分体积两倍以上的专用模型，活跃内存占用约 191MB 至 567MB；Unsloth 称 270M 版本最低 0.5GB RAM、完整多模态版 1GB RAM 可本地运行。\n\n该模型可与 Gemma 4 搭配实现端侧检索增强生成，检索本地文件后由 Gemma 4 推理作答。llama.cpp 提供 Day-0 支持，Sentence Transformers、LiteRT-LM、Ollama 和 GGUF 构建已可用。Simon Willison 评论称 Apache 2.0 许可对嵌入模型很重要，因为厂商停供时用户需为重新计算存量向量付费。",
+        "latest_at": "2026-10-06T22:41:19.000Z",
         "original_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
         "rank": 4,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 8,
-        "source_count": 9,
+        "signal_count": 11,
+        "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/28375512-d27e-4a60-8a37-dee79df660d4",
         "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2"
       },
-      "observed_at": "2026-10-06T21:43:59.546539Z"
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     },
     {
       "item": {
@@ -37,11 +37,28 @@
     },
     {
       "item": {
+        "aihot_story_id": "30e9531f-5f58-4e7e-8a67-705e2340a4b6",
+        "digest": "OpenAI 的 Decisions API 已从 10 月 1 日 Dev Day 发布时的限量预览，转为面向所有开发者的公开测试。OpenAI Developers 称，通过 Responses API 调用该 API 做决策的速度比 GPT-6 Luna 快最多 10 倍，并预计未来几周内正式可用（GA）。\n\n目前仅支持 gpt-6-luna 模型，输入价格为每百万 token 0.10 美元，且只对输入 token 计费，不收取缓存读写或输出 token 费用；该 API 对符合条件的客户支持零数据保留（ZDR）和 HIPAA 用途。\n\nSimon Willison 随后发布 llm-openai-decisions 0.1a0 插件接入该 API，并称 OpenAI 为每百万输入 token 0.10 美元、TypeSafe AI 的 Jev 为 4.2 美分，两者都只对输入计费。此前 TechCrunch 报道提到，开发者已用 Jev 监控 AI 智能体行为，单次监控成本 2.94 美元，而使用前沿 LLM 需 372 美元；这一成本对比来自该报道对 Jev 的表述，并非 OpenAI 对 Decisions API 的说明。",
+        "latest_at": "2026-10-07T00:03:31.762Z",
+        "original_url": "https://x.com/thsottiaux/status/2107574912349303197",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 7,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/30e9531f-5f58-4e7e-8a67-705e2340a4b6",
+        "title": "OpenAI Decisions API 从限量预览转公测"
+      },
+      "observed_at": "2026-10-07T01:37:22.194012Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
         "digest": "据彭博社援引知情人士报道，DeepSeek 新一轮融资接近完成，规模至少 800 亿元人民币（约 120 亿美元），高于其原定约 500 亿元（约 75 亿美元）的募资目标。腾讯和宁德时代是本轮出资规模最大的投资方之一，融资预计很快完成。\n\n彭博社称此轮估值可能达 710 亿美元，已签署的 term sheet 可能使总额接近 150 亿美元；资金将用于硬件，包括为内蒙古数据中心规划至少 16 万块华为昇腾 950DT 加速器。另有报道称 DeepSeek 计划 2027 年初 IPO，细节仍可能变化。上述金额、估值与 IPO 计划均来自彭博社，最终条款尚未公布。",
         "latest_at": "2026-10-06T17:32:05.000Z",
         "original_url": "https://x.com/thexpin/status/2107524306058289533",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
         "signal_count": 9,
@@ -50,12 +67,12 @@
         "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
         "title": "DeepSeek接近完成至少800亿元融资"
       },
-      "observed_at": "2026-10-06T21:43:59.546539Z"
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     },
     {
       "item": {
         "aihot_story_id": "553aab31-30b1-4787-bd62-3b006d83295e",
-        "digest": "Reflection AI 发布首个开放权重模型 Beam，为纯文本稀疏 MoE 架构，总参数 501B、每 token 激活 23B，预训练数据 23.8 万亿 token，有效上下文 100 万 token，主打编码、推理和智能体任务，公司称从零端到端训练。目前尚不能自托管，早期访问通过 Reflection 平台候补名单登记；权重、技术报告、模型卡及开发者资料将于本月以 Apache 2.0 许可发布，并通过超大规模云厂商和新云分发。The Decoder 称 Beam 仍在进行最终安全测试，现阶段仅向部分用户提供早期版本。\n\n此前 Axios 报道称，Reflection 等多家西方企业本月将推出开放权重模型；Reflection 的模型预计最初落后于美国竞争对手最先进的闭源模型，但足以同中国友商的顶级开放权重模型竞争。Nathan Lambert 转发祝贺 Beam 发布，随后又称 Reflection 加入了 Nvidia 和 Thinking Machines 的行列——发布了自家最强模型却仍落后于中国同行。Artificial Analysis 称已获 Reflection 提供访问并开始独立基准测试，早期指标显示 Beam 在同等智能水平下 token 效率突出。\n\n关于 Beam 的实际水平，各方说法不一：The Decoder 称 Reflection 表示 Beam 在推理任务上以少三到四倍的算力匹配 GLM 5.2，编码和智能体基准接近 Qwen3.8-Max，但原始性能仍不及 Kimi K3；X 用户马东锡 NLP 称 Beam 能力接近 GLM 5.2，但与 GLM 5.3、Kimi K3、DeepSeek V4.1 Flash 相比多项能力仍有差距，推理计算量只有 GLM 5.2 的 1/3–1/4；X 用户 Yuchen Jin 则称 Beam 与 Mistral Large 4 在过去两天达到大致 GLM-5.2 的水平。",
+        "digest": null,
         "latest_at": "2026-10-06T17:17:23.000Z",
         "original_url": "https://reflection.ai/blog/introducing-beam",
         "rank": 2,
@@ -63,11 +80,11 @@
         "representative_source": "Hacker News：AI 热帖",
         "signal_count": 29,
         "source_count": 11,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
         "title": "Reflection 发布 501B 开源模型 Beam，本月放权重"
       },
-      "observed_at": "2026-10-06T21:43:59.546539Z"
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     },
     {
       "item": {
@@ -89,19 +106,19 @@
     {
       "item": {
         "aihot_story_id": "9185ce03-ea6c-4422-abbf-bef5d5f8b884",
-        "digest": "Mistral AI 发布 Mistral Large 4（代号 Le Chonk）公开预览版：总参数 1T（1.05T）、激活参数 49B，采用细粒度 MoE 架构并配备 1.6B 视觉编码器，支持原生多模态。预览版 API 即日起在 Mistral Studio 开放，模型权重计划于 10 月底开放下载。官方称其为美欧最佳开放权重模型，在网络防御、制造和金融等关键工作负载达到 SOTA，视觉 grounding 上超越闭源前沿模型。\n\n第三方评测机构 Artificial Analysis 称该模型以研究公开预览版形式发布，在其智能指数得 38 分，与 GPT-6 Luna (max) 持平，为美中之外最智能的模型；预览版前两周按五折提供，任务成本降至 0.57 美元。据 VentureBeat，其在 DeepSWE 得分 62%，超过 GLM-5.3 的 61%，Finch 金融任务得分 67%，Harvey 法律智能体基准得分 15%，均为开源权重 SOTA。The Decoder 则指出其 38 分仍落后 Claude Opus 5.5 的 58 分，预览期按每百万输入 token 0.68 美元、输出 2.09 美元计费。TechCrunch 称目前仅能通过公开 guardrail 端点访问，安全测试完成后计划在三周内开放权重。\n\n发布前，CEO Arthur Mensch 在阿布扎比 Ai Everything 会议上预告当日发布，称该模型在网络安全等某些方面优于中国的模型，但未说明比较对象及网络安全以外的优势领域。",
+        "digest": null,
         "latest_at": "2026-10-06T20:18:19.000Z",
         "original_url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
         "rank": 1,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
-        "signal_count": 29,
+        "signal_count": 30,
         "source_count": 19,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/9185ce03-ea6c-4422-abbf-bef5d5f8b884",
         "title": "Mistral 发布 Large 4 预览版，月底开放权重"
       },
-      "observed_at": "2026-10-06T21:43:59.546539Z"
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     },
     {
       "item": {
@@ -109,7 +126,7 @@
         "digest": null,
         "latest_at": "2026-10-05T15:14:24.000Z",
         "original_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 14,
@@ -118,41 +135,58 @@
         "story_url": "https://aihot.virxact.com/story/93ed3076-cae1-4349-9f3d-c629827d554c",
         "title": "OpenAI在ChatGPT图像生成中测试视觉广告"
       },
-      "observed_at": "2026-10-06T21:43:59.546539Z"
+      "observed_at": "2026-10-07T01:37:22.194012Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
+        "digest": "OpenAI 于 10 月 7 日在 GitHub 仓库 github.com/openai/math 公开一批由内部未发布前沿模型产出的数学结果，共 722 份手稿、372 个结果家族，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。OpenAI 称发布前咨询了普林斯顿高等研究院数学与人工智能独立顾问组，并依据其建议和公开建议决定发布方式。\n\n据 Testing Catalog 报道，绝大多数结果由同一流程、用未发布的内部模型完成，平均每个结果使用三小时 ChatGPT Pro thinking 算力，评估期间模型共被提出约 4,000 个问题；例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。IT之家报道称，咨询小组 AGMAI 呼吁通过学术渠道发布并披露模型名称、提示词和算力开销。\n\n此前数学界已有反对声音：agmai.org 于 9 月 29 日发布《Responsible Release of AI-Generated Mathematics》，明确反对在闭源模型上测试高难度数学问题；资深数学家委员会也建议 OpenAI 停止在专有模型上测试高等数学问题。",
+        "latest_at": "2026-10-07T01:15:20.000Z",
+        "original_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 12,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
+        "title": "OpenAI 公开内部模型数学成果与 Lean 证明"
+      },
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     },
     {
       "item": {
         "aihot_story_id": "b0de7ab6-57f6-4bb1-9267-e073ebc2cfa3",
         "digest": "Google 发布图像生成与编辑模型 Nano Banana 2.1（gemini-nano-banana-2.1），取代 Nano Banana 2（gemini-3.1-flash-image），后者将于 2026 年 10 月 29 日停用。Google DeepMind 开发者体验的 Philipp Schmid 称其表现超越此前的 Pro 模型，价格从每张 0.134 美元降至 0.034 美元，约为四分之一。\n\n据 Testing Catalog 转述，图像输出按每 100 万 token 30 美元计费：1K（1024x1024px）每张消耗 1120 token、0.034 美元；2K 1680 token、0.050 美元；4K 2520 token、0.076 美元。OpenRouter 页面则给出不同价格：1K 每张 0.0336 美元、2K 0.0504 美元、4K 0.1134 美元，并称支持最多 14 张参考图、接入 Google Search grounding，以及 1:4、4:1、1:8、8:1 的 2K 和 4K 全景输出。The Decoder 则称 1K 从 6.70 美分降至 3.36 美分、4K 从 15.10 降至 7.56 美分。\n\nSchmid 称新版本改进了指令遵循和图内文字渲染，接入 Google Image Search 做接地，支持最多 5 个角色一致性并可使用 14 张参考图。Google 官方账号称其当天起在 Gemini App、Search AI Mode、Google AI Studio、Flow、Stitch、Google Ads 和 Gemini Enterprise Platform 推出；fal 和 OpenRouter 也宣布该模型已在其平台提供。Arena 榜单显示其进入 Text-to-Image、Image Edit 和 Multi-Image Edit 三项榜单，分别以 1328、1428 和 1431 分列第 5、第 6 和第 4 名。",
-        "latest_at": "2026-10-06T21:31:10.000Z",
+        "latest_at": "2026-10-07T01:01:58.000Z",
         "original_url": "https://ai.google.dev/gemini-api/docs/changelog#10-06-2026",
         "rank": 3,
         "recovered": false,
         "representative_source": "Gemini API：更新日志（网页）",
-        "signal_count": 11,
-        "source_count": 9,
+        "signal_count": 14,
+        "source_count": 10,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b0de7ab6-57f6-4bb1-9267-e073ebc2cfa3",
         "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元"
       },
-      "observed_at": "2026-10-06T21:43:59.546539Z"
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     },
     {
       "item": {
         "aihot_story_id": "b92e615b-0baf-4821-a3ac-e621dde3db2c",
-        "digest": "OpenAI公布应对欧盟《人工智能法案》的文本溯源方案，推出名为textGrain的文本水印技术，做法是在模型逐词选择过程中嵌入不可见的统计信号。未来数周，OpenAI将在欧盟地区为符合条件的ChatGPT和Codex文本输出自动添加隐形水印，覆盖所有套餐；欧盟以外地区默认关闭，发布时不设为全球默认。\n\n全球API客户即日起可对部分模型选择性开启水印，但API中水印默认关闭。检测水印的工具暂只向获批的研究者和专家机构开放，OpenAI称这些机构可帮助其评估和改进该技术；据IT之家报道，该工具只报告是否检测到OpenAI水印，不透露用户或对话内容。The Decoder称，与Anthropic对Claude的全球强制水印不同，OpenAI允许全球API客户关闭水印。\n\nOpenAI同时说明该水印不添加可见标记，不识别作者、组织、账号或对话来源，并称测试中未影响模型能力、速度或阅读体验；但OpenAI也承认文本水印存在明显局限：短文本中常难以检测，改写或翻译可完全去除水印。X账号Testing Catalog称，OpenAI官方测试显示textGrain效果追平或超过SynthID且质量无明显损失，并将开源；该账号同时表示这仍需实际测试验证。",
+        "digest": null,
         "latest_at": "2026-10-06T20:50:32.000Z",
         "original_url": "https://openai.com/index/eu-text-provenance",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 21,
+        "signal_count": 23,
         "source_count": 8,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b92e615b-0baf-4821-a3ac-e621dde3db2c",
         "title": "OpenAI在欧盟为ChatGPT文本加隐形水印"
       },
-      "observed_at": "2026-10-06T21:43:59.546539Z"
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     },
     {
       "item": {
@@ -170,6 +204,23 @@
         "title": "维基媒体称发现OpenAI失控智能体活动"
       },
       "observed_at": "2026-10-06T21:43:59.546539Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "edbb44d5-d114-49bc-8f13-575aca1d43b9",
+        "digest": "Anthropic 推出扩展版网络验证计划（CVP），整合 Project Glasswing 与原 CVP，为经核验的安全专业人员提供三档访问层级，开放更高级的网络能力并降低拦截分类器的触发。Anthropic 称，通过该计划可访问 Claude Mythos 5.1、Opus 5.5 和 Sonnet 5.5，并配有面向防御性工作的保障措施；新层级还支持经授权的攻击性安全工作，如渗透测试和红队演练。\n\n该计划要求注册组织保留数据，以便 Anthropic 监测网络滥用；在 Enterprise Frontier Safeguards（EFS）可用前，已能零数据保留使用 Claude Fable 5.1 或 Claude Mythos 5.1 的组织也可零数据保留使用 CVP。目前该层级仅面向组织，个人研究者不符合资格；CVP 也只在 Amazon Bedrock 上向符合 EFS 资格的客户提供。\n\n据 IT之家报道，三个层级均可使用 Claude Opus 5.5、Sonnet 5.5、Mythos 5.1 及后续新模型；红队层级增加授权渗透测试与红队演练权限，仅接受机构申请；约束最少的专项层级仅面向一小部分机构，允许测试电网、航空飞行系统、银行跨行转账基础设施等关键系统，Anthropic 会同美国政府审核每名参与成员资质。",
+        "latest_at": "2026-10-06T23:20:26.000Z",
+        "original_url": "https://www.anthropic.com/news/cyber-verification-program",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 6,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/edbb44d5-d114-49bc-8f13-575aca1d43b9",
+        "title": "Anthropic扩展CVP，三档开放Claude网络能力"
+      },
+      "observed_at": "2026-10-07T01:37:22.194012Z"
     }
   ],
   "version": 1
