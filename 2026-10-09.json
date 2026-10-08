@@ -20,20 +20,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f",
+        "digest": "谷歌云在 Gemini at Work 2026 发布会上推出面向企业客户的 Gemini Agent，定位为“通用工作智能体”。据 Testing Catalog 报道，它统一处理回答问题、知识工作、图像与媒体生成、编写和运行代码；The Verge 称其托管于 Gemini Enterprise 应用中，可在后台跨应用和设备工作，用户可在单一界面与其对话并派发任务。TechCrunch 称该智能体可接受目标而非仅指令，自行规划任务、使用技能与工具并连接企业内部系统。\n\n该智能体目前支持 Gemini 和 Claude 模型，默认由 AI 选择最合适的模型，用户也可自行指定，包括 Anthropic 的 Claude 等第三方模型；官方将提供 API 供开发者集成到第三方应用。Testing Catalog 称，Gemini Business 中的 Gemini Agent 将提供 Gemini Argon 4、Gemini Flash 3.8 以及 Claude Opus 5、Claude Sonnet 5.5，这是 Claude 模型首次出现在 Gemini 平台上。\n\n它当前处于私人预览阶段，仅面向企业客户；谷歌云称预计很快面向符合条件的 Workspace 客户广泛开放，覆盖部分 Business 和 Enterprise 方案。TechCrunch 称谷歌初期聚焦企业，之后才会推向消费者。谷歌 CEO Sundar Pichai 称，他在 NASA Hangar One 面向 700 多名 Google Cloud 客户介绍了这一智能体，称其可从单一提示框完成上述工作。",
+        "latest_at": "2026-10-08T18:55:17.000Z",
+        "original_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 10,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f",
+        "title": "谷歌云发布通用工作智能体 Gemini Agent"
+      },
+      "observed_at": "2026-10-08T22:09:31.822474Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "4890f163-93a8-4155-90a5-42af23f38dbe",
-        "digest": "微软已开启面向开发者的 AI 迷你主机 Surface RTX Spark Dev Box 预售，售价 5,999 美元，计划 11 月发货。该主机搭载 Nvidia RTX Spark 芯片，微软在旧金山 Tech Week 活动上同时发布了搭载同款芯片的 Surface Laptop Ultra，两款基础型号售价分别为 2,600 美元和 3,700 美元，并为 Windows 11 新增 Execution Containers 功能。",
+        "digest": null,
         "latest_at": "2026-10-07T20:22:37.000Z",
         "original_url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
         "signal_count": 18,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/4890f163-93a8-4155-90a5-42af23f38dbe",
         "title": "微软预售 5999 美元 Surface RTX Spark 开发主机"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     },
     {
       "item": {
@@ -44,53 +61,53 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 34,
+        "signal_count": 35,
         "source_count": 10,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/829ad21a-7429-4a43-9cb1-3c5c8a46c051",
         "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     },
     {
       "item": {
         "aihot_story_id": "94903954-cf87-48d8-89a6-eff5deefeaa0",
-        "digest": "Anthropic 在 Claude 5.5 家族中先后发布 Sonnet 5.5 与 Haiku 5.5，并下调 Sonnet 5.5 的缓存读取价格。官方称 Sonnet 5.5 比 Sonnet 5 快 30% 以上、多数任务成本最多降低 30%，定价维持输入 $2、输出 $10 每百万 token，Terminal-Bench 4.0 得分 70.6%（Sonnet 5 为 10.3%），并成为 claude.ai 免费档位模型；其缓存读取价格从 $0.20 减半至 $0.10 每百万 token，官方称长期运行任务成本因此降低约 20%。\n\nHaiku 5.5 被官方称为迄今最便宜、最快、能力最强的小模型，平均运行成本比 Haiku 4.5 低约 75%；10 万 token 以下任务输入 $0.10、输出 $0.50、缓存读取 $0.01 每百万 token，超过 10 万 token 后升至 $0.50/$2.50。Artificial Analysis 测得 Haiku 5.5 智能指数 43 分，并提示其成本数据尚未计入超 10 万 token 的阶梯涨价。\n\n第三方评测结论不一：Arena 称 Sonnet 5.5 (Max) 在 Agent Arena 首秀排第 3、Chat 类别第 1，但单任务中位成本 $2.74，高于排第 2 的 Opus 5.5（$1.58）约 73%，未进入 Pareto 前沿；Code Arena: WebDev 中 Sonnet 5.5 (High) 以 1699 分排第 4。两款模型已在 Claude 平台、Claude Code、AWS、Google Cloud、Azure 上线，Sonnet 5.5 另在 Cursor、OpenRouter 上线，Haiku 5.5 另在 OpenRouter、OpenCode、Devin 上线。",
-        "latest_at": "2026-10-07T22:26:08.973Z",
+        "digest": "Anthropic 发布 Claude 5.5 家族两款模型：Sonnet 5.5 于 9 月 29 日上线，官方称运行快 30% 以上、多数工作成本最多降低 30%，定价与 Sonnet 5 相同（每百万 token 输入 $2、输出 $10），并成为 claude.ai 免费档位模型；Haiku 5.5 于 10 月 7 日发布，官方称其为迄今最便宜、最快的小模型，平均运行成本比 Haiku 4.5 低约 75%。\n\nHaiku 5.5 采用分层定价：10 万 token 以内输入 $0.10、输出 $0.50、缓存读取 $0.01，超过 10 万 token 后涨至输入 $0.50、输出 $2.50；官方称 10 万 token 以下任务约占上一代 Haiku 请求量的九成。它是首个支持可调 effort 设置的 Haiku 模型，Artificial Analysis 智能指数得 43 分，较上一代一年内提升 26 分。\n\nAnthropic 同时将 Sonnet 5.5 的缓存读取价格减半至每百万 token $0.10，官方称这使多数长期运行任务成本降低约 20%；该调价仅限 API，Claude Code 用量限制不变。Arena 评测显示，Sonnet 5.5 (High) 在 Code Arena: WebDev 以 1699 分排第 4，在 Agent Arena 以 +12.5% 净提升排第 3，但单任务中位成本 $2.74 高于 Opus 5.5 的 $1.58，未进入 Pareto 前沿；Haiku 5.5 (High) 在 Code Arena: WebDev 以 1587 分首秀第 30。",
+        "latest_at": "2026-10-08T20:04:10.000Z",
         "original_url": "https://www.anthropic.com/claude-sonnet-5-5",
         "rank": 1,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 62,
+        "signal_count": 66,
         "source_count": 14,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0",
         "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     },
     {
       "item": {
         "aihot_story_id": "aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
-        "digest": null,
+        "digest": "OpenAI 于 10 月 7 日在 GitHub 发布 openai/math 仓库，公开由未发布的内部前沿模型产出的一批数学成果：共 722 份手稿，归为 372 个结果族，涵盖数论、代数几何、偏微分方程等方向。OpenAI 称许多证明已用 Lean 形式化以便计算机验证，并附论文修订与引用协议；发布前咨询了普林斯顿高等研究院的数学与人工智能独立咨询组，并按其建议和公开推荐决定发布方式。\n\n据 The Verge 和 IT之家报道，独立咨询组织 AGMAI 称这批成果包含对数百个长期公开数学问题的解答。OpenAI 称绝大多数结果由同一流程、用未发布内部模型完成，平均每个结果约相当于 3 小时 ChatGPT Pro 思考算力，评估期间模型共被提出约 4,000 个问题。例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。\n\nRohan Paul 提到，部分结果尚无 Lean 形式化，可能存在问题，仓库将持续更新；其称矩阵乘法证明把两个 n×n 矩阵乘法的已证明成本从 AlphaEvolve 今年 8 月创下的约 n^2.371177 降至约 n^2.25，但这属理论界，尚未提供可用于真实 GPU 负载的更快例程。此前 9 月 29 日，agmai.org 发布《Responsible Release of AI-Generated Mathematics》，针对 AI 实验室发布数学成果提出建议，并明确反对在闭源模型上测试高难度数学问题。",
         "latest_at": "2026-10-08T03:31:55.000Z",
         "original_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
         "rank": 3,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 41,
+        "signal_count": 42,
         "source_count": 10,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
         "title": "OpenAI 公开内部模型数学成果与 Lean 证明"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     },
     {
       "item": {
         "aihot_story_id": "ae6b9b53-d380-45d4-9933-6afa540f4195",
-        "digest": "Grok Bot 宣布新增原生 X 搜索能力，可直接搜索、阅读和监控 X 内容，官方称面向所有用户开放、无需设置 X connector。据 X 用户 Eric Zakariasson 称，该功能直接可用，无需 X 账号或连接器；Testing Catalog 称此前它只能依赖网页搜索或 X 连接器，此次一条提示词即可触发对 100 多条 X 帖子的分析。\n\nGrok Bot 同时推出定时任务，可追踪产品反馈、跟进突发新闻或发送行业每周汇总。据 Rohan Paul 称，该智能体还能起草帖子，但直接发帖功能尚未上线，仍需人工按下发布按钮。\n\n使用额度方面，X 用户 howie.serious 称 Grok bot 对推特的 rate limit 为每天 1000 次，并称现在可以免费用起来；该说法来自其个人分享，并非官方公告。",
-        "latest_at": "2026-10-08T16:25:05.000Z",
+        "digest": "Grok Bot 现在可以直接搜索、阅读和监控 X 内容，官方称面向所有用户开放、无需设置 X connector。此前它只能依赖网页搜索或 X 连接器；据 Testing Catalog 称，此次一条提示词即可触发对 100 多条 X 帖子的分析。\n\nGrok Bot 同时推出定时任务，可追踪产品反馈、跟进突发新闻或发送行业每周汇总。据 Rohan Paul 称，该智能体还能起草帖子，但直接发帖功能尚未上线，仍需人工按下发布按钮。\n\n使用额度方面，X 用户 howie.serious 称 Grok bot 对推特的 rate limit 为每天 1000 次，并称现在可以免费用起来；该说法来自其个人分享，并非官方公告。",
+        "latest_at": "2026-10-08T20:46:49.000Z",
         "original_url": "https://x.com/bot/status/2107949163191353358",
         "rank": 6,
         "recovered": false,
@@ -101,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/ae6b9b53-d380-45d4-9933-6afa540f4195",
         "title": "Grok Bot 新增原生 X 搜索与监控能力"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     },
     {
       "item": {
@@ -122,6 +139,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "bb1411a1-1201-48d6-b5f7-9cc58fa53d6c",
+        "digest": "OpenAI 开发者账号 10 月 9 日宣布，GPT-6.1 Sol 的 Ultrafast 模式当日起在 API、Codex 和 ChatGPT Work 推出，官方称其具备接近 Astra 的智能水平，token 生成速度最高比 Sol Standard 快 8 倍。API 定价为每百万输入 token 12 美元、每百万输出 token 60 美元；OpenAI 的 Vaibhav Srivastav 称其成本仅为 Astra 的 1.2 倍。Rohan Paul 则指出该价格高于 Sol Fast 的每百万输入 4 美元、输出 20 美元，即贵 6 倍。\n\n在 Codex 和 ChatGPT Work 中，Pro 500、符合条件的使用量计费 Enterprise 以及基于积分的 Edu 方案可使用，Enterprise 管理员须先启用访问权限。OpenAI 称 Ultrafast 已在所有支持地区上线，包括美国和欧盟的数据驻留支持，同时为 GPT-6.1 Sol Fast 和 GPT-6 Luna Fast 新增欧盟数据驻留支持。OpenRouter 随后宣布 Sol Ultrafast 已在其平台上线。\n\n此前 10 月 4 日，X 账号 Testing Catalog 曾预告该发布，并称 Ultrafast 目前不足以让足够多人把注意力从 Opus 5.5 上移开。",
+        "latest_at": "2026-10-08T19:29:29.000Z",
+        "original_url": "https://x.com/thsottiaux/status/2108275041276420573",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 6,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/bb1411a1-1201-48d6-b5f7-9cc58fa53d6c",
+        "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式"
+      },
+      "observed_at": "2026-10-08T22:09:31.822474Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "d0ee11b2-3ace-4e23-9668-fb3c82550bdb",
         "digest": null,
         "latest_at": "2026-10-07T23:47:32.937Z",
@@ -135,41 +169,41 @@
         "story_url": "https://aihot.virxact.com/story/d0ee11b2-3ace-4e23-9668-fb3c82550bdb",
         "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     },
     {
       "item": {
         "aihot_story_id": "df6ecb23-8f5e-4d48-bf45-1d4a6a27ef24",
-        "digest": "Anthropic 随 Claude Code v2.1.293 发布 Claude Haiku 5.5（claude-haiku-5-5），并称其已成为 Anthropic API 上的默认 Haiku 模型。该模型支持 1M 上下文，定价为每百万 token $0.10/$0.50，提示超过 100K 时升至 $0.50/$2.50。\n\nCursor 随后宣布该模型已可在 Cursor 中使用，用户可在 Cursor Settings > Models 中开启。Cursor 称较短请求的成本比 Claude Haiku 4.5 低 10 倍，并公布与 Anthropic 一致的定价；同时将 Claude Sonnet 5.5 的缓存读取价格从每百万 token $0.20 下调至 $0.10。\n\nX 用户 Oran Ge 称该模型降价 90%、价格对齐 GPT 6 Luna，随后又质疑超过 100k 输入 token 时价格涨 5 倍。X 用户邵猛称，Anthropic 官方表示其运行成本平均比 Claude Haiku 4.5 低约 75%，benchmark 全面领先 GPT-6 Luna，OpenRouter 观测的 token 输出速度约为 2 倍。",
+        "digest": null,
         "latest_at": "2026-10-08T13:48:35.000Z",
         "original_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Claude Code：GitHub Releases（RSS）",
         "signal_count": 14,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/df6ecb23-8f5e-4d48-bf45-1d4a6a27ef24",
         "title": "Anthropic 发布 Claude Haiku 5.5 并上线 Cursor"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     },
     {
       "item": {
         "aihot_story_id": "e0b8ed75-6851-478e-801d-e5d6189e66ac",
-        "digest": "Google DeepMind 将 SynthID Detector 面向全球所有人开放，上线 synthid.com，任何人可上传图片、视频或音频文件检查是否带有 AI 水印。此前该工具只向部分记者、媒体从业者和研究人员开放测试，外部用户只能通过 Gemini 检测，且旧版只识别 Google 自家的 SynthID。\n\n新版支持所有合作方的水印，合作方包括 OpenAI、NVIDIA、Kakao，Apple 即将加入。Google DeepMind 称，该工具可快速识别视频、音频和图像中的 SynthID 水印，即使内容经过添加滤镜等编辑仍可检测；用户也可使用 Chrome、Google 搜索和 Gemini 应用中已有的 AI 内容识别功能。据 Google 数据，仅 Gemini 就已集成超过 1800 亿张图片和视频以及 24 万年的音频。\n\nSynthID 是嵌入图像、视频像素和音频波形中的隐形水印。IT之家报道称，该工具的检测结果并非 100% 准确。",
+        "digest": null,
         "latest_at": "2026-10-08T14:53:29.000Z",
         "original_url": "https://x.com/Google/status/2107836410254291345",
         "rank": 4,
         "recovered": false,
         "representative_source": "X：Google (@Google)",
-        "signal_count": 23,
+        "signal_count": 24,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/e0b8ed75-6851-478e-801d-e5d6189e66ac",
         "title": "Google 全球开放 SynthID 水印检测器"
       },
-      "observed_at": "2026-10-08T16:34:47.403856Z"
+      "observed_at": "2026-10-08T22:09:31.822474Z"
     }
   ],
   "version": 1
