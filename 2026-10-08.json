@@ -12,11 +12,11 @@
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 20,
         "source_count": 10,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/28375512-d27e-4a60-8a37-dee79df660d4",
         "title": "Google 开源多模态嵌入模型 EmbeddingGemma 2"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
@@ -34,6 +34,23 @@
         "title": "OpenAI Decisions API 从限量预览转公测"
       },
       "observed_at": "2026-10-07T22:03:07.973037Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4890f163-93a8-4155-90a5-42af23f38dbe",
+        "digest": "微软面向开发者的 AI 迷你主机 Surface RTX Spark Dev Box 已开启预售，售价 5,999 美元，预计 11 月发货，搭载 Nvidia 硬件。微软未披露该机的更多配置细节。\n\n在同一场旧金山 Tech Week 活动上，微软还发布了首款采用 Nvidia RTX Spark SoC 的 Surface Laptop Ultra，起售价 2,599 美元，配备 5120 核或 6144 核 Blackwell GPU 和最高 128GB LPDDR5x 统一内存，10 月 16 日发货，现已开放预购；另有基础型号售价 3,700 美元。微软同时为 Windows 11 新增 Execution Containers 功能。",
+        "latest_at": "2026-10-08T00:00:24.000Z",
+        "original_url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 10,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/4890f163-93a8-4155-90a5-42af23f38dbe",
+        "title": "微软 Surface RTX Spark Dev Box 预售，5999 美元"
+      },
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
@@ -72,19 +89,19 @@
     {
       "item": {
         "aihot_story_id": "829ad21a-7429-4a43-9cb1-3c5c8a46c051",
-        "digest": "OpenAI 开始向 ChatGPT 全部用户推送 GPT-6 与 Intelligent UI。付费档 Plus、Pro、Business、Enterprise 当天起全球开放，入口在 Chat 标签页；Free 和 Go 档次日跟进。付费档由 GPT-6 Sol 驱动，Free 和 Go 档由 GPT-6 Luna 驱动，两者均针对日常对话调优。Enterprise 是否可用取决于企业管理员设置。\n\nIntelligent UI 让 GPT-6 按问题组合文本、图形、图表、按钮、表单等交互元素作答，并可在对话内直接生成计算器、游戏等可用工具，用户可自行调节视觉内容的多寡。OpenAI 称该更新仅涉及 ChatGPT 的 Chat 标签页，Work 和 Codex 所用模型不变。\n\nOpenAI 员工 Tibo 称这是超越文本的一步，包含多项模型和基础设施改进，以支撑扩展至每周 12 亿用户；他同时称 Codex 与 ChatGPT Work 合计活跃用户达 4000 万，并为所有付费账户加载了一次 banked reset。",
-        "latest_at": "2026-10-07T21:33:07.000Z",
+        "digest": "OpenAI 于 10 月 8 日宣布，GPT-6 与 Intelligent UI 开始在 ChatGPT 的 Chat 标签页向全部用户推送：Plus、Pro、Business、Enterprise 付费档当天起全球开放，Free 和 Go 档次日跟进。付费档由 GPT-6 Sol 驱动，Free 和 Go 档由 GPT-6 Luna 驱动，两者均针对日常对话调优；Enterprise 是否可用取决于企业管理员设置。\n\nIntelligent UI 让 GPT-6 按问题组合文本、图形、图表、按钮、表单等交互元素作答，并可在对话内直接生成计算器、游戏等可用工具，用户可自行调节视觉内容的多寡。OpenAI 称本次更新仅涉及 Chat 标签页，Work 和 Codex 所用模型不变。\n\nOpenAI 员工 Tibo 称这是超越文本的一步，包含多项模型和基础设施改进，以支撑扩展至每周 12 亿用户；他同时称 Codex 与 ChatGPT Work 合计活跃用户达 4000 万，并为所有付费账户加载了一次 banked reset。",
+        "latest_at": "2026-10-07T22:10:08.150Z",
         "original_url": "https://openai.com/index/gpt-6-for-everyone/",
-        "rank": 5,
+        "rank": 3,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 11,
-        "source_count": 8,
+        "signal_count": 17,
+        "source_count": 9,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/829ad21a-7429-4a43-9cb1-3c5c8a46c051",
         "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
@@ -92,33 +109,33 @@
         "digest": null,
         "latest_at": "2026-10-07T14:12:37.000Z",
         "original_url": "https://artificialanalysis.ai/articles/mistral-large-4-france-ai",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
         "signal_count": 37,
         "source_count": 16,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/9185ce03-ea6c-4422-abbf-bef5d5f8b884",
         "title": "Mistral 发布 Large 4 预览版，月底开放权重"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
         "aihot_story_id": "94903954-cf87-48d8-89a6-eff5deefeaa0",
         "digest": "Anthropic 在 Claude 5.5 家族中先后发布 Sonnet 5.5 与 Haiku 5.5，并下调 Sonnet 5.5 的缓存读取价格。官方称 Sonnet 5.5 比 Sonnet 5 快 30% 以上、多数任务成本最多降低 30%，定价维持输入 $2、输出 $10 每百万 token，Terminal-Bench 4.0 得分 70.6%（Sonnet 5 为 10.3%），并成为 claude.ai 免费档位模型；其缓存读取价格从 $0.20 减半至 $0.10 每百万 token，官方称长期运行任务成本因此降低约 20%。\n\nHaiku 5.5 被官方称为迄今最便宜、最快、能力最强的小模型，平均运行成本比 Haiku 4.5 低约 75%；10 万 token 以下任务输入 $0.10、输出 $0.50、缓存读取 $0.01 每百万 token，超过 10 万 token 后升至 $0.50/$2.50。Artificial Analysis 测得 Haiku 5.5 智能指数 43 分，并提示其成本数据尚未计入超 10 万 token 的阶梯涨价。\n\n第三方评测结论不一：Arena 称 Sonnet 5.5 (Max) 在 Agent Arena 首秀排第 3、Chat 类别第 1，但单任务中位成本 $2.74，高于排第 2 的 Opus 5.5（$1.58）约 73%，未进入 Pareto 前沿；Code Arena: WebDev 中 Sonnet 5.5 (High) 以 1699 分排第 4。两款模型已在 Claude 平台、Claude Code、AWS、Google Cloud、Azure 上线，Sonnet 5.5 另在 Cursor、OpenRouter 上线，Haiku 5.5 另在 OpenRouter、OpenCode、Devin 上线。",
-        "latest_at": "2026-10-07T21:15:09.000Z",
+        "latest_at": "2026-10-07T22:26:08.973Z",
         "original_url": "https://www.anthropic.com/claude-sonnet-5-5",
         "rank": 1,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 29,
-        "source_count": 12,
+        "signal_count": 42,
+        "source_count": 14,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0",
         "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
@@ -140,19 +157,36 @@
     {
       "item": {
         "aihot_story_id": "aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
-        "digest": null,
-        "latest_at": "2026-10-07T08:54:43.000Z",
+        "digest": "OpenAI 于 10 月 7 日在 GitHub 发布 openai/math 仓库，公开由未发布的内部前沿模型产出的一批数学成果：共 722 份手稿，归为 372 个结果族，涵盖数论、代数几何、偏微分方程等方向。OpenAI 称许多证明已用 Lean 形式化以便计算机验证，并附论文修订与引用协议；发布前咨询了普林斯顿高等研究院的数学与人工智能独立咨询组，并按其建议和公开推荐决定发布方式。\n\n据 The Verge 和 IT之家报道，独立咨询组织 AGMAI 称这批成果包含对数百个长期公开数学问题的解答。OpenAI 称绝大多数结果由同一流程、用未发布内部模型完成，平均每个结果约相当于 3 小时 ChatGPT Pro 思考算力，评估期间模型共被提出约 4,000 个问题。例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。\n\nRohan Paul 提到，部分结果尚无 Lean 形式化，可能存在问题，仓库将持续更新；其称矩阵乘法证明把两个 n×n 矩阵乘法的已证明成本从 AlphaEvolve 今年 8 月创下的约 n^2.371177 降至约 n^2.25，但这属理论界，尚未提供可用于真实 GPU 负载的更快例程。此前 9 月 29 日，agmai.org 发布《Responsible Release of AI-Generated Mathematics》，针对 AI 实验室发布数学成果提出建议，并明确反对在闭源模型上测试高难度数学问题。",
+        "latest_at": "2026-10-08T00:36:00.000Z",
         "original_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 35,
-        "source_count": 8,
+        "signal_count": 37,
+        "source_count": 9,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
         "title": "OpenAI 公开内部模型数学成果与 Lean 证明"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ae6b9b53-d380-45d4-9933-6afa540f4195",
+        "digest": "Grok Bot 宣布新增在 X 上搜索、阅读和监控内容的能力，官方称面向所有用户开放，无需设置 X connector。据 X 用户 Eric Zakariasson 称，该功能可直接使用，无需 X 账号或连接器。\n\nTesting Catalog 称，此前 Grok Bot 只能依赖网页搜索或 X 连接器，此次发布后一条提示词即可触发对 100 多条 X 帖子的分析。Grok Bot 同时宣布可设置定时任务，用于追踪产品反馈、跟进突发新闻或发送行业每周汇总。\n\n据 Rohan Paul 称，该智能体还能起草帖子，但直接发帖功能尚未上线，仍需人工按下发布按钮。",
+        "latest_at": "2026-10-07T23:40:01.000Z",
+        "original_url": "https://x.com/bot/status/2107949163191353358",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Grok Bot (@bot)",
+        "signal_count": 6,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/ae6b9b53-d380-45d4-9933-6afa540f4195",
+        "title": "Grok Bot 新增原生 X 搜索与监控能力"
+      },
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
@@ -163,35 +197,35 @@
         "rank": 6,
         "recovered": false,
         "representative_source": "Gemini API：更新日志（网页）",
-        "signal_count": 22,
-        "source_count": 11,
-        "status": "active",
+        "signal_count": 23,
+        "source_count": 10,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b0de7ab6-57f6-4bb1-9267-e073ebc2cfa3",
         "title": "Google 发布 Nano Banana 2.1，1K 图降至每张 0.034 美元"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
         "aihot_story_id": "d0ee11b2-3ace-4e23-9668-fb3c82550bdb",
-        "digest": "马斯克在 X 发布关于 Grok @Bot 的说明称，SpaceX 今后将针对任何给定任务使用最佳后端模型，包括 Claude Opus 5.5、MidJourney、Suno 及其他领先 API，并称一切以最有可能带来最佳结果为准则。该说明未披露具体任务范围、调用方式，也未说明与 xAI 自有模型的分工。\n\nRohan Paul 转述同一说明时称，Claude Opus 5.5、MidJourney、Suno 已上线 Grok @bot。Testing Catalog 则称 Grok Bot 将由 Claude Opus 5.5 驱动，或总体使用市面上最好的模型，并认为 OpenAI 的模型应该不在考虑范围内。\n\n马斯克后续补充称，Grok @Bot 会采用对用户最有利的方案：简单问题路由到小型、快速的模型，复杂问题路由到大型模型；并称大多数 @Bot 请求相当简单，等 Grok 4.8 推出后，将由一个闪电般快速的版本处理。",
-        "latest_at": "2026-10-07T18:02:02.000Z",
+        "digest": "马斯克在 X 发布说明称，SpaceX 今后将针对任何给定任务为 Grok @Bot 使用最佳后端模型，包括 Claude Opus 5.5、MidJourney、Suno 及其他领先 API，以最有可能带来最佳结果为准则。他后续补充称，简单问题会路由到小型、快速的模型，复杂问题路由到大型模型，并称大多数 @Bot 请求相当简单，等 Grok 4.8 推出后由闪电般快速的版本处理。\n\nRohan Paul 转述该说明时称，Claude Opus 5.5、MidJourney、Suno 已上线 Grok @bot。Testing Catalog 则称 Grok Bot 将由 Claude Opus 5.5 驱动，或总体使用市面上最好的模型，并认为 OpenAI 的模型应该不在考虑范围内。\n\n上述说明未披露具体任务范围、调用方式，也未说明与 xAI 自有模型的分工；相关模型是否已实际接入，仅有转述说法。",
+        "latest_at": "2026-10-07T23:47:32.937Z",
         "original_url": "https://x.com/testingcatalog/status/2107803665457189061",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Testing Catalog (@testingcatalog)",
-        "signal_count": 23,
-        "source_count": 3,
+        "signal_count": 25,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/d0ee11b2-3ace-4e23-9668-fb3c82550bdb",
-        "title": "SpaceX 宣布 Grok Bot 按任务选用最佳后端模型"
+        "title": "马斯克称 Grok Bot 将按任务调用外部最佳模型"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     },
     {
       "item": {
         "aihot_story_id": "e0b8ed75-6851-478e-801d-e5d6189e66ac",
-        "digest": "Google 将 SynthID Detector 面向全球所有人开放，并上线 synthid.com 网站，任何人可上传图片、视频或音频文件，检查其中是否带有 AI 水印。此前该工具只向部分记者、媒体从业者和研究人员开放测试，外部用户只能通过 Gemini 检测，且旧版检测器只识别 Google 自家的 SynthID。\n\n新版检测器支持所有合作方的水印，合作方包括 OpenAI、NVIDIA、Kakao，Apple 即将加入。Google DeepMind 称，该工具可快速识别视频、音频和图像中的 SynthID 水印，即使内容经过添加滤镜等编辑仍可检测；用户也可使用 Chrome、Google 搜索和 Gemini 应用中已有的 AI 内容识别功能。据 Google 数据，仅 Gemini 就已集成超过 1800 亿张图片和视频以及 24 万年的音频。\n\nSynthID 是嵌入图像、视频像素和音频波形中的隐形水印。IT之家报道称，该工具的检测结果并非 100% 准确。",
+        "digest": null,
         "latest_at": "2026-10-07T17:50:17.000Z",
         "original_url": "https://x.com/Google/status/2107836410254291345",
         "rank": 8,
@@ -199,11 +233,11 @@
         "representative_source": "X：Google (@Google)",
         "signal_count": 12,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/e0b8ed75-6851-478e-801d-e5d6189e66ac",
         "title": "Google 全球开放 SynthID 水印检测器"
       },
-      "observed_at": "2026-10-07T22:03:07.973037Z"
+      "observed_at": "2026-10-08T02:01:13.593035Z"
     }
   ],
   "version": 1
