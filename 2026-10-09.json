@@ -4,36 +4,36 @@
     {
       "item": {
         "aihot_story_id": "100cfaa3-4eb5-4ba9-8199-65be0d26b885",
-        "digest": "Anthropic 发布新版 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止用户对模型实施“持续且不必要的虐待或残忍行为”的条款，主要执行方式是终止对话。公司称多数变化是对既有规则的澄清。\n\n据 TechCrunch 和 The Decoder 报道，该条款只针对反复且无目的地残酷对待模型的情况，不适用于常见的用户不满、反驳、黑暗创作主题或模型测试研究；违规者可能被警告、限流、限制或终止访问。政策同时新设禁止欺骗性活动章节，禁止用 Claude 运营虚假账号、编造新闻机构或欺骗选民、破坏选举，并收窄选举相关条款、明确禁止武器软件与无人机武装、更精确地限制监控与执法用途、补充高风险用例及自主物理操作中必须有人工介入的要求。\n\nThe Decoder 称，更新承认政府合同可能存在例外；IT之家援引 The Verge 报道称，对于特定政府客户，公司可在合同限制与安全措施充分时调整规则。",
-        "latest_at": "2026-10-09T00:41:29.000Z",
+        "digest": "Anthropic 发布新版 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止用户对模型实施“持续且不必要的虐待或残忍行为”的条款。公司称多数变化是对既有规则的澄清。\n\n该条款只针对反复且无目的地残酷对待模型的情况，不适用于常见的用户不满、反驳、黑暗创作主题或模型测试研究。主要执行方式是让 Claude 结束对话，而非封禁账号；但据 Rohan Paul 称，由于条款已写入使用政策，限流、暂停或终止等一般性执行措施原则上仍可能适用。\n\n政策同时新设禁止欺骗性活动章节，禁止用 Claude 运营虚假账号、编造新闻机构或欺骗选民、破坏选举，并收窄选举相关条款、明确禁止武器软件与无人机武装、更精确地限制监控与执法用途、补充高风险用例及自主物理操作中必须有人工介入的要求。The Decoder 称，更新承认政府合同可能存在例外；IT之家援引 The Verge 报道称，对于特定政府客户，公司可在合同限制与安全措施充分时调整规则。",
+        "latest_at": "2026-10-09T03:10:42.000Z",
         "original_url": "https://www.anthropic.com/news/2026-usage-policy-update",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 13,
-        "source_count": 5,
+        "signal_count": 23,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885",
         "title": "Anthropic 新政策首次禁止虐待模型"
       },
-      "observed_at": "2026-10-09T02:15:01.764897Z"
+      "observed_at": "2026-10-09T09:15:57.333444Z"
     },
     {
       "item": {
         "aihot_story_id": "11746796-aea3-4e81-b36c-995f0cf5cdfe",
-        "digest": "Anthropic 为 Claude 推出两项 beta 功能。Dashboards 可连接数据平台或 CRM 工具，用户用自然语言提问后由 Claude 编写查询并生成随数据自动更新的仪表盘，每个图表都展示对应查询，面向所有付费计划开放；Motion 可把报告、图表或产品演示转成短动画，动画由 Claude 以代码方式生成、不涉及视频模型，用户可修改文字、数字或时间节点并导出 MP4，面向 Team 和 Enterprise 计划开放。Anthropic 称两项功能从发布当天起即可使用。\n\n同一发布中，Docs、Slides 和 Design 结束 beta，即日起在所有计划中可用，包括免费版，用户可与 Claude 共同编辑同一份文档、幻灯片或设计。Claude 还支持把仪表盘发送到分析工具、把动画导入视频编辑器继续处理。\n\nThe Decoder 报道称，Dashboards 可连接 BigQuery、Databricks、Snowflake、Salesforce 等数据源。Luma AI 宣布与 Claude 合作，用户可把 Claude Motion 动画导入 Luma 继续调整尺寸、精修并输出可交付版本；Higgsfield AI 称其视频编辑工具 Katana 已通过 MCP 在 Claude 中上线。",
-        "latest_at": "2026-10-08T20:33:39.000Z",
+        "digest": "Anthropic 为 Claude 推出 Dashboards 和 Motion 两项 beta 功能。Dashboards 面向所有付费计划开放，用户连接数据平台或 CRM 工具后用自然语言提问，Claude 编写查询并生成随数据自动更新的仪表盘，每个图表展示对应查询；The Decoder 报道其可连接 BigQuery、Databricks、Snowflake、Salesforce 等数据源。Motion 面向 Team 和 Enterprise 计划开放，可把报告、图表或产品演示转成短动画，动画由 Claude 以代码方式生成、不涉及视频模型，用户可修改文字、数字或时间节点并导出 MP4。\n\n同一发布中，Docs、Slides 和 Design 结束 beta，即日起在所有计划中可用，包括免费版，用户可与 Claude 共同编辑同一份文档、幻灯片或设计。Claude 还支持把仪表盘发送到分析工具、把动画导入视频编辑器继续处理。\n\nLuma AI 宣布与 Claude 合作，用户可把 Claude Motion 动画导入 Luma 调整尺寸、精修并输出可交付版本；Higgsfield AI 称其视频编辑工具 Katana 已通过 MCP 在 Claude 中上线，并称一段演示视频未使用任何视频 AI 模型、纯以 Three.js 代码生成。",
+        "latest_at": "2026-10-09T06:57:33.323Z",
         "original_url": "https://claude.com/blog/dashboards-and-motion",
-        "rank": 10,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 7,
-        "source_count": 6,
+        "signal_count": 12,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/11746796-aea3-4e81-b36c-995f0cf5cdfe",
-        "title": "Claude 发布 Dashboards 与 Motion 两项测试功能"
+        "title": "Claude 上线 Dashboards 与 Motion 两项测试功能"
       },
-      "observed_at": "2026-10-09T02:15:01.764897Z"
+      "observed_at": "2026-10-09T09:15:57.333444Z"
     },
     {
       "item": {
@@ -55,19 +55,19 @@
     {
       "item": {
         "aihot_story_id": "3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f",
-        "digest": null,
-        "latest_at": "2026-10-08T18:55:17.000Z",
+        "digest": "谷歌云在 Gemini at Work 2026 发布会上推出面向企业客户的 Gemini Agent，定位为“通用工作智能体”，用一个提示框和 1 个 API 覆盖问答、知识工作、媒体生成和代码编写，托管于 Gemini Enterprise 应用中，可在后台跨应用和设备工作。TechCrunch 称其可接受目标而非仅指令，自行规划任务、使用技能与工具并连接企业内部系统。\n\n该智能体目前支持 Gemini 和 Claude 模型，默认由 AI 选择最合适的模型，用户也可自行指定；官方将提供 API 供开发者集成到第三方应用。Testing Catalog 称，Gemini Business 中的 Gemini Agent 将提供 Gemini Argon 4、Gemini Flash 3.8 以及 Claude Opus 5、Claude Sonnet 5.5，这是 Claude 模型首次出现在 Gemini 平台上。\n\n它当前处于私人预览阶段，仅面向企业客户；谷歌云称预计很快面向符合条件的 Workspace 客户广泛开放，覆盖部分 Business 和 Enterprise 方案。TechCrunch 称谷歌初期聚焦企业，之后才会推向消费者。",
+        "latest_at": "2026-10-09T06:47:56.000Z",
         "original_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
-        "rank": 7,
+        "rank": 4,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 13,
-        "source_count": 5,
-        "status": null,
+        "signal_count": 18,
+        "source_count": 6,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f",
-        "title": "谷歌云发布通用工作智能体 Gemini Agent"
+        "title": "谷歌云发布企业通用工作智能体 Gemini Agent"
       },
-      "observed_at": "2026-10-09T02:15:01.764897Z"
+      "observed_at": "2026-10-09T09:15:57.333444Z"
     },
     {
       "item": {
@@ -92,7 +92,7 @@
         "digest": null,
         "latest_at": "2026-10-08T02:22:43.000Z",
         "original_url": "https://openai.com/index/gpt-6-for-everyone/",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 36,
@@ -101,24 +101,58 @@
         "story_url": "https://aihot.virxact.com/story/829ad21a-7429-4a43-9cb1-3c5c8a46c051",
         "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI"
       },
-      "observed_at": "2026-10-09T02:15:01.764897Z"
+      "observed_at": "2026-10-09T09:15:57.333444Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "92dbe44e-830d-4a67-807b-009cfcd5f38a",
+        "digest": "OpenAI 公布一项数学成果：一个未发布的前沿模型产出 722 份稿件、涉及 372 个族，覆盖数论、复杂性理论和数学物理。曾研究 Barnette 猜想 24 年的 Jake Boggan 称该猜想（问题 180）据称已被这项工作解决，他为此投入数千小时，得知后感到一种遥远的悲伤。\n\n质疑随之而来。Gary Marcus 认为真正的新闻不是结果本身，而是报告完全没有说明验证流程、模型架构、失败率和训练细节，无法判断其通用性，也可能只是适用于可验证领域的 Lean 与合成数据技巧。Ethan Mollick 转述 Scott Aaronson 博客中数学家 Dana Moshkovitz 的第一手体验：UGC 相关证明写作混乱、几乎无法在没有 AI 帮助的情况下读懂，部分 372 项突破性结果附有 Lean 证书，但尚无人类理解其中多数证明。\n\n人类数学协会（AHM）批评这批手稿，敦促数学家停止与 OpenAI 合作，称 OpenAI 忽略了其顾问小组关于前沿 AI 公司不应在内部模型上测试高深数学问题的立场；Terence Tao 在博客转发了该声明，并在 Caltech 演讲中称 AI 解数学猜想可以走得更慢一些。普林斯顿高等研究院 AGMAI 顾问组指出，这批解答未完全遵循 9 月底发布的规范。此后 OpenAI 撤回了它两天前发布的一篇数学论文的部分内容。",
+        "latest_at": "2026-10-09T01:40:55.240Z",
+        "original_url": "https://x.com/dongxi_nlp/status/2107613901571420599",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：马东锡 NLP (@dongxi_nlp)",
+        "signal_count": 13,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/92dbe44e-830d-4a67-807b-009cfcd5f38a",
+        "title": "OpenAI 数学成果引验证争议"
+      },
+      "observed_at": "2026-10-09T09:15:57.333444Z"
     },
     {
       "item": {
         "aihot_story_id": "94903954-cf87-48d8-89a6-eff5deefeaa0",
-        "digest": null,
+        "digest": "Anthropic 发布 Claude 5.5 家族两款模型：Sonnet 5.5 于 9 月 29 日上线，官方称运行快 30% 以上、多数工作成本最多降低 30%，定价与 Sonnet 5 相同（每百万 token 输入 $2、输出 $10），并成为 claude.ai 免费档位模型；Haiku 5.5 于 10 月 7 日发布，官方称其为迄今最便宜、最快的小模型，平均运行成本比 Haiku 4.5 低约 75%。\n\nHaiku 5.5 采用分层定价：10 万 token 以内输入 $0.10、输出 $0.50、缓存读取 $0.01，超过 10 万 token 后涨至输入 $0.50、输出 $2.50；官方称 10 万 token 以下任务约占上一代 Haiku 请求量的九成。它是首个支持可调 effort 设置的 Haiku 模型，Artificial Analysis 智能指数得 43 分，较上一代一年内提升 26 分。\n\nAnthropic 同时将 Sonnet 5.5 的缓存读取价格减半至每百万 token $0.10，官方称这使多数长期运行任务成本降低约 20%；该调价仅限 API，Claude Code 用量限制不变。Arena 评测显示，Sonnet 5.5 (High) 在 Code Arena: WebDev 以 1699 分排第 4，在 Agent Arena 以 +12.5% 净提升排第 3，但单任务中位成本 $2.74 高于 Opus 5.5 的 $1.58，未进入 Pareto 前沿；Haiku 5.5 (High) 在 Code Arena: WebDev 以 1587 分首秀第 30。",
         "latest_at": "2026-10-08T20:04:10.000Z",
         "original_url": "https://www.anthropic.com/claude-sonnet-5-5",
         "rank": 1,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 66,
+        "signal_count": 68,
         "source_count": 13,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0",
         "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价"
       },
-      "observed_at": "2026-10-09T02:15:01.764897Z"
+      "observed_at": "2026-10-09T09:15:57.333444Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a2df69da-f530-4cf9-812f-48c246e2402e",
+        "digest": "OpenAI以违反敏感信息处理政策为由，终止与贾斯敏·王、米基塔·巴莱斯尼和托梅克·科尔巴克的雇佣关系，称内部调查认定三人向外部AI安全组织共享机密信息、破坏公司信任。三人随后发表公开信《OpenAI无法独自确保AI安全》，否认不当处理敏感信息，并警告解雇方式会让前同事不敢再公开提出安全顾虑；他们还致信OpenAI董事会及安全委员会等监督部门，要求停止任何进一步削弱人类监控AI推理能力的开发。\n\nOpenAI研究负责人回应称，内部调查发现超出公开信所述的重大信任违规，解雇与提出安全担忧无关，并称正敲定与第三方安全评估机构的合同、将在数周内公布详情。\n\n早先报道称3人均属安全团队，后续报道称其中仅科尔巴克属安全团队，另两人从事模型对齐研究。",
+        "latest_at": "2026-10-09T06:17:00.000Z",
+        "original_url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 9,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
+        "title": "OpenAI解雇3名研究员，双方就指控各执一词"
+      },
+      "observed_at": "2026-10-09T09:15:57.333444Z"
     },
     {
       "item": {
@@ -177,16 +211,33 @@
         "digest": "OpenAI 开发者账号 10 月 9 日宣布，GPT-6.1 Sol 的 Ultrafast 模式当日起在 API、Codex 和 ChatGPT Work 推出，官方称其具备接近 Astra 的智能水平，token 生成速度最高比 Sol Standard 快 8 倍。API 定价为每百万输入 token 12 美元、每百万输出 token 60 美元；OpenAI 的 Vaibhav Srivastav 称其成本仅为 Astra 的 1.2 倍。Rohan Paul 则指出该价格高于 Sol Fast 的每百万输入 4 美元、输出 20 美元，即贵 6 倍。\n\n在 Codex 和 ChatGPT Work 中，Pro 500、符合条件的使用量计费 Enterprise 以及基于积分的 Edu 方案可使用，Enterprise 管理员须先启用访问权限。OpenAI 称 Ultrafast 已在所有支持地区上线，包括美国和欧盟的数据驻留支持，同时为 GPT-6.1 Sol Fast 和 GPT-6 Luna Fast 新增欧盟数据驻留支持。OpenRouter 随后宣布 Sol Ultrafast 已在其平台上线。\n\n此前 10 月 4 日，X 账号 Testing Catalog 曾预告该发布，并称 Ultrafast 目前不足以让足够多人把注意力从 Opus 5.5 上移开。",
         "latest_at": "2026-10-09T00:04:37.203Z",
         "original_url": "https://x.com/thsottiaux/status/2108275041276420573",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 9,
+        "signal_count": 12,
         "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/bb1411a1-1201-48d6-b5f7-9cc58fa53d6c",
         "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式"
       },
-      "observed_at": "2026-10-09T02:15:01.764897Z"
+      "observed_at": "2026-10-09T09:15:57.333444Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d06a5836-f6cc-4ecf-a616-8dd42aceca87",
+        "digest": "OpenAI的年化收入出现两个相差约200亿美元的口径。2026年9月底，Axios援引知情人士称其年化经常性收入（ARR）接近700亿美元，较三季度初增长超70%；OpenAI CFO Sarah Friar随后在CNBC确认三季度总收入运行率增长超70%，企业收入较7月翻倍，增长由更好的模型、新的100美元小企业计划及编码、网络安全、生命科学业务驱动。\n\n但10月9日《金融时报》报道称，OpenAI已告知投资者其年化营收接近500亿美元，比投资者间流传的700亿美元低约200亿。TechCrunch援引该报道称，700亿是投资者为与Anthropic直接对比而估算，两家公司计算方式不同：Anthropic把经由AWS和Google Cloud销售的金额计入营收，OpenAI不计入。IT之家称报道发布后美股科技股下跌，纳斯达克100指数收跌1.4%。\n\n此前关于Anthropic ARR的数字本身也不一致：有说法称其ARR达768亿美元，Cathie Wood则称Anthropic报告为650亿美元。",
+        "latest_at": "2026-10-09T03:11:54.000Z",
+        "original_url": "https://www.ithome.com/1/010/751.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 13,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d06a5836-f6cc-4ecf-a616-8dd42aceca87",
+        "title": "OpenAI年化收入口径分歧：700亿还是500亿美元"
+      },
+      "observed_at": "2026-10-09T09:15:57.333444Z"
     },
     {
       "item": {
@@ -228,7 +279,7 @@
         "digest": null,
         "latest_at": "2026-10-08T14:53:29.000Z",
         "original_url": "https://x.com/Google/status/2107836410254291345",
-        "rank": 5,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Google (@Google)",
         "signal_count": 24,
@@ -237,7 +288,7 @@
         "story_url": "https://aihot.virxact.com/story/e0b8ed75-6851-478e-801d-e5d6189e66ac",
         "title": "Google 全球开放 SynthID 水印检测器"
       },
-      "observed_at": "2026-10-09T02:15:01.764897Z"
+      "observed_at": "2026-10-09T09:15:57.333444Z"
     }
   ],
   "version": 1
