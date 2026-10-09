@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "100cfaa3-4eb5-4ba9-8199-65be0d26b885",
+        "digest": null,
+        "latest_at": "2026-10-09T03:10:42.000Z",
+        "original_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 34,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885",
+        "title": "Anthropic 新政策首次禁止虐待模型"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "11746796-aea3-4e81-b36c-995f0cf5cdfe",
+        "digest": null,
+        "latest_at": "2026-10-09T06:57:33.323Z",
+        "original_url": "https://claude.com/blog/dashboards-and-motion",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 14,
+        "source_count": 7,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/11746796-aea3-4e81-b36c-995f0cf5cdfe",
+        "title": "Claude 上线 Dashboards 与 Motion 两项测试功能"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3688c14f-e4ca-4087-b18e-70d23164a4c6",
+        "digest": "Anthropic 推出 OSS Scanner，一个面向开源生态、需项目方主动选择加入的漏洞扫描服务。据 Anthropic 介绍，该服务会用其前沿模型（包括 Claude Mythos）定期免费扫描已授权加入的开源项目，报告完全由模型生成、无人工审核或分诊，内容包含概念验证、漏洞解释和修复建议。符合条件的核心维护者按标准模板向 OSS Scanner 的 GitHub 仓库提交 PR 即可申请，优先面向对关键基础设施与用户安全有重大影响的基础开源项目。\n\n据 The Verge 报道，这种模式可能更快、更频繁地发现漏洞，但也可能出现错误或无效报告。报道还提到，近月 AI 工具曾帮助发现重大开源安全漏洞，同时部分开源项目（包括 Linus Torvalds 和 Google）正难以应对 AI 生成漏洞报告的涌入。",
+        "latest_at": "2026-10-09T06:08:02.080Z",
+        "original_url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Anthropic：Research（发表成果 · 网页）",
+        "signal_count": 11,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/3688c14f-e4ca-4087-b18e-70d23164a4c6",
+        "title": "Anthropic推出免费开源漏洞扫描服务OSS Scanner"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f",
+        "digest": null,
+        "latest_at": "2026-10-09T06:47:56.000Z",
+        "original_url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 21,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/3bf2f6a6-d5b4-4c93-bd4d-1977a01c157f",
+        "title": "谷歌云发布企业通用工作智能体 Gemini Agent"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "829ad21a-7429-4a43-9cb1-3c5c8a46c051",
+        "digest": null,
+        "latest_at": "2026-10-08T02:22:43.000Z",
+        "original_url": "https://openai.com/index/gpt-6-for-everyone/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 36,
+        "source_count": 10,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/829ad21a-7429-4a43-9cb1-3c5c8a46c051",
+        "title": "OpenAI向ChatGPT全量用户开放GPT-6与Intelligent UI"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "92dbe44e-830d-4a67-807b-009cfcd5f38a",
+        "digest": null,
+        "latest_at": "2026-10-09T01:40:55.240Z",
+        "original_url": "https://x.com/dongxi_nlp/status/2107613901571420599",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：马东锡 NLP (@dongxi_nlp)",
+        "signal_count": 14,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/92dbe44e-830d-4a67-807b-009cfcd5f38a",
+        "title": "OpenAI 数学成果引验证争议"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "94903954-cf87-48d8-89a6-eff5deefeaa0",
+        "digest": "Anthropic 发布 Claude 5.5 家族两款模型：Sonnet 5.5 于 9 月 29 日上线，官方称运行快 30% 以上、多数工作成本最多降低 30%，定价与 Sonnet 5 相同（每百万 token 输入 $2、输出 $10），并成为 claude.ai 免费档位模型；Haiku 5.5 于 10 月 7 日发布，官方称其为迄今最便宜、最快的小模型，平均运行成本比 Haiku 4.5 低约 75%。\n\nHaiku 5.5 采用分层定价：10 万 token 以内输入 $0.10、输出 $0.50、缓存读取 $0.01，超过 10 万 token 后涨至输入 $0.50、输出 $2.50；官方称 10 万 token 以下任务约占上一代 Haiku 请求量的九成。它是首个支持可调 effort 设置的 Haiku 模型，Artificial Analysis 智能指数得 43 分，较上一代一年内提升 26 分。\n\nAnthropic 同时将 Sonnet 5.5 的缓存读取价格减半至每百万 token $0.10，官方称这使多数长期运行任务成本降低约 20%；该调价仅限 API，Claude Code 用量限制不变。Arena 评测显示，Sonnet 5.5 (High) 在 Code Arena: WebDev 以 1699 分排第 4，在 Agent Arena 以 +12.5% 净提升排第 3，但单任务中位成本 $2.74 高于 Opus 5.5 的 $1.58，未进入 Pareto 前沿；Haiku 5.5 (High) 在 Code Arena: WebDev 以 1587 分首秀第 30。",
+        "latest_at": "2026-10-08T20:04:10.000Z",
+        "original_url": "https://www.anthropic.com/claude-sonnet-5-5",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 69,
+        "source_count": 13,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/94903954-cf87-48d8-89a6-eff5deefeaa0",
+        "title": "Anthropic 发布 Sonnet 5.5 与 Haiku 5.5，下调缓存读取价"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a2df69da-f530-4cf9-812f-48c246e2402e",
+        "digest": "OpenAI以违反敏感信息处理政策为由，终止与贾斯敏·王、米基塔·巴莱斯尼和托梅克·科尔巴克的雇佣关系，称内部调查认定三人向外部AI安全组织共享机密信息、构成重大信任违规。三人随后发表公开信《OpenAI无法独自确保AI安全》，否认不当处理敏感信息，称自己因提出安全担忧被解雇，并警告解雇方式会让前同事不敢再公开提出安全顾虑；他们还致信OpenAI董事会及安全委员会等监督部门，要求停止任何进一步削弱人类监控AI推理能力的开发。\n\nOpenAI研究负责人回应称，内部调查发现超出公开信所述的重大信任违规，解雇与提出安全担忧无关，并称正敲定与第三方安全评估机构的合同、将在数周内公布详情。\n\n早先报道称3人均属安全团队，后续报道称其中仅科尔巴克属安全团队，另两人从事模型对齐研究。",
+        "latest_at": "2026-10-09T11:45:04.000Z",
+        "original_url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 15,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
+        "title": "OpenAI解雇3名研究员，双方就指控各执一词"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "bb1411a1-1201-48d6-b5f7-9cc58fa53d6c",
+        "digest": null,
+        "latest_at": "2026-10-09T00:04:37.203Z",
+        "original_url": "https://x.com/thsottiaux/status/2108275041276420573",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 12,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/bb1411a1-1201-48d6-b5f7-9cc58fa53d6c",
+        "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast 模式"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d06a5836-f6cc-4ecf-a616-8dd42aceca87",
+        "digest": "OpenAI的年化收入出现相差约200亿美元的两个口径。2026年9月底，Axios援引知情人士称其年化经常性收入（ARR）接近700亿美元，较三季度初增长超70%；OpenAI CFO Sarah Friar随后在CNBC确认三季度总收入运行率增长超70%，企业收入较7月翻倍。\n\n但10月9日《金融时报》报道称，OpenAI已告知投资者其年化营收接近500亿美元，比投资者间流传的700亿美元低约200亿。TechCrunch援引该报道称，700亿是投资者为与Anthropic直接对比而估算，两家公司计算方式不同：Anthropic把经由AWS和Google Cloud销售的金额计入营收，OpenAI不计入。IT之家称报道发布后美股科技股下跌，纳斯达克100指数收跌1.4%。\n\n此前关于Anthropic ARR的数字本身也不一致：有说法称其ARR达768亿美元，Cathie Wood则称Anthropic报告为650亿美元。",
+        "latest_at": "2026-10-09T12:19:30.000Z",
+        "original_url": "https://www.ithome.com/1/010/751.htm",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 17,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d06a5836-f6cc-4ecf-a616-8dd42aceca87",
+        "title": "OpenAI年化收入口径分歧：700亿还是500亿美元"
+      },
+      "observed_at": "2026-10-09T16:21:12.458110Z"
+    }
+  ],
+  "version": 1
+}
