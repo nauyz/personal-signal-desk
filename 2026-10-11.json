@@ -10,13 +10,13 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 31,
-        "source_count": 4,
+        "signal_count": 28,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885",
         "title": "Anthropic 新政策首次禁止虐待模型"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     },
     {
       "item": {
@@ -24,16 +24,33 @@
         "digest": null,
         "latest_at": "2026-10-09T06:57:33.323Z",
         "original_url": "https://claude.com/blog/dashboards-and-motion",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 14,
-        "source_count": 4,
+        "signal_count": 12,
+        "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/11746796-aea3-4e81-b36c-995f0cf5cdfe",
         "title": "Claude 上线 Dashboards 与 Motion 两项测试功能"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "244f781e-a578-4493-804d-4b4cfa063ea3",
+        "digest": "据英国《金融时报》援引知情人士报道，英伟达正就收购开放权重模型初创公司 Reflection AI 或向其追加投资展开深入谈判，谈判仍处初期，双方有望在未来几周内敲定方案。\n\nReflection AI 今年 3 月上一轮融资估值达 250 亿美元，英伟达此前已向其注资 8 亿美元；该公司 10 月 5 日发布首款开放权重模型 Beam。报道称选项之一是“人才兼并”（acqui-hire）结构，即雇佣团队并授权技术，可避开全面收购的反垄断审查，英伟达去年 12 月对 Groq 的 200 亿美元交易即采用该结构。\n\n交易金额、具体条款尚未披露，也未说明是否已达成协议。",
+        "latest_at": "2026-10-10T22:51:00.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2109025847835529580",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 6,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/244f781e-a578-4493-804d-4b4cfa063ea3",
+        "title": "英伟达洽谈收购或追加投资Reflection AI"
+      },
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     },
     {
       "item": {
@@ -50,7 +67,7 @@
         "story_url": "https://aihot.virxact.com/story/4e124b64-1274-4d7e-8dfb-3e73663a850c",
         "title": "Anthropic 模型误报凶杀线索给费城警方"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     },
     {
       "item": {
@@ -58,7 +75,7 @@
         "digest": null,
         "latest_at": "2026-10-09T23:28:29.367Z",
         "original_url": "https://www.a16z.news/p/investing-in-typesafe",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "a16z：News（RSS）",
         "signal_count": 10,
@@ -67,7 +84,7 @@
         "story_url": "https://aihot.virxact.com/story/6667f027-8bc6-4ed3-b0e2-6e3b61e60803",
         "title": "a16z领投TypeSafe AI 8.7亿美元A轮"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     },
     {
       "item": {
@@ -75,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-10-09T11:45:04.000Z",
         "original_url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 18,
+        "signal_count": 16,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
         "title": "OpenAI解雇3名研究员，双方就指控各执一词"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     },
     {
       "item": {
@@ -105,11 +122,28 @@
     },
     {
       "item": {
+        "aihot_story_id": "ba1d5ac2-160e-4d9d-ae98-63405a9bb3f3",
+        "digest": "微软 CEO Satya Nadella 在 X 发文提出，超级智能时代应把前沿闭源与开源权重模型当作\"内部风险\"来治理，将智能的供给与对它的授权分离，用确定性系统设计、人类控制和外部化管控包围非确定性模型。他主张把模型与编排其工作的 harness 分离、外置控制与安全防护，为每个关键模型动作留下防篡改的人类可读证据，并让授权者能随时在任务中途暂停或关闭模型，比喻为紧急刹车；The Verge 报道称他还主张默认假设模型已被攻破并从一开始就加以隔离，推进事件及时披露、独立审计、可验证数据等标准化措施。\n\n马斯克在 X 上评论该文\"很有意思\"，未展开具体意见。微软 AI CEO Mustafa Suleyman 同日发帖称超智能必须被约束，认为这是工程与治理挑战，并类比飞机、汽车、核材料、食品安全、药品等领域的既有管控，呼吁\"让我们行动起来\"。",
+        "latest_at": "2026-10-10T22:10:17.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 4,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/ba1d5ac2-160e-4d9d-ae98-63405a9bb3f3",
+        "title": "纳德拉：把前沿模型当内部风险管控"
+      },
+      "observed_at": "2026-10-10T23:37:28.418636Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "cd73b967-8f2e-455c-b267-b0f1904a91c4",
         "digest": null,
         "latest_at": "2026-10-10T14:57:33.000Z",
         "original_url": "https://x.com/satyanadella/status/2108627925654503761",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Satya Nadella (@satyanadella)",
         "signal_count": 11,
@@ -118,7 +152,7 @@
         "story_url": "https://aihot.virxact.com/story/cd73b967-8f2e-455c-b267-b0f1904a91c4",
         "title": "微软发布决策模型 Microsoft-Decision-1"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     },
     {
       "item": {
@@ -152,12 +186,12 @@
         "story_url": "https://aihot.virxact.com/story/d2b86a14-9162-49d5-9df2-0548df6c16a2",
         "title": "Grok Bot 新增专属邮箱功能"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     },
     {
       "item": {
         "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
-        "digest": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向美国政府及一批受信任的网络防御者开放，尚未面向公众；Google 称后续将逐步向开发者、企业和消费者推出，先覆盖付费 API 客户和 Google AI Ultra 订阅用户。该模型单次输出上限从 64K 提升到 1M tokens，主打软件工程、法律金融等企业知识工作和网络安全防御。\n\n定价方面，Argon 以每百万输入 tokens 2 美元、输出 10 美元的 introductory 价格推出，缓存输入按输入价 95% 折扣（约每百万 0.10 美元）；Google 未确认该促销的结束日期，标准价为输入 4 美元、输出 20 美元。Artificial Analysis 评测其高推理档在 Intelligence Index 得 53 分，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分；Arena 显示其 High 版本登顶文本榜（1525 分）。\n\n内部对实际表现存在分歧：彭博社报道称知情人士认为 Argon 部分代码任务表现不佳、不擅前端设计，Google 否认该说法，DeepMind 负责人卡武库奥卢表示对性能感到鼓舞。此外，Business Insider 报道 Google 内部已在测试 Argon、Barium、Carbon 等 Gemini 4 变体，Carbon 已部署于内部编程平台 Jetski。",
+        "digest": null,
         "latest_at": "2026-10-10T08:59:49.000Z",
         "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
         "rank": 4,
@@ -165,11 +199,11 @@
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 16,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "title": "谷歌发布 Gemini 4 Argon，先供可信防御者"
       },
-      "observed_at": "2026-10-10T20:08:04.064157Z"
+      "observed_at": "2026-10-10T23:37:28.418636Z"
     }
   ],
   "version": 1
