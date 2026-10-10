@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "100cfaa3-4eb5-4ba9-8199-65be0d26b885",
+        "digest": null,
+        "latest_at": "2026-10-09T03:10:42.000Z",
+        "original_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 31,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/100cfaa3-4eb5-4ba9-8199-65be0d26b885",
+        "title": "Anthropic 新政策首次禁止虐待模型"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "11746796-aea3-4e81-b36c-995f0cf5cdfe",
+        "digest": null,
+        "latest_at": "2026-10-09T06:57:33.323Z",
+        "original_url": "https://claude.com/blog/dashboards-and-motion",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 14,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/11746796-aea3-4e81-b36c-995f0cf5cdfe",
+        "title": "Claude 上线 Dashboards 与 Motion 两项测试功能"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4e124b64-1274-4d7e-8dfb-3e73663a850c",
+        "digest": null,
+        "latest_at": "2026-10-10T14:41:16.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 16,
+        "source_count": 7,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/4e124b64-1274-4d7e-8dfb-3e73663a850c",
+        "title": "Anthropic 模型误报凶杀线索给费城警方"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6667f027-8bc6-4ed3-b0e2-6e3b61e60803",
+        "digest": null,
+        "latest_at": "2026-10-09T23:28:29.367Z",
+        "original_url": "https://www.a16z.news/p/investing-in-typesafe",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "a16z：News（RSS）",
+        "signal_count": 10,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/6667f027-8bc6-4ed3-b0e2-6e3b61e60803",
+        "title": "a16z领投TypeSafe AI 8.7亿美元A轮"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a2df69da-f530-4cf9-812f-48c246e2402e",
+        "digest": null,
+        "latest_at": "2026-10-09T11:45:04.000Z",
+        "original_url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 18,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/a2df69da-f530-4cf9-812f-48c246e2402e",
+        "title": "OpenAI解雇3名研究员，双方就指控各执一词"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
+        "digest": "OpenAI 于 10 月 7 日在 GitHub 发布 openai/math 仓库，公开由未发布的内部前沿模型产出的数学成果：722 份手稿，归为 372 个结果族，涵盖数论、代数几何、偏微分方程等方向。OpenAI 称许多证明已用 Lean 形式化以便计算机验证，并附论文修订与引用协议；发布前咨询了普林斯顿高等研究院的数学与人工智能独立咨询组，并按其建议和公开推荐决定发布方式。\n\n据 The Verge 和 IT之家报道，独立咨询组织 AGMAI 称这批成果包含对数百个长期公开数学问题的解答。OpenAI 称绝大多数结果由同一流程、用未发布内部模型完成，平均每个结果约相当于 3 小时 ChatGPT Pro 思考算力，评估期间模型共被提出约 4,000 个问题。例外包括黎曼 zeta 函数零点自由区域和 CM 阿贝尔簇上 Hodge 猜想证明的相关工作，其中 Re(s) > 11/12 零点自由区域的文稿经人工编辑以提升可读性。\n\nRohan Paul 提到，部分结果尚无 Lean 形式化，可能存在问题，仓库将持续更新；其称矩阵乘法证明把两个 n×n 矩阵乘法的已证明成本从 AlphaEvolve 今年 8 月创下的约 n^2.371177 降至约 n^2.25，但这属理论界，尚未提供可用于真实 GPU 负载的更快例程。The Verge 后续报道称，数学家消化这批结果可能需要数年，且 OpenAI 称 719 份手稿中仅约 300 项顶层结果（约 42%）已在 Lean 中形式化，OpenAI 未披露所用模型、提示词及模型尝试的完整问题集。此前 9 月 29 日，agmai.org 发布《Responsible Release of AI-Generated Mathematics》，针对 AI 实验室发布数学成果提出建议，并明确反对在闭源模型上测试高难度数学问题。",
+        "latest_at": "2026-10-10T03:04:36.887Z",
+        "original_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/aaa0648b-dd23-4fa4-bcbb-fa4eed13d331",
+        "title": "OpenAI 公开内部模型数学成果与 Lean 证明"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "cd73b967-8f2e-455c-b267-b0f1904a91c4",
+        "digest": null,
+        "latest_at": "2026-10-10T14:57:33.000Z",
+        "original_url": "https://x.com/satyanadella/status/2108627925654503761",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Satya Nadella (@satyanadella)",
+        "signal_count": 11,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/cd73b967-8f2e-455c-b267-b0f1904a91c4",
+        "title": "微软发布决策模型 Microsoft-Decision-1"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d06a5836-f6cc-4ecf-a616-8dd42aceca87",
+        "digest": null,
+        "latest_at": "2026-10-10T01:15:50.000Z",
+        "original_url": "https://www.ithome.com/1/010/751.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 13,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/d06a5836-f6cc-4ecf-a616-8dd42aceca87",
+        "title": "OpenAI年化收入口径分歧：700亿还是500亿美元"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d2b86a14-9162-49d5-9df2-0548df6c16a2",
+        "digest": null,
+        "latest_at": "2026-10-10T00:10:15.320Z",
+        "original_url": "https://x.com/grok/status/2108610528423842095",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "X：Grok (@grok)",
+        "signal_count": 23,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/d2b86a14-9162-49d5-9df2-0548df6c16a2",
+        "title": "Grok Bot 新增专属邮箱功能"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "digest": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向美国政府及一批受信任的网络防御者开放，尚未面向公众；Google 称后续将逐步向开发者、企业和消费者推出，先覆盖付费 API 客户和 Google AI Ultra 订阅用户。该模型单次输出上限从 64K 提升到 1M tokens，主打软件工程、法律金融等企业知识工作和网络安全防御。\n\n定价方面，Argon 以每百万输入 tokens 2 美元、输出 10 美元的 introductory 价格推出，缓存输入按输入价 95% 折扣（约每百万 0.10 美元）；Google 未确认该促销的结束日期，标准价为输入 4 美元、输出 20 美元。Artificial Analysis 评测其高推理档在 Intelligence Index 得 53 分，追平 GPT-6 Astra (max)、领先 GPT-6.1 Sol (max) 1 分；Arena 显示其 High 版本登顶文本榜（1525 分）。\n\n内部对实际表现存在分歧：彭博社报道称知情人士认为 Argon 部分代码任务表现不佳、不擅前端设计，Google 否认该说法，DeepMind 负责人卡武库奥卢表示对性能感到鼓舞。此外，Business Insider 报道 Google 内部已在测试 Argon、Barium、Carbon 等 Gemini 4 变体，Carbon 已部署于内部编程平台 Jetski。",
+        "latest_at": "2026-10-10T08:59:49.000Z",
+        "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 16,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "title": "谷歌发布 Gemini 4 Argon，先供可信防御者"
+      },
+      "observed_at": "2026-10-10T20:08:04.064157Z"
+    }
+  ],
+  "version": 1
+}
