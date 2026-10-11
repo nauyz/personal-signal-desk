@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0239e0cb-2576-40cc-beb9-1b5db49a64f9",
+        "digest": "xAI 的 Grok Bot 新增拍照搜货下单功能。Elon Musk 在 X 上称，用户只需拍一张信用卡照片丢进聊天，Grok @Bot 就会在网上为想要的商品搜寻最优价格并下单；他随后称自己让 Grok @Bot 研究最适合小孩子的乐高星球大战套装并下单，以此演示该功能。\n\nOpenAI Codex 与 ChatGPT 团队负责人蒂博·索蒂奥以一张持卡人写着自己名字的 AI 生成虚构信用卡照片回应，暗示该功能的安全风险。有用户称亚马逊已屏蔽 Grok Bot 访问，Musk 回复称 Grok 会另寻方式购物，并称其刚从乐高官网下单买了乐高。\n\n上述说法均来自 Musk 的公开帖文，未提及功能上线时间、适用地区、可用商品范围，也未说明信用卡信息如何存储与使用。",
+        "latest_at": "2026-10-11T12:11:34.000Z",
+        "original_url": "https://x.com/elonmusk/status/2109254811254403387",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Elon Musk (@elonmusk, xAI)",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/0239e0cb-2576-40cc-beb9-1b5db49a64f9",
+        "title": "Grok Bot 拍照下单功能引安全质疑"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "244f781e-a578-4493-804d-4b4cfa063ea3",
+        "digest": null,
+        "latest_at": "2026-10-10T22:51:00.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2109025847835529580",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 13,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/244f781e-a578-4493-804d-4b4cfa063ea3",
+        "title": "英伟达洽谈收购或追加投资Reflection AI"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "397fcf8b-ea91-4150-a638-8fd4679eed40",
+        "digest": null,
+        "latest_at": "2026-10-11T07:59:43.507Z",
+        "original_url": "https://www.ithome.com/1/011/620.htm",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/397fcf8b-ea91-4150-a638-8fd4679eed40",
+        "title": "马斯克确认SpaceXAI更名SpaceXSI"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4e124b64-1274-4d7e-8dfb-3e73663a850c",
+        "digest": null,
+        "latest_at": "2026-10-10T14:41:16.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 18,
+        "source_count": 7,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/4e124b64-1274-4d7e-8dfb-3e73663a850c",
+        "title": "Anthropic 模型误报凶杀线索给费城警方"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6667f027-8bc6-4ed3-b0e2-6e3b61e60803",
+        "digest": null,
+        "latest_at": "2026-10-09T23:28:29.367Z",
+        "original_url": "https://www.a16z.news/p/investing-in-typesafe",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "a16z：News（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/6667f027-8bc6-4ed3-b0e2-6e3b61e60803",
+        "title": "a16z领投TypeSafe AI 8.7亿美元A轮"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "76ace905-68bc-41f1-a066-107e9b3928bf",
+        "digest": "高通 CEO Cristiano Amon 在 Sources 访谈中称，部分前沿 AI 公司已向高通提出，到 2028 年需要让至少 100B 参数的模型在手机上持续运行。他同时确认，这些 AI 公司正在开始自研手机。\n\n上述说法来自 Amon 本人，尚无 AI 公司方面公开确认，也未说明具体是哪些公司或采用何种技术路径。",
+        "latest_at": "2026-10-10T16:47:22.000Z",
+        "original_url": "https://x.com/alexeheath/status/2108962607369793659",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Alex Heath (@alexeheath)",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/76ace905-68bc-41f1-a066-107e9b3928bf",
+        "title": "高通 CEO 称 AI 公司要求 2028 年手机常驻运行 100B 模型"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ba1d5ac2-160e-4d9d-ae98-63405a9bb3f3",
+        "digest": null,
+        "latest_at": "2026-10-11T09:08:35.000Z",
+        "original_url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 10,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/ba1d5ac2-160e-4d9d-ae98-63405a9bb3f3",
+        "title": "纳德拉：把前沿模型当内部风险管控"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "cd73b967-8f2e-455c-b267-b0f1904a91c4",
+        "digest": null,
+        "latest_at": "2026-10-10T14:57:33.000Z",
+        "original_url": "https://x.com/satyanadella/status/2108627925654503761",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Satya Nadella (@satyanadella)",
+        "signal_count": 12,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/cd73b967-8f2e-455c-b267-b0f1904a91c4",
+        "title": "微软发布决策模型 Microsoft-Decision-1"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d2b86a14-9162-49d5-9df2-0548df6c16a2",
+        "digest": null,
+        "latest_at": "2026-10-10T00:10:15.320Z",
+        "original_url": "https://x.com/grok/status/2108610528423842095",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：Grok (@grok)",
+        "signal_count": 20,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/d2b86a14-9162-49d5-9df2-0548df6c16a2",
+        "title": "Grok Bot 新增专属邮箱功能"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "digest": null,
+        "latest_at": "2026-10-10T08:59:49.000Z",
+        "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 16,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
+        "title": "谷歌发布 Gemini 4 Argon，先供可信防御者"
+      },
+      "observed_at": "2026-10-11T18:08:27.189161Z"
+    }
+  ],
+  "version": 1
+}
