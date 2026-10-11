@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "0239e0cb-2576-40cc-beb9-1b5db49a64f9",
+        "digest": "xAI 的 Grok Bot 新增拍照搜货下单功能。Elon Musk 在 X 上称，用户只需拍一张信用卡照片丢进聊天，Grok @Bot 就会在网上为想要的商品搜寻最优价格并下单；他随后称自己让 Grok @Bot 研究最适合小孩子的乐高星球大战套装并下单，以此演示该功能。\n\nOpenAI Codex 与 ChatGPT 团队负责人蒂博·索蒂奥以一张持卡人写着自己名字的 AI 生成虚构信用卡照片回应，暗示该功能的安全风险。有用户称亚马逊已屏蔽 Grok Bot 访问，Musk 回复称 Grok 会另寻方式购物，并称其刚从乐高官网下单买了乐高。\n\n上述说法均来自 Musk 的公开帖文，未提及功能上线时间、适用地区、可用商品范围，也未说明信用卡信息如何存储与使用。",
+        "latest_at": "2026-10-11T07:39:04.957Z",
+        "original_url": "https://x.com/elonmusk/status/2109027407185277123",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Elon Musk (@elonmusk, xAI)",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/0239e0cb-2576-40cc-beb9-1b5db49a64f9",
+        "title": "Grok Bot 拍照下单功能引安全质疑"
+      },
+      "observed_at": "2026-10-11T13:00:28.968642Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "100cfaa3-4eb5-4ba9-8199-65be0d26b885",
         "digest": "Anthropic 发布新版 Claude 使用政策，将于 2026 年 11 月 12 日生效，首次加入禁止用户对模型实施“持续且不必要的虐待或残忍行为”的条款。公司称多数变化是对既有规则的澄清。\n\n该条款只针对反复且无目的地残酷对待模型的情况，不适用于常见的用户不满、反驳、黑暗创作主题或模型测试研究。主要执行方式是让 Claude 结束对话，而非封禁账号；但据 Rohan Paul 称，由于条款已写入使用政策，限流、暂停或终止等一般性执行措施原则上仍可能适用。\n\n政策同时新设禁止欺骗性活动章节，禁止用 Claude 运营虚假账号、编造新闻机构或欺骗选民、破坏选举，并收窄选举相关条款、明确禁止武器软件与无人机武装、更精确地限制监控与执法用途、补充高风险用例及自主物理操作中必须有人工介入的要求。The Decoder 称，更新承认政府合同可能存在例外；IT之家援引 The Verge 报道称，对于特定政府客户，公司可在合同限制与安全措施充分时调整规则。",
         "latest_at": "2026-10-11T00:08:31.000Z",
@@ -41,33 +58,33 @@
         "digest": null,
         "latest_at": "2026-10-10T22:51:00.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2109025847835529580",
-        "rank": 3,
+        "rank": 1,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 10,
+        "signal_count": 13,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/244f781e-a578-4493-804d-4b4cfa063ea3",
         "title": "英伟达洽谈收购或追加投资Reflection AI"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     },
     {
       "item": {
         "aihot_story_id": "397fcf8b-ea91-4150-a638-8fd4679eed40",
-        "digest": "马斯克确认，SpaceXAI 将更名为 SpaceXSI。有网友询问该公司是否可能更名，马斯克答复“是的，我们会做出改变”，并称 SpaceX 是一家超级智能公司。\n\n更名背景是美东时间 9 月 29 日特朗普签署行政令，要求所有行政部门和机构用“超级智能”（SI）一词代替人工智能（AI）。\n\nSpaceXAI 的前身是 xAI，今年 2 月被 SpaceX 收购，7 月更名为 SpaceXAI。",
-        "latest_at": "2026-10-11T02:14:18.000Z",
-        "original_url": "https://www.ithome.com/1/009/688.htm",
-        "rank": 10,
+        "digest": "马斯克确认 SpaceXAI 将更名为 SpaceXSI，并已宣布其官方账号更名为“SpaceX Super Intelligence”（@SpaceXSI）。此前有网友询问 SpaceXAI 是否可能更名为 SpaceXSI，马斯克答复“是的，我们会做出改变”，并称 SpaceX 是一家超级智能公司。\n\n更名背景是美东时间 9 月 29 日特朗普签署行政令，要求所有行政部门和机构用“超级智能”（SI）一词代替人工智能（AI）。SpaceXAI 的前身是 xAI，今年 2 月被 SpaceX 收购，7 月更名为 SpaceXAI。",
+        "latest_at": "2026-10-11T07:59:43.507Z",
+        "original_url": "https://www.ithome.com/1/011/620.htm",
+        "rank": 5,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 5,
-        "source_count": 1,
+        "signal_count": 9,
+        "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/397fcf8b-ea91-4150-a638-8fd4679eed40",
-        "title": "马斯克确认SpaceXAI将更名为SpaceXSI"
+        "title": "马斯克确认SpaceXAI更名SpaceXSI"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     },
     {
       "item": {
@@ -75,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-10-10T14:41:16.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2108681738767740983",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 16,
+        "signal_count": 17,
         "source_count": 7,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/4e124b64-1274-4d7e-8dfb-3e73663a850c",
         "title": "Anthropic 模型误报凶杀线索给费城警方"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     },
     {
       "item": {
@@ -92,16 +109,16 @@
         "digest": null,
         "latest_at": "2026-10-09T23:28:29.367Z",
         "original_url": "https://www.a16z.news/p/investing-in-typesafe",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "a16z：News（RSS）",
-        "signal_count": 10,
+        "signal_count": 11,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/6667f027-8bc6-4ed3-b0e2-6e3b61e60803",
         "title": "a16z领投TypeSafe AI 8.7亿美元A轮"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     },
     {
       "item": {
@@ -140,19 +157,19 @@
     {
       "item": {
         "aihot_story_id": "ba1d5ac2-160e-4d9d-ae98-63405a9bb3f3",
-        "digest": "微软 CEO Satya Nadella 在 X 发文提出，超级智能时代应把前沿闭源与开源权重模型当作\"内部风险\"来治理，将智能的供给与对它的授权分离。他主张把模型与编排其工作的 harness 分离、外置控制与安全防护，为每个关键模型动作留下防篡改的人类可读证据，并让授权者能随时在任务中途暂停或关闭模型，比喻为紧急刹车；The Verge 报道称他还主张默认假设模型已被攻破并从一开始就加以隔离，推进事件及时披露、独立审计、可验证数据等标准化措施。\n\n马斯克在 X 上评论该文\"很有意思\"，未展开具体意见。微软 AI CEO Mustafa Suleyman 同日发帖称超智能必须被约束，认为这是工程与治理挑战，并类比飞机、汽车、核材料、食品安全、药品等领域的既有管控，呼吁\"让我们行动起来\"。",
-        "latest_at": "2026-10-10T23:19:46.957Z",
-        "original_url": "https://www.ithome.com/1/011/545.htm",
-        "rank": 4,
+        "digest": "微软 CEO Satya Nadella 在 X 发文提出，超级智能时代应把前沿闭源与开源权重模型当作\"内部风险\"来治理，将智能的供给与对它的授权分离。他主张把模型与编排其工作的 harness 分离、外置控制与安全防护，为每个关键模型动作留下防篡改的人类可读证据，并让授权者能随时在任务中途暂停或关闭模型，比喻为紧急刹车；The Verge 报道称他还主张默认假设模型已被攻破并从一开始就加以隔离，推进事件及时披露、独立审计、可验证数据等标准化措施。IT之家称他要求模型提供商不能把责任外包出去。\n\nThe Decoder 报道认为，其论点主要服务于微软的商业策略，即削弱对 OpenAI 和 Anthropic 模型的依赖以保护自身利益。马斯克在 X 上评论该文\"很有意思\"，未展开具体意见。微软 AI CEO Mustafa Suleyman 同日发帖称超智能必须被约束，认为这是工程与治理挑战，并类比飞机、汽车、核材料、食品安全、药品等领域的既有管控，呼吁\"让我们行动起来\"。",
+        "latest_at": "2026-10-11T09:08:35.000Z",
+        "original_url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+        "rank": 2,
         "recovered": false,
-        "representative_source": "IT之家·人工智能",
-        "signal_count": 7,
-        "source_count": 5,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 9,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/ba1d5ac2-160e-4d9d-ae98-63405a9bb3f3",
         "title": "纳德拉：把前沿模型当内部风险管控"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     },
     {
       "item": {
@@ -160,7 +177,7 @@
         "digest": null,
         "latest_at": "2026-10-10T14:57:33.000Z",
         "original_url": "https://x.com/satyanadella/status/2108627925654503761",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "X：Satya Nadella (@satyanadella)",
         "signal_count": 12,
@@ -169,7 +186,7 @@
         "story_url": "https://aihot.virxact.com/story/cd73b967-8f2e-455c-b267-b0f1904a91c4",
         "title": "微软发布决策模型 Microsoft-Decision-1"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     },
     {
       "item": {
@@ -194,7 +211,7 @@
         "digest": null,
         "latest_at": "2026-10-10T00:10:15.320Z",
         "original_url": "https://x.com/grok/status/2108610528423842095",
-        "rank": 1,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Grok (@grok)",
         "signal_count": 23,
@@ -203,7 +220,24 @@
         "story_url": "https://aihot.virxact.com/story/d2b86a14-9162-49d5-9df2-0548df6c16a2",
         "title": "Grok Bot 新增专属邮箱功能"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d8494f01-e8e1-45e7-a09e-7b427dbeeb8e",
+        "digest": "阿里通义千问团队开源 Qwen-Image-2.1，把文生图与图像编辑合并到同一个 7B 视觉生成模型中，并原生支持生成和编辑带 alpha 通道的 RGBA 透明图像。模型支持最多 10 张参考图、圆形/涂鸦/掩码等局部编辑，官方称通过混合粒度注意力与 KV cache 复用提升推理效率，并改进了文字渲染与人像光照。权重已在 GitHub、HuggingFace、ModelScope 开放，但采用 Qwen Research License，商用需另行授权。\n\n发布后 vLLM-Omni、SGLang-Diffusion、ComfyUI、diffusers 和 Intel OpenVINO 均提供首日支持，Unsloth 推出可在 12GB 显存本地运行的 GGUF 量化版。Arena 显示其 Image Edit Arena 得分 1367、开源第一、总榜第 16，Text-to-Image Arena 开源第一；Artificial Analysis 本地部署评测中，它在两个 AA-Image 榜单均列第 18、为开源权重模型第一。团队称其自建基准超过多数闭源模型，独立基准尚待验证。\n\n10 月 9 日，通义千问又发布基于同一 7B 架构的加速版本 Qwen-Image-2.1-Turbo，将去噪步骤从 40 步缩减为 8 步，支持 2K 生成、多参考图编辑和透明 RGBA 输出，权重同样开放；该版本同样为研究许可，商用自托管需另行授权，API 在多数地区每张图 0.1 元、限速 120 RPM。",
+        "latest_at": "2026-10-09T20:33:17.000Z",
+        "original_url": "https://qwen.ai/blog?id=qwen-image-2.1",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Qwen：Blog Retrieval（API）",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d8494f01-e8e1-45e7-a09e-7b427dbeeb8e",
+        "title": "Qwen 开源 Qwen-Image-2.1 并推出 Turbo 加速版"
+      },
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     },
     {
       "item": {
@@ -211,7 +245,7 @@
         "digest": null,
         "latest_at": "2026-10-10T08:59:49.000Z",
         "original_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 16,
@@ -220,7 +254,7 @@
         "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "title": "谷歌发布 Gemini 4 Argon，先供可信防御者"
       },
-      "observed_at": "2026-10-11T05:56:12.443658Z"
+      "observed_at": "2026-10-11T13:00:28.968642Z"
     }
   ],
   "version": 1
