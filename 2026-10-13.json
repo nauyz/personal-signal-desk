@@ -7,16 +7,16 @@
         "digest": null,
         "latest_at": "2026-10-12T03:02:07.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2109479701689565297",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 12,
+        "signal_count": 13,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/03d4f9c6-4714-45e7-9db8-7af5df7e940a",
         "title": "亚马逊洽谈约70亿美元收购Decart"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     },
     {
       "item": {
@@ -38,87 +38,121 @@
     {
       "item": {
         "aihot_story_id": "5597a9c1-7e53-4213-b80f-6f99bbb10dd5",
-        "digest": "微软总裁布拉德·史密斯公开表示，AI 受到的安全监管甚至不如牛奶和洗衣机——每盒牛奶都要受安全规则约束并接受检查，洗衣机也有安全监管，而 AI 没有。他呼吁业界制定更多安全规格，主张 AI 产品发布前需经外部评估，并要求持有失控 AI 智能体的公司为其入侵其他企业造成的损害承担责任，同时建议企业设置“终止开关”，在 AI 失控时暂停运行。\n\n史密斯还称，英国而非美国或欧盟最适合主导全球 AI 安全规则，理由是英国 AI Security Institute 能在美国前沿实验室模型部署前获得访问权。",
+        "digest": null,
         "latest_at": "2026-10-12T15:31:19.000Z",
         "original_url": "https://www.ithome.com/1/011/984.htm",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 7,
+        "signal_count": 8,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/5597a9c1-7e53-4213-b80f-6f99bbb10dd5",
         "title": "微软总裁称AI监管不如牛奶洗衣机，呼吁业界担责"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "650e9193-a6bd-489e-8151-e3cbc367002c",
+        "digest": "xAI 推出 The X Subscription，把 Grok、Grok Bot、Cursor 和 X Premium 合入一个订阅，起步价 $8/月，共五档，未来几天向全球开放。Cursor 与 Grok 官方均确认 Cursor 已并入该订阅。\n\n现有 Cursor 订阅者可保留原计划或切换，切换可获旧计划按比例退款；已订阅 SuperGrok 的用户可在账户设置中切换。据 Cursor 称，付费计划在 Cursor、Grok Build 及其他 Grok 产品间共用一个用量池，使用 Grok 模型时的编码用量是同等 Cursor 计划的两倍；Premium、Super 和 Ultra 还包含 Grok Bot。\n\n为给更多 Grok 用量腾出空间，新计划下 Cursor 中的第三方模型改为按 API 定价、通过充值单独计费，Premium 及以上档位仍可使用。",
+        "latest_at": "2026-10-13T01:18:37.000Z",
+        "original_url": "https://x.ai/news/x-subscription",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "xAI：News（网页）",
+        "signal_count": 4,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/650e9193-a6bd-489e-8151-e3cbc367002c",
+        "title": "xAI 推出 The X Subscription，Cursor 并入其中"
+      },
+      "observed_at": "2026-10-13T02:04:53.701563Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "97867a64-6acf-4162-84ef-ae703563ac91",
+        "digest": "谷歌已正式推出 Fitbit Edge 健康与健身追踪手环，官方称其采用时尚设计、出色显示屏，提供一目了然的健身指导和先进健康追踪，面向活跃生活方式与日常佩戴。此前爆料称该手环欧洲售价 179 欧元，比 Fitbit Charge 6 贵 20 欧元，内置 Gemini 个性化教练，配备 1.34 英寸 AMOLED 屏幕，关闭常亮显示续航最长 7 天，支持血氧、心电图及心房颤动检测，提供 4 种配色，运行 Fitbit OS，支持蓝牙 5.4 与 GPS。\n\n爆料还称部分功能可能需要 Google Health Premium 订阅，手环兼容安卓 11 及以上和 iOS 16.4 及以上的手机。谷歌官方发布信息未提及售价、订阅要求及具体规格。",
+        "latest_at": "2026-10-12T19:55:44.000Z",
+        "original_url": "https://www.ithome.com/1/010/172.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 7,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/97867a64-6acf-4162-84ef-ae703563ac91",
+        "title": "谷歌正式发布 Fitbit Edge 健康手环"
+      },
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     },
     {
       "item": {
         "aihot_story_id": "9aa0716c-5b33-404a-a573-7c8b96447bf6",
-        "digest": "AMD 宣布推出面向代理式人工智能计算负载的 Helion 机架解决方案，基于 OCP 设计规范和 AMD Helios 开放平台理念，合作伙伴和客户可灵活组合多样化的 CPU 与 GPU 计算资源。其中基于第六代 EPYC 处理器的纯 CPU 版本可扩展至 32,768 核心。\n\nAMD 计划将 Helion 规范贡献给 OCP，并正与生态伙伴共同开发，预计 2026 年 11 月正式推出。",
+        "digest": null,
         "latest_at": "2026-10-12T14:17:31.797Z",
         "original_url": "https://www.ithome.com/1/012/103.htm",
         "rank": 7,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 7,
+        "signal_count": 8,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/9aa0716c-5b33-404a-a573-7c8b96447bf6",
         "title": "AMD发布Helion机架方案，面向代理式AI"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     },
     {
       "item": {
         "aihot_story_id": "9ce2c8e5-8fa1-4763-b493-ddec042860cc",
-        "digest": "Andrej Karpathy 重发并扩展其 4 月的观点，称外界对 LLM 能力的共识差距正从“两群人各说各话”变成一个急剧收窄的漏斗。他估算全球约 60 亿人（约 75%）几乎未接触过 LLM，约 10 亿至 20 亿人偶尔使用免费层类 ChatGPT 产品，约 2000 万人在数学与编码领域直接使用前沿模型，仅约 5000 人能接触前沿级内部系统。\n\nKarpathy 称，漏斗由问题规模、系统能力的锯齿状分布和访问层级共同驱动，不同人群对同一批系统的感知因此差异极大。他称约 2000 万数学与代码专业者能看到智能体在数周内完成过去数月的项目，约 5000 名实验室内部人员则在观察数千智能体协作数周的软件大型项目、漏洞挖掘、网络攻防、科学发现与前沿数学进展。\n\nEthan Mollick 转引该推文并补充称，即使这 5000 名内部人员中许多也未充分发挥先进模型能力，其应用集中在网络安全、数学与 AI 研发，还有许多其他领域和问题可以推进。Oran Ge 则称，大部分人不用大模型是因为大模型对他们没用、没有 ROI。",
+        "digest": null,
         "latest_at": "2026-10-12T12:51:21.000Z",
         "original_url": "https://x.com/karpathy/status/2109361546505966046",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：Andrej Karpathy (@karpathy)",
         "signal_count": 17,
         "source_count": 8,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/9ce2c8e5-8fa1-4763-b493-ddec042860cc",
         "title": "Karpathy：LLM 能力认知鸿沟扩大为漏斗"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     },
     {
       "item": {
         "aihot_story_id": "a0882d61-22db-4402-a8a9-e37cb79d0c01",
-        "digest": "SubQuadratic 发布 SubQ Snap，称其为首个面向企业真实工作的长上下文决策模型，支持 384K 多模态上下文，是 Jev 的 12 倍。据 Rohan Paul 转述，其延迟随上下文线性增长：100K tokens 为 660ms、384K 为 2.5 秒，而标准二次注意力在该区间成本约涨 15 倍。\n\n定价为每百万输入 tokens 0.05 美元、输出免费；前 1 万名注册用户可获 1 亿免费输入 tokens。上述性能与“首个”定位均为发布方说法。",
+        "digest": null,
         "latest_at": "2026-10-12T18:30:40.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2109713379757867045",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 6,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/a0882d61-22db-4402-a8a9-e37cb79d0c01",
         "title": "SubQ 发布 384K 上下文决策模型 Snap"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     },
     {
       "item": {
         "aihot_story_id": "aa2f60b8-b006-4122-a457-546a28c7f58b",
-        "digest": "微软发布第三代自研 AI 芯片 Maia 300，并宣布从 2027 年起将 Azure Maia 系列扩展到多吉瓦级部署，使其成为微软自家产品和服务的主要推理系统。微软称，Maia 300 每瓦 token 产出比主流 GPU 系统高 40%，计划 2027 年开始生产部署。\n\n据 IT之家报道，Maia 300 采用台积电 N2P 工艺，配备 288GB HBM4 内存、18TB/s 带宽，FP4 算力 13.8 PFLOPS，SoC 功耗 950W，单机架可容纳 96 颗，最多组建 12000 颗加速器的集群。\n\n微软称，上一代 Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7 倍，目前承载 Microsoft Copilot 等生产负载，GitHub Copilot 和 Microsoft Foundry 将在年底前跟进。上述性能数据均来自微软方面的说法。微软将 Maia 定位为降低对 Nvidia GPU 依赖的自研推理方案。",
+        "digest": null,
         "latest_at": "2026-10-12T15:24:03.000Z",
         "original_url": "https://x.com/satyanadella/status/2109631106404487523",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Satya Nadella (@satyanadella)",
-        "signal_count": 11,
+        "signal_count": 19,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/aa2f60b8-b006-4122-a457-546a28c7f58b",
         "title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     },
     {
       "item": {
@@ -140,19 +174,19 @@
     {
       "item": {
         "aihot_story_id": "f7f99eb7-84e6-4450-a43f-668dca988b22",
-        "digest": "Meta 发布 Muse Wonder 与 Muse Wonder Full 两款智能体模型，称其在个人与专业智能体任务上达到 SOTA。Muse Wonder 即日起通过 Meta Model API 和 Muse Code 提供，按每百万 token 4 美元输入、20 美元输出计费；Muse Wonder Full 仅面向 Muse Code 订阅用户，不在 API 上提供，其 token 定价尚未公布。\n\n据 Artificial Analysis 数据，两款模型在其 Intelligence Index v4.3 上分别得 52 和 56，高于 Muse Spark 1.3 的 48；有用户称 Full 版在该指数上仅落后 Claude Opus 5.5 两分，并在 DeepSWE v1.1 得 79.0%。Meta 称模型配备跨对话保留上下文的 Active Memory 和遇阻时尝试替代方案、坚持到完成的 Active Focus，并称已训练其抵御对抗性指令、谨慎处理私人信息。\n\nMuse Wonder 已在 OpenRouter 上线，并已进入 Arena 的 Agent Arena 供实测，分数尚未公布；该模型将陆续接入 Meta 的 Muse 等产品，优先向订阅用户推送。",
-        "latest_at": "2026-10-12T18:48:29.000Z",
-        "original_url": "https://research.meta.ai/blog/muse-wonder",
+        "digest": "Meta 于 10 月 12 日发布 Muse Wonder 和 Muse Wonder Full 两款前沿智能体模型，这是其 Superintelligence Labs 成立一年多后的首批前沿模型。据 Artificial Analysis 实测，两款模型在 Intelligence Index v4.3 上分别得 52 和 56 分（最大推理量），较六周前 Muse Spark 1.3 的 48 分明显提升；Muse Wonder Full 在该指数上排名第二，距 Claude Opus 5.5 仅 2 分。\n\n两款模型开放范围不同：Muse Wonder 可通过 Meta Model API 和 Muse Code 使用，定价为每百万 token 输入 4 美元、缓存输入 0.20 美元、输出 20 美元；Muse Wonder Full 仅面向 Muse Code 订阅用户，不在 API 提供，按 token 定价尚未公布。Meta 称 Muse Wonder 将陆续接入 Muse 等其他产品，先向订阅用户推送。\n\nMeta 称该系列在个人与专业智能体、记忆和编码基准上达到 SOTA，配备跨对话保留上下文的 Active Memory 和遇阻持续尝试的 Active Focus，并称在抵御对抗性指令、处理隐私信息方面做了专门训练。第三方评测者则给出不同侧重：有开发者称 Muse Wonder 一次找出其他 Agent 遗漏的代码漏洞，也有人汇总称 Muse Wonder Full 在 14 项公开基准中 8 项超过 Opus 5.5。",
+        "latest_at": "2026-10-13T01:02:08.000Z",
+        "original_url": "https://artificialanalysis.ai/articles/muse-wonder",
         "rank": 1,
         "recovered": false,
-        "representative_source": "Meta AI：Research Blog（网页）",
-        "signal_count": 33,
-        "source_count": 13,
+        "representative_source": "Artificial Analysis 完整文章（网页）",
+        "signal_count": 42,
+        "source_count": 16,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f7f99eb7-84e6-4450-a43f-668dca988b22",
-        "title": "Meta 发布 Muse Wonder 系列前沿智能体模型"
+        "title": "Meta 发布 Muse Wonder 系列前沿模型"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     },
     {
       "item": {
@@ -160,7 +194,7 @@
         "digest": null,
         "latest_at": "2026-10-12T07:13:58.000Z",
         "original_url": "https://x.com/thsottiaux/status/2109430343346581527",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
         "signal_count": 7,
@@ -169,7 +203,7 @@
         "story_url": "https://aihot.virxact.com/story/fa2e5d50-3b53-4b62-a0f1-5f2aef0240e3",
         "title": "GPT-6.1 Sol 默认上下文提至 500k 并取消订阅长上下文费"
       },
-      "observed_at": "2026-10-12T19:51:04.575126Z"
+      "observed_at": "2026-10-13T02:04:53.701563Z"
     }
   ],
   "version": 1
