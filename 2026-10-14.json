@@ -7,16 +7,16 @@
         "digest": null,
         "latest_at": "2026-10-13T14:03:11.000Z",
         "original_url": "https://www.anthropic.com/research/self-replicating-ai",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 15,
+        "signal_count": 16,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/12f4e6cb-604e-40cd-a3c8-eeb6fead61ce",
         "title": "Anthropic研究：小模型或可在IoT设备自我复制"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
@@ -38,53 +38,53 @@
     {
       "item": {
         "aihot_story_id": "650e9193-a6bd-489e-8151-e3cbc367002c",
-        "digest": null,
+        "digest": "xAI（报道中亦称 SpaceX Super Intelligence）推出统一订阅 The X Subscription，把 Grok、Grok Bot、Cursor 和 X Premium 合入一个计划，未来几天内向全球用户逐步开放。Cursor 与 Grok 官方账号随后确认 Cursor 已并入该订阅。\n\n新订阅分 Free、Plus（$8/月）、Premium（$30/月）、Super（$100/月）、Ultra（$200/月）五档，付费档共享一个跨 Cursor、Grok Build 等 Grok 产品的用量池，Grok 模型上的编程用量是对应 Cursor 套餐的两倍；Premium 及以上还包含 Grok Bot。现有 Cursor 订阅者可保留原计划或切换，切换时旧套餐按剩余时间比例退款。为腾出更多 Grok 用量，Cursor 中的第三方模型在新套餐下改为按 API 标价单独充值，且仅 Premium 及以上档位可用。\n\nTechCrunch 报道称，免费档仅提供有限的聊天和智能体用量，最新 Grok 模型需 Premium 及以上；现有 X Premium+ 订阅者对应的新套餐价格相同或更低。",
         "latest_at": "2026-10-13T13:50:19.000Z",
         "original_url": "https://x.ai/news/x-subscription",
         "rank": 5,
         "recovered": false,
         "representative_source": "xAI：News（网页）",
-        "signal_count": 26,
-        "source_count": 10,
-        "status": null,
+        "signal_count": 27,
+        "source_count": 9,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/650e9193-a6bd-489e-8151-e3cbc367002c",
-        "title": "xAI 推出 The X Subscription，整合 Grok、Cursor 与 X Premium"
+        "title": "xAI 推 The X Subscription，整合 Grok、Cursor 与 X Premium"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
         "aihot_story_id": "979b3da3-735e-4bc0-a4c0-148e8d72e73a",
-        "digest": "Character.AI 母公司 Character Technologies 已在特拉华州申请第 11 章破产保护，以推进公司及资产出售，并安排华特迪士尼作为初始竞购方：迪士尼出价 2000 万美元收购部分未披露资产，并获得一项非独占永久知识产权许可。据路透社报道，迪士尼被指定为首席竞标方，其报价作为竞标底价，其他竞标者仍可提出更高报价。\n\n法院文件显示，公司资产和负债均在 5000 万至 1 亿美元区间。出售预计 2026 年 11 月底或 12 月初完成，期间平台继续运营；若找不到愿意运营平台的买家，公司将逐步结束相关业务。TechCrunch 称目前尚无其他竞购方。\n\n404 Media 援引破产文件称，公司 2024 年每月 AI 算力支出 1380 万美元、2025 年为 1000 万美元，而订阅收入峰值仅每月 280 万美元，含广告的全部收入峰值 530 万美元；2026 年 1 至 8 月算力支出 5610 万美元，8 月时每月仍亏损约 800 至 900 万美元。公司此前因未成年用户诉讼、德州调查等陷入困境，曾尝试 AI 视频生成、社交信息流和微短剧等转型未果；据 WSJ 报道，申请原因包括青少年自残诉讼（今年已和解）及未成年人使用聊天机器人面临的审查。",
+        "digest": null,
         "latest_at": "2026-10-13T20:06:53.000Z",
         "original_url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
         "rank": 6,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 18,
+        "signal_count": 20,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/979b3da3-735e-4bc0-a4c0-148e8d72e73a",
         "title": "Character.AI申请破产 迪士尼2000万美元牵头竞购"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
         "aihot_story_id": "99f5c3c4-2817-4634-b110-98b7db9ef40c",
         "digest": "OpenAI称在自家办公室发现一个隐蔽的录音装置，用自家模型分析设备及其来源后，确认是一名员工几天前安放，公司已将其解雇并移交FBI，FBI随后逮捕相关人员，调查仍在进行。OpenAI表示目前没有迹象显示该员工不当访问或外泄模型权重、源代码或客户数据。\n\nThe Verge报道称，被捕者是OpenAI 35岁工程师Abdulrahman Alfozan，设备于9月28日前后装在公司高管会议室电视的USB端口，并用卫生纸遮盖，他被控使用或试图使用设备拦截口头通信。OpenAI未说明装置本身录下了什么。\n\n另有评论者将此事与一名前研究员关于中国在OpenAI和Anthropic安插间谍的说法相联系，该说法来自评论者，并非OpenAI或FBI的结论。",
-        "latest_at": "2026-10-13T20:45:25.000Z",
+        "latest_at": "2026-10-13T23:54:08.000Z",
         "original_url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
         "rank": 3,
         "recovered": false,
         "representative_source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-        "signal_count": 25,
-        "source_count": 3,
+        "signal_count": 36,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/99f5c3c4-2817-4634-b110-98b7db9ef40c",
-        "title": "OpenAI工程师涉在会议室装窃听装置被捕"
+        "title": "OpenAI工程师涉装窃听装置被捕"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
@@ -109,16 +109,16 @@
         "digest": null,
         "latest_at": "2026-10-12T15:24:03.000Z",
         "original_url": "https://x.com/satyanadella/status/2109631106404487523",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：Satya Nadella (@satyanadella)",
-        "signal_count": 26,
+        "signal_count": 27,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/aa2f60b8-b006-4122-a457-546a28c7f58b",
         "title": "微软发布 Maia 300，2027 年扩至多吉瓦级部署"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
@@ -129,13 +129,13 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
-        "signal_count": 25,
+        "signal_count": 26,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/af69d9b9-5ada-463b-b9e9-39abe571b452",
         "title": "苹果发布 HomeView 智能家居中枢"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
@@ -146,64 +146,64 @@
         "rank": 10,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 14,
+        "signal_count": 15,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b3fcb5e6-44bc-41e7-a9ee-6e03dbed65f3",
         "title": "Anthropic发布防蒸馏攻击新方法"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
         "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
-        "digest": "Google 正式发布旗舰模型 Gemini 4 Argon（gemini-4-argon），定位为面向复杂编码、智能体、数学和科学任务的最强模型，即日起全球上线。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Verge 报道称，Argon 何时或是否向 Plus 订阅者和免费用户开放尚不清楚；Ars Technica 称低档位订阅也无法获得完整访问。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入享 95% 折扣；The Verge 称该价格将在 11 月底翻倍。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogle 声称 Argon 在编码、网络安全、科学、金融和法律等基准上优于 GPT-6 Astra、Claude Fable 5.1 和 Claude Opus 5.5，并在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%。Google DeepMind 称该模型解决了全部 12 个端到端模拟网络攻击场景（上一代为 5 个）。评测者 Ethan Mollick 称其较前代 Gemini 模型有明显跃升，但在复杂多智能体工作上仍有短板。",
-        "latest_at": "2026-10-13T21:04:20.000Z",
+        "digest": "Google 正式发布旗舰模型 Gemini 4 Argon（gemini-4-argon），即日起全球上线，定位为面向复杂编码、智能体、数学和科学任务的最强模型。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Verge 称 Argon 何时或是否向 Plus 订阅者和免费用户开放尚不清楚；Ars Technica 称低档位订阅也无法获得完整访问。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入享 95% 折扣；The Verge 称该价格将在 11 月底翻倍。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogle 声称 Argon 在编码、网络安全、科学、金融和法律等基准上优于 GPT-6 Astra、Claude Fable 5.1 和 Claude Opus 5.5，并在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%。Google DeepMind 称该模型解决了全部 12 个端到端模拟网络攻击场景（上一代为 5 个）。评测者 Ethan Mollick 称其较前代 Gemini 模型有明显跃升，但在复杂多智能体工作上仍有短板；评测者 indigo 则认为 Argon 让 Google 重新追上第一梯队但未超越对手，其配套应用 Antigravity 落后半年到一年。",
+        "latest_at": "2026-10-13T23:54:05.000Z",
         "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
         "rank": 1,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
-        "signal_count": 43,
-        "source_count": 17,
+        "signal_count": 48,
+        "source_count": 18,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，仅付费用户可用"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
         "aihot_story_id": "dd9580d2-0aaa-4628-bab2-4e89974e44bb",
-        "digest": "Anthropic发布工程复盘，称因Claude大幅提升代码产出，团队在五个月内自研版本控制系统Scion，并在其monorepo中完全替代git，同时推出代码评审工具Antique。\n\nAnthropic称，5月团队日均合并约2,500个代码变更，9月已超过30,000个，为人类开发者设计的基础设施在agent规模下成为瓶颈，这促使其重建源码管理。\n\nAnthropic表示，分享这些细节是作为团队应对类似挑战的案例，但称该方案未必适合所有情况，并明确Scion绝非git的通用替代品。",
-        "latest_at": "2026-10-13T18:48:37.000Z",
+        "digest": "Anthropic发布工程复盘，称因Claude大幅提升代码产出，团队在五个月内自研版本控制系统Scion，并在其monorepo中完全替代git，同时推出代码评审工具Antique。\n\nAnthropic称，5月团队日均合并约2,500个代码变更，9月已超过30,000个，为人类开发者设计的基础设施在agent规模下成为瓶颈，这促使其重建源码管理。Simon Willison转述称，该项目由7人团队、耗时5个月完成。\n\nAnthropic表示，分享这些细节是作为团队应对类似挑战的案例，但称该方案未必适合所有情况，并明确Scion绝非git的通用替代品。",
+        "latest_at": "2026-10-14T00:13:38.000Z",
         "original_url": "https://www.anthropic.com/engineering/redesigning-source-control",
-        "rank": 9,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-        "signal_count": 10,
-        "source_count": 3,
+        "signal_count": 15,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/dd9580d2-0aaa-4628-bab2-4e89974e44bb",
         "title": "Anthropic自研Scion替代git并分享经验"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     },
     {
       "item": {
         "aihot_story_id": "f7f99eb7-84e6-4450-a43f-668dca988b22",
         "digest": "Meta 于 10 月 12 日发布 Muse Wonder 和 Muse Wonder Full 两款前沿智能体模型，这是其 Superintelligence Labs 成立一年多后的首批前沿模型。据 Artificial Analysis 实测，两款模型在 Intelligence Index v4.3 上分别得 52 和 56 分（最大推理量），较六周前 Muse Spark 1.3 的 48 分明显提升；Muse Wonder Full 在该指数上排名第二，距 Claude Opus 5.5 仅 2 分。\n\n两款模型开放范围不同：Muse Wonder 可通过 Meta Model API 和 Muse Code 使用，定价为每百万 token 输入 4 美元、缓存输入 0.20 美元、输出 20 美元；Muse Wonder Full 仅面向 Muse Code 订阅用户，不在 API 提供，按 token 定价尚未公布。Meta 称 Muse Wonder 将陆续接入 Muse 等其他产品，先向订阅用户推送。\n\nMeta 称该系列在个人与专业智能体、记忆和编码基准上达到 SOTA，配备跨对话保留上下文的 Active Memory 和遇阻持续尝试的 Active Focus，并称在抵御对抗性指令、处理隐私信息方面做了专门训练。第三方评测者则给出不同侧重：有开发者称 Muse Wonder 一次找出其他 Agent 遗漏的代码漏洞，也有人汇总称 Muse Wonder Full 在 14 项公开基准中 8 项超过 Opus 5.5。Arena 后续公布 Muse Wonder (Max) 进入 Code Arena: WebDev 第 15 名（1651 分）、Text Arena 第 2 名（1513 分）。",
-        "latest_at": "2026-10-13T21:27:15.000Z",
+        "latest_at": "2026-10-13T22:53:44.000Z",
         "original_url": "https://artificialanalysis.ai/articles/muse-wonder",
         "rank": 2,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
-        "signal_count": 63,
-        "source_count": 15,
+        "signal_count": 64,
+        "source_count": 17,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f7f99eb7-84e6-4450-a43f-668dca988b22",
-        "title": "Meta 发布 Muse Wonder 系列前沿模型"
+        "title": "Meta 发布首批前沿模型 Muse Wonder 系列"
       },
-      "observed_at": "2026-10-13T22:51:05.673378Z"
+      "observed_at": "2026-10-14T01:57:42.023374Z"
     }
   ],
   "version": 1
