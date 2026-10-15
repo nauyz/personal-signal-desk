@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "1c82cb6d-b96b-4f08-a826-d2ea44910b33",
+        "digest": null,
+        "latest_at": "2026-10-14T16:43:24.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2110324532338893082",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 19,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/1c82cb6d-b96b-4f08-a826-d2ea44910b33",
+        "title": "苹果诉OpenAI窃密，法官令OpenAI交招聘材料"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2f0270d6-fc22-4747-af7c-a4f488d3cd16",
+        "digest": "Meta 发布开放权重多模态模型 Muse Spark Open，总参数约 816B、每 token 激活约 42B，支持 1M token 上下文和文本、图像、音频、视频输入，权重已在 Hugging Face 上线，发布当天可通过 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter 和 Together AI 的 API 使用。Meta 称其为迄今能力最强的美国开放权重模型，面向编码与智能体工作。\n\nApple 机器学习研究团队同日演示在 Mac Studio 上本地运行该模型，依赖当天发布的新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，通过 RDMA 把多台 Mac Studio 连成集群做分布式推理。Meta 称该模型经优化可在两台 Apple M5 Ultra Mac Studio 上以最新 MLX 框架运行，也支持 SGLang、vLLM、TensorRT-LLM、Hugging Face Transformers、llama.cpp 和 Unsloth 等引擎；Unsloth 提供 Dynamic 2-bit GGUF 量化版，称可在 256GB 内存的 Mac Studio 上运行。\n\nMeta 首席执行官 Mark Zuckerberg 称该模型在新款 Mac Studio 上运行效果极佳，得益于与 @johnternus 和 Apple 的合作。Hugging Face 团队提示，该模型无法关闭推理，若想减少 token 消耗可将推理强度设为“low”。OpenRouter 上架该模型，定价为输入 $1.25/M、输出 $4.25/M。",
+        "latest_at": "2026-10-15T18:05:07.000Z",
+        "original_url": "https://research.meta.ai/blog/muse-spark-open",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Meta AI：Research Blog（网页）",
+        "signal_count": 15,
+        "source_count": 11,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
+        "title": "Meta 开源 816B 模型，Apple 演示 Mac Studio 本地运行"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "312fbbf1-b598-4d74-bbc7-6008a54387f3",
+        "digest": null,
+        "latest_at": "2026-10-15T09:11:28.000Z",
+        "original_url": "https://www.ithome.com/1/013/160.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 17,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/312fbbf1-b598-4d74-bbc7-6008a54387f3",
+        "title": "八州起诉OpenAI称ChatGPT对儿童不安全"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "99f5c3c4-2817-4634-b110-98b7db9ef40c",
+        "digest": null,
+        "latest_at": "2026-10-15T09:31:52.000Z",
+        "original_url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "X：OpenAI Newsroom (@OpenAINewsroom)",
+        "signal_count": 66,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/99f5c3c4-2817-4634-b110-98b7db9ef40c",
+        "title": "OpenAI工程师涉装录音设备被捕"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
+        "digest": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位为处理复杂编码、智能体、数学和科学任务的最强模型。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogle 声称 Argon 在编码、网络安全、科学、金融和法律等基准上优于 GPT-6 Astra、Claude Fable 5.1 和 Claude Opus 5.5，并在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%；Google DeepMind 称该模型解决了全部 12 个端到端模拟网络攻击场景（上一代为 5 个）。评测者 Ethan Mollick 称其较前代 Gemini 模型有明显跃升，但在复杂多智能体工作上仍有短板；评测者 indigo 则认为 Argon 让 Google 重新追上第一梯队但未超越对手，其配套应用 Antigravity 落后半年到一年。",
+        "latest_at": "2026-10-15T14:58:56.000Z",
+        "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Google Blog：AI（RSS）",
+        "signal_count": 58,
+        "source_count": 10,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
+        "title": "Google 发布 Gemini 4 Argon，仅付费用户可用"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c69fcda4-6491-4827-9c2b-42579fd92447",
+        "digest": null,
+        "latest_at": "2026-10-15T09:34:01.117Z",
+        "original_url": "https://x.com/shao__meng/status/2110628071615365330",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：邵猛 (@shao__meng)",
+        "signal_count": 18,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/c69fcda4-6491-4827-9c2b-42579fd92447",
+        "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "dd9580d2-0aaa-4628-bab2-4e89974e44bb",
+        "digest": "Anthropic 工程博客披露，其用五个月自研版本控制系统 Scion，并将整个 monorepo 从 git 完全迁移，同时配套代码评审工具 Antique。Anthropic 称，Claude 写代码使日均合并代码变更从 2026 年 5 月的约 2,500 次增至 9 月的超过 30,000 次，为人类规模设计的基础设施成为瓶颈，这促使其重建源码管理。\n\n据 Simon Willison 转评，迁移由 7 人团队完成；另有转述称新系统的基础设施规模仅为原 Git 镜像的两百分之一。IT之家报道称，Scion 将提交、合并、变基和文件历史查询等操作放到服务器端执行，其 CPU 和内存消耗仅为 Git 的两百分之一，CI 和研究任务代码检出从几分钟缩短到几秒；该报道同时指出其他公司难以照搬，因为需要配套的定制代码审查、搜索和 CI 工具。\n\nAnthropic 在博客中说明，分享这些细节只是作为团队应对类似挑战的示例，并不认为其方案适合所有情况，并明确 Scion 绝非 git 的通用替代品。",
+        "latest_at": "2026-10-15T14:42:13.093Z",
+        "original_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
+        "signal_count": 34,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/dd9580d2-0aaa-4628-bab2-4e89974e44bb",
+        "title": "Anthropic 自研 Scion 替换 git 并分享经验"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e1654a62-6c1b-40ba-be4a-032beae55011",
+        "digest": "英伟达发布开源多模态模型 Nemotron 3.5 Super VL，采用混合 Mamba-Transformer 的 MoE 架构，总参数 1200 亿、每 token 激活 120 亿，将推理、工具调用与文本、图像、文档、GUI 及视频理解整合，面向长时间运行、执行多步骤任务的 AI 智能体。英伟达称其单 GPU 智能体任务吞吐量最高达同规模开放模型的 5 倍，并称任务完成最快、准确率最高；模型权重以 BF16 和 NVFP4 格式在 Hugging Face 开放下载，同时上线 OpenRouter、ModelScope 和 NVIDIA NIM，vLLM 提供 Day 0 支持。\n\nPrime Intellect 称与英伟达用 2500 个经验证的企业任务、在 128 块 GB200 GPU 上以 GRPO 训练约 11 小时，将该模型在 AutomationBench-AA 公开分割上的得分从 34.0% 提升到 57.7%。Artificial Analysis 评测显示该模型在 Intelligence Index 得分 26，为领先的美国开源权重模型，是上代 Nemotron 3 Super（13）的两倍。\n\n配套支持还包括：OpenHands 将其引入常驻软件工程智能体工作流；fal 上线文本、视觉、视频三个入口；Baseten 上线该模型，开发者可用 NVFP4 权重在 NVIDIA Blackwell GPU 上评估并通过 Baseten Training 定制；Perplexity 面向 Pro 和 Max 订阅用户开放，并接入 Agent API。英伟达同期发布端侧模型 Bolt 74B-A9B（24GB）与 Bolt E4B（4GB，10 月 23 日上线）。",
+        "latest_at": "2026-10-15T18:03:15.000Z",
+        "original_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "NVIDIA Blog（RSS）",
+        "signal_count": 8,
+        "source_count": 16,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011",
+        "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "digest": "Anthropic在旧金山闭门投资者会议上披露，第三季度收入168亿美元，环比增速从二季度的147%降至约45%。据The Information和Financial Times报道，公司年内调整后营业利润率为11%、现金流为正，每1美元算力支出产生1.70美元收入；二季度收入从约48亿美元增至115亿美元。Anthropic未公开确认这些数字。\n\n部分投资者对营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的约2万亿美元。Bloomberg称市场将增长放缓解读为对AI芯片和服务器的坏消息，AI交易需要证明计算支出能在增长降温下产生可持续利润。\n\nX用户Oran Ge转发明浩的即刻内容并自行测算称，若7月650亿美元ARR属实，8月收入或停滞在54亿美元左右、9月约60亿美元，对应9月ARR约720亿美元，增速急剧放缓。该测算为个人推算，非官方数据。",
+        "latest_at": "2026-10-15T16:29:01.000Z",
+        "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 16,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "title": "Anthropic三季度收入168亿美元，增速放缓"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fe6db43a-46f1-4dc3-9324-85138dc82596",
+        "digest": null,
+        "latest_at": "2026-10-15T05:18:54.000Z",
+        "original_url": "https://x.ai/news/grok-voice-3",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "xAI：News（网页）",
+        "signal_count": 13,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/fe6db43a-46f1-4dc3-9324-85138dc82596",
+        "title": "xAI 发布 Grok Voice 3.0，登顶语音评测榜"
+      },
+      "observed_at": "2026-10-15T18:21:33.070399Z"
+    }
+  ],
+  "version": 1
+}
