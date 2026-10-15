@@ -24,16 +24,16 @@
         "digest": null,
         "latest_at": "2026-10-14T16:43:24.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2110324532338893082",
-        "rank": 6,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 15,
+        "signal_count": 16,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/1c82cb6d-b96b-4f08-a826-d2ea44910b33",
         "title": "苹果诉OpenAI窃密，法官令OpenAI交招聘材料"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
@@ -55,7 +55,7 @@
     {
       "item": {
         "aihot_story_id": "979b3da3-735e-4bc0-a4c0-148e8d72e73a",
-        "digest": "Character.AI 母公司 Character Technologies 已在特拉华州申请第 11 章破产保护，以推进公司及资产出售，并同意以 2000 万美元向华特迪士尼出售部分资产，迪士尼被指定为首席竞标方，其报价作为竞标底价，其他竞标者可提出更高报价；迪士尼还将获得一项非独占知识产权许可。法院文件显示其资产和负债均在 5000 万至 1 亿美元之间，出售预计 2026 年 11 月底或 12 月初完成，期间平台和订阅照常运营；若找不到愿意运营平台的买家，公司将逐步结束相关业务。\n\n公司将其困境归因于涉未成年用户的诉讼、监管压力及运营问题，并称巨额法律费用加剧了破产，但也承认即使没有法律问题，业务本身也极不可持续。\n\n纽约州总检察长 Letitia James 联合 40 位两党总检察长在破产案中提交利益通知，要求任何资产出售方落实用户数据保护程序，并称已对 Character.AI 展开多年多州调查。",
+        "digest": null,
         "latest_at": "2026-10-14T18:47:54.000Z",
         "original_url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
         "rank": 7,
@@ -63,16 +63,16 @@
         "representative_source": "TechCrunch：AI（RSS）",
         "signal_count": 21,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/979b3da3-735e-4bc0-a4c0-148e8d72e73a",
         "title": "Character.AI申请破产，迪士尼2000万美元牵头竞购"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
         "aihot_story_id": "99f5c3c4-2817-4634-b110-98b7db9ef40c",
-        "digest": "OpenAI称在办公室发现一个隐蔽录音装置，用自家模型分析设备及来源后锁定一名员工，将其解雇并移交FBI，FBI随后逮捕该员工。The Verge报道，被捕者是35岁工程师Abdulrahman Alfozan，设备于9月28日前后装在公司高管会议室电视的USB端口并用卫生纸遮盖，他被控使用或试图使用设备拦截口头通信。\n\n后续报道称，该员工2025年7月起在OpenAI任职，10月9日被解雇，面临非法截获口头通信的联邦指控，最高可判5年监禁及25万美元罚款；设备约在安装两天后的9月30日被员工发现。美国司法部通报的起诉书还称，他通过妻子名下的聊天机器人账号获取搭建录音器、Wi-Fi连接和SD卡加密等提示。Ars Technica报道，FBI称10月5日安装摄像头后拍到Alfozan当天试图取回设备。\n\nOpenAI表示目前没有迹象显示该员工不当访问或外泄模型权重、源代码或客户数据，也未说明装置本身录下了什么。有评论者将此事与一名前研究员关于中国在OpenAI和Anthropic安插间谍的说法相联系，该说法来自评论者，并非OpenAI或FBI的结论。",
+        "digest": null,
         "latest_at": "2026-10-14T19:07:37.000Z",
         "original_url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
         "rank": 2,
@@ -80,11 +80,11 @@
         "representative_source": "X：OpenAI Newsroom (@OpenAINewsroom)",
         "signal_count": 64,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/99f5c3c4-2817-4634-b110-98b7db9ef40c",
         "title": "OpenAI工程师涉在会议室装录音设备被捕"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
@@ -101,12 +101,12 @@
         "story_url": "https://aihot.virxact.com/story/af69d9b9-5ada-463b-b9e9-39abe571b452",
         "title": "苹果发布 HomeView 智能家居中枢"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
         "aihot_story_id": "b8354181-64d5-482c-8340-9992708d2480",
-        "digest": "Epic Games 在与迪士尼的 15 亿美元合作项目中转向“AI 优先”开发：据 Bloomberg 报道，由 Anthropic 的 Claude 等模型编写全部代码并指导全部美术，人类开发者负责管理和引导生成内容。这一模式针对双方合作的一款射击游戏，该游戏原定 3 月发布，现已无限期延期。\n\nEpic 因低估人手需求推迟了这款 Disney 游戏，并将其定为“AI first”项目；公司上周宣布“不再手写代码”、游戏将“以全 AI 工作流生成”，员工得知后反应错愕，Epic 发言人确认了采用 AI 加速开发的消息。转向 AI 先行开发与延期之间的具体关联，报道未进一步说明。\n\n这一策略也延伸到其他产品：Epic 发布新版 Epic Games Launcher 预览版，称其更快、更流畅并首次支持 Linux，官方确认整个刷新由 AI 智能体编写和审查代码。预览版即日起在 Windows、Mac 和 Linux 上提供，旧版仍可使用；Epic 未给出用户必须迁移的具体时间，称将在更新“稳定”且与现有启动器“所有必要之处”对齐后全面上线。",
+        "digest": null,
         "latest_at": "2026-10-14T21:15:56.000Z",
         "original_url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
         "rank": 10,
@@ -114,28 +114,28 @@
         "representative_source": "Ars Technica：AI（RSS）",
         "signal_count": 10,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b8354181-64d5-482c-8340-9992708d2480",
         "title": "Epic 转向 AI 优先开发，Disney 游戏延期"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
         "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
         "digest": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位为面向复杂编码、智能体、数学和科学任务的最强模型。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogle 声称 Argon 在编码、网络安全、科学、金融和法律等基准上优于 GPT-6 Astra、Claude Fable 5.1 和 Claude Opus 5.5，并在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%；Google DeepMind 称该模型解决了全部 12 个端到端模拟网络攻击场景（上一代为 5 个）。评测者 Ethan Mollick 称其较前代 Gemini 模型有明显跃升，但在复杂多智能体工作上仍有短板；评测者 indigo 则认为 Argon 让 Google 重新追上第一梯队但未超越对手，其配套应用 Antigravity 落后半年到一年。",
-        "latest_at": "2026-10-14T22:02:05.000Z",
+        "latest_at": "2026-10-14T22:49:14.000Z",
         "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
         "rank": 1,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
-        "signal_count": 76,
-        "source_count": 21,
+        "signal_count": 77,
+        "source_count": 20,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，仅付费用户可用"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
@@ -152,7 +152,7 @@
         "story_url": "https://aihot.virxact.com/story/daf111a0-908f-4f9c-8639-fc469d9ec53b",
         "title": "谷歌 Gemini 4 Argon 从定向开放走向全面上线"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
@@ -165,28 +165,45 @@
         "representative_source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
         "signal_count": 29,
         "source_count": 7,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/dd9580d2-0aaa-4628-bab2-4e89974e44bb",
         "title": "Anthropic 自研 Scion 替换 git 并分享经验"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     },
     {
       "item": {
         "aihot_story_id": "f7f99eb7-84e6-4450-a43f-668dca988b22",
         "digest": "Meta 于 10 月 12 日发布 Muse Wonder 和 Muse Wonder Full 两款前沿智能体模型，这是其 Superintelligence Labs 成立一年多后的首批前沿模型。据 Artificial Analysis 实测，两款模型在 Intelligence Index v4.3 上分别得 52 和 56 分（最大推理量），较六周前 Muse Spark 1.3 的 48 分明显提升；Muse Wonder Full 在该指数上排名第二，距 Claude Opus 5.5 仅 2 分。\n\n两款模型开放范围不同：Muse Wonder 可通过 Meta Model API、Muse Code 和 OpenRouter 使用，定价为每百万 token 输入 4 美元、缓存输入 0.20 美元、输出 20 美元；Muse Wonder Full 仅面向 Muse Code 订阅用户，不在 API 提供，按 token 定价尚未公布。Meta 称 Muse Wonder 将陆续接入 Muse 等其他产品，先向订阅用户推送。\n\nMeta 称该系列在个人与专业智能体、记忆和编码基准上达到 SOTA，配备跨对话保留上下文的 Active Memory 和遇阻持续尝试的 Active Focus，并称在抵御对抗性指令、处理隐私信息方面做了专门训练。第三方评测者则给出不同侧重：有开发者称 Muse Wonder 一次找出其他 Agent 遗漏的代码漏洞，也有人汇总称 Muse Wonder Full 在 14 项公开基准中 8 项超过 Opus 5.5。Arena 后续公布 Muse Wonder (Max) 进入 Code Arena: WebDev 第 15 名（1651 分）、Text Arena 第 2 名（1513 分），并在基于超 5000 次真实智能体会话的 Agent Arena 中列第 12 名、净提升 +6.4%。",
-        "latest_at": "2026-10-14T20:19:17.000Z",
+        "latest_at": "2026-10-14T23:46:15.000Z",
         "original_url": "https://artificialanalysis.ai/articles/muse-wonder",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
-        "signal_count": 35,
-        "source_count": 5,
+        "signal_count": 29,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f7f99eb7-84e6-4450-a43f-668dca988b22",
         "title": "Meta 发布首批前沿模型 Muse Wonder 系列"
       },
-      "observed_at": "2026-10-14T22:20:43.542516Z"
+      "observed_at": "2026-10-15T01:32:20.283651Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fe6db43a-46f1-4dc3-9324-85138dc82596",
+        "digest": "xAI（发布账号为 SpaceX Super Intelligence）发布语音到语音模型 Grok Voice 3.0，即日起在 API 和 Voice Agent Builder 中可用，定价每分钟 0.08 美元，与 Grok Voice 2.0 相同；使用 grok-voice-latest 版本的智能体已自动升级。发布方称其响应时间不到一秒、成本低于其他前沿模型，并称其为全球最智能的语音到语音模型、擅长处理客户来电，这些说法来自发布方宣传。\n\n第三方评测机构 Artificial Analysis 公布的结果显示，Grok Voice 3.0 在其 Speech to Speech Index 上以 86.9 分首秀登顶，领先 GPT-Live-1（Astra, medium）的 83.2 分和 Gemini 3.8 Live Extended Thinking（High）的 82.6 分，较 Grok Voice 2.0 提升 5.6 分。Musk 引用该结果称 Grok Voice 3.0 已是全球领先的对话语音模型，并称其在 Big Bench Audio 上平均首音频延迟 0.81 秒、任务成功率 94.8% 居首。\n\n据 Rohan Paul 转述，该模型最大提升在 τ-Voice 任务成功率，从 Grok Voice 2.0 的 56.5% 升至 71.6%，响应比 GPT-Live-1 快 40%，Big Bench Audio 上每任务成本 0.025 美元，低于 GPT-Live-1 的 0.030 美元和 GPT-Realtime-2.1 (High) 的 0.055 美元；他还称其已用于 Tesla，每天处理数百万段对话。Testing Catalog 则称其在多项基准和该指数上达到 SOTA，并提到对比图中 Grok Voice 3.0 的 Agent 成功率为 71.6%，高于 GPT-Live-1 的 68.6% 和 Grok Voice 2.0 的 56.5%。",
+        "latest_at": "2026-10-14T23:35:09.823Z",
+        "original_url": "https://x.ai/news/grok-voice-3",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "xAI：News（网页）",
+        "signal_count": 8,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/fe6db43a-46f1-4dc3-9324-85138dc82596",
+        "title": "xAI 发布 Grok Voice 3.0 语音模型"
+      },
+      "observed_at": "2026-10-15T01:32:20.283651Z"
     }
   ],
   "version": 1
