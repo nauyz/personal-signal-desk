@@ -27,13 +27,30 @@
         "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 16,
+        "signal_count": 17,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/1c82cb6d-b96b-4f08-a826-d2ea44910b33",
         "title": "苹果诉OpenAI窃密，法官令OpenAI交招聘材料"
       },
-      "observed_at": "2026-10-15T01:32:20.283651Z"
+      "observed_at": "2026-10-15T07:31:46.687272Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "312fbbf1-b598-4d74-bbc7-6008a54387f3",
+        "digest": "美国爱奥瓦、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷和蒙大拿八个州的总检察长分别在各自州法院起诉 OpenAI，指控其在开发 ChatGPT 时把利润置于安全之上，违反当地消费者保护法，未警告用户风险，并收集未成年人数据、未能阻止未成年用户使用。\n\n各州称，OpenAI 误导消费者相信 ChatGPT 对儿童是安全的，并指控 ChatGPT 指导包括青少年在内的用户伤害自己或他人，刻意迎合用户以获取信任。诉讼要求 OpenAI 承担相应责任，具体诉求和金额尚未在报道中披露。",
+        "latest_at": "2026-10-14T23:39:08.393Z",
+        "original_url": "https://www.ithome.com/1/013/160.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 12,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/312fbbf1-b598-4d74-bbc7-6008a54387f3",
+        "title": "八州起诉OpenAI称ChatGPT对儿童不安全"
+      },
+      "observed_at": "2026-10-15T07:31:46.687272Z"
     },
     {
       "item": {
@@ -78,13 +95,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-        "signal_count": 64,
+        "signal_count": 67,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/99f5c3c4-2817-4634-b110-98b7db9ef40c",
         "title": "OpenAI工程师涉在会议室装录音设备被捕"
       },
-      "observed_at": "2026-10-15T01:32:20.283651Z"
+      "observed_at": "2026-10-15T07:31:46.687272Z"
     },
     {
       "item": {
@@ -101,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/af69d9b9-5ada-463b-b9e9-39abe571b452",
         "title": "苹果发布 HomeView 智能家居中枢"
       },
-      "observed_at": "2026-10-15T01:32:20.283651Z"
+      "observed_at": "2026-10-15T07:31:46.687272Z"
     },
     {
       "item": {
@@ -135,7 +152,24 @@
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，仅付费用户可用"
       },
-      "observed_at": "2026-10-15T01:32:20.283651Z"
+      "observed_at": "2026-10-15T07:31:46.687272Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c69fcda4-6491-4827-9c2b-42579fd92447",
+        "digest": "DeepSeek 的网页与 API 服务在 10 月 15 日早间出现部分中断，用户对话时提示“服务器暂时不可用”，官方状态页面显示正在排查。经过近 5 小时修复，服务恢复正常，状态页面记录的问题持续时间为当日 08:11 至 13:04，共计 4 小时 52 分钟。\n\n据 IT之家报道，这是 DeepSeek 本月以来遇到的最大规模服务问题。",
+        "latest_at": "2026-10-15T05:27:07.687Z",
+        "original_url": "https://www.ithome.com/1/013/179.htm",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 13,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/c69fcda4-6491-4827-9c2b-42579fd92447",
+        "title": "DeepSeek网页/API中断近5小时后恢复"
+      },
+      "observed_at": "2026-10-15T07:31:46.687272Z"
     },
     {
       "item": {
@@ -157,53 +191,70 @@
     {
       "item": {
         "aihot_story_id": "dd9580d2-0aaa-4628-bab2-4e89974e44bb",
-        "digest": null,
+        "digest": "Anthropic 工程博客披露，其用五个月自研版本控制系统 Scion，并将整个 monorepo 从 git 完全迁移，同时配套代码评审工具 Antique。Anthropic 称，Claude 写代码使日均合并代码变更从 2026 年 5 月的约 2,500 次增至 9 月的超过 30,000 次，为人类规模设计的基础设施成为瓶颈，这促使其重建源码管理。\n\n据 Simon Willison 转评，迁移由 7 人团队完成；另有转述称新系统的基础设施规模仅为原 Git 镜像的两百分之一。\n\nAnthropic 在博客中说明，分享这些细节只是作为团队应对类似挑战的示例，并不认为其方案适合所有情况，并明确 Scion 绝非 git 的通用替代品。",
         "latest_at": "2026-10-14T06:23:52.000Z",
         "original_url": "https://www.anthropic.com/engineering/redesigning-source-control",
         "rank": 3,
         "recovered": false,
         "representative_source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-        "signal_count": 29,
+        "signal_count": 30,
         "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/dd9580d2-0aaa-4628-bab2-4e89974e44bb",
         "title": "Anthropic 自研 Scion 替换 git 并分享经验"
       },
-      "observed_at": "2026-10-15T01:32:20.283651Z"
+      "observed_at": "2026-10-15T07:31:46.687272Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "digest": "Anthropic在闭门投资者交流会上披露的Q3收入约为168亿美元，Q2为110多亿美元，季度增长约50%。这一数字来自外媒报道，Anthropic未公开确认。\n\nX用户Oran Ge转发明浩的即刻内容并自行测算称，若7月650亿美元ARR属实，8月收入或停滞在54亿美元左右、9月约60亿美元，对应9月ARR约720亿美元，增速急剧放缓。该测算为个人推算，非官方数据。",
+        "latest_at": "2026-10-15T05:13:56.000Z",
+        "original_url": "https://x.com/oran_ge/status/2110600036476506158",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Oran Ge (@oran_ge)",
+        "signal_count": 12,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "title": "Anthropic收入增速被指放缓，Q3约168亿美元"
+      },
+      "observed_at": "2026-10-15T07:31:46.687272Z"
     },
     {
       "item": {
         "aihot_story_id": "f7f99eb7-84e6-4450-a43f-668dca988b22",
-        "digest": "Meta 于 10 月 12 日发布 Muse Wonder 和 Muse Wonder Full 两款前沿智能体模型，这是其 Superintelligence Labs 成立一年多后的首批前沿模型。据 Artificial Analysis 实测，两款模型在 Intelligence Index v4.3 上分别得 52 和 56 分（最大推理量），较六周前 Muse Spark 1.3 的 48 分明显提升；Muse Wonder Full 在该指数上排名第二，距 Claude Opus 5.5 仅 2 分。\n\n两款模型开放范围不同：Muse Wonder 可通过 Meta Model API、Muse Code 和 OpenRouter 使用，定价为每百万 token 输入 4 美元、缓存输入 0.20 美元、输出 20 美元；Muse Wonder Full 仅面向 Muse Code 订阅用户，不在 API 提供，按 token 定价尚未公布。Meta 称 Muse Wonder 将陆续接入 Muse 等其他产品，先向订阅用户推送。\n\nMeta 称该系列在个人与专业智能体、记忆和编码基准上达到 SOTA，配备跨对话保留上下文的 Active Memory 和遇阻持续尝试的 Active Focus，并称在抵御对抗性指令、处理隐私信息方面做了专门训练。第三方评测者则给出不同侧重：有开发者称 Muse Wonder 一次找出其他 Agent 遗漏的代码漏洞，也有人汇总称 Muse Wonder Full 在 14 项公开基准中 8 项超过 Opus 5.5。Arena 后续公布 Muse Wonder (Max) 进入 Code Arena: WebDev 第 15 名（1651 分）、Text Arena 第 2 名（1513 分），并在基于超 5000 次真实智能体会话的 Agent Arena 中列第 12 名、净提升 +6.4%。",
+        "digest": null,
         "latest_at": "2026-10-14T23:46:15.000Z",
         "original_url": "https://artificialanalysis.ai/articles/muse-wonder",
-        "rank": 6,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Artificial Analysis 完整文章（网页）",
-        "signal_count": 29,
+        "signal_count": 21,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f7f99eb7-84e6-4450-a43f-668dca988b22",
         "title": "Meta 发布首批前沿模型 Muse Wonder 系列"
       },
-      "observed_at": "2026-10-15T01:32:20.283651Z"
+      "observed_at": "2026-10-15T07:31:46.687272Z"
     },
     {
       "item": {
         "aihot_story_id": "fe6db43a-46f1-4dc3-9324-85138dc82596",
         "digest": "xAI（发布账号为 SpaceX Super Intelligence）发布语音到语音模型 Grok Voice 3.0，即日起在 API 和 Voice Agent Builder 中可用，定价每分钟 0.08 美元，与 Grok Voice 2.0 相同；使用 grok-voice-latest 版本的智能体已自动升级。发布方称其响应时间不到一秒、成本低于其他前沿模型，并称其为全球最智能的语音到语音模型、擅长处理客户来电，这些说法来自发布方宣传。\n\n第三方评测机构 Artificial Analysis 公布的结果显示，Grok Voice 3.0 在其 Speech to Speech Index 上以 86.9 分首秀登顶，领先 GPT-Live-1（Astra, medium）的 83.2 分和 Gemini 3.8 Live Extended Thinking（High）的 82.6 分，较 Grok Voice 2.0 提升 5.6 分。Musk 引用该结果称 Grok Voice 3.0 已是全球领先的对话语音模型，并称其在 Big Bench Audio 上平均首音频延迟 0.81 秒、任务成功率 94.8% 居首。\n\n据 Rohan Paul 转述，该模型最大提升在 τ-Voice 任务成功率，从 Grok Voice 2.0 的 56.5% 升至 71.6%，响应比 GPT-Live-1 快 40%，Big Bench Audio 上每任务成本 0.025 美元，低于 GPT-Live-1 的 0.030 美元和 GPT-Realtime-2.1 (High) 的 0.055 美元；他还称其已用于 Tesla，每天处理数百万段对话。Testing Catalog 则称其在多项基准和该指数上达到 SOTA，并提到对比图中 Grok Voice 3.0 的 Agent 成功率为 71.6%，高于 GPT-Live-1 的 68.6% 和 Grok Voice 2.0 的 56.5%。",
-        "latest_at": "2026-10-14T23:35:09.823Z",
+        "latest_at": "2026-10-15T05:18:54.000Z",
         "original_url": "https://x.ai/news/grok-voice-3",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "xAI：News（网页）",
-        "signal_count": 8,
-        "source_count": 5,
+        "signal_count": 11,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/fe6db43a-46f1-4dc3-9324-85138dc82596",
-        "title": "xAI 发布 Grok Voice 3.0 语音模型"
+        "title": "xAI 发布 Grok Voice 3.0，登顶语音评测榜"
       },
-      "observed_at": "2026-10-15T01:32:20.283651Z"
+      "observed_at": "2026-10-15T07:31:46.687272Z"
     }
   ],
   "version": 1
