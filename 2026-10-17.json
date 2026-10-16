@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "1b39529e-2c70-4f97-828f-ae4a508ebff2",
+        "digest": "快手可灵 AI 于 10 月 15 日宣布 Kling 4.0 正式全量上线 klingai.com，结束此前内测（官方英文称封闭测试）。用户可通过 kling.ai 全新创作界面使用，并新增 MCP 和 CLI 接入；据 IT之家报道，单次生成视频最长 30 秒，可多次续拍延展至 2 分钟。\n\n官方称，4K 和 1080p 的 10-bit HDR 视频输出即将推出，面向企业客户和开发者的 API 服务将于近期开放。内测阶段官方曾表示该版本计划今年 10 月正式发布，支持单次原生生成最长 30 秒视频、单任务最多 15 项多模态参考素材、最多 10 张关键帧输入，并提升复杂运镜稳定性、长提示词理解、跨镜头一致性与口型同步；Kling 4.0 Flash 已向黑金年卡会员开放抢先体验。\n\n内测期间，官方与超级创作者发布了多组实测和短片展示，包括奥美资深创意总监盛健松的 30 秒打戏测试、韩国创作者서오키的人物表演与多图转场测试，以及官方短片《The Beat》（全网曝光超 500 万，开场为 30 秒连续长镜头）。上述效果均来自创作者和官方展示，尚非正式发布后的公开验证。",
+        "latest_at": "2026-10-16T15:00:00.000Z",
+        "original_url": "https://x.com/Khazix0918/status/2110914404393091205",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：卡兹克 (@Khazix0918)",
+        "signal_count": 14,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2",
+        "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2f0270d6-fc22-4747-af7c-a4f488d3cd16",
+        "digest": null,
+        "latest_at": "2026-10-16T02:26:04.000Z",
+        "original_url": "https://pytorch.org/blog/muse-spark-open/",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "PyTorch：Blog（RSS）",
+        "signal_count": 61,
+        "source_count": 23,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
+        "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "44880c6f-8433-4c3b-8d6e-757e1b8ae765",
+        "digest": "NVIDIA 的 RTX Spark 笔记本正式开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；NVIDIA 称定价与配置因地区而异。该产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力，定位为面向创作者、游戏玩家和 AI agents 的 Windows PC，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 称笔记本现已上市，小型台式机将于 11 月推出。\n\n开售当晚，X 用户卡兹克称线下首发体验会人山人海，128G+1T 的华硕 ProArt 创16 售价 37999 元，在线上瞬间售罄；其实测 Qwen3.8-27B 可跑到 30 Token/秒，Qwen image 2.1 约 1 分钟一张图，本地 2B 翻译模型可 6 路并发实现近 0 延迟实时翻译。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。",
+        "latest_at": "2026-10-16T15:00:00.000Z",
+        "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "NVIDIA：Newsroom（RSS）",
+        "signal_count": 9,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
+        "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "553aab31-30b1-4787-bd62-3b006d83295e",
+        "digest": "Reflection AI 已把首个开放权重模型 Beam 的权重放到 Hugging Face（reflectionai/Beam-1.0-501B-A23B），采用 Apache 2.0 许可。此前公司只说权重、技术报告和模型卡本月发布，早期访问需通过 Reflection 平台候补名单，The Decoder 当时称其仍在做最终安全测试、仅向部分用户提供早期版本。\n\nBeam 为纯文本稀疏 MoE，总参数 501B、每 token 激活 23B，预训练 23.8 万亿 token，支持 1M token 上下文，主打编码、推理和智能体任务，提供 BF16、FP8、NVFP4 权重及投机解码 drafter。SGLang 称已原生支持并驱动 Reflection 生产 API，vLLM 称 Day 0 支持并在 NVIDIA Blackwell 上优化；Ollama 称在 Ollama Cloud 限时免费提供且零数据保留。\n\n实际水平说法不一：Reflection 称推理任务以少三到四倍算力匹配 GLM 5.2，编码和智能体基准接近 Qwen3.8-Max，但原始性能仍不及 Kimi K3；马东锡 NLP 称其接近 GLM 5.2，与 GLM 5.3、Kimi K3、DeepSeek V4.1 Flash 多项能力仍有差距；Yuchen Jin 称其与 Mistral Large 4 大致达到 GLM-5.2 水平。Artificial Analysis 称 Beam 在 Intelligence Index 得 30 分，居美国开源权重模型第二，仅次于 Meta 的 Muse Spark Open（39）；Arena 称其以 -3.67% Net Improvement 位列 Agent Arena 开源模型第 12 名。",
+        "latest_at": "2026-10-16T14:22:00.000Z",
+        "original_url": "https://reflection.ai/blog/introducing-beam",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Reflection Blog",
+        "signal_count": 4,
+        "source_count": 9,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
+        "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "799a2a3d-ea41-4491-afaf-9e6c06aebe64",
+        "digest": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项。公告发布之日起至正式修订公告实施之日止，技术出口经营者在出口公告所列技术前，须在商务部业务系统统一平台技术贸易管理信息应用登记。\n\n商务部新闻发言人回应称，对人工智能类技术开源、中国企业在境外自建自营算力中心、赴境外开展芯片流片制造、利用境外资源开展联合研发、参与国际标准制定等情形的技术出口，适用自动许可等便利措施；企业利用限制类大模型对外提供API调用、APP/网页交互、SaaS应用、本地端侧轻量化部署等情形，不属于大模型技术出口管理范围。\n\nX用户Nathan Lambert转引该声明称，这与大量讨论的中国大开源模型终结的说法相反，实际效果取决于近自动审批如何落地。",
+        "latest_at": "2026-10-16T13:48:47.000Z",
+        "original_url": "https://www.ithome.com/1/013/983.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 12,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
+        "title": "商务部拟增列AI技术出口管制并答问"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b8e9eff6-993f-4d6a-bc2f-5062db89ac84",
+        "digest": "Anthropic 宣布已向非营利评估机构 METR 的六名研究人员开放员工级访问权限，包括公司配发的笔记本、办公空间，以及与内部风险评估团队大致相当的内部系统和工具访问，让其独立评估 Anthropic 的模型、安全实践和风险管理。除客户数据、律师-客户特权信息、模型架构等少数预先定义的类别外，Anthropic 鼓励员工像对待从事对齐风险工作的同事一样与 METR 共享信息。\n\nMETR 将公开发布对 Anthropic 模型和实践风险的评估结论。Anthropic 称无权否决发布，但可要求删减落入上述预定义类别的信息；据 Rohan Paul 转述，METR 可公开质疑删改是否合理。\n\nAnthropic 还表示已承诺接受外部机构对其安全实践的评估，并正与多个组织洽谈类似合作，其他洽谈对象及权限范围尚未公布。",
+        "latest_at": "2026-10-16T13:11:55.000Z",
+        "original_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 12,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b8e9eff6-993f-4d6a-bc2f-5062db89ac84",
+        "title": "Anthropic向METR六名评估员开放员工级访问"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
+        "digest": null,
+        "latest_at": "2026-10-16T07:34:44.337Z",
+        "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Google Blog：AI（RSS）",
+        "signal_count": 26,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
+        "title": "Google 发布 Gemini 4 Argon，付费用户独享"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c69fcda4-6491-4827-9c2b-42579fd92447",
+        "digest": null,
+        "latest_at": "2026-10-16T04:37:32.940Z",
+        "original_url": "https://x.com/shao__meng/status/2110628071615365330",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：邵猛 (@shao__meng)",
+        "signal_count": 22,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/c69fcda4-6491-4827-9c2b-42579fd92447",
+        "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e1654a62-6c1b-40ba-be4a-032beae55011",
+        "digest": null,
+        "latest_at": "2026-10-15T19:53:50.000Z",
+        "original_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "NVIDIA Blog（RSS）",
+        "signal_count": 11,
+        "source_count": 17,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011",
+        "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "digest": null,
+        "latest_at": "2026-10-16T00:54:07.827Z",
+        "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 21,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "title": "Anthropic三季度收入168亿美元，增速放缓"
+      },
+      "observed_at": "2026-10-16T17:29:51.400905Z"
+    }
+  ],
+  "version": 1
+}
