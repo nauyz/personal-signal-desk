@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "1b39529e-2c70-4f97-828f-ae4a508ebff2",
+        "digest": "快手可灵 AI 于 10 月 15 日宣布 Kling 4.0 正式全量上线 klingai.com，结束此前内测（官方英文称封闭测试）。用户可通过 kling.ai 全新创作界面使用，并新增 MCP 和 CLI 接入；据 IT之家报道，单次生成视频最长 30 秒，可多次续拍延展至 2 分钟。\n\n官方称，4K 和 1080p 的 10-bit HDR 视频输出即将推出，面向企业客户和开发者的 API 服务将于近期开放。内测阶段官方曾表示该版本计划今年 10 月正式发布，支持单次原生生成最长 30 秒视频、单任务最多 15 项多模态参考素材、最多 10 张关键帧输入，并提升复杂运镜稳定性、长提示词理解、跨镜头一致性与口型同步；Kling 4.0 Flash 已向黑金年卡会员开放抢先体验。\n\n内测期间，官方与超级创作者发布了多组实测和短片展示，包括奥美资深创意总监盛健松的 30 秒打戏测试、韩国创作者서오키的人物表演与多图转场测试，以及官方短片《The Beat》（全网曝光超 500 万，开场为 30 秒连续长镜头）。上述效果均来自创作者和官方展示，尚非正式发布后的公开验证。",
+        "latest_at": "2026-10-16T00:22:37.007Z",
+        "original_url": "https://x.com/Kling_ai/status/2110747537187709424",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：可灵 Kling AI (@Kling_ai)",
+        "signal_count": 8,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2",
+        "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒"
+      },
+      "observed_at": "2026-10-16T01:26:38.598823Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "1c82cb6d-b96b-4f08-a826-d2ea44910b33",
         "digest": null,
         "latest_at": "2026-10-14T16:43:24.000Z",
@@ -21,19 +38,19 @@
     {
       "item": {
         "aihot_story_id": "2f0270d6-fc22-4747-af7c-a4f488d3cd16",
-        "digest": "Meta 发布开源权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开源权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地运行该模型；Meta 称这是同类中首个可在桌面端以两台 Mac Studio 运行的模型，双方在发布上合作。\n\n许可方面，The Decoder 报道该许可免费使用但要求标注“Built with Muse Spark Open”，年收入超过 2000 万美元、想以 API 服务提供该模型的供应商需与 Meta 另签协议。vLLM 称已与 Meta Superintelligence Labs 合作提供 Day 0 支持，但 PyPI wheel 需待 PR 合并后进入 nightly 版本，通常约一周。",
-        "latest_at": "2026-10-15T21:02:27.000Z",
+        "digest": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开放权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。Artificial Analysis 称该模型在其 Intelligence Index 得 39 分，为美国开放权重模型第一。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地运行该模型；Meta 称这是同类中首个可在桌面端以两台 Mac Studio 运行的模型，双方在发布上合作。\n\n许可方面，The Decoder 报道该许可免费使用但要求标注“Built with Muse Spark Open”，年收入超过 2000 万美元、想以 API 服务提供该模型的供应商需与 Meta 另签协议。vLLM 称已与 Meta Superintelligence Labs 合作提供 Day 0 支持，但 PyPI wheel 需待 PR 合并后进入 nightly 版本，通常约一周。",
+        "latest_at": "2026-10-16T00:41:11.000Z",
         "original_url": "https://pytorch.org/blog/muse-spark-open/",
         "rank": 1,
         "recovered": false,
         "representative_source": "PyTorch：Blog（RSS）",
-        "signal_count": 32,
-        "source_count": 21,
+        "signal_count": 39,
+        "source_count": 23,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
         "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
@@ -50,7 +67,7 @@
         "story_url": "https://aihot.virxact.com/story/312fbbf1-b598-4d74-bbc7-6008a54387f3",
         "title": "八州起诉OpenAI称ChatGPT对儿童不安全"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
@@ -58,50 +75,50 @@
         "digest": null,
         "latest_at": "2026-10-15T09:31:52.000Z",
         "original_url": "https://x.com/OpenAINewsroom/status/2110095403198849132",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：OpenAI Newsroom (@OpenAINewsroom)",
-        "signal_count": 45,
-        "source_count": 4,
+        "signal_count": 38,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/99f5c3c4-2817-4634-b110-98b7db9ef40c",
         "title": "OpenAI工程师涉装录音设备被捕"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
         "aihot_story_id": "b8e9eff6-993f-4d6a-bc2f-5062db89ac84",
-        "digest": "Anthropic 宣布已向非营利评估机构 METR 的六名研究人员开放员工级访问权限，包括公司配发的笔记本、办公空间，以及与内部风险评估团队大致相当的内部系统和工具访问，让其独立评估 Anthropic 的模型、安全实践和风险管理。除客户数据、律师-客户特权信息、模型架构等少数预先定义的类别外，Anthropic 鼓励员工像对待从事对齐风险工作的同事一样与 METR 共享信息。\n\nMETR 将公开发布对 Anthropic 模型和实践风险的评估结论。Anthropic 称无权否决发布，但可要求删减落入上述预定义类别的信息；据 Rohan Paul 转述，METR 可公开质疑删改是否合理。\n\nAnthropic 还表示已承诺接受外部机构对其安全实践的评估，并正与多个组织洽谈类似合作，其他洽谈对象及权限范围尚未公布。",
+        "digest": null,
         "latest_at": "2026-10-15T19:14:26.000Z",
         "original_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
         "rank": 10,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 8,
+        "signal_count": 9,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b8e9eff6-993f-4d6a-bc2f-5062db89ac84",
         "title": "Anthropic向METR六名评估员开放员工级访问"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
         "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
-        "digest": null,
-        "latest_at": "2026-10-15T14:58:56.000Z",
+        "digest": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位为处理复杂编码、智能体、数学和科学任务的最强模型。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 token 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogle 声称 Argon 在编码、网络安全、科学、金融和法律等基准上优于 GPT-6 Astra、Claude Fable 5.1 和 Claude Opus 5.5，并在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%；Google DeepMind 称该模型解决了全部 12 个端到端模拟网络攻击场景（上一代为 5 个）。评测者 Ethan Mollick 称其较前代 Gemini 模型有明显跃升，但在复杂多智能体工作上仍有短板；评测者 indigo 则认为 Argon 让 Google 重新追上第一梯队但未超越对手，其配套应用 Antigravity 落后半年到一年。\n\n后续进展：Google Antigravity 于 10 月 16 日向付费 Google AI Pro 订阅用户推送 Argon，并为其设置独立的每周专属配额，叠加在原有 3.8 Flash 额度之上。",
+        "latest_at": "2026-10-15T23:18:07.000Z",
         "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
         "rank": 2,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
         "signal_count": 55,
-        "source_count": 8,
-        "status": null,
+        "source_count": 7,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，仅付费用户可用"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
@@ -109,7 +126,7 @@
         "digest": null,
         "latest_at": "2026-10-15T09:34:01.117Z",
         "original_url": "https://x.com/shao__meng/status/2110628071615365330",
-        "rank": 7,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：邵猛 (@shao__meng)",
         "signal_count": 19,
@@ -118,7 +135,7 @@
         "story_url": "https://aihot.virxact.com/story/c69fcda4-6491-4827-9c2b-42579fd92447",
         "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
@@ -126,50 +143,50 @@
         "digest": null,
         "latest_at": "2026-10-15T14:42:13.093Z",
         "original_url": "https://www.anthropic.com/engineering/redesigning-source-control",
-        "rank": 5,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Engineering（事故复盘 + 工程实践 · 网页）",
-        "signal_count": 30,
-        "source_count": 5,
+        "signal_count": 26,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/dd9580d2-0aaa-4628-bab2-4e89974e44bb",
         "title": "Anthropic 自研 Scion 替换 git 并分享经验"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
         "aihot_story_id": "e1654a62-6c1b-40ba-be4a-032beae55011",
-        "digest": "英伟达发布开源多模态模型 Nemotron 3.5 Super VL，采用混合 Mamba-Transformer 的 MoE 架构，总参数 1200 亿、每 token 激活 120 亿，将推理、工具调用与文本、图像、文档、GUI 及视频理解整合，面向长时间运行、执行多步骤任务的 AI 智能体。英伟达称其单 GPU 智能体任务吞吐量最高达同规模开放模型的 5 倍，并称任务完成最快、准确率最高；模型权重以 BF16 和 NVFP4 格式在 Hugging Face 开放下载，同时上线 OpenRouter、ModelScope 和 NVIDIA NIM，vLLM 提供 Day 0 支持。\n\nPrime Intellect 称与英伟达用 2500 个经验证的企业任务、在 128 块 GB200 GPU 上以 GRPO 训练约 11 小时，将该模型在 AutomationBench-AA 公开分割上的得分从 34.0% 提升到 57.7%。Artificial Analysis 评测显示该模型在 Intelligence Index 得分 26，为领先的美国开源权重模型，是上代 Nemotron 3 Super（13）的两倍。\n\n配套支持还包括：OpenHands 将其引入常驻软件工程智能体工作流；fal 上线文本、视觉、视频三个入口；Baseten 上线该模型，开发者可用 NVFP4 权重在 NVIDIA Blackwell GPU 上评估并通过 Baseten Training 定制；Perplexity 面向 Pro 和 Max 订阅用户开放，并接入 Agent API；OpenCode 宣布免费开放。英伟达同期发布端侧模型 Bolt 74B-A9B（24GB）与 Bolt E4B（4GB，10 月 23 日上线）。",
+        "digest": "英伟达发布开源多模态模型 Nemotron 3.5 Super VL，采用混合 Mamba-Transformer 的 MoE 架构，总参数 1200 亿、每 token 激活 120 亿，将推理、工具调用与文本、图像、文档、GUI 及视频理解整合，面向长时间运行、执行多步骤任务的 AI 智能体。英伟达称其单 GPU 智能体任务吞吐量最高达同规模开放模型的 5 倍，并称任务完成最快、准确率最高；模型权重以 BF16 和 NVFP4 格式在 Hugging Face 开放下载，同时上线 OpenRouter、ModelScope 和 NVIDIA NIM，vLLM 与 SGLang 均提供 Day 0 支持。\n\nPrime Intellect 称与英伟达用 2500 个经验证的企业任务、在 128 块 GB200 GPU 上以 GRPO 训练约 11 小时，将该模型在 AutomationBench-AA 公开分割上的得分从 34.0% 提升到 57.7%。Artificial Analysis 评测显示该模型在 Intelligence Index 得分 26，为领先的美国开源权重模型，是上代 Nemotron 3 Super（13）的两倍。\n\n配套支持还包括：OpenHands 将其引入常驻软件工程智能体工作流；fal 上线文本、视觉、视频三个入口；Baseten 上线该模型，开发者可用 NVFP4 权重在 NVIDIA Blackwell GPU 上评估并通过 Baseten Training 定制；Perplexity 面向 Pro 和 Max 订阅用户开放，并接入 Agent API；OpenCode 宣布免费开放。英伟达同期发布端侧模型 Bolt 74B-A9B（24GB）与 Bolt E4B（4GB，10 月 23 日上线）。",
         "latest_at": "2026-10-15T19:53:50.000Z",
         "original_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
         "rank": 3,
         "recovered": false,
         "representative_source": "NVIDIA Blog（RSS）",
         "signal_count": 8,
-        "source_count": 19,
+        "source_count": 20,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011",
         "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
         "aihot_story_id": "f18eef00-3d70-4586-a109-ee6a78104fbf",
-        "digest": "Anthropic在旧金山闭门投资者会议上披露，第三季度收入168亿美元，环比增长约45%至近50%，较第二季度147%的增速明显放缓。公司同时称，每1美元算力支出带来1.70美元收入，年内调整后营业利润率为11%、现金流为正。\n\n部分投资者对营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2万亿美元；银行家传闻的估值约2万亿美元、募资超100亿美元尚未成为定论。Bloomberg指出，市场将增长放缓解读为AI芯片和服务器的坏消息。\n\n各来源对第二季度收入的表述不一：有报道称约115亿美元，也有报道称从约48亿美元增至115亿美元。关于7月650亿美元ARR及8、9月收入测算，来自X用户Oran Ge的自行推算，并非公司披露。",
-        "latest_at": "2026-10-15T16:29:01.000Z",
+        "digest": "Anthropic在旧金山闭门投资者会议上披露，第三季度收入168亿美元，环比增长约45%至近50%，较第二季度147%的增速明显放缓。公司同时称，每1美元算力支出带来1.70美元收入，年内调整后营业利润率为11%、现金流为正。\n\n部分投资者对营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2万亿美元；路透社援引知情人士称，投资者日活动讨论约1.5万亿美元，而银行家传闻的估值约2万亿美元、募资超100亿美元尚未成为定论。Bloomberg指出，市场将增长放缓解读为AI芯片和服务器的坏消息。\n\n各来源对第二季度收入的表述不一：有报道称约115亿美元，也有报道称从约48亿美元增至115亿美元。关于7月650亿美元ARR及8、9月收入测算，来自X用户Oran Ge的自行推算，并非公司披露。",
+        "latest_at": "2026-10-16T00:54:07.827Z",
         "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "rank": 6,
+        "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 19,
-        "source_count": 5,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
         "title": "Anthropic三季度收入168亿美元，增速放缓"
       },
-      "observed_at": "2026-10-15T22:25:00.907695Z"
+      "observed_at": "2026-10-16T01:26:38.598823Z"
     },
     {
       "item": {
