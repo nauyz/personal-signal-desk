@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "13025e80-d645-4abb-87c1-f3e5ce826c4d",
+        "digest": "OpenAI 升级 ChatGPT 的 Chrome 扩展，把 computer use 能力引入浏览器。Chat 模式下 ChatGPT 可读取用户打开的标签页并汇总信息；Work 模式下可控制标签页发送消息、填写表单、下载文件、整理标签组。The Verge 称在网页或桌面应用中 @Chrome 即可调用。\n\n该扩展已在 Chrome 应用商店开放下载，ChatGPT 称面向所有套餐开放；IT之家报道称无需付费订阅，且微软 Edge、Brave、Opera 等基于 Chromium 的浏览器也能使用。IT之家还称 Work 模式需获得授权才能控制标签页，默认接触每个新网站前会请求确认。\n\nThe Decoder 称 GPT-6 Astra 是当前最强的 Computer Use 模型。",
+        "latest_at": "2026-10-17T00:31:53.593Z",
+        "original_url": "https://x.com/ChatGPT/status/2110823738531037651",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：ChatGPT (@ChatGPT)",
+        "signal_count": 10,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d",
+        "title": "OpenAI 将 computer use 能力引入 Chrome"
+      },
+      "observed_at": "2026-10-17T05:39:01.872106Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "1b39529e-2c70-4f97-828f-ae4a508ebff2",
         "digest": null,
         "latest_at": "2026-10-16T15:00:00.000Z",
@@ -16,41 +33,41 @@
         "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2",
         "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
         "aihot_story_id": "2f0270d6-fc22-4747-af7c-a4f488d3cd16",
-        "digest": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开放权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。Artificial Analysis 称该模型在其 Intelligence Index 得 39 分，为美国开放权重模型第一；Arena 后续公布其在 Code Arena: WebDev 以 1511 分居美国开源模型第一、开源模型总榜第 13。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地运行该模型；Meta 称这是同类中首个可在桌面端以两台 Mac Studio 运行的模型，双方在发布上合作。\n\n许可方面，The Decoder 报道该许可免费使用但要求标注“Built with Muse Spark Open”，年收入超过 2000 万美元、想以 API 服务提供该模型的供应商需与 Meta 另签协议。Meta 首席 AI 官汪滔称，出于安全与能力边界考量，Meta 通常不会开源最顶尖模型，但会继续发布优秀开源模型；该模型性能低于此前发布且保持闭源的 Muse Wonder。",
+        "digest": null,
         "latest_at": "2026-10-16T22:22:42.000Z",
         "original_url": "https://pytorch.org/blog/muse-spark-open/",
         "rank": 1,
         "recovered": false,
         "representative_source": "PyTorch：Blog（RSS）",
-        "signal_count": 62,
+        "signal_count": 64,
         "source_count": 17,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
         "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
         "aihot_story_id": "44880c6f-8433-4c3b-8d6e-757e1b8ae765",
-        "digest": "NVIDIA 的 RTX Spark 笔记本正式开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；NVIDIA 称定价与配置因地区而异。该产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力，定位为面向创作者、游戏玩家和 AI agents 的 Windows PC，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 称笔记本现已上市，小型台式机将于 11 月推出。\n\n开售当晚，X 用户卡兹克称线下首发体验会人山人海，128G+1T 的华硕 ProArt 创16 售价 37999 元，在线上瞬间售罄；其实测 Qwen3.8-27B 可跑到 30 Token/秒，Qwen image 2.1 约 1 分钟一张图，本地 2B 翻译模型可 6 路并发实现近 0 延迟实时翻译。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。\n\nOpenClaw 称已在新 RTX Spark 笔记本上支持开箱即用设置，用户可选择本地模型或连接云服务商，按引导完成设置，无需打开终端。Unsloth 称配合 RTX Spark 可在笔记本上本地运行并训练 120B+ 参数模型，训练扩散、决策和多模态模型比此前快约 2.7 倍，来自针对 ARM CUDA 优化的内核和二进制文件，统一内存最高 128GB。",
+        "digest": null,
         "latest_at": "2026-10-16T23:54:20.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-        "rank": 8,
+        "rank": 4,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 9,
+        "signal_count": 11,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
@@ -67,24 +84,24 @@
         "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
         "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
         "aihot_story_id": "799a2a3d-ea41-4491-afaf-9e6c06aebe64",
-        "digest": null,
-        "latest_at": "2026-10-16T18:19:17.000Z",
+        "digest": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，23项属AI领域，涵盖大模型、AI智能体、计算集群和信息处理。公告发布之日起至正式修订公告实施之日止，技术出口经营者在出口公告所列技术前，须在商务部业务系统统一平台技术贸易管理信息应用登记。\n\n商务部新闻发言人回应称，对人工智能类技术开源、中国企业在境外自建自营算力中心、赴境外开展芯片流片制造、利用境外资源开展联合研发、参与国际标准制定等情形的技术出口，适用自动许可等便利措施；企业利用限制类大模型对外提供API调用、APP/网页交互、SaaS应用、本地端侧轻量化部署等情形，不属于大模型技术出口管理范围。已通过开源或论文进入公共领域的技术拟不纳入出口管理。X用户邵猛解读称，只开源权重而训练方法、数据工程等未公开的，公开部分豁免、未公开部分仍在管理范围内。\n\nThe Decoder报道称，大模型在满足10^26 FLOPs训练算力、2万亿参数或全球排名前10等条件时受控，可自主编写或改动恶意软件攻击关键基础设施的AI工具被全面禁运。X用户Nathan Lambert转引该声明称，这与大量讨论的中国大开源模型终结的说法相反，实际效果取决于近自动审批如何落地。意见征集截止11月15日。",
+        "latest_at": "2026-10-17T01:30:54.000Z",
         "original_url": "https://www.ithome.com/1/013/983.htm",
-        "rank": 4,
+        "rank": 2,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 12,
-        "source_count": 4,
-        "status": null,
+        "signal_count": 13,
+        "source_count": 5,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
         "title": "商务部拟增列23项AI技术出口管制并答问"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
@@ -109,16 +126,16 @@
         "digest": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位处理复杂编码、智能体、数学和科学任务。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogle 声称 Argon 在编码、网络安全、科学、金融和法律等基准上优于 GPT-6 Astra、Claude Fable 5.1 和 Claude Opus 5.5，并在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%；Google DeepMind 称该模型解决了全部 12 个端到端模拟网络攻击场景（上一代为 5 个）。评测者 Ethan Mollick 称其较前代 Gemini 模型有明显跃升，但在复杂多智能体工作上仍有短板；评测者 indigo 则认为 Argon 让 Google 重新追上第一梯队但未超越对手，其配套应用 Antigravity 落后半年到一年。\n\n后续进展：Google Antigravity 于 10 月 16 日向付费 Google AI Pro 订阅用户推送 Argon，并为其设置独立的每周专属配额，叠加在原有 3.8 Flash 额度之上。Google 联合创始人谢尔盖·布林在圆桌讨论中称，AI 已开始参与打造下一代模型，公司正踏上递归自我改进（RSI）的路径。",
         "latest_at": "2026-10-16T07:34:44.337Z",
         "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
-        "signal_count": 21,
+        "signal_count": 20,
         "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，付费用户独享"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
@@ -126,21 +143,21 @@
         "digest": null,
         "latest_at": "2026-10-16T04:37:32.940Z",
         "original_url": "https://x.com/shao__meng/status/2110628071615365330",
-        "rank": 6,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：邵猛 (@shao__meng)",
-        "signal_count": 22,
+        "signal_count": 18,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/c69fcda4-6491-4827-9c2b-42579fd92447",
         "title": "DeepSeek 服务中断近5小时 致歉并补偿API用户"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
         "aihot_story_id": "e1654a62-6c1b-40ba-be4a-032beae55011",
-        "digest": "英伟达发布开源多模态模型 Nemotron 3.5 Super VL，采用 120B 总参数、每 token 激活 12B 的 MoE 架构，支持文本、图像、文档和视频输入并输出文本，面向持续运行的企业智能体。官方称其在单 GPU 上智能体任务吞吐最高达同规模开源模型的 5 倍，权重以 OpenMDW-1.1 许可证发布，并附带基础、后训练和 NVFP4 量化检查点及训练配方、数据和强化学习环境。\n\nArtificial Analysis 评测显示，该模型在 Intelligence Index 得分 26，成为领先的美国开源权重模型，智能为上代 Nemotron 3 Super（13 分）的两倍，每任务输出 token 减少约 60%。Prime Intellect 与英伟达用 2,500 个企业任务、在 128 块 GB200 GPU 上训练约 11 小时，将其在 AutomationBench-AA 公开分割上的得分从 34.0% 提升到 57.7%。\n\n模型发布即获多家平台支持：vLLM 和 SGLang 提供 Day-0 部署支持，Baseten、fal、OpenRouter、Perplexity（面向 Pro 和 Max 订阅用户及 Agent API）、OpenCode（免费）等已上线，OpenHands 将其引入软件工程智能体工作流。同系列还发布 Nemotron 3.5 Bolt 74B-A9B（Intelligence Index 21 分），Bolt E4B 4GB 将于 10 月 23 日上线。",
+        "digest": null,
         "latest_at": "2026-10-15T19:53:50.000Z",
         "original_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
         "rank": 5,
@@ -148,11 +165,11 @@
         "representative_source": "NVIDIA Blog（RSS）",
         "signal_count": 11,
         "source_count": 14,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011",
         "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     },
     {
       "item": {
@@ -160,16 +177,16 @@
         "digest": null,
         "latest_at": "2026-10-16T00:54:07.827Z",
         "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "rank": 3,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 19,
-        "source_count": 6,
+        "signal_count": 14,
+        "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
         "title": "Anthropic三季度收入168亿美元，增速放缓"
       },
-      "observed_at": "2026-10-17T00:32:41.807891Z"
+      "observed_at": "2026-10-17T05:39:01.872106Z"
     }
   ],
   "version": 1
