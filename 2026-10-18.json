@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "081bf642-6816-4c84-929e-3d3837dcfdb5",
+        "digest": "Anthropic 称，其内部研究模型 Claude 在不到半小时内查明 NIST P-192、P-224、P-256、P-384、P-521 五条标准椭圆曲线种子的来源：这些种子并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需迭代 1842 次。团队已公开复现代码。\n\nAnthropic 强调，这不是对 ECDSA 的破解，没有发现新的攻击方式或曲线弱点，用户无需因此采取措施。该发现对应的 36,864 美元奖金将捐给互联网安全研究组（Internet Security Research Group）。\n\n据 The Decoder 报道，这些曲线于 2000 年标准化，种子由 NSA 提供且来源不明，长期引发后门怀疑；X 用户 Yuchen Jin 则称这是悬置 25 年的密码学谜题。",
+        "latest_at": "2026-10-17T14:42:56.000Z",
+        "original_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Research（发表成果 · 网页）",
+        "signal_count": 10,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5",
+        "title": "Claude 查明 NIST 椭圆曲线种子来源"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "13025e80-d645-4abb-87c1-f3e5ce826c4d",
+        "digest": null,
+        "latest_at": "2026-10-17T00:31:53.593Z",
+        "original_url": "https://x.com/ChatGPT/status/2110823738531037651",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：ChatGPT (@ChatGPT)",
+        "signal_count": 11,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d",
+        "title": "OpenAI 将 computer use 能力引入 Chrome"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "1b39529e-2c70-4f97-828f-ae4a508ebff2",
+        "digest": null,
+        "latest_at": "2026-10-16T15:00:00.000Z",
+        "original_url": "https://x.com/Khazix0918/status/2110914404393091205",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：卡兹克 (@Khazix0918)",
+        "signal_count": 11,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2",
+        "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2f0270d6-fc22-4747-af7c-a4f488d3cd16",
+        "digest": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开放权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。Artificial Analysis 称该模型在其 Intelligence Index 得 39 分，为美国开放权重模型第一；Arena 后续公布其在 Code Arena: WebDev 以 1511 分居美国开源模型第一、开源模型总榜第 13。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地运行该模型；Meta 称这是同类中首个可在桌面端以两台 Mac Studio 运行的模型，双方在发布上合作。\n\n许可方面，The Decoder 报道该许可免费使用但要求标注“Built with Muse Spark Open”，年收入超过 2000 万美元、想以 API 服务提供该模型的供应商需与 Meta 另签协议。Meta 首席 AI 官汪滔称，出于安全与能力边界考量，Meta 通常不会开源最顶尖模型，但会继续发布优秀开源模型；该模型性能低于此前发布且保持闭源的 Muse Wonder。",
+        "latest_at": "2026-10-17T14:15:29.000Z",
+        "original_url": "https://pytorch.org/blog/muse-spark-open/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "PyTorch：Blog（RSS）",
+        "signal_count": 61,
+        "source_count": 17,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
+        "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "44880c6f-8433-4c3b-8d6e-757e1b8ae765",
+        "digest": null,
+        "latest_at": "2026-10-17T10:19:04.000Z",
+        "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "NVIDIA：Newsroom（RSS）",
+        "signal_count": 9,
+        "source_count": 6,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
+        "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "799a2a3d-ea41-4491-afaf-9e6c06aebe64",
+        "digest": null,
+        "latest_at": "2026-10-17T01:30:54.000Z",
+        "original_url": "https://www.ithome.com/1/013/983.htm",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 13,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
+        "title": "商务部拟增列23项AI技术出口管制并答问"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a377431d-9822-42bd-a8d3-fd4ee14dc0b7",
+        "digest": "腾讯混元于10月16日发布并开源智能体记忆框架 Hy Memory 2.0，开源专用模型 Hy-Memory-30B-A3B（30B 总参数、约3B 激活的 MoE）、可编程记忆框架 hy-memory SDK 和桌面工具 MemHub 三层能力，三者可独立使用，也可组合成完整 Memory 方案，定位私人记忆管家。\n\n腾讯混元称，该框架处理聊天、工作与代码三类记忆，在4项基准上开源第一，Hy-Memory-30B-A3B 在主要框架上超过 Opus 5；MemHub 提供 CLI 和 Mac 版，可在10余个 AI 工具间同步，SDK 与模型发布于 GitHub 和 Hugging Face。上述评测与效果均为腾讯混元方面的说法。",
+        "latest_at": "2026-10-16T13:12:25.000Z",
+        "original_url": "https://x.com/shao__meng/status/2111082839068246301",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：邵猛 (@shao__meng)",
+        "signal_count": 8,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a377431d-9822-42bd-a8d3-fd4ee14dc0b7",
+        "title": "腾讯混元发布并开源 Hy Memory 2.0"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
+        "digest": null,
+        "latest_at": "2026-10-16T07:34:44.337Z",
+        "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Google Blog：AI（RSS）",
+        "signal_count": 15,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
+        "title": "Google 发布 Gemini 4 Argon，付费用户独享"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "digest": null,
+        "latest_at": "2026-10-16T00:54:07.827Z",
+        "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 13,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
+        "title": "Anthropic三季度收入168亿美元，增速放缓"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
+        "digest": null,
+        "latest_at": "2026-10-17T12:55:16.000Z",
+        "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "DeepSeek：API 更新日志",
+        "signal_count": 29,
+        "source_count": 14,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
+        "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
+      },
+      "observed_at": "2026-10-17T17:18:19.876070Z"
+    }
+  ],
+  "version": 1
+}
