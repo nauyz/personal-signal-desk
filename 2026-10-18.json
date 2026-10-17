@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "081bf642-6816-4c84-929e-3d3837dcfdb5",
-        "digest": "Anthropic 称，其内部研究模型 Claude 在不到半小时内查明 NIST P-192、P-224、P-256、P-384、P-521 五条标准椭圆曲线种子的来源：这些种子并非哈希结果，而是以 Unix 时间戳初始化的 C 库 lrand48 随机数生成器的输出，例如 P-256 需迭代 1842 次。团队已公开复现代码。\n\nAnthropic 强调，这不是对 ECDSA 的破解，没有发现新的攻击方式或曲线弱点，用户无需因此采取措施。该发现对应的 36,864 美元奖金将捐给互联网安全研究组（Internet Security Research Group）。\n\n据 The Decoder 报道，这些曲线于 2000 年标准化，种子由 NSA 提供且来源不明，长期引发后门怀疑；X 用户 Yuchen Jin 则称这是悬置 25 年的密码学谜题。",
+        "digest": null,
         "latest_at": "2026-10-17T14:42:56.000Z",
         "original_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
         "signal_count": 10,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5",
         "title": "Claude 查明 NIST 椭圆曲线种子来源"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-10-17T00:31:53.593Z",
         "original_url": "https://x.com/ChatGPT/status/2110823738531037651",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：ChatGPT (@ChatGPT)",
         "signal_count": 11,
@@ -33,7 +33,7 @@
         "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d",
         "title": "OpenAI 将 computer use 能力引入 Chrome"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
@@ -55,19 +55,19 @@
     {
       "item": {
         "aihot_story_id": "2f0270d6-fc22-4747-af7c-a4f488d3cd16",
-        "digest": "Meta 发布开放权重模型 Muse Spark Open，总参数 816B、每 token 激活 42B，上下文窗口 1M token，原生支持文本、图像、音频、视频输入，主打编码与长程智能体任务。Meta 称其为迄今最强的美国开放权重模型，权重以 Muse Model License 在 Hugging Face 等平台开放下载，并同步上线 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter、Together AI 等 API 平台。Artificial Analysis 称该模型在其 Intelligence Index 得 39 分，为美国开放权重模型第一；Arena 后续公布其在 Code Arena: WebDev 以 1511 分居美国开源模型第一、开源模型总榜第 13。\n\nApple 机器学习研究团队演示用新版 MLX（v0.30.1 起）与 macOS 26.2 的 RDMA over Thunderbolt 驱动，在两台 Apple M5 Ultra Mac Studio 上本地运行该模型；Meta 称这是同类中首个可在桌面端以两台 Mac Studio 运行的模型，双方在发布上合作。\n\n许可方面，The Decoder 报道该许可免费使用但要求标注“Built with Muse Spark Open”，年收入超过 2000 万美元、想以 API 服务提供该模型的供应商需与 Meta 另签协议。Meta 首席 AI 官汪滔称，出于安全与能力边界考量，Meta 通常不会开源最顶尖模型，但会继续发布优秀开源模型；该模型性能低于此前发布且保持闭源的 Muse Wonder。",
+        "digest": null,
         "latest_at": "2026-10-17T14:15:29.000Z",
         "original_url": "https://pytorch.org/blog/muse-spark-open/",
         "rank": 2,
         "recovered": false,
         "representative_source": "PyTorch：Blog（RSS）",
-        "signal_count": 61,
-        "source_count": 17,
-        "status": "active",
+        "signal_count": 41,
+        "source_count": 7,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
         "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
@@ -84,7 +84,24 @@
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "553aab31-30b1-4787-bd62-3b006d83295e",
+        "digest": null,
+        "latest_at": "2026-10-16T18:30:03.000Z",
+        "original_url": "https://reflection.ai/blog/introducing-beam",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Reflection Blog",
+        "signal_count": 6,
+        "source_count": 8,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
+        "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face"
+      },
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
@@ -92,33 +109,33 @@
         "digest": null,
         "latest_at": "2026-10-17T01:30:54.000Z",
         "original_url": "https://www.ithome.com/1/013/983.htm",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 13,
+        "signal_count": 14,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
         "title": "商务部拟增列23项AI技术出口管制并答问"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
         "aihot_story_id": "a377431d-9822-42bd-a8d3-fd4ee14dc0b7",
-        "digest": "腾讯混元于10月16日发布并开源智能体记忆框架 Hy Memory 2.0，开源专用模型 Hy-Memory-30B-A3B（30B 总参数、约3B 激活的 MoE）、可编程记忆框架 hy-memory SDK 和桌面工具 MemHub 三层能力，三者可独立使用，也可组合成完整 Memory 方案，定位私人记忆管家。\n\n腾讯混元称，该框架处理聊天、工作与代码三类记忆，在4项基准上开源第一，Hy-Memory-30B-A3B 在主要框架上超过 Opus 5；MemHub 提供 CLI 和 Mac 版，可在10余个 AI 工具间同步，SDK 与模型发布于 GitHub 和 Hugging Face。上述评测与效果均为腾讯混元方面的说法。",
+        "digest": null,
         "latest_at": "2026-10-16T13:12:25.000Z",
         "original_url": "https://x.com/shao__meng/status/2111082839068246301",
-        "rank": 9,
+        "rank": 7,
         "recovered": false,
         "representative_source": "X：邵猛 (@shao__meng)",
-        "signal_count": 8,
+        "signal_count": 9,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/a377431d-9822-42bd-a8d3-fd4ee14dc0b7",
         "title": "腾讯混元发布并开源 Hy Memory 2.0"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
@@ -135,7 +152,7 @@
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，付费用户独享"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
@@ -143,7 +160,7 @@
         "digest": null,
         "latest_at": "2026-10-16T00:54:07.827Z",
         "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 13,
@@ -152,24 +169,24 @@
         "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
         "title": "Anthropic三季度收入168亿美元，增速放缓"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     },
     {
       "item": {
         "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
-        "digest": null,
-        "latest_at": "2026-10-17T12:55:16.000Z",
+        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder 与 MarkTechPost 则称经 Harness、Claude Code、Codex 的服务端调用免费至 10 月 31 日。",
+        "latest_at": "2026-10-17T17:31:24.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
         "rank": 1,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 29,
-        "source_count": 14,
-        "status": null,
+        "signal_count": 31,
+        "source_count": 15,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
         "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-17T17:18:19.876070Z"
+      "observed_at": "2026-10-17T20:41:27.185519Z"
     }
   ],
   "version": 1
