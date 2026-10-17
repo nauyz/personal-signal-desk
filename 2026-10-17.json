@@ -4,36 +4,36 @@
     {
       "item": {
         "aihot_story_id": "13025e80-d645-4abb-87c1-f3e5ce826c4d",
-        "digest": "OpenAI 升级 ChatGPT 的 Chrome 扩展，把 computer use 能力引入浏览器。Chat 模式下 ChatGPT 可读取用户打开的标签页并汇总信息；Work 模式下可控制标签页发送消息、填写表单、下载文件、整理标签组。The Verge 称在网页或桌面应用中 @Chrome 即可调用。\n\n该扩展已在 Chrome 应用商店开放下载，ChatGPT 称面向所有套餐开放；IT之家报道称无需付费订阅，且微软 Edge、Brave、Opera 等基于 Chromium 的浏览器也能使用。IT之家还称 Work 模式需获得授权才能控制标签页，默认接触每个新网站前会请求确认。\n\nThe Decoder 称 GPT-6 Astra 是当前最强的 Computer Use 模型。",
+        "digest": null,
         "latest_at": "2026-10-17T00:31:53.593Z",
         "original_url": "https://x.com/ChatGPT/status/2110823738531037651",
-        "rank": 6,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：ChatGPT (@ChatGPT)",
         "signal_count": 10,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d",
         "title": "OpenAI 将 computer use 能力引入 Chrome"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
         "aihot_story_id": "1b39529e-2c70-4f97-828f-ae4a508ebff2",
-        "digest": null,
+        "digest": "快手可灵 AI 于 10 月 15 日宣布 Kling 4.0 正式全量上线 klingai.com，用户可通过全新创作界面使用，并新增 MCP 和 CLI 接入。该模型单次原生生成视频最长 30 秒，可多次续拍延展至 2 分钟；单次任务最多支持 15 个多模态参考素材、最多 10 张关键帧输入。\n\n官方称 4K、1080p 的 10-bit HDR 格式输出即将上线，面向企业客户与开发者的 API 服务将于近期开放。此前 9 月底，可灵已向部分黑金年卡及 Ultra 年度订阅用户开放 4.0 Flash 尝鲜版。\n\n据创作者实测，1080P 30 秒约需 450 积分，720P 20 秒的 Kling 4.0 Flash 约需 120 积分；10-bit 4K HDR 输出尚未上线。",
         "latest_at": "2026-10-16T15:00:00.000Z",
         "original_url": "https://x.com/Khazix0918/status/2110914404393091205",
-        "rank": 9,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：卡兹克 (@Khazix0918)",
-        "signal_count": 13,
+        "signal_count": 14,
         "source_count": 5,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2",
         "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
@@ -44,13 +44,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "PyTorch：Blog（RSS）",
-        "signal_count": 64,
+        "signal_count": 65,
         "source_count": 17,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
         "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
@@ -67,7 +67,7 @@
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
@@ -75,7 +75,7 @@
         "digest": null,
         "latest_at": "2026-10-16T18:30:03.000Z",
         "original_url": "https://reflection.ai/blog/introducing-beam",
-        "rank": 7,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Reflection Blog",
         "signal_count": 6,
@@ -84,24 +84,24 @@
         "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
         "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
         "aihot_story_id": "799a2a3d-ea41-4491-afaf-9e6c06aebe64",
-        "digest": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，23项属AI领域，涵盖大模型、AI智能体、计算集群和信息处理。公告发布之日起至正式修订公告实施之日止，技术出口经营者在出口公告所列技术前，须在商务部业务系统统一平台技术贸易管理信息应用登记。\n\n商务部新闻发言人回应称，对人工智能类技术开源、中国企业在境外自建自营算力中心、赴境外开展芯片流片制造、利用境外资源开展联合研发、参与国际标准制定等情形的技术出口，适用自动许可等便利措施；企业利用限制类大模型对外提供API调用、APP/网页交互、SaaS应用、本地端侧轻量化部署等情形，不属于大模型技术出口管理范围。已通过开源或论文进入公共领域的技术拟不纳入出口管理。X用户邵猛解读称，只开源权重而训练方法、数据工程等未公开的，公开部分豁免、未公开部分仍在管理范围内。\n\nThe Decoder报道称，大模型在满足10^26 FLOPs训练算力、2万亿参数或全球排名前10等条件时受控，可自主编写或改动恶意软件攻击关键基础设施的AI工具被全面禁运。X用户Nathan Lambert转引该声明称，这与大量讨论的中国大开源模型终结的说法相反，实际效果取决于近自动审批如何落地。意见征集截止11月15日。",
+        "digest": null,
         "latest_at": "2026-10-17T01:30:54.000Z",
         "original_url": "https://www.ithome.com/1/013/983.htm",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 13,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
         "title": "商务部拟增列23项AI技术出口管制并答问"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
@@ -123,19 +123,19 @@
     {
       "item": {
         "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
-        "digest": "Google 正式发布旗舰模型 Gemini 4 Argon，即日起全球上线，定位处理复杂编码、智能体、数学和科学任务。该模型仅向付费用户开放：开发者与企业需使用 Gemini API 和 Gemini 平台的付费层级，Google Antigravity 中仅限 Ultra 订阅者，Gemini 应用和搜索 AI Mode 中仅限 Ultra 和 Pro 订阅者。The Decoder 称免费用户和 Plus 订阅者只能继续使用较弱的 Flash 系列模型。\n\n定价方面，Google 公布上线初期价格为每百万输入 token 2 美元、每百万输出 10 美元，缓存输入享 95% 折扣；MarkTechPost 称 2026 年 11 月 30 日后价格将涨至输入 4 美元、输出 20 美元。模型支持 1M 统一输入输出 token 上限。Google 还表示，科学家和研究人员可申请免费使用 Antigravity 最高使用档位 6 个月，网络安全防御人员可通过 Fairwind Program 申请，均需符合资格、容量和筛选条件。\n\nGoogle 声称 Argon 在编码、网络安全、科学、金融和法律等基准上优于 GPT-6 Astra、Claude Fable 5.1 和 Claude Opus 5.5，并在 Embodied Reasoning（ERQA）基准上以纯推理得分 87%；Google DeepMind 称该模型解决了全部 12 个端到端模拟网络攻击场景（上一代为 5 个）。评测者 Ethan Mollick 称其较前代 Gemini 模型有明显跃升，但在复杂多智能体工作上仍有短板；评测者 indigo 则认为 Argon 让 Google 重新追上第一梯队但未超越对手，其配套应用 Antigravity 落后半年到一年。\n\n后续进展：Google Antigravity 于 10 月 16 日向付费 Google AI Pro 订阅用户推送 Argon，并为其设置独立的每周专属配额，叠加在原有 3.8 Flash 额度之上。Google 联合创始人谢尔盖·布林在圆桌讨论中称，AI 已开始参与打造下一代模型，公司正踏上递归自我改进（RSI）的路径。",
+        "digest": null,
         "latest_at": "2026-10-16T07:34:44.337Z",
         "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-        "rank": 3,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
-        "signal_count": 20,
+        "signal_count": 17,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，付费用户独享"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
@@ -160,7 +160,7 @@
         "digest": null,
         "latest_at": "2026-10-15T19:53:50.000Z",
         "original_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-        "rank": 5,
+        "rank": 8,
         "recovered": false,
         "representative_source": "NVIDIA Blog（RSS）",
         "signal_count": 11,
@@ -169,7 +169,7 @@
         "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011",
         "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     },
     {
       "item": {
@@ -177,16 +177,33 @@
         "digest": null,
         "latest_at": "2026-10-16T00:54:07.827Z",
         "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 14,
-        "source_count": 5,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
         "title": "Anthropic三季度收入168亿美元，增速放缓"
       },
-      "observed_at": "2026-10-17T05:39:01.872106Z"
+      "observed_at": "2026-10-17T10:53:01.761904Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
+        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、APP 与 API 已同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，在多个 Harness 下达到新的性能-费用帕累托最优，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n据 IT之家报道，单次调用综合成本下降，模型权重已同步开放下载，延续 V4.1 Flash 以 MIT 许可证开源的策略；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次；DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费。",
+        "latest_at": "2026-10-17T10:29:00.000Z",
+        "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "DeepSeek：API 更新日志",
+        "signal_count": 13,
+        "source_count": 11,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
+        "title": "DeepSeek 发布 V4.1-Flash-1017 并开放权重"
+      },
+      "observed_at": "2026-10-17T10:53:01.761904Z"
     }
   ],
   "version": 1
