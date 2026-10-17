@@ -16,24 +16,24 @@
         "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d",
         "title": "OpenAI 将 computer use 能力引入 Chrome"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
         "aihot_story_id": "1b39529e-2c70-4f97-828f-ae4a508ebff2",
-        "digest": "快手可灵 AI 于 10 月 15 日宣布 Kling 4.0 正式全量上线 klingai.com，用户可通过全新创作界面使用，并新增 MCP 和 CLI 接入。该模型单次原生生成视频最长 30 秒，可多次续拍延展至 2 分钟；单次任务最多支持 15 个多模态参考素材、最多 10 张关键帧输入。\n\n官方称 4K、1080p 的 10-bit HDR 格式输出即将上线，面向企业客户与开发者的 API 服务将于近期开放。此前 9 月底，可灵已向部分黑金年卡及 Ultra 年度订阅用户开放 4.0 Flash 尝鲜版。\n\n据创作者实测，1080P 30 秒约需 450 积分，720P 20 秒的 Kling 4.0 Flash 约需 120 积分；10-bit 4K HDR 输出尚未上线。",
+        "digest": null,
         "latest_at": "2026-10-16T15:00:00.000Z",
         "original_url": "https://x.com/Khazix0918/status/2110914404393091205",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：卡兹克 (@Khazix0918)",
         "signal_count": 14,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/1b39529e-2c70-4f97-828f-ae4a508ebff2",
         "title": "可灵 Kling 4.0 全量上线，单次生成最长 30 秒"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
@@ -41,33 +41,33 @@
         "digest": null,
         "latest_at": "2026-10-16T22:22:42.000Z",
         "original_url": "https://pytorch.org/blog/muse-spark-open/",
-        "rank": 1,
+        "rank": 2,
         "recovered": false,
         "representative_source": "PyTorch：Blog（RSS）",
-        "signal_count": 65,
+        "signal_count": 66,
         "source_count": 17,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
         "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
         "aihot_story_id": "44880c6f-8433-4c3b-8d6e-757e1b8ae765",
-        "digest": null,
-        "latest_at": "2026-10-16T23:54:20.000Z",
+        "digest": "NVIDIA 的 RTX Spark 笔记本已正式开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；NVIDIA 称定价与配置因地区而异。该产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力，定位为面向创作者、游戏玩家和 AI agents 的 Windows PC，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 称笔记本现已上市，小型台式机将于 11 月推出。\n\n开售当晚，X 用户卡兹克称线下首发体验会人山人海，128G+1T 的华硕 ProArt 创16 售价 37999 元，在线上瞬间售罄；其实测 Qwen3.8-27B 可跑到 30 Token/秒，Qwen image 2.1 约 1 分钟一张图，本地 2B 翻译模型可 6 路并发实现近 0 延迟实时翻译。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。\n\nOpenClaw 称已在新 RTX Spark 笔记本上支持开箱即用设置，用户可选择本地模型或连接云服务商，按引导完成设置，无需打开终端。Unsloth 称配合 RTX Spark 可在笔记本上本地运行并训练 120B+ 参数模型，训练扩散、决策和多模态模型比此前快约 2.7 倍，来自针对 ARM CUDA 优化的内核和二进制文件，统一内存最高 128GB。",
+        "latest_at": "2026-10-17T10:19:04.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
         "rank": 4,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 11,
-        "source_count": 6,
-        "status": null,
+        "signal_count": 10,
+        "source_count": 7,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
@@ -84,7 +84,7 @@
         "story_url": "https://aihot.virxact.com/story/553aab31-30b1-4787-bd62-3b006d83295e",
         "title": "Reflection 开源 501B 模型 Beam 上线 Hugging Face"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
@@ -101,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
         "title": "商务部拟增列23项AI技术出口管制并答问"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
@@ -129,13 +129,13 @@
         "rank": 7,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
-        "signal_count": 17,
+        "signal_count": 14,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，付费用户独享"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
@@ -160,16 +160,16 @@
         "digest": null,
         "latest_at": "2026-10-15T19:53:50.000Z",
         "original_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-        "rank": 8,
+        "rank": 5,
         "recovered": false,
         "representative_source": "NVIDIA Blog（RSS）",
-        "signal_count": 11,
-        "source_count": 14,
+        "signal_count": 12,
+        "source_count": 13,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/e1654a62-6c1b-40ba-be4a-032beae55011",
         "title": "英伟达开源 Nemotron 3.5 Super VL 多模态智能体模型"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
@@ -177,33 +177,33 @@
         "digest": null,
         "latest_at": "2026-10-16T00:54:07.827Z",
         "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 14,
-        "source_count": 3,
+        "signal_count": 13,
+        "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
         "title": "Anthropic三季度收入168亿美元，增速放缓"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     },
     {
       "item": {
         "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
-        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、APP 与 API 已同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，在多个 Harness 下达到新的性能-费用帕累托最优，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n据 IT之家报道，单次调用综合成本下降，模型权重已同步开放下载，延续 V4.1 Flash 以 MIT 许可证开源的策略；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次；DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费。",
-        "latest_at": "2026-10-17T10:29:00.000Z",
+        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder 与 MarkTechPost 则称经 Harness、Claude Code、Codex 的服务端调用免费至 10 月 31 日。",
+        "latest_at": "2026-10-17T12:55:16.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
-        "rank": 2,
+        "rank": 1,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 13,
-        "source_count": 11,
+        "signal_count": 22,
+        "source_count": 14,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
-        "title": "DeepSeek 发布 V4.1-Flash-1017 并开放权重"
+        "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-17T10:53:01.761904Z"
+      "observed_at": "2026-10-17T14:14:45.306711Z"
     }
   ],
   "version": 1
