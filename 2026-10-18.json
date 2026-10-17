@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-10-17T14:42:56.000Z",
         "original_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-        "rank": 4,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
         "signal_count": 10,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5",
         "title": "Claude 查明 NIST 椭圆曲线种子来源"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     },
     {
       "item": {
@@ -24,16 +24,16 @@
         "digest": null,
         "latest_at": "2026-10-17T00:31:53.593Z",
         "original_url": "https://x.com/ChatGPT/status/2110823738531037651",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：ChatGPT (@ChatGPT)",
         "signal_count": 11,
-        "source_count": 5,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/13025e80-d645-4abb-87c1-f3e5ce826c4d",
         "title": "OpenAI 将 computer use 能力引入 Chrome"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     },
     {
       "item": {
@@ -61,30 +61,30 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "PyTorch：Blog（RSS）",
-        "signal_count": 41,
-        "source_count": 7,
+        "signal_count": 36,
+        "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
         "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     },
     {
       "item": {
         "aihot_story_id": "44880c6f-8433-4c3b-8d6e-757e1b8ae765",
-        "digest": null,
-        "latest_at": "2026-10-17T10:19:04.000Z",
+        "digest": "NVIDIA 的 RTX Spark 笔记本已开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 在开售当天的新闻稿中称起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；10 月 18 日的博客则称起价 2,399 美元。NVIDIA 称定价与配置因地区而异，小型台式机将于 11 月推出。\n\n产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。X 用户卡兹克称，128G+1T 的华硕 ProArt 创16 售价 37,999 元，线上瞬间售罄；其实测 Qwen3.8-27B 约 30 Token/秒，本地 2B 翻译模型可 6 路并发。\n\nOpenClaw 称已在新笔记本上支持开箱即用设置，用户可选择本地模型或连接云服务商，按引导完成设置，无需打开终端。Unsloth 称配合 RTX Spark 可在笔记本上本地运行并训练 120B+ 参数模型，训练扩散、决策和多模态模型比此前快约 2.7 倍，统一内存最高 128GB。",
+        "latest_at": "2026-10-17T21:00:13.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 9,
+        "signal_count": 10,
         "source_count": 6,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
-        "title": "NVIDIA RTX Spark 笔记本开售，起价 2599 美元"
+        "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     },
     {
       "item": {
@@ -109,7 +109,7 @@
         "digest": null,
         "latest_at": "2026-10-17T01:30:54.000Z",
         "original_url": "https://www.ithome.com/1/013/983.htm",
-        "rank": 3,
+        "rank": 5,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 14,
@@ -118,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
         "title": "商务部拟增列23项AI技术出口管制并答问"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     },
     {
       "item": {
@@ -135,7 +135,7 @@
         "story_url": "https://aihot.virxact.com/story/a377431d-9822-42bd-a8d3-fd4ee14dc0b7",
         "title": "腾讯混元发布并开源 Hy Memory 2.0"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     },
     {
       "item": {
@@ -143,16 +143,50 @@
         "digest": null,
         "latest_at": "2026-10-16T07:34:44.337Z",
         "original_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
-        "signal_count": 15,
+        "signal_count": 13,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b9d1e480-fac1-479a-9209-5241ad001528",
         "title": "Google 发布 Gemini 4 Argon，付费用户独享"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c3562486-19f9-44c5-9544-c3af3e3d43c5",
+        "digest": "OpenCode 披露前一晚发生一起安全漏洞，称源于大规模蒸馏攻击，影响 1.4% 的 OpenCode Console 用户；受影响的是链接了外部提供商的部分用户，官方已通过邮件逐一通知，未收到邮件即未受影响。OpenCode 称事件仍在处理中，细节暂不公开，正与 Anthropic、OpenAI 和 Google 合作补救。\n\nAnthropic 的 Lydia Hallie 表示，团队正与 OpenCode 协作处理这起泄露，已撤销疑似受影响的 Claude API 密钥，并建议在 OpenCode 保存过密钥的用户重新创建。\n\n“蒸馏攻击”的定性受到质疑。Nathan Lambert 评论称，把窃取 API 密钥的网络攻击归入“蒸馏”一词很反常，将流向中国的模型转发站混为一谈同样如此；相关流量规模为何如此之大、与模型训练有何关联，目前并不清楚。",
+        "latest_at": "2026-10-17T21:04:12.000Z",
+        "original_url": "https://x.com/testingcatalog/status/2111536604351246541",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Testing Catalog (@testingcatalog)",
+        "signal_count": 5,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5",
+        "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥"
+      },
+      "observed_at": "2026-10-17T23:10:42.578550Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d04da2cc-3656-4558-8c1a-a379c01b6dae",
+        "digest": "美国帕洛阿尔托初创公司 Elorian 发布首个模型 Glimpse，主打在推理过程中回看并重新分析图像或视频细节。该模型以研究预览形式提供 API，聊天界面需排队等候，按用量计费：输入每百万 token 0.60 美元，输出每百万 token 3 美元。此前公司已完成 5500 万美元种子轮融资，估值 3 亿美元。\n\nElorian 称 Glimpse 是首个视觉思考模型，在关键公开视觉推理基准上对标 Astra 达到前沿竞争力，解决了以往模型只能处理单张图像、无法应对动态或角度变化的问题。据 Rohan Paul 转述，Glimpse 能比较场景随时间的变化，在变化微小或快速时回看源头并裁剪局部、抽取特定视频帧或运行代码进行测量对比，Elorian 称这一机制为视觉草稿空间。Testing Catalog 称其可在推理时返回视频特定时间点、放大细节，或以更高帧率回放半秒视频后再作答。Google 首席科学家 Jeff Dean 在 X 上转发了这一发布并表示称赞。",
+        "latest_at": "2026-10-16T19:17:24.000Z",
+        "original_url": "https://x.com/testingcatalog/status/2111174690337177607",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Testing Catalog (@testingcatalog)",
+        "signal_count": 6,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d04da2cc-3656-4558-8c1a-a379c01b6dae",
+        "title": "Elorian 发布首个视觉推理模型 Glimpse"
+      },
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     },
     {
       "item": {
@@ -174,19 +208,19 @@
     {
       "item": {
         "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
-        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder 与 MarkTechPost 则称经 Harness、Claude Code、Codex 的服务端调用免费至 10 月 31 日。",
+        "digest": null,
         "latest_at": "2026-10-17T17:31:24.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
         "rank": 1,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 31,
+        "signal_count": 32,
         "source_count": 15,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
         "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-17T20:41:27.185519Z"
+      "observed_at": "2026-10-17T23:10:42.578550Z"
     }
   ],
   "version": 1
