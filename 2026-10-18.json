@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-10-17T14:42:56.000Z",
         "original_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
         "signal_count": 10,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5",
         "title": "Claude 查明 NIST 椭圆曲线种子来源"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     },
     {
       "item": {
@@ -89,19 +89,19 @@
     {
       "item": {
         "aihot_story_id": "415f8e37-5dad-489c-a6e0-2606ac179820",
-        "digest": "Anthropic 联合创始人 Jack Clark 在 IMF 与世界银行年会上称，公司内部模型预测，在技术持续进步的前提下，到 2030 年 AI 可使美国经济产出提升近 50%，从当前略高于 30 万亿美元增至 44 万亿美元。\n\n这一数字来自 Anthropic 的内部测算，是 Clark 在会议上的说法，并非已实现的增长；其成立前提是技术持续进步。",
+        "digest": null,
         "latest_at": "2026-10-18T04:27:27.713Z",
         "original_url": "https://www.ithome.com/1/014/483.htm",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 5,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/415f8e37-5dad-489c-a6e0-2606ac179820",
         "title": "Anthropic 联创称 AI 到 2030 年可推高美国 GDP 近 50%"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     },
     {
       "item": {
@@ -109,16 +109,16 @@
         "digest": null,
         "latest_at": "2026-10-18T02:04:38.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-        "rank": 3,
+        "rank": 5,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 13,
-        "source_count": 6,
+        "signal_count": 7,
+        "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     },
     {
       "item": {
@@ -126,7 +126,7 @@
         "digest": "Anthropic 于 10 月 16 日发布两份内部研究：一份基于公司自身数据，分析 AI 如何改变雇佣与工作组织；另一份对比员工与公众对 AI 经济影响的预期。内部数据显示，到 2026 年 8 月，交互式 AI 智能体的使用时长已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。TechCrunch 报道称，技术团队占全员比例从 61% 降至 56%，Anthropic 将这一变化归因于业务职能扩张，以及编码工具让非技术员工也能自行开发软件。\n\n预期调查方面，Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）及自家员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大：91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。据《商业内幕》报道，另一项对比 1334 名员工与美国成年人的调查显示，多数员工预计到 2030 年自己至少 80% 的工作可交给 AI，美国劳动者中仅约 5% 持相同看法。\n\n首席经济学家 Peter McCrory 称，员工与公众对更广泛经济结果的看法相似：预期 AI 会承担自己更多工作的人，也预期出现类似的失业效应。McCrory 称，Anthropic 在 AI 采用上大约领先整体经济一年半，因此其内部情况可能是更广泛世界的先行指标。他随后澄清，相关增长数字是模型隐含的情景，而非直接的 GDP 预测。Anthropic 同时发布了一个结构化框架，用于比较 AI 进展未来及其经济影响的不同情景。",
         "latest_at": "2026-10-18T06:27:48.000Z",
         "original_url": "https://www.anthropic.com/research/ai-expectations-gap",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
         "signal_count": 9,
@@ -135,7 +135,7 @@
         "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117",
         "title": "Anthropic 发布内部 AI 经济影响研究"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     },
     {
       "item": {
@@ -157,19 +157,19 @@
     {
       "item": {
         "aihot_story_id": "62564feb-43f0-4dcd-839a-23c34cd854a4",
-        "digest": "OpenAI 的 API 中最近短暂出现了三个模型引用：aurora-red-alpha、aurora-green-alpha 和 aurora-blue-alpha，随后很快被移除。Testing Catalog 称这是一次误上线。\n\n该账号称，普通用户近期有机会测试这些 alpha 模型的可能性相当低，更可能与新的 Daybreak 更新公告有关，也不排除还计划了其他模型发布。",
+        "digest": null,
         "latest_at": "2026-10-18T07:42:34.000Z",
         "original_url": "https://x.com/testingcatalog/status/2111724606927028578",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Testing Catalog (@testingcatalog)",
-        "signal_count": 6,
+        "signal_count": 7,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/62564feb-43f0-4dcd-839a-23c34cd854a4",
         "title": "OpenAI API短暂出现三个aurora模型引用后移除"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     },
     {
       "item": {
@@ -207,6 +207,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "a7a67ccd-5e78-4e12-9b42-fef5515ac35a",
+        "digest": "微软终止了与英国数据中心企业 Nscale 在埃塞克斯郡劳顿的数据中心项目合作。据《每日电讯报》报道，Nscale 价值数十亿美元的上市计划因此遭遇重大挫折。\n\n微软是 Nscale 最大的两家客户之一，另一家为 Anthropic。Nscale 上个月已在美国提交 IPO 申请，两年半内合同总金额从 1 亿美元增长至超过 1,030 亿美元。双方均未回应置评请求。",
+        "latest_at": "2026-10-18T10:42:51.370Z",
+        "original_url": "https://www.ithome.com/1/014/574.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 6,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a7a67ccd-5e78-4e12-9b42-fef5515ac35a",
+        "title": "微软终止与Nscale数据中心合作"
+      },
+      "observed_at": "2026-10-18T15:56:28.585882Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "b9d1e480-fac1-479a-9209-5241ad001528",
         "digest": null,
         "latest_at": "2026-10-16T07:34:44.337Z",
@@ -237,7 +254,7 @@
         "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5",
         "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     },
     {
       "item": {
@@ -259,19 +276,19 @@
     {
       "item": {
         "aihot_story_id": "e4dc2fdc-f282-4822-99ea-8562b2a2d07a",
-        "digest": "DeepSeek 开放自研搜索 API，其网页端与 API 端的搜索能力均由自研的 DeepSeek 搜索引擎提供底层支持。DeepSeek 称，该引擎每天稳定处理来自全球的数亿次搜索请求，索引全球千亿级网页并支持多语言。\n\n据 DeepSeek 介绍，该引擎通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC 内容；具体使用方式见其网页搜索与抓取指南。",
-        "latest_at": "2026-10-16T16:00:00.000Z",
+        "digest": "DeepSeek 开放自研搜索 API，网页端与 API 端的搜索能力均由自研的 DeepSeek 搜索引擎提供底层支持。DeepSeek 称，该引擎每天稳定处理来自全球的数亿次搜索请求，索引全球千亿级网页并支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC 内容。\n\nDeepSeek 公告称，API 现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次成功请求 5 元。用户在 DeepSeek Harness、Claude Code、Codex 中通过 Server 端工具调用访问的 Search/Fetch 接口目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费。",
+        "latest_at": "2026-10-18T11:59:52.953Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
-        "rank": 9,
+        "rank": 4,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 7,
-        "source_count": 1,
+        "signal_count": 8,
+        "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/e4dc2fdc-f282-4822-99ea-8562b2a2d07a",
-        "title": "DeepSeek开放自研搜索API"
+        "title": "DeepSeek开放自研搜索API并按次计费"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     },
     {
       "item": {
@@ -292,6 +309,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "f39d32a1-c72e-4310-b8d5-d7ab5345c6d1",
+        "digest": "Google Research（MarkTechPost 称发布方为 Google Cloud AI Research）开源了 Harness²，一个递归式智能体 Harness 优化框架，版本 v0.1.0，采用 Apache-2.0 许可，项目地址为 github.com/google-research/harness2。\n\n据 MarkTechPost 报道，该框架在模型权重冻结的情况下，迭代优化提示词、工具、记忆、技能等 8 个 harness 组件。报道未说明这些优化的具体效果或适用条件。",
+        "latest_at": "2026-10-18T08:15:04.000Z",
+        "original_url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "MarkTechPost（RSS）",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f39d32a1-c72e-4310-b8d5-d7ab5345c6d1",
+        "title": "Google Research 开源 Harness² 智能体优化框架"
+      },
+      "observed_at": "2026-10-18T15:56:28.585882Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
         "digest": null,
         "latest_at": "2026-10-18T02:53:41.000Z",
@@ -299,13 +333,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 38,
+        "signal_count": 40,
         "source_count": 15,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
         "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-18T11:17:42.281146Z"
+      "observed_at": "2026-10-18T15:56:28.585882Z"
     }
   ],
   "version": 1
