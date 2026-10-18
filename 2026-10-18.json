@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-10-17T14:42:56.000Z",
         "original_url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
         "signal_count": 10,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.virxact.com/story/081bf642-6816-4c84-929e-3d3837dcfdb5",
         "title": "Claude 查明 NIST 椭圆曲线种子来源"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
@@ -55,19 +55,19 @@
     {
       "item": {
         "aihot_story_id": "278a9f24-bfd7-489e-98f4-958d6bbf2352",
-        "digest": "Meta 在引发争议后再次更新商业条款，删除了被解读为允许其抓取新闻网站等内容训练 AI 的措辞。此前计划于 10 月 30 日生效的条款授权 Meta 抓取与商业账号关联的网站内容，用于“开发、改进、研究”和“训练”AI 产品，且企业无法选择退出；不同意者须停止将 Meta 产品用于商业用途。\n\n法律专家曾警告，新措辞可能让 Meta 绕过 robots.txt 等屏蔽指令和授权协议，Ars Technica 还指出 test credentials 等表述可能被用于绕过付费墙。Meta 发言人 Daniel Roberts 称，相关条款只适用于广告和商业产品，Meta 使用网页爬虫的方式没有变化，此次更新不会赋予 Meta 覆盖内容方偏好的新权利。康奈尔法学教授 James Grimmelmann 等人此前对条款的解读，是引发争议的原因之一。",
+        "digest": null,
         "latest_at": "2026-10-18T00:00:43.787Z",
         "original_url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
         "signal_count": 4,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/278a9f24-bfd7-489e-98f4-958d6bbf2352",
         "title": "Meta 删除涉 AI 训练抓取争议条款"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
@@ -75,50 +75,50 @@
         "digest": null,
         "latest_at": "2026-10-17T14:15:29.000Z",
         "original_url": "https://pytorch.org/blog/muse-spark-open/",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "PyTorch：Blog（RSS）",
-        "signal_count": 30,
-        "source_count": 4,
+        "signal_count": 25,
+        "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/2f0270d6-fc22-4747-af7c-a4f488d3cd16",
         "title": "Meta 开源 816B 模型 Muse Spark Open，Apple 演示 Mac Studio 本地运行"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
         "aihot_story_id": "44880c6f-8433-4c3b-8d6e-757e1b8ae765",
-        "digest": null,
-        "latest_at": "2026-10-17T21:00:13.000Z",
+        "digest": "NVIDIA 的 RTX Spark 笔记本已开售，由 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 推出，可在单机上运行本地编码智能体并完成编码、测试与部署。NVIDIA 在开售当天的新闻稿中称起价 2,599 美元，并附带面向 Perplexity 新用户的限时优惠；10 月 18 日的博客则称起价 2,399 美元。NVIDIA 称定价与配置因地区而异，小型台式机将于 11 月推出。\n\n产品基于 GB10 SoC，最高 128GB 统一内存、1 petaflop FP4 算力。The Verge 三位编辑用一周时间测试了五款搭载 RTX Spark N1X 芯片的 Windows on Arm 笔记本，售价 2,599.99 至 6,999.99 美元。X 用户卡兹克称，128G+1T 的华硕 ProArt 创16 售价 37,999 元，线上瞬间售罄；其实测 Qwen3.8-27B 约 30 Token/秒，本地 2B 翻译模型可 6 路并发。\n\nOpenClaw 称已在新笔记本上支持开箱即用设置，用户可选择本地模型或连接云服务商，按引导完成设置，无需打开终端。Unsloth 称配合 RTX Spark 可在笔记本上本地运行并训练 120B+ 参数模型，训练扩散、决策和多模态模型比此前快约 2.7 倍，统一内存最高 128GB。",
+        "latest_at": "2026-10-18T02:04:38.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
         "rank": 4,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
         "signal_count": 11,
         "source_count": 6,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
         "aihot_story_id": "4e5cc287-abde-4b0e-acf2-1ef380210117",
         "digest": "Anthropic 于 10 月 16 日发布两份内部研究：一份基于公司自身数据，分析 AI 如何改变雇佣与工作组织；另一份对比员工与公众对 AI 经济影响的预期。内部数据显示，到 2026 年 8 月，交互式 AI 智能体的使用时长已达员工的 6 倍；技术部门初级员工占比从 21% 降至 14%，初级技术招聘占比从 27% 降至 9%。TechCrunch 报道称，技术团队占全员比例从 61% 降至 56%，Anthropic 将这一变化归因于业务职能扩张，以及编码工具让非技术员工也能自行开发软件。\n\n预期调查方面，Anthropic 于 2026 年 8 月调查美国成人代表样本（N=10,980）及自家员工，发现双方对 AI 现有能力判断相近，但对进展速度分歧巨大：91% 员工预期 AI 在 2030 年前能做出诺贝尔级发现，公众仅 39%；员工平均预期 AI 能完成其 75% 的当前工作，美国工人仅 28%。据《商业内幕》报道，另一项对比 1334 名员工与美国成年人的调查显示，多数员工预计到 2030 年自己至少 80% 的工作可交给 AI，美国劳动者中仅约 5% 持相同看法。\n\n首席经济学家 Peter McCrory 称，员工与公众对更广泛经济结果的看法相似：预期 AI 会承担自己更多工作的人，也预期出现类似的失业效应。McCrory 称，Anthropic 在 AI 采用上大约领先整体经济一年半，因此其内部情况可能是更广泛世界的先行指标。他随后澄清，相关增长数字是模型隐含的情景，而非直接的 GDP 预测。Anthropic 同时发布了一个结构化框架，用于比较 AI 进展未来及其经济影响的不同情景。",
-        "latest_at": "2026-10-17T22:58:56.000Z",
+        "latest_at": "2026-10-18T01:22:06.977Z",
         "original_url": "https://www.anthropic.com/research/ai-expectations-gap",
-        "rank": 9,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 6,
+        "signal_count": 7,
         "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117",
         "title": "Anthropic 发布内部 AI 经济影响研究"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
@@ -143,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-10-17T01:30:54.000Z",
         "original_url": "https://www.ithome.com/1/013/983.htm",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 14,
+        "signal_count": 13,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/799a2a3d-ea41-4491-afaf-9e6c06aebe64",
         "title": "商务部拟增列23项AI技术出口管制并答问"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
@@ -160,7 +160,7 @@
         "digest": null,
         "latest_at": "2026-10-16T13:12:25.000Z",
         "original_url": "https://x.com/shao__meng/status/2111082839068246301",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：邵猛 (@shao__meng)",
         "signal_count": 9,
@@ -169,7 +169,7 @@
         "story_url": "https://aihot.virxact.com/story/a377431d-9822-42bd-a8d3-fd4ee14dc0b7",
         "title": "腾讯混元发布并开源 Hy Memory 2.0"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
@@ -191,19 +191,19 @@
     {
       "item": {
         "aihot_story_id": "c3562486-19f9-44c5-9544-c3af3e3d43c5",
-        "digest": "OpenCode 披露，当地时间 10 月 16 日晚发生一起安全漏洞，称源于大规模蒸馏攻击，影响 1.4% 的 OpenCode Console 用户，均为关联了外部服务提供商的用户；OpenCode 已于 17 日上午通过邮件逐一通知，未收到邮件即未受影响。OpenCode 称事件仍在处理中，细节暂不公开，正与 Anthropic、OpenAI 和 Google 合作补救。\n\nAnthropic 的 Lydia Hallie 表示，团队正与 OpenCode 协作处理这起泄露，已撤销疑似受影响的 Claude API 密钥，并建议在 OpenCode 保存过密钥的用户重新创建。\n\n“蒸馏攻击”的定性受到质疑。Nathan Lambert 评论称，把窃取 API 密钥的网络攻击归入“蒸馏”一词很反常，将流向中国的模型转发站混为一谈同样如此；相关流量规模为何如此之大、与模型训练有何关联，目前并不清楚。",
+        "digest": null,
         "latest_at": "2026-10-18T00:19:10.557Z",
         "original_url": "https://www.ithome.com/1/014/434.htm",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 6,
+        "signal_count": 8,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5",
         "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
@@ -220,7 +220,7 @@
         "story_url": "https://aihot.virxact.com/story/d04da2cc-3656-4558-8c1a-a379c01b6dae",
         "title": "Elorian 发布首个视觉推理模型 Glimpse"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     },
     {
       "item": {
@@ -242,19 +242,19 @@
     {
       "item": {
         "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
-        "digest": null,
-        "latest_at": "2026-10-17T17:31:24.000Z",
+        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder 与 MarkTechPost 则称经 Harness、Claude Code、Codex 的服务端调用免费至 10 月 31 日。WorkBuddy 国际版同步支持该模型并限免至 10 月 31 日，国内版无限免。",
+        "latest_at": "2026-10-18T02:53:41.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
         "rank": 1,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 32,
+        "signal_count": 33,
         "source_count": 15,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
         "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-18T01:08:55.169951Z"
+      "observed_at": "2026-10-18T06:00:00.608154Z"
     }
   ],
   "version": 1
