@@ -20,11 +20,28 @@
     },
     {
       "item": {
+        "aihot_story_id": "415f8e37-5dad-489c-a6e0-2606ac179820",
+        "digest": null,
+        "latest_at": "2026-10-18T04:27:27.713Z",
+        "original_url": "https://www.ithome.com/1/014/483.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 6,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/415f8e37-5dad-489c-a6e0-2606ac179820",
+        "title": "Anthropic 联创称 AI 到 2030 年可推高美国 GDP 近 50%"
+      },
+      "observed_at": "2026-10-19T04:52:23.458454Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "digest": null,
         "latest_at": "2026-10-18T02:04:38.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
         "signal_count": 5,
@@ -33,7 +50,7 @@
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     },
     {
       "item": {
@@ -41,7 +58,7 @@
         "digest": null,
         "latest_at": "2026-10-18T06:27:48.000Z",
         "original_url": "https://www.anthropic.com/research/ai-expectations-gap",
-        "rank": 7,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
         "signal_count": 6,
@@ -50,7 +67,7 @@
         "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117",
         "title": "Anthropic 发布内部 AI 经济影响研究"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     },
     {
       "item": {
@@ -75,7 +92,7 @@
         "digest": null,
         "latest_at": "2026-10-18T18:57:25.000Z",
         "original_url": "https://x.com/testingcatalog/status/2111724606927028578",
-        "rank": 5,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：Testing Catalog (@testingcatalog)",
         "signal_count": 7,
@@ -84,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/62564feb-43f0-4dcd-839a-23c34cd854a4",
         "title": "OpenAI API 短暂出现三个 aurora 模型引用后移除"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     },
     {
       "item": {
@@ -92,16 +109,16 @@
         "digest": null,
         "latest_at": "2026-10-18T20:37:40.000Z",
         "original_url": "https://www.anthropic.com/news/public-benefit-fund",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 7,
+        "signal_count": 10,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532",
         "title": "Anthropic设公益基金 承诺投入5%股份"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     },
     {
       "item": {
@@ -109,33 +126,33 @@
         "digest": null,
         "latest_at": "2026-10-18T10:42:51.370Z",
         "original_url": "https://www.ithome.com/1/014/574.htm",
-        "rank": 6,
+        "rank": 5,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 6,
+        "signal_count": 7,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/a7a67ccd-5e78-4e12-9b42-fef5515ac35a",
         "title": "微软终止与Nscale数据中心合作"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     },
     {
       "item": {
         "aihot_story_id": "c3562486-19f9-44c5-9544-c3af3e3d43c5",
-        "digest": null,
-        "latest_at": "2026-10-18T00:19:10.557Z",
+        "digest": "OpenCode 披露，当地时间 10 月 16 日晚发生一起安全漏洞，称源于大规模蒸馏攻击，影响 1.4% 的 OpenCode Console 用户，均为关联了外部服务提供商的用户；OpenCode 已于 17 日上午通过邮件逐一通知，未收到邮件即未受影响。OpenCode 称事件仍在处理中，细节暂不公开，正与 Anthropic、OpenAI 和 Google 合作补救。\n\nAnthropic 的 Lydia Hallie 表示，团队正与 OpenCode 协作处理这起泄露，已撤销疑似受影响的 Claude API 密钥，并建议在 OpenCode 保存过密钥的用户重新创建。OpenAI 的 Tibo 称，已与 OpenCode 合作让同时是 OpenAI API 客户的受影响用户恢复使用，并退还攻击期间本会被扣取的额度。\n\n“蒸馏攻击”的定性受到质疑。Nathan Lambert 评论称，把窃取 API 密钥的网络攻击归入“蒸馏”一词很反常，将流向中国的模型转发站混为一谈同样如此；相关流量规模为何如此之大、与模型训练有何关联，目前并不清楚。",
+        "latest_at": "2026-10-19T04:12:15.000Z",
         "original_url": "https://www.ithome.com/1/014/434.htm",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 12,
-        "source_count": 5,
-        "status": null,
+        "source_count": 6,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5",
         "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     },
     {
       "item": {
@@ -146,13 +163,13 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 10,
+        "signal_count": 11,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/e4dc2fdc-f282-4822-99ea-8562b2a2d07a",
         "title": "DeepSeek开放自研搜索API并按次计费"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     },
     {
       "item": {
@@ -180,13 +197,30 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 41,
+        "signal_count": 45,
         "source_count": 15,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
         "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-19T00:13:27.750600Z"
+      "observed_at": "2026-10-19T04:52:23.458454Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fdccd883-6cec-4678-acc7-8a4ddbc4562c",
+        "digest": "Anthropic 发布内部研究称，其内部 AI Agent 记录的工时已达人类工时的 6 倍；技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。\n\nX 用户 Rohan Paul 援引的数据还称，同期公司规模增至三倍，约三分之一的 ML 经理和五分之一的 SWE 经理表示 AI 让他们减少了招聘；其转引的员工调查显示，59% 的员工称 AI 已把适合任务的耗时压缩到原来的四分之一，员工平均预期到 2030 年 AI 可承担其 75% 的工作时间。\n\n此前有分析据此推测 Anthropic 将在 2027 年年中前后停止招聘技术岗初级工程师，X 用户马东锡 NLP 认为这是博取流量的说法，但承认 AI 正在压缩初级工程师的生存空间。Anthropic 并未宣布停止招聘初级工程师；6 倍工时与招聘偏好均出自 Anthropic 自身说法，并非独立验证的效果。",
+        "latest_at": "2026-10-18T13:22:26.000Z",
+        "original_url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 4,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/fdccd883-6cec-4678-acc7-8a4ddbc4562c",
+        "title": "Anthropic 内部研究：AI Agent 工时达人类 6 倍，初级技术岗占比降至 14%"
+      },
+      "observed_at": "2026-10-19T04:52:23.458454Z"
     }
   ],
   "version": 1
