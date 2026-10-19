@@ -24,16 +24,16 @@
         "digest": null,
         "latest_at": "2026-10-18T02:04:38.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 6,
-        "source_count": 4,
+        "signal_count": 5,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/44880c6f-8433-4c3b-8d6e-757e1b8ae765",
         "title": "NVIDIA RTX Spark 笔记本开售，起价说法不一"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
@@ -41,16 +41,16 @@
         "digest": null,
         "latest_at": "2026-10-18T06:27:48.000Z",
         "original_url": "https://www.anthropic.com/research/ai-expectations-gap",
-        "rank": 4,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 8,
+        "signal_count": 6,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/4e5cc287-abde-4b0e-acf2-1ef380210117",
         "title": "Anthropic 发布内部 AI 经济影响研究"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
@@ -58,7 +58,7 @@
         "digest": null,
         "latest_at": "2026-10-18T02:06:43.060Z",
         "original_url": "https://www.ithome.com/1/014/456.htm",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 5,
@@ -67,12 +67,12 @@
         "story_url": "https://aihot.virxact.com/story/55ac5afb-c949-4128-8fee-b0f02d4440cf",
         "title": "我国首个全国产十万卡AI超集群真机亮相"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
         "aihot_story_id": "62564feb-43f0-4dcd-839a-23c34cd854a4",
-        "digest": "OpenAI 的 API 中短暂出现了 aurora-red-alpha、aurora-green-alpha 和 aurora-blue-alpha 三个模型引用，随后很快被移除。Testing Catalog 称这是一次误上线，并认为普通用户近期有机会测试这些 alpha 模型的可能性相当低，更可能与新的 Daybreak 更新公告有关，也不排除还计划了其他模型发布。\n\n次日，Testing Catalog 称已在 Arena 上试用 OpenAI 的新 \"Aurora\" 图像模型，并称其输出优于 gpt-image-2.5-flare，尤其在配色方案上。该说法来自 Testing Catalog 的试用评价，OpenAI 未公布 Aurora 的发布计划或正式定位。",
+        "digest": null,
         "latest_at": "2026-10-18T18:57:25.000Z",
         "original_url": "https://x.com/testingcatalog/status/2111724606927028578",
         "rank": 5,
@@ -80,28 +80,28 @@
         "representative_source": "X：Testing Catalog (@testingcatalog)",
         "signal_count": 7,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/62564feb-43f0-4dcd-839a-23c34cd854a4",
         "title": "OpenAI API 短暂出现三个 aurora 模型引用后移除"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
         "aihot_story_id": "66a54812-6ab2-4206-8573-aaa6ccfc8532",
-        "digest": "Anthropic 宣布设立 Anthropic Public Benefit Fund，并承诺向该基金投入公司 5% 股份；该基金是公司全资持有的实体。据 Anthropic 称，这一承诺需经股东批准；此后公司估值每较设定基准上涨 50%，董事会可酌情追加 2%。\n\n该基金可用于向传统非营利组织大额捐赠，或直接向特定人群发放；Anthropic 此前已投入 2 亿美元研究 AI 对就业市场的影响。Anthropic 称，基金持有的公司股权不会用于美国或海外的游说或政治捐款。\n\n基金的结构和治理细节将在未来几个月公布。",
+        "digest": null,
         "latest_at": "2026-10-18T20:37:40.000Z",
         "original_url": "https://www.anthropic.com/news/public-benefit-fund",
-        "rank": 9,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 3,
+        "signal_count": 7,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532",
         "title": "Anthropic设公益基金 承诺投入5%股份"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
@@ -118,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/a7a67ccd-5e78-4e12-9b42-fef5515ac35a",
         "title": "微软终止与Nscale数据中心合作"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
@@ -135,7 +135,7 @@
         "story_url": "https://aihot.virxact.com/story/c3562486-19f9-44c5-9544-c3af3e3d43c5",
         "title": "OpenCode 遭攻击，Anthropic 撤销受影响密钥"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
@@ -143,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-10-18T11:59:52.953Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 9,
+        "signal_count": 10,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/e4dc2fdc-f282-4822-99ea-8562b2a2d07a",
         "title": "DeepSeek开放自研搜索API并按次计费"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
@@ -169,24 +169,24 @@
         "story_url": "https://aihot.virxact.com/story/f39d32a1-c72e-4310-b8d5-d7ab5345c6d1",
         "title": "Google Research 开源 Harness² 智能体优化框架"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     },
     {
       "item": {
         "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
-        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。Arena 随后公布该模型（Max 版）成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder 与 MarkTechPost 则称经 Harness、Claude Code、Codex 的服务端调用免费至 10 月 31 日。WorkBuddy 国际版同步支持该模型并限免至 10 月 31 日，国内版无限免。",
+        "digest": null,
         "latest_at": "2026-10-18T18:56:03.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
         "rank": 1,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 40,
-        "source_count": 16,
-        "status": "active",
+        "signal_count": 41,
+        "source_count": 15,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
         "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-18T21:33:14.212722Z"
+      "observed_at": "2026-10-19T00:13:27.750600Z"
     }
   ],
   "version": 1
