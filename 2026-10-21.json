@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-10-20T08:06:25.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
-        "rank": 6,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 10,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
         "title": "OpenAI 拟以超1.4万亿美元估值融资300亿美元"
       },
-      "observed_at": "2026-10-20T18:30:31.622356Z"
+      "observed_at": "2026-10-20T22:22:02.551116Z"
     },
     {
       "item": {
@@ -54,9 +54,43 @@
     },
     {
       "item": {
+        "aihot_story_id": "2ba6c88e-eaa2-47c1-b517-8f89994933d9",
+        "digest": "SpaceX 在第三季度监管文件中披露，公司营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损。更名后的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 业务目前占公司收入 52%，算力规模达 1.7 GW。\n\nTechCrunch 称，上述利润中约 10 亿美元来自比特币价格回升相关收益，以及一笔未说明的关联方收入，后者可能来自 SpaceX 对另一家公司的投资。",
+        "latest_at": "2026-10-20T20:40:41.000Z",
+        "original_url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 7,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/2ba6c88e-eaa2-47c1-b517-8f89994933d9",
+        "title": "SpaceX 三季度 AI 业务收入占比过半并扭亏为盈"
+      },
+      "observed_at": "2026-10-20T22:22:02.551116Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "452085ae-c2fe-4a36-bf0b-115388db0e18",
+        "digest": "OpenAI 宣布收购 Orchestra Bio，一个帮助生物制药团队协调药物研发流程的平台，其团队和技术将与 OpenAI 面向生命科学研究的 Rosalind 模型和工具整合。OpenAI 称此举意在简化相关运营、帮助新疗法更快到达患者；首席研究官 Mark Chen 公开欢迎该团队加入。\n\n据 TechCrunch 报道，Orchestra Bio 成立四年，开发用于管理药物研发运营事务的 AI 智能体，涉及财务追踪和临床试验排期等，截至 2025 年融资约 2000 万美元，投资方包括 Andreessen Horowitz、Atria 和 8VC。OpenAI 介绍，其智能体可追踪研究和项目进展，并在生产批次失败等事件发生时映射受影响的临床试验、汇总应对方案。\n\n收购金额和交易条款未披露，Orchestra Bio 现有产品后续如何安排也未说明。OpenAI 在声明中还提到与 Novo Nordisk 和 Moderna 的合作，并称新药从靶点发现到美国审批平均仍需 10 到 15 年。",
+        "latest_at": "2026-10-20T20:35:10.000Z",
+        "original_url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 7,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/452085ae-c2fe-4a36-bf0b-115388db0e18",
+        "title": "OpenAI收购药物研发平台Orchestra Bio"
+      },
+      "observed_at": "2026-10-20T22:22:02.551116Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "589d286a-2a6d-48be-b14a-e61390534ec3",
         "digest": "MiniMax 正式发布 M3.1 Flash，已上线 MiniMax API、MPlan 和 MiniMax Code，权重定于 10 月 23 日开放，许可证尚未公布。官方称其以 M3 三分之一的成本、约 3 倍速度达到前沿级智能体表现，日常输出可达 200+ TPS；API 定价为输入每百万 Token 1 元、输出 4 元、缓存读取 0.1 元，英文口径为 $0.15/$0.60/$0.015，MarkTechPost 称无长上下文附加费。\n\n此前在 OpenRouter 匿名测试的 Space Bunny 被确认为其早期版本：OpenRouter 称其匿名期间连续 10 天居首、处理 56.7T token，回归后免费 72 小时；OpenCode 称其连续 12 天排名第一、累计 106T token，上架后免费 3 天；Cline 也于发布当日上线并免费开放。Ollama 和 GMI Cloud 称已 Day0 上线，OpenClaw 称在 v2026.10.1 及以上版本可直接使用。\n\n官方评测成绩包括 DeepSWE v1.1 得 73.7%、OSWorld V2 得 61.7 分、CyberGym 得 82%；Arena 称其在 Code Arena WebDev 榜以 1588 分列开源模型第 12、总榜第 32。Artificial Analysis 称其 Intelligence Index 得 42 分，比 M3 高 13 分，低于 DeepSeek V4.1 Flash 1017 的 45 分。发布前，第三方账号 Testing Catalog 依据 API 参考文档称该模型具备 1M 上下文窗口和可调思考深度，这些描述来自该账号转述，官方发布信息未逐项确认。",
-        "latest_at": "2026-10-20T15:39:35.000Z",
+        "latest_at": "2026-10-20T20:14:56.000Z",
         "original_url": "https://www.minimax.io/blog/minimax-m31f",
         "rank": 2,
         "recovered": false,
@@ -65,9 +99,9 @@
         "source_count": 12,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3",
-        "title": "MiniMax 发布 M3.1 Flash，权重 10 月 23 日开放"
+        "title": "MiniMax 发布 M3.1 Flash，10 月 23 日开放权重"
       },
-      "observed_at": "2026-10-20T18:30:31.622356Z"
+      "observed_at": "2026-10-20T22:22:02.551116Z"
     },
     {
       "item": {
@@ -75,16 +109,16 @@
         "digest": null,
         "latest_at": "2026-10-19T05:06:22.000Z",
         "original_url": "https://www.anthropic.com/news/public-benefit-fund",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 25,
-        "source_count": 2,
+        "signal_count": 22,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/66a54812-6ab2-4206-8573-aaa6ccfc8532",
         "title": "Anthropic设公益基金 承诺投入5%股份"
       },
-      "observed_at": "2026-10-20T18:30:31.622356Z"
+      "observed_at": "2026-10-20T22:22:02.551116Z"
     },
     {
       "item": {
@@ -92,7 +126,7 @@
         "digest": null,
         "latest_at": "2026-10-20T03:32:43.000Z",
         "original_url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-        "rank": 7,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Inception Labs：Blog（网页）",
         "signal_count": 8,
@@ -101,24 +135,24 @@
         "story_url": "https://aihot.virxact.com/story/734c8ed5-330d-4d7c-bea5-a97d9707cfd8",
         "title": "Mercury 3 发布：速度与评测争议"
       },
-      "observed_at": "2026-10-20T18:30:31.622356Z"
+      "observed_at": "2026-10-20T22:22:02.551116Z"
     },
     {
       "item": {
         "aihot_story_id": "c23155c2-2ff3-45e5-a3ab-4ed6a5217d72",
-        "digest": "美国国土安全部依据2018年《联邦采购供应链安全法》发布2026-01号命令，要求所有联邦文职机构立即停止采购杭州DeepSeek及其关联方产品，并立即从信息技术系统中移除DeepSeek及关联产品，以及使用DeepSeek实现开发的第三方产品和服务。DHS称，使用该模型存在向北京传输敏感数据的风险，模型可能包含恶意软件或安全漏洞。\n\n命令设有例外：机构须在命令发布后60天内以书面形式提出申请并给出“充分理由”，例如无法完成关键任务功能；国家安全系统和保密隔离信息系统不在命令适用范围内。The Decoder报道称，该命令未设移除期限，也未说明具体安全担忧。相关公告显示，该命令定于2026年10月20日刊登于《联邦公报》。\n\n中国外交部发言人毛宁10月20日在例行记者会上回应称，中方一贯反对泛化国家安全概念、将科技经贸问题政治化，将坚决维护中国企业的合法权益。",
+        "digest": null,
         "latest_at": "2026-10-20T13:07:24.000Z",
         "original_url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
         "rank": 3,
         "recovered": false,
         "representative_source": "Hacker News：AI 热帖",
-        "signal_count": 33,
+        "signal_count": 34,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/c23155c2-2ff3-45e5-a3ab-4ed6a5217d72",
         "title": "美国土安全部令联邦文职机构移除DeepSeek及关联产品"
       },
-      "observed_at": "2026-10-20T18:30:31.622356Z"
+      "observed_at": "2026-10-20T22:22:02.551116Z"
     },
     {
       "item": {
@@ -139,25 +173,42 @@
     },
     {
       "item": {
+        "aihot_story_id": "d7566385-503b-4b33-acd6-21a80dd4085a",
+        "digest": "Google 与 Meta 的 PyTorch 团队联合开发并开源 TorchTPU，为 Google Cloud TPU 提供原生 PyTorch 后端，让 PyTorch 通过 torch.device(\"tpu\") 直接运行在 TPU 上。该项目在 PyTorch Conference 2026 上宣布，PyPI 版本为 v0.2.0，要求 Python 3.11+，采用 Apache 2.0 许可；官方称其取代 PyTorch/XLA，并推荐用于所有新工作负载，测试覆盖 v5e 至 8192 颗 Ironwood（TPU7x）芯片。据 PyTorch 博客，模型迁移只需把 .to(\"cuda\") 改为 .to(\"tpu\")。\n\nHugging Face 随后宣布，其 Transformers、Diffusers 和 Kernels 已通过 TorchTPU 原生运行 TPU，模型加载只需 device_map=\"tpu\"；在 TPU 虚拟机上安装 TorchTPU 只需一条命令：pip install torch-tpu --extra-index-url https://download.pytorch.org/whl/cpu。Hugging Face 称，TorchTPU 让 TPU 成为 PyTorch 的又一种普通设备，因此用 Transformers 和 Diffusers 运行 Hugging Face 模型已不再需要 Optimum TPU。\n\n另有 X 平台用户 Rohan Paul 称，TorchTPU 按写入顺序逐个运行算子，便于像 GPU 一样逐步调试，再切换 torch.compile 获得生产速度；其称训练 Qwen 3 8B 时最高用到 52% 的峰值 TPU 算力。该性能说法来自个人帖子，未见官方数据佐证。",
+        "latest_at": "2026-10-20T19:31:43.000Z",
+        "original_url": "https://pytorch.org/blog/introducing-torchtpu/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "PyTorch：Blog（RSS）",
+        "signal_count": 4,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d7566385-503b-4b33-acd6-21a80dd4085a",
+        "title": "Google 与 Meta 开源 TorchTPU，Hugging Face 原生支持 TPU"
+      },
+      "observed_at": "2026-10-20T22:22:02.551116Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "dae7c054-a1fe-423d-bf36-68d8d8959457",
         "digest": "DeepSeek 将内部使用的大规模推理框架 DeepInfer 全面开源，代码托管在 GitHub（github.com/deepseek-ai/DeepInfer），采用 Apache-2.0 许可，并同步开源 Token 编解码组件 deepseek-recipe（MarkTechPost 称其采用 MIT 许可）。官方称该框架已支撑 DeepSeek-V4.1-Flash 的高吞吐、低延迟推理，开源旨在帮助社区降低算力成本与能耗；IT之家称其兼容英伟达与华为昇腾平台。\n\n关于开源范围，Rohan Paul 称该版本只运行 DeepSeek-V4.1-Flash，限于英伟达 SM100 GPU 或华为昇腾 950 芯片，覆盖离线推理而非完整服务栈，未包含 KV cache 系统、prefill 与 decode 分离及多副本负载均衡。MarkTechPost 同样称其为离线推理，并列出构建需 Linux、GCC 13 以上、Python 3.12，以及 CUDA 13 或 CANN 9.2。\n\nYuchen Jin 转发时引述 DeepSeek 公布的运营数据：单集群日吞吐 155 万亿 token，按非高峰价格计算每 GPU 小时收入 38 美元。他称 DeepSeek 未披露所用 GPU，并按其假设的 B300 租赁价估算毛利率约 82%。",
-        "latest_at": "2026-10-20T17:05:36.000Z",
+        "latest_at": "2026-10-20T18:56:15.000Z",
         "original_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
         "rank": 1,
         "recovered": false,
         "representative_source": "公众号：DeepSeek（深度求索）",
-        "signal_count": 34,
-        "source_count": 10,
+        "signal_count": 37,
+        "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457",
         "title": "DeepSeek 开源内部推理框架 DeepInfer"
       },
-      "observed_at": "2026-10-20T18:30:31.622356Z"
+      "observed_at": "2026-10-20T22:22:02.551116Z"
     },
     {
       "item": {
         "aihot_story_id": "f8045374-7106-49b1-8fd8-ce824a952e45",
-        "digest": "DeepSeek 将 V4.1 Flash 升级为 DeepSeek-V4.1-Flash-1017，网页端、App 与 API 同步替换，API 调用方式与价格不变，仍用 deepseek-flash 访问。DeepSeek 称新版在全部 11 项基准上较 9 月版提升 2.0 至 11.1 分，任务运行时间与输出长度缩短，并建议升级至 DeepSeek Harness 0.2.1-rc.1 及以上版本。Arena 随后公布该模型（Max 版）成为 Code Arena: WebDev 与 Agent Arena 的第一开源模型，后者总榜第 11；Artificial Analysis 智能指数得分 45，较旧版提高 6 分，与 GLM-5.3 并列开源权重模型第二。ValsAI 称初步评测显示该模型在多步攻击性网络安全任务上胜过 GPT 6 Sol，完整评测将于数周内公开。\n\n关于权重，IT之家称已同步开放下载、延续 MIT 许可；MarkTechPost 则称 1017 权重与硬件要求未披露。OpenRouter 同日上线该模型，DeepSeek 为首个接入服务商，标价输入 $0.15/百万 token、输出 $0.60/百万 token，上下文 1.05M，暂不支持欧盟区域内路由。硅基流动也于 10 月 19 日上线该模型。\n\n随新版推出的自研搜索 API 中，Search/Fetch 两个接口定价均为 5 元/千次。DeepSeek 称这部分调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收费；The Decoder 与 MarkTechPost 则称经 Harness、Claude Code、Codex 的服务端调用免费至 10 月 31 日。WorkBuddy 国际版同步支持该模型并限免至 10 月 31 日，国内版无限免。",
+        "digest": null,
         "latest_at": "2026-10-20T15:32:47.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
         "rank": 4,
@@ -165,11 +216,11 @@
         "representative_source": "DeepSeek：API 更新日志",
         "signal_count": 32,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f8045374-7106-49b1-8fd8-ce824a952e45",
         "title": "DeepSeek 发布 V4.1-Flash-1017 并开放搜索 API"
       },
-      "observed_at": "2026-10-20T18:30:31.622356Z"
+      "observed_at": "2026-10-20T22:22:02.551116Z"
     }
   ],
   "version": 1
