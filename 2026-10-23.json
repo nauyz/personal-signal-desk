@@ -3,8 +3,25 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "159e1f8e-c18e-4c7c-9e3c-c4009494ac28",
+        "digest": "Canva 发布首个自研图像生成模型 Canva Craft，由其研究团队开发，用于与 Google、OpenAI、字节跳动和 Meta 的同类模型竞争。模型分两阶段工作：先规划空间关系、相对比例、视觉层级和文字信息，再生成最高 2K 分辨率、最多 30 种宽高比的图像；Canva 称结果细节准确、文字清晰，并支持只改动局部而不影响其他部分的精确编辑。\n\nCanva Craft 已向全球所有用户开放，可从 Dream Lab 标签页进入，后续还将通过 Canva API 提供，并计划推出 Craft-fast、Craft-ultrafast 版本及支持通过 MCP 接入 AI 智能体。The Verge 称该模型基于平台数百万人工模板训练。\n\n关于榜单排名说法不一：X 用户 Rohan Paul 称 Canva Craft 在 DesignArena 全球图像生成榜单排名第二、仅次于 OpenAI；The Verge 则称其在该榜单位列第四。Canva 未在发布中提及排名。",
+        "latest_at": "2026-10-22T21:51:25.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 7,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/159e1f8e-c18e-4c7c-9e3c-c4009494ac28",
+        "title": "Canva发布首个自研图像生成模型Canva Craft"
+      },
+      "observed_at": "2026-10-22T22:24:40.800542Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "17f9865a-cef7-4d98-9742-0796331c81ea",
-        "digest": "OpenAI 称，其 GPT-5.6 Sol 模型在“Patch the Planet”计划下协助安全公司 Calif 的研究者发现 PHP 核心的严重漏洞；OpenAI 过去两个月牵头维护者、研究者与安全厂商组成联盟，在公开披露前完成修复，PHP 维护者于 2026 年 10 月 21 日发布补丁。OpenAI 称“据我们所知，前沿 AI 在攻击者之前发现了这些漏洞”，但 Ars Technica 报道称，漏洞在披露前四天已遭黑客利用。\n\nWiz Research 称，这些是 PHP 核心引擎中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），无需认证即可远程执行代码并泄露内存，至少可追溯到 PHP 5.4，近十年发布的每个 PHP 版本都至少受其中一个影响；Wiz 表示其独立发现并报告了这两个漏洞。OpenAI 联合创始人 Greg Brockman 称该漏洞名为 php2shell，已存在 14 年；修复原定 10 月 22 日发布，因细节提前泄露而提前至 10 月 21 日。Simon Willison 称，PHP 8.x 全线更新修复两个远程代码执行漏洞，且协调披露流程泄露后，漏洞利用代码自 10 月 21 日晚起已在流传，呼吁尽快升级。\n\n美国国家安全局（NSA）就这两个漏洞发出警告，称 PHP Foundation 已发布补丁；无法立即修复的网站应暂时下线，PHP 8.1 及更早版本已不再受支持。英国 NCSC 表示漏洞可能让黑客无需登录凭据即可控制网站服务器，白宫称联邦机构正在评估对政府系统和关键基础设施的潜在影响。OpenAI 还发布 Codex 技能，引导用户通过其 GitHub 仓库自查网站是否受影响。",
+        "digest": null,
         "latest_at": "2026-10-22T15:25:02.000Z",
         "original_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
         "rank": 2,
@@ -12,28 +29,28 @@
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 57,
         "source_count": 10,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea",
         "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
         "aihot_story_id": "3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
-        "digest": "据彭博社报道，DeepSeek 最新一轮融资约 150 亿美元（约 1000 亿元人民币），是中国规模最大的私募融资之一。谈判期间，融资目标至少两次上调：从约 75 亿美元提高到 120 亿美元，最终达到约 150 亿美元。宁德时代和腾讯是最大投资方之一，其中宁德时代据报出资约 15 亿美元。\n\n此前报道的金额和估值说法不一：彭博社最初称至少 800 亿元人民币（约 120 亿美元），高于原定约 500 亿元目标；《财经》则称第二轮融资约 140 亿美元，是最初 70 亿美元目标的两倍，投前估值约 700 亿美元。最终报道的投前估值约 748 亿美元。\n\n加上 6 月完成的首轮超 75 亿美元融资，DeepSeek 约 6 个月内共募资约 225 亿美元。TechCrunch 称，这轮融资发生在美方下令联邦机构移除 DeepSeek 技术两天后；DeepSeek 还计划最早明年在中国 IPO。",
+        "digest": null,
         "latest_at": "2026-10-22T13:11:13.000Z",
         "original_url": "https://x.com/thexpin/status/2107524306058289533",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
         "signal_count": 19,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
         "title": "DeepSeek新一轮融资升至约150亿美元"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
@@ -41,7 +58,7 @@
         "digest": null,
         "latest_at": "2026-10-21T19:23:19.000Z",
         "original_url": "https://openai.com/index/openai-models-google-cloud",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 19,
@@ -50,12 +67,12 @@
         "story_url": "https://aihot.virxact.com/story/49445e2f-d496-4acd-bc5e-70027cffd24a",
         "title": "OpenAI三款模型上架Google Cloud私测"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
         "aihot_story_id": "49bd934f-e6c9-434e-87b0-34b8e08b8efd",
-        "digest": "Anthropic 以研究预览形式开放 Claude Duet，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai。首批面向美国 Pro 和 Max 用户，需加入等候名单；The Decoder 称 Team 和 Enterprise 套餐暂不包含在内。预览阶段包含在 Pro 和 Max 套餐内，与 Claude 其余功能共享同一用量额度。\n\n据 Claude 官方账号，Duet 会主动提示需要关注的事项、完成用户交办的任务、在用户离开后继续工作，并在代替用户行动前先向用户确认。Testing Catalog 报道称，Duet 基于 Claude Opus 5.5 构建，记忆、技能和已连接应用继承自用户的 Claude 账户，并可使用 Stripe 的 Link 数字钱包进行企业采购、通过 Shopify 的 Shop Pay 在线结账，还将支持用 1Password 保存的登录信息登录网站。邵猛称，发消息、付款、签字、删除等操作需用户批准。\n\nThe Verge 和 TechCrunch 称 Duet 对标 Meta 的 Muse 和 OpenAI 的 Dots，面向专业人士和小企业主。Claude Code 产品负责人 Cat Wu 给出加入等候名单的地址 claude.com/product/claude-duet，称 Duet 会注意到需要完成的工作，在用户开口之前就去做。Anthropic 未说明正式上线时间。",
+        "digest": null,
         "latest_at": "2026-10-22T13:53:26.000Z",
         "original_url": "https://claude.com/blog/claude-duet",
         "rank": 1,
@@ -63,45 +80,45 @@
         "representative_source": "Claude：Blog（网页）",
         "signal_count": 63,
         "source_count": 12,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd",
         "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
         "aihot_story_id": "4e5e0d5e-eb50-43cc-b997-7cd714147997",
-        "digest": "AI 创业公司 Recursive 发布首个模型 Flint：一个面向编码 Agent 的 40B MoE 本地编码模型，总参数 39.8B、每 token 激活约 2.5B，权重以 Apache 2.0 协议开放，可在 Hugging Face 下载，也可在 opencode、pidotdev 上免费试用。Recursive 称，其自动化研究系统 Eureka Machine 参与了从预训练到后训练和推理的几乎全部开发环节，小团队不到四个月从零完成。\n\nvLLM 宣布从发布首日起支持 Flint，NVFP4 和 BF16 checkpoint 均可在单张 GPU 上运行；vLLM 称在一张 GB200、上下文达 100K token 时，单请求解码约 500 tokens/s。该加速有适用条件：Flint 内核针对单张 Blackwell GPU（TP=1、BF16 KV cache），其他配置会回退到 vLLM 的标准层；推理内容计入 max_tokens，处理难题时建议至少预留 32K。\n\n性能方面，Testing Catalog 称 Flint 比同类模型快 2 倍，在 64GB RTX Spark 上超过 220 tokens/秒，在 MacBook Pro 上达 125+ tokens/秒；Eureka Machine 通过编写自定义 GPU 代码，在不改权重的情况下将 Flint 在 RTX Spark 上提速 55%。MarkTechPost 称其可在 48GB 内存的 Apple Silicon Mac 或 48GB NVIDIA GPU 上运行。Hugging Face 联创 Thomas Wolf 点评称，Flint 把通常建议保持高精度的 lm_head 量化到 4 bit，结果距 bf16 仅差 0.7 个百分点。",
+        "digest": null,
         "latest_at": "2026-10-22T14:40:16.000Z",
         "original_url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
         "signal_count": 18,
         "source_count": 8,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997",
         "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
         "aihot_story_id": "8b1cc389-bb11-4612-9ea6-a04753eeb832",
-        "digest": "1Password 推出 1Password for Agents，让 AI 智能体在用户批准后登录账户，但智能体看不到、也不持有密码。智能体用唯一数字密钥向 1Password 验证身份，用户在自己设备上批准后，由 1Password 代为填写登录信息，流程类似两步验证。\n\nMeta Muse 工程负责人 David Singleton 称，1Password 已直接接入 Muse，用户批准每次登录后 Muse 可继续完成任务，密码始终留在 1Password 保险库中；该集成将在未来几天内覆盖所有平台。据 Singleton 的说法，此集成属于 1Password for Agents 平台发布的一部分，该平台对个人和家庭账户免费且为可选开启。\n\nGrok Bot 也宣布接入 1Password：用户批准愿意共享的登录信息后，Bot 即可代为登录，该集成将在未来几天内逐步向用户推出。",
-        "latest_at": "2026-10-22T18:15:24.000Z",
+        "digest": "1Password 推出 1Password for Agents 平台，允许 AI 智能体在用户批准后代为登录账户，智能体全程看不到、也不持有密码。智能体用唯一数字密钥向 1Password 验证身份，1Password 向用户设备发送提醒，用户确认后由 1Password 代填凭据完成登录。\n\nMeta Muse 工程负责人 David Singleton 称，1Password 已直接接入 Muse，用户批准每次登录后 Muse 可继续完成任务，密码留在 1Password 保险库中，该集成未来几天覆盖所有平台。Grok Bot 也宣布接入：用户批准愿意共享的登录信息后，Bot 即可代为登录，未来几天逐步向用户推出。Testing Catalog 称合作方还包括 Anthropic、OpenAI 等，候补名单已开放。\n\nBrowserbase 与 1Password 合作，将 1Password Agentic Autofill 接入 Browserbase 会话，智能体在登录页请求访问，用户在 1Password 中批准后自动填充并提交密码或一次性验证码，凭据值不返回给智能体或应用；对数据要求更严的团队还可配置不保留会话录像和日志的 Browserbase 会话。Singleton 称该平台对个人和家庭账户免费且为可选开启。",
+        "latest_at": "2026-10-22T19:50:05.000Z",
         "original_url": "https://x.com/bot/status/2113332983226831339",
-        "rank": 8,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：Grok Bot (@bot)",
-        "signal_count": 10,
-        "source_count": 3,
+        "signal_count": 11,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/8b1cc389-bb11-4612-9ea6-a04753eeb832",
-        "title": "1Password 推出 AI 代理登录，Meta Muse、Grok Bot 接入"
+        "title": "1Password 推出 AI 代理登录平台，多家智能体接入"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
@@ -126,33 +143,33 @@
         "digest": null,
         "latest_at": "2026-10-21T09:26:08.000Z",
         "original_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
-        "rank": 5,
+        "rank": 8,
         "recovered": false,
         "representative_source": "公众号：DeepSeek（深度求索）",
-        "signal_count": 26,
-        "source_count": 4,
+        "signal_count": 23,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457",
         "title": "DeepSeek 开源生产推理框架 DeepInfer"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
         "aihot_story_id": "e797c189-8889-4f65-b11d-e9a7f0ede229",
-        "digest": null,
-        "latest_at": "2026-10-22T03:16:19.000Z",
+        "digest": "马斯克在财报电话会上确认，SpaceX与特斯拉均已设立独立特别委员会评估合并。他个人认为合并在超级智能软件、芯片、Terrafab、机器人技术和Starlink等业务上有意义，但称合并并无把握，需获得特斯拉全部股份中50%投票赞成这一高门槛。\n\n据《华尔街日报》报道，马斯克希望以AI为核心推动估值约2万亿美元的SpaceX与约1.5万亿美元的特斯拉合并。该报道称，SpaceX的AI业务已成其最大业务，第三季度营收75.6亿美元（一年前为8.13亿美元），当季196亿美元资本开支中超过164亿美元投向AI，带动SpaceX实现季度利润44亿美元，上年同期为亏损10.5亿美元。\n\nThe Verge 随后发表分析，讨论两家公司成立特别委员会讨论合并背后的财务逻辑。",
+        "latest_at": "2026-10-22T19:45:00.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2112830424418500861",
-        "rank": 7,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 26,
-        "source_count": 1,
-        "status": null,
+        "signal_count": 22,
+        "source_count": 2,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229",
         "title": "马斯克推动SpaceX与特斯拉以AI为核心合并"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     },
     {
       "item": {
@@ -169,7 +186,7 @@
         "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
         "title": "Anthropic三季度收入168亿美元，增速放缓"
       },
-      "observed_at": "2026-10-22T18:36:10.534738Z"
+      "observed_at": "2026-10-22T22:24:40.800542Z"
     }
   ],
   "version": 1
