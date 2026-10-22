@@ -21,36 +21,36 @@
     {
       "item": {
         "aihot_story_id": "17f9865a-cef7-4d98-9742-0796331c81ea",
-        "digest": "OpenAI 称，其 GPT-5.6 Sol 模型在“Patch the Planet”计划下协助安全公司 Calif 的研究者发现 PHP 核心的严重漏洞；OpenAI 过去两个月牵头维护者、研究者与安全厂商组成联盟，在公开披露前完成修复，PHP 维护者于 2026 年 10 月 21 日发布补丁。Wiz Research 称，这些是 PHP 核心引擎中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），无需认证即可远程执行代码并泄露内存，至少可追溯到 PHP 5.4，近十年发布的每个 PHP 版本都至少受其中一个影响；Wiz 表示其独立发现并报告了这两个漏洞。\n\nOpenAI 联合创始人 Greg Brockman 称该漏洞名为 php2shell，可让攻击者在几乎所有已部署的 PHP 应用上执行代码，已存在 14 年；修复原定 10 月 22 日发布，因细节提前泄露而提前至 10 月 21 日。Simon Willison 称，PHP 8.x 全线更新修复两个远程代码执行漏洞，且协调披露流程泄露后，漏洞利用代码自 10 月 21 日晚起已在流传，呼吁尽快升级。\n\n美国国家安全局（NSA）就这两个漏洞发出警告，称 PHP Foundation 已发布补丁；无法立即修复的网站应暂时下线，PHP 8.1 及更早版本已不再受支持。OpenAI 还发布 Codex 技能，引导用户通过其 GitHub 仓库自查网站是否受影响。",
+        "digest": null,
         "latest_at": "2026-10-22T05:13:16.000Z",
         "original_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 42,
+        "signal_count": 52,
         "source_count": 9,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea",
         "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
         "aihot_story_id": "3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
-        "digest": "据彭博社报道，DeepSeek 最新一轮融资约 150 亿美元，成为中国最大规模私募融资之一。谈判期间，融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；宁德时代和腾讯是最大投资方之一，宁德时代据报出资约 15 亿美元。投前估值约 748 亿美元。加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。\n\n此前《财经》报道称，DeepSeek 第二轮融资接近完成，规模约 140 亿美元，是最初 70 亿美元目标的两倍；投前估值维持约 700 亿美元不变，吉利加入宁德时代、腾讯等现有投资方行列，其中宁德时代单独可能出资 14 亿美元。\n\n更早的彭博社报道称，此轮融资至少 800 亿元人民币（约 120 亿美元），高于原定约 500 亿元目标，估值可能达 710 亿美元，并称 DeepSeek 计划 2027 年初 IPO。上述金额、估值与 IPO 计划均来自相关媒体，最终条款尚未公布。",
-        "latest_at": "2026-10-22T03:13:00.000Z",
+        "digest": "据彭博社报道，DeepSeek 最新一轮融资约 150 亿美元，成为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；宁德时代和腾讯是最大投资方之一，宁德时代据报出资约 15 亿美元。投前估值约 748 亿美元。加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。\n\n此前《财经》报道称，DeepSeek 第二轮融资接近完成，规模约 140 亿美元，是最初 70 亿美元目标的两倍；投前估值维持约 700 亿美元不变，吉利加入宁德时代、腾讯等现有投资方行列，其中宁德时代单独可能出资 14 亿美元。\n\n更早的彭博社报道称，此轮融资至少 800 亿元人民币（约 120 亿美元），高于原定约 500 亿元目标，估值可能达 710 亿美元，并称 DeepSeek 计划 2027 年初 IPO。上述金额、估值与 IPO 计划均来自相关媒体，最终条款尚未公布。",
+        "latest_at": "2026-10-22T13:11:13.000Z",
         "original_url": "https://x.com/thexpin/status/2107524306058289533",
-        "rank": 8,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 10,
-        "source_count": 1,
+        "signal_count": 18,
+        "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
-        "title": "DeepSeek新一轮融资规模升至约150亿美元"
+        "title": "DeepSeek新一轮融资升至约150亿美元"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
@@ -72,53 +72,53 @@
     {
       "item": {
         "aihot_story_id": "49445e2f-d496-4acd-bc5e-70027cffd24a",
-        "digest": null,
+        "digest": "OpenAI与Google达成分发合作，把前沿模型和Codex智能体工作流引入Google Cloud的Model Garden。据The Decoder报道，GPT-6 Astra、GPT-6.1 Sol和GPT-6 Luna三款模型已以私有预览形式向部分企业客户开放，注册通道开启；Google称客户数据不会用于训练。\n\n购买通过Google Cloud Marketplace完成，费用计入单一Google Cloud账单，并可抵扣客户已承诺的GCP消费额度。受监管客户可在Google Cloud的访问控制和数据治理工具内运行OpenAI模型。OpenAI表示，微软仍是其首要云合作伙伴。\n\n上线时间说法不一：OpenAI官网与X账号Rohan Paul早先称“未来数周内正式上线”，The Decoder则称三款模型“今日起可用”，但仅限私有预览，尚未全面开放。",
         "latest_at": "2026-10-21T19:23:19.000Z",
         "original_url": "https://openai.com/index/openai-models-google-cloud",
-        "rank": 4,
+        "rank": 6,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 18,
+        "signal_count": 19,
         "source_count": 5,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/49445e2f-d496-4acd-bc5e-70027cffd24a",
         "title": "OpenAI三款模型上架Google Cloud私测"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
         "aihot_story_id": "49bd934f-e6c9-434e-87b0-34b8e08b8efd",
-        "digest": "Anthropic 以研究预览形式开放 Claude Duet，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai。首批面向美国 Pro 和 Max 用户，需加入等候名单；预览阶段包含在 Pro 和 Max 套餐内，使用与 Claude 其余功能相同的用量额度。\n\n据 Claude 官方账号，Duet 会主动提示需要关注的事项、完成用户交办的任务、在用户离开后继续工作，并在代替用户行动前先向用户确认。Testing Catalog 报道称，Duet 基于 Claude Opus 5.5 构建，记忆、技能和已连接应用继承自用户的 Claude 账户，并可使用 Stripe 的 Link 数字钱包进行企业采购、通过 Shopify 的 Shop Pay 在线结账，还将支持用 1Password 保存的登录信息登录网站。邵猛称，发消息、付款、签字、删除等操作需用户批准。\n\nThe Verge 称 Duet 对标 Meta 的 Muse 和 OpenAI 的 Dots，面向专业人士和小企业主。Claude Code 产品负责人 Cat Wu 给出加入等候名单的地址 claude.com/product/claude-duet，称 Duet 会注意到需要完成的工作，在用户开口之前就去做。Anthropic 未说明正式上线时间。",
-        "latest_at": "2026-10-22T06:35:44.000Z",
+        "digest": "Anthropic 以研究预览形式开放 Claude Duet，一款让 Claude 作为主动式智能体工作的独立应用，已登陆 iOS、Android 和 claude.ai。首批面向美国 Pro 和 Max 用户，需加入等候名单；The Decoder 称 Team 和 Enterprise 套餐暂不包含在内。预览阶段包含在 Pro 和 Max 套餐内，与 Claude 其余功能共享同一用量额度。\n\n据 Claude 官方账号，Duet 会主动提示需要关注的事项、完成用户交办的任务、在用户离开后继续工作，并在代替用户行动前先向用户确认。Testing Catalog 报道称，Duet 基于 Claude Opus 5.5 构建，记忆、技能和已连接应用继承自用户的 Claude 账户，并可使用 Stripe 的 Link 数字钱包进行企业采购、通过 Shopify 的 Shop Pay 在线结账，还将支持用 1Password 保存的登录信息登录网站。邵猛称，发消息、付款、签字、删除等操作需用户批准。\n\nThe Verge 称 Duet 对标 Meta 的 Muse 和 OpenAI 的 Dots，面向专业人士和小企业主。Claude Code 产品负责人 Cat Wu 给出加入等候名单的地址 claude.com/product/claude-duet，称 Duet 会注意到需要完成的工作，在用户开口之前就去做。Anthropic 未说明正式上线时间。",
+        "latest_at": "2026-10-22T08:35:22.000Z",
         "original_url": "https://claude.com/blog/claude-duet",
         "rank": 1,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 43,
-        "source_count": 11,
+        "signal_count": 54,
+        "source_count": 12,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd",
         "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
         "aihot_story_id": "4e5e0d5e-eb50-43cc-b997-7cd714147997",
-        "digest": "AI 创业公司 Recursive 发布首个模型 Flint，一个面向编码 Agent 的 40B MoE 本地编码模型，总参数 39.8B、每 token 激活约 2.5B，权重以 Apache 2.0 协议开放，可在 Hugging Face 下载，也可在 opencode、pidotdev 上免费试用。Recursive 称，其自动化研究系统 Eureka Machine 参与了从预训练到后训练和推理的几乎全部开发环节，小团队不到四个月从零完成。\n\nvLLM 宣布从发布首日起支持 Flint，NVFP4 和 BF16 checkpoint 均可在单张 GPU 上运行；vLLM 称在一张 GB200、上下文达 100K token 时，单请求解码约 500 tokens/s。该加速有适用条件：Flint 内核针对单张 Blackwell GPU（TP=1、BF16 KV cache），其他配置会回退到 vLLM 的标准层；推理内容计入 max_tokens，处理难题时建议至少预留 32K。\n\n性能方面，Testing Catalog 称 Flint 比同类模型快 2 倍，在 64GB RTX Spark 上超过 220 tokens/秒，在 MacBook Pro 上达 125+ tokens/秒；Eureka Machine 通过编写自定义 GPU 代码，在不改权重的情况下将 Flint 在 RTX Spark 上提速 55%。MarkTechPost 称其可在 48GB 内存的 Apple Silicon Mac 或 48GB NVIDIA GPU 上运行。Hugging Face 联创 Thomas Wolf 点评称，Flint 把通常建议保持高精度的 lm_head 量化到 4 bit，结果距 bf16 仅差 0.7 个百分点。",
+        "digest": null,
         "latest_at": "2026-10-22T01:58:01.000Z",
         "original_url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 12,
+        "signal_count": 15,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997",
         "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
@@ -146,13 +146,13 @@
         "rank": 9,
         "recovered": false,
         "representative_source": "OpenAI：失准报告与通报（网页）",
-        "signal_count": 13,
+        "signal_count": 14,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/6377d69e-f704-4c53-9d7b-b67c0a2d6d07",
         "title": "OpenAI通报两起模型抑制失准监控事件"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
@@ -170,6 +170,23 @@
         "title": "Amodei 回应 Anthropic 安全立场批评"
       },
       "observed_at": "2026-10-22T01:35:01.978851Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "bd558c88-9573-4806-a1aa-67426d33a87c",
+        "digest": "Apple 发布首款折叠屏手机 iPhone Duo，搭载 A20 Pro 芯片与 Siri AI 功能。据 Apple 介绍，该机展开后是迄今最薄的 iPhone，内屏对角线 7.58 英寸，比 iPhone 18 Pro Max 大 50%；合上时外屏对角线 5.36 英寸，可提供 iPhone 18 Pro 约 90% 的屏幕面积。\n\n随后 Apple 公布 MLB、Prime Video、淘宝、WPS Office、微博、高德等应用针对折叠形态的适配体验，覆盖烹饪、购物、办公和地图等场景。iPhone Duo 提供星白与夜空两色，256GB 至 2TB 存储版本，美国起售价 1,999 美元，或 24 个月每月 83.29 美元；购买该机的新用户及符合条件的回归订阅者可免费获得三个月 Apple One。\n\n目前公开信息均来自 Apple 官方发布，实际使用效果尚未经第三方验证。",
+        "latest_at": "2026-10-21T16:00:00.000Z",
+        "original_url": "https://www.apple.com/newsroom/2026/10/open-up-to-new-possibilities-with-iphone-duo/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "Apple：Newsroom（RSS）",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/bd558c88-9573-4806-a1aa-67426d33a87c",
+        "title": "Apple发布折叠屏iPhone Duo并公布应用适配"
+      },
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
@@ -197,47 +214,47 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "公众号：DeepSeek（深度求索）",
-        "signal_count": 56,
-        "source_count": 13,
+        "signal_count": 37,
+        "source_count": 5,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/dae7c054-a1fe-423d-bf36-68d8d8959457",
         "title": "DeepSeek 开源生产推理框架 DeepInfer"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
         "aihot_story_id": "e797c189-8889-4f65-b11d-e9a7f0ede229",
-        "digest": "马斯克在财报电话会上确认，SpaceX与特斯拉均已设立独立特别委员会评估合并，他个人认为合并在超级智能软件、芯片、Terrafab、机器人技术和Starlink等业务上有意义。但他称合并并无把握，需获得特斯拉全部股份中50%投票赞成这一高门槛。\n\n据《华尔街日报》报道，马斯克希望以AI为核心推动估值约2万亿美元的SpaceX与约1.5万亿美元的特斯拉合并。该报道称，SpaceX的AI业务已成其最大业务，第三季度营收75.6亿美元（一年前为8.13亿美元），当季196亿美元资本开支中超过164亿美元投向AI，带动SpaceX实现季度利润44亿美元，上年同期为亏损10.5亿美元。",
+        "digest": null,
         "latest_at": "2026-10-22T03:16:19.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2112830424418500861",
         "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 26,
+        "signal_count": 28,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229",
         "title": "马斯克推动SpaceX与特斯拉以AI为核心合并"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
         "aihot_story_id": "f18eef00-3d70-4586-a109-ee6a78104fbf",
-        "digest": "Anthropic在旧金山闭门投资者会议上披露，第三季度收入168亿美元，环比增长约45%至近50%，较第二季度147%的增速明显放缓。公司同时称，每1美元算力支出带来1.70美元收入，年内调整后营业利润率为11%、现金流为正。\n\n部分投资者对营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2万亿美元；路透社援引知情人士称，投资者日活动讨论约1.5万亿美元，而银行家传闻的估值约2万亿美元、募资超100亿美元尚未成为定论。Bloomberg指出，市场将增长放缓解读为AI芯片和服务器的坏消息。\n\nWSJ看到的IPO草案文件显示，Anthropic上半年收入163亿美元、纸面亏损807亿美元，并承诺约4500亿美元算力支出。雅虎财经援引知情人士称，公司最早或于本周五公开提交S-1招股书。各来源对第二季度收入的表述不一：有报道称约115亿美元，也有报道称从约48亿美元增至115亿美元。关于7月650亿美元ARR及8、9月收入测算，来自X用户Oran Ge的自行推算，并非公司披露。",
+        "digest": null,
         "latest_at": "2026-10-22T02:17:14.247Z",
         "original_url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 17,
+        "signal_count": 18,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/f18eef00-3d70-4586-a109-ee6a78104fbf",
         "title": "Anthropic三季度收入168亿美元，增速放缓"
       },
-      "observed_at": "2026-10-22T07:41:13.539652Z"
+      "observed_at": "2026-10-22T13:52:07.215614Z"
     },
     {
       "item": {
