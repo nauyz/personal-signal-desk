@@ -20,6 +20,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "digest": "OpenAI 正洽谈融资至多 300 亿美元，但估值说法前后不一：路透报道称估值超过 1.4 万亿美元，CNBC 和 Bloomberg 随后报道称 pre-money 估值为 1.25 万亿美元。两版均称融资尚未完成，条款仍在谈判中。\n\n据 CNBC 和 Bloomberg，本轮由 Coatue 和阿联酋投资方领投，阿联酋资金可能附带为 OpenAI 提供更多算力的协议。路透称 OpenAI 希望在 Anthropic 上市前完成融资。\n\n路透给出的 1.4 万亿美元估值较 3 月的 8520 亿美元至少高 64%；后续报道的 1.25 万亿美元低于这一数字，两者差异尚未得到解释。",
+        "latest_at": "2026-10-22T22:08:24.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2112455383356989598",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "title": "OpenAI 洽谈最高 300 亿美元融资，估值说法不一"
+      },
+      "observed_at": "2026-10-23T01:35:44.285147Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "17f9865a-cef7-4d98-9742-0796331c81ea",
         "digest": null,
         "latest_at": "2026-10-22T15:25:02.000Z",
@@ -27,13 +44,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 57,
+        "signal_count": 60,
         "source_count": 10,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea",
         "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
       },
-      "observed_at": "2026-10-22T22:24:40.800542Z"
+      "observed_at": "2026-10-23T01:35:44.285147Z"
     },
     {
       "item": {
@@ -44,13 +61,13 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 19,
+        "signal_count": 20,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
         "title": "DeepSeek新一轮融资升至约150亿美元"
       },
-      "observed_at": "2026-10-22T22:24:40.800542Z"
+      "observed_at": "2026-10-23T01:35:44.285147Z"
     },
     {
       "item": {
@@ -58,7 +75,7 @@
         "digest": null,
         "latest_at": "2026-10-21T19:23:19.000Z",
         "original_url": "https://openai.com/index/openai-models-google-cloud",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 19,
@@ -67,7 +84,7 @@
         "story_url": "https://aihot.virxact.com/story/49445e2f-d496-4acd-bc5e-70027cffd24a",
         "title": "OpenAI三款模型上架Google Cloud私测"
       },
-      "observed_at": "2026-10-22T22:24:40.800542Z"
+      "observed_at": "2026-10-23T01:35:44.285147Z"
     },
     {
       "item": {
@@ -78,13 +95,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 63,
-        "source_count": 12,
+        "signal_count": 65,
+        "source_count": 11,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd",
         "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
       },
-      "observed_at": "2026-10-22T22:24:40.800542Z"
+      "observed_at": "2026-10-23T01:35:44.285147Z"
     },
     {
       "item": {
@@ -96,29 +113,63 @@
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
         "signal_count": 18,
-        "source_count": 8,
+        "source_count": 7,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/4e5e0d5e-eb50-43cc-b997-7cd714147997",
         "title": "Recursive 发布 40B 编码模型 Flint，vLLM 首日支持"
       },
-      "observed_at": "2026-10-22T22:24:40.800542Z"
+      "observed_at": "2026-10-23T01:35:44.285147Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6377d69e-f704-4c53-9d7b-b67c0a2d6d07",
+        "digest": null,
+        "latest_at": "2026-10-21T13:57:43.000Z",
+        "original_url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "OpenAI：失准报告与通报（网页）",
+        "signal_count": 19,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/6377d69e-f704-4c53-9d7b-b67c0a2d6d07",
+        "title": "OpenAI通报两起模型抑制失准监控事件"
+      },
+      "observed_at": "2026-10-23T01:35:44.285147Z"
     },
     {
       "item": {
         "aihot_story_id": "8b1cc389-bb11-4612-9ea6-a04753eeb832",
-        "digest": "1Password 推出 1Password for Agents 平台，允许 AI 智能体在用户批准后代为登录账户，智能体全程看不到、也不持有密码。智能体用唯一数字密钥向 1Password 验证身份，1Password 向用户设备发送提醒，用户确认后由 1Password 代填凭据完成登录。\n\nMeta Muse 工程负责人 David Singleton 称，1Password 已直接接入 Muse，用户批准每次登录后 Muse 可继续完成任务，密码留在 1Password 保险库中，该集成未来几天覆盖所有平台。Grok Bot 也宣布接入：用户批准愿意共享的登录信息后，Bot 即可代为登录，未来几天逐步向用户推出。Testing Catalog 称合作方还包括 Anthropic、OpenAI 等，候补名单已开放。\n\nBrowserbase 与 1Password 合作，将 1Password Agentic Autofill 接入 Browserbase 会话，智能体在登录页请求访问，用户在 1Password 中批准后自动填充并提交密码或一次性验证码，凭据值不返回给智能体或应用；对数据要求更严的团队还可配置不保留会话录像和日志的 Browserbase 会话。Singleton 称该平台对个人和家庭账户免费且为可选开启。",
-        "latest_at": "2026-10-22T19:50:05.000Z",
+        "digest": "1Password 推出 1Password for Agents 平台，让 AI 智能体在用户批准后代为登录账户，智能体全程看不到、也不持有密码或验证码。智能体用唯一数字密钥向 1Password 验证身份，1Password 向用户设备发送提醒，用户确认后由 1Password 代填凭据完成登录。该功能面向个人及家庭版用户，1Password 称对个人和家庭账户免费且为可选开启。\n\n已宣布接入的智能体包括 Meta Muse、Grok Bot、OpenAI ChatGPT Work 与 Dots、Anthropic Claude Duet 及 Town。Meta Muse 工程负责人 David Singleton 称，1Password 已直接接入 Muse，用户批准每次登录后 Muse 可继续完成任务，密码留在 1Password 保险库中，该集成未来几天覆盖所有平台；Grok Bot 也宣布将在未来几天逐步向用户推出。\n\nBrowserbase 与 1Password 合作，将 1Password Agentic Autofill 接入 Browserbase 会话：智能体在登录页请求访问，用户在 1Password 中批准后自动填充并提交密码或一次性验证码，凭据值不返回给智能体或应用；对数据要求更严的团队还可配置不保留会话录像和日志的 Browserbase 会话。",
+        "latest_at": "2026-10-22T23:54:44.317Z",
         "original_url": "https://x.com/bot/status/2113332983226831339",
         "rank": 3,
         "recovered": false,
         "representative_source": "X：Grok Bot (@bot)",
-        "signal_count": 11,
-        "source_count": 7,
+        "signal_count": 12,
+        "source_count": 8,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/8b1cc389-bb11-4612-9ea6-a04753eeb832",
-        "title": "1Password 推出 AI 代理登录平台，多家智能体接入"
+        "title": "1Password 推出智能体代登录平台，多家接入"
       },
-      "observed_at": "2026-10-22T22:24:40.800542Z"
+      "observed_at": "2026-10-23T01:35:44.285147Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b02e8d53-6175-40cc-be57-9404e3aa0345",
+        "digest": "微软发布 AI 诊断系统 MAI-DxO（Microsoft AI Diagnostic Orchestrator），称其通过编排多个 AI 智能体模拟医生联合会诊，在取自 NEJM 的复杂病例模拟中诊断准确率达 83%，单独工作的全科医生为 36%。微软 AI CEO Mustafa Suleyman 称，该系统准确率是急诊医生的 1.7 倍，医生可联网查资料时亦然，且成本更低、所需医学检查更少。相关论文已发表于 Science，微软同期发布用于测试逐步诊断推理的 SDBench 基准，并称将开源其中部分 NEJM 病例的基准、Gatekeeper、Judge 及成本估算代码。\n\n上述准确率与成本优势均为微软及 Suleyman 公布的说法。The Verge 指出，该系统仅在过去病例上测试过，在真实临床环境中的表现尚不清楚；IT之家称，此类复杂病例现实中通常由专科专家或多学科团队诊治，而这部分医生未纳入本次对照实验。",
+        "latest_at": "2026-10-22T23:23:36.967Z",
+        "original_url": "https://microsoft.ai/news/building-medical-superintelligence/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Microsoft AI：官方博客（网页）",
+        "signal_count": 8,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/b02e8d53-6175-40cc-be57-9404e3aa0345",
+        "title": "微软发布MAI-DxO诊断系统，称准确率超急诊医生"
+      },
+      "observed_at": "2026-10-23T01:35:44.285147Z"
     },
     {
       "item": {
@@ -157,19 +208,19 @@
     {
       "item": {
         "aihot_story_id": "e797c189-8889-4f65-b11d-e9a7f0ede229",
-        "digest": "马斯克在财报电话会上确认，SpaceX与特斯拉均已设立独立特别委员会评估合并。他个人认为合并在超级智能软件、芯片、Terrafab、机器人技术和Starlink等业务上有意义，但称合并并无把握，需获得特斯拉全部股份中50%投票赞成这一高门槛。\n\n据《华尔街日报》报道，马斯克希望以AI为核心推动估值约2万亿美元的SpaceX与约1.5万亿美元的特斯拉合并。该报道称，SpaceX的AI业务已成其最大业务，第三季度营收75.6亿美元（一年前为8.13亿美元），当季196亿美元资本开支中超过164亿美元投向AI，带动SpaceX实现季度利润44亿美元，上年同期为亏损10.5亿美元。\n\nThe Verge 随后发表分析，讨论两家公司成立特别委员会讨论合并背后的财务逻辑。",
+        "digest": null,
         "latest_at": "2026-10-22T19:45:00.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2112830424418500861",
-        "rank": 6,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 22,
+        "signal_count": 18,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/e797c189-8889-4f65-b11d-e9a7f0ede229",
         "title": "马斯克推动SpaceX与特斯拉以AI为核心合并"
       },
-      "observed_at": "2026-10-22T22:24:40.800542Z"
+      "observed_at": "2026-10-23T01:35:44.285147Z"
     },
     {
       "item": {
