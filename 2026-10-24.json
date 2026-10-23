@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "159e1f8e-c18e-4c7c-9e3c-c4009494ac28",
+        "digest": null,
+        "latest_at": "2026-10-23T11:36:30.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 12,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/159e1f8e-c18e-4c7c-9e3c-c4009494ac28",
+        "title": "Canva 发布首个自研图像模型 Canva Craft"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "digest": null,
+        "latest_at": "2026-10-23T09:49:38.000Z",
+        "original_url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 15,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "title": "OpenAI 洽谈至多 300 亿美元融资，目标估值降至 1.25 万亿美元"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "17f9865a-cef7-4d98-9742-0796331c81ea",
+        "digest": "OpenAI 称，其 GPT-5.6 Sol 模型在“Patch the Planet”计划下协助安全公司 Calif 的研究者发现 PHP 核心的严重漏洞；OpenAI 过去两个月牵头维护者、研究者与安全厂商组成联盟，在公开披露前完成修复，PHP 维护者于 2026 年 10 月 21 日发布补丁。OpenAI 称“据我们所知，前沿 AI 在攻击者之前发现了这些漏洞”，但 Ars Technica 报道称，漏洞在披露前四天已遭黑客利用。\n\nWiz Research 称，这些是 PHP 核心引擎中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），无需认证即可远程执行代码并泄露内存，至少可追溯到 PHP 5.4，近十年发布的每个 PHP 版本都至少受其中一个影响；Wiz 表示其独立发现并报告了这两个漏洞。OpenAI 联合创始人 Greg Brockman 称该漏洞名为 php2shell，已存在 14 年；修复原定 10 月 22 日发布，因细节提前泄露而提前至 10 月 21 日。Simon Willison 称，PHP 8.x 全线更新修复两个远程代码执行漏洞，且协调披露流程泄露后，漏洞利用代码自 10 月 21 日晚起已在流传，呼吁尽快升级。\n\n美国国家安全局（NSA）就这两个漏洞发出警告，称 PHP Foundation 已发布补丁；无法立即修复的网站应暂时下线，PHP 8.1 及更早版本已不再受支持。英国 NCSC 表示漏洞可能让黑客无需登录凭据即可控制网站服务器，白宫称联邦机构正在评估对政府系统和关键基础设施的潜在影响。OpenAI 还发布 Codex 技能，引导用户通过其 GitHub 仓库自查网站是否受影响。",
+        "latest_at": "2026-10-22T15:25:02.000Z",
+        "original_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 48,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea",
+        "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "30e9531f-5f58-4e7e-8a67-705e2340a4b6",
+        "digest": null,
+        "latest_at": "2026-10-22T23:48:13.607Z",
+        "original_url": "https://openai.com/index/decisions-api",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 11,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/30e9531f-5f58-4e7e-8a67-705e2340a4b6",
+        "title": "OpenAI Decisions API 正式开放，输入每百万 token 0.1 美元"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
+        "digest": null,
+        "latest_at": "2026-10-23T07:59:21.000Z",
+        "original_url": "https://x.com/thexpin/status/2107524306058289533",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：X.PIN (@thexpin)",
+        "signal_count": 23,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/3a7d611c-2b14-4b4f-9178-1bdea46c04b4",
+        "title": "DeepSeek新一轮融资升至约150亿美元"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "49bd934f-e6c9-434e-87b0-34b8e08b8efd",
+        "digest": null,
+        "latest_at": "2026-10-22T13:53:26.000Z",
+        "original_url": "https://claude.com/blog/claude-duet",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 69,
+        "source_count": 11,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd",
+        "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "589d286a-2a6d-48be-b14a-e61390534ec3",
+        "digest": "MiniMax 于 10 月 23 日按此前预告开源 M3.1 Flash 模型权重，总参数 428B、每 token 激活 23B，可在 Hugging Face 和 ModelScope 下载。该模型此前已上线 MiniMax API、MPlan 和 MiniMax Code，官方称其以 M3 三分之一成本、约 3 倍速度达到前沿级智能体表现，日常输出可达 200+ TPS；API 定价为输入每百万 Token 1 元、输出 4 元、缓存读取 0.1 元，英文口径为 $0.15/$0.60/$0.015。\n\n此前在 OpenRouter 匿名测试的 Space Bunny 被确认为其早期版本：OpenRouter 称其匿名期间连续 10 天居首、处理 56.7T token，回归后免费 72 小时；OpenCode 称其连续 12 天排名第一、累计 106T token，上架后免费 3 天；Cline 也于发布当日上线并免费开放。Ollama 和 GMI Cloud 称已 Day0 上线，OpenClaw 称在 v2026.10.1 及以上版本可直接使用，Runware 也已接入。MiniMax 称上线 72 小时内真实用户处理 Token 超过 100 万亿。\n\n官方评测成绩包括 DeepSWE v1.1 得 73.7%、OSWorld V2 得 61.7 分、CyberGym 得 82%；Arena 称其在 Code Arena WebDev 榜以 1588 分列开源模型第 12、总榜第 32。Artificial Analysis 称其 Intelligence Index 得 42 分，比 M3 高 13 分，低于 DeepSeek V4.1 Flash 1017 的 45 分。发布前，第三方账号 Testing Catalog 依据 API 参考文档称该模型具备 1M 上下文窗口和可调思考深度，这些描述来自该账号转述，官方发布信息未逐项确认。",
+        "latest_at": "2026-10-23T16:01:20.000Z",
+        "original_url": "https://www.minimax.io/blog/minimax-m31f",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "MiniMax：Blog（网页）",
+        "signal_count": 12,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3",
+        "title": "MiniMax 开源 M3.1 Flash 权重，总参数 428B"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6cbe9dba-8fec-42b1-92ab-5a9ccf944190",
+        "digest": "月之暗面 10 月 24 日发布 Kimi K3.1 Pro，称其为公司迄今最强的 3T 级开放权重模型：1M token 上下文，MoE 架构总参数 2.8T、激活 104B，支持多模态。Kimi K3.1 Pro 与速度提升 2–3 倍的 K3.1 Pro Highspeed 已上线 Kimi.ai、Kimi Work、Kimi Code 和 Kimi API；开放权重定于 2026 年 11 月 4 日。官方博客称，Kimi Enterprise 管理员可为组织启用 K3.1 Pro，发布时默认关闭。\n\n第三方评测给出正面但附带条件的评价。Artificial Analysis 称其智能指数 55 分、排名第 4，比 Kimi K3 高 11 分，并称权重发布后它将成为领先的开源权重模型；该机构同时指出权重尚未发布，并列出其每百万输入、输出、缓存命中 token 价格分别为 2、10、0.20 美元，三项均比 K3 低 33%。Nathan Lambert 称其 benchmark 分数明显是目前最强开源权重模型，前提是官方按承诺在 11 月 4 日前放出权重；他还指出 K3.1 每 token 价格低于 K3，但每个回答 token 用量明显更多，实际价格可能相近。\n\nArena 公布其在 Code Arena: WebDev 以 1692 分排名第 8，与 Claude Opus-5 (Max) 持平但成本低 70%。Yuchen Jin 称，在 Terminal-Bench 4.0 上 Kimi K3.1 Pro 的 TBR 得分超过 Claude Opus 5.5，且每个任务的平均成本约为其 1/3。发布前，X.PIN 解读预热称 K3.1 加倍专注专业工程任务、瞄准真实世界执行；但 Kimi 在中国模型中定价较高，可能拖慢用户增长，K3.1 需证明增强性能足以支撑这一成本。",
+        "latest_at": "2026-10-23T17:51:35.000Z",
+        "original_url": "https://www.kimi.com/blog/kimi-k3-1-pro",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Moonshot AI：Kimi Blog",
+        "signal_count": 35,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/6cbe9dba-8fec-42b1-92ab-5a9ccf944190",
+        "title": "月之暗面发布 Kimi K3.1 Pro，开放权重定于 11 月 4 日"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8b1cc389-bb11-4612-9ea6-a04753eeb832",
+        "digest": null,
+        "latest_at": "2026-10-22T23:54:44.317Z",
+        "original_url": "https://x.com/bot/status/2113332983226831339",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Grok Bot (@bot)",
+        "signal_count": 18,
+        "source_count": 8,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/8b1cc389-bb11-4612-9ea6-a04753eeb832",
+        "title": "1Password 推出智能体代登录平台，多家接入"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "bd558c88-9573-4806-a1aa-67426d33a87c",
+        "digest": "Apple 发布首款折叠屏手机 iPhone Duo，并于 10 月 23 日在全球 Apple Store 门店正式开售，顾客可现场体验。据 Apple 介绍，该机展开后是迄今最薄的 iPhone，内屏对角线 7.58 英寸，比 iPhone 18 Pro Max 大 50%；合上时外屏对角线 5.36 英寸，可提供 iPhone 18 Pro 约 90% 的屏幕面积。\n\nApple 同时公布 MLB、Prime Video、NYT Cooking、淘宝、WPS Office、微博、高德等应用针对折叠形态的适配体验，覆盖烹饪、购物、办公和地图等场景。iPhone Duo 提供星白与夜空两色，256GB 至 2TB 存储版本，美国起售价 1,999 美元，或 24 个月每月 83.29 美元；购买该机的新用户及符合条件的回归订阅者可免费获得三个月 Apple One。\n\n目前公开信息均来自 Apple 官方发布，实际使用效果尚未经第三方验证。",
+        "latest_at": "2026-10-22T16:00:00.000Z",
+        "original_url": "https://www.apple.com/newsroom/2026/10/open-up-to-new-possibilities-with-iphone-duo/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Apple：Newsroom（RSS）",
+        "signal_count": 23,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/bd558c88-9573-4806-a1aa-67426d33a87c",
+        "title": "Apple折叠屏iPhone Duo发布并开售"
+      },
+      "observed_at": "2026-10-23T18:26:06.499980Z"
+    }
+  ],
+  "version": 1
+}
