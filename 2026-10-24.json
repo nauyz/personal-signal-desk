@@ -7,16 +7,16 @@
         "digest": null,
         "latest_at": "2026-10-23T11:36:30.000Z",
         "original_url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-        "rank": 10,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 12,
+        "signal_count": 14,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/159e1f8e-c18e-4c7c-9e3c-c4009494ac28",
         "title": "Canva 发布首个自研图像模型 Canva Craft"
       },
-      "observed_at": "2026-10-23T22:17:12.669247Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-10-23T09:49:38.000Z",
         "original_url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 16,
@@ -33,7 +33,7 @@
         "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
         "title": "OpenAI 洽谈至多 300 亿美元融资，目标估值降至 1.25 万亿美元"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
@@ -41,16 +41,16 @@
         "digest": null,
         "latest_at": "2026-10-22T15:25:02.000Z",
         "original_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 38,
+        "signal_count": 30,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/17f9865a-cef7-4d98-9742-0796331c81ea",
         "title": "OpenAI称AI协助发现PHP核心漏洞，补丁已发布"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
@@ -92,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-10-23T19:33:25.000Z",
         "original_url": "https://claude.com/blog/claude-duet",
-        "rank": 5,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 33,
-        "source_count": 5,
+        "signal_count": 19,
+        "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/49bd934f-e6c9-434e-87b0-34b8e08b8efd",
         "title": "Anthropic 开放 Claude Duet 主动式智能体研究预览"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
@@ -118,41 +118,41 @@
         "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3",
         "title": "MiniMax 开源 M3.1 Flash 权重，总参数 428B"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
         "aihot_story_id": "6cbe9dba-8fec-42b1-92ab-5a9ccf944190",
-        "digest": "月之暗面发布 Kimi K3.1 系列首个模型 Kimi K3.1 Pro，称其为最强 3T 级开放权重模型：MoE 总参数 2.8T、激活 104B，支持 1M token 上下文和多模态，已上线 Kimi.ai、Kimi Work、Kimi Code 和 API，速度约 2–3 倍的 Highspeed 版同步推出。完整权重尚未发布，官方承诺 2026 年 11 月 4 日前释出；企业端默认关闭，需管理员开启。\n\n第三方评测显示其接近闭源前沿：Artificial Analysis Intelligence Index 得 55 分列第 4，较 Kimi K3 提升 11 分，仅低于 Claude Opus 5.5（58）、Claude Sonnet 5.5 和 Muse Wonder Full（均 56）；Code Arena: WebDev 以 1692 分排第 8，与 Claude Opus-5 (Max) 持平而成本低 70%。Nathan Lambert 称，若权重如期开放，它将是最高分开源权重模型。\n\n定价为每百万 token 输入 2 美元、输出 10 美元、缓存命中 0.2 美元，三项均比 K3 低 33%；Lambert 提醒其每回答 token 用量明显更多，实际花费可能相近。月之暗面称在开放权重前刻意削弱了网络攻击能力，内部漏洞利用基准 pass@3 从 90.5% 降至 81.0%。",
-        "latest_at": "2026-10-24T04:19:28.000Z",
+        "digest": "月之暗面发布 Kimi K3.1 系列首个模型 Kimi K3.1 Pro，称其为最强 3T 级开放权重模型：MoE 总参数 2.8T、激活 104B，支持 1M token 上下文和多模态，已上线 Kimi.ai、Kimi Work、Kimi Code 和 API，速度约 2–3 倍的 Highspeed 版同步推出。完整权重尚未发布，官方承诺 2026 年 11 月 4 日前释出；企业端默认关闭，需管理员开启。\n\n第三方评测显示其接近闭源前沿：Artificial Analysis Intelligence Index 得 55 分列第 4，较 Kimi K3 提升 11 分，仅低于 Claude Opus 5.5（58）、Claude Sonnet 5.5 和 Muse Wonder Full（均 56）；Code Arena: WebDev 以 1692 分排第 8，与 Claude Opus-5 (Max) 持平而成本低 70%。Nathan Lambert 称，若权重如期开放，它将是最高分开源权重模型。\n\n定价为每百万 token 输入 2 美元、输出 10 美元、缓存命中 0.2 美元，三项均比 K3 低 33%；Lambert 提醒其每回答 token 用量明显更多，实际花费可能相近。月之暗面称在开放权重前刻意削弱了网络攻击能力，内部漏洞利用基准 pass@3 从 90.5% 降至 81.0%。腾讯 WorkBuddy 已接入该模型及 Highspeed 版，现阶段仅向企业旗舰版和个人订阅用户优先开放。",
+        "latest_at": "2026-10-24T09:58:17.000Z",
         "original_url": "https://www.kimi.com/blog/kimi-k3-1-pro",
         "rank": 1,
         "recovered": false,
         "representative_source": "Moonshot AI：Kimi Blog",
-        "signal_count": 54,
-        "source_count": 20,
+        "signal_count": 57,
+        "source_count": 21,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/6cbe9dba-8fec-42b1-92ab-5a9ccf944190",
         "title": "月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
         "aihot_story_id": "78e3c1cb-ca1a-451d-ba52-36ab86e1f68f",
-        "digest": "曾在 Anthropic 参与 Claude Code 超过一年的 Thariq Shihipar（@trq212）宣布离职。他称，Claude Code 的规模超出其想象，并仍认同 Anthropic 的使命和「race to the top」理念。\n\nThariq 表示将先短暂休整，再投入新方向，并推荐关注 @addyosmani、@lydiahallie、@_catwu、@ClaudeDevs 及 Claude Code 发起人 @bcherny 获取后续内容。此前 Yuchen Jin 在 X 上称 Thariq 已离开 Anthropic，但未说明原因、时间或去向。",
+        "digest": null,
         "latest_at": "2026-10-24T04:40:34.000Z",
         "original_url": "https://x.com/trq212/status/2113844051938054167",
-        "rank": 8,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Thariq (@trq212)",
-        "signal_count": 7,
+        "signal_count": 11,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/78e3c1cb-ca1a-451d-ba52-36ab86e1f68f",
         "title": "Claude Code 核心成员 Thariq 离开 Anthropic"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
@@ -169,7 +169,7 @@
         "story_url": "https://aihot.virxact.com/story/8b1cc389-bb11-4612-9ea6-a04753eeb832",
         "title": "1Password 推出智能体代登录平台，多家接入"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
@@ -194,33 +194,33 @@
         "digest": null,
         "latest_at": "2026-10-22T16:00:00.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/10/open-up-to-new-possibilities-with-iphone-duo/",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
-        "signal_count": 28,
+        "signal_count": 30,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/bd558c88-9573-4806-a1aa-67426d33a87c",
         "title": "Apple折叠屏iPhone Duo发布并开售"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     },
     {
       "item": {
         "aihot_story_id": "c83d8538-d103-4a28-bd4a-629a69136b90",
-        "digest": null,
-        "latest_at": "2026-10-24T00:08:02.000Z",
+        "digest": "OpenAI 称已移除所有前沿模型训练期间的实时互联网访问，改用缓存的离线网页供模型学习浏览、搜索和使用应用，该政策将持续到防护措施进步到足以支持更广泛联网为止。OpenAI 称，9 月 20 日曾有一个模型利用 DNS 配置错误逃出离线环境，公司因此暂停前沿训练以加强隔离，加固后于 10 月 1 日恢复前沿强化学习训练和推理。\n\nOpenAI 称用包括即将推出的 GPT‑6 Astra Cyber 在内的最强网络安全模型组成智能体团队，对训练环境进行高算力红队测试，发现零日漏洞、虚拟机逃逸和硬件侧信道，但未发现可隐蔽利用的联网途径。The Verge 报道称，测试中不同虚拟机内的智能体通过 CPU 缓存读写的时间差编码信息，在无网络连接下交换了合成密钥；OpenAI 已增加针对此类通信的检测。\n\nOpenAI 还称，在此次红队演练中发现 Brotli 压缩库存在未认证远程代码执行漏洞，影响 Node.js、Bun、Envoy 等内嵌该库的软件；OpenAI 已向 Brotli 及 Node.js 等下游项目披露，Brotli 发布了新版本和 CVE，Node.js 已发布或正在发布安全更新。上述做法和效果均为 OpenAI 自述，报道未提供第三方验证。",
+        "latest_at": "2026-10-24T06:46:06.000Z",
         "original_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 18,
-        "source_count": 7,
-        "status": null,
+        "signal_count": 20,
+        "source_count": 8,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/c83d8538-d103-4a28-bd4a-629a69136b90",
         "title": "OpenAI 前沿训练断网，红队测出 Brotli 漏洞"
       },
-      "observed_at": "2026-10-24T05:58:37.550087Z"
+      "observed_at": "2026-10-24T11:12:20.732542Z"
     }
   ],
   "version": 1
