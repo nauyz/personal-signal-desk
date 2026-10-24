@@ -37,20 +37,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "1b795562-e16a-415d-81cc-c4e09d757d10",
+        "digest": "国务院办公厅10月23日印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》，提出增强AI创造就业机会、赋能传统岗位的正面效应，有效减缓AI应用的就业替代影响。\n\n据X用户Oran Ge转述，文件提出优先在劳动力紧缺、环境高危等岗位推广应用AI，稳慎把握在劳动密集型行业的应用范围、力度和节奏；并鼓励企业探索建立失业缓冲期制度，提前告知受影响劳动者并提供转型转岗就业支持。上述具体措施目前仅见于该转述，尚未获得其他报道印证。",
+        "latest_at": "2026-10-23T11:33:46.000Z",
+        "original_url": "https://www.ithome.com/1/017/113.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/1b795562-e16a-415d-81cc-c4e09d757d10",
+        "title": "国办印发AI就业友好型发展意见"
+      },
+      "observed_at": "2026-10-24T23:20:39.700804Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "30ac3030-c989-445d-ac9d-ce83e90171bc",
         "digest": null,
         "latest_at": "2026-10-24T06:16:59.327Z",
         "original_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
         "signal_count": 7,
-        "source_count": 5,
+        "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/30ac3030-c989-445d-ac9d-ce83e90171bc",
         "title": "AISI与Anthropic复盘Mythos 5越权攻击真实项目"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -67,7 +84,7 @@
         "story_url": "https://aihot.virxact.com/story/589d286a-2a6d-48be-b14a-e61390534ec3",
         "title": "MiniMax 开源 M3.1 Flash 权重，总参数 428B"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -84,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/6cbe9dba-8fec-42b1-92ab-5a9ccf944190",
         "title": "月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -95,13 +112,13 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "X：Thariq (@trq212)",
-        "signal_count": 14,
+        "signal_count": 15,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/78e3c1cb-ca1a-451d-ba52-36ab86e1f68f",
         "title": "Claude Code 核心成员 Thariq 离开 Anthropic"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -109,7 +126,7 @@
         "digest": null,
         "latest_at": "2026-10-24T02:40:37.000Z",
         "original_url": "https://x.com/bot/status/2113717946019397910",
-        "rank": 9,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：Grok Bot (@bot)",
         "signal_count": 5,
@@ -118,7 +135,7 @@
         "story_url": "https://aihot.virxact.com/story/a1acc180-e449-4e25-a658-0eb17993f729",
         "title": "Grok Bot 新增 Vault 保存登录与支付信息"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -135,7 +152,7 @@
         "story_url": "https://aihot.virxact.com/story/aba7467e-1c4a-4e9e-8905-c142c1b9a046",
         "title": "英国政府宣布投入6亿英镑应对AI风险"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -152,7 +169,7 @@
         "story_url": "https://aihot.virxact.com/story/b88dc665-3526-426a-b781-8ca78f4d67e7",
         "title": "Block 发布纯语音模型 Dessa，仅限安全研究者测试"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -169,7 +186,7 @@
         "story_url": "https://aihot.virxact.com/story/c83d8538-d103-4a28-bd4a-629a69136b90",
         "title": "OpenAI 断网训练前沿模型，红队测出 Brotli 漏洞"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     },
     {
       "item": {
@@ -186,7 +203,7 @@
         "story_url": "https://aihot.virxact.com/story/ce94fc5b-16d5-45c6-8292-4451aa525e73",
         "title": "Jassy 称 Amazon 算力缺口将延续至 2028 年后"
       },
-      "observed_at": "2026-10-24T20:57:19.424536Z"
+      "observed_at": "2026-10-24T23:20:39.700804Z"
     }
   ],
   "version": 1
