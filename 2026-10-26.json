@@ -41,7 +41,7 @@
         "digest": null,
         "latest_at": "2026-10-25T07:30:11.000Z",
         "original_url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 5,
@@ -50,7 +50,7 @@
         "story_url": "https://aihot.virxact.com/story/621e2b92-89e1-4710-a7b9-02c282d7c2a9",
         "title": "OpenAI以最高九成折扣争夺Anthropic大客户"
       },
-      "observed_at": "2026-10-25T21:52:12.180193Z"
+      "observed_at": "2026-10-26T00:26:47.325719Z"
     },
     {
       "item": {
@@ -61,13 +61,30 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "Moonshot AI：Kimi Blog",
-        "signal_count": 44,
-        "source_count": 11,
+        "signal_count": 40,
+        "source_count": 8,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/6cbe9dba-8fec-42b1-92ab-5a9ccf944190",
         "title": "月之暗面发布 Kimi K3.1 Pro，权重定于 11 月 4 日前释出"
       },
-      "observed_at": "2026-10-25T21:52:12.180193Z"
+      "observed_at": "2026-10-26T00:26:47.325719Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "711df185-c498-466d-8a00-c30f412151b5",
+        "digest": "持有猫王 Elvis Presley 音乐版权与肖像权的正宗品牌集团（Authentic Brands Group）在美国联邦法院起诉 Anthropic，指控其未经许可用猫王 274 首歌曲训练 AI 模型，诉讼于当地时间上周五提交。\n\n原告按每件作品 15 万美元的法定赔偿上限计算，索赔约 4100 万美元。这是针对 AI 训练数据版权的最新诉讼之一，争议焦点在于 Anthropic 是否未经授权使用受版权保护的歌曲训练 Claude。",
+        "latest_at": "2026-10-25T23:53:33.590Z",
+        "original_url": "https://www.ithome.com/1/017/731.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 2,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/711df185-c498-466d-8a00-c30f412151b5",
+        "title": "猫王版权方起诉 Anthropic 索赔约 4100 万美元"
+      },
+      "observed_at": "2026-10-26T00:26:47.325719Z"
     },
     {
       "item": {
@@ -75,7 +92,7 @@
         "digest": null,
         "latest_at": "2026-10-24T04:40:34.000Z",
         "original_url": "https://x.com/trq212/status/2113844051938054167",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Thariq (@trq212)",
         "signal_count": 15,
@@ -84,7 +101,7 @@
         "story_url": "https://aihot.virxact.com/story/78e3c1cb-ca1a-451d-ba52-36ab86e1f68f",
         "title": "Claude Code 核心成员 Thariq 离开 Anthropic"
       },
-      "observed_at": "2026-10-25T21:52:12.180193Z"
+      "observed_at": "2026-10-26T00:26:47.325719Z"
     },
     {
       "item": {
@@ -130,12 +147,12 @@
         "recovered": false,
         "representative_source": "X：邵猛 (@shao__meng)",
         "signal_count": 12,
-        "source_count": 5,
+        "source_count": 4,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/b88dc665-3526-426a-b781-8ca78f4d67e7",
         "title": "Block 发布纯语音模型 Dessa，仅限安全研究者测试"
       },
-      "observed_at": "2026-10-25T21:52:12.180193Z"
+      "observed_at": "2026-10-26T00:26:47.325719Z"
     },
     {
       "item": {
@@ -146,30 +163,30 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 21,
-        "source_count": 7,
+        "signal_count": 16,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/c83d8538-d103-4a28-bd4a-629a69136b90",
         "title": "OpenAI 断网训练前沿模型，红队测出 Brotli 漏洞"
       },
-      "observed_at": "2026-10-25T21:52:12.180193Z"
+      "observed_at": "2026-10-26T00:26:47.325719Z"
     },
     {
       "item": {
         "aihot_story_id": "c91a54ad-7c60-4add-9a60-24a2a9485ff6",
-        "digest": null,
-        "latest_at": "2026-10-25T17:06:12.000Z",
-        "original_url": "https://x.com/testingcatalog/status/2114403162027155544",
-        "rank": 9,
+        "digest": "BOSS 直聘旗下 Nanbeige LLM Lab 在 Hugging Face 以 Apache 2.0 协议发布 33B 稠密模型 Nanbeige4.3-33B，主打智能体编程与办公协作任务，支持 524,288-token 上下文，并同时开放 Base 版供自定义后训练。\n\n据 X 账号 Testing Catalog 转述，该模型在大多数基准测试上领先，优于 Qwen3.8-27B、Muse-Glimmer-30B 和 Gemma4-31B；上述性能对比来自发布方及转述方说法，尚无独立验证。Nanbeige 还计划后续推出更小的 Nanbeige4.3-3B。",
+        "latest_at": "2026-10-25T21:15:21.000Z",
+        "original_url": "https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/",
+        "rank": 6,
         "recovered": false,
-        "representative_source": "X：Testing Catalog (@testingcatalog)",
+        "representative_source": "MarkTechPost（RSS）",
         "signal_count": 3,
-        "source_count": 1,
-        "status": null,
+        "source_count": 2,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/c91a54ad-7c60-4add-9a60-24a2a9485ff6",
-        "title": "Nanbeige发布33B开源模型，称多数基准领先"
+        "title": "南北阁发布33B开源模型，称多数基准领先"
       },
-      "observed_at": "2026-10-25T21:52:12.180193Z"
+      "observed_at": "2026-10-26T00:26:47.325719Z"
     },
     {
       "item": {
@@ -177,16 +194,50 @@
         "digest": null,
         "latest_at": "2026-10-24T01:51:20.050Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2113776070327738435",
-        "rank": 5,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 9,
-        "source_count": 2,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/ce94fc5b-16d5-45c6-8292-4451aa525e73",
         "title": "Jassy 称 Amazon 算力缺口将延续至 2028 年后"
       },
-      "observed_at": "2026-10-25T21:52:12.180193Z"
+      "observed_at": "2026-10-26T00:26:47.325719Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e18518c0-e820-4d5d-b68a-5b4fcebfc55a",
+        "digest": "马斯克宣称用Grok制作完整《奥德赛》电影约三个月后，Grok发布了系列第一集，时长七分钟，由Wonder Studios与导演戴夫·沃克联合制作。\n\nTechCrunch评测称，部分镜头效果优于马斯克近期其他AI视频，甚至可乱真真人实拍，但整体旁白冗长、台词生硬，缺乏艺术感染力与叙事节奏，与诺兰实景拍摄的《奥德赛》票房成功形成反差。",
+        "latest_at": "2026-10-25T23:30:27.677Z",
+        "original_url": "https://www.ithome.com/1/017/727.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 2,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/e18518c0-e820-4d5d-b68a-5b4fcebfc55a",
+        "title": "Grok发布AI《奥德赛》首集七分钟片段"
+      },
+      "observed_at": "2026-10-26T00:26:47.325719Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f8dac6dc-f133-47be-90ad-b17297774877",
+        "digest": "Kimi 为会员使用 K3.1 Pro 时出现的限流和不必要额度消耗致歉，称这是自身问题、本应更早修复，并宣布对所有档位订阅会员做一次性用量重置。\n\n补偿方式为恢复月度总额的 25%，Kimi 称相当于一周用量；当前用量不足月度总额 25% 的会员，用量将重置为 0。用量进度条会在 PST 当日结束前显示调整结果。Kimi 同时调整了该计划参数，减少不必要的 subagent 调用和输出长度，让配额更耐用。",
+        "latest_at": "2026-10-25T23:10:49.163Z",
+        "original_url": "https://www.ithome.com/1/017/723.htm",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/f8dac6dc-f133-47be-90ad-b17297774877",
+        "title": "Kimi就K3.1 Pro限流致歉并补偿订阅用户"
+      },
+      "observed_at": "2026-10-26T00:26:47.325719Z"
     }
   ],
   "version": 1
