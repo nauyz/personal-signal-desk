@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "30e9a1ca-aae1-410a-b1c6-53893df398db",
+        "digest": null,
+        "latest_at": "2026-10-28T02:01:04.710Z",
+        "original_url": "https://x.com/thsottiaux/status/2114800277677092936",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 67,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/30e9a1ca-aae1-410a-b1c6-53893df398db",
+        "title": "OpenAI 发布 GPT-6.1 Terra，API 价格减半"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "37c4f934-a969-4d47-b4ab-d8394ef134ba",
+        "digest": null,
+        "latest_at": "2026-10-27T20:54:24.000Z",
+        "original_url": "https://x.com/AnthropicAI/status/2115178675050307942",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：Anthropic (@AnthropicAI)",
+        "signal_count": 20,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/37c4f934-a969-4d47-b4ab-d8394ef134ba",
+        "title": "Anthropic公布药物研发合作，并传收购Mithril Medicine"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
+        "digest": "Artificial Analysis 将 Intelligence Index 升级至 v5，新增 FrontierCode 2.0 和 Terminal-Bench-Science 两项基准，并升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这是首次有超过一半的指数基于私有测试集或保留答案，占比为 60%，目的是防止针对已知题目训练模型。\n\n改版后排名出现明显变化：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首的差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分。IT之家报道称，DeepSeek V4.1 Flash 1017 在 FrontierCode 2.0 上取得开源模型最高分；该基准按仓库维护者是否愿意合并 PR 打分。\n\nNathan Lambert 评论称，把多项评测聚合成单一数字必然有取舍，而转向不公开题目的私有基准会让外部无法再发现题目中的错误。",
+        "latest_at": "2026-10-28T17:06:21.037Z",
+        "original_url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "Artificial Analysis 完整文章（网页）",
+        "signal_count": 10,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
+        "title": "Artificial Analysis 发布 v5 指数，开源模型排名下滑"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "62c69dca-91ed-4912-96ed-fb608f645ee7",
+        "digest": "Google DeepMind 发布下一代前沿模型 Gemini 4 Carbon，称其为最强模型，主打网络安全与长程智能体能力。谷歌称该模型在 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一，并在 SEC-bench Pro（88.2%）、ExploitGym（54.8%）、CWE-bench（71.0%）领先；这些得分与排名均为谷歌方面说法，尚未经独立验证。\n\n第三方评测平台 Arena 公布，Gemini 4 Carbon (High) 首次上榜即拿下 Text Arena 第一（1528 分）、Agent Arena 第二（在约 2.19 万次真实智能体会话中净提升 16.2%）、Code Arena: WebDev 第四（1768 分）。Artificial Analysis 也确认其登顶 Intelligence Index v5，但在 Coding Agent Index 上仅次于 Claude Opus 5.5。\n\n访问将分阶段开放：本周起先向部分网络安全防御机构开放，再通过 Fairwind Program 扩大至更多可信合作伙伴；谷歌称正收集反馈、迭代防护措施，之后才向开发者、企业和消费者开放。定价与上一代 Argon 相同：输入每百万 token 2 美元、输出 10 美元，缓存输入按输入价的 95% 折扣计费；Artificial Analysis 另称谷歌提供 50% 发布折扣、结束日期未定。Rohan Paul 则称该入门价后续将翻倍至输入 4 美元、输出 20 美元。",
+        "latest_at": "2026-10-28T17:28:52.000Z",
+        "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 28,
+        "source_count": 9,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/62c69dca-91ed-4912-96ed-fb608f645ee7",
+        "title": "谷歌发布 Gemini 4 Carbon，称登顶 AA v5"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克全球精选市场以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销。发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家。公司称未来可能无法实现或维持盈利。\n\n上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。招股书还披露数据中心对天然气的依赖、算力采购承诺，以及 AI 可能带来灾难性风险等风险因素。",
+        "latest_at": "2026-10-28T17:51:00.000Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 49,
+        "source_count": 12,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9b5967e4-e1bd-4efa-b770-4fe16ba97740",
+        "digest": "Anthropic 招聘经理、Claude 产品工程负责人 Felix Rieseberg 称，已在本月其团队的招聘流程中取消传统编程题面试，理由是 Claude 做小型编程测试比候选人更好，编程面试不再能传递信号。\n\nRieseberg 说，招聘改为考察能体现品味、同理心和原则性思考的小原型。Addy Osmani 引述其文章称，原因是新工程师表现正超过更强的资深工程师；他提到 Claude Code Desktop 最初是两位新工程师的周末原型，并称公司内部看重推动业务的想法与原型，外部则看一小组原型的作品集。",
+        "latest_at": "2026-10-28T16:26:48.000Z",
+        "original_url": "https://the-decoder.com/with-ai-writing-the-code-entrepreneurial-thinking-is-now-what-counts-most-for-newcomers-at-anthropic/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 12,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/9b5967e4-e1bd-4efa-b770-4fe16ba97740",
+        "title": "Anthropic 一团队取消编程面试，改看原型"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "add1dde9-53ea-4f82-9daa-6d50735a149c",
+        "digest": "Apple 发布搭载 PROLED XDR 显示屏的新款 MacBook Pro，采用 tandem OLED 技术，宣称峰值亮度最高 2000 nits、对比度 10,000,000:1，并首次在 Mac 上引入 Touch 触控和 Dynamic Island。\n\n新机搭载 M5 Pro/M5 Max，11 月 6 日起向消费者发货，并在 Apple Store 和授权经销商处开售。14 英寸 M5 Pro 版起售价 2,899 美元（教育优惠价 2,749 美元），16 英寸 M5 Pro 版起售价 3,399 美元（教育优惠价 3,199 美元）。\n\nApple 同时说明，Siri AI 目前在欧盟的 iOS、iPadOS 和 watchOS 上不可用，公司称正与欧盟沟通寻求解决路径。",
+        "latest_at": "2026-10-27T16:00:00.000Z",
+        "original_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Apple：Newsroom（RSS）",
+        "signal_count": 14,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/add1dde9-53ea-4f82-9daa-6d50735a149c",
+        "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d79cd457-4d11-436e-954d-430d2aab4438",
+        "digest": null,
+        "latest_at": "2026-10-27T20:48:58.000Z",
+        "original_url": "https://www.ithome.com/1/018/203.htm",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 35,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d79cd457-4d11-436e-954d-430d2aab4438",
+        "title": "OpenAI 称三项科学发现，物理证明未公开引呼吁"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
+        "digest": null,
+        "latest_at": "2026-10-28T07:34:58.000Z",
+        "original_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 58,
+        "source_count": 13,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
+        "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ff626510-f5f9-422e-afef-6eb6511db434",
+        "digest": null,
+        "latest_at": "2026-10-28T01:59:45.637Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2115261691906978233",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 12,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/ff626510-f5f9-422e-afef-6eb6511db434",
+        "title": "OpenAI 拟采购谷歌 TPU 并招募工程师适配"
+      },
+      "observed_at": "2026-10-28T18:54:06.412016Z"
+    }
+  ],
+  "version": 1
+}
