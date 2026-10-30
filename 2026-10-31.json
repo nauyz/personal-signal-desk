@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "255f7354-2733-447e-a6cc-f6f065893f9d",
+        "digest": "OpenAI更新公开的Model Spec，将模型行为准则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。OpenAI称，Model Spec是其对模型应如何行为的公开描述。\n\n新规范要求GPT模型利用记忆和历史对话判断用户意图，但须区分用户原话与模型推断并披露假设；对智能体模型强调可纠正性，不得阻挠监督、纠正或关机，也不得追求自我保存等自身目标。更新还新增上下文理解、监督和自主性指导，调整部分行为默认值，退出大部分详细风格指南，并将模型称呼从“the assistant”改为“GPT”。\n\nIT之家将五项准则表述为忠于人类意图、降低伤害、诚实透明、保障人的自主选择权、审慎尽责，并称忠于人类意图是整套框架的基础，要求模型理解用户、开发者及OpenAI本身的意图而非机械执行指令。",
+        "latest_at": "2026-10-30T17:44:59.000Z",
+        "original_url": "https://openai.com/index/updated-model-spec",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 9,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/255f7354-2733-447e-a6cc-f6f065893f9d",
+        "title": "OpenAI将Model Spec重组为五项核心价值观"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
+        "digest": "Anthropic 将 Claude 的 Max 5x 更名为 Max、Max 20x 更名为 Ultra，价格不变：Max 仍为每月 100 美元，Ultra 仍为每月 200 美元，现有订阅者无需操作。\n\n同时，Anthropic 从当天起为大多数现有已验证 Ultra 账户取消 5 小时使用限制。较新账户在完成验证前仍保留临时限制，Anthropic 称这是为防止欺诈和滥用；解除限制时会收到邮件。周限额保持不变。Anthropic 开发者关系人员 Ado Kukic 称，更名后整体限额不变，只是已验证账户不再有 5 小时限制。",
+        "latest_at": "2026-10-30T18:00:40.000Z",
+        "original_url": "https://x.com/adocomplete/status/2116224220539883992",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
+        "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
+        "digest": "Artificial Analysis 发布 Intelligence Index v5，首次让 60% 的指数权重建立在私有测试集或保留答案上，并新增 FrontierCode 2.0、Terminal-Bench-Science 两项基准，升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这样做是为了防止针对已知测试题训练模型的“benchmaxxing”。v5 将指数均分为知识工作、编码、科学、通用四类，各占 25%。\n\n改版后排名明显变动：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分；Nathan Lambert 称，榜单上 8 个闭源模型超过最强的待发布开源权重模型 Kimi K3.1 Pro。The Decoder 同时指出，私有测试集的代价是外部人员无法再检查题目中的错误。\n\nGoogle 的 Gemini 4 Carbon 以 59 分登顶 v5，比 Gemini 4 Argon 高 9 分，编码智能体指数仅次于 Claude Opus 5.5。该模型目前仅向部分网络安全防御者开放，尚未公开可用；Google 称其入门价为每百万输入 token 2 美元、输出 10 美元，优惠期后恢复为 4 美元和 20 美元。Artificial Analysis 还发布 Progress Index，用项目反应理论为 2022 年以来所有语言模型估计统一能力分数，专用于跨时间比较。",
+        "latest_at": "2026-10-30T02:09:18.000Z",
+        "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 51,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
+        "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7d33bdf1-51cb-4135-bb00-02ee0f42123d",
+        "digest": "Reddit 在第三季度财报中宣布转向以登录用户为主的体验，以保护数据不被 AI 抓取并提升广告变现。公司称 10 月搜索引荐流量平均每周减少超过 100 万次；第三季度全球日活 1.303 亿，美国日活降至 5070 万，同比下降 2%。同期收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元。\n\nCEO Steve Huffman 将流量流失归因于 Google 的 AI Mode，称其“不为任何人带来流量”。据 Rohan Paul 转述，Reddit 将把登录设为默认；第二季度美国 5320 万日活中有 3010 万为未登录浏览，Reddit 警告下季度日活可能再降两位数百分比。登录用户的广告价值约为未登录访客的 3 倍。\n\n这一转变将先在第四季度于美国以外的部分市场测试登录墙，Reddit 尚未给出全球上线时间表。The Decoder 报道称，尽管业绩强劲，Reddit 股价仍下跌超过 25%。",
+        "latest_at": "2026-10-30T17:15:24.000Z",
+        "original_url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 14,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/7d33bdf1-51cb-4135-bb00-02ee0f42123d",
+        "title": "Reddit 转向登录优先，应对搜索流量流失"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": null,
+        "latest_at": "2026-10-30T13:11:05.000Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 12,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
+        "digest": null,
+        "latest_at": "2026-10-30T09:48:50.000Z",
+        "original_url": "https://huggingface.co/blog/mistral-large4",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Hugging Face 官方团队博客",
+        "signal_count": 26,
+        "source_count": 11,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
+        "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
+        "digest": "Google 的原型太空数据中心卫星已上线并与地面通信。CEO Sundar Pichai 称，团队向轨道发送指令、启动 TPU 并运行提示词，在地球收到首个完整响应，内容是一首俳句，他称之为 Project Suncatcher 的“hello world”里程碑。Google 在博客中称，生成这首俳句的是星载 Gemma 4 模型；Google DeepMind 开发者体验的 Philipp Schmid 称其为首个在太空运行的大语言模型。Google 官方称，10 月初送入轨道的 4 颗 TPU 已确认能开机、处理提示词并把响应传回地球。\n\n该卫星本月随 SpaceX Falcon 9 与另外 100 多个航天器一同发射，经约三周调试后开始响应。TechCrunch 称，受功耗限制，TPU 每次只能开机约 20 分钟；后续测试将考察芯片在热应力和太空辐射环境下的表现。Google 称，下一阶段计划于 2027 年发射两颗卫星，测试能否在多颗卫星之间分布式执行 AI 计算。\n\nX 用户 Rohan Paul 转发时称这是 AI 推理首次移出地球。目前公开信息仅限这一单次演示，未披露在轨算力、通信速率或后续发射安排。",
+        "latest_at": "2026-10-30T19:04:37.000Z",
+        "original_url": "https://x.com/_philschmid/status/2116235686445502608",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+        "signal_count": 10,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
+        "title": "Google 卫星在轨 TPU 完成首次推理并回传俳句"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "ac67a6d8-48ee-4878-9ed7-e15bf3701076",
+        "digest": null,
+        "latest_at": "2026-10-30T00:34:52.630Z",
+        "original_url": "https://x.com/thsottiaux/status/2115850175868727621",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 30,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076",
+        "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "add1dde9-53ea-4f82-9daa-6d50735a149c",
+        "digest": null,
+        "latest_at": "2026-10-29T00:31:38.000Z",
+        "original_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "Apple：Newsroom（RSS）",
+        "signal_count": 19,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.virxact.com/story/add1dde9-53ea-4f82-9daa-6d50735a149c",
+        "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c432aa2e-0614-4744-8618-1769e016569b",
+        "digest": "Alphabet公布2026年第三季度财报：营收近1280亿美元、同比增长25%，年化收入达5000亿美元；Google Cloud收入同比增长103%至307亿美元，运营利润同比增至三倍、达111亿美元。但公司承认AI搜索的收入低于自然搜索，且明年AI支出还将增加；当季每股收益2.12美元，低于市场预期的3.02美元。\n\n核心搜索广告增速放缓：Google Search收入增速从上季度的17%降至12%。财报电话会上，Google宣布将AI Mode中的广告首次扩展至国际市场，并在美国推出多轮对话广告；Google称，AI Mode中赞助商品列表的点击率已与自然结果相当。\n\n财报后股价一度下跌约13%，当时跌近12%。BBC报道称，因担忧企业对AI的巨额投资回报，美股科技股连续第二日大跌。Sundar Pichai称，Search查询同比增速为五年来最高，1P模型API每分钟处理近32B tokens、环比增40%。",
+        "latest_at": "2026-10-30T14:50:37.797Z",
+        "original_url": "https://x.com/sundarpichai/status/2115535455156642066",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Sundar Pichai (@sundarpichai)",
+        "signal_count": 18,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/c432aa2e-0614-4744-8618-1769e016569b",
+        "title": "Alphabet Q3营收增25%，AI搜索变现承压"
+      },
+      "observed_at": "2026-10-30T20:52:04.543137Z"
+    }
+  ],
+  "version": 1
+}
