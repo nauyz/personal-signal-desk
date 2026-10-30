@@ -54,6 +54,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "255f7354-2733-447e-a6cc-f6f065893f9d",
+        "digest": "OpenAI更新公开的Model Spec，将模型行为准则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。\n\n更新新增关于上下文理解、监督和自主性的指导，调整部分行为默认值，退出大部分详细风格指南，并将模型称呼从“the assistant”改为“GPT”。OpenAI称，Model Spec是其对模型应如何行为的公开描述。\n\nIT之家报道将五项准则表述为忠于人类意图、降低伤害、诚实透明、保障人的自主选择权、审慎尽责，并称忠于人类意图是整套框架的基础，要求模型理解用户、开发者及OpenAI本身的意图而非机械执行指令。",
+        "latest_at": "2026-10-30T02:16:46.210Z",
+        "original_url": "https://openai.com/index/updated-model-spec",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/255f7354-2733-447e-a6cc-f6f065893f9d",
+        "title": "OpenAI重组Model Spec为五项核心价值观"
+      },
+      "observed_at": "2026-10-30T15:59:32.470567Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "37c4f934-a969-4d47-b4ab-d8394ef134ba",
         "digest": null,
         "latest_at": "2026-10-27T20:54:24.000Z",
@@ -71,20 +88,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "485b0cc8-89d1-47dd-863f-4fe9082d8eaa",
+        "digest": "Google Gemini 宣布，从 10 月 30 日起向所有 Gemini 用户开放聊天内的文件生成、预览与编辑功能，支持 PDF、Google Docs、Google Sheets、幻灯片、Markdown、TXT 和代码等格式。Gemini 称，这些能力已覆盖其支持的所有语言的全部用户。\n\n使用范围因格式而异：PDF 的预览与编辑在网页端和移动端均可用，其余格式目前仅限网页端。用户可在聊天中生成文件、手动调整内容，或高亮部分让 Gemini 修改文字和视觉元素并继续追问。",
+        "latest_at": "2026-10-30T01:41:27.210Z",
+        "original_url": "https://x.com/GeminiApp/status/2115845164824711247",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Gemini (@GeminiApp)",
+        "signal_count": 8,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/485b0cc8-89d1-47dd-863f-4fe9082d8eaa",
+        "title": "Gemini 向所有用户开放聊天内文件生成与编辑"
+      },
+      "observed_at": "2026-10-30T15:59:32.470567Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
-        "digest": "Artificial Analysis 发布 Intelligence Index v5，首次让 60% 的指数权重建立在私有测试集或保留答案上，并新增 FrontierCode 2.0、Terminal-Bench-Science 两项基准，升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这样做是为了防止针对已知测试题训练模型的“benchmaxxing”。v5 将指数均分为知识工作、编码、科学、通用四类，各占 25%。\n\n改版后排名明显变动：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分；Nathan Lambert 称，榜单上 8 个闭源模型超过最强的待发布开源权重模型 Kimi K3.1 Pro。The Decoder 同时指出，私有测试集的代价是外部人员无法再检查题目中的错误。\n\nGoogle 的 Gemini 4 Carbon 以 59 分登顶 v5，比 Gemini 4 Argon 高 9 分，编码智能体指数仅次于 Claude Opus 5.5。该模型目前仅向部分网络安全防御者开放，尚未公开可用；Google 称其入门价为每百万输入 token 2 美元、输出 10 美元，优惠期后恢复为 4 美元和 20 美元。Artificial Analysis 还发布 Progress Index，用项目反应理论为 2022 年以来所有语言模型估计统一能力分数，专用于跨时间比较。",
+        "digest": null,
         "latest_at": "2026-10-30T02:09:18.000Z",
         "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
         "rank": 1,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 79,
-        "source_count": 14,
-        "status": "active",
+        "signal_count": 84,
+        "source_count": 13,
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
         "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
@@ -106,53 +140,53 @@
     {
       "item": {
         "aihot_story_id": "7d33bdf1-51cb-4135-bb00-02ee0f42123d",
-        "digest": "Reddit 在第三季度财报中宣布，将转向以登录用户为主的体验，以保护数据不被 AI 抓取并提升广告变现。公司称，10 月搜索流量平均每周减少超过 100 万次引荐；第三季度全球日活为 1.303 亿，其中美国日活降至 5070 万，同比下降 2%。同期收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元。\n\n据 Rohan Paul 转述，Reddit 将把登录设为默认体验；第二季度美国 5320 万日活中有 3010 万为未登录浏览，Reddit 还警告下季度日活可能再降两位数百分比。登录用户的广告价值约为未登录访客的 3 倍，登录墙也增加抓取难度，推动 AI 公司转向付费数据合作。\n\n这一转变将先在第四季度于美国以外的部分市场测试，Reddit 尚未给出全球上线时间表。",
+        "digest": null,
         "latest_at": "2026-10-30T06:59:22.000Z",
         "original_url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 9,
+        "signal_count": 13,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/7d33bdf1-51cb-4135-bb00-02ee0f42123d",
         "title": "Reddit 转向登录优先，应对 AI 搜索流量下滑"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": null,
-        "latest_at": "2026-10-30T01:28:37.000Z",
+        "digest": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克全球精选市场以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销。发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\nThe Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。招股书还披露数据中心对天然气的依赖，以及 AI 可能带来灾难性风险等风险因素。",
+        "latest_at": "2026-10-30T13:11:05.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 15,
-        "source_count": 5,
-        "status": null,
+        "signal_count": 13,
+        "source_count": 4,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
         "aihot_story_id": "95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
-        "digest": null,
-        "latest_at": "2026-10-30T01:09:09.660Z",
+        "digest": "Mistral AI 公开了旗舰模型 Mistral Large 4（昵称 Le Chonk）的权重，此前该模型处于公开预览阶段。模型为原生多模态 MoE，总参数约 1T、每 token 激活 49B–52B、上下文 1M token，官方提供 FP8 与 NVFP4 两种版本。权重采用 MIT 衍生的 Mistral Ecosystem Open-Weight License：使用、修改、微调和商业部署免费，但以模型即服务形式对外提供的企业须另行取得 Mistral 商业许可。API 价格同时调整为每百万 token 输入 $0.70、缓存输入 $0.07、输出 $2.10。\n\nMistral 称该模型主打智能体编码与网络安全，在 Cognition 的 FrontierCode 开放模型中排名第一，网络防御能力经 CrowdStrike、Cloudflare、Rubrik、Zscaler 等厂商测试。Artificial Analysis 评测称其以 1.05T 总参数成为非中国开发的最强开放权重模型；The Decoder 则指出其编码领先开源模型，整体仍落后中国模型。vLLM 同日宣布 Day 0 支持。\n\nUnsloth 发布该模型的 Dynamic 1-bit GGUF 量化版，称可在 Mac Studio 本地运行，保留 91% top-1 准确率，最小版本约占 233GB 磁盘、需 256–270GB 内存，较 1.1TB FP8 小约 80%。",
+        "latest_at": "2026-10-30T09:48:50.000Z",
         "original_url": "https://huggingface.co/blog/mistral-large4",
         "rank": 3,
         "recovered": false,
         "representative_source": "Hugging Face 官方团队博客",
-        "signal_count": 19,
+        "signal_count": 24,
         "source_count": 11,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
-        "title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版"
+        "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
@@ -163,13 +197,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 28,
+        "signal_count": 30,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076",
         "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
@@ -180,30 +214,30 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
-        "signal_count": 34,
+        "signal_count": 33,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/add1dde9-53ea-4f82-9daa-6d50735a149c",
         "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
         "aihot_story_id": "c432aa2e-0614-4744-8618-1769e016569b",
-        "digest": null,
+        "digest": "Alphabet公布2026年第三季度财报：营收近1280亿美元、同比增长25%，年化收入达5000亿美元；Google Cloud收入同比增长103%至307亿美元，运营利润同比增至三倍、达111亿美元。但公司承认AI搜索的收入低于自然搜索，且明年AI支出还将增加；当季每股收益2.12美元，低于市场预期的3.02美元。\n\n核心搜索广告增速放缓：Google Search收入增速从上季度的17%降至12%。财报电话会上，Google宣布将AI Mode中的广告首次扩展至国际市场，并在美国推出多轮对话广告；Google称，AI Mode中赞助商品列表的点击率已与自然结果相当。\n\n财报后股价一度下跌约13%，当时跌近12%。Sundar Pichai称，Search查询同比增速为五年来最高，1P模型API每分钟处理近32B tokens、环比增40%。",
         "latest_at": "2026-10-29T16:24:55.000Z",
         "original_url": "https://x.com/sundarpichai/status/2115535455156642066",
         "rank": 5,
         "recovered": false,
         "representative_source": "X：Sundar Pichai (@sundarpichai)",
-        "signal_count": 21,
+        "signal_count": 22,
         "source_count": 4,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/c432aa2e-0614-4744-8618-1769e016569b",
         "title": "Alphabet Q3营收增25%，AI搜索变现承压"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
@@ -220,7 +254,7 @@
         "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "纽时称中国情报人员接近黄仁勋，英伟达否认"
       },
-      "observed_at": "2026-10-30T08:44:31.705053Z"
+      "observed_at": "2026-10-30T15:59:32.470567Z"
     },
     {
       "item": {
