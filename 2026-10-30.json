@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "08d907d8-e0b3-41bc-b07e-9b475c378c41",
-        "digest": null,
-        "latest_at": "2026-10-29T00:26:29.000Z",
+        "digest": "OpenAI 宣布，符合条件的 ChatGPT Pro 和 Business 订阅者每月可领取最高 500 美元的 API 额度，用于构建应用和智能体；ChatGPT 官方账号称这是限时活动。\n\n额度按套餐分档：Pro 套餐按档位每月为 100、200 或 500 美元；Business 套餐按每个付费 Standard 席位 20 美元或每个付费 Premium 席位 100 美元计算，每个工作区池化上限为 500 美元。领取入口在 ChatGPT 账单页面，用户需在账单页关联 API 组织后使用该月度订阅权益，并可通过 ChatGPT 或 Codex 中的 OpenAI Developers 插件创建 API key 开始使用。\n\nSimon Willison 在博客中称，OpenAI 这项安排与 Anthropic 的类似订阅权益基本相同，即 100、200 或 500 美元档订阅用户可将同额 credits 用于自己的 API 组织。",
+        "latest_at": "2026-10-29T22:48:29.000Z",
         "original_url": "https://x.com/OpenAIDevs/status/2115583698074755078",
         "rank": 10,
         "recovered": false,
         "representative_source": "X：OpenAI Developers (@OpenAIDevs)",
         "signal_count": 15,
-        "source_count": 1,
-        "status": null,
+        "source_count": 2,
+        "status": "active",
         "story_url": "https://aihot.virxact.com/story/08d907d8-e0b3-41bc-b07e-9b475c378c41",
         "title": "OpenAI 向 Pro 与 Business 订阅者发放 API 额度"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
@@ -33,7 +33,7 @@
         "story_url": "https://aihot.virxact.com/story/0aff3bb1-44c6-45f9-92fa-d4d7e6ec3945",
         "title": "NVIDIA 发布开放权重语音模型 Nemotron 3.5 Transcribe"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
@@ -73,7 +73,7 @@
       "item": {
         "aihot_story_id": "5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
         "digest": "Artificial Analysis 发布 Intelligence Index v5，首次让 60% 的指数权重建立在私有测试集或保留答案上，并新增 FrontierCode 2.0、Terminal-Bench-Science 两项基准，升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这样做是为了防止针对已知测试题训练模型的“benchmaxxing”。v5 将指数均分为知识工作、编码、科学、通用四类，各占 25%。\n\n改版后排名明显变动：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分；Nathan Lambert 称，榜单上 8 个闭源模型超过最强的待发布开源权重模型 Kimi K3.1 Pro。The Decoder 同时指出，私有测试集的代价是外部人员无法再检查题目中的错误。\n\nGoogle 的 Gemini 4 Carbon 以 59 分登顶 v5，比 Gemini 4 Argon 高 9 分，编码智能体指数仅次于 Claude Opus 5.5。该模型目前仅向部分网络安全防御者开放，尚未公开可用；Google 称其入门价为每百万输入 token 2 美元、输出 10 美元，优惠期后恢复为 4 美元和 20 美元。Artificial Analysis 还发布 Progress Index，用项目反应理论为 2022 年以来所有语言模型估计统一能力分数，专用于跨时间比较。",
-        "latest_at": "2026-10-29T19:07:40.000Z",
+        "latest_at": "2026-10-30T00:24:36.000Z",
         "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
         "rank": 1,
         "recovered": false,
@@ -84,7 +84,7 @@
         "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
         "title": "AA v5 改版：私有测试集拉大开源与闭源差距，Gemini 4 Carbon 登顶"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
@@ -107,52 +107,52 @@
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "digest": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克全球精选市场以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销。发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\nThe Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。招股书还披露数据中心对天然气的依赖，以及 AI 可能带来灾难性风险等风险因素。",
-        "latest_at": "2026-10-29T19:10:41.000Z",
+        "latest_at": "2026-10-30T01:28:37.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
         "rank": 5,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 27,
-        "source_count": 7,
+        "signal_count": 26,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 递交 S-1，拟以 ANT 登陆纳斯达克"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
         "aihot_story_id": "95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
         "digest": "Mistral AI 公开了旗舰模型 Mistral Large 4（昵称 Le Chonk）的权重，此前该模型处于公开预览阶段。模型为原生多模态 MoE，总参数约 1T、每 token 激活 49B–52B、上下文 1M token，官方提供 FP8 与 NVFP4 两种版本。权重采用 MIT 衍生的 Mistral Ecosystem Open-Weight License：使用、修改、微调和商业部署免费，但以模型即服务形式对外提供的企业须另行取得 Mistral 商业许可。API 价格同时调整为每百万 token 输入 $0.70、缓存输入 $0.07、输出 $2.10。\n\nMistral 称该模型主打智能体编码与网络安全，在 Cognition 的 FrontierCode 开放模型中排名第一，网络防御能力经 CrowdStrike、Cloudflare、Rubrik、Zscaler 等厂商测试。Artificial Analysis 评测称其以 1.05T 总参数成为非中国开发的最强开放权重模型；The Decoder 则指出其编码领先开源模型，整体仍落后中国模型。vLLM 同日宣布 Day 0 支持。\n\nUnsloth 发布该模型的 Dynamic 1-bit GGUF 量化版，称可在 Mac Studio 本地运行，保留 91% top-1 准确率，最小版本约占 233GB 磁盘、需 256–270GB 内存，较 1.1TB FP8 小约 80%。",
-        "latest_at": "2026-10-29T18:38:50.000Z",
+        "latest_at": "2026-10-30T01:09:09.660Z",
         "original_url": "https://huggingface.co/blog/mistral-large4",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Hugging Face 官方团队博客",
-        "signal_count": 17,
-        "source_count": 10,
+        "signal_count": 18,
+        "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
         "title": "Mistral 开源万亿参数 Le Chonk，Unsloth 推 1-bit 量化版"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
         "aihot_story_id": "ac67a6d8-48ee-4878-9ed7-e15bf3701076",
-        "digest": "OpenAI 员工 Tibo 在 X 上宣布，即日起将 Pro 100/200/500 各档位与 Business Premium 的所有用量上限翻倍，Pro 200 的上限不会因此下调，Work 与 Codex 用量保持不变，dots 的扩展用量上限继续提供且与默认用量分开计算。\n\n数小时后，Tibo 又称“用量上限已恢复为双倍”，并把结果归因于用户反馈。两则帖文均未说明中间限额是否曾被收回，也未交代恢复的具体范围。\n\nThe Decoder 报道称，Pro 100 和 Pro 500 的 Work 与 Codex 配额为原先两倍；Pro 200 在用户反弹后取消了下调计划，并翻倍了较低配额；Plus 保持不变，新订阅已含新配额，老用户自动获得。",
-        "latest_at": "2026-10-29T20:01:27.000Z",
+        "digest": "OpenAI 员工 Tibo 在 X 上宣布，即日起将 Pro 100/200/500 各档位与 Business Premium 的用量上限翻倍，并明确不会下调 Pro 200 的上限；Work 与 Codex 用量保持不变，dots 的扩展用量上限继续提供且与默认用量分开计算。数小时后，Tibo 又称“用量上限已恢复为双倍”，并把结果归因于用户反馈，但两则帖文均未说明中间限额是否曾被收回，也未交代恢复的具体范围。\n\nThe Decoder 报道称，Pro 100 和 Pro 500 的 Work 与 Codex 配额为原先两倍；Pro 200 在用户反弹后取消了下调计划，并翻倍了较低配额；Plus 保持不变，新订阅已含新配额，老用户自动获得。IT之家另称，Fast 模式消耗额度的速度约为标准模式的 2.5 倍，Ultrafast 则高达 8 倍。",
+        "latest_at": "2026-10-30T00:34:52.630Z",
         "original_url": "https://x.com/thsottiaux/status/2115850175868727621",
-        "rank": 6,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 13,
-        "source_count": 2,
+        "signal_count": 23,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076",
-        "title": "OpenAI 付费档用量上限翻倍后一度恢复"
+        "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
@@ -160,16 +160,16 @@
         "digest": null,
         "latest_at": "2026-10-29T00:31:38.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
-        "signal_count": 36,
+        "signal_count": 35,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/add1dde9-53ea-4f82-9daa-6d50735a149c",
         "title": "Apple发布PROLED XDR屏MacBook Pro，首配触控"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
@@ -177,16 +177,33 @@
         "digest": "Alphabet公布2026年第三季度财报：营收近1280亿美元、同比增长25%，年化收入达5000亿美元；Google Cloud收入同比增长103%至307亿美元，运营利润同比增至三倍、达111亿美元。但公司承认AI搜索的收入低于自然搜索，且明年AI支出还将增加；当季每股收益2.12美元，低于市场预期的3.02美元。\n\n核心搜索广告增速放缓：Google Search收入增速从上季度的17%降至12%。财报电话会上，Google宣布将AI Mode中的广告首次扩展至国际市场，并在美国推出多轮对话广告；Google称，AI Mode中赞助商品列表的点击率已与自然结果相当。\n\n财报后股价一度下跌约13%，当时跌近12%。Sundar Pichai称，Search查询同比增速为五年来最高，1P模型API每分钟处理近32B tokens、环比增40%。",
         "latest_at": "2026-10-29T16:24:55.000Z",
         "original_url": "https://x.com/sundarpichai/status/2115535455156642066",
-        "rank": 7,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Sundar Pichai (@sundarpichai)",
-        "signal_count": 18,
+        "signal_count": 19,
         "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.virxact.com/story/c432aa2e-0614-4744-8618-1769e016569b",
         "title": "Alphabet Q3营收增25%，AI搜索变现承压"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "digest": "《纽约时报》援引匿名情报信源报道，美国情报机构约一年来监控新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐），怀疑她借与英伟达 CEO 黄仁勋的密切接触，为中国收集英伟达的计划以及游说特朗普政府放宽对华芯片出口的信息。该报道还称，特朗普约一年前已获知相关情报，但未采取行动，部分原因是保护英伟达股价，以及他与黄仁勋关系密切。上述指控均未获独立证实。\n\n英伟达否认这一说法，称 Megaspeed 只是其区域云客户之一，黄乐与公司官员的接触属例行往来，云客户仅获得普通商业信息，不涉及国家安全相关信息；关于 Megaspeed 将 AI 芯片转运至中国的指控“去年已被彻底调查并证伪”，公司也未收到华盛顿方面的任何预警。此前美国商务部曾调查 Megaspeed 涉嫌向中国转售受限芯片。",
+        "latest_at": "2026-10-29T18:29:12.000Z",
+        "original_url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 9,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "title": "纽时称中国情报人员接近黄仁勋，英伟达否认"
+      },
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     },
     {
       "item": {
@@ -194,16 +211,16 @@
         "digest": null,
         "latest_at": "2026-10-28T07:34:58.000Z",
         "original_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-        "rank": 4,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 43,
-        "source_count": 6,
+        "signal_count": 32,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
         "title": "Google DeepMind 发布 Genie 4 世界模型研究预览版"
       },
-      "observed_at": "2026-10-29T21:51:15.793988Z"
+      "observed_at": "2026-10-30T02:00:01.152888Z"
     }
   ],
   "version": 1
