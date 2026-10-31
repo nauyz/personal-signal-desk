@@ -20,54 +20,71 @@
     },
     {
       "item": {
+        "aihot_story_id": "2bf3a441-7478-435f-9c80-951f7cb5a2f6",
+        "digest": "Cursor 通报，其 VS Code 扩展市场出现了被恶意修改的 Anthropic.claude-code 2.1.313 版本，该版本并非 Anthropic 官方开发。Cursor 在博客中称，恶意版本在太平洋时间当天约 2:27 至 13:35 之间可供下载，最多影响 4100 名用户，公司将直接联系这些用户；目前没有证据表明该扩展的其他版本或官方分发渠道受到影响。\n\n次日，Cursor 在 X 上给出的受影响上限为 5000 名用户，高于此前博客中的 4100 名。Cursor 称，当日下午已下线整个扩展市场，与相关提供方合作清除恶意软件，并在确认无进一步风险后重新上线；同时建议受影响用户按博客说明排查，并升级到 Claude Code for VS Code 2.1.314。Cursor 还称，此事不影响从 cursor.com/marketplace 下载的其他扩展，也不影响 Grok Bot、Grok 或 Cursor 的其他产品。\n\nArs Technica 报道称，恶意版本 2.1.313 是通过官方账号分发的，在线近 12 小时，Anthropic 随后推送 2.1.314 修复；该报道还称，Cursor 中的扩展默认自动更新，用户可在设置中更改。",
+        "latest_at": "2026-10-31T05:36:34.647Z",
+        "original_url": "https://x.com/cursor_ai/status/2116074289053175808",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Cursor (@cursor_ai)",
+        "signal_count": 10,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/2bf3a441-7478-435f-9c80-951f7cb5a2f6",
+        "title": "Cursor 扩展市场现恶意 Claude Code 包"
+      },
+      "observed_at": "2026-10-31T07:03:42.354115Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
-        "digest": "Anthropic 将 Claude 的 Max 5x 更名为 Max、Max 20x 更名为 Ultra，价格不变：Max 仍为每月 100 美元，Ultra 仍为每月 200 美元，现有订阅者无需操作。\n\n同时，Anthropic 从当天起为大多数现有已验证 Ultra 账户取消 5 小时使用限制。较新账户在完成验证前仍保留临时限制，Anthropic 称这是为防止欺诈和滥用；解除限制时会收到邮件。周限额保持不变。Anthropic 开发者关系人员 Ado Kukic 称，更名后整体限额不变，只是已验证账户不再有 5 小时限制。\n\nIT之家称，Ultra 目前仅作为月度订阅提供。",
+        "digest": null,
         "latest_at": "2026-10-30T23:26:41.593Z",
         "original_url": "https://x.com/adocomplete/status/2116224220539883992",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-        "signal_count": 16,
+        "signal_count": 21,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
         "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
         "aihot_story_id": "50f0b947-7493-4da9-95c7-bfad63bb5a8c",
-        "digest": "苹果 10 月 31 日发布公告，宣布面向中国 iPhone 18 Pro 等机型用户，于 11 月 4 日开放 Apple 智能测试，并在 12 月推出的 iOS 27.3 更新中上线首批核心功能。Siri、写作工具及视觉智能将接入阿里千问。\n\n阿里巴巴同日公告称，国行用户可自主选择是否开通千问集成功能，用户请求及生成的回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设置在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+        "digest": null,
         "latest_at": "2026-10-31T00:03:47.000Z",
         "original_url": "https://www.ithome.com/1/020/392.htm",
-        "rank": 6,
+        "rank": 1,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 13,
+        "signal_count": 22,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
         "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
         "aihot_story_id": "5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
-        "digest": "Artificial Analysis 发布 Intelligence Index v5，首次让 60% 的指数权重建立在私有测试集或保留答案上，并新增 FrontierCode 2.0、Terminal-Bench-Science 两项基准，升级 HLE-Diamond、AA-Omniscience v1.1 和 CritPt v2。该机构称，这样做是为了防止针对已知测试题训练模型的“benchmaxxing”。v5 将指数均分为知识工作、编码、科学、通用四类，各占 25%。\n\n改版后排名明显变动：据 The Decoder 报道，Kimi K3.1 Pro 从第 4 降至第 9，开源模型与榜首差距从 3 分扩大到 12 分，Grok 4.7 也下跌 12 分；Nathan Lambert 称，榜单上 8 个闭源模型超过最强的待发布开源权重模型 Kimi K3.1 Pro。The Decoder 同时指出，私有测试集的代价是外部人员无法再检查题目中的错误。\n\nGoogle 的 Gemini 4 Carbon 以 59 分登顶 v5，比 Gemini 4 Argon 高 9 分，编码智能体指数仅次于 Claude Opus 5.5。该模型目前仅向部分网络安全防御者开放，尚未公开可用；Google 称其入门价为每百万输入 token 2 美元、输出 10 美元，优惠期后恢复为 4 美元和 20 美元。Artificial Analysis 还发布 Progress Index，用项目反应理论为 2022 年以来所有语言模型估计统一能力分数，专用于跨时间比较。",
+        "digest": null,
         "latest_at": "2026-10-31T00:01:04.000Z",
         "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-        "rank": 1,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 40,
+        "signal_count": 26,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
         "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
@@ -75,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-10-30T17:15:24.000Z",
         "original_url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 15,
+        "signal_count": 16,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/7d33bdf1-51cb-4135-bb00-02ee0f42123d",
         "title": "Reddit 转向登录优先，应对搜索流量流失"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
@@ -109,7 +126,7 @@
         "digest": null,
         "latest_at": "2026-10-30T09:48:50.000Z",
         "original_url": "https://huggingface.co/blog/mistral-large4",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Hugging Face 官方团队博客",
         "signal_count": 26,
@@ -118,24 +135,41 @@
         "story_url": "https://aihot.virxact.com/story/95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
         "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
         "aihot_story_id": "97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
-        "digest": "Google 的原型太空数据中心卫星已上线并与地面通信。CEO Sundar Pichai 称，团队向轨道发送指令、启动 TPU 并运行提示词，在地球收到首个完整响应，内容是一首俳句，他称之为 Project Suncatcher 的“hello world”里程碑。Google 在博客中称，生成这首俳句的是星载 Gemma 4 模型；Google DeepMind 开发者体验的 Philipp Schmid 称其为首个在太空运行的大语言模型。Google 官方称，10 月初送入轨道的 4 颗 TPU 已确认能开机、处理提示词并把响应传回地球。\n\n该卫星本月随 SpaceX Falcon 9 与另外 100 多个航天器一同发射，经约三周调试后开始响应。TechCrunch 称，受功耗限制，TPU 每次只能开机约 20 分钟；后续测试将考察芯片在热应力和太空辐射环境下的表现。Google 称，下一阶段计划于 2027 年发射两颗卫星，测试能否在多颗卫星之间分布式执行 AI 计算。\n\nX 用户 Rohan Paul 转发时称这是 AI 推理首次移出地球。目前公开信息仅限这一单次演示，未披露在轨算力、通信速率或后续发射安排。",
+        "digest": null,
         "latest_at": "2026-10-30T23:51:47.903Z",
         "original_url": "https://x.com/_philschmid/status/2116235686445502608",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-        "signal_count": 14,
+        "signal_count": 16,
         "source_count": 6,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
         "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a28f10be-5030-4347-b3a3-38356ffe393f",
+        "digest": "OpenAI、Google、Microsoft 和 Anthropic 表示将采用一项新的 IETF 标准，让发布者在 robots.txt 中用共享的 policy token 一次性声明针对多家 AI 公司的训练退出偏好，不必逐家设置。该信号仍放在网站原有的 robots.txt 文件中，该文件此前已用于指示哪些爬虫可以抓取网站。\n\n各家的落地时间不同：Anthropic 已采用该信号，Google 和 Microsoft 计划明年支持，OpenAI 称将在“未来几个月”内实现。Microsoft 还称将提供更细分的控制，让发布者分别选择退出 AI 训练或 AI grounding。\n\nOpenAI 此前说明，这一新信号不会取代其现有 robots.txt 爬虫控制，现有控制继续有效。",
+        "latest_at": "2026-10-30T20:26:10.000Z",
+        "original_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/a28f10be-5030-4347-b3a3-38356ffe393f",
+        "title": "四家AI公司支持robots.txt统一退出信号"
+      },
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
@@ -143,16 +177,16 @@
         "digest": null,
         "latest_at": "2026-10-30T00:34:52.630Z",
         "original_url": "https://x.com/thsottiaux/status/2115850175868727621",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 30,
+        "signal_count": 31,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076",
         "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
@@ -174,19 +208,19 @@
     {
       "item": {
         "aihot_story_id": "bdc1453f-1065-4edf-9452-0bc58ce68689",
-        "digest": "Intel因第四季度业绩展望弱于预期，股价单日下跌约28%，使美国政府持有的10%股份价值缩水120亿美元。\n\n公司预计Q4收入150亿至160亿美元，低于分析师约170亿美元的预期；毛利率将从43%降至37%，且预计无正现金流。CEO陈立武称，PC客户因内存涨价与供应紧张发出放缓信号。",
+        "digest": null,
         "latest_at": "2026-10-30T21:54:34.000Z",
         "original_url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
         "signal_count": 14,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/bdc1453f-1065-4edf-9452-0bc58ce68689",
         "title": "Intel业绩展望不及预期，股价暴跌致美政府持股缩水120亿美元"
       },
-      "observed_at": "2026-10-31T00:52:00.151766Z"
+      "observed_at": "2026-10-31T07:03:42.354115Z"
     },
     {
       "item": {
