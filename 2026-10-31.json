@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "digest": "OpenAI 正洽谈的新一轮融资规模已从至多 300 亿美元下调至约 200 亿美元，目标估值约 1.25 万亿美元。据《金融时报》报道，融资目标较原先减少约 100 亿美元；Bloomberg 称融资规模缩水约 33%，估值目标则从 1.4 万亿美元下调约 11%。谈判仍在进行，The Decoder 此前称交易接近完成。\n\n知情人士称，OpenAI 要求投资者在周五前作出出资承诺，但因部分投资人下调认购额度，首轮交割金额可能低于 200 亿美元。阿联酋国家支持科技基金 MGX 牵头的财团预计为最大出资方，红杉资本、软银等计划参与；作为交易的一部分，OpenAI 还可选择租赁阿联酋新建算力。\n\n但据《华尔街日报》报道，OpenAI 本轮迄今仅募得约 110 亿美元，不到 300 亿美元目标的一半，估值落在 1.25 万亿美元。该报道将缺口归因于 Google、Amazon 和 Intel 季报疲软引发科技股抛售、大投资者兴趣减退。融资尚未完成，条款仍可能变动。",
+        "latest_at": "2026-10-31T09:22:52.000Z",
+        "original_url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 10,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.virxact.com/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿"
+      },
+      "observed_at": "2026-10-31T13:42:50.558583Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "255f7354-2733-447e-a6cc-f6f065893f9d",
         "digest": "OpenAI更新公开的Model Spec，将模型行为准则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。OpenAI称，Model Spec是其对模型应如何行为的公开描述。\n\n新规范要求GPT模型利用记忆和历史对话判断用户意图，但须区分用户原话与模型推断并披露假设；对智能体模型强调可纠正性，不得阻挠监督、纠正或关机，也不得追求自我保存等自身目标。更新还新增上下文理解、监督和自主性指导，调整部分行为默认值，退出大部分详细风格指南，并将模型称呼从“the assistant”改为“GPT”。\n\nIT之家将五项准则表述为忠于人类意图、降低伤害、诚实透明、保障人的自主选择权、审慎尽责，并称忠于人类意图是整套框架的基础，要求模型理解用户、开发者及OpenAI本身的意图而非机械执行指令。",
         "latest_at": "2026-10-30T17:44:59.000Z",
@@ -21,19 +38,19 @@
     {
       "item": {
         "aihot_story_id": "2bf3a441-7478-435f-9c80-951f7cb5a2f6",
-        "digest": "Cursor 通报，其 VS Code 扩展市场出现了被恶意修改的 Anthropic.claude-code 2.1.313 版本，该版本并非 Anthropic 官方开发。Cursor 在博客中称，恶意版本在太平洋时间当天约 2:27 至 13:35 之间可供下载，最多影响 4100 名用户，公司将直接联系这些用户；目前没有证据表明该扩展的其他版本或官方分发渠道受到影响。\n\n次日，Cursor 在 X 上给出的受影响上限为 5000 名用户，高于此前博客中的 4100 名。Cursor 称，当日下午已下线整个扩展市场，与相关提供方合作清除恶意软件，并在确认无进一步风险后重新上线；同时建议受影响用户按博客说明排查，并升级到 Claude Code for VS Code 2.1.314。Cursor 还称，此事不影响从 cursor.com/marketplace 下载的其他扩展，也不影响 Grok Bot、Grok 或 Cursor 的其他产品。\n\nArs Technica 报道称，恶意版本 2.1.313 是通过官方账号分发的，在线近 12 小时，Anthropic 随后推送 2.1.314 修复；该报道还称，Cursor 中的扩展默认自动更新，用户可在设置中更改。",
+        "digest": null,
         "latest_at": "2026-10-31T05:36:34.647Z",
         "original_url": "https://x.com/cursor_ai/status/2116074289053175808",
-        "rank": 7,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Cursor (@cursor_ai)",
-        "signal_count": 10,
+        "signal_count": 13,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/2bf3a441-7478-435f-9c80-951f7cb5a2f6",
         "title": "Cursor 扩展市场现恶意 Claude Code 包"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
@@ -44,13 +61,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
-        "signal_count": 21,
+        "signal_count": 23,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
         "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
@@ -61,13 +78,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 22,
+        "signal_count": 23,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
         "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
@@ -75,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-10-31T00:01:04.000Z",
         "original_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-        "rank": 6,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 26,
+        "signal_count": 20,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/5a5e06d1-56d2-4b17-a50e-bc07029f84fb",
         "title": "AA v5 改版：私有测试集拉大开源闭源差距，Gemini 4 Carbon 登顶"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
@@ -92,7 +109,7 @@
         "digest": null,
         "latest_at": "2026-10-30T17:15:24.000Z",
         "original_url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 16,
@@ -101,7 +118,7 @@
         "story_url": "https://aihot.virxact.com/story/7d33bdf1-51cb-4135-bb00-02ee0f42123d",
         "title": "Reddit 转向登录优先，应对搜索流量流失"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
@@ -126,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-10-30T09:48:50.000Z",
         "original_url": "https://huggingface.co/blog/mistral-large4",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Hugging Face 官方团队博客",
-        "signal_count": 26,
-        "source_count": 9,
+        "signal_count": 25,
+        "source_count": 8,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/95f84774-ef5a-41b7-9bd8-fc3d0cbc20ac",
         "title": "Mistral 开放万亿参数 Le Chonk 权重，Unsloth 推 1-bit 量化版"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
@@ -146,30 +163,30 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
-        "signal_count": 16,
+        "signal_count": 18,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
         "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
         "aihot_story_id": "a28f10be-5030-4347-b3a3-38356ffe393f",
-        "digest": "OpenAI、Google、Microsoft 和 Anthropic 表示将采用一项新的 IETF 标准，让发布者在 robots.txt 中用共享的 policy token 一次性声明针对多家 AI 公司的训练退出偏好，不必逐家设置。该信号仍放在网站原有的 robots.txt 文件中，该文件此前已用于指示哪些爬虫可以抓取网站。\n\n各家的落地时间不同：Anthropic 已采用该信号，Google 和 Microsoft 计划明年支持，OpenAI 称将在“未来几个月”内实现。Microsoft 还称将提供更细分的控制，让发布者分别选择退出 AI 训练或 AI grounding。\n\nOpenAI 此前说明，这一新信号不会取代其现有 robots.txt 爬虫控制，现有控制继续有效。",
+        "digest": null,
         "latest_at": "2026-10-30T20:26:10.000Z",
         "original_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-        "rank": 9,
+        "rank": 8,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 10,
+        "signal_count": 12,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.virxact.com/story/a28f10be-5030-4347-b3a3-38356ffe393f",
         "title": "四家AI公司支持robots.txt统一退出信号"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
@@ -177,16 +194,16 @@
         "digest": null,
         "latest_at": "2026-10-30T00:34:52.630Z",
         "original_url": "https://x.com/thsottiaux/status/2115850175868727621",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 31,
+        "signal_count": 30,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.virxact.com/story/ac67a6d8-48ee-4878-9ed7-e15bf3701076",
         "title": "OpenAI 付费档用量上限翻倍，Pro 200 取消下调"
       },
-      "observed_at": "2026-10-31T07:03:42.354115Z"
+      "observed_at": "2026-10-31T13:42:50.558583Z"
     },
     {
       "item": {
