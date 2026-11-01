@@ -10,13 +10,13 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 12,
+        "signal_count": 13,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
         "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-10-31T05:36:34.647Z",
         "original_url": "https://x.com/cursor_ai/status/2116074289053175808",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Cursor (@cursor_ai)",
         "signal_count": 14,
@@ -33,24 +33,24 @@
         "story_url": "https://aihot.news/story/2bf3a441-7478-435f-9c80-951f7cb5a2f6",
         "title": "Cursor 扩展市场现恶意 Claude Code 包"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
         "aihot_story_id": "2c2767a9-6b79-436a-abe0-8b35fcf156b4",
-        "digest": "DeepSeek Harness 团队发布《Super-agent 设计探索：迈向更自主的 Agent 系统》，提出一种双层事件驱动架构：Router 层负责与用户交互并分派任务，Worker 层隔离并发执行，团队称其目标是让 Agent 更自主，并归纳出连续、高效、主动、持久四项特征。\n\n团队称，这套异步任务机制已在 DeepSeek Harness 中实现，但尚未默认开启；相关插件用于验证技术路线，并非 DeepSeek 正式产品。",
+        "digest": null,
         "latest_at": "2026-10-31T13:36:35.640Z",
         "original_url": "https://www.ithome.com/1/020/615.htm",
         "rank": 8,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 7,
+        "signal_count": 9,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4",
         "title": "DeepSeek提出Super-agent双层架构"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
@@ -67,7 +67,7 @@
         "story_url": "https://aihot.news/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
         "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
@@ -84,7 +84,7 @@
         "story_url": "https://aihot.news/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
         "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
@@ -105,11 +105,45 @@
     },
     {
       "item": {
+        "aihot_story_id": "7735066d-339d-4415-b051-7919ab018f34",
+        "digest": "据《金融时报》报道，黑石集团向投资者透露，主要信用评级机构更可能在 Anthropic 上市后给予其 BB 级区间或更高的投机级评级，而非此前预期的投资级评级。黑石是 Anthropic 近期 630 亿美元芯片融资交易的锚定投资者，此前曾预计 Anthropic 会在 2027 年前拿到投资级评级。\n\n这意味着在黑石看来，Anthropic 上市后短期内仍将停留在投机级。报道称，这样的评级会缩小 Anthropic 能够获得的融资来源。",
+        "latest_at": "2026-10-31T13:10:01.110Z",
+        "original_url": "https://www.ithome.com/1/020/610.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 8,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/7735066d-339d-4415-b051-7919ab018f34",
+        "title": "黑石下调Anthropic上市后评级预期至投机级"
+      },
+      "observed_at": "2026-11-01T02:18:37.209813Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "digest": "OpenAI 在官方帮助文档中宣布，从 12 月起，Plus、Pro 和 Business 订阅用户的 ChatGPT 与 Codex 用量合并为同一份 token 额度。OpenAI 称，这一调整的原因是 7 月基于 Codex 构建的 ChatGPT Work 的智能体功能被并入主 ChatGPT 体验。\n\n据 IT之家报道，即时对话（Instant Chat）不占用该额度；额度耗尽后，用户可等待额度自动重置、升级订阅方案或增购点数（Credits）继续使用。公众号“数字生命卡兹克”引述文档称，额度统一按 token 计算，模型越高级、思考越深、任务越复杂，扣减越多；该文还提到，此前 Codex Pro 额度曾在一个月内先降后恢复，社区在 GitHub 上提 issue 抗议。\n\n共享后各套餐的具体额度如何计算，目前尚未说明。",
+        "latest_at": "2026-11-01T00:22:41.000Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 6,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "title": "OpenAI 12月起ChatGPT与Codex共享Token额度"
+      },
+      "observed_at": "2026-11-01T02:18:37.209813Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
         "digest": null,
         "latest_at": "2026-10-30T23:51:47.903Z",
         "original_url": "https://x.com/_philschmid/status/2116235686445502608",
-        "rank": 3,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
         "signal_count": 18,
@@ -118,7 +152,7 @@
         "story_url": "https://aihot.news/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
         "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
@@ -126,7 +160,7 @@
         "digest": null,
         "latest_at": "2026-10-30T20:26:10.000Z",
         "original_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 12,
@@ -135,7 +169,7 @@
         "story_url": "https://aihot.news/story/a28f10be-5030-4347-b3a3-38356ffe393f",
         "title": "四家AI公司支持robots.txt统一退出信号"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
@@ -143,16 +177,16 @@
         "digest": null,
         "latest_at": "2026-10-30T20:48:43.000Z",
         "original_url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
-        "rank": 6,
+        "rank": 3,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 12,
-        "source_count": 2,
+        "signal_count": 17,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/a44b16b7-7b97-41d0-bb96-59c6565a7b2c",
         "title": "Altman 称本地推理浪费 DRAM 与算力"
       },
-      "observed_at": "2026-10-31T22:33:41.787303Z"
+      "observed_at": "2026-11-01T02:18:37.209813Z"
     },
     {
       "item": {
