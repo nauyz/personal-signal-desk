@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "digest": null,
+        "latest_at": "2026-10-31T16:12:55.000Z",
+        "original_url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 18,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.news/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
+        "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2c2767a9-6b79-436a-abe0-8b35fcf156b4",
+        "digest": "DeepSeek Harness 团队提出 Super-agent 双层架构：Router 层与用户对话并分派任务，Worker 层在隔离会话中并发执行，团队称目标是让 Agent 更自主。团队随后以 MIT 许可开源编码智能体原型 dsh-superagent v0.1.0，作为 DeepSeek Harness 的插件包在用户本机运行，面向单个 GitHub 仓库，可监听 GitHub 和可选的 Feishu 请求并生成并行工作的 Ticket。\n\n团队称，异步任务机制已在 DeepSeek Harness 中实现但尚未默认开启，该插件用于验证技术路线，并非 DeepSeek 正式产品。原型运行需 Node.js 22.19+ 或 24+、git 2.32+、Python 3.8+、tmux 及 GitHub CLI 2.48+；主动工作受授权控制，分 off、observe（默认）、auto 三种模式。\n\nDeepSeek 随后发布该文章的官方英文版，文中称公司在 Agent 产品上已有模型、算法、基建及研究员和工程师，但产品经理数量远远不够，产品部正招募 Agent 产品经理；后续帖文补充称设计师同样不足。",
+        "latest_at": "2026-11-01T16:05:52.000Z",
+        "original_url": "https://www.ithome.com/1/020/615.htm",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 26,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4",
+        "title": "DeepSeek开源Super-agent双层架构原型"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
+        "digest": null,
+        "latest_at": "2026-10-30T23:26:41.593Z",
+        "original_url": "https://x.com/adocomplete/status/2116224220539883992",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+        "signal_count": 24,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/2eb1efd4-facd-475f-99c8-b0ba853cb5fb",
+        "title": "Claude Max 套餐更名，Ultra 取消 5 小时限制"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "50f0b947-7493-4da9-95c7-bfad63bb5a8c",
+        "digest": "苹果 10 月 31 日发布公告，宣布面向中国 iPhone 18 Pro 等机型用户，于 11 月 4 日开放 Apple 智能测试，并在 12 月推出的 iOS 27.3 更新中上线首批核心功能。Siri、写作工具及视觉智能将接入阿里千问。\n\n阿里巴巴同日公告称，国行用户可自主选择是否开通千问集成功能，用户请求及生成的回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设置在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+        "latest_at": "2026-11-01T15:05:52.000Z",
+        "original_url": "https://www.ithome.com/1/020/392.htm",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 29,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
+        "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7735066d-339d-4415-b051-7919ab018f34",
+        "digest": null,
+        "latest_at": "2026-10-31T13:10:01.110Z",
+        "original_url": "https://www.ithome.com/1/020/610.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.news/story/7735066d-339d-4415-b051-7919ab018f34",
+        "title": "黑石下调Anthropic上市后评级预期至投机级"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "digest": null,
+        "latest_at": "2026-11-01T09:51:06.000Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 10,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.news/story/786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "title": "OpenAI 12月起ChatGPT与Codex共享Token额度"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
+        "digest": null,
+        "latest_at": "2026-10-30T23:51:47.903Z",
+        "original_url": "https://x.com/_philschmid/status/2116235686445502608",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+        "signal_count": 21,
+        "source_count": 5,
+        "status": null,
+        "story_url": "https://aihot.news/story/97a8dc0e-3eed-4ad8-b4f8-9e0d65eda0ad",
+        "title": "Google 卫星在轨 TPU 首次完成 AI 推理并回传俳句"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a28f10be-5030-4347-b3a3-38356ffe393f",
+        "digest": "OpenAI、Google、Microsoft 和 Anthropic 宣布将采用一项新的 IETF 标准，让发布者在 robots.txt 中用共享的 policy token 一次性声明针对多家 AI 公司的训练退出偏好，不必逐家设置。该标准由 Anthropic 技术负责人 Kevin Kelley 向 IETF 提出，信号仍放在网站原有的 robots.txt 文件中。\n\n各家的落地时间不同：Anthropic 已采用该信号，Google 和 Microsoft 计划明年支持，OpenAI 称将在“未来几个月”内实现。Microsoft 还称将提供更细分的控制，让发布者分别选择退出 AI 训练或 AI grounding。\n\nOpenAI 此前说明，这一新信号不会取代其现有 robots.txt 爬虫控制，现有控制继续有效。",
+        "latest_at": "2026-11-01T14:19:52.347Z",
+        "original_url": "https://www.ithome.com/1/020/837.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 14,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/a28f10be-5030-4347-b3a3-38356ffe393f",
+        "title": "四家AI公司支持robots.txt统一退出信号"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a44b16b7-7b97-41d0-bb96-59c6565a7b2c",
+        "digest": null,
+        "latest_at": "2026-10-30T20:48:43.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 17,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/a44b16b7-7b97-41d0-bb96-59c6565a7b2c",
+        "title": "Altman 称本地推理浪费 DRAM 与算力"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d45eae25-a69c-47b6-81b2-cc5f83aff926",
+        "digest": "Anthropic 在 Claude Code 中新增规则，禁止复刻某个具体现有游戏，即使改名或自称原创也不行；制作原创游戏、某一类型的游戏，以及基于用户自有设计与素材的游戏不受影响。\n\n据开发者 @chasmmmmmmmmmmm 称，该规则于 10 月 27 日前后加入，无法关闭，且仅明确针对 Opus 5.5 模型中的 Claude Code。Rohan Paul 转述称，规则通过服务端标记 tengu_heron_brook 下发，无需更新即可覆盖每个会话，用户端没有关闭选项。",
+        "latest_at": "2026-10-31T06:26:18.023Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2116195938456965611",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 7,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/d45eae25-a69c-47b6-81b2-cc5f83aff926",
+        "title": "Anthropic 限制 Claude Code 复刻现有游戏"
+      },
+      "observed_at": "2026-11-01T17:09:48.071756Z"
+    }
+  ],
+  "version": 1
+}
