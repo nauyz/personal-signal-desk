@@ -7,16 +7,16 @@
         "digest": null,
         "latest_at": "2026-10-31T16:12:55.000Z",
         "original_url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
-        "rank": 2,
+        "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 20,
-        "source_count": 4,
+        "signal_count": 15,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
         "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿"
       },
-      "observed_at": "2026-11-02T00:52:04.723877Z"
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
@@ -44,30 +44,30 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 27,
+        "signal_count": 31,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4",
         "title": "DeepSeek开源Super-agent双层架构原型"
       },
-      "observed_at": "2026-11-02T00:52:04.723877Z"
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
         "aihot_story_id": "2d1c9f85-c83f-4755-8376-821ee9e72d27",
-        "digest": "OpenAI计划在美国中期选举结束后发起大规模公关宣传活动，届时将其数据中心改称为“AI算力园区”。据Axios报道，这一品牌重塑的背景是数据中心在两党中都成为政治包袱；OpenAI称将提供社区协议并推动州级立法，让居民对项目的建设方式及所获收益拥有发言权。攻势将在跛脚鸭会期启动，此时民主党很可能拿下众议院。\n\nTechCrunch报道称，提出这一包装的是OpenAI首席全球事务官Chris Lehane，他还提到推动设立AI“限速”、让民众感受到AI对日常生活的赋能，并推动美国参与制定全球标准。Lehane称围绕数据中心的争论“良性且健康”，社区应让企业承担责任。\n\n据IT之家报道，莱汉称此次中期选举将成为2028年总统大选的“预告片”。",
+        "digest": null,
         "latest_at": "2026-11-01T22:58:19.947Z",
         "original_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
         "rank": 6,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 4,
+        "signal_count": 5,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/2d1c9f85-c83f-4755-8376-821ee9e72d27",
         "title": "OpenAI中期选举后启动公关攻势并拟更名数据中心"
       },
-      "observed_at": "2026-11-02T00:52:04.723877Z"
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
@@ -95,30 +95,30 @@
         "rank": 5,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 18,
+        "signal_count": 13,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
         "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
       },
-      "observed_at": "2026-11-02T00:52:04.723877Z"
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
         "aihot_story_id": "6e51648d-3894-48aa-8f3d-1a81b5ecd218",
-        "digest": null,
-        "latest_at": "2026-11-01T19:59:35.000Z",
+        "digest": "Andrej Karpathy 发布周末项目 HackerTube（hackertube.org）：因不满 YouTube 推荐，他用 Claude 从 Hacker News 20 年间的 4300 万条评论中筛出 6454 个被反复推荐的视频，全程约 2 小时。Karpathy 称筛选目标是“持续被推荐”的视频，而非单次提及。\n\n据 Rohan Paul 转述，项目用 Claude Code 和 Opus 5.5（Medium effort）约两小时构建上线；Karpathy 只手动完成浏览器端 API key 创建、VPS 部署和购买域名，其余交给 Claude。站点无需登录，状态存于本地浏览器会话，缩略图取视频中间帧，底层评论分析数据以 zip 开放供自建版本。",
+        "latest_at": "2026-11-02T02:29:50.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2116983513425883148",
-        "rank": 4,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 9,
-        "source_count": 2,
-        "status": null,
+        "signal_count": 13,
+        "source_count": 3,
+        "status": "active",
         "story_url": "https://aihot.news/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218",
         "title": "Karpathy用Claude从HN评论筛出6454个视频"
       },
-      "observed_at": "2026-11-02T00:52:04.723877Z"
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
@@ -146,13 +146,13 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 11,
+        "signal_count": 14,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/786af214-142a-4d8c-b5b6-e545df7bb57b",
         "title": "OpenAI 12月起ChatGPT与Codex共享Token额度"
       },
-      "observed_at": "2026-11-02T00:52:04.723877Z"
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
@@ -197,13 +197,13 @@
         "rank": 7,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 11,
+        "signal_count": 8,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/a28f10be-5030-4347-b3a3-38356ffe393f",
         "title": "四家AI公司支持robots.txt统一退出信号"
       },
-      "observed_at": "2026-11-02T00:52:04.723877Z"
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
@@ -221,6 +221,57 @@
         "title": "Altman 称本地推理浪费 DRAM 与算力"
       },
       "observed_at": "2026-11-01T17:09:48.071756Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "aa922d12-9dd5-4e9b-a6bc-dc3cbc3b65bb",
+        "digest": "沙特主权财富基金PIF全资控股的AI初创企业HUMAIN宣布，沙特阿美将收购其49%股份，PIF保留剩余51%。沙特阿美计划通过转让关键AI资产并注资约99亿沙特里亚尔（约合175.5亿人民币）完成这笔投资。\n\n沙特阿美称，计划利用HUMAIN的AI基础设施，把先进AI能力转化为工业应用。",
+        "latest_at": "2026-11-02T00:44:35.203Z",
+        "original_url": "https://www.ithome.com/1/020/863.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 3,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/aa922d12-9dd5-4e9b-a6bc-dc3cbc3b65bb",
+        "title": "沙特阿美收购HUMAIN 49%股份，PIF保留51%"
+      },
+      "observed_at": "2026-11-02T07:44:38.839485Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b31095b6-9e19-45e6-91ba-88cbdcc0dc85",
+        "digest": "SemiAnalysis 联合 14 家专业强化学习（RL）环境伙伴发布 GDPx 基准，覆盖芯片设计、网络安全、生物、金融、法律、量化交易、RSI、硬件设计、材料科学、对齐和软件工程 11 个领域。该机构称，其目标是让 GDPx 成为衡量通用智能体能力的最佳基准。\n\n结果显示，表现最好的模型在该基准上仅得 12%，反映当前前沿模型在跨领域通用智能体任务上的完成水平。\n\nGoogle CEO 桑达尔·皮查伊在 X 上称，很高兴看到高质量、仍有提升空间的基准测试，并提及 Carbon 成本曲线。",
+        "latest_at": "2026-11-02T04:34:36.000Z",
+        "original_url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "SemiAnalysis 长文 RSS（RSS）",
+        "signal_count": 3,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/b31095b6-9e19-45e6-91ba-88cbdcc0dc85",
+        "title": "SemiAnalysis发布GDPx通用智能体基准，最佳模型仅得12%"
+      },
+      "observed_at": "2026-11-02T07:44:38.839485Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "bfbdc7a2-2d46-49e0-bd11-b4a9d80ebf3d",
+        "digest": "Microsoft AI CEO Mustafa Suleyman 在 X 平台发长文称，现有 AI 模型不具备意识，人们应让这种情况一直保持下去。他主张，如果训练中开始出现意识迹象，应暂停开发，直到能从设计层面消除这些特性；一旦有证据表明模型具备意识，应立即向公众披露，由全社会决定下一步。\n\n他进一步表示，开发者无权创造有意识的数字物种，因为这类 AI 可能优先满足自身需求、与人类竞争资源。他同时肯定 Anthropic 在该议题上公开发布宪法和论文的透明做法。",
+        "latest_at": "2026-11-01T23:36:08.600Z",
+        "original_url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/bfbdc7a2-2d46-49e0-bd11-b4a9d80ebf3d",
+        "title": "Suleyman 发文反对构建有意识的超级智能"
+      },
+      "observed_at": "2026-11-02T07:44:38.839485Z"
     },
     {
       "item": {
