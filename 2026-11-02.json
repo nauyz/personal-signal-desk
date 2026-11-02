@@ -7,16 +7,33 @@
         "digest": null,
         "latest_at": "2026-10-31T16:12:55.000Z",
         "original_url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 18,
+        "signal_count": 20,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/15a36716-6a2a-4098-9854-ee6605f1d6bd",
         "title": "OpenAI 融资目标缩至约 200 亿美元，估值约 1.25 万亿"
       },
-      "observed_at": "2026-11-01T21:14:18.937055Z"
+      "observed_at": "2026-11-02T00:52:04.723877Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2bf3a441-7478-435f-9c80-951f7cb5a2f6",
+        "digest": null,
+        "latest_at": "2026-10-31T05:36:34.647Z",
+        "original_url": "https://x.com/cursor_ai/status/2116074289053175808",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Cursor (@cursor_ai)",
+        "signal_count": 9,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/2bf3a441-7478-435f-9c80-951f7cb5a2f6",
+        "title": "Cursor 扩展市场现恶意 Claude Code 包"
+      },
+      "observed_at": "2026-11-02T00:52:04.723877Z"
     },
     {
       "item": {
@@ -27,13 +44,30 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 26,
+        "signal_count": 27,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4",
         "title": "DeepSeek开源Super-agent双层架构原型"
       },
-      "observed_at": "2026-11-01T21:14:18.937055Z"
+      "observed_at": "2026-11-02T00:52:04.723877Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2d1c9f85-c83f-4755-8376-821ee9e72d27",
+        "digest": "OpenAI计划在美国中期选举结束后发起大规模公关宣传活动，届时将其数据中心改称为“AI算力园区”。据Axios报道，这一品牌重塑的背景是数据中心在两党中都成为政治包袱；OpenAI称将提供社区协议并推动州级立法，让居民对项目的建设方式及所获收益拥有发言权。攻势将在跛脚鸭会期启动，此时民主党很可能拿下众议院。\n\nTechCrunch报道称，提出这一包装的是OpenAI首席全球事务官Chris Lehane，他还提到推动设立AI“限速”、让民众感受到AI对日常生活的赋能，并推动美国参与制定全球标准。Lehane称围绕数据中心的争论“良性且健康”，社区应让企业承担责任。\n\n据IT之家报道，莱汉称此次中期选举将成为2028年总统大选的“预告片”。",
+        "latest_at": "2026-11-01T22:58:19.947Z",
+        "original_url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 4,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2d1c9f85-c83f-4755-8376-821ee9e72d27",
+        "title": "OpenAI中期选举后启动公关攻势并拟更名数据中心"
+      },
+      "observed_at": "2026-11-02T00:52:04.723877Z"
     },
     {
       "item": {
@@ -58,33 +92,33 @@
         "digest": null,
         "latest_at": "2026-11-01T15:05:52.000Z",
         "original_url": "https://www.ithome.com/1/020/392.htm",
-        "rank": 2,
+        "rank": 5,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 29,
-        "source_count": 4,
+        "signal_count": 18,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
         "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
       },
-      "observed_at": "2026-11-01T21:14:18.937055Z"
+      "observed_at": "2026-11-02T00:52:04.723877Z"
     },
     {
       "item": {
         "aihot_story_id": "6e51648d-3894-48aa-8f3d-1a81b5ecd218",
-        "digest": "Andrej Karpathy 发布周末项目 HackerTube（hackertube.org）：因不满 YouTube 推荐，他用 Claude 从 Hacker News 20 年间的 4300 万条评论中筛出 6454 个被反复推荐的视频，全程约 2 小时。Karpathy 称筛选目标是“持续被推荐”的视频，而非单次提及。\n\n据 Rohan Paul 转述，项目用 Claude Code 和 Opus 5.5（Medium effort）约两小时构建上线；Karpathy 只手动完成浏览器端 API key 创建、VPS 部署和购买域名，其余交给 Claude。站点无需登录，状态存于本地浏览器会话，缩略图取视频中间帧，底层评论分析数据以 zip 开放供自建版本。",
+        "digest": null,
         "latest_at": "2026-11-01T19:59:35.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2116983513425883148",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 7,
+        "signal_count": 9,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218",
         "title": "Karpathy用Claude从HN评论筛出6454个视频"
       },
-      "observed_at": "2026-11-01T21:14:18.937055Z"
+      "observed_at": "2026-11-02T00:52:04.723877Z"
     },
     {
       "item": {
@@ -109,16 +143,33 @@
         "digest": null,
         "latest_at": "2026-11-01T09:51:06.000Z",
         "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 10,
+        "signal_count": 11,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/786af214-142a-4d8c-b5b6-e545df7bb57b",
         "title": "OpenAI 12月起ChatGPT与Codex共享Token额度"
       },
-      "observed_at": "2026-11-01T21:14:18.937055Z"
+      "observed_at": "2026-11-02T00:52:04.723877Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "821386f2-3630-4af0-899c-408c373be760",
+        "digest": "SpaceXAI 宣布，自 11 月 7 日起为 Grok 模型生成的文本添加隐形水印，以响应欧盟《人工智能法案》的要求。检测器通过识别这一信号，判断一段文本是否带有肉眼不可见的水印。\n\nSpaceXAI 称，全球所有地区的 SpaceXAI API 均已启用水印；团队管理员可以选择为某款模型单独关闭水印。",
+        "latest_at": "2026-11-01T06:11:02.957Z",
+        "original_url": "https://www.ithome.com/1/020/721.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/821386f2-3630-4af0-899c-408c373be760",
+        "title": "xAI将于11月7日为Grok文本添加隐形水印"
+      },
+      "observed_at": "2026-11-02T00:52:04.723877Z"
     },
     {
       "item": {
@@ -143,16 +194,16 @@
         "digest": null,
         "latest_at": "2026-11-01T14:19:52.347Z",
         "original_url": "https://www.ithome.com/1/020/837.htm",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 12,
+        "signal_count": 11,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/a28f10be-5030-4347-b3a3-38356ffe393f",
         "title": "四家AI公司支持robots.txt统一退出信号"
       },
-      "observed_at": "2026-11-01T21:14:18.937055Z"
+      "observed_at": "2026-11-02T00:52:04.723877Z"
     },
     {
       "item": {
@@ -177,7 +228,7 @@
         "digest": null,
         "latest_at": "2026-10-31T06:26:18.023Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2116195938456965611",
-        "rank": 9,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 7,
@@ -186,7 +237,7 @@
         "story_url": "https://aihot.news/story/d45eae25-a69c-47b6-81b2-cc5f83aff926",
         "title": "Anthropic 限制 Claude Code 复刻现有游戏"
       },
-      "observed_at": "2026-11-01T21:14:18.937055Z"
+      "observed_at": "2026-11-02T00:52:04.723877Z"
     }
   ],
   "version": 1
