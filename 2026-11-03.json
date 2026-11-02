@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "2c2767a9-6b79-436a-abe0-8b35fcf156b4",
+        "digest": "DeepSeek Harness 团队提出 Super-agent 双层架构：Router 层与用户对话并分派任务，Worker 层在隔离会话中并发执行，团队称目标是让 Agent 更自主。团队随后以 MIT 许可开源编码智能体原型 dsh-superagent v0.1.0，作为 DeepSeek Harness 的插件包在用户本机运行，面向单个 GitHub 仓库，可监听 GitHub 和可选的 Feishu 请求并生成并行工作的 Ticket。\n\n团队称，异步任务机制已在 DeepSeek Harness 中实现但尚未默认开启，该插件用于验证技术路线，并非 DeepSeek 正式产品。原型运行需 Node.js 22.19+ 或 24+、git 2.32+、Python 3.8+、tmux 及 GitHub CLI 2.48+；主动工作受授权控制，分 off、observe（默认）、auto 三种模式。\n\nDeepSeek 随后发布该文章的官方英文版，文中称公司在 Agent 产品上已有模型、算法、基建及研究员和工程师，但产品经理数量远远不够，产品部正招募 Agent 产品经理；后续帖文补充称设计师同样不足。",
+        "latest_at": "2026-11-02T14:30:00.000Z",
+        "original_url": "https://www.ithome.com/1/020/615.htm",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 31,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4",
+        "title": "DeepSeek 开源 Super-agent 双层架构原型"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2d1c9f85-c83f-4755-8376-821ee9e72d27",
+        "digest": "OpenAI计划在美国中期选举结束后发起大规模公关与游说攻势，届时将其数据中心改称为“AI算力园区”。据Axios报道，这一品牌重塑的背景是数据中心在两党中都成为政治包袱；OpenAI称将提供社区协议并推动州级立法，让居民对项目的建设方式及所获收益拥有发言权。攻势将在跛脚鸭会期启动，此时民主党很可能拿下众议院。\n\nTechCrunch报道称，提出这一包装的是OpenAI首席全球事务官Chris Lehane，他还提到推动设立AI“限速”、让民众感受到AI对日常生活的赋能，并推动美国参与制定全球标准。Lehane称围绕数据中心的争论“良性且健康”，社区应让企业承担责任。\n\n据IT之家报道，莱汉称此次中期选举将成为2028年总统大选的“预告片”。The Decoder称，OpenAI此举旨在防范民主党赢得众议院多数后监管压力加大。",
+        "latest_at": "2026-11-02T10:47:59.000Z",
+        "original_url": "https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 8,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2d1c9f85-c83f-4755-8376-821ee9e72d27",
+        "title": "OpenAI中期选举后启动公关攻势并拟更名数据中心"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "50f0b947-7493-4da9-95c7-bfad63bb5a8c",
+        "digest": null,
+        "latest_at": "2026-11-01T15:05:52.000Z",
+        "original_url": "https://www.ithome.com/1/020/392.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
+        "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6e51648d-3894-48aa-8f3d-1a81b5ecd218",
+        "digest": null,
+        "latest_at": "2026-11-02T02:29:50.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2116983513425883148",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 22,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218",
+        "title": "Karpathy用Claude从HN评论筛出6454个视频"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "74594f3f-d04c-499f-99c9-741f08456180",
+        "digest": "阿布扎比王储哈立德会见 OpenAI 首席执行官 Sam Altman 后，阿布扎比相关机构与 OpenAI 签署四项协议，涉及政府、能源和投资领域。\n\n协议由阿布扎比方面与 OpenAI 签署，哈立德王储见证签署。目前公开信息仅说明协议覆盖的领域，未披露各项协议的具体内容、金额或执行安排。",
+        "latest_at": "2026-11-02T07:38:19.310Z",
+        "original_url": "https://www.ithome.com/1/021/066.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 7,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/74594f3f-d04c-499f-99c9-741f08456180",
+        "title": "阿布扎比与 OpenAI 签署四项合作协议"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "digest": "OpenAI 宣布，从 12 月起，Plus、Pro 和 Business 套餐的 ChatGPT 与 Codex 将共用同一份 token 额度。OpenAI 称，这一调整的背景是，它把 7 月基于 Codex 构建的 ChatGPT Work 的智能体功能并入主 ChatGPT 体验。\n\n额度按 token 计算，模型越高级、任务越复杂，扣减越多。Instant 聊天不占用这份共享额度。额度耗尽后，用户可以等待自动重置、升级套餐或增购点数（Credits）。TechCrunch 称，部分用户可能因此更频繁地等待重置。\n\n同时，OpenAI 正合并 ChatGPT 的 Chat 与 Work 标签页，先向部分用户开放以收集反馈，再逐步推广；Codex 仍保留为桌面应用中的独立体验。\n\n此前 Codex Pro 额度曾在一个月内先降后恢复，社区在 GitHub 上提 issue 抗议；有作者认为，此次合并与 IPO 预期下的算力成本压力有关。",
+        "latest_at": "2026-11-02T13:57:53.000Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 19,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.news/story/786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "title": "OpenAI 12月起ChatGPT与Codex共享Token额度"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\n后续更新的 IPO 文件首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。The Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元；彭博社另报道其服务器、建筑和电力等领域投入近 9000 亿美元债务，租赁及采购协议等表外义务未直接体现在资产负债表。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。",
+        "latest_at": "2026-11-02T16:01:15.000Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 19,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8b71dc45-4e03-41aa-a2e0-97b2a37915dc",
+        "digest": "马斯克在 X 平台回应称，周末部分用户 Grok Bot 每周额度被用满并非故障，原因是服务成本“相对于收入而言高到难以为继”，并已下调用量限制。他未说明订阅者限额今后如何调整。\n\nGrok Bot 是 SpaceX 今年 8 月推出的 AI 智能体，从免费版到每月 200 美元套餐分多档，所有档位都设有每周重置的使用限额；上月财报披露其付费周活用户达 80 万。\n\nTechCrunch 另提到，SpaceX 上月披露 AI 已占公司收入 52%，其更名的 Super Intelligence 部门实现 4.31 亿美元盈利，但因收购 Cursor 的 12 亿美元一次性成本，利润本可更高。",
+        "latest_at": "2026-11-02T16:23:21.000Z",
+        "original_url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 13,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/8b71dc45-4e03-41aa-a2e0-97b2a37915dc",
+        "title": "马斯克承认Grok Bot成本高于收入并下调限额"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b31095b6-9e19-45e6-91ba-88cbdcc0dc85",
+        "digest": "SemiAnalysis 联合 14 家专业强化学习环境伙伴发布 GDPx 基准，覆盖芯片设计、网络安全、生物、金融、法律、量化交易、RSI、硬件设计、材料科学、对齐和软件工程 11 个领域，该机构称目标是成为衡量通用智能体能力的最佳基准。\n\n结果显示，表现最好的模型在该基准上仅得 12%。Rohan Paul 在 X 上称，Claude Opus 5.5 平均 12% 居首，Gemini 4 Carbon 为 10.9%，GPT-6 Astra 在 AI 研究和材料科学任务上领先。\n\nGoogle CEO 桑达尔·皮查伊在 X 上称，很高兴看到高质量、仍有提升空间的基准测试，并提及 Carbon 成本曲线。",
+        "latest_at": "2026-11-02T12:45:11.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2117236578712186935",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 6,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/b31095b6-9e19-45e6-91ba-88cbdcc0dc85",
+        "title": "SemiAnalysis发布GDPx基准，最佳模型仅得12%"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e3ffefd6-5164-4d6a-99a8-7637c4fa57aa",
+        "digest": "美团龙猫发布原生多模态模型 LongCat-2.5，面向长程智能体任务。模型总参数 1.6 万亿、每 token 激活约 480 亿，在 LongCat-2.0 基础上强化原生视觉理解与智能体编程能力。美团 LongCat 称，该模型可覆盖从复杂编程项目到创意设计、3D 任务等视觉编程场景。\n\n不过，该模型在 GitHub 和 Hugging Face 上均标注为“即将上线”，尚未开放下载。",
+        "latest_at": "2026-11-02T14:35:23.000Z",
+        "original_url": "https://www.ithome.com/1/020/873.htm",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 8,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/e3ffefd6-5164-4d6a-99a8-7637c4fa57aa",
+        "title": "美团龙猫发布 LongCat-2.5 原生多模态模型"
+      },
+      "observed_at": "2026-11-02T18:30:00.301806Z"
+    }
+  ],
+  "version": 1
+}
