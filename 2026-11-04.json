@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "2c2767a9-6b79-436a-abe0-8b35fcf156b4",
+        "digest": null,
+        "latest_at": "2026-11-02T14:30:00.000Z",
+        "original_url": "https://www.ithome.com/1/020/615.htm",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 19,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4",
+        "title": "DeepSeek 开源 Super-agent 双层架构原型"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6967bf9e-459b-487f-93ce-2804c3605d57",
+        "digest": null,
+        "latest_at": "2026-11-03T02:00:55.937Z",
+        "original_url": "https://www.ithome.com/1/021/337.htm",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 48,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.news/story/6967bf9e-459b-487f-93ce-2804c3605d57",
+        "title": "MIT 称 GPT-6 Astra 可直接改写模型权重"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6e51648d-3894-48aa-8f3d-1a81b5ecd218",
+        "digest": null,
+        "latest_at": "2026-11-02T02:29:50.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2116983513425883148",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 26,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218",
+        "title": "Karpathy用Claude从HN评论筛出6454个视频"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "digest": null,
+        "latest_at": "2026-11-02T13:57:53.000Z",
+        "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 18,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/786af214-142a-4d8c-b5b6-e545df7bb57b",
+        "title": "OpenAI 12月起ChatGPT与Codex共享Token额度"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。公司称未来可能无法实现或维持盈利。\n\n后续更新的 IPO 文件首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。更新文件还显示，算力与基础设施合同承诺总额约 8954 亿美元，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。",
+        "latest_at": "2026-11-03T08:03:19.683Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 35,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8b71dc45-4e03-41aa-a2e0-97b2a37915dc",
+        "digest": null,
+        "latest_at": "2026-11-02T18:15:39.000Z",
+        "original_url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 21,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/8b71dc45-4e03-41aa-a2e0-97b2a37915dc",
+        "title": "马斯克承认Grok Bot成本高于收入并下调限额"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "956471b6-c78b-44c7-b4d4-e00583803aca",
+        "digest": "Google宣布把Guided Learning功能引入Google Search学生账号和Google Classroom，并调整学校管控策略。Google称，Guided Learning即日起在Google Classroom面向全球开放；Search中的相关功能本月晚些时候先在美国部分学校试点，收集教育者反馈后再推广到其他学区。\n\n对K-12学生账号，Gemini、Gemini Notebook、Gemini in Classroom和Google Search默认全部关闭，须由学校管理员显式开启。Google表示，管理员无法只关闭Gemini功能而保留Search；选择完全限制AI的学校，学生将无法使用搜索，并会看到学校提示信息。\n\n上述默认关闭安排从明年起生效。",
+        "latest_at": "2026-11-03T17:00:04.000Z",
+        "original_url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 5,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/956471b6-c78b-44c7-b4d4-e00583803aca",
+        "title": "Google将引导学习引入Search和Classroom，K-12学生AI工具默认关闭"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "975cd7c8-0397-45a6-b796-4383e2f877c9",
+        "digest": "OpenAI 新设“国家安全现代化高级顾问”一职，聘请前美国陆军部长 Dan Driscoll 出任。OpenAI 称，他将与公司高层及外部伙伴合作，就先进 AI 如何加强国家与网络安全提供建议，重点是与美国盟友合作推动民主 AI 的负责任使用。该职位属顾问性质，提供建议而非直接管理业务；据 Rohan Paul 转述，他还将帮助 OpenAI 内部团队理解全球国家安全机构的实际需求。\n\nThe Decoder 报道称，OpenAI 此举意在寻求与军方更紧密合作和更多政府合同，并提到 Driscoll 任内推动包括 Project ARIA 在内的 AI 现代化，与副总统 JD Vance 关系密切、在国会两党均有人脉。",
+        "latest_at": "2026-11-03T15:03:02.000Z",
+        "original_url": "https://openai.com/index/dan-driscoll-joins-openai",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 9,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/975cd7c8-0397-45a6-b796-4383e2f877c9",
+        "title": "OpenAI新设国家安全顾问，Driscoll出任"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b6f65389-3979-47e3-9c31-45d5b8f1f907",
+        "digest": "Apple公布截至9月26日的2026财年第四季度财报：季度营收1145亿美元，同比增长12%；摊薄每股收益2.10美元，同比增长14%，毛利率47.9%。公司称iPhone营收创9月季度纪录，Services营收创历史新高。全财年营收4790亿美元，创历史纪录；季度经营现金流280亿美元，并宣布每股0.27美元现金股息。\n\nThe Verge报道称，该季度iPhone营收同比增长17.5%至576亿美元，Mac营收增长24%至108亿美元；但Apple警告内存成本将挤压假日季利润率，盘前股价因此下跌。\n\n在财报电话会上，Apple CFO Kevan Parekh称第三方应用与合作存在机会，但未说明具体形式；路透社称投资者猜测Apple可能通过App Store分发第三方AI智能体并抽取分成。Apple预计12月季度服务业务增长8%至9%。",
+        "latest_at": "2026-11-03T15:24:51.000Z",
+        "original_url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Apple：Newsroom（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/b6f65389-3979-47e3-9c31-45d5b8f1f907",
+        "title": "Apple发布2026财年第四季度财报"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c4a01cfb-6d94-4845-a8b3-636ddead765f",
+        "digest": null,
+        "latest_at": "2026-11-02T17:50:56.000Z",
+        "original_url": "https://x.com/tianyi/status/2117258349649780737",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：Tianyi Cui（@tianyi）",
+        "signal_count": 13,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.news/story/c4a01cfb-6d94-4845-a8b3-636ddead765f",
+        "title": "DeepSeek Harness 推出 Creator Mode"
+      },
+      "observed_at": "2026-11-03T17:53:50.798505Z"
+    }
+  ],
+  "version": 1
+}
