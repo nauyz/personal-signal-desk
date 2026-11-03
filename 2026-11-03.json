@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "2c2767a9-6b79-436a-abe0-8b35fcf156b4",
-        "digest": "DeepSeek Harness 团队提出 Super-agent 双层架构：Router 层与用户对话并分派任务，Worker 层在隔离会话中并发执行，团队称目标是让 Agent 更自主。团队随后以 MIT 许可开源编码智能体原型 dsh-superagent v0.1.0，作为 DeepSeek Harness 的插件包在用户本机运行，面向单个 GitHub 仓库，可监听 GitHub 和可选的 Feishu 请求并生成并行工作的 Ticket。\n\n团队称，异步任务机制已在 DeepSeek Harness 中实现但尚未默认开启，该插件用于验证技术路线，并非 DeepSeek 正式产品。原型运行需 Node.js 22.19+ 或 24+、git 2.32+、Python 3.8+、tmux 及 GitHub CLI 2.48+；主动工作受授权控制，分 off、observe（默认）、auto 三种模式。\n\nDeepSeek 随后发布该文章的官方英文版，文中称公司在 Agent 产品上已有模型、算法、基建及研究员和工程师，但产品经理数量远远不够，产品部正招募 Agent 产品经理；后续帖文补充称设计师同样不足。",
+        "digest": null,
         "latest_at": "2026-11-02T14:30:00.000Z",
         "original_url": "https://www.ithome.com/1/020/615.htm",
-        "rank": 1,
+        "rank": 4,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 31,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/2c2767a9-6b79-436a-abe0-8b35fcf156b4",
         "title": "DeepSeek 开源 Super-agent 双层架构原型"
       },
-      "observed_at": "2026-11-02T18:30:00.301806Z"
+      "observed_at": "2026-11-03T01:38:56.369441Z"
     },
     {
       "item": {
@@ -54,6 +54,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "6967bf9e-459b-487f-93ce-2804c3605d57",
+        "digest": "MIT CSAIL 博士生 Rikiya Takehi 团队提出“权重空间编程”（Weight-Space Programming），称 GPT-6 Astra 无需训练或梯度，就能直接读写神经网络权重。团队称，仅修改 Qwen3.5-0.8B 约 0.016% 的权重后，该模型 MATH-500 成绩从 7.9 升至 48.1，GSM8K 从 13.8 升至 67.1，指令遵循提升 3 倍。\n\n这些数字来自研究者一方，尚无独立复现或第三方验证公开。若成立，模型能力调整可绕过微调流程，直接作用于权重本身。OpenAI 开发者体验团队的 Dominik Kundel 在社交平台转述并称赞该效果，但未提供新的验证信息。",
+        "latest_at": "2026-11-03T00:35:50.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2117350399271371113",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 27,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/6967bf9e-459b-487f-93ce-2804c3605d57",
+        "title": "MIT 称 GPT-6 Astra 可直接改写模型权重"
+      },
+      "observed_at": "2026-11-03T01:38:56.369441Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "6e51648d-3894-48aa-8f3d-1a81b5ecd218",
         "digest": null,
         "latest_at": "2026-11-02T02:29:50.000Z",
@@ -61,13 +78,13 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 22,
+        "signal_count": 25,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/6e51648d-3894-48aa-8f3d-1a81b5ecd218",
         "title": "Karpathy用Claude从HN评论筛出6454个视频"
       },
-      "observed_at": "2026-11-02T18:30:00.301806Z"
+      "observed_at": "2026-11-03T01:38:56.369441Z"
     },
     {
       "item": {
@@ -89,87 +106,121 @@
     {
       "item": {
         "aihot_story_id": "786af214-142a-4d8c-b5b6-e545df7bb57b",
-        "digest": "OpenAI 宣布，从 12 月起，Plus、Pro 和 Business 套餐的 ChatGPT 与 Codex 将共用同一份 token 额度。OpenAI 称，这一调整的背景是，它把 7 月基于 Codex 构建的 ChatGPT Work 的智能体功能并入主 ChatGPT 体验。\n\n额度按 token 计算，模型越高级、任务越复杂，扣减越多。Instant 聊天不占用这份共享额度。额度耗尽后，用户可以等待自动重置、升级套餐或增购点数（Credits）。TechCrunch 称，部分用户可能因此更频繁地等待重置。\n\n同时，OpenAI 正合并 ChatGPT 的 Chat 与 Work 标签页，先向部分用户开放以收集反馈，再逐步推广；Codex 仍保留为桌面应用中的独立体验。\n\n此前 Codex Pro 额度曾在一个月内先降后恢复，社区在 GitHub 上提 issue 抗议；有作者认为，此次合并与 IPO 预期下的算力成本压力有关。",
+        "digest": null,
         "latest_at": "2026-11-02T13:57:53.000Z",
         "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647688028&idx=1&sn=e509269da2e0e0b4d4dfbb121b42204b",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 19,
-        "source_count": 5,
-        "status": "active",
+        "signal_count": 20,
+        "source_count": 2,
+        "status": null,
         "story_url": "https://aihot.news/story/786af214-142a-4d8c-b5b6-e545df7bb57b",
         "title": "OpenAI 12月起ChatGPT与Codex共享Token额度"
       },
-      "observed_at": "2026-11-02T18:30:00.301806Z"
+      "observed_at": "2026-11-03T01:38:56.369441Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": "Anthropic 已向美国 SEC 提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效，生效前不得出售证券。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。截至 9 月底，年支出 10 万美元以上客户超 11,900 家，其中约 250 家客户在截至 9 月 30 日的 12 个月内支出超 1000 万美元。公司称未来可能无法实现或维持盈利。\n\n后续更新的 IPO 文件首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。The Verge 依据招股书统计，不可撤销采购承诺 2656 亿美元，加上尚未开始的租赁协议 3214 亿美元等，未来 20 年承诺至少约 8500 亿美元；彭博社另报道其服务器、建筑和电力等领域投入近 9000 亿美元债务，租赁及采购协议等表外义务未直接体现在资产负债表。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。",
-        "latest_at": "2026-11-02T16:01:15.000Z",
+        "digest": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。\n\n招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。公司称未来可能无法实现或维持盈利。\n\n后续更新的 IPO 文件首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。更新文件还显示，算力与基础设施合同承诺总额约 8954 亿美元，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。",
+        "latest_at": "2026-11-03T00:03:15.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
         "rank": 2,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 19,
+        "signal_count": 26,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克"
       },
-      "observed_at": "2026-11-02T18:30:00.301806Z"
+      "observed_at": "2026-11-03T01:38:56.369441Z"
     },
     {
       "item": {
         "aihot_story_id": "8b71dc45-4e03-41aa-a2e0-97b2a37915dc",
-        "digest": "马斯克在 X 平台回应称，周末部分用户 Grok Bot 每周额度被用满并非故障，原因是服务成本“相对于收入而言高到难以为继”，并已下调用量限制。他未说明订阅者限额今后如何调整。\n\nGrok Bot 是 SpaceX 今年 8 月推出的 AI 智能体，从免费版到每月 200 美元套餐分多档，所有档位都设有每周重置的使用限额；上月财报披露其付费周活用户达 80 万。\n\nTechCrunch 另提到，SpaceX 上月披露 AI 已占公司收入 52%，其更名的 Super Intelligence 部门实现 4.31 亿美元盈利，但因收购 Cursor 的 12 亿美元一次性成本，利润本可更高。",
-        "latest_at": "2026-11-02T16:23:21.000Z",
-        "original_url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
-        "rank": 5,
+        "digest": "马斯克在 X 平台回应称，周末部分用户 Grok Bot 每周额度被用满并非故障，原因是服务成本“相对于收入而言高到难以为继”，并已下调用量限制。他未说明订阅者限额今后如何调整。\n\n据 Telegraph 报道，SpaceX 上周末削减了 Grok Bot 的用量配额，多名用户配额减半；Musk 未直接确认削减。Grok Bot 是 SpaceX 今年 8 月推出的 AI 智能体，从免费版到每月 200 美元套餐分多档，所有档位都设有每周重置的使用限额，且与 Grok 及编程平台 Cursor 共用配额。上月财报披露其付费周活用户达 80 万。\n\nTechCrunch 另提到，SpaceX 上月披露 AI 已占公司收入 52%，其更名的 Super Intelligence 部门实现 4.31 亿美元盈利，但因收购 Cursor 的 12 亿美元一次性成本，利润本可更高。",
+        "latest_at": "2026-11-02T18:15:39.000Z",
+        "original_url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+        "rank": 6,
         "recovered": false,
-        "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 13,
-        "source_count": 2,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 14,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.news/story/8b71dc45-4e03-41aa-a2e0-97b2a37915dc",
         "title": "马斯克承认Grok Bot成本高于收入并下调限额"
       },
-      "observed_at": "2026-11-02T18:30:00.301806Z"
+      "observed_at": "2026-11-03T01:38:56.369441Z"
     },
     {
       "item": {
         "aihot_story_id": "b31095b6-9e19-45e6-91ba-88cbdcc0dc85",
-        "digest": "SemiAnalysis 联合 14 家专业强化学习环境伙伴发布 GDPx 基准，覆盖芯片设计、网络安全、生物、金融、法律、量化交易、RSI、硬件设计、材料科学、对齐和软件工程 11 个领域，该机构称目标是成为衡量通用智能体能力的最佳基准。\n\n结果显示，表现最好的模型在该基准上仅得 12%。Rohan Paul 在 X 上称，Claude Opus 5.5 平均 12% 居首，Gemini 4 Carbon 为 10.9%，GPT-6 Astra 在 AI 研究和材料科学任务上领先。\n\nGoogle CEO 桑达尔·皮查伊在 X 上称，很高兴看到高质量、仍有提升空间的基准测试，并提及 Carbon 成本曲线。",
+        "digest": null,
         "latest_at": "2026-11-02T12:45:11.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2117236578712186935",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 6,
+        "signal_count": 7,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/b31095b6-9e19-45e6-91ba-88cbdcc0dc85",
         "title": "SemiAnalysis发布GDPx基准，最佳模型仅得12%"
       },
-      "observed_at": "2026-11-02T18:30:00.301806Z"
+      "observed_at": "2026-11-03T01:38:56.369441Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c4a01cfb-6d94-4845-a8b3-636ddead765f",
+        "digest": "DeepSeek 为免费 AI agent 应用 DeepSeek Harness 推出 Creator Mode（创作者模式），称用户用自然语言描述想要的工具，agent 会编写、安装并测试它，使其成为应用内的新插件。DeepSeek 同时发布了演示视频和 7 个示例背后的提示词，示例包括设计工作区、沙盒游戏和 3D 大模型可视化器。\n\nX 用户 @tianyi 发帖询问是否有人试用过 Creator Mode、是否有反馈；目前公开信息中尚无试用结果或效果评价。",
+        "latest_at": "2026-11-02T17:50:56.000Z",
+        "original_url": "https://x.com/tianyi/status/2117258349649780737",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Tianyi Cui（@tianyi）",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/c4a01cfb-6d94-4845-a8b3-636ddead765f",
+        "title": "DeepSeek Harness 推出 Creator Mode"
+      },
+      "observed_at": "2026-11-03T01:38:56.369441Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d45eae25-a69c-47b6-81b2-cc5f83aff926",
+        "digest": "Anthropic 更新 Claude Code 在 Opus 5.5 上的系统提示词，新增两句指令，禁止复刻某个具体现有游戏，即使改名或自称原创也不行；原创游戏、某一类型的游戏，以及基于用户自有设计与素材的游戏仍可制作。Anthropic 的 Addy Osmani 回应称，此举是为避免 Claude 被用于侵犯知识产权，公司会继续迭代寻找平衡。\n\n据开发者 @chasmmmmmmmmmmm 称，该规则约在 10 月 27 日加入，无法关闭，且仅明确针对 Opus 5.5 模型中的 Claude Code。Rohan Paul 转述称，规则通过服务端标记 tengu_heron_brook 下发，无需更新即可覆盖每个会话，用户端没有关闭选项。Ars Technica 则称，XDA 在 10 月 30 日发布的 Claude Code 2.1.314 版本中确认该规则以 tengu_heron_brook 之名写入 json 文件。\n\nArs Technica 称，此举或能帮 Anthropic 规避部分责任，但难以遏制近几个月涌现的 AI 辅助游戏移植与复制潮；The Verge 提到，此前复古游戏圈出现大量 AI 制作的破解移植作品。",
+        "latest_at": "2026-11-02T18:56:02.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2116195938456965611",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 12,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/d45eae25-a69c-47b6-81b2-cc5f83aff926",
+        "title": "Anthropic 限制 Claude Code 复刻现有游戏"
+      },
+      "observed_at": "2026-11-03T01:38:56.369441Z"
     },
     {
       "item": {
         "aihot_story_id": "e3ffefd6-5164-4d6a-99a8-7637c4fa57aa",
-        "digest": "美团龙猫发布原生多模态模型 LongCat-2.5，面向长程智能体任务。模型总参数 1.6 万亿、每 token 激活约 480 亿，在 LongCat-2.0 基础上强化原生视觉理解与智能体编程能力。美团 LongCat 称，该模型可覆盖从复杂编程项目到创意设计、3D 任务等视觉编程场景。\n\n不过，该模型在 GitHub 和 Hugging Face 上均标注为“即将上线”，尚未开放下载。",
+        "digest": null,
         "latest_at": "2026-11-02T14:35:23.000Z",
         "original_url": "https://www.ithome.com/1/020/873.htm",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 8,
+        "signal_count": 9,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/e3ffefd6-5164-4d6a-99a8-7637c4fa57aa",
         "title": "美团龙猫发布 LongCat-2.5 原生多模态模型"
       },
-      "observed_at": "2026-11-02T18:30:00.301806Z"
+      "observed_at": "2026-11-03T01:38:56.369441Z"
     }
   ],
   "version": 1
