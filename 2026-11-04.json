@@ -21,19 +21,19 @@
     {
       "item": {
         "aihot_story_id": "50f0b947-7493-4da9-95c7-bfad63bb5a8c",
-        "digest": "苹果宣布 Apple 智能随 iOS 27.3 进入中国市场：11 月 4 日开放开发者预览版测试，12 月正式版上线首批核心功能。11 月 4 日 IT之家实测称，国行「Apple 智能与 Siri」已在该预览版如期上线，iPhone 15 Pro 及更新机型可用。\n\n阿里巴巴同日公告称，千问集成至 Siri、写作工具和视觉智能，用户可自主选择是否开通，登录千问账户或通过「通过 Apple 登录」即可在系统内调用，无需跳转独立应用；用户请求及回复不会被阿里用于模型训练。该功能面向在中国购买支持 Apple 智能的 iPhone 用户，或设备定位和 Apple 账户国家/地区均设在中国的用户。\n\n据 The Verge 报道，此次上线不包括新版 Siri AI，中国用户暂时无法使用这一 Siri 功能。",
+        "digest": null,
         "latest_at": "2026-11-03T20:31:34.443Z",
         "original_url": "https://www.ithome.com/1/020/392.htm",
-        "rank": 5,
+        "rank": 3,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 14,
+        "signal_count": 22,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
         "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
       },
-      "observed_at": "2026-11-03T23:28:43.460415Z"
+      "observed_at": "2026-11-04T06:36:59.106079Z"
     },
     {
       "item": {
@@ -44,13 +44,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 49,
+        "signal_count": 55,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/6967bf9e-459b-487f-93ce-2804c3605d57",
         "title": "MIT 称 GPT-6 Astra 可直接改写模型权重"
       },
-      "observed_at": "2026-11-03T23:28:43.460415Z"
+      "observed_at": "2026-11-04T06:36:59.106079Z"
     },
     {
       "item": {
@@ -89,19 +89,19 @@
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": "Anthropic 已向美国 SEC 公开提交 S-1 注册声明，拟在纳斯达克以代码 ANT 发行 A 类普通股，由高盛和摩根士丹利承销；发行股数与价格区间尚未确定，注册声明尚未生效。招股书披露 2026 年上半年营收 162.86 亿美元，约为去年同期的 13 倍；经营亏损收窄至 6.93 亿美元，净亏损 807 亿美元，主要来自可转换票据等非现金会计调整。公司称未来可能无法实现或维持盈利。\n\n后续更新的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出；Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%。更新文件还显示，算力与基础设施合同承诺总额约 8954 亿美元，另有最高 1750 亿美元尚未定价，其中 4475 亿美元须在 2031 年前支付，仅 2138 亿美元可取消或附带条件。\n\n上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权，普通股股东对董事会组成影响有限。更新文件另称，公司可能很快触及自身《负责任扩缩策略》所定义的递归自我改进阈值，但目前没有任何现有模型被认定越过该阈值。",
+        "digest": null,
         "latest_at": "2026-11-03T17:07:01.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
-        "rank": 2,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
         "signal_count": 35,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 递交 S-1 拟以 ANT 登陆纳斯达克"
       },
-      "observed_at": "2026-11-03T23:28:43.460415Z"
+      "observed_at": "2026-11-04T06:36:59.106079Z"
     },
     {
       "item": {
@@ -109,33 +109,33 @@
         "digest": null,
         "latest_at": "2026-11-02T18:15:39.000Z",
         "original_url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
-        "rank": 4,
+        "rank": 7,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 22,
+        "signal_count": 19,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/8b71dc45-4e03-41aa-a2e0-97b2a37915dc",
         "title": "马斯克承认Grok Bot成本高于收入并下调限额"
       },
-      "observed_at": "2026-11-03T23:28:43.460415Z"
+      "observed_at": "2026-11-04T06:36:59.106079Z"
     },
     {
       "item": {
         "aihot_story_id": "956471b6-c78b-44c7-b4d4-e00583803aca",
         "digest": "Google宣布把Guided Learning引入Google Search学生账号和Google Classroom，并调整学校管控策略。Google称，Guided Learning即日起在Google Classroom面向全球开放；Search中的相关功能本月晚些时候先在美国部分学校试点，收集教育者反馈后再推广到其他学区。\n\n对K-12学生账号，Gemini、Gemini Notebook、Gemini in Classroom和Google Search默认全部关闭，须由学校管理员显式开启。Google表示，管理员无法只关闭Gemini功能而保留Search；选择完全限制AI的学校，学生将无法使用搜索，并会看到学校提示信息。\n\n上述默认关闭安排从明年起生效。",
-        "latest_at": "2026-11-03T17:54:43.000Z",
+        "latest_at": "2026-11-04T05:18:42.937Z",
         "original_url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 15,
-        "source_count": 4,
+        "signal_count": 20,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/956471b6-c78b-44c7-b4d4-e00583803aca",
         "title": "Google将引导学习引入Search和Classroom，K-12学生AI工具默认关闭"
       },
-      "observed_at": "2026-11-03T23:28:43.460415Z"
+      "observed_at": "2026-11-04T06:36:59.106079Z"
     },
     {
       "item": {
@@ -153,6 +153,40 @@
         "title": "OpenAI新设国家安全顾问，Driscoll出任"
       },
       "observed_at": "2026-11-03T23:28:43.460415Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9c7379d1-14a9-4bd6-9974-018637abc036",
+        "digest": "OpenAI 消费者产品负责人 Adam Fry 称，ChatGPT 上触发网页搜索的查询量已相当于 Google 搜索量的约 20%，周活跃用户两个月内从 10 亿增至 12 亿。这一说法由 Fry 在纽约一场 OpenAI 主办的晚宴对谈中提出，随后他在媒体活动上再次确认，OpenAI 方面也予以证实。\n\nFry 同时披露，语音模式每周有 2.5 亿活跃用户，用户每周生成 15 亿张图片，ChatGPT 计划合并 Chat 与 Work 两种模式。他称广告未对产品使用造成负面影响，OpenAI 正把广告扩展为聊天回复中的赞助商品图片。\n\n作为参照，Bing 在 2023 年反垄断审判中的市场份额约为 3%；皮尤研究中心今夏调查显示，42% 的美国成年人曾用 AI 搜索信息，44% 使用过 ChatGPT，Gemini 为 24%。Alphabet CEO 皮查伊此前表示，聊天机器人与搜索并非零和博弈。",
+        "latest_at": "2026-11-03T23:16:23.803Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 8,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/9c7379d1-14a9-4bd6-9974-018637abc036",
+        "title": "OpenAI 称 ChatGPT 搜索量达 Google 两成、周活 12 亿"
+      },
+      "observed_at": "2026-11-04T06:36:59.106079Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "afb1ed66-7ecc-4d15-b9d1-90b835f6e985",
+        "digest": "AMD 发布 2026 年第三季度财报，并预计 2027 年营收增长超过 80%，高于分析师建模的 77%。\n\nAMD CEO Lisa Su 称，数据中心芯片将占公司明年销售额的 80%。",
+        "latest_at": "2026-11-03T23:14:06.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2117757237557088263",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 8,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/afb1ed66-7ecc-4d15-b9d1-90b835f6e985",
+        "title": "AMD发布三季度财报，预计2027年营收增长超80%"
+      },
+      "observed_at": "2026-11-04T06:36:59.106079Z"
     },
     {
       "item": {
@@ -190,20 +224,54 @@
     },
     {
       "item": {
-        "aihot_story_id": "f33dbd76-b66f-428a-a7ec-f89e1db4f51b",
-        "digest": "Anthropic 发布并开源可验证推理原型 FlashProve：用 zkSNARK 让用户在不接触模型权重的情况下，验证某条回复确由指定模型生成。代码、Lean 形式化证明和文档以 Apache 2.0 协议公开。Anthropic 称，在 400B 参数混合专家模型 Llama 4 Maverick（4-bit 量化）上，单张 H100 生成证明的速度超过 100 tokens/秒，每 1,024 token 请求的证明约 19 MB；其 GPU 耗时约为常用开源库 vLLM 处理同长度提示的 70–95 倍。\n\nAnthropic 称，该证明可用于防止攻击者劫持对话，也能让安全评估者确认被测模型与线上服务模型一致；TechCrunch 报道称，系统要求模型发布方公开不泄露权重的模型指纹，并可在本地设备完成验证。Anthropic 表示，这是中间进展，并非已完成的研究议程；TechCrunch 称，目前没有在 Anthropic 或其他实验室部署该系统的计划。",
-        "latest_at": "2026-11-03T22:41:03.000Z",
-        "original_url": "https://www.anthropic.com/research/provable-inference",
+        "aihot_story_id": "d45eae25-a69c-47b6-81b2-cc5f83aff926",
+        "digest": "Anthropic 在 Claude Code 的 Opus 5.5 系统提示词中加入两句指令，禁止复刻某个具体现有游戏，即使改名或自称原创也不行；原创游戏、某一类型的游戏，以及基于用户自有设计与素材的游戏仍可制作。Anthropic 员工 Addy Osmani 确认了该规则，称目的是避免 Claude 被用于侵犯知识产权。\n\n据开发者 @chasmmmmmmmmmmm 称，该规则约在 10 月 27 日加入，无法关闭，且仅明确针对 Opus 5.5 模型中的 Claude Code。Rohan Paul 转述称，规则通过服务端标记 tengu_heron_brook 下发，无需更新即可覆盖每个会话；Ars Technica 则称，XDA 在 10 月 30 日发布的 Claude Code 2.1.314 版本中确认该规则以 tengu_heron_brook 之名写入 json 文件。\n\nAddy Osmani 称，2.1.317 版本已更新该规则：此前限制会误伤仅引用某款游戏来描述玩法需求的请求，现在用户可以点名游戏说明想要的机制，Claude 会据此构建同类型的原创游戏；若要求复制原作，则会改为提供相似方案。Ars Technica 称，此举或能帮 Anthropic 规避部分责任，但难以遏制近几个月涌现的 AI 辅助游戏移植与复制潮。",
+        "latest_at": "2026-11-04T05:17:01.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2116195938456965611",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 11,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/d45eae25-a69c-47b6-81b2-cc5f83aff926",
+        "title": "Anthropic 禁 Claude Code 复刻游戏后放宽"
+      },
+      "observed_at": "2026-11-04T06:36:59.106079Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "dbad8163-0b5e-4bbf-958a-b5ba34b8f2c9",
+        "digest": "Claude Code 产品负责人 Cat Wu 宣布，她已于上周五正式离开 Anthropic。她表示，自己两年前在 Claude Code 还是内部工具时用它搭建强化学习环境，并因此加入团队。\n\nCat Wu 回顾了产品从首次发布时用户需手动逐条批准权限，到如今默认信任自动批准、Claude 能承担大规模迁移和新产品构建的变化，并感谢 Claude Code、Cowork 和 Tag 背后的团队与用户。",
+        "latest_at": "2026-11-03T21:33:33.000Z",
+        "original_url": "https://x.com/_catwu/status/2117731934340337676",
         "rank": 6,
         "recovered": false,
+        "representative_source": "X：Cat Wu（Anthropic，Claude Code 产品负责人） (@_catwu)",
+        "signal_count": 14,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/dbad8163-0b5e-4bbf-958a-b5ba34b8f2c9",
+        "title": "Claude Code 产品负责人 Cat Wu 宣布离开 Anthropic"
+      },
+      "observed_at": "2026-11-04T06:36:59.106079Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f33dbd76-b66f-428a-a7ec-f89e1db4f51b",
+        "digest": "Anthropic 发布并开源可验证推理研究原型 FlashProve：用 zkSNARK 让用户在不接触模型权重的情况下，验证某条回复确由指定模型生成。代码、Lean 形式化证明和文档以 Apache 2.0 协议公开。Anthropic 称，在 400B 参数混合专家模型 Llama 4 Maverick（4-bit 量化）上，单张 H100 生成证明的速度超过 100 tokens/秒，每 1,024 token 请求的证明约 19 MB；其 GPU 耗时约为常用开源库 vLLM 处理同长度提示的 70–95 倍。\n\nMarkTechPost 称，该原型目前每次请求上下文上限为 1,024 token，仅支持贪心解码和 MoE 模型；证明端需要 1 张 H100 80 GB、24 个 CPU 核心和约 290 GB 主机内存。Anthropic 称，该证明可用于防止攻击者劫持对话，也能让安全评估者确认被测模型与线上服务模型一致；TechCrunch 报道称，系统要求模型发布方公开不泄露权重的模型指纹，并可在本地设备完成验证。\n\nAnthropic 表示，这是中间进展，并非已完成的研究议程；TechCrunch 称，目前没有在 Anthropic 或其他实验室部署该系统的计划。",
+        "latest_at": "2026-11-03T22:41:03.000Z",
+        "original_url": "https://www.anthropic.com/research/provable-inference",
+        "rank": 5,
+        "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 8,
-        "source_count": 3,
+        "signal_count": 16,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.news/story/f33dbd76-b66f-428a-a7ec-f89e1db4f51b",
         "title": "Anthropic 开源 FlashProve 可验证推理原型"
       },
-      "observed_at": "2026-11-03T23:28:43.460415Z"
+      "observed_at": "2026-11-04T06:36:59.106079Z"
     }
   ],
   "version": 1
