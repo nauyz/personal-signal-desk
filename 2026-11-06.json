@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0b20bea7-a1d4-451e-bb1b-38c63fadf89f",
+        "digest": "Anthropic Claude Code 产品负责人 Cat Wu 在 X 上宣布加入 OpenAI，领导 Core Products 的产品管理。她称将与 @thsottiaux 及 OpenAI 产品团队合作打造智能体产品，强调让用户保持掌控、节省时间，并表示敬佩 OpenAI 证明 scaling 有效、将 AI 带给超十亿人。\n\nOpenAI 联合创始人 Greg Brockman 与 @thsottiaux 先后转发并欢迎她加入，确认了这一人事变动。The Decoder 报道称，负责 Codex 和 ChatGPT 的 Thibault Sottiaux 以“CatGPT”迎接她。OpenAI 方面尚未就她的具体职责范围作进一步说明。",
+        "latest_at": "2026-11-05T12:20:35.000Z",
+        "original_url": "https://x.com/thsottiaux/status/2118138648214585591",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 33,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/0b20bea7-a1d4-451e-bb1b-38c63fadf89f",
+        "title": "Claude Code 产品负责人 Cat Wu 转投 OpenAI"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "0c969c38-7969-4bd9-9c91-f3cdf9b4a9cd",
+        "digest": "百度文心发布并开源基座模型 ERNIE 5.5 Flash Base，开放 ERNIE 5.5 Flash 预训练终点的权重，并在 Hugging Face 上架下载入口。\n\n据百度官方账号介绍，该模型为稀疏 MoE 基座语言模型，总参数 280B、每 token 激活 14B，预训练使用 33.5T tokens，提供 FP8 与 BF16 两种权重。百度称，权重直接取自预训练、未做微调或后训练，交由开发者自行处理，后续将推出后训练版本；百度还称，该模型在同规模基座模型的多个基准上取得 SOTA。这些效果说法来自百度，报道未给出独立验证。\n\n关于上下文长度，百度称微调和推理设计上支持最长 1M-token，The Decoder 则称训练上下文最长 128,000 token。报道未提及开源许可条款。",
+        "latest_at": "2026-11-05T17:56:41.000Z",
+        "original_url": "https://www.ithome.com/1/022/785.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 13,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/0c969c38-7969-4bd9-9c91-f3cdf9b4a9cd",
+        "title": "百度开源ERNIE 5.5 Flash Base基座模型"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2e10827d-6ffa-403c-bb73-1eb0f0321d99",
+        "digest": "据彭博社报道，苹果于2026年10月将部分工程师的每日AI支出上限从300美元下调至200美元，以遏制快速上升的AI使用成本。苹果还计划进一步削减：部分工程团队可能降至每日100美元，部分非工程团队可能从100美元降至25美元。确有更高需求的员工可向高级管理层申请豁免。\n\nTechCrunch将此举放在企业从鼓励大量使用AI转向配给token的背景下，指出AI运行成本与生产力收益之间的差距仍是隐忧。",
+        "latest_at": "2026-11-05T14:03:14.000Z",
+        "original_url": "https://www.ithome.com/1/022/479.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 12,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2e10827d-6ffa-403c-bb73-1eb0f0321d99",
+        "title": "苹果下调工程师每日AI支出上限至200美元"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "37046dc2-8e44-4949-965c-ef07dbd0b13e",
+        "digest": null,
+        "latest_at": "2026-11-05T07:03:17.000Z",
+        "original_url": "https://openai.com/index/introducing-images-2-6",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 48,
+        "source_count": 8,
+        "status": null,
+        "story_url": "https://aihot.news/story/37046dc2-8e44-4949-965c-ef07dbd0b13e",
+        "title": "OpenAI 发布 Images 2.6：ChatGPT 可生成 GIF，API 上线两款模型"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "491d220c-9d57-4295-af9f-e4382561b3f7",
+        "digest": "腾讯混元 11 月 4 日发布 Hy4 正式版，相比 8 月 28 日的 Hy4 preview 扩大预训练与后训练规模，首次引入视觉能力和电脑操作支持，可执行细粒度图像处理、复杂图表分析、数学视觉推理，以及结合命令行与图形界面的任务。腾讯混元称，Hy4 在 GameDev 与 GameLogic 评测上分别提升 19.1% 和 9.8%，性能显著超过 preview，同时维持相同 API 价格；The Decoder 报道其每百万输入 token 约 0.83 美元、输出约 2.50 美元。腾讯混元还称其首次跻身最强开源模型之列，计划近期开源模型权重并发布模型系统卡片，但权重开放日期未定，目前仅通过腾讯云、OpenRouter 和元宝等腾讯应用使用。上述提升与开源计划均来自腾讯方面，实际效果尚待验证。\n\nHy4 已在腾讯云和 OpenRouter 上线，并可在 CodeBuddy / WorkBuddy、元宝、ima 等产品上体验；WorkBuddy 称 Hy4 可免费试用，但有使用额度限制。腾讯混元称，Hy4 在 WorkBuddy 上线首日有大量用户触及额度，已对推理集群紧急扩容十倍并提升免费体验额度，Hy3 的 WorkBuddy 限免延长至 11 月 15 日 23:59。OpenClaw 随后宣布支持 Hy4，用户可通过 Tencent TokenHub、TokenPlan 和 OpenRouter 使用；腾讯混元另称 Hy4 即将上线 Chutes，并已上架 Vercel AI Gateway，2026 年 12 月 31 日前五折。\n\nArena 公布 Hy4 在 Agent Arena 总榜排名第 14，基于 8.5K+ 真实长程智能体会话，净提升 +4.7%，进入 Pareto 前沿；Arena 称其目前为专有模型，权重开放后将与 Kimi K3.1 Pro 并列开源模型第一，得分相差不到 1 个百分点，价格 $0.55/task 比后者 $1.46/task 低约 62%。此前 Arena 引用数据显示，Hy4 preview 上月以开源模型身份位列 Agent Arena 第 2（总榜第 10），成本约 $0.26 per median task。",
+        "latest_at": "2026-11-05T16:06:31.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/JrQeiqx3PXBDSGish2IzwA",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "公众号：腾讯混元",
+        "signal_count": 28,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.news/story/491d220c-9d57-4295-af9f-e4382561b3f7",
+        "title": "腾讯混元 Hy4 正式发布，首增视觉与电脑操作"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4ff5060c-160a-4d65-bf28-706c0d53ec34",
+        "digest": "OpenAI称其安全研究人员构建了一条自主漏洞发现、利用与修补管线，由一款网络安全模型驱动。在2026年10月中旬对最新Linux内核的一次运行中，管线从2,308个候选发现中验证1,724个漏洞，为291个信息泄露生成概念验证，并为948个不同的本地提权漏洞生成可用利用代码和候选补丁。OpenAI称这些利用代码在开启标准安全防护的原始Linux桌面配置上可运行，智能体还发现并使用了至少10种此前未知的Linux利用技术。\n\nOpenAI公布该次运行总API成本为1,213,430美元，平均每个本地提权漏洞约1,279美元；按其援引的Pwn2Own和TyphoonPWN赏金标准折算，这些漏洞的假设价值为1,890万至6,630万美元。OpenAI表示正与Linux维护者和Patch the Planet合作提交漏洞报告与补丁，人类研究人员会在上报前审查结果。\n\n上述漏洞数量、补丁效果、新型利用技术及成本均来自OpenAI的说法，尚未见独立验证。随后OpenAI发布网络安全模型GPT-6 Cyber，称其越界率从GPT-5.6 Cyber的约5%降至1%以下，目前向Daybreak Red项目的部分客户开放，未来数周扩大至该项目全部客户。OpenAI称该模型支撑了前述Linux内核研究。\n\n此外，Greg Brockman转发的内容称，该模型还在Firefox中发现111个渲染器RCE，其中81个为新漏洞，另有30个是开发者已知但被认为不可利用的漏洞的可利用利用程序。",
+        "latest_at": "2026-11-05T18:14:30.000Z",
+        "original_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 27,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/4ff5060c-160a-4d65-bf28-706c0d53ec34",
+        "title": "OpenAI称AI管线单次运行修补948个Linux内核提权漏洞"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "50f0b947-7493-4da9-95c7-bfad63bb5a8c",
+        "digest": null,
+        "latest_at": "2026-11-04T17:17:16.000Z",
+        "original_url": "https://www.ithome.com/1/020/392.htm",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 28,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/50f0b947-7493-4da9-95c7-bfad63bb5a8c",
+        "title": "苹果 Apple 智能随 iOS 27.3 入华，接入阿里千问"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "956471b6-c78b-44c7-b4d4-e00583803aca",
+        "digest": null,
+        "latest_at": "2026-11-04T16:17:22.000Z",
+        "original_url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 23,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/956471b6-c78b-44c7-b4d4-e00583803aca",
+        "title": "Google将AI学习功能引入Search和Classroom，学校禁用AI即失去搜索"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "dfa910ce-d2f0-4f43-844a-e8798fd89b9e",
+        "digest": "Meta 已收购 AI 编程初创公司 Conductor，后者让开发者把来自 Anthropic 和 OpenAI 的多个智能体部署到并行工作区协作开发。Conductor 创始人兼 CEO Charlie Holtz 确认交易，称团队将加入 Meta 超级智能实验室，与 Nat Friedman、Alexandr Wang 合作打造下一代界面；交易金额未披露。\n\nConductor 将逐步关停：云服务 11 月 13 日转为只读、11 月 20 日关闭，此后开始删除用户云数据；本地版将持续获得新模型和关键修复更新至 2027 年初。TechCrunch 称，核心功能在明年初之前照常运行。\n\n据 Axios 称，Meta 此举意在加强其 AI 开发者产品。",
+        "latest_at": "2026-11-05T15:01:09.000Z",
+        "original_url": "https://www.conductor.build/changelog/0.93.0-conductor-is-joining-meta",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Conductor 官方更新",
+        "signal_count": 13,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/dfa910ce-d2f0-4f43-844a-e8798fd89b9e",
+        "title": "Meta收购Conductor，产品将逐步关停"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "eb3a8a76-8af1-48fb-8fa0-67903c2b1174",
+        "digest": null,
+        "latest_at": "2026-11-05T07:06:27.400Z",
+        "original_url": "https://openai.com/index/openai-to-acquire-pierre",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 24,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/eb3a8a76-8af1-48fb-8fa0-67903c2b1174",
+        "title": "OpenAI宣布收购Pierre，工具将并入Codex"
+      },
+      "observed_at": "2026-11-05T18:49:04.535654Z"
+    }
+  ],
+  "version": 1
+}
