@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-11-07T08:48:00.363Z",
         "original_url": "https://www.ithome.com/1/023/697.htm",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 7,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.news/story/2861254b-d4a1-436b-934f-1c7a44583b7e",
         "title": "DeepSeek网页与API服务中断45分钟后恢复"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-11-07T11:22:20.000Z",
         "original_url": "https://openai.com/index/introducing-images-2-6",
-        "rank": 7,
+        "rank": 6,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
         "signal_count": 7,
@@ -33,7 +33,24 @@
         "story_url": "https://aihot.news/story/37046dc2-8e44-4949-965c-ef07dbd0b13e",
         "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4648eb5b-d72a-42ef-ae63-e963d1fccca0",
+        "digest": "Nous Research 对阿里巴巴 Qwen3.8-27B 做纯监督微调，发布开源权重模型 Arete-27B，权重、评测和训练数据均公开，采用与基座模型一致的 Apache 2.0 许可。\n\nNous Research 称，该模型旨在体现“西方价值观”而非北京的官方立场。在其自建的 803 条提示评测中，含宣传内容的回答占比从 22% 降至 0.9%，事实得分从 2.32 升至 2.98。这些数字来自 Nous Research 自己的评测，并非独立验证的效果。",
+        "latest_at": "2026-11-08T04:45:59.000Z",
+        "original_url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 4,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/4648eb5b-d72a-42ef-ae63-e963d1fccca0",
+        "title": "Nous Research 微调 Qwen 推出 Arete-27B"
+      },
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     },
     {
       "item": {
@@ -58,7 +75,7 @@
         "digest": null,
         "latest_at": "2026-11-07T07:40:53.263Z",
         "original_url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Meta：Newsroom · AI（RSS）",
         "signal_count": 10,
@@ -67,24 +84,24 @@
         "story_url": "https://aihot.news/story/5bb5d3ee-b9ff-4cb4-8df8-d487d6bc5b78",
         "title": "Meta在Muse推出spaces并升级模型"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": null,
-        "latest_at": "2026-11-07T17:37:25.000Z",
+        "digest": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+        "latest_at": "2026-11-08T00:44:04.537Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
-        "rank": 2,
+        "rank": 1,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 14,
+        "signal_count": 18,
         "source_count": 3,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     },
     {
       "item": {
@@ -109,33 +126,33 @@
         "digest": null,
         "latest_at": "2026-11-06T23:25:14.860Z",
         "original_url": "https://www.anthropic.com/research/components-of-agent-memory",
-        "rank": 6,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 10,
+        "signal_count": 12,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.news/story/a983842e-37eb-436c-9026-711d2fa63657",
         "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     },
     {
       "item": {
         "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
-        "digest": "《纽约时报》援引匿名情报信源报道，美国情报机构约一年来监控新加坡 AI 云公司 Megaspeed 高管 Alice Huang（黄乐），怀疑她借与英伟达 CEO 黄仁勋的密切接触，为中国收集英伟达的计划以及游说特朗普政府放宽对华芯片出口的信息。报道还称，特朗普约一年前已获知相关情报，但未采取行动，部分原因是保护英伟达股价，以及他与黄仁勋关系密切。上述指控均未获独立证实。\n\n英伟达否认这一说法，称 Megaspeed 只是其区域云客户之一，黄乐与公司官员的接触属例行往来，云客户仅获得普通商业信息，不涉及国家安全相关信息；关于 Megaspeed 将 AI 芯片转运至中国的指控“去年已被彻底调查并证伪”，公司也未收到华盛顿方面的任何预警。此前美国商务部曾调查 Megaspeed 涉嫌向中国转售受限芯片。\n\n美国国会三个委员会的主席已致函黄仁勋，要求他就与黄乐的接触作闭门简报。",
+        "digest": null,
         "latest_at": "2026-11-06T23:00:44.000Z",
         "original_url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
-        "rank": 10,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 6,
+        "signal_count": 7,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     },
     {
       "item": {
@@ -143,16 +160,16 @@
         "digest": null,
         "latest_at": "2026-11-07T16:31:00.000Z",
         "original_url": "https://thinkingmachines.ai/news/inkling-2-small/",
-        "rank": 1,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Thinking Machines Lab：News（网页）",
-        "signal_count": 17,
-        "source_count": 8,
+        "signal_count": 9,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/d6acd01b-e9cc-4a1f-9732-6f49b5859ee5",
         "title": "Thinking Machines 发布 Inkling 2 Small，权重下周开源"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     },
     {
       "item": {
@@ -173,6 +190,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "ec56cbac-9b7d-40a9-af89-5b32750d696b",
+        "digest": "台积电否认了此前关于英伟达推动其制定3D DRAM生产计划的报道，称将坚持纯逻辑代工定位。\n\n早先X用户Rohan Paul称，英伟达已请求台积电制造先进3D DRAM芯片，台积电已开始拟定生产计划，若台积电入局，将增加先进内存供应并削弱三星、SK海力士、美光的涨价能力。台积电与英伟达此前均未公开确认。\n\n据后续报道，AI需求已耗尽DRAM供应，内存成为决定加速器能否出货的关键部件；但3D DRAM即使美光也要再经至少4个平面节点才采用，台积电入场至少5年内无法缓解短缺。",
+        "latest_at": "2026-11-07T22:18:13.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2118748091792949625",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 6,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/ec56cbac-9b7d-40a9-af89-5b32750d696b",
+        "title": "台积电否认应英伟达请求生产3D DRAM"
+      },
+      "observed_at": "2026-11-08T06:14:00.338059Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "fba07069-fd3e-44bd-ad2d-f347f820dab3",
         "digest": null,
         "latest_at": "2026-11-07T09:45:23.000Z",
@@ -186,7 +220,7 @@
         "story_url": "https://aihot.news/story/fba07069-fd3e-44bd-ad2d-f347f820dab3",
         "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿"
       },
-      "observed_at": "2026-11-07T23:42:45.657315Z"
+      "observed_at": "2026-11-08T06:14:00.338059Z"
     }
   ],
   "version": 1
