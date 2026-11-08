@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-09",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc",
+        "digest": "xAI 正在修复 Grok Bot，目标是提升 token 效率并让行为更智能。Elon Musk 在其 X 账号上称修复工作“正在进行中”；Grok Bot 相关账号 @mattyp 随后也发帖称 token 效率与行为方面的改进正在进行，并请在该帖下回复反馈，称会全部阅读。\n\n目前公开信息只有这两句表态，没有披露修复的具体内容、适用范围或完成时间，也没有给出效率提升幅度的数据。",
+        "latest_at": "2026-11-08T16:58:17.000Z",
+        "original_url": "https://x.com/elonmusk/status/2119419126045454531",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Elon Musk (@elonmusk, xAI)",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc",
+        "title": "xAI 称 Grok Bot 的 token 效率修复正在进行"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "37046dc2-8e44-4949-965c-ef07dbd0b13e",
+        "digest": "OpenAI 发布 Images 2.6，ChatGPT 首次能直接生成 GIF 动图：用户可用提示词或上传图片生成，并调整播放速度、逐帧编辑和分享。该功能随 Images 2.6 向所有套餐的 ChatGPT 和 Codex 用户推送，覆盖网页、桌面和移动端；新版还支持保存人物、宠物或角色的参考图，供后续创作复用。\n\nAPI 同步上线两款图像模型：GPT-Image-2.6 Flare 主打速度，low 画质下最快 6 秒出图；GPT-Image-2.6 Sunburst 主打中高质量与多次编辑间的细节一致性。OpenAI 称两者生成速度比前代快 50%，并支持图像标记与 SVG 导出。据 MarkTechPost 引述模型页面，两款模型按 token 计费且价格相同：文本输入每百万 token 5 美元、图像输入 8 美元、图像输出 30 美元，调整复杂度不另收费。fal、Higgsfield、Krea 等第三方平台也已上线该模型，Higgsfield 对 Pro、Plus、Max、Ultra 套餐的新用户提供 7 天无限使用。\n\n性能数据存在不同口径：OpenAI 引用的 DesignArena 数据称 Sunburst 在 Image Arena 排名第一、Flare 比前代快 2.6 倍；Arena 随后公布 Sunburst（Medium）在文生图榜排第 2、Flare（Medium）排第 4，并称新模型比 2.5 快 2 倍以上、最低延迟约 5 秒。Artificial Analysis 在 max 画质、复杂度取 API 默认 high 的条件下测试，称两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。",
+        "latest_at": "2026-11-08T14:22:34.000Z",
+        "original_url": "https://openai.com/index/introducing-images-2-6",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 5,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.news/story/37046dc2-8e44-4949-965c-ef07dbd0b13e",
+        "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4648eb5b-d72a-42ef-ae63-e963d1fccca0",
+        "digest": null,
+        "latest_at": "2026-11-08T04:45:59.000Z",
+        "original_url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.news/story/4648eb5b-d72a-42ef-ae63-e963d1fccca0",
+        "title": "Nous Research 微调 Qwen 推出 Arete-27B"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6eeb5785-1785-4258-bcdf-95eccfdc5d8c",
+        "digest": null,
+        "latest_at": "2026-11-08T07:05:49.673Z",
+        "original_url": "https://www.ithome.com/1/023/900.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/6eeb5785-1785-4258-bcdf-95eccfdc5d8c",
+        "title": "GPT-6.1 Sol参与小鼠脑手术定位实验"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": null,
+        "latest_at": "2026-11-08T00:44:04.537Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 15,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8fc0b0a8-b3ab-41e8-a159-697ec636264d",
+        "digest": "据《金融时报》报道，Anthropic 以34亿美元购入总功率1.7GW的 Caterpillar 燃气发电机组，为已知 AI 公司最大一笔发电设备采购。\n\n这批订单原属圣安东尼奥供应商 OnePWR Solutions，两年前下单，因融资失败由 Anthropic 接手；由于下单早于涨价，设备将在未来两年内交付。\n\n报道未披露机组部署地点及供电对象。",
+        "latest_at": "2026-11-08T14:05:57.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2119431232165683269",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d",
+        "title": "Anthropic 34亿美元接手1.7GW燃气发电机组"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9a38de7c-3b76-4ffe-bd5d-a4e0522199d1",
+        "digest": "Andrej Karpathy 称，他用 Claude Code 一次性生成视频站 TristanTube，收录 4.7 万个视频并带 TV 模式，全程约 3 分钟，站点位于 karpathy.ai/tristan-tube/。\n\n站点素材来自 Tristan 本周公布的 YouTube 频道分级清单。Karpathy 称，Tristan 此前还发布过用 Claude 从 Hacker News 20 年约 4300 万条评论中筛出 6454 个视频的 HackerTube，他以此说明此类项目已能极短时间内完成。",
+        "latest_at": "2026-11-07T17:07:31.000Z",
+        "original_url": "https://x.com/karpathy/status/2119114537442189652",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Andrej Karpathy (@karpathy)",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/9a38de7c-3b76-4ffe-bd5d-a4e0522199d1",
+        "title": "Karpathy用Claude Code三分钟建成TristanTube"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a983842e-37eb-436c-9026-711d2fa63657",
+        "digest": "Anthropic 发布研究文章《The components of agent memory》，拆解 Claude 智能体的跨会话记忆机制，将其分为笔记、记忆表示和注入上下文等层次，并介绍“dreaming”机制：在空闲时段回顾日志、纠正错误并构建知识 wiki。\n\nAnthropic 称，dreaming 帮助 Claude 整理所学内容、修正错误，并在下次更方便地找到所需信息；文章同时列出用于探索智能体记忆的多项评估，说明各组件对记忆组织的作用。\n\n上述效果来自 Anthropic 自身的介绍与评估，并非独立验证的结论。",
+        "latest_at": "2026-11-06T23:25:14.860Z",
+        "original_url": "https://www.anthropic.com/research/components-of-agent-memory",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Anthropic：Research（发表成果 · 网页）",
+        "signal_count": 13,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/a983842e-37eb-436c-9026-711d2fa63657",
+        "title": "Anthropic 拆解 Claude 智能体记忆机制"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "digest": null,
+        "latest_at": "2026-11-06T23:00:44.000Z",
+        "original_url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 10,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "title": "纽时称中国情报人员接近黄仁勋，英伟达否认，国会要求简报"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fba07069-fd3e-44bd-ad2d-f347f820dab3",
+        "digest": null,
+        "latest_at": "2026-11-07T09:45:23.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2118813225336873181",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 11,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.news/story/fba07069-fd3e-44bd-ad2d-f347f820dab3",
+        "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿"
+      },
+      "observed_at": "2026-11-08T18:52:27.188212Z"
+    }
+  ],
+  "version": 1
+}
