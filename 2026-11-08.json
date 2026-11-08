@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-11-07T08:48:00.363Z",
         "original_url": "https://www.ithome.com/1/023/697.htm",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 7,
@@ -16,7 +16,24 @@
         "story_url": "https://aihot.news/story/2861254b-d4a1-436b-934f-1c7a44583b7e",
         "title": "DeepSeek网页与API服务中断45分钟后恢复"
       },
-      "observed_at": "2026-11-08T06:14:00.338059Z"
+      "observed_at": "2026-11-08T13:37:42.946114Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2d1a9fd7-93a0-4838-873a-2e22221233fb",
+        "digest": "腾讯首席 AI 科学家姚顺雨在 2026 未来科学大奖对话中表示，AI 模型的护城河更多存在于产品层，而不是模型层。他认为真正难以替代的是能理解用户背景、利用专有数据和上下文并获得用户信任的 AI 产品。\n\n他以微信为例称，即便竞争对手推出更聪明的模型，也未必知道用户是谁，难以提供同样服务。这一判断针对的是模型公司如何建立竞争壁垒，而非模型能力本身。",
+        "latest_at": "2026-11-08T12:15:55.750Z",
+        "original_url": "https://www.ithome.com/1/023/991.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 3,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2d1a9fd7-93a0-4838-873a-2e22221233fb",
+        "title": "姚顺雨称AI护城河在产品层而非模型层"
+      },
+      "observed_at": "2026-11-08T13:37:42.946114Z"
     },
     {
       "item": {
@@ -27,30 +44,30 @@
         "rank": 6,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 7,
+        "signal_count": 6,
         "source_count": 5,
         "status": null,
         "story_url": "https://aihot.news/story/37046dc2-8e44-4949-965c-ef07dbd0b13e",
         "title": "OpenAI 发布 Images 2.6，ChatGPT 可直接生成 GIF"
       },
-      "observed_at": "2026-11-08T06:14:00.338059Z"
+      "observed_at": "2026-11-08T13:37:42.946114Z"
     },
     {
       "item": {
         "aihot_story_id": "4648eb5b-d72a-42ef-ae63-e963d1fccca0",
-        "digest": "Nous Research 对阿里巴巴 Qwen3.8-27B 做纯监督微调，发布开源权重模型 Arete-27B，权重、评测和训练数据均公开，采用与基座模型一致的 Apache 2.0 许可。\n\nNous Research 称，该模型旨在体现“西方价值观”而非北京的官方立场。在其自建的 803 条提示评测中，含宣传内容的回答占比从 22% 降至 0.9%，事实得分从 2.32 升至 2.98。这些数字来自 Nous Research 自己的评测，并非独立验证的效果。",
+        "digest": null,
         "latest_at": "2026-11-08T04:45:59.000Z",
         "original_url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
-        "rank": 9,
+        "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 4,
+        "signal_count": 6,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/4648eb5b-d72a-42ef-ae63-e963d1fccca0",
         "title": "Nous Research 微调 Qwen 推出 Arete-27B"
       },
-      "observed_at": "2026-11-08T06:14:00.338059Z"
+      "observed_at": "2026-11-08T13:37:42.946114Z"
     },
     {
       "item": {
@@ -75,7 +92,7 @@
         "digest": null,
         "latest_at": "2026-11-07T07:40:53.263Z",
         "original_url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Meta：Newsroom · AI（RSS）",
         "signal_count": 10,
@@ -84,24 +101,58 @@
         "story_url": "https://aihot.news/story/5bb5d3ee-b9ff-4cb4-8df8-d487d6bc5b78",
         "title": "Meta在Muse推出spaces并升级模型"
       },
-      "observed_at": "2026-11-08T06:14:00.338059Z"
+      "observed_at": "2026-11-08T13:37:42.946114Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "6eeb5785-1785-4258-bcdf-95eccfdc5d8c",
+        "digest": "Exin Therapeutics 联合创始人兼 CEO 加布里埃尔·奥卡尼亚-桑特罗称，GPT-6.1 Sol 连续三次参与活体小鼠脑部手术中的 Bregma 和 Lambda 解剖标志定位，定位误差从 0.6 毫米降至 0.3 毫米。\n\n据《WIRED》报道，每次操作由外科医生纠正后保存图像与测量数据，供下一次参考。该结果由奥卡尼亚-桑特罗于 11 月 5 日在 X 上公布，目前仅涉及小鼠实验中的标志定位环节。",
+        "latest_at": "2026-11-08T07:05:49.673Z",
+        "original_url": "https://www.ithome.com/1/023/900.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/6eeb5785-1785-4258-bcdf-95eccfdc5d8c",
+        "title": "GPT-6.1 Sol参与小鼠脑手术定位实验"
+      },
+      "observed_at": "2026-11-08T13:37:42.946114Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+        "digest": null,
         "latest_at": "2026-11-08T00:44:04.537Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
         "rank": 1,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 18,
+        "signal_count": 16,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 拟感恩节前 IPO，估值预期下调至 1.25–1.75 万亿美元"
       },
-      "observed_at": "2026-11-08T06:14:00.338059Z"
+      "observed_at": "2026-11-08T13:37:42.946114Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "8fc0b0a8-b3ab-41e8-a159-697ec636264d",
+        "digest": "据《金融时报》报道，Anthropic 于9月下旬以34亿美元向得州供应商 OnePWR Solutions 签下总功率1.7GW的重型发电机组订单，这是目前已知 AI 公司最大的一笔发电设备采购。\n\n这笔订单指向 AI 公司为训练和运行模型自建电力供应的趋势，但报道未披露机组交付时间、部署地点及供电对象。",
+        "latest_at": "2026-11-08T11:51:39.940Z",
+        "original_url": "https://www.ithome.com/1/023/989.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 3,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/8fc0b0a8-b3ab-41e8-a159-697ec636264d",
+        "title": "Anthropic 34亿美元采购1.7GW燃气发电机组"
+      },
+      "observed_at": "2026-11-08T13:37:42.946114Z"
     },
     {
       "item": {
@@ -135,7 +186,7 @@
         "story_url": "https://aihot.news/story/a983842e-37eb-436c-9026-711d2fa63657",
         "title": "Anthropic 发布研究拆解 Claude 智能体记忆机制"
       },
-      "observed_at": "2026-11-08T06:14:00.338059Z"
+      "observed_at": "2026-11-08T13:37:42.946114Z"
     },
     {
       "item": {
@@ -220,7 +271,7 @@
         "story_url": "https://aihot.news/story/fba07069-fd3e-44bd-ad2d-f347f820dab3",
         "title": "OpenAI 110亿美元首笔融资到账，估值1.25万亿"
       },
-      "observed_at": "2026-11-08T06:14:00.338059Z"
+      "observed_at": "2026-11-08T13:37:42.946114Z"
     }
   ],
   "version": 1
