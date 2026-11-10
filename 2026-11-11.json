@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "29e37b58-ab35-4bcf-b318-20b0e5a3290d",
+        "digest": "Anthropic 为 Claude 新增 Claude Whiteboards、Claude Sheets 和 Claude Data 三种 artifact 类型。Whiteboards 和 Sheets 以测试版上线，可在网页、桌面和移动端使用；此前的 Claude Dashboards 转为正式可用，并更名为 Claude Data。三者面向所有付费计划开放，在 Team 计划中默认开启；在 Enterprise 计划中，Whiteboards 和 Sheets 默认关闭，Data 将于 2026 年 11 月 19 日默认开启。\n\nClaude 官方账号称，三款产品从 11 月 11 日起陆续推出：Whiteboards 用于把讨论中的计划整理成团队可编辑的白板，Sheets 用于生成可继续编辑的表格或预算，Data 用于基于指标起草数据故事和带解说的视频，供用户审阅后再分享。Certified queries 和 live sharing 目前处于 beta 阶段。\n\nAnthropic 同时升级交互式连接器，合作方应用可直接嵌入 Claude 中使用；Salesforce（beta）、NetSuite 和 Workday（beta）插件附带内置技能。Claude auto-connect 在符合条件的 Team 和 Enterprise 计划上进入 beta。据 TechCrunch 报道，Claude Meetings 将在 Team 和 Enterprise 计划以 beta 推出，初期仅支持 Google Meet。",
+        "latest_at": "2026-11-10T19:48:40.000Z",
+        "original_url": "https://claude.com/blog/sheets-whiteboards-data",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 13,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.news/story/29e37b58-ab35-4bcf-b318-20b0e5a3290d",
+        "title": "Claude 新增白板、表格与数据三类 artifact"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2b6190d7-3612-47d1-9e63-d75e50b8604d",
+        "digest": "字节跳动 Seed 团队发布图像创作模型 Seedream 5.5，主打像素级可控编辑。官方称，围绕同一作品最多可连续编辑 100 轮，未改动区域在像素级保持不变、不偏色；模型可原生输出带 Alpha 通道的 RGBA 透明素材，最多 100 层透明分层，并改善光照、材质、皮肤纹理和密集小字渲染。\n\n豆包随后宣布图片设计能力升级，正式接入该模型；Krea 也宣布 Seedream 5.5 已在其平台可用。定价方面，火山引擎称 2K 方图编辑单张 0.28 元，不到 Seedream 5.0 Pro 的一半，生成速度快近 40%，文本 Token 免费；API 延续“输入图 + 输出图”两段计费，本周上线火山方舟。C 端用户可在即梦、豆包、豆包工作体验，Seedream 5.5 系列后续计划推出 Pro 版本。上述性能与价格均为发布方说法。\n\n另有测评作者称，将 Seedream 5.5 与 GPT Image 2.6 用同一张底图连续修改 30 轮，Seedream 5.5 只改动指定区域且画质稳定，Image 2.6 出现人物形变和画面整体漂移；该结论来自单一作者的实测，并非官方验证。",
+        "latest_at": "2026-11-10T16:00:15.000Z",
+        "original_url": "https://seed.bytedance.com/zh/blog/%E7%94%9F%E6%88%90%E6%9B%B4%E7%9C%9F%E5%AE%9E-%E7%99%BE%E8%BD%AE%E7%BC%96%E8%BE%91%E6%9B%B4%E7%A8%B3%E5%AE%9A-seedream-5-5-%E5%8F%91%E5%B8%83",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "字节 Seed：Research Feed（网页内嵌数据）",
+        "signal_count": 23,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2b6190d7-3612-47d1-9e63-d75e50b8604d",
+        "title": "字节发布 Seedream 5.5 图像模型，豆包与 Krea 接入"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4a64f241-8892-4af9-9d8a-d75c99724c71",
+        "digest": "Google 扩展第八代 TPU 产品线，新增 TPU 8i Max 和 TPU 8tx 两款系统，使一年内发布的第八代 TPU 系统总数达到四款。Google 称这是首次在一年内推出四款不同的 TPU 系统，并称这四款系统覆盖智能体生命周期的各个阶段。\n\nTPU 8i Max 面向超大上下文窗口和单机架最高算力密度，将两颗 TPU 8i 芯片封装在一起，算力、SRAM 和 HBM 带宽均翻倍；TPU 8tx 面向安全与机密推理，数据与模型权重在使用中保持加密隔离，延迟较 TPU 8t 最多降低 2 倍。AMD CEO 苏姿丰称 AMD EPYC 担任 TPU 8tx 的主机处理器。\n\n配套软件方面，Google 称 TorchTPU 可原生运行 PyTorch 和 Hugging Face 模型且无需改写代码，开源 TPU Sync 将 KV 传输延迟降低 90% 以上，Agent Compute Engine 用于减少闲置算力。两款新系统均未公布绝对规格、基准测试、价格和可用区域。",
+        "latest_at": "2026-11-10T15:54:08.000Z",
+        "original_url": "https://x.com/Google/status/2119788086490001906",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Google (@Google)",
+        "signal_count": 25,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.news/story/4a64f241-8892-4af9-9d8a-d75c99724c71",
+        "title": "Google 一年内交付四款第八代 TPU"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "706a0bfa-2700-408c-ae66-d062eaa3d2b4",
+        "digest": "亚马逊旗下 Ring 成立机器人部门 Ring Robotics，发布室内安防无人机 Ring Drone Cam 和企业安防机器人 Ring Rover Cam。Ring 创始人 Jamie Siminoff 称，Drone Cam 将于 2027 年 1 月 27 日在美国发售，售价 249.99 美元，需订阅 Ring Protect 计划才能获得视频存储和高级功能；TechCrunch 报道的售价为 270 美元，与 The Verge 的 249.99 美元不一致。Rover Cam 将于 12 月 16 日上市，售价 1000 美元。\n\nDrone Cam 配备 2K 视频和 LED 低光拍摄，可与 Ring 告警联动飞往触发点查看，经 Alexa Home Map 控制或定时巡逻。据 Rohan Paul 转述，Ring 门传感器或警报被触发后，无人机或地面机器人会自行前往预设位置；无人机停靠时摄像头关闭、仅在飞行时录制，两款机器人的视频默认采用 Ring 最强加密。The Verge 编辑在纽约发布会上对 Drone Cam 进行了实测。",
+        "latest_at": "2026-11-10T19:18:07.000Z",
+        "original_url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 10,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/706a0bfa-2700-408c-ae66-d062eaa3d2b4",
+        "title": "Ring 成立机器人部门，推出室内安防无人机"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
+        "digest": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型，主打编码、推理和视觉能力。Fable 5.2 当日起向所有付费计划开放，并上线 Claude Platform 及 AWS、Google Cloud、Microsoft Azure 等主要云平台；Mythos 5.2 移除部分安全限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 token 40 美元，较 Fable 5.1 的 10/50 美元下降 20%，上下文 1M。\n\n多项第三方评测显示 Fable 5.2 登顶：Artificial Analysis Intelligence Index v5 以 65 分居首，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）；Arena Code Arena: WebDev 以 1832 分排名第一；ARC-AGI-2 得分 93.8%，为 ARC Prize 见过的第三高，仅次于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%。ARC Prize 同时说明，在标准测试框架下以 max 推理运行时，55 个半私有游戏中有 28 个触及 12 小时时限，max 得分 65.7%，低于 xhigh 的 81.2%；且已发布版本在 medium 和 xhigh 推理强度下的调优与其此前评估的检查点不同。Scale Labs 与 CAIS 的 Remote Labor Index 上，Fable 5.2 以 41.3% 排名第一。\n\nFable 5.2 已接入 Cursor、Perplexity、Devin、OpenRouter、Google Cloud 等平台。Anthropic 向订阅用户发放 Fable 重置次数：Pro 用户一次，Max、Ultra 和 Team Premium 最多三次，取决于订阅时长，可在明年 3 月 8 日前使用；Pro 和 Team Standard 另有一周试用期，上限为每周额度的一半。Addy Osmani 称，Fable 5.2 的 token 消耗量大，按单任务计算成本与 Fable 5.1 大致相同，尽管单价便宜了 20%。",
+        "latest_at": "2026-11-10T14:59:09.000Z",
+        "original_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 121,
+        "source_count": 22,
+        "status": "active",
+        "story_url": "https://aihot.news/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
+        "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "7c20f4ef-fe04-4eca-8355-554fa5df4366",
+        "digest": "MiniMax 发布图像生成模型 H3-Image 并开放模型权重。该模型基于 H3，支持文生图、图像参考和图像编辑，可在 10 秒内生成 4096×4096 像素（约 16MP）图像，最多支持 16 张参考图。MiniMax 称其速度最高达主流方案的 5 倍、指令遵循能力为开源模型中最强。\n\n模型已通过 MiniMax 的 API、MiniMax Code 和 Hailuo AI 提供，权重可在 Hugging Face 获取。发布首周，4K 及以上分辨率（官方另一表述为 16MP 及以上规格）的生成请求按官方价格五折计费。\n\nComfyUI 宣布原生支持该模型，可本地运行，也可通过 Partner Nodes 使用，支持 6 步采样、最高 4096×4096 输出，单个 checkpoint 同时覆盖文生图和参考图编辑；fal 也上线了该模型，提供文生图和图像编辑接口，并称其支持任意宽高比的原生 16MP 分辨率、约 15 秒完成 2K 图像编辑，未来两周在该平台可免费生成。Arena 也已上线该模型，用户可在 Battle Mode 中测试并投票，评分将陆续公布。",
+        "latest_at": "2026-11-10T18:52:43.000Z",
+        "original_url": "https://www.minimax.io/blog/minimax-h3-image",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "MiniMax：Blog（网页）",
+        "signal_count": 7,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.news/story/7c20f4ef-fe04-4eca-8355-554fa5df4366",
+        "title": "MiniMax 开源 H3-Image 图像模型，多平台接入"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，其中公司发售约 8.01 亿股、现有股东出售约 2365 万股，公司不获后者所得；发行价区间为每股 70–78 美元，拟在纳斯达克以代码 ANT 上市。据路透社公布的招股说明书草案，公司计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。\n\n据《金融时报》援引投资者消息，公司拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元，CEO 阿莫迪已接受低于此前预期的估值；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+        "latest_at": "2026-11-10T19:57:52.000Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 37,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic启动IPO路演，估值预期降至1.25–1.75万亿美元"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c9508ded-f5e2-404c-b983-fdd61423c85a",
+        "digest": null,
+        "latest_at": "2026-11-10T07:28:21.000Z",
+        "original_url": "https://research.meta.ai/blog/muse-ember",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Meta AI：Research Blog（网页）",
+        "signal_count": 26,
+        "source_count": 10,
+        "status": null,
+        "story_url": "https://aihot.news/story/c9508ded-f5e2-404c-b983-fdd61423c85a",
+        "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "digest": "英伟达董事会11月8日启动独立调查，由独立董事组成委员会、在外部律师协助下审查创始人兼CEO黄仁勋成为外国情报行动目标的报道。黄仁勋表示全力配合，董事会称目前“没有理由认为”国家安全或公司机密受损。黄仁勋随后在内部信中承认与新加坡数据中心运营商Megaspeed高管Alice Huang存在婚外情。\n\n《纽约时报》《金融时报》等报道称，美国情报机构认为Alice Huang受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，芯片转运指控“去年已被彻底调查并证伪”。The Information最新报道称，Alice Huang与丈夫和姐姐在中国和新加坡建立采购网络，涉及75亿美元英伟达硬件流向中国买家。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报，众议院外交事务委员会主席Brian Mast称，若黄仁勋不在11月11日前答复，将发出传票。英伟达法兰克福上市股票在消息后一度跌超6%；耶鲁教授Sonnenfeld估计黄仁勋留任概率约为50-50。黄仁勋目前仍留任CEO，并已退出原定本周三在纽约举行的ElevenLabs Summit及其他演讲安排。做空机构Culper Research称，其在5月13日的报告中已质疑黄仁勋与Alice Huang关系“异常密切”。",
+        "latest_at": "2026-11-10T20:28:14.000Z",
+        "original_url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 66,
+        "source_count": 9,
+        "status": "active",
+        "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "title": "英伟达董事会调查黄仁勋涉情报事件"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e16f5d00-5477-42b8-83d3-4162e0262249",
+        "digest": "Google 正式发布 Gemini 4 Carbon，称其为最强推理模型，面向持续智能体编码、多模态知识工作、科学推理和网络安全防御。此前两周，该模型仅提供给部分网络安全防御者；现在通过 Gemini API、Google AI Studio 和 Gemini for business 向所有付费开发者和企业开放，并向所有 Google AI Ultra 订阅者在 Gemini 应用、搜索 AI Mode 和 Antigravity 中提供。据 The Verge 报道，较低档订阅者和免费用户何时可用尚不明确。Google 称 2026 年 11 月 30 日前提供入门价：每 100 万输入 token 2.00 美元、每 100 万输出 token 10.00 美元。\n\nThe Decoder 指出，Carbon 与 Gemini 4 Argon 的 token 单价相同，但 Carbon 推理消耗更多 token，实际总成本可能更高。\n\nPerplexity 随后宣布向所有 Pro 和 Max 订阅者推出该模型，可用于创建持久 Teammates，或在 Computer 中进行一次性智能体会话。此前 Perplexity CEO Aravind Srinivas 先行公布早期评测，称其为所见长篇幅研究和回答质量最强的模型，并在 WANDR 基准上取得新的 SoTA；该结论来自 Perplexity 一方，并非独立验证。Srinivas 称 Carbon 在智能体研究任务上能力与 Fable 5.2 相当、价格便宜 2.5 倍，并附 WANDR 数据：Carbon 得分 0.857、每任务成本 5.86 美元，Claude Fable 5.2 得分 0.851、成本 14.51 美元。",
+        "latest_at": "2026-11-10T18:19:13.000Z",
+        "original_url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 23,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.news/story/e16f5d00-5477-42b8-83d3-4162e0262249",
+        "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线"
+      },
+      "observed_at": "2026-11-10T20:53:20.648317Z"
+    }
+  ],
+  "version": 1
+}
