@@ -4,70 +4,104 @@
     {
       "item": {
         "aihot_story_id": "0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc",
-        "digest": "xAI 正在连夜修复 Grok Bot 的 token 效率与行为问题，并已为所有用户重置每周使用限额。Elon Musk 称，他刚与 Grok @Bot 工程团队复盘，修复正在连夜实施，用户“明天应该会看到显著改善”；若未见改善，可回复其帖子，团队会立即处理剩余问题。Grok Bot 相关账号 @mattyp 此前也称改进正在进行，并请用户在该帖下回复反馈。\n\n11 月 10 日，Grok Bot 官方账号 @bot 称已为所有 Grok Bot 用户重置每周使用限额，@mattyp、xAI 的 Eric Zakariasson 及 Grok Bot 工程负责人 Lauren Tan 也确认了重置。\n\n修复的具体内容、适用范围和完成时间尚未披露，也没有效率提升幅度的数据；“显著改善”是 Musk 的预期，尚未得到验证。",
+        "digest": null,
         "latest_at": "2026-11-09T22:22:30.000Z",
         "original_url": "https://x.com/bot/status/2119871982946971659",
         "rank": 7,
         "recovered": false,
         "representative_source": "X：Grok Bot (@bot)",
-        "signal_count": 13,
+        "signal_count": 12,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/0d0f5f1f-b3ea-4b0f-bd3c-f6735cd0b4dc",
         "title": "xAI 连夜修复 Grok Bot 并重置周限额"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
         "aihot_story_id": "1f7bc83b-0722-496f-bb5c-73f3f496580a",
-        "digest": "迪士尼与Adobe在Adobe MAX大会上宣布多年期合作，Adobe将基于Firefly Foundry为迪士尼开发专有的“艺术家主导”生成式AI模型，用于迪士尼的制作流程。Adobe称，该模型将基于迪士尼的角色、场景和视觉风格训练，产出可商用、可用于制作的内容。\n\n根据合作，迪士尼将获得Adobe最新技术的早期访问权限，覆盖迪士尼主题公园、邮轮业务和ESPN内容。Adobe同时成为迪士尼的官方AI创新合作伙伴，计划将AI工具推广至主题乐园、内容制作和体育内容传播等领域。",
+        "digest": null,
         "latest_at": "2026-11-10T03:26:36.530Z",
         "original_url": "https://www.ithome.com/1/024/731.htm",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
         "signal_count": 9,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/1f7bc83b-0722-496f-bb5c-73f3f496580a",
         "title": "迪士尼与Adobe合作开发定制生成式AI模型"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2a8ab25e-4eff-4873-8b94-a826310b395b",
+        "digest": "虚实传媒创始人卡兹克首次在X上为公司发布招聘，开放技术/艺术内容主笔、深度报道作者、视频编导、广告客户执行、品牌项目经理、达人运营6个岗位，工作地在北京，提供16薪、五险一金、不打卡考勤和弹性工作，简历投至HR@virxact.com。\n\n卡兹克称，公司现有30多人，签约独家AI博主300+，客户覆盖国内几乎所有AI相关公司；团队全员使用Claude或Codex Coding优化岗位流程，AI会员订阅费由公司报销。",
+        "latest_at": "2026-11-10T11:24:00.000Z",
+        "original_url": "https://x.com/Khazix0918/status/2120115253304586652",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：卡兹克 (@Khazix0918)",
+        "signal_count": 7,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2a8ab25e-4eff-4873-8b94-a826310b395b",
+        "title": "虚实传媒首次在X发布北京六岗招聘"
+      },
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
         "aihot_story_id": "2b6190d7-3612-47d1-9e63-d75e50b8604d",
-        "digest": null,
-        "latest_at": "2026-11-09T18:50:01.000Z",
+        "digest": "字节跳动 Seed 团队发布图像创作模型 Seedream 5.5，主打像素级可控编辑。官方称，围绕同一作品最多可连续编辑 100 轮，未改动区域在像素级保持不变、不偏色；模型可原生输出带 Alpha 通道的 RGBA 透明素材，最多 100 层透明分层，并改善光照、材质、皮肤纹理和密集小字渲染。豆包随后宣布图片设计能力升级，正式接入该模型。\n\n定价方面，火山引擎称 2K 方图编辑单张 0.28 元，不到 Seedream 5.0 Pro 的一半，生成速度快近 40%，文本 Token 免费；API 延续“输入图 + 输出图”两段计费，本周上线火山方舟。C 端用户可在即梦、豆包、豆包工作体验，Seedream 5.5 系列后续计划推出 Pro 版本。上述性能与价格均为发布方说法。\n\n另有测评作者称，将 Seedream 5.5 与 GPT Image 2.6 用同一张底图连续修改 30 轮，Seedream 5.5 只改动指定区域且画质稳定，Image 2.6 出现人物形变和画面整体漂移；该结论来自单一作者的实测，并非官方验证。",
+        "latest_at": "2026-11-10T10:12:00.000Z",
         "original_url": "https://seed.bytedance.com/zh/blog/%E7%94%9F%E6%88%90%E6%9B%B4%E7%9C%9F%E5%AE%9E-%E7%99%BE%E8%BD%AE%E7%BC%96%E8%BE%91%E6%9B%B4%E7%A8%B3%E5%AE%9A-seedream-5-5-%E5%8F%91%E5%B8%83",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "字节 Seed：Research Feed（网页内嵌数据）",
-        "signal_count": 16,
-        "source_count": 4,
-        "status": null,
+        "signal_count": 21,
+        "source_count": 5,
+        "status": "active",
         "story_url": "https://aihot.news/story/2b6190d7-3612-47d1-9e63-d75e50b8604d",
-        "title": "字节发布 Seedream 5.5 图像模型"
+        "title": "字节发布 Seedream 5.5 图像模型，豆包接入"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3ef2e80e-4464-431f-bc60-e1c5e7d77933",
+        "digest": "蚂蚁灵波科技开源触觉基础模型 LingBot-Touch，用于灵巧操作，基于近 5,000 小时真实触觉数据预训练。\n\n据 IT之家报道，该模型覆盖磁触觉、视触觉和压阻式三类传感原理，输出统一触觉表征，可跨传感器、跨灵巧手、跨模型和跨任务复用。蚂蚁灵波在官方 X 称，其通过统一的异构触觉建模实现上述迁移能力；实际表现尚未由第三方验证。",
+        "latest_at": "2026-11-10T02:46:47.257Z",
+        "original_url": "https://www.ithome.com/1/024/701.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 8,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/3ef2e80e-4464-431f-bc60-e1c5e7d77933",
+        "title": "蚂蚁灵波开源触觉基础模型 LingBot-Touch"
+      },
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
         "aihot_story_id": "4a64f241-8892-4af9-9d8a-d75c99724c71",
-        "digest": "Google 扩展第八代 TPU 产品线，新增 TPU 8i Max 和 TPU 8tx 两款系统，使一年内发布的第八代 TPU 系统总数达到四款。Google 称这是首次在一年内推出四款不同的 TPU 系统，并称这四款系统覆盖智能体生命周期的各个阶段。\n\nTPU 8i Max 面向超大上下文窗口和单机架最高算力密度，将两颗 TPU 8i 芯片封装在一起，算力、SRAM 和 HBM 带宽均翻倍；TPU 8tx 面向安全与机密推理，数据与模型权重在使用中保持加密隔离，延迟较 TPU 8t 最多降低 2 倍。AMD CEO 苏姿丰称 AMD EPYC 担任 TPU 8tx 的主机处理器。\n\n配套软件方面，Google 称 TorchTPU 可原生运行 PyTorch 和 Hugging Face 模型且无需改写代码，开源 TPU Sync 将 KV 传输延迟降低 90% 以上，Agent Compute Engine 用于减少闲置算力。两款新系统均未公布绝对规格、基准测试、价格和可用区域。",
+        "digest": null,
         "latest_at": "2026-11-09T18:19:08.000Z",
         "original_url": "https://x.com/Google/status/2119788086490001906",
-        "rank": 3,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Google (@Google)",
-        "signal_count": 22,
+        "signal_count": 25,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/4a64f241-8892-4af9-9d8a-d75c99724c71",
         "title": "Google 一年内交付四款第八代 TPU"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
@@ -89,36 +123,36 @@
     {
       "item": {
         "aihot_story_id": "760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
-        "digest": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型，主打编码、推理和视觉提升。Fable 5.2 已在所有付费方案、Claude Platform 及主要云平台上线，标准价格为每百万输入 token 8 美元、输出 token 40 美元，较 Fable 5.1 的 10 美元和 50 美元下降 20%；Mythos 移除了部分安全限制，仅向通过网络安全或生命科学验证计划申请的组织开放。\n\n第三方评测中，Artificial Analysis 称 Fable 5.2 以 65 分登顶其 Intelligence Index v5，领先 Gemini 4 Carbon（60）和 Opus 5.5（59）；ARC Prize 公布其在 ARC-AGI-2 上得分 93.8%，为见过的第三高，仅次于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%；Arena 称 Fable 5.2 (xHigh) 以 1832 分登顶 Code Arena: WebDev 榜。Anthropic 还称 Fable 5.2 解决了理论物理中两个与黑洞相关的开放问题，包括一项 23 年未解出的计算。\n\nAddy Osmani 称 Fable 5.2 token 消耗量大，按单个任务计算成本与 Fable 5.1 大致相同，尽管单价便宜了 20%。Fable 5.2 的 Fast 模式输出速度提升 2.5 倍、价格翻倍，仅在 Claude Code、Claude Platform、Google Cloud 和 Microsoft Foundry 等部分平台提供。订阅方面，Ultra 和 Team Premium 用户按订阅时长获得 Fable 重置次数（不足 6 个月 1 次、6–12 个月 2 次、超过 12 个月 3 次），可在 3 月 8 日前使用；Pro 和 Team Standard 用户有一周试用期，上限为每周额度的一半，另加一次重置。",
-        "latest_at": "2026-11-10T00:19:40.000Z",
+        "digest": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型，主打编码、推理和视觉能力。Fable 5.2 当日起向所有付费计划开放，并上线 Claude Platform 及 AWS、Google Cloud、Microsoft Azure 等主要云平台；Mythos 5.2 移除部分安全限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 token 40 美元，较 Fable 5.1 的 10/50 美元下降 20%，上下文 1M。\n\n多项第三方评测显示 Fable 5.2 登顶：Artificial Analysis Intelligence Index v5 以 65 分居首，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）；Arena Code Arena: WebDev 以 1832 分排名第一；ARC-AGI-2 得分 93.8%，为 ARC Prize 见过的第三高，仅次于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%。ARC Prize 同时说明，在标准测试框架下以 max 推理运行时，55 个半私有游戏中有 28 个触及 12 小时时限，max 得分 65.7%，低于 xhigh 的 81.2%；且已发布版本在 medium 和 xhigh 推理强度下的调优与其此前评估的检查点不同。\n\nFable 5.2 已接入 Cursor、Perplexity、Devin、OpenRouter、Google Cloud 等平台。Anthropic 向订阅用户发放 Fable 重置次数：Pro 用户一次，Max、Ultra 和 Team Premium 最多三次，取决于订阅时长，可在明年 3 月 8 日前使用；Pro 和 Team Standard 另有一周试用期，上限为每周额度的一半。Addy Osmani 称，Fable 5.2 的 token 消耗量大，按单任务计算成本与 Fable 5.1 大致相同，尽管单价便宜了 20%。",
+        "latest_at": "2026-11-10T07:49:56.000Z",
         "original_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
         "rank": 1,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 87,
-        "source_count": 21,
+        "signal_count": 110,
+        "source_count": 22,
         "status": "active",
         "story_url": "https://aihot.news/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
         "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": "Anthropic 仍在推进感恩节前上市，拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元。据《金融时报》援引投资者消息，CEO 阿莫迪已接受低于此前预期的估值水平；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。\n\n公司此前公开提交 S-1，拟在纳斯达克以代码 ANT 发行 A 类股，由高盛和摩根士丹利承销。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
-        "latest_at": "2026-11-10T01:27:12.000Z",
+        "digest": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，其中公司发售约 8.01 亿股、现有股东出售约 2365 万股，公司不获后者所得；发行价区间为每股 70–78 美元，拟在纳斯达克以代码 ANT 上市。据路透社公布的招股说明书草案，公司计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。\n\n据《金融时报》援引投资者消息，公司拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元，CEO 阿莫迪已接受低于此前预期的估值；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+        "latest_at": "2026-11-10T12:13:03.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
-        "rank": 6,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 15,
-        "source_count": 1,
+        "signal_count": 27,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "title": "Anthropic 拟感恩节前 IPO，估值预期降至 1.25–1.75 万亿美元"
+        "title": "Anthropic启动IPO路演，估值预期降至1.25–1.75万亿美元"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
@@ -158,35 +192,35 @@
       "item": {
         "aihot_story_id": "c9508ded-f5e2-404c-b983-fdd61423c85a",
         "digest": "Meta Superintelligence Lab 发布其最小、最高效的模型 Muse Ember，面向工具调用、编码子任务、路由、信息抽取和长文档解析等智能体高频任务。该模型已在 Meta Model API 和 Muse Code 上线，定价为每百万输入 token 0.10 美元、每百万输出 token 0.50 美元，缓存输入每百万 token 0.004 美元；Meta 称其可搭配更大的 Muse Wonder 模型协同工作。OpenCode 和 OpenRouter 随后宣布该模型已在其平台上线。\n\nArtificial Analysis 的评测显示，Muse Ember 在 Intelligence Index 上得 36 分，与 Claude Haiku 5.5 (max) 持平，每任务成本 0.14 美元，约为后者 0.41 美元的三分之一。Meta 引用该结果称其性能与 Claude Haiku 5.5 相当、成本约为三分之一，并称在 GPT-6 Luna 所有推理设置下得分均高于 Luna；这些对比说法来自 Meta 的引述。\n\nArena 的评测显示，Muse Ember (Max) 以 1608 分成为 Code Arena: WebDev 中得分最高的小模型，超过 Claude Haiku 5.5 (High) 的 1595 分和 GPT-6 Luna (Max) 的 1578 分。Arena 称三者 API 定价相同，但 Ember 的中位每任务成本为 0.03 美元，低于 Luna 的 0.06 美元和 Haiku 的 0.11 美元。Meta 还称 Muse Ember 具备 100 万 token 上下文窗口，原生理解文本、图像、音频和视频，能跨应用执行工作流、按顺序调用工具、运行测试并做针对性代码修复。",
-        "latest_at": "2026-11-10T00:59:26.907Z",
+        "latest_at": "2026-11-10T07:28:21.000Z",
         "original_url": "https://research.meta.ai/blog/muse-ember",
         "rank": 4,
         "recovered": false,
         "representative_source": "Meta AI：Research Blog（网页）",
-        "signal_count": 16,
-        "source_count": 9,
+        "signal_count": 24,
+        "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.news/story/c9508ded-f5e2-404c-b983-fdd61423c85a",
         "title": "Meta 发布轻量模型 Muse Ember，主打低成本智能体任务"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
         "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
-        "digest": "英伟达董事会11月8日启动独立调查，起因是《纽约时报》《金融时报》等报道称，公司创始人兼CEO黄仁勋成为外国情报行动的目标。调查由独立董事组成的委员会在外部律师协助下进行，黄仁勋表示全力配合；董事会称目前“没有理由认为”国家安全或公司机密已受损。黄仁勋随后在内部信中承认与涉事高管Alice Huang存在婚外情。\n\n报道称，Alice Huang是新加坡数据中心运营商Megaspeed的高管，美国情报机构认为她受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，双方属例行商业往来，芯片转运指控“去年已被彻底调查并证伪”。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报。英伟达法兰克福上市股票在消息后一度跌超6%；耶鲁教授Sonnenfeld估计黄仁勋留任概率约为50-50。黄仁勋目前仍留任CEO，并已退出原定本周三在纽约举行的ElevenLabs Summit及其他演讲安排。做空机构Culper Research称，其在5月13日的报告中已质疑黄仁勋与Alice Huang关系“异常密切”。",
+        "digest": null,
         "latest_at": "2026-11-09T23:51:58.000Z",
         "original_url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
         "rank": 2,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 63,
+        "signal_count": 64,
         "source_count": 8,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "英伟达董事会调查黄仁勋涉情报事件"
       },
-      "observed_at": "2026-11-10T04:39:38.484791Z"
+      "observed_at": "2026-11-10T13:33:41.478535Z"
     },
     {
       "item": {
