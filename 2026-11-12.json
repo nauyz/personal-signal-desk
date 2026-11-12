@@ -16,7 +16,7 @@
         "story_url": "https://aihot.news/story/29e37b58-ab35-4bcf-b318-20b0e5a3290d",
         "title": "Anthropic 为 Claude 新增白板、表格与数据三类 artifact"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
@@ -38,36 +38,53 @@
     {
       "item": {
         "aihot_story_id": "315f4328-e4b0-4d44-bc5e-e317e0b0f8f6",
-        "digest": "Google DeepMind 发布下一代 DNA 序列模型 AlphaGenome 2，称其能预测 DNA 变异如何影响特定人类细胞类型中的基因表达。DeepMind 称，模型改用条件式架构，训练数据超过 1.07 亿个单细胞样本、覆盖 68 种组织；在 TenK10K 数据集上识别出的因果变异数量接近上一代的两倍（30% 对 16%）。\n\nDeepMind 称，模型无需重新训练即可适配新的单细胞实验：研究人员接入几十个细胞的数据，就能观察 DNA 变化在特定时刻的表现，例如免疫细胞对疫苗的响应、肠道细胞驱动炎症性疾病、干细胞成熟为血细胞。\n\n模型已通过 AlphaGenome API 开放，限非商业研究使用，并提供交互式 Colab 教程；商业研究仅限“private preview”（非公开预览）。DeepMind 注明，该模型仅供研究使用，尚未经临床或诊断用途验证或批准。上述能力均为 DeepMind 的说法。",
-        "latest_at": "2026-11-11T23:28:24.857Z",
+        "digest": "Google DeepMind 发布下一代 DNA 序列模型 AlphaGenome 2，称其能预测 DNA 变异如何影响特定人类细胞类型和细胞状态中的基因表达。DeepMind 称，模型改用条件式架构，训练数据超过 1.07 亿个单细胞样本、覆盖 68 种组织；在 TenK10K 数据集上识别出的因果变异数量接近上一代的两倍（30% 对 16%）。\n\nDeepMind 称，模型无需重新训练即可适配新的单细胞实验：研究人员接入几十个细胞的数据，就能观察 DNA 变化在特定时刻的表现，例如免疫细胞对疫苗的响应、肠道细胞驱动炎症性疾病、干细胞成熟为血细胞。\n\n模型已通过 AlphaGenome API 开放，限非商业研究使用，并提供交互式 Colab 教程；商业研究仅限“private preview”（非公开预览）。DeepMind 注明，该模型仅供研究使用，尚未经临床或诊断用途验证或批准。上述能力均为 DeepMind 的说法。",
+        "latest_at": "2026-11-12T12:09:43.000Z",
         "original_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
         "rank": 9,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 9,
-        "source_count": 4,
+        "signal_count": 12,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/315f4328-e4b0-4d44-bc5e-e317e0b0f8f6",
         "title": "DeepMind 发布 AlphaGenome 2 基因组模型"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
         "aihot_story_id": "532d299f-c029-4fd3-8dcf-d821dd59a569",
-        "digest": "美联航宣布不允许个人 AI 智能体代用户完成购票交易，理由是隐私泄露、误购风险，以及可能绕开航空公司须向乘客披露信息的联邦规定。智能体仍可查询航班选项和价格，但无法在其网站完成购买。美联航称，联邦法规要求乘客亲自声明托运行李不含爆炸物，AI 智能体无法合法执行这一步骤；其后端系统已按来源标记每个预订，可区分个人、旅行社和 AI 智能体。\n\n据《华尔街日报》报道，CEO Scott Kirby 表示不想再制造一个中间商。美联航称未来会视第三方智能体的进展重新评估这一决定。eBay 和多家银行也对未授权智能体设置了类似限制。\n\nxAI 工程师 Lingxi Li 转发 Kalshi 关于此事的快讯并评论称，美联航禁止 AI 智能体预订航班是一个“大错误”。",
+        "digest": null,
         "latest_at": "2026-11-12T01:39:34.963Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2120584444247760983",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 9,
+        "signal_count": 12,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/532d299f-c029-4fd3-8dcf-d821dd59a569",
         "title": "美联航禁止个人AI智能体代客购票"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "60c71184-5d0c-4286-94d2-52e32d087f39",
+        "digest": "豆包工作向团队订阅版和企业订阅版客户开放第三方模型服务，首批接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等模型，上线后默认开启。企业无需另行向模型厂商采购或额外申请，按用量扣除已有 AI 点数，并可按成员、部门、群组或全员划定可用范围，按厂商批量启用或单独配置模型。\n\n后续更新中，豆包工作将上述第三方模型与豆包 2.1 Lite、Pro 并列供选择，并在模型选择页面标注额度消耗倍率。豆包工作称，用户在工作日及节假日的指定优惠时段使用参与活动的模型可享额度消耗优惠；豆包 2.1 Lite 和 DeepSeek V4.1 Flash 的额度消耗倍率已下调；新用户登录电脑版可免费领取 30 天订阅权益。",
+        "latest_at": "2026-11-12T02:31:16.000Z",
+        "original_url": "https://www.ithome.com/1/019/733.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 13,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/60c71184-5d0c-4286-94d2-52e32d087f39",
+        "title": "豆包工作向企业开放第三方模型并推限时优惠"
+      },
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
@@ -92,50 +109,50 @@
         "digest": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，并已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud、OpenClaw 等平台上线。\n\n评测方面，Artificial Analysis 智能指数 v5 以 65 分登顶；Arena Code Arena: WebDev 以 1832 分居首；Remote Labor Index 以 41.3% 领跑；AA-Robotics v0.1 以 75 分居首，领先 GPT-6 Astra（69）和 GPT-6.1 Sol（65），并成为首个在测量盒任务上得分的模型。Arena 称 Fable 5.2 (Max) 以 +30.4% 净提升登顶 Agent Arena，约为第二名 Opus-5.5 的 1.6 倍，数据来自 4.7k 真实智能体会话。ARC Prize 公布其在 ARC-AGI-2 得 93.8%，为第三高，低于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%。Anthropic 称 Fable 5.2 解决了两个与黑洞相关的理论物理开放问题，包括一项 23 年未完成的计算。\n\n订阅权益上，Pro 用户获一次 Fable 重置，Max、Ultra 和 Team Premium 按订阅时长最多三次，可用至 3 月 8 日；Pro 和 Team Standard 另有一周试用期，额度不超过每周上限的一半。Addy Osmani 称该模型 token 消耗大，按单任务计成本与 Fable 5.1 大致相当。",
         "latest_at": "2026-11-12T02:00:20.000Z",
         "original_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-        "rank": 2,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 64,
-        "source_count": 8,
+        "signal_count": 39,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.news/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
         "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
         "aihot_story_id": "7c20f4ef-fe04-4eca-8355-554fa5df4366",
-        "digest": null,
-        "latest_at": "2026-11-11T19:03:34.000Z",
+        "digest": "MiniMax 发布图像生成模型 H3-Image 并开放模型权重，权重可在 Hugging Face 获取。该模型基于 H3，支持文生图、图像参考和图像编辑，可在 10 秒内生成 4096×4096 像素（约 16MP）图像，最多支持 16 张参考图。MiniMax 称其速度最高达主流方案的 5 倍、指令遵循能力为开源模型中最强。模型已通过 MiniMax 的 API、MiniMax Code 和 Hailuo AI 提供；发布首周，4K 及以上分辨率（官方另一表述为 16MP 及以上规格）的生成请求按官方价格五折计费。\n\n第三方平台陆续接入：ComfyUI 宣布原生支持，可本地运行或经 Partner Nodes 使用，支持 6 步采样、最高 4096×4096 输出；fal 上线文生图和图像编辑接口，称支持任意宽高比的原生 16MP 分辨率、约 15 秒完成 2K 图像编辑，未来两周在该平台可免费生成；Arena 上线 Battle Mode 供用户测试投票；Runware 称 Day 0 上线，输出最高 20MP，图像输出每百万 token 3.80 美元起，两款模型 4K 输出 11 月 17 日前五折；each::labs 和 OiiOii 也已上线，OiiOii 称发布首周提供 40% 折扣及买一送一积分。\n\n硬件与推理侧，摩尔线程称 MTT S5000 智算卡及 MUSA 软件栈已在开源当日完成适配；vLLM-Omni 团队称已将 H3-Image 带到 NVIDIA Vera Rubin，在四卡 SP4 配置下原生 4096×4096 生成中位延迟 0.866 秒，比 GB200 快 2.21 倍，另一吞吐配置达每小时 6,115 张。",
+        "latest_at": "2026-11-12T07:58:29.000Z",
         "original_url": "https://www.minimax.io/blog/minimax-h3-image",
         "rank": 7,
         "recovered": false,
         "representative_source": "MiniMax：Blog（网页）",
         "signal_count": 20,
-        "source_count": 6,
-        "status": null,
+        "source_count": 7,
+        "status": "active",
         "story_url": "https://aihot.news/story/7c20f4ef-fe04-4eca-8355-554fa5df4366",
-        "title": "MiniMax 开源 H3-Image，多平台接入"
+        "title": "MiniMax 开源 H3-Image，多平台接入并完成芯片适配"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": null,
-        "latest_at": "2026-11-11T15:11:59.000Z",
+        "digest": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，其中公司发售约 8.01 亿股、现有股东出售约 2365 万股，公司不获后者所得；发行价区间为每股 70–78 美元，拟在纳斯达克以代码 ANT 上市。据路透社公布的招股说明书草案，公司计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。\n\n据《金融时报》援引投资者消息，公司拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元，CEO 阿莫迪已接受低于此前预期的估值；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
+        "latest_at": "2026-11-12T11:30:46.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
         "rank": 4,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 43,
-        "source_count": 7,
-        "status": null,
+        "signal_count": 40,
+        "source_count": 6,
+        "status": "active",
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
@@ -160,16 +177,16 @@
         "digest": "Google 发布 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，已在 Gemini API、Google AI Studio 上线，首日也登陆 OpenRouter。该模型不逐 token 生成文本，而是把文本、图像、音频、视频和 PDF 输入与最多 1,000 个问题对照，单次给出是/否、多选或评分答案，并附置信度分数，端到端耗时 150–250 毫秒。\n\n定价为每 100 万输入 token 0.10 美元、输出 token 不计费；Google 称可在 Google AI Studio 的免费额度中试用，并称在共享基准测试套件上，其成本效率比使用 Interactions API 的 Gemini 3.5 Flash-Lite 高出近 5 倍。Google Labs 副总裁 Josh Woodward 称团队常用它构建应用，并附基准对比称其在 JeeBench 达 92.2%、MMAU 达 71.8%。\n\nArtificial Analysis 的评测显示，Gemini Decision 1 在 Decision Index v2.1 得 66 分，与 Elephant 9B、Jev 1.14 持平，比并列榜首的 Drex Max v1.1 和 GLiDE v1.2（均 73 分）低 7 分。",
         "latest_at": "2026-11-12T00:55:39.970Z",
         "original_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-        "rank": 5,
+        "rank": 2,
         "recovered": false,
         "representative_source": "Google Blog：AI（RSS）",
-        "signal_count": 15,
+        "signal_count": 24,
         "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.news/story/8febc4b1-e8fa-4418-97c6-eb03dfa73f42",
         "title": "Google发布Gemini Decision 1决策模型，评测得66分"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
@@ -192,18 +209,18 @@
       "item": {
         "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "digest": "英伟达董事会11月8日启动独立调查，由独立董事组成委员会、在外部律师协助下，审查创始人兼CEO黄仁勋成为外国情报行动目标的报道。黄仁勋表示全力配合，董事会称目前“没有理由认为”国家安全或公司机密受损。黄仁勋随后在内部信中承认与新加坡数据中心运营商Megaspeed高管Alice Huang存在婚外情。\n\n《纽约时报》《金融时报》等报道称，美国情报机构认为Alice Huang受中国国家安全部招募，借与黄仁勋的密切接触获取英伟达计划及对华芯片出口政策信息；相关说法来自匿名信源和一份在美方官员间传阅的备忘录。英伟达此前否认相关指控，称Megaspeed只是区域云客户，芯片转运指控“去年已被彻底调查并证伪”。The Information最新报道称，Alice Huang与丈夫和姐姐在中国和新加坡建立采购网络，涉及75亿美元英伟达硬件流向中国买家。\n\n美国众议院三个委员会已要求黄仁勋就与Alice Huang的往来作闭门简报，众议院外交事务委员会主席Brian Mast称，若黄仁勋不在11月11日前答复，将发出传票。英伟达法兰克福上市股票在消息后一度跌超6%；耶鲁教授Sonnenfeld估计黄仁勋留任概率约为50-50。黄仁勋目前仍留任CEO，并已退出原定本周三在纽约举行的ElevenLabs Summit及其他演讲安排。做空机构Culper Research称，其在5月13日的报告中已质疑黄仁勋与Alice Huang关系“异常密切”。",
-        "latest_at": "2026-11-11T23:53:06.000Z",
+        "latest_at": "2026-11-12T04:15:28.377Z",
         "original_url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
         "rank": 1,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 53,
+        "signal_count": 56,
         "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
-        "title": "英伟达董事会调查黄仁勋涉情报事件"
+        "title": "英伟达董事会调查黄仁勋涉外国情报事件"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     },
     {
       "item": {
@@ -214,13 +231,13 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 49,
+        "signal_count": 51,
         "source_count": 8,
         "status": "active",
         "story_url": "https://aihot.news/story/e16f5d00-5477-42b8-83d3-4162e0262249",
         "title": "Google 开放 Gemini 4 Carbon，Perplexity 同步上线"
       },
-      "observed_at": "2026-11-12T03:52:11.909506Z"
+      "observed_at": "2026-11-12T12:51:38.347156Z"
     }
   ],
   "version": 1
