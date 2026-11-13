@@ -5,52 +5,69 @@
       "item": {
         "aihot_story_id": "2ff1f46f-7e98-4965-a5b2-87329632ca5d",
         "digest": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为快速执行日常编码与智能体工作流的模型，与主打深度推理的 Carbon、Argon 同属 Gemini 4 系列。Google 称这是 Search 迄今最大的模型升级，已向全球所有用户开放；该模型同时成为 Gemini Managed Agents 中 Antigravity 智能体的默认模型，并已上线 Cursor 和 Cognition 的 Devin Desktop、Devin CLI，OpenClaw 也称已可使用。Ars Technica 称它取代了此前广泛使用的 Gemini 3.8 Flash，且上线即开放，不像 Argon、Carbon 那样分阶段推送。\n\n使用范围按用户类型区分：所有用户可在 Gemini 应用、Google Search 和 Google AI Studio 访问；付费 Google AI Pro 和 Ultra 订阅者还可在 Google Antigravity、Chrome 中的 Gemini 和 Google Sheets 中的 Gemini 使用；开发者和企业可通过各档 Gemini API、Android Studio 及 Gemini for business 使用。免费用户在 Gemini 应用中需通过自动模型选择，在适合该提示词的场景下才会用到 Hydrogen。定价为 100 万 token 上下文窗口内统一计价：输入每百万 token 1.50 美元，输出每百万 token 7.50 美元。\n\n第三方评测机构 Artificial Analysis 称，该模型新增的 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分；每任务成本约为 Sonnet 的 32%，但约为 GPT-6.1 Sol 的 2.5 倍。该机构另称 Hydrogen 在 AA-Robotics v0.1 中排第四，是排名最高的 Google 模型，落后于 Claude Fable 5.2、GPT-6 Astra 和 GPT-6.1 Sol。Cursor 称该模型在其默认 effort 下 CursorBench 得分 54.3%，高于 Gemini 3.8 Flash 的 39.6%；Cognition 称其在 FrontierCode 2.0 得 38.2%，仅次于 GPT-6.1 Sol；Arena 榜单显示 Gemini 4 Hydrogen (High) 首次进入 Code Arena: WebDev 第 10 名，得 1703 分。",
-        "latest_at": "2026-11-13T09:45:48.000Z",
+        "latest_at": "2026-11-13T22:05:33.000Z",
         "original_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
         "rank": 2,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 64,
+        "signal_count": 66,
         "source_count": 18,
         "status": "active",
         "story_url": "https://aihot.news/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d",
         "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "44c4eb23-1f37-4994-a66d-7a06ff7a74ba",
+        "digest": "llama.cpp 作者 Georgi Gerganov 于 11 月 13 日宣布 llama.cpp v1.0.0 已可用，并称这是 llama.cpp 和 ggml 的首个大版本。这距离他 11 月 5 日发布 v0.9.0、称“接下来几周”迈向 v1.0.0 仅约一周多。\n\n据 Hugging Face 博客，团队同时发布了 llama.cpp 和 ggml 的 v1.0.0 库，并承诺今后以主版本号标识 API 和 ABI 不兼容变更，同时公开语义化版本更新规则。Gerganov 称，此次发布已为本地 AI 的未来打下坚实基础。\n\nHugging Face CEO Clément Delangue 与 Gerganov 一同宣布这一版本，称它是运行本地 AI 模型最常用库的首个完全稳定大版本；他称用户可在手机、笔记本和工作站上免费掌控自己的智能、不向任何人发送数据，并承诺支持所有硬件、平台和模型类型。这些是发布方的说法。Cohere 随后转发该消息，并称已将 llama.cpp 支持加入 North Micro Vision。",
+        "latest_at": "2026-11-13T19:59:06.000Z",
+        "original_url": "https://x.com/ClementDelangue/status/2121260104913768931",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
+        "signal_count": 6,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/44c4eb23-1f37-4994-a66d-7a06ff7a74ba",
+        "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0"
+      },
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
         "aihot_story_id": "77f8b937-8e1a-4b05-b3eb-b609445fedd4",
         "digest": "DeepSeek 于 11 月 13 日将 App 对话背后的能力开放给开发者：在原有 API 中开启对应参数，即可使用联网搜索、文件输入、阅读链接等功能，工具调用与上下文拼接由服务端完成。V4.1-Flash 模型（deepseek-flash）已在 Messages、Responses 与 Chat Completions 接口下支持这些能力；语音及底层能力另设独立接口，含 OCR、ASR、TTS，可单独或组合调用。\n\nDeepSeek 称，调用扩展能力时除 Token 费用外，还将收取相关工具的调用费用，具体定价随公告另行列出。对外提供应用服务的开发者须开启内容安全参数，并自行承担内容安全审核、大模型登记、AI 标识等义务。\n\n官方同时提供可导入 DeepSeek 对话历史的开源前端演示（github.com/deepseek-ai/chat-demo）。投资人 Tianyi Cui 转发公告称，开发者可用少量参数启用内置功能，在自建应用中还原完整 App 体验。",
-        "latest_at": "2026-11-13T15:31:21.000Z",
+        "latest_at": "2026-11-13T20:31:51.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 13,
-        "source_count": 3,
+        "signal_count": 15,
+        "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.news/story/77f8b937-8e1a-4b05-b3eb-b609445fedd4",
         "title": "DeepSeek 开放 App 能力 API，扩展调用另收费"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "digest": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，其中公司发售约 8.01 亿股、现有股东出售约 2365 万股，公司不获后者所得；发行价区间为每股 70–78 美元，拟在纳斯达克以代码 ANT 上市。据路透社公布的招股说明书草案，公司计划通过 IPO 筹集最多 644 亿美元，并向谷歌、英伟达和 AMD 等基石投资者私募融资 260 亿美元，计入博通、美光、微软和台积电等出资后募资规模最高可达 904 亿美元。\n\n据《金融时报》援引投资者消息，公司拟募资 800–1000 亿美元，目标估值 1.25 万亿–1.75 万亿美元，CEO 阿莫迪已接受低于此前预期的估值；公司 9 月曾瞄准最高 2 万亿美元。据 WSJ，公司本周将设定估值区间，计划下周四或周五挂牌，部分机构投资者仍希望估值低于上周讨论的 1.5 万亿美元。\n\n估值下调发生在投资者质疑之后。据 Reuters 和 WSJ，投资者认为 1.5 万亿美元过高，有人提出仅 1 万亿美元，并怀疑原定下周启动的路演能否如期进行，还在等待更新文件未包含的 10 月营收数据。更新后的 S-1/A 首次披露第三季度业绩：经营利润从二季度盈利 9.74 亿美元转为亏损 5.67 亿美元，Q3 营收 170 亿美元，算力成本占营收比例从 48% 升至 58%；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元尚未定价。上市后，长期受益信托可任命七名董事中的四席，七位联合创始人合计掌握 50.1% 投票权。",
-        "latest_at": "2026-11-13T15:15:08.000Z",
+        "latest_at": "2026-11-13T18:01:53.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
-        "rank": 8,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 20,
+        "signal_count": 21,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
@@ -78,30 +95,30 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 114,
+        "signal_count": 111,
         "source_count": 15,
         "status": "active",
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "黄仁勋辞任英伟达CEO并退出董事会"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
         "aihot_story_id": "d6f453c1-9dce-4af5-8a9a-ff7b8642493c",
-        "digest": "微软 Microsoft 365 出现近年最严重的服务故障之一，Exchange Online、Outlook、SharePoint 及部分 Teams 中断近一天半，微软高管为此致歉。Anthropic 称 Claude 部分服务的中断源于 Microsoft 365 连接问题，并通过 Claude Status 页面陆续发布多条通报。\n\n目前公开的信息只说明 Anthropic 将故障归因于微软侧连接，Claude 受影响的具体范围和恢复时间未在通报中给出。",
+        "digest": null,
         "latest_at": "2026-11-13T13:10:18.303Z",
         "original_url": "https://www.ithome.com/1/026/948.htm",
         "rank": 3,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 27,
+        "signal_count": 29,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/d6f453c1-9dce-4af5-8a9a-ff7b8642493c",
         "title": "微软365故障波及Claude，Anthropic通报中断"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
@@ -109,16 +126,16 @@
         "digest": "前 OpenAI 工程师 Will Depue 在 X 发帖称，他通过分析模型权重的初始化指纹，发现 DeepSeek、Moonshot、MiniMax 和蚂蚁集团的最新模型是在 NVIDIA Blackwell 芯片上训练的，而这类芯片被禁止出口到中国。他称权重初始化模式会随 GPU 类型和随机种子留下可追溯的指纹，并已公开 GitHub 验证代码。\n\nThe Decoder 的跟进报道称，Depue 点名的是四家实验室在 2026 年 4 月后发布的六个模型。该报道同时指出，这一方法严格来说只能说明权重由哪种硬件初始化，训练很可能在同一批系统上运行；报道还称，Depue 的报告表示其技术证据显示这些实验室能接触到 NVIDIA 顶级硬件，但本身不能证明存在芯片走私或违反美国出口法。上述结论目前来自 Depue 本人的说法，尚未见独立核实。",
         "latest_at": "2026-11-13T15:21:04.000Z",
         "original_url": "https://x.com/indigox/status/2121040986256109987",
-        "rank": 9,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：indigo (@indigox)",
-        "signal_count": 12,
+        "signal_count": 13,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.news/story/d7ab817c-174b-469d-8150-f55f492570e4",
         "title": "前OpenAI工程师称四家中国AI实验室用Blackwell训练模型"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
@@ -126,7 +143,7 @@
         "digest": null,
         "latest_at": "2026-11-12T22:36:29.000Z",
         "original_url": "https://claude.com/blog/claude-meetings",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
         "signal_count": 20,
@@ -135,24 +152,24 @@
         "story_url": "https://aihot.news/story/dad94af2-7539-4652-a661-03cc5494c71b",
         "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
         "aihot_story_id": "e5b4067f-6f2e-4f04-8799-21e4fbd9b590",
-        "digest": "OpenAI推出支付功能ChatGPT Wallet，让ChatGPT Work、Codex和dots中的智能体在用户批准下完成购买，并沿用用户现有银行卡的保护机制。该功能由OpenAI与美国运通、万事达卡和Visa合作开发，初期不向交易收取佣金。\n\n初期仅向限量美国年满18岁的ChatGPT Pro订阅用户开放，且需绑定美国发行的Visa、万事达卡或美国运通卡。TechCrunch报道称，用户可让名为dot的智能体帮助决定买什么，再由其代为完成结账。\n\nChatGPT官方账号称，智能体支付时不会接触用户的实际卡号信息，每笔购买都需通过安全检查；该功能即日起在美国向Pro订阅用户的dot推出。",
-        "latest_at": "2026-11-13T16:54:28.000Z",
+        "digest": "OpenAI推出ChatGPT Wallet，让ChatGPT Work、Codex和dots中的智能体在用户批准下完成购买，并沿用用户现有银行卡的保护机制。该功能由OpenAI与美国运通、万事达卡和Visa合作开发，初期不向交易收取佣金。\n\n初期仅向限量美国年满18岁的ChatGPT Pro订阅用户开放，且需使用美国账单地址并绑定美国发行的合资格卡。关于卡组织范围，TechCrunch称支持Visa、万事达卡和美国运通，The Verge则称还包括Chase。TechCrunch报道称，用户可让名为dot的智能体帮助决定买什么，再由其代为完成结账。\n\nChatGPT官方账号称，智能体支付时不会接触用户的实际卡号信息，每笔购买都需通过安全检查。X用户Rohan Paul称，每次购买需生物识别批准，智能体以替代真实卡号的token支付，卡号对商户和智能体均不可见；他还称OpenAI计划日后允许用户设置消费限额和类别、完全委托购买。The Verge也引述OpenAI称，未来用户可设定消费限额、购买类别或时间段等参数，并预先批准这些购买。这些均为计划中的说法，尚未落地。",
+        "latest_at": "2026-11-13T20:45:10.000Z",
         "original_url": "https://x.com/ChatGPT/status/2121283151729496235",
-        "rank": 6,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：ChatGPT (@ChatGPT)",
-        "signal_count": 11,
-        "source_count": 3,
+        "signal_count": 15,
+        "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.news/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590",
         "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     },
     {
       "item": {
@@ -169,7 +186,7 @@
         "story_url": "https://aihot.news/story/ee2e9a50-8def-4105-994e-06f5d0926408",
         "title": "李彦宏在百度世界2026提出“智能组织”"
       },
-      "observed_at": "2026-11-13T17:49:53.207100Z"
+      "observed_at": "2026-11-13T23:39:00.520283Z"
     }
   ],
   "version": 1
