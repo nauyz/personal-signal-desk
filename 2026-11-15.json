@@ -10,13 +10,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 52,
-        "source_count": 9,
+        "signal_count": 44,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d",
         "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-11-14T00:14:06.727Z",
         "original_url": "https://x.com/ClementDelangue/status/2121260104913768931",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
         "signal_count": 12,
@@ -33,7 +33,24 @@
         "story_url": "https://aihot.news/story/44c4eb23-1f37-4994-a66d-7a06ff7a74ba",
         "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4be4c14d-784f-462e-bf3d-e88b8e5b615a",
+        "digest": "Anthropic 为桌面版 Claude Code 推出自定义主题功能：用户可用 mods 更改颜色、添加动态背景，也可直接告诉 Claude 想要的外观，或用 theme-examples 插件上手。\n\n该功能目前仅适用于桌面应用的本地会话，更新到最新版本即可体验；Anthropic 称对云端会话的支持“即将推出”。\n\nClaude Code 团队成员 Lydia Hallie 与 Adam Wolff 在推广中表示，期待看到用户创作的主题。",
+        "latest_at": "2026-11-14T06:26:00.000Z",
+        "original_url": "https://x.com/ClaudeDevs/status/2121392666244186327",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Claude Devs (@ClaudeDevs)",
+        "signal_count": 9,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/4be4c14d-784f-462e-bf3d-e88b8e5b615a",
+        "title": "Claude Code 桌面版上线本地会话自定义主题"
+      },
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
@@ -41,7 +58,7 @@
         "digest": null,
         "latest_at": "2026-11-14T11:40:51.000Z",
         "original_url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
         "signal_count": 13,
@@ -50,24 +67,24 @@
         "story_url": "https://aihot.news/story/4d02a2b5-ec70-4631-a88c-702e78e77fc0",
         "title": "OpenAI解散机器人团队，研究人员并入其他部门"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
         "aihot_story_id": "68ccf963-6e38-4e86-b2f3-289bd70774fb",
-        "digest": null,
-        "latest_at": "2026-11-13T20:07:34.000Z",
+        "digest": "NVIDIA 董事会罢免黄仁勋后，员工和投资者正从两个方向施压：据 X.PIN 转发的一封内部公开信，数百名员工签署该信，要求董事会辞职并恢复黄仁勋的 CEO 职务，信中指控董事会在没有具体证据的情况下罢免黄仁勋、未诚信谈判，并称若要求未获满足，员工可能转投 Elon Musk 承诺安排职位的 SpaceX 与 Terafab；这些指控与离职去向均为信中说法。投资者 Brad Gerstner 和 Gavin Baker 则致信董事会，敦促其不要急于替换黄仁勋，并保留他回归 CEO 的可能。\n\n与此同时，据 FT 报道，董事会已接触 Arm CEO Rene Haas 作为接替黄仁勋的可能人选。Haas 自 2022 年起执掌这家软银旗下的英国芯片设计公司，十多年前曾在 NVIDIA 工作约 7 年，但他只是多位候选人之一，未必会获得或接受这一职位。\n\nThe Decoder 援引 WSJ 报道称，黄仁勋被罢免更多源于其主导的高风险业务，而非私生活传闻：NVIDIA 向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。",
+        "latest_at": "2026-11-14T19:38:34.000Z",
         "original_url": "https://x.com/thexpin/status/2121156882064937448",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 12,
+        "signal_count": 13,
         "source_count": 4,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.news/story/68ccf963-6e38-4e86-b2f3-289bd70774fb",
-        "title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者"
+        "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
@@ -84,24 +101,24 @@
         "story_url": "https://aihot.news/story/77f8b937-8e1a-4b05-b3eb-b609445fedd4",
         "title": "DeepSeek 开放 App 能力 API，扩展调用另收费"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
         "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
-        "digest": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋辞去总裁、CEO及董事职务，即刻生效，结束33年执掌。此前他承认与Megaspeed前高管Alice Huang的婚外情，美国情报界认为后者为中国国家安全部招募的间谍；《纽约时报》又曝出他与一名直接下属的第二段婚外情。董事会任命CFO Colette Kress为临时CEO，并启动内外部继任者遴选，前Synopsys CEO Harvey Jones出任公司首任董事长。\n\n董事会此前于周末启动独立调查，并称无理由认为国家安全或公司机密受损；《华尔街日报》随后报道董事会接近决定是否罢免黄仁勋。消息公布后，英伟达股价一度下跌13%至14%，市值回落至4万亿美元以下。\n\n事件还牵出芯片出口争议：The Information报道称Alice Huang相关网络向中国买家转手约75亿美元英伟达硬件；众议院中国特设委员会主席Moolenaar要求英伟达任命把国家安全置于首位的领导层，并推动年底国防授权法案通过出口管制立法。",
+        "digest": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋辞去CEO、总裁及董事职务，即刻生效，结束其33年执掌。此前他承认与Megaspeed前高管Alice Huang的婚外情，美国情报界认为后者为中国国家安全部招募；《纽约时报》又曝出他与一名直接下属的第二段婚外情，路透社随后披露第三段。董事会任命任职超13年的CFO Colette Kress为临时CEO，并启动内外部继任者遴选，同时任命Harvey Jones为公司首任董事长。\n\n事件始于《金融时报》报道黄仁勋与Alice Huang的关系，黄仁勋随后向全体员工发邮件承认婚外情并致歉，董事会启动独立调查，当时称无理由认为公司机密或国家安全受损。做空机构Culper Research早在5月就质疑二人关系异常密切；The Information报道称与Alice Huang相关的采购网络涉及约75亿美元英伟达硬件流向中国买家。\n\n黄仁勋辞职后，英伟达股价一度下跌13%至14%，市值回落至4万亿美元以下。美国众议院中国特设委员会主席Moolenaar要求英伟达任命把国家安全置于首位的领导层，并推动年底国防授权法案通过出口管制立法。特朗普此前公开为黄仁勋辩护，称他告诉自己从不知道对方是间谍。新加坡政府则澄清，从未就Alice Huang展开相关调查。",
         "latest_at": "2026-11-14T14:49:22.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
         "rank": 1,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 63,
+        "signal_count": 57,
         "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "黄仁勋辞任英伟达CEO并退出董事会"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
@@ -109,16 +126,16 @@
         "digest": null,
         "latest_at": "2026-11-13T13:10:18.303Z",
         "original_url": "https://www.ithome.com/1/026/948.htm",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 31,
+        "signal_count": 29,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/d6f453c1-9dce-4af5-8a9a-ff7b8642493c",
         "title": "微软365故障波及Claude，Anthropic通报中断"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
@@ -143,16 +160,16 @@
         "digest": null,
         "latest_at": "2026-11-13T20:45:10.000Z",
         "original_url": "https://x.com/ChatGPT/status/2121283151729496235",
-        "rank": 4,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：ChatGPT (@ChatGPT)",
-        "signal_count": 21,
+        "signal_count": 23,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.news/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590",
         "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     },
     {
       "item": {
@@ -169,7 +186,7 @@
         "story_url": "https://aihot.news/story/f39357ff-614c-4933-bc75-31ede55ae3b2",
         "title": "Gemini 接入 Google Wallet，仅可读取账户"
       },
-      "observed_at": "2026-11-14T19:15:19.893079Z"
+      "observed_at": "2026-11-14T23:06:03.772174Z"
     }
   ],
   "version": 1
