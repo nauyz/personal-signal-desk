@@ -10,13 +10,13 @@
         "rank": 2,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 67,
+        "signal_count": 68,
         "source_count": 16,
         "status": null,
         "story_url": "https://aihot.news/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d",
         "title": "Google 发布 Gemini 4 Hydrogen，接入搜索与编程工具"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -24,16 +24,33 @@
         "digest": "llama.cpp 作者 Georgi Gerganov 于 11 月 13 日宣布 llama.cpp 与底层引擎 ggml 的库版本进入 v1.0.0，称这是两者的首个大版本。此前 11 月 5 日发布 v0.9.0 时，他曾表示将在“接下来几周”迈向 v1.0.0。\n\n据 Hugging Face 博客，团队承诺今后以主版本号标识 API 和 ABI 不兼容变更，并公开语义化版本更新规则。Hugging Face CEO Clément Delangue 与 Gerganov 一同宣布，称这是运行本地 AI 模型最常用库的首个完全稳定大版本；他称用户可在手机、笔记本和工作站上免费掌控自己的智能、不向任何人发送数据，并承诺支持所有硬件、平台和模型类型。这些是发布方的说法。\n\n据 IT之家报道，该版本支持超过 150 种模型架构。Cohere 转发发布消息，并称已将 llama.cpp 支持加入 North Micro Vision。",
         "latest_at": "2026-11-14T00:14:06.727Z",
         "original_url": "https://x.com/ClementDelangue/status/2121260104913768931",
-        "rank": 9,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-        "signal_count": 8,
+        "signal_count": 12,
         "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/44c4eb23-1f37-4994-a66d-7a06ff7a74ba",
         "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "4d02a2b5-ec70-4631-a88c-702e78e77fc0",
+        "digest": "据 Fortune 报道，OpenAI 正在解散机器人团队，将机器人研究员转入 Mark Chen 领导的主研究团队，应用机器人与硬件团队则加入 Greg Brockman 的 Applied 组织。\n\nThe Decoder 称，OpenAI 此次并非放弃机器人方向，而是希望把研究人员并入其他团队，以通用模型替代专用机器人 AI，从而加快进展。这一说法来自报道方，OpenAI 尚未公布重组后的具体计划或效果。",
+        "latest_at": "2026-11-14T11:40:51.000Z",
+        "original_url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/4d02a2b5-ec70-4631-a88c-702e78e77fc0",
+        "title": "OpenAI解散机器人团队，研究人员并入其他部门"
+      },
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -41,16 +58,16 @@
         "digest": "据 X.PIN 转发的一封内部公开信，数百名 NVIDIA 员工签署该信，要求董事会辞职并恢复黄仁勋的 CEO 职务。信中指控董事会在没有具体证据的情况下罢免黄仁勋，并称董事会未诚信谈判；若董事会不满足要求，这些员工可能转投 Elon Musk 承诺安排职位的 SpaceX 与 Terafab。上述指控与离职去向均为信中说法。\n\n据 FT 报道，NVIDIA 董事会已接触 Arm CEO Rene Haas，将其作为接替黄仁勋的可能人选。Haas 自 2022 年起执掌这家软银旗下的英国芯片设计公司，十多年前曾在 NVIDIA 工作约 7 年，但他只是多位候选人之一，未必会获得或接受这一职位。\n\nThe Decoder 援引 WSJ 报道称，黄仁勋被罢免更多源于其主导的高风险业务，而非私生活传闻：NVIDIA 向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。",
         "latest_at": "2026-11-13T20:07:34.000Z",
         "original_url": "https://x.com/thexpin/status/2121156882064937448",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 11,
+        "signal_count": 12,
         "source_count": 4,
         "status": "active",
         "story_url": "https://aihot.news/story/68ccf963-6e38-4e86-b2f3-289bd70774fb",
         "title": "NVIDIA员工联署要求董事会辞职，董事会另寻继任者"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -58,16 +75,16 @@
         "digest": null,
         "latest_at": "2026-11-13T20:31:51.000Z",
         "original_url": "https://api-docs.deepseek.com/zh-cn/updates/#发布全家桶应用-api",
-        "rank": 5,
+        "rank": 4,
         "recovered": false,
         "representative_source": "DeepSeek：API 更新日志",
-        "signal_count": 17,
+        "signal_count": 22,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/77f8b937-8e1a-4b05-b3eb-b609445fedd4",
         "title": "DeepSeek 开放 App 能力 API，扩展调用另收费"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -112,13 +129,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 110,
-        "source_count": 15,
+        "signal_count": 102,
+        "source_count": 14,
         "status": "active",
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "黄仁勋辞任英伟达CEO并退出董事会"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -129,13 +146,13 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 31,
+        "signal_count": 32,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/d6f453c1-9dce-4af5-8a9a-ff7b8642493c",
         "title": "微软365故障波及Claude，Anthropic通报中断"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -160,7 +177,7 @@
         "digest": null,
         "latest_at": "2026-11-12T22:36:29.000Z",
         "original_url": "https://claude.com/blog/claude-meetings",
-        "rank": 8,
+        "rank": 9,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
         "signal_count": 20,
@@ -169,7 +186,7 @@
         "story_url": "https://aihot.news/story/dad94af2-7539-4652-a661-03cc5494c71b",
         "title": "Anthropic 向 Team 和 Enterprise 推出 Claude Meetings beta"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -177,16 +194,16 @@
         "digest": null,
         "latest_at": "2026-11-13T20:45:10.000Z",
         "original_url": "https://x.com/ChatGPT/status/2121283151729496235",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：ChatGPT (@ChatGPT)",
-        "signal_count": 17,
+        "signal_count": 19,
         "source_count": 6,
         "status": null,
         "story_url": "https://aihot.news/story/e5b4067f-6f2e-4f04-8799-21e4fbd9b590",
         "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物"
       },
-      "observed_at": "2026-11-14T06:37:20.752783Z"
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     },
     {
       "item": {
@@ -204,6 +221,23 @@
         "title": "李彦宏在百度世界2026提出“智能组织”"
       },
       "observed_at": "2026-11-13T23:39:00.520283Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f39357ff-614c-4933-bc75-31ede55ae3b2",
+        "digest": "Google 将 Google Wallet 加入 Gemini 个人智能的可连接应用。用户完成授权后，可在对话中输入 @Google Wallet，让 Gemini 根据消费习惯回答个人财务问题，例如生成现金流、资产配置和预算图表，找出遗忘的订阅与周期性扣费，并标记涨价；还可通过 Plaid 关联信用卡和银行账户，以获得更全面的分析。\n\nGoogle 称，连接 Wallet 后 Gemini 只能读取用户授权的账户信息，无法转账、管理资金或投资。该接入为自愿授权，用户需在个人智能设置的“已连接的应用”中手动开启，并可随时取消。",
+        "latest_at": "2026-11-14T06:57:17.463Z",
+        "original_url": "https://x.com/Google/status/2121293826908197347",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Google (@Google)",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/f39357ff-614c-4933-bc75-31ede55ae3b2",
+        "title": "Gemini 接入 Google Wallet，仅可读取账户"
+      },
+      "observed_at": "2026-11-14T14:14:51.050125Z"
     }
   ],
   "version": 1
