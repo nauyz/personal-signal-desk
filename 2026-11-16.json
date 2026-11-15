@@ -7,7 +7,7 @@
         "digest": null,
         "latest_at": "2026-11-14T10:52:39.180Z",
         "original_url": "https://cursor.com/blog/claude-code-extension-security-notice",
-        "rank": 9,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Cursor Blog",
         "signal_count": 8,
@@ -16,7 +16,7 @@
         "story_url": "https://aihot.news/story/2bf3a441-7478-435f-9c80-951f7cb5a2f6",
         "title": "Cursor 扩展市场现恶意 Claude Code 包，调查指向 Fireworks 密钥泄露"
       },
-      "observed_at": "2026-11-15T17:47:57.226914Z"
+      "observed_at": "2026-11-15T22:55:31.433193Z"
     },
     {
       "item": {
@@ -41,33 +41,33 @@
         "digest": null,
         "latest_at": "2026-11-14T00:14:06.727Z",
         "original_url": "https://x.com/ClementDelangue/status/2121260104913768931",
-        "rank": 10,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
         "signal_count": 8,
-        "source_count": 2,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/44c4eb23-1f37-4994-a66d-7a06ff7a74ba",
         "title": "llama.cpp 与 ggml 发布首个大版本 v1.0.0"
       },
-      "observed_at": "2026-11-15T17:47:57.226914Z"
+      "observed_at": "2026-11-15T22:55:31.433193Z"
     },
     {
       "item": {
         "aihot_story_id": "4be4c14d-784f-462e-bf3d-e88b8e5b615a",
-        "digest": null,
-        "latest_at": "2026-11-14T06:26:00.000Z",
+        "digest": "Anthropic 为桌面版 Claude Code 推出自定义主题功能：用户可用 mods 更改颜色、添加动态背景，也可直接告诉 Claude 想要的外观，或用 theme-examples 插件上手。该功能目前仅适用于桌面应用的本地会话，更新到最新版本即可体验；Anthropic 称对云端会话的支持“即将推出”。\n\nClaude Code 团队成员 Lydia Hallie 进一步说明，自定义主题本身就是 mod，可挂接到会话事件上，例如她演示了让背景随上下文填满而下雪（挂接 turn.step）。她与同事 Adam Wolff 均表示期待看到用户创作的主题。",
+        "latest_at": "2026-11-15T18:06:57.000Z",
         "original_url": "https://x.com/ClaudeDevs/status/2121392666244186327",
-        "rank": 8,
+        "rank": 4,
         "recovered": false,
         "representative_source": "X：Claude Devs (@ClaudeDevs)",
         "signal_count": 11,
         "source_count": 1,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.news/story/4be4c14d-784f-462e-bf3d-e88b8e5b615a",
         "title": "Claude Code 桌面版上线本地会话自定义主题"
       },
-      "observed_at": "2026-11-15T17:47:57.226914Z"
+      "observed_at": "2026-11-15T22:55:31.433193Z"
     },
     {
       "item": {
@@ -75,50 +75,67 @@
         "digest": null,
         "latest_at": "2026-11-14T11:40:51.000Z",
         "original_url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-        "rank": 6,
+        "rank": 5,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 13,
+        "signal_count": 11,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/4d02a2b5-ec70-4631-a88c-702e78e77fc0",
         "title": "OpenAI解散机器人团队，研究人员并入其他部门"
       },
-      "observed_at": "2026-11-15T17:47:57.226914Z"
+      "observed_at": "2026-11-15T22:55:31.433193Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5eaa6677-9496-4384-acc4-34f4aefd6e4d",
+        "digest": "前 OpenAI 和 Anthropic 研究员 Jacob Coxon 称，如今重新训练 Mythos 只需当初的一小部分算力。他把 Mythos 视为超指数曲线上的一个点，而非一次性跃升，并据此认为算法效率在加速改进。上述说法出自 Coxon 本人，报道未给出独立验证。\n\nCoxon 称，促使他入职约四个月后离职的原因之一，是 Anthropic IPO 路演中的一张训练算力需求变化图：即便采用对数等压缩坐标轴，曲线仍急剧上升。在斯坦福 HAI 的访谈中，他称内部实验室预测未来 6 个月到 1 年内模型能力将逼近递归自我改进，并可能在本十年内实现超级智能；他还表示人类目前不清楚如何控制超级智能。\n\n在同一访谈中，Coxon 称自己不确定公开离职是否正确，回归 AI 实验室“并非完全不可能”，并认为留下做安全研究可能更有影响力。被问及持有 OpenAI 股权是否损害其公信力时，他承认仍持有股权，称这是“blood money”，并认为捐出也改变不了什么。",
+        "latest_at": "2026-11-15T00:05:14.000Z",
+        "original_url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 3,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/5eaa6677-9496-4384-acc4-34f4aefd6e4d",
+        "title": "前研究员称重训 Mythos 算力大降，并预测超级智能"
+      },
+      "observed_at": "2026-11-15T22:55:31.433193Z"
     },
     {
       "item": {
         "aihot_story_id": "68ccf963-6e38-4e86-b2f3-289bd70774fb",
-        "digest": null,
+        "digest": "NVIDIA 董事会罢免黄仁勋后，员工和投资者正从两个方向施压：据 X.PIN 转发的一封内部公开信，数百名员工签署该信，要求董事会辞职并恢复黄仁勋的 CEO 职务，信中指控董事会在没有具体证据的情况下罢免黄仁勋、未诚信谈判，并称若要求未获满足，员工可能转投 Elon Musk 承诺安排职位的 SpaceX 与 Terafab；这些指控与离职去向均为信中说法。投资者 Brad Gerstner 和 Gavin Baker 则致信董事会，敦促其不要急于替换黄仁勋，并保留他回归 CEO 的可能。\n\n与此同时，据 FT 报道，董事会已接触 Arm CEO Rene Haas 作为接替黄仁勋的可能人选。Haas 自 2022 年起执掌这家软银旗下的英国芯片设计公司，十多年前曾在 NVIDIA 工作约 7 年，但他只是多位候选人之一，未必会获得或接受这一职位。\n\nThe Decoder 援引 WSJ 报道称，黄仁勋被罢免更多源于其主导的高风险业务，而非私生活传闻：NVIDIA 向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。",
         "latest_at": "2026-11-14T19:38:34.000Z",
         "original_url": "https://x.com/thexpin/status/2121156882064937448",
-        "rank": 3,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 14,
-        "source_count": 2,
-        "status": null,
+        "signal_count": 16,
+        "source_count": 1,
+        "status": "active",
         "story_url": "https://aihot.news/story/68ccf963-6e38-4e86-b2f3-289bd70774fb",
         "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者"
       },
-      "observed_at": "2026-11-15T17:47:57.226914Z"
+      "observed_at": "2026-11-15T22:55:31.433193Z"
     },
     {
       "item": {
         "aihot_story_id": "760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
-        "digest": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud、OpenClaw 等平台上线。\n\n评测方面，Artificial Analysis 智能指数 v5 以 65 分登顶；Arena Code Arena: WebDev 以 1832 分居首；Remote Labor Index 以 41.3% 领跑；AA-Robotics v0.1 以 75 分居首，领先 GPT-6 Astra（69）和 GPT-6.1 Sol（65），并成为首个在测量盒任务上得分的模型。Arena 称 Fable 5.2 (Max) 以 +30.4% 净提升登顶 Agent Arena，约为第二名 Opus-5.5 的 1.6 倍，数据来自 4.7k 真实智能体会话；后续 Arena 称其在两者均有排名的 10 个类别中 9 项领先 Opus 5.5。ARC Prize 公布其在 ARC-AGI-2 得 93.8%，为第三高，低于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%。Anthropic 称 Fable 5.2 解决了两个与黑洞相关的理论物理开放问题，包括一项 23 年未完成的计算。\n\n订阅权益上，Pro 用户获一次 Fable 重置，Max、Ultra 和 Team Premium 按订阅时长最多三次，可用至 3 月 8 日；Pro 和 Team Standard 另有一周试用期，额度不超过每周上限的一半。Addy Osmani 称该模型 token 消耗大，按单任务计成本与 Fable 5.1 大致相当。",
+        "digest": null,
         "latest_at": "2026-11-15T15:42:03.000Z",
         "original_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-        "rank": 5,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 7,
-        "source_count": 2,
-        "status": "active",
+        "signal_count": 8,
+        "source_count": 1,
+        "status": null,
         "story_url": "https://aihot.news/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
         "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶"
       },
-      "observed_at": "2026-11-15T17:47:57.226914Z"
+      "observed_at": "2026-11-15T22:55:31.433193Z"
     },
     {
       "item": {
@@ -139,20 +156,54 @@
     },
     {
       "item": {
+        "aihot_story_id": "aef05bb0-3b6a-4fb9-a717-a5a5aee6ba5c",
+        "digest": "一份要求英伟达恢复被罢免 CEO 黄仁勋职务的请愿书，截至周六下午已获超过 11.5 万个签名。请愿网站称，签名者包括 5,965 名英伟达在职员工、1,108 名前员工和 63,063 名股东。\n\n特斯拉和 SpaceX CEO 马斯克、Replit CEO 阿姆贾德·马萨德、Epic Games CEO 蒂姆·斯威尼等科技高管已联署该请愿。请愿方要求英伟达恢复黄仁勋的 CEO 职位。",
+        "latest_at": "2026-11-14T21:41:22.000Z",
+        "original_url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 5,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/aef05bb0-3b6a-4fb9-a717-a5a5aee6ba5c",
+        "title": "马斯克等联署请愿要求英伟达恢复黄仁勋职务"
+      },
+      "observed_at": "2026-11-15T22:55:31.433193Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
-        "digest": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋辞去CEO、总裁及董事职务，即刻生效，结束其33年执掌。董事会任命任职超13年的CFO Colette Kress为临时CEO，并启动内外部继任者遴选，同时任命Harvey Jones为公司首任董事长。\n\n辞职前，黄仁勋承认与Megaspeed前高管Alice Huang的婚外情；美国情报界认为后者为中国国家安全部招募。《纽约时报》又曝出他与一名直接下属的第二段婚外情，路透社随后披露第三段。董事会此前启动独立调查时称无理由认为公司机密或国家安全受损。做空机构Culper Research早在5月就质疑二人关系异常密切；The Information报道称与Alice Huang相关的采购网络涉及约75亿美元英伟达硬件流向中国买家。\n\n黄仁勋辞职后，英伟达股价一度下跌13%至14%，市值回落至4万亿美元以下。美国众议院中国特设委员会主席Moolenaar要求英伟达任命把国家安全置于首位的领导层，并推动年底国防授权法案通过出口管制立法。特朗普此前公开为黄仁勋辩护，称他告诉自己从不知道对方是间谍。新加坡政府则澄清，从未就Alice Huang展开相关调查。",
+        "digest": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋即刻辞去CEO及董事职务，结束33年执掌；自2013年起任CFO的Colette Kress出任临时CEO，前Synopsys CEO Harvey Jones任公司首位董事长，董事会已启动内外部继任者遴选。\n\n辞职前，黄仁勋已向员工承认与英伟达客户Megaspeed高管Alice Huang的婚外情，美国情报界认为后者涉外国情报活动；《纽约时报》随后报道他与一名直接下属存在第二段婚外情。董事会启动独立调查时称无理由认为公司机密受损，但《华尔街日报》报道董事会接近决定罢免他，最终以辞职告终。\n\n消息公布后英伟达股价大跌，市值跌破4万亿美元；国会中国特设委员会主席Moolenaar要求新领导层把国家安全置于首位。黄仁勋原定的ElevenLabs Summit等演讲已取消。",
         "latest_at": "2026-11-15T13:00:00.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
         "rank": 1,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 32,
+        "signal_count": 31,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
-        "title": "黄仁勋辞任英伟达CEO并退出董事会"
+        "title": "黄仁勋辞任英伟达CEO，CFO克雷斯临时接任"
       },
-      "observed_at": "2026-11-15T17:47:57.226914Z"
+      "observed_at": "2026-11-15T22:55:31.433193Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "dbbc8a4e-38b0-4ece-a3da-f584e55c7813",
+        "digest": "韩国2026年第63届税务师资格考试第一名考生A某向首尔警察厅自首，承认在今年4月、7月举行的第一轮和第二轮考试中用微型摄像头拍摄考题、发送给生成式AI获取答案，并已将设备作为证据上交。他第一轮160道选择题仅错1题、多科满分，异常高分此前已引发网友怀疑其使用AI作弊。\n\n据韩联社报道，韩国政府决定对今年所有国家资格考试全面调查AI作弊行为。劳动部和相关机构将对A某取消考试成绩，并限制其五年内不得参加该考试；同时计划明确禁止携带或使用智能眼镜等智能设备及相应处罚标准，年内出台防作弊综合措施，包括引入红外线探测设备、加强现场监控、开设线上线下举报中心。\n\nA某自首内容尚待警方调查确认。",
+        "latest_at": "2026-11-15T13:42:51.953Z",
+        "original_url": "https://www.ithome.com/1/027/303.htm",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 4,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/dbbc8a4e-38b0-4ece-a3da-f584e55c7813",
+        "title": "韩国税务师考试头名承认用AI作弊，政府扩大调查"
+      },
+      "observed_at": "2026-11-15T22:55:31.433193Z"
     },
     {
       "item": {
