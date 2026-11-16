@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "191bfb56-33e5-4bfb-847f-c387d9c59be1",
-        "digest": "苹果在美国启动 Apple Health AI Usage Study，与医疗 AI 公司 OpenEvidence 合作推出一款研究应用，研究人们如何与对话式健康 AI 工具互动。The Verge 报道称，该研究还旨在评估这些回答的准确性、细节和相关性。\n\n研究面向美国 21 岁及以上人群，目标招募最多 20 万名参与者，持续超过 12 个月。参与者需持有支持 Apple Intelligence 的 iPhone，并运行 iOS 26 或更高版本；苹果称需 iPhone 15 Pro 或更新机型，TechCrunch 报道为 iPhone 15 及以上。\n\n苹果表示，数据在发送至第三方云服务商前会做匿名化处理，且不会用于训练任何 AI 模型。",
+        "digest": null,
         "latest_at": "2026-11-16T01:30:00.000Z",
         "original_url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Apple：Newsroom（RSS）",
-        "signal_count": 4,
+        "signal_count": 7,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/191bfb56-33e5-4bfb-847f-c387d9c59be1",
         "title": "苹果联合 OpenEvidence 启动健康 AI 使用研究"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
@@ -92,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-11-14T11:40:51.000Z",
         "original_url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-        "rank": 6,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 10,
+        "signal_count": 9,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/4d02a2b5-ec70-4631-a88c-702e78e77fc0",
         "title": "OpenAI解散机器人团队，研究人员并入其他部门"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
@@ -126,50 +126,50 @@
         "digest": null,
         "latest_at": "2026-11-14T19:38:34.000Z",
         "original_url": "https://x.com/thexpin/status/2121156882064937448",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 18,
+        "signal_count": 22,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/68ccf963-6e38-4e86-b2f3-289bd70774fb",
         "title": "NVIDIA员工与投资者施压董事会，董事会另寻继任者"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
         "aihot_story_id": "6b019bba-08b7-42da-8fe4-769d638f5ba7",
-        "digest": "Qwen 团队 11 月 16 日正式发布旗舰模型 Qwen4-Max，称其基于新的 Qwen4 架构，采用 2.4 万亿参数稀疏 MoE，每 token 激活 71B，具备原生视觉能力和 100 万 token 上下文窗口。此前 11 月 11 日，Qwen4-Max 预览版已先行上线阿里 Token Plan（限时最低 1 折），并接入千问 App、千问办公、Qoder、QwenStudio 等产品。\n\nQwen 团队称，Qwen4-Max 相比 Qwen3.8-Max 在 token 效率和成本上更优：官方内部评估显示每任务平均成本下降超过 60%；Work360 评测中 token 用量约下降 24%（Xhigh）和 35%（High），平均单任务成本从 4.43 美元降至 1.67 美元；Work360 基准得分 52.69，比 Qwen3.8-Max 高约 10%。其定价为输入每百万 token 1.5 美元、输出每百万 token 4.5 美元、隐式缓存每百万 token 0.075 美元，隐式缓存降价 70%。OpenRouter 同日上线该模型，公布相同定价，并称较 Qwen3.8 Max 的 2 美元/6 美元有所下降。上述能力提升与效率数据均为阿里和 Qwen 团队方面的说法。\n\nUnsloth 转发 Qwen 消息并称，更小的 Qwen4 开源模型将很快发布，其中 Qwen4-27B 将可在 16GB 内存的设备上运行。",
-        "latest_at": "2026-11-16T02:41:21.000Z",
+        "digest": "阿里巴巴 Qwen 团队 11 月 16 日正式发布旗舰模型 Qwen4-Max，称其基于新的 Qwen4 架构，采用 2.4 万亿参数稀疏 MoE，每 token 激活 71B，具备原生视觉能力和 100 万 token 上下文窗口。此前 11 月 11 日，Qwen4-Max 预览版已先行上线阿里 Token Plan（限时最低 1 折），并接入千问 App、千问办公、Qoder、QwenStudio 等产品；千问 App 的千问 Go! 会员自 11 月 11 日起限时折扣最低 9.9 元。正式发布后，千问 App 称新模型上线期间会员可限免体验，使用 Qwen4-Max 不消耗会员额度，活动时间以产品端页面为准。\n\nQwen 团队称，Qwen4-Max 相比 Qwen3.8-Max 在 token 效率和成本上更优：官方内部评估显示每任务平均成本下降超过 60%；Work360 评测中 token 用量约下降 24%（Xhigh）和 35%（High），平均单任务成本从 4.43 美元降至 1.67 美元；Work360 基准得分 52.69，比 Qwen3.8-Max 高约 10%。其定价为输入每百万 token 1.5 美元、输出每百万 token 4.5 美元、隐式缓存每百万 token 0.075 美元，隐式缓存降价 70%。OpenRouter 同日上线该模型，公布相同定价，并称较 Qwen3.8 Max 的 2 美元/6 美元有所下降。上述能力提升与效率数据均为阿里和 Qwen 团队方面的说法。\n\n第三方评测也已出现：Artificial Analysis 称 Qwen4 Max 在 Intelligence Index 上以 xhigh 推理档得 43 分，比 Qwen3.8 Max 高 9 分，比 Kimi K3.1 Pro 低 3 分，但每任务成本约低 11%；Qwen 方面称其在 Agent Arena 净提升 +7.5%，总排名从第 39 升至第 14，为榜单第一的中国模型。Unsloth 转发 Qwen 消息并称，更小的 Qwen4 开源模型将很快发布，其中 Qwen4-27B 将可在 16GB 内存的设备上运行。",
+        "latest_at": "2026-11-16T09:44:17.000Z",
         "original_url": "https://qwen.ai/blog?id=qwen4-max",
-        "rank": 4,
+        "rank": 1,
         "recovered": false,
         "representative_source": "Qwen：Blog Retrieval（API）",
-        "signal_count": 4,
-        "source_count": 4,
+        "signal_count": 33,
+        "source_count": 9,
         "status": "active",
         "story_url": "https://aihot.news/story/6b019bba-08b7-42da-8fe4-769d638f5ba7",
         "title": "阿里发布 Qwen4-Max，预览版先行接入多产品"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
         "aihot_story_id": "760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
-        "digest": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者基于同一底层模型。Fable 5.2 面向所有付费计划开放，内置拦截高风险网络安全与生物研究任务的防护；Mythos 5.2 移除部分限制，仅向通过网络安全或生命科学验证计划申请的组织开放。Fable 5.2 定价为每百万输入 token 8 美元、输出 40 美元，较 Fable 5.1 的 10/50 美元降 20%，支持 100 万 token 上下文，已在 Claude Code、OpenRouter、Cursor、Perplexity、Google Cloud、OpenClaw 等平台上线。\n\n评测方面，Artificial Analysis 智能指数 v5 以 65 分登顶；Arena Code Arena: WebDev 以 1832 分居首；Remote Labor Index 以 41.3% 领跑；AA-Robotics v0.1 以 75 分居首，领先 GPT-6 Astra（69）和 GPT-6.1 Sol（65），并成为首个在测量盒任务上得分的模型。Arena 称 Fable 5.2 (Max) 以 +30.4% 净提升登顶 Agent Arena，约为第二名 Opus-5.5 的 1.6 倍，数据来自 4.7k 真实智能体会话；后续 Arena 称其在两者均有排名的 10 个类别中 9 项领先 Opus 5.5。ARC Prize 公布其在 ARC-AGI-2 得 93.8%，为第三高，低于 GPT-6 Astra 的 95.0% 和 GPT-6.1 Sol 的 94.2%。Anthropic 称 Fable 5.2 解决了两个与黑洞相关的理论物理开放问题，包括一项 23 年未完成的计算。\n\n订阅权益上，Pro 用户获一次 Fable 重置，Max、Ultra 和 Team Premium 按订阅时长最多三次，可用至 3 月 8 日；Pro 和 Team Standard 另有一周试用期，额度不超过每周上限的一半。Addy Osmani 称该模型 token 消耗大，按单任务计成本与 Fable 5.1 大致相当。",
+        "digest": null,
         "latest_at": "2026-11-16T01:01:05.343Z",
         "original_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-        "rank": 3,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 11,
+        "signal_count": 13,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/760e0591-91c2-4b7a-aea8-5a33ba5d86b1",
         "title": "Anthropic 发布 Fable 5.2 与 Mythos 5.2，多项评测登顶"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
@@ -190,20 +190,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "7d88a903-9f3a-422d-832c-a253f28def8d",
+        "digest": "豆包工作宣布独家上线「工作台」功能，这是一个为专业工作场景提供预配置技能和工具的 AI 工作空间，首批覆盖金融、医疗、教育等 21 个专业场景。\n\n以金融投研工作台为例，它提供公告解读、业绩分析等任务入口，并可通过插件链接万得、同花顺、国泰海通等数据服务。用户还可以自建并分享个人专属工作台。",
+        "latest_at": "2026-11-16T04:27:33.803Z",
+        "original_url": "https://www.ithome.com/1/027/608.htm",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 5,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/7d88a903-9f3a-422d-832c-a253f28def8d",
+        "title": "豆包工作上线「工作台」功能"
+      },
+      "observed_at": "2026-11-16T11:36:44.343356Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "aef05bb0-3b6a-4fb9-a717-a5a5aee6ba5c",
         "digest": null,
         "latest_at": "2026-11-14T21:41:22.000Z",
         "original_url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-        "rank": 10,
+        "rank": 7,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 6,
+        "signal_count": 9,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/aef05bb0-3b6a-4fb9-a717-a5a5aee6ba5c",
         "title": "马斯克等联署请愿要求英伟达恢复黄仁勋职务"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
@@ -211,16 +228,16 @@
         "digest": null,
         "latest_at": "2026-11-15T13:00:00.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-        "rank": 1,
+        "rank": 2,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
         "signal_count": 30,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "黄仁勋辞任英伟达CEO，CFO克雷斯临时接任"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
@@ -228,16 +245,16 @@
         "digest": null,
         "latest_at": "2026-11-15T13:42:51.953Z",
         "original_url": "https://www.ithome.com/1/027/303.htm",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 5,
+        "signal_count": 6,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/dbbc8a4e-38b0-4ece-a3da-f584e55c7813",
         "title": "韩国税务师考试头名承认用AI作弊，政府扩大调查"
       },
-      "observed_at": "2026-11-16T02:48:56.597878Z"
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     },
     {
       "item": {
@@ -255,6 +272,23 @@
         "title": "OpenAI推出ChatGPT Wallet，智能体可代用户购物"
       },
       "observed_at": "2026-11-15T17:47:57.226914Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f54f5245-d324-4798-af1d-ca328fcdf9f3",
+        "digest": "腾讯混元发布 Hy4 flash 模型，总参数 224B（含 64B Engram 参数），每 token 激活 12B，支持多模态输入和 100 万 token 上下文，官方定位为日常生产力场景中价格最低的 Hy 模型。API 定价为每百万 tokens 输入 0.5 元、输出 2 元；腾讯混元称，在人工盲测的日常任务中，Hy4 flash 与 Claude Haiku 5.5 (high) 表现相当，任务成本降低 18 倍。\n\n腾讯 WorkBuddy 已将 Hy4 flash 接入其平台，称响应更快、单任务成本更低，并内置视觉理解能力。该平台称限时免费试用，每日免费额度适用，之后将启用积分。\n\nOpenCode 宣布未来两周 Hy4 flash 免费且用量近乎无限制，并称该用量不计入用户的 Go 套餐额度。腾讯混元给出的美元 API 定价为每 1M tokens 缓存 $0.003、输入 $0.070、输出 $0.281；IT之家报道称，单任务成本约为 Hy4 的 5%。",
+        "latest_at": "2026-11-16T09:19:46.000Z",
+        "original_url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "腾讯混元：Research（API）",
+        "signal_count": 11,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.news/story/f54f5245-d324-4798-af1d-ca328fcdf9f3",
+        "title": "腾讯混元发布 Hy4 flash，WorkBuddy 与 OpenCode 接入"
+      },
+      "observed_at": "2026-11-16T11:36:44.343356Z"
     }
   ],
   "version": 1
