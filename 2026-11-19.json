@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-19",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "00140fdc-ef32-4b30-85a6-6fd84ab70de4",
+        "digest": null,
+        "latest_at": "2026-11-18T13:18:47.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/p3_DIBRUUgmxShjD5Wp27w",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "公众号：可灵AI（快手·视频）",
+        "signal_count": 10,
+        "source_count": 4,
+        "status": null,
+        "story_url": "https://aihot.news/story/00140fdc-ef32-4b30-85a6-6fd84ab70de4",
+        "title": "可灵发布Kling Image 4.0并接入多个第三方平台"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2254fd74-e05d-4b8b-861e-9d14e940f4bc",
+        "digest": null,
+        "latest_at": "2026-11-18T01:04:01.000Z",
+        "original_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 112,
+        "source_count": 9,
+        "status": null,
+        "story_url": "https://aihot.news/story/2254fd74-e05d-4b8b-861e-9d14e940f4bc",
+        "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "25f30555-1283-4773-8161-58d48e3d86e1",
+        "digest": "黄仁勋即日辞去英伟达总裁、CEO及董事职务，CFO Colette Kress出任临时CEO。黄仁勋随后发声明，承认个人生活中犯了严重错误、给董事会造成问题，承诺配合董事会独立调查；他表示若董事会认为回归符合股东、员工、公司和美国的最佳利益，将“荣幸地”回归CEO职位。\n\n创投圈认为Kress风格更保守，短期内难以延续黄仁勋每年数十亿美元、今年已参与105轮的投资节奏，AI初创公司融资可能因此出现缺口。Hugging Face CEO Delangue称这是“令人难过的一天”，但反驳外界对英伟达缺乏明确接班人的批评，称分布式领导架构正是公司成功的原因。OpenAI CEO Altman则表示，没有黄仁勋，AI行业也会“很好”，并称不担心英伟达资金枯竭；英伟达此前已同意为OpenAI俄亥俄数据中心提供最高1050亿美元担保。\n\n在政策层面，SemiAnalysis的Dylan Patel在播客中支持MATCH Act、反对RASA，主张以设备管制替代芯片和模型管制，并担忧黄仁勋离场会让英伟达变弱。Rohan Paul转述巴拉吉（Balaji）的说法称，若董事会未立即恢复黄仁勋的CEO职务，此事可能上升到美国国家安全层面，战争部或依据《国防生产法》介入。The Verge称，英伟达最近一季度利润653亿美元，市值从11月初约5万亿美元降至3.6万亿美元。",
+        "latest_at": "2026-11-18T19:30:00.000Z",
+        "original_url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 70,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/25f30555-1283-4773-8161-58d48e3d86e1",
+        "title": "黄仁勋辞任英伟达CEO，称愿在董事会决定下回归"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2ff1f46f-7e98-4965-a5b2-87329632ca5d",
+        "digest": "Google DeepMind 发布 Gemini 4 Hydrogen，定位为快速执行日常编码与智能体工作流的模型，与主打深度推理的 Carbon、Argon 同属 Gemini 4 系列。Google 称这是 Search 迄今最大的模型升级，已在全球 Search 上线，并向所有用户开放 Gemini 应用、Google AI Studio 和 Gemini API；付费 AI Pro、Ultra 订阅者另可在 Antigravity 使用。免费用户在 Gemini 应用中需靠自动模型选择才会用到它。API 定价为每百万输入 token 1.50 美元、输出 7.50 美元。\n\nGoogle 11 月 17 日进一步宣布，Gemini 的任务代办功能基于 Hydrogen 免费向美、日、韩、加、澳、印六国数亿用户推出，可代打电话预约、查询账单、购物下单和管理日程；Google Duplex 致电、Google Pay 结账、RCS 短信、Gmail 转发邮件和密码管理器免密登录等高级操作率先在美国开放。The Verge 称该功能由此前仅限 AI Pro 和 Ultra 订阅者的 Spark 智能体更名而来。\n\n第三方评测机构 Artificial Analysis 称，Hydrogen 新增的 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分；每任务成本约为 Sonnet 的 32%，但约为 GPT-6.1 Sol 的 2.5 倍。Cursor 称其 CursorBench 得分 54.3%，高于 Gemini 3.8 Flash 的 39.6%；Cognition 称其在 FrontierCode 2.0 得 38.2%，仅次于 GPT-6.1 Sol。",
+        "latest_at": "2026-11-18T00:05:40.000Z",
+        "original_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 14,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d",
+        "title": "Google 发布 Gemini 4 Hydrogen，接入搜索并免费开放任务代办"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "74578987-a1ed-4ce0-96b8-658226459865",
+        "digest": "Google 于 11 月 18 日发布 Gemini 4 Neon（gemini-4-neon），称其可在复杂软件工程、知识工作和科学工作流中快速完成端到端任务。该模型在 Gemini API 付费档定价为每百万输入 token 3 美元、每百万输出 token 15 美元；The Decoder 称这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Claude Fable 5.2 相当。OpenRouter 称，Google 表示该模型在 Artificial Analysis Coding Agent Index 排名第一，每任务成本比 Carbon 低 32%。Google 员工 Ammaar Reshi 称其速度接近 Carbon 的 3 倍，性能与智能水平接近 Carbon。\n\nGoogle AI 称，该模型今日起向 Gemini App 的 Google AI Pro 与 Ultra 订阅用户（移动端、桌面端和网页端，可在 Chat 和 Tasks 的模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层以及 Gemini 商业版推送；符合条件的 Fairwind Program 成员将稍后可用。Gemini 官方称，Gemini 中的 Tasks 现可在 Neon 上运行，以更快处理多步骤任务并延长使用限额。同一 API 更新中，用户可直接向 Gemini API 传入 Microsoft Office 和 OpenDocument 文件（Word、PowerPoint、Excel），并可在提示词和函数响应中切分文档、表格、视频和音频。",
+        "latest_at": "2026-11-18T21:45:03.000Z",
+        "original_url": "https://ai.google.dev/gemini-api/docs/changelog#11-18-2026",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Gemini API：更新日志（网页）",
+        "signal_count": 8,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.news/story/74578987-a1ed-4ce0-96b8-658226459865",
+        "title": "Google 发布 Gemini 4 Neon，API 支持 Office 文件"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": "Anthropic 已启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，发行价区间每股 70 至 78 美元，申请以代码 ANT 在纳斯达克上市，按上限隐含估值约 1.4 万亿美元，低于此前讨论的最高 2 万亿美元。据《金融时报》报道，公司计划在感恩节前上市，拟募资 800 亿至 1000 亿美元，估值区间 1.25 万亿至 1.75 万亿美元；CEO 阿莫迪接受低于部分投资者预期的估值。\n\n估值下调发生在投资者质疑之后。据路透社和 WSJ 报道，部分机构投资者认为 1.5 万亿美元仍偏高，有人提出 1 万亿美元更现实，并因公司仍在亏损、10 月收入数据未披露而要求更大折价。Bloomberg 报道称，IPO 订单已达可售股份的数倍，承销商因此考虑将定价上调回 1.5 万亿美元或更高。\n\n招股文件同时披露多项风险：第三季度经营业绩从盈利 9.74 亿美元转为亏损 5.67 亿美元；算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元未定价，其中仅 2138 亿美元可取消或附带条件；算力成本占营收比例从 48% 升至 58%。公司还在修订文件中称，基于对未来模型的预期，可能很快触及自身《负责任扩缩策略》的递归自我改进阈值，但表示目前没有现有模型被认定越过该阈值。",
+        "latest_at": "2026-11-18T21:41:58.000Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 28,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic启动IPO路演，估值预期回落至1.25–1.75万亿美元"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e79088af-89d6-42e0-8947-05fbb16ede38",
+        "digest": "英伟达公布第三季度财报，营收1158亿美元、同比增长103%，净利润653亿美元创纪录；数据中心收入1076亿美元，同比增长110%。临时CEO兼CFO Colette Kress称Vera Rubin进展顺利，并预计第四季度营收1300亿美元，该指引假设不含中国数据中心算力销售。\n\n黄仁勋辞职后的管理层安排成为焦点。Kress在CNBC节目中表示，董事会已决定不会恢复黄仁勋的CEO职务，并称这是董事会的官方声明；此前董事Harvey Jones在财报电话会上称董事会一致接受其辞职、无意让其复任。Kress还重申开源AI战略不变，9月同意以129亿美元收购Hugging Face的交易按计划推进。\n\n针对外界质疑，Kress否认公司扶持可能不具备投资级的neocloud客户，称hyperscaler正积极争取更多英伟达算力。她澄清，公司为数据中心客户提供的贷款担保并非直接出资，只有在客户筹齐融资、建成设施并装好英伟达设备后才生效，否则担保不存在。",
+        "latest_at": "2026-11-18T18:34:15.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 22,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/e79088af-89d6-42e0-8947-05fbb16ede38",
+        "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f54f5245-d324-4798-af1d-ca328fcdf9f3",
+        "digest": "腾讯混元发布 Hy4 flash 模型，总参数 224B（含 64B Engram 参数），每 token 激活 12B，支持多模态输入和 100 万 token 上下文，官方定位为日常生产力场景中价格最低的 Hy 模型。API 定价为每百万 tokens 输入 0.5 元、输出 2 元；腾讯混元称，在人工盲测的日常任务中，Hy4 flash 与 Claude Haiku 5.5 (high) 表现相当，任务成本降低 18 倍。\n\n发布后，腾讯混元宣布开源 Hy4 flash，包含 Hy4 flash、Hy4 flash-FP8 和 Hy4 flash Base 三个版本，开发者可在 GitHub、Hugging Face、ModelScope 和 GitCode 下载部署，另有 AngelSlim 发布的 GGUF 版本；官方称也在加速开源 Hy4。多家平台同步接入：WorkBuddy 称限时免费试用、每日免费额度适用，之后启用积分；OpenCode 称未来两周免费且用量近乎无限制，不计入 Go 套餐额度，11 月 19 日又称接下来 10 天仍在 OpenCode 独家免费；OpenClaw 已上线该模型；腾讯元宝全量上线，支持快速回答与深度思考两种模式。\n\n腾讯混元称 Hy4 flash 已上线 OpenRouter，限时五折，价格为每 1M tokens 输入 $0.035、输出 $0.1405、缓存读取 $0.0015；OpenRouter 称五折持续至 11 月 30 日。官方 API 美元定价为缓存 $0.003、输入 $0.070、输出 $0.281。IT之家报道称，单任务成本约为 Hy4 的 5%。",
+        "latest_at": "2026-11-18T17:28:40.000Z",
+        "original_url": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "腾讯混元：Research（API）",
+        "signal_count": 12,
+        "source_count": 7,
+        "status": "active",
+        "story_url": "https://aihot.news/story/f54f5245-d324-4798-af1d-ca328fcdf9f3",
+        "title": "腾讯混元发布 Hy4 flash 并开源、接入多平台"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f9f27ce5-c259-4268-9c72-3cdc38699171",
+        "digest": "腾讯在2026年第三季度财报中披露，截至11月初，AI产品WorkBuddy日活跃用户数超过1000万，日均Token调用量超过100万亿。腾讯称，WorkBuddy因此成为中国大语言模型日均Token用量最高的AI产品。上述数据均为腾讯自行公布的口径。\n\n腾讯总裁刘炽平在财报分析师会上进一步透露，WorkBuddy最近七天收入按年化折算超过5亿美元，是腾讯会议的两倍以上；三季度收入是第二季度的5倍以上，中国百强企业已有60%成为其客户。该说法由腾讯公关总监张军分享。\n\nX.PIN 的帖子转述IT之家的日活与Token数据，并评论称中国非工程师群体正快速采用智能体工作流。",
+        "latest_at": "2026-11-18T14:15:02.887Z",
+        "original_url": "https://www.ithome.com/1/028/914.htm",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/f9f27ce5-c259-4268-9c72-3cdc38699171",
+        "title": "腾讯WorkBuddy日活超千万，年化收入逾5亿美元"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fbb613d2-1a33-467d-87ff-5e666f2e2b9d",
+        "digest": null,
+        "latest_at": "2026-11-18T13:01:05.000Z",
+        "original_url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 14,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/fbb613d2-1a33-467d-87ff-5e666f2e2b9d",
+        "title": "Nvidia停售H200芯片，结束对华出口通道"
+      },
+      "observed_at": "2026-11-18T22:03:31.021826Z"
+    }
+  ],
+  "version": 1
+}
