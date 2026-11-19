@@ -24,16 +24,16 @@
         "digest": null,
         "latest_at": "2026-11-18T01:04:01.000Z",
         "original_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-        "rank": 1,
+        "rank": 2,
         "recovered": false,
         "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-        "signal_count": 112,
+        "signal_count": 114,
         "source_count": 9,
         "status": null,
         "story_url": "https://aihot.news/story/2254fd74-e05d-4b8b-861e-9d14e940f4bc",
         "title": "OpenAI 发布 GPT-6.2 Astra 与 Sol 两款模型"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
@@ -44,13 +44,13 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 70,
+        "signal_count": 68,
         "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.news/story/25f30555-1283-4773-8161-58d48e3d86e1",
         "title": "黄仁勋辞任英伟达CEO，称若董事会决定愿回归"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
@@ -58,7 +58,7 @@
         "digest": null,
         "latest_at": "2026-11-18T00:05:40.000Z",
         "original_url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-        "rank": 6,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
         "signal_count": 16,
@@ -67,92 +67,109 @@
         "story_url": "https://aihot.news/story/2ff1f46f-7e98-4965-a5b2-87329632ca5d",
         "title": "Google 发布 Gemini 4 Hydrogen，接入搜索并免费开放任务代办"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5b9663fc-1eca-4b40-8002-74628b9cb436",
+        "digest": "Dan Hendrycks 称，多个 AI 安全团体私下向他表示认同 MisAnthropic 声明，但因担心影响人际关系或未来经费而不敢公开签署。他据此称，Anthropic 几乎已俘获原本用于监督它的生态系统。\n\n该声明发布在 misanthropicstatement.com，背景是 Anthropic IPO 前，一个由 AI 安全、开源、e/acc、科学和法律等多方组成的联盟签署了该声明。上述说法均来自 Hendrycks 本人，尚无签署方或相关团体公开证实。",
+        "latest_at": "2026-11-18T15:05:39.000Z",
+        "original_url": "https://x.com/hendrycks/status/2123070133522350176",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Dan Hendrycks (@hendrycks)",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/5b9663fc-1eca-4b40-8002-74628b9cb436",
+        "title": "Dan Hendrycks 称 AI 安全团体私下认同 MisAnthropic 声明却不敢公开签署"
+      },
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
         "aihot_story_id": "74578987-a1ed-4ce0-96b8-658226459865",
-        "digest": "Google 于 11 月 18 日发布 Gemini 4 Neon（gemini-4-neon），称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。Gemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token；The Decoder 称这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件，并可在提示词和函数响应中切分文档、表格、视频和音频。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Claude Fable 5.2 相当。Arena 公布的 Agent Arena Index 中，Gemini 4 Neon (High) 以 1336 分排名第二，超过 Carbon (High) 的 1303 分；Arena 称其每任务中位成本 $2.82，比第 3 名 Claude Opus 5.5 (Max) 便宜 53%。Google 称该模型在 Artificial Analysis Coding Agent Index 排名第一，每任务成本比 Carbon 低 32%；Google 员工 Ammaar Reshi 称其速度接近 Carbon 的 3 倍，性能与智能水平接近 Carbon。Google 还称其在 Agent Arena 可控性排名第 2，内部 Antigravity 测试中编造率为迄今最低。Cursor 同日宣布 Neon 上线，称其在 CursorBench 4.1 默认强度下得分 63.7%，高于 Gemini 4 Hydrogen 的 57.3%。\n\nGoogle 称，该模型即日起向 Gemini App 的 Google AI Pro 与 Ultra 订阅用户（移动端、桌面端和网页端，可在 Chat 和 Tasks 的模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层以及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。Gemini 官方称，Gemini 中的 Tasks 现可在 Neon 上运行，以更快处理多步骤任务并延长使用限额。",
-        "latest_at": "2026-11-19T02:41:18.000Z",
+        "digest": "Google 于 11 月 18 日发布 Gemini 4 Neon（gemini-4-neon），称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。Gemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件，并可在提示词和函数响应中切分文档、表格、视频和音频。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Claude Fable 5.2 相当。Arena 公布的 Agent Arena Index 中，Gemini 4 Neon (High) 以 1336 分排名第二，超过 Carbon (High) 的 1303 分；Arena 称其每任务中位成本 $2.82，比第 3 名 Claude Opus 5.5 (Max) 便宜 53%。Google 称该模型在 Artificial Analysis Coding Agent Index 排名第一，每任务成本比 Carbon 低 32%；Google 员工 Ammaar Reshi 称其速度接近 Carbon 的 3 倍，性能与智能水平接近 Carbon。Google 还称其在 Agent Arena 可控性排名第 2，内部 Antigravity 测试中编造率为迄今最低。Cursor 同日宣布 Neon 上线，称其在 CursorBench 4.1 默认强度下得分 63.7%，高于 Gemini 4 Hydrogen 的 57.3%。\n\nGoogle 称，该模型即日起向 Gemini App 的 Google AI Pro 与 Ultra 订阅用户（移动端、桌面端和网页端，可在 Chat 和 Tasks 的模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层以及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。Gemini 官方称，Gemini 中的 Tasks 现可在 Neon 上运行，以更快处理多步骤任务并延长使用限额。",
+        "latest_at": "2026-11-19T11:18:18.000Z",
         "original_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
-        "rank": 2,
+        "rank": 1,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 46,
-        "source_count": 17,
+        "signal_count": 74,
+        "source_count": 19,
         "status": "active",
         "story_url": "https://aihot.news/story/74578987-a1ed-4ce0-96b8-658226459865",
-        "title": "Google 发布 Gemini 4 Neon，API 支持直传 Office 文件"
+        "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
-        "digest": "Anthropic 将 IPO 发行价定为每股 83 美元，高于 70 至 78 美元的初始区间，完全稀释估值约 1.5 万亿美元，股票将于 11 月 19 日在纳斯达克以代码 ANT 开始交易。这一价格低于此前讨论的最高 2 万亿美元，但高于按路演区间上限计算的约 1.4 万亿美元。\n\n估值预期此前经历反复：部分机构投资者认为 1.5 万亿美元仍偏高、有人提出 1 万亿美元更现实，公司随后接受 1.25 万亿至 1.75 万亿美元的区间推进；因订单达可售股份数倍，承销商又计划将定价上调回 1.5 万亿美元或更高。\n\n招股文件披露，第三季度经营业绩从盈利 9.74 亿美元转为亏损 5.67 亿美元，算力成本占营收比例从 48% 升至 58%，算力与基础设施合同承诺约 8954 亿美元，另有最高 1750 亿美元未定价。公司还称基于对未来模型的预期，可能很快触及自身《负责任扩缩策略》的递归自我改进阈值，但表示目前没有现有模型被认定越过该阈值。",
+        "digest": "Anthropic 将 IPO 发行价定为每股 83 美元，高于此前 70 至 78 美元的区间，按完全稀释计算估值约 1.5 万亿美元，股票预计 11 月 19 日在纳斯达克以代码 ANT 开始交易。公司共发行 9.8 亿股 A 类普通股，其中约 9.56 亿股由公司出售，IPO 募资约 813 亿美元；加上 AMD、博通、谷歌、美光、微软、英伟达、台积电按发行价认购的 260 亿美元无投票权 N 类股，总规模超过 940 亿美元。\n\n这一价格是需求推高的结果。此前投资者一度质疑 1.5 万亿美元估值过高，部分人认为 1 万亿美元更现实，公司最初讨论的估值接近 2 万亿美元；承销商后因订单超额而计划上调定价。据 Bloomberg 报道，认购订单达可售股份的六倍。\n\n招股文件同时显示经营压力：截至 9 月 30 日的季度营收 170 亿美元，环比增速从 147% 降至 47%，算力成本占营收比例从 48% 升至 58%；公司披露的算力承诺约 8954 亿美元，另有最高 1750 亿美元合同尚未定价。Anthropic 还在修订版 S-1 中称，基于对未来模型的预期，已越过其《负责任扩缩策略》设定的阈值，但现有模型均未越过。",
         "latest_at": "2026-11-19T00:15:51.000Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
         "rank": 3,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 46,
+        "signal_count": 57,
         "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic IPO 定价 83 美元，估值约 1.5 万亿美元"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
         "aihot_story_id": "c5899d4d-282f-4d24-9aa7-43f7b133d229",
-        "digest": "黄仁勋卸任后，Nvidia临时CEO Colette Kress在首次全员大会上承诺，将加薪和额外股权提前至12月发放，比原计划早数月。薪酬是员工提交的700个问题中最受关注的话题。\n\nKress此举部分源于投资者担心公司出现人才流失，许多员工当初正是为黄仁勋及其愿景才留下的。",
-        "latest_at": "2026-11-18T18:59:33.000Z",
-        "original_url": "https://x.com/rohanpaul_ai/status/2123128998201012713",
-        "rank": 7,
+        "digest": "黄仁勋卸任后，Nvidia临时CEO Colette Kress在首次全员大会上承诺，将加薪和额外股权提前至12月发放，比原计划早数月。薪酬是员工提交的700个问题中最受关注的话题；Kress此举部分源于投资者担心公司出现人才流失，许多员工当初正是为黄仁勋及其愿景才留下的。\n\nKress还在会上安抚员工，称公司芯片路线图和开源模型策略不会改变。据NYT报道，员工立场分裂，一些人签署信件支持黄仁勋；三名知情人士称，有员工不满他破坏了业界在发布前对AI模型做安全测试的计划。",
+        "latest_at": "2026-11-19T06:19:52.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2123300206922133979",
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 12,
+        "signal_count": 14,
         "source_count": 1,
         "status": "active",
         "story_url": "https://aihot.news/story/c5899d4d-282f-4d24-9aa7-43f7b133d229",
-        "title": "Nvidia临时CEO提前加薪并发放股权以留人"
+        "title": "Nvidia临时CEO提前加薪并承诺路线不变"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
         "aihot_story_id": "d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
-        "digest": "Google DeepMind 于 11 月 18 日向符合条件的 Google AI Ultra 订阅者开放新版 Project Genie 体验，首次在其中提供 Genie 4 世界模型；Google AI Pro 用户可加入候补名单。此前 Genie 4 仅以研究预览形式向可信测试者开放，Google 曾预告未来几周扩展至 AI Ultra 订阅用户及 Gemini API、Google AI Studio 早期访问合作伙伴。\n\nGenie 4 可按文本或图像提示实时生成可探索的虚拟世界，Google 称其画面更接近照片级真实、物理模拟更准确，并首次在实时世界模型中原生生成环境音、音乐和会回应用户的角色对话，支持在模拟中用自然语言实时修改天气、镜头和场景元素。Google 称 Gemini 在模拟中负责推理与规划，这类虚拟世界未来可用于训练机器人和 AI 智能体；上述效果均为 Google 发布时的介绍。\n\n同批更新还包括：Project Genie 智能体可通过对话创建世界并生成配乐，社区画廊支持发现、混编和分享创作；Genie 3 单次生成时长从 60 秒延长至 3 分钟，支持串联多个世界、从 360 度全景图生成新世界，并可用自然语言改变环境。",
+        "digest": null,
         "latest_at": "2026-11-19T02:25:37.000Z",
         "original_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
         "rank": 8,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 8,
+        "signal_count": 9,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
         "title": "Google 将 Genie 4 开放给 AI Ultra 订阅者"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
         "aihot_story_id": "e79088af-89d6-42e0-8947-05fbb16ede38",
         "digest": "英伟达公布第三季度财报，营收1158亿美元、同比增长103%，净利润653亿美元创纪录；数据中心收入1076亿美元，同比增长110%。临时CEO兼CFO Colette Kress称Vera Rubin进展顺利，并预计第四季度营收1300亿美元，该指引假设不含中国数据中心算力销售。\n\n黄仁勋辞职后的管理层安排成为焦点。Kress在CNBC节目中表示，董事会已决定不会恢复黄仁勋的CEO职务，并称这是董事会的官方声明；此前董事Harvey Jones在财报电话会上称董事会一致接受其辞职、无意让其复任。Kress还重申开源AI战略不变，9月同意以129亿美元收购Hugging Face的交易按计划推进。\n\n针对外界质疑，Kress否认公司扶持可能不具备投资级的neocloud客户，称hyperscaler正积极争取更多英伟达算力。她澄清，公司为数据中心客户提供的贷款担保并非直接出资，只有在客户筹齐融资、建成设施并装好英伟达设备后才生效，否则担保不存在。",
-        "latest_at": "2026-11-18T18:34:15.000Z",
+        "latest_at": "2026-11-19T05:08:33.010Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2122812619379900579",
         "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 23,
-        "source_count": 4,
+        "signal_count": 24,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/e79088af-89d6-42e0-8947-05fbb16ede38",
         "title": "英伟达Q3营收1158亿美元，董事会拒绝恢复黄仁勋职务"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
@@ -177,16 +194,16 @@
         "digest": null,
         "latest_at": "2026-11-18T14:15:02.887Z",
         "original_url": "https://www.ithome.com/1/028/914.htm",
-        "rank": 10,
+        "rank": 9,
         "recovered": false,
         "representative_source": "IT之家·人工智能",
-        "signal_count": 11,
+        "signal_count": 13,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.news/story/f9f27ce5-c259-4268-9c72-3cdc38699171",
         "title": "腾讯WorkBuddy日活超千万，年化收入逾5亿美元"
       },
-      "observed_at": "2026-11-19T03:37:07.850683Z"
+      "observed_at": "2026-11-19T13:24:00.847312Z"
     },
     {
       "item": {
