@@ -21,19 +21,36 @@
     {
       "item": {
         "aihot_story_id": "2442138c-3137-45fd-9a2a-9c1b159c49ae",
-        "digest": "Google 宣布，macOS 版 Gemini 桌面应用新增 computer use 功能，AI 可代用户操作本地 Mac 应用、跨本地文件与网页完成多步任务，例如填写表单、制作演示文稿。用户可在聊天中实时预览，并可暂停、停止或审批操作，还能选择允许 Gemini 访问哪些应用；Google 称屏幕和光标仍归用户控制。\n\n该功能初期仅面向美国英语用户，需安装 Gemini Mac 应用并持有 Google AI Plus、Pro 或 Ultra 订阅；Google 暂未公布扩展到其他市场和其他平台的时间。The Verge 称，此次上线恰逢 Apple 在 macOS 27.3 beta 中预览对应用完全磁盘访问的新限制，理由是 AI 智能体风险。",
+        "digest": null,
         "latest_at": "2026-11-19T21:52:19.000Z",
         "original_url": "https://x.com/joshwoodward/status/2123534862569324703",
         "rank": 3,
         "recovered": false,
         "representative_source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
-        "signal_count": 13,
+        "signal_count": 20,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/2442138c-3137-45fd-9a2a-9c1b159c49ae",
         "title": "Google 为 Mac 版 Gemini 上线电脑操作功能"
       },
-      "observed_at": "2026-11-20T03:29:06.103658Z"
+      "observed_at": "2026-11-20T13:03:48.533606Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2463d589-e0e9-4642-b52b-8056a255d3e2",
+        "digest": "据 The Information 报道，Meta 计划将带屏小设备 Muse Charm 定价为 300 美元，并附赠 Verizon 12 个月免费 5G 数据套餐。该设备用于与 Meta 的 Muse AI 智能体对话，用户可随身携带这一人格化实体进行提问和下达指令。Meta 发言人对 TechCrunch 未否认该定价说法。\n\nMeta 首席执行官扎克伯格今年早些时候已展示该设备，称其集成实时语音与虚拟形象技术，用户可通过指纹传感器免解锁手机直接对话。该设备在 Meta 的 Connect 活动上以 Tamagotchi 风格预告。\n\n作为价格参照，TechCrunch 提到 Friend 的 AI 穿戴设备售价 250 美元，亚马逊 Bee Frontier 售价 75 美元。Meta 还在研发智能手表，但发布已推迟至 2027 年。",
+        "latest_at": "2026-11-19T21:58:06.000Z",
+        "original_url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 8,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2463d589-e0e9-4642-b52b-8056a255d3e2",
+        "title": "Meta Muse Charm 据报定价 300 美元"
+      },
+      "observed_at": "2026-11-20T13:03:48.533606Z"
     },
     {
       "item": {
@@ -54,6 +71,23 @@
     },
     {
       "item": {
+        "aihot_story_id": "491d220c-9d57-4295-af9f-e4382561b3f7",
+        "digest": "腾讯混元 11 月 20 日宣布 Hy4 正式开源：模型权重已在 GitHub、Hugging Face、ModelScope 和 GitCode 上线，开发者可自行下载部署，并同步发布含安全、对齐评测及网络与生物前沿风险分析的 Hy4 System Card。IT之家报道称，Hy4 及 Hy4 preview 采用 Apache 2.0 许可证，允许商业使用与修改。腾讯混元称，混元 LLM 系列至此全部开源，包括 Hy3 preview、Hy3、Hy4 preview、Hy4、Hy4 flash 等。\n\nHy4 是原生多模态 MoE 模型，总参数 770B、激活 49B，支持 1M 上下文。此前 11 月 4 日发布的正式版首次引入视觉理解和电脑操作能力，腾讯称其在 GameDev、GameLogic 评测上分别提升 19.1% 和 9.8%，维持与 preview 相同的 API 价格；The Decoder 报道每百万输入 token 约 0.83 美元、输出约 2.50 美元。\n\n开源前，Hy4 已通过腾讯云、OpenRouter、WorkBuddy、OpenClaw、Vercel AI Gateway、Atlas Cloud 等渠道提供，11 月 19 日起在 Together AI 提供 serverless 与专属端点，模型字符串为 tencent/Hy4。Arena 称 Hy4 在 Agent Arena 总榜排名第 14，并称权重开放后将与 Kimi K3.1 Pro 并列开源模型第一；腾讯混元另称 Hy4 登顶 APEX-Agents 开源模型榜。上述性能说法来自腾讯及 Arena，实际效果尚待验证。",
+        "latest_at": "2026-11-20T09:31:00.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/JrQeiqx3PXBDSGish2IzwA",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "公众号：腾讯混元",
+        "signal_count": 5,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/491d220c-9d57-4295-af9f-e4382561b3f7",
+        "title": "腾讯混元 Hy4 正式开源权重并发布 System Card"
+      },
+      "observed_at": "2026-11-20T13:03:48.533606Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "5b9663fc-1eca-4b40-8002-74628b9cb436",
         "digest": null,
         "latest_at": "2026-11-19T16:35:40.000Z",
@@ -71,20 +105,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "7208f05f-6fa1-4aec-9c4a-84bd96219f87",
+        "digest": "OpenAI 发布第二份研究加速报告，基于内部测量说明编码智能体如何改变其 AI 研发周期。报告称，3 月至 10 月，估计需 2–4 小时的人工任务，智能体自主成功率从 23% 升至 46%；4–8 小时任务从 13% 升至 35%。但任务间差异明显：监控训练任务成功率达 79%，推理与服务栈编码仅 25%。上述数据均为 OpenAI 对自身研发场景的内部测量，并非对外部通用能力的验证。\n\nOpenAI 另称，研究者使用 AI 的程度持续指数级上升，但人类参与仍是核心；在安全与对齐上投入的人力增速超过其他任何研究领域。The Decoder 报道称，10 月按 API 牌价计算，中位研究员每天消耗价值 2,400 美元的 token，环比增长 62%，前 10% 达每天 23,000 美元；研究员 Rohan Paul 转述报告数据时也提到日均 2,400 美元、最高 10% 超过 23,000 美元。",
+        "latest_at": "2026-11-19T13:08:35.000Z",
+        "original_url": "https://x.com/OpenAI/status/2123191365983248653",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "X：OpenAI (@OpenAI)",
+        "signal_count": 11,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/7208f05f-6fa1-4aec-9c4a-84bd96219f87",
+        "title": "OpenAI报告：编码智能体加速研发但进展不均"
+      },
+      "observed_at": "2026-11-20T13:03:48.533606Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "74578987-a1ed-4ce0-96b8-658226459865",
-        "digest": "Google 于 11 月 18 日发布 Gemini 4 Neon（gemini-4-neon），称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。Gemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件，并可在提示词和函数响应中切分文档、表格、视频和音频。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Claude Fable 5.2 相当。Arena 公布的 Agent Arena Index 中，Gemini 4 Neon (High) 以 1336 分排名第二，超过 Carbon (High) 的 1303 分；Arena 称其每任务中位成本 $2.82，比第 3 名 Claude Opus 5.5 (Max) 便宜 53%。Google 称该模型在 Artificial Analysis Coding Agent Index 排名第一，每任务成本比 Carbon 低 32%；Google 员工 Ammaar Reshi 称其速度接近 Carbon 的 3 倍，性能与智能水平接近 Carbon。Google 还称其在 Agent Arena 可控性排名第 2，内部 Antigravity 测试中编造率为迄今最低。Cursor 同日宣布 Neon 上线，称其在 CursorBench 4.1 默认强度下得分 63.7%，高于 Gemini 4 Hydrogen 的 57.3%。\n\nGoogle 称，该模型即日起向 Gemini App 的 Google AI Pro 与 Ultra 订阅用户（移动端、桌面端和网页端，可在 Chat 和 Tasks 的模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层以及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。Gemini 官方称，Gemini 中的 Tasks 现可在 Neon 上运行，以更快处理多步骤任务并延长使用限额。",
-        "latest_at": "2026-11-20T00:32:21.000Z",
+        "digest": "Google 于 11 月 18 日发布 Gemini 4 Neon，称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。Gemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件，并可在提示词和函数响应中切分文档、表格、视频和音频。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Claude Fable 5.2 相当。Arena 公布的 Agent Arena Index 中，Gemini 4 Neon (High) 以 1336 分排名第二，超过 Carbon (High) 的 1303 分；Arena 称其每任务中位成本 $2.82，比第 3 名 Claude Opus 5.5 (Max) 便宜 53%。Google 称该模型在 Artificial Analysis Coding Agent Index 排名第一，每任务成本比 Carbon 低 32%；Google 员工 Ammaar Reshi 称其速度接近 Carbon 的 3 倍，性能与智能水平接近 Carbon。Google 还称其在 Agent Arena 可控性排名第 2，内部 Antigravity 测试中编造率为迄今最低。Cursor 同日宣布 Neon 上线，称其在 CursorBench 4.1 默认强度下得分 63.7%，高于 Gemini 4 Hydrogen 的 57.3%。\n\nGoogle 称，该模型即日起向 Gemini App 的 Google AI Pro 与 Ultra 订阅用户（移动端、桌面端和网页端，可在 Chat 和 Tasks 的模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层以及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。Gemini 官方称，Gemini 中的 Tasks 现可在 Neon 上运行，以更快处理多步骤任务并延长使用限额。",
+        "latest_at": "2026-11-20T04:52:33.000Z",
         "original_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
         "rank": 2,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 88,
-        "source_count": 16,
+        "signal_count": 94,
+        "source_count": 17,
         "status": "active",
         "story_url": "https://aihot.news/story/74578987-a1ed-4ce0-96b8-658226459865",
         "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件"
       },
-      "observed_at": "2026-11-20T03:29:06.103658Z"
+      "observed_at": "2026-11-20T13:03:48.533606Z"
     },
     {
       "item": {
@@ -95,13 +146,13 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
-        "signal_count": 77,
+        "signal_count": 87,
         "source_count": 11,
         "status": "active",
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 上市：83 美元定价，首日收涨 17%"
       },
-      "observed_at": "2026-11-20T03:29:06.103658Z"
+      "observed_at": "2026-11-20T13:03:48.533606Z"
     },
     {
       "item": {
@@ -122,20 +173,54 @@
     },
     {
       "item": {
-        "aihot_story_id": "a1b6af96-fbdf-4779-80a9-0ca55270818c",
-        "digest": "彭博社记者马克·古尔曼报道，苹果 CEO John Ternus 正施压 AI 负责人 Craig Federighi 加快 Siri 路线图，目标是推出能对标 OpenAI 的 Dots、Meta 的 Muse 和 Grok 的 AI 智能体。古尔曼称，这款 Siri 将从响应命令转向主动管理任务、代表用户完成事务，计划最早明年推出。\n\n苹果随后发布招聘信息，招募一名高级工程经理主导开发可跨应用、浏览器、命令行和 API 执行多步任务并编写、调试代码的 AI 智能体，与 Siri、UI Frameworks 和 Apple Foundation Models 团队协作。据彭博社报道，该服务最早或于明年底推出，目前仍处早期阶段。\n\n与此同时，据 TechCrunch 报道，macOS 27.3 将部署警告，劝阻用户授予第三方智能体完全控制权。目前尚无具体的上线范围或功能可用性信息。",
-        "latest_at": "2026-11-20T00:56:01.000Z",
-        "original_url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-        "rank": 5,
+        "aihot_story_id": "9ba36bba-3cd1-40c9-b311-35e022a99425",
+        "digest": "OpenAI 核心产品负责人 Thibault Sottiaux 称，OpenAI 已开始邀请一小部分 ChatGPT Plus 用户测试 dots，同时向所有 ChatGPT Business Standard 用户开放该功能，推广自 2026 年 11 月 20 日起启动。\n\n两类用户的开放范围不同：Plus 用户仅限“一小部分”参与测试，Sottiaux 称后续会扩大范围并继续收集反馈；Business Standard 用户则覆盖全部。\n\n据 IT之家报道，移动版 ChatGPT 将为 dots 设置独立标签页，该新体验将首先面向已拥有 dots 或具备创建 dot 资格的 ChatGPT Pro 用户开放。",
+        "latest_at": "2026-11-20T01:20:21.430Z",
+        "original_url": "https://x.com/thsottiaux/status/2123556256392847657",
+        "rank": 10,
         "recovered": false,
-        "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 8,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 7,
         "source_count": 2,
         "status": "active",
+        "story_url": "https://aihot.news/story/9ba36bba-3cd1-40c9-b311-35e022a99425",
+        "title": "OpenAI 向 Plus 与 Business 用户测试 dots"
+      },
+      "observed_at": "2026-11-20T13:03:48.533606Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a1b6af96-fbdf-4779-80a9-0ca55270818c",
+        "digest": null,
+        "latest_at": "2026-11-20T00:56:01.000Z",
+        "original_url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 12,
+        "source_count": 2,
+        "status": null,
         "story_url": "https://aihot.news/story/a1b6af96-fbdf-4779-80a9-0ca55270818c",
         "title": "苹果被曝加速Siri智能体化并招聘工程师"
       },
-      "observed_at": "2026-11-20T03:29:06.103658Z"
+      "observed_at": "2026-11-20T13:03:48.533606Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c4010e0b-ceb4-4081-bb9a-9c40af7f311e",
+        "digest": "据 X 用户 Rohan Paul 转引《华尔街日报》报道，与 Alice Huang 相关的公司投资了 DeepSeek 最新一轮融资，并承诺提供 Nvidia 芯片，目标是成为 DeepSeek 稳定的被禁 Blackwell 芯片供应商。\n\n该转引报道称，Alice Huang 的丈夫、商人 Kang Wei 与 Nvidia 首席执行官黄仁勋相识十年，两人于 2023 年在新加坡成立 Megaspeed，以无法直接购买此类芯片的阿里巴巴作为锚定客户，换取 Nvidia 芯片优先供应；2024 年底至 2025 年 6 月间，该公司向潜在投资者承诺三年三倍回报，并称有办法将 Nvidia 芯片带入中国。上述说法均来自该转引报道。\n\n另一 X 账号 X.PIN 称，DeepSeek 已完成第二轮融资，融资 140–150 亿美元，投后估值约 860 亿美元；一家由 31 个合伙人组成的投资载体进入其股东结构，腾讯和宁德时代是最大的外部投资方，其次是中国移动和中信证券。该报道未提及 Alice Huang 相关公司是否在其中。",
+        "latest_at": "2026-11-20T11:00:05.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2120991673878786311",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 10,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/c4010e0b-ceb4-4081-bb9a-9c40af7f311e",
+        "title": "涉华芯片关联公司投资DeepSeek融资"
+      },
+      "observed_at": "2026-11-20T13:03:48.533606Z"
     },
     {
       "item": {
@@ -157,19 +242,19 @@
     {
       "item": {
         "aihot_story_id": "d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
-        "digest": null,
+        "digest": "Google DeepMind 于 10 月 27 日发布世界模型 Genie 4，最初仅以研究预览形式向可信测试者开放。11 月 18 日起，符合条件的 Google AI Ultra 订阅者可在 Project Genie 中体验 Genie 4；Google AI Pro 会员可加入候补名单。11 月 20 日，Genie 4 上线 Gemini API 和 Google AI Studio，Google 称这是其首个面向开发者的世界模型。\n\nGenie 4 可逐帧实时生成可探索的虚拟世界，支持用自然语言在模拟中途修改天气、镜头和角色，并首次在实时世界模型中直接生成环境音、音乐和角色对话。Google 称其为迄今最逼真、交互性最强的世界模型；Gemini 3.8 Flash 在模拟循环中负责解释提示和规划事件。\n\n与 Genie 4 一同推出的还有 Project Genie 智能体和社区画廊；Genie 3 也获更新，单次生成时长从 60 秒延长至 3 分钟，并支持从 360 度全景图生成世界。据 MarkTechPost 报道，Genie 4 的视频和音频均带 SynthID 水印。",
         "latest_at": "2026-11-19T21:12:59.000Z",
         "original_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "Google DeepMind：Blog（RSS）",
-        "signal_count": 11,
+        "signal_count": 12,
         "source_count": 6,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.news/story/d9a88c5c-1b99-4e5b-af6c-dec4f752f180",
         "title": "Google 将 Genie 4 开放给 AI Ultra 订阅者并上线 API"
       },
-      "observed_at": "2026-11-20T03:29:06.103658Z"
+      "observed_at": "2026-11-20T13:03:48.533606Z"
     },
     {
       "item": {
