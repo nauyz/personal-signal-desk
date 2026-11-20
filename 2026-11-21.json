@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0cf0f02a-0464-43db-b253-ed1878937b74",
+        "digest": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，采用循环 Transformer 架构：24 层中中间 12 层每个 token 运行三次，首尾各六层只运行一次。公司称其总参数 26.4B、激活 3.4B，内存占用约 20GB，可在 32GB 内存以上的 Mac 上通过 Ollama 本地运行，也可在 NVIDIA DGX Spark 上运行；发布动机是回应部分用户认为上一代 Inkling 2 Small 的 594B 参数过大。Hugging Face 称与 Thinking Machines 合作推出这一面向本地部署的多模态模型。\n\nArtificial Analysis 称该模型在其 Intelligence Index 上得分 20，采用 Apache 2.0 许可，支持文本和图像输入、1M token 上下文窗口，其第一方定价为每百万输入/输出/缓存命中 token 0.15/0.50/0.015 美元。公司称模型已在 Tinker 上线用于推理和微调，完整权重及可变循环版本已发布在 Hugging Face；vLLM 宣布在 Blackwell、Hopper 和 DGX Spark 上提供 Day-0 支持，Unsloth 称 1-bit 量化仅需 9GB 内存、4-bit 需 17–18GB。ARC Prize 公布其在 ARC-AGI-2 得分 49.3%、每任务 0.14 美元，ARC-AGI-1 得分 84.5%、每任务 0.06 美元，并称相比 Inkling 2 Small 在 ARC-AGI-2 上每任务成本低 47%、得分低 32 个百分点。\n\n循环架构引发可监控性担忧。Thinking Machines 称其研究显示，多次循环下 no-CoT 能力随循环次数上升、链式思维变短但仍可读，可监测性没有明显下降，并同步发布可变循环研究模型供他人实验；Goodfire Research 也发布了对该模型内部机制的可解释性研究。",
+        "latest_at": "2026-11-20T21:04:37.000Z",
+        "original_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "Thinking Machines Lab：News（网页）",
+        "signal_count": 5,
+        "source_count": 9,
+        "status": "active",
+        "story_url": "https://aihot.news/story/0cf0f02a-0464-43db-b253-ed1878937b74",
+        "title": "Thinking Machines 发布可本地运行的开源模型 Inkling 2 Mini"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2442138c-3137-45fd-9a2a-9c1b159c49ae",
+        "digest": "Google 宣布，macOS 版 Gemini 桌面应用新增 computer use 功能，AI 可在后台窗口中点击、滚动和输入，代用户跨本地文件夹、桌面应用和网页完成多步任务，例如填写表单、制作演示文稿。用户可选择允许 Gemini 访问哪些应用，并在聊天中实时预览、暂停、停止或审批操作；Google 称屏幕和光标仍归用户控制。\n\n该功能目前仅面向美国英语用户推出，需安装 Gemini Mac 应用并持有 Google AI Plus、Pro 或 Ultra 订阅；Google 暂未公布扩展到其他市场和其他平台的时间。\n\nThe Verge 称，此次上线恰逢 Apple 在 macOS 27.3 beta 中预览对应用完全磁盘访问的新限制，理由是 AI 智能体风险。",
+        "latest_at": "2026-11-20T18:50:31.000Z",
+        "original_url": "https://x.com/joshwoodward/status/2123534862569324703",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
+        "signal_count": 24,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2442138c-3137-45fd-9a2a-9c1b159c49ae",
+        "title": "Google 为 Mac 版 Gemini 上线电脑操作功能"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3e9f616b-fbd2-43c8-b778-498a7800b0c3",
+        "digest": "Signal 在 iOS 27 和受支持的 Android 版本上限制应用内截图，目的是阻止 Siri、Gemini 等系统级 AI 智能体读取屏幕上已解密的消息内容。据 The Decoder 报道，在 Android 上，当 AI 助手尝试访问屏幕时会触发保护。\n\n用户可以在 Signal 的应用设置中恢复截图功能。Signal 称，这一限制目前无法在 macOS 上实现。",
+        "latest_at": "2026-11-20T19:50:27.000Z",
+        "original_url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 6,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/3e9f616b-fbd2-43c8-b778-498a7800b0c3",
+        "title": "Signal 限制 iOS 27 与 Android 截图，阻止 AI 读取聊天"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "647b0945-9244-4f55-b509-0f3fa0f6fe51",
+        "digest": "Anthropic 数学家莱文特·阿尔波格当地时间 20 日在个人网站宣称，自己与 Claude 合作证明了黎曼猜想，并称方法可推广至广义与扩展黎曼猜想。他称论证已无假设地形式化，Claude 在最后阶段远超自己；据 Rohan Paul 转述，整个过程约六周，Claude 在他未掌握的高级领域提出了关键步骤。\n\nThe Verge 报道称，该解法尚待独立验证；Anthropic 未就此事表态，也未参与其发布。阿尔波格发布的证明以 Lean 形式化代码呈现，公众号“数字生命卡兹克”称其未附论文，只放出 14 个压缩包、共 175187 个 Lean 文件、1737 万行代码，等待逐步验证。\n\n若获确认，大量以黎曼猜想为前提的数学结论将随之成立。Google 研究员 François Chollet 转发相关报道并评论“What a time to be alive”，未对证明本身作出判断。",
+        "latest_at": "2026-11-20T17:38:08.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 21,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
+        "title": "Anthropic 数学家称与 Claude 证明黎曼猜想"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "74578987-a1ed-4ce0-96b8-658226459865",
+        "digest": "Google 于 11 月 18 日发布 Gemini 4 Neon，称其面向复杂软件工程、知识工作和科学工作流提供快速端到端任务完成。即日起向 Google AI Pro/Ultra 订阅用户（Gemini App 移动端、桌面端和网页端，可在 Chat 和 Tasks 模型下拉菜单选择）、付费 Pro/Ultra 用户的 Antigravity、Google AI Studio 的 Gemini API 付费层及 Gemini 商业版推送；Fairwind Program 的 Gemini 4 Neon for cyber 将在数日内向受信任的防御者开放。同一 API 更新中，用户可直接向 Gemini API 传入 Word、PowerPoint、Excel 等 Office 和 OpenDocument 文件。\n\nGemini API 付费档定价为每百万输入 token 3 美元、输出 15 美元，缓存输入每百万 0.15 美元，上下文窗口 100 万 token。The Decoder 和 Simon Willison 均指出，这一价格高于 Carbon 和 Argon 的 $2/$10（12 月 1 日起翻倍至 $4/$20）及 Hydrogen 的 $1.50/$7.50。\n\nArtificial Analysis 评测其智能指数为 61 分，比 Gemini 4 Carbon（high）高 1 分，总榜排名第三；其编码代理得分 59，与 Claude Opus 5.5、Claude Fable 5.2 相当。Arena 公布的 Agent Arena Index 中，Gemini 4 Neon (High) 以 1336 分排名第二，超过 Carbon (High) 的 1303 分；Arena 称其每任务中位成本 $2.82，比第 3 名 Claude Opus 5.5 (Max) 便宜 53%。Google 称该模型在 Artificial Analysis Coding Agent Index 排名第一，每任务成本比 Carbon 低 32%；Google 员工 Ammaar Reshi 称其速度接近 Carbon 的 3 倍，性能与智能水平接近 Carbon。Google 还称其在 Agent Arena 可控性排名第 2，内部 Antigravity 测试中编造率为迄今最低。Cursor 同日宣布 Neon 上线，称其在 CursorBench 4.1 默认强度下得分 63.7%，高于 Gemini 4 Hydrogen 的 57.3%。",
+        "latest_at": "2026-11-20T14:30:00.000Z",
+        "original_url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Google DeepMind：Blog（RSS）",
+        "signal_count": 97,
+        "source_count": 18,
+        "status": "active",
+        "story_url": "https://aihot.news/story/74578987-a1ed-4ce0-96b8-658226459865",
+        "title": "Google 发布 Gemini 4 Neon，API 可直传 Office 文件"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": null,
+        "latest_at": "2026-11-20T13:53:13.000Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 87,
+        "source_count": 12,
+        "status": "active",
+        "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic 上市首日收涨 17%，次日回落"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9ba36bba-3cd1-40c9-b311-35e022a99425",
+        "digest": null,
+        "latest_at": "2026-11-20T01:20:21.430Z",
+        "original_url": "https://x.com/thsottiaux/status/2123556256392847657",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 9,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.news/story/9ba36bba-3cd1-40c9-b311-35e022a99425",
+        "title": "OpenAI 向 Plus 与 Business 用户测试 dots"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9d1f99c5-6603-4fa6-99c6-30ae0b7c956e",
+        "digest": "特朗普在与中国国家主席习近平、俄罗斯总统普京峰会后的一场新闻发布会上称，不允许美国公司在海外建设数据中心，否则将对其征收“巨大税收”，理由是“否则中国会全部拿走”。他称这一想法尚未告知自己的团队，也未给出税率、适用范围等具体细节。\n\n报道同时提到，美国多州和城市正在限制新建数据中心的申请；数月内就职的民主党多数国会可能使该计划难以落实。",
+        "latest_at": "2026-11-20T18:50:19.000Z",
+        "original_url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 6,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/9d1f99c5-6603-4fa6-99c6-30ae0b7c956e",
+        "title": "特朗普威胁对海外建数据中心征税"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a1b6af96-fbdf-4779-80a9-0ca55270818c",
+        "digest": "彭博社记者马克·古尔曼报道，苹果 CEO John Ternus 正施压 AI 负责人 Craig Federighi 加快 Siri 路线图，计划最早明年推出从响应命令转向主动管理任务、代表用户完成事务的代理式 Siri，对标 OpenAI 的 Dots、Meta 的 Muse 和 Grok。\n\n苹果随后发布招聘信息，招募一名高级工程经理主导开发可跨应用、浏览器、命令行和 API 执行多步任务并编写、调试代码的 AI 智能体，与 Siri、UI Frameworks 和 Apple Foundation Models 团队协作。据彭博社报道，该服务最早或于明年底推出，目前仍处早期阶段；The Decoder 称其设计以权限模型和沙箱等隐私机制为核心。\n\n与此同时，据 TechCrunch 报道，macOS 27.3 将部署警告，劝阻用户授予第三方智能体完全控制权。目前尚无具体的上线范围或功能可用性信息。",
+        "latest_at": "2026-11-20T15:03:25.000Z",
+        "original_url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 15,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/a1b6af96-fbdf-4779-80a9-0ca55270818c",
+        "title": "苹果被曝加速Siri智能体化并招聘工程师"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c4010e0b-ceb4-4081-bb9a-9c40af7f311e",
+        "digest": null,
+        "latest_at": "2026-11-20T11:00:05.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2120991673878786311",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 10,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/c4010e0b-ceb4-4081-bb9a-9c40af7f311e",
+        "title": "涉华芯片关联公司投资DeepSeek融资"
+      },
+      "observed_at": "2026-11-20T21:13:55.779968Z"
+    }
+  ],
+  "version": 1
+}
