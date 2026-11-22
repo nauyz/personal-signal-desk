@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0cf0f02a-0464-43db-b253-ed1878937b74",
+        "digest": null,
+        "latest_at": "2026-11-21T18:31:39.000Z",
+        "original_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "Thinking Machines Lab：News（网页）",
+        "signal_count": 38,
+        "source_count": 9,
+        "status": null,
+        "story_url": "https://aihot.news/story/0cf0f02a-0464-43db-b253-ed1878937b74",
+        "title": "Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2d0a9c1a-2a0a-41b6-a7ef-776ef03a783b",
+        "digest": "安全公司 Dragos 首席研究官 HD Moore 在 2026 年 7 月至 11 月间，经 OpenRouter 等 AI 路由向多家 AI 服务商发送约 200 万条带假凭证和可追踪诱饵的请求，发现提示词被窃、转售商外传数据、隐私设置未被执行等问题。至少三家服务商出现遭入侵迹象，被盗的数百个 AWS 密钥在数小时内被试用并用于搜索 S3 存储；部分标记为“零数据保留”（ZDR）的请求，其私密网址数日后仍被抓取。The Decoder 报道称，受影响服务商包括 Novita、Phala 和 Together。\n\nOpenRouter 回应称，未发现 OpenRouter 本身被入侵，问题出在部分推理提供商的数据泄露或数据政策未被执行。OpenRouter 称已下架 3 家提供商、将 125 个端点移出 ZDR 资格并通知受影响客户；被移出的端点须提供适当保证并通过验证，才能恢复 ZDR 资格。\n\nMoore 建议敏感业务可本地部署或直接选择可信服务商；Dragos 还建议企业控制 AI 请求的路由方式、检查隐私设置并植入自有的金丝雀令牌。",
+        "latest_at": "2026-11-22T12:07:56.000Z",
+        "original_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Ars Technica：AI（RSS）",
+        "signal_count": 5,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2d0a9c1a-2a0a-41b6-a7ef-776ef03a783b",
+        "title": "200万诱饵请求测出AI服务链数据外泄"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "3e9f616b-fbd2-43c8-b778-498a7800b0c3",
+        "digest": null,
+        "latest_at": "2026-11-21T23:28:10.353Z",
+        "original_url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 10,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/3e9f616b-fbd2-43c8-b778-498a7800b0c3",
+        "title": "Signal 移动端默认拦截截图，防系统级 AI 读取聊天"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "647b0945-9244-4f55-b509-0f3fa0f6fe51",
+        "digest": "Anthropic 数学家莱文特·阿尔波格于 11 月 20 日宣称与 Claude 合作证明了黎曼猜想，并称方法可推广至广义与扩展黎曼猜想。他未附论文，只发布约 1700 万行 Lean 形式化代码。The Verge 当时指出该解法尚待独立验证，Anthropic 未就此事表态，也未参与其发布。\n\nLean 与 Mathlib 社区随后发表声明，确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为可证明不会接受有缺陷的证明。菲尔兹奖得主詹姆斯·梅纳德此前在采访中称，他相信证明正确，依据是已通过 Lean 库形式化验证并经独立核实，且阿尔波格过往记录可靠；但他同时表示，证明需被理解才可能获认可。\n\n若获确认，大量以黎曼猜想为前提的数学结论将随之成立。Rohan Paul 曾附上陶哲轩上月访谈中“现有 AI 无法攻克该问题”的说法作对照。",
+        "latest_at": "2026-11-22T11:08:31.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 59,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
+        "title": "Lean 社区确认阿尔波格黎曼猜想证明正确"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "digest": null,
+        "latest_at": "2026-11-21T15:00:00.000Z",
+        "original_url": "https://www.anthropic.com/news/s1-sec",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "Anthropic：Newsroom（网页）",
+        "signal_count": 15,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
+        "title": "Anthropic 上市首日收涨 17%，次日回落"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9d1f99c5-6603-4fa6-99c6-30ae0b7c956e",
+        "digest": null,
+        "latest_at": "2026-11-20T18:50:19.000Z",
+        "original_url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 12,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/9d1f99c5-6603-4fa6-99c6-30ae0b7c956e",
+        "title": "特朗普威胁对海外建数据中心征税"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "af4ac277-326a-46b2-9427-8172d51f5032",
+        "digest": "OpenAI 向每月 20 美元的 ChatGPT Plus 订阅用户开放了 Space 协作空间，此前该功能仅限 Pro、Business 和 Enterprise 方案。用户可与他人协作创建交互式页面、幻灯片和网站，ChatGPT 能代为保持内容更新；Space 成为侧边栏中 pages、slides、images、files 和 uploads 的统一入口，页面和幻灯片可从已连接的工具自动更新。本次更新还支持移动端编辑，并提升了流畅度和稳定性。\n\n据 IT之家报道，此次开放面向全球年满 18 周岁的 Plus 用户分批进行，并非所有账号都会立即获得入口；免费用户无法打开共享内容，目前也不支持公开链接分享，Dot 智能体的使用权限仍受套餐限制。\n\nOpenAI 产品设计人员 Ed Bayes 称，这次发布包含大量简化，后续还会有更多内容。OpenAI 官方账号另列举了 12 种 Space 用法，包括把每周指标转成图表幻灯片、制作品牌 pitch deck、生成学习指南，以及汇总 Slack 讨论与 GitHub 更新为共享 build log。",
+        "latest_at": "2026-11-22T02:03:58.000Z",
+        "original_url": "https://x.com/thsottiaux/status/2123861214644347122",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 7,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/af4ac277-326a-46b2-9427-8172d51f5032",
+        "title": "OpenAI 向 Plus 用户开放 ChatGPT Space"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "digest": null,
+        "latest_at": "2026-11-22T00:47:52.000Z",
+        "original_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "NVIDIA：Newsroom（RSS）",
+        "signal_count": 7,
+        "source_count": 1,
+        "status": null,
+        "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
+        "title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "f00f5c21-41ee-4e4b-b02d-89efffe5d553",
+        "digest": "Keras 创始人 Francois Chollet 称，GPU 现货价格持续上涨、容量难以获取，HBM 与 DRAM 产能到 2029 年基本售罄，芯片与内存供应预计紧张至 2030 年代；前沿训练算力约每 5 个月翻倍，推理业务利润率 70%–85%。他据此认为 AI 算力需求尚未见顶，并称要么相信 AI 建设已结束、需求见顶，要么当前是罕见的买入机会。\n\n马斯克在回复 Chollet 时给出相反方向的预警：AI 行业明年可能面临严重资金短缺，若从支付算力成本到设备稳定创收的时间推迟数月，仅营运资金就可能需额外投入数千亿美元。这一说法针对的是行业资金链，并未否认 Chollet 关于 GPU 价格与产能紧张的说法。",
+        "latest_at": "2026-11-22T08:47:38.023Z",
+        "original_url": "https://x.com/fchollet/status/2124246742644461569",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "X：Francois Chollet (@fchollet)",
+        "signal_count": 3,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/f00f5c21-41ee-4e4b-b02d-89efffe5d553",
+        "title": "Chollet 称算力需求未见顶，马斯克预警资金短缺"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3",
+        "digest": null,
+        "latest_at": "2026-11-21T22:10:40.000Z",
+        "original_url": "https://x.com/indigox/status/2124264257273643371",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：indigo (@indigox)",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": null,
+        "story_url": "https://aihot.news/story/fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3",
+        "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航"
+      },
+      "observed_at": "2026-11-22T16:21:05.814906Z"
+    }
+  ],
+  "version": 1
+}
