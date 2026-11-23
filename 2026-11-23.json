@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "0cf0f02a-0464-43db-b253-ed1878937b74",
-        "digest": null,
-        "latest_at": "2026-11-21T18:31:39.000Z",
+        "digest": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，采用循环 Transformer 架构：24 层中中间 12 层对每个 token 循环运行三次，首尾各六层只运行一次。模型总参数 26.4B，以 Apache 2.0 许可在 Hugging Face 发布完整权重及可变循环研究版本，并上线 Tinker 供推理和微调。\n\n官方称其可在 32GB 以上内存的 Mac 本地运行，也可在 NVIDIA DGX Spark 上运行；vLLM 提供 Day-0 支持，Ollama 预发布版可一条命令运行，Unsloth 称 1-bit 量化仅需 9GB 内存。评测方面，Artificial Analysis 智能指数得 20 分，ARC Prize 公布 ARC-AGI-2 得分 49.3%、每任务 $0.14，ARC-AGI-1 得分 84.5%、每任务 $0.06。\n\n循环架构引发可监控性担忧，Thinking Machines 称研究发现多次循环下 no-CoT 能力上升、思维链变短但仍可读，可监测性没有明显下降，并同步开源可变循环研究模型供外部实验；NDIF 已托管该模型及变体，提供白盒访问。各来源对激活参数表述不一，有 3B、3.4B、5.4B 三种说法。",
+        "latest_at": "2026-11-23T06:55:25.030Z",
         "original_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-        "rank": 3,
+        "rank": 7,
         "recovered": false,
         "representative_source": "Thinking Machines Lab：News（网页）",
-        "signal_count": 24,
-        "source_count": 3,
-        "status": null,
+        "signal_count": 19,
+        "source_count": 2,
+        "status": "active",
         "story_url": "https://aihot.news/story/0cf0f02a-0464-43db-b253-ed1878937b74",
-        "title": "Thinking Machines 开源 26.4B 循环模型 Inkling 2 Mini"
+        "title": "Thinking Machines 开源循环模型 Inkling 2 Mini"
       },
-      "observed_at": "2026-11-23T03:44:43.813407Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     },
     {
       "item": {
@@ -24,16 +24,16 @@
         "digest": null,
         "latest_at": "2026-11-22T12:07:56.000Z",
         "original_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Ars Technica：AI（RSS）",
-        "signal_count": 6,
+        "signal_count": 9,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.news/story/2d0a9c1a-2a0a-41b6-a7ef-776ef03a783b",
         "title": "200万诱饵请求测出AI服务链数据外泄"
       },
-      "observed_at": "2026-11-23T03:44:43.813407Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     },
     {
       "item": {
@@ -74,51 +74,68 @@
         "aihot_story_id": "5e931c88-3e7c-4f18-be7f-6c6902aa59b2",
         "digest": "蚂蚁百灵发布开源权重医疗混合专家模型 LingSante-3.1-flash，总参数 560B、每 token 激活约 25B，权重以 MIT 许可在 Hugging Face 开放。蚂蚁百灵称，该模型以 Ling-3.1-flash 为通用底座，统一多项医疗能力并保留通用能力，覆盖复杂医疗推理、长程工作流执行和专业行为对齐；采用 Hybrid-linear MoE 架构（63 层 KDA 与 9 层 Gated MLA，512 个路由专家加 1 个共享专家），支持最长 1M 上下文。\n\n随后 inclusionAI 发布基于该模型的混合 MXFP4 量化版本 LingSante-3.1-flash-MXFP4，上下文窗口为 262,144 token，同样采用 MIT 许可。蚂蚁百灵称，开发者可通过官方入口下载 FP8 及 MXFP4 版本，或经蚂蚁集团数字科技大模型服务平台在线试用、API 接入。inclusionAI 声明该模型不是医疗器械，不得作为诊断、处方或治疗的独立依据。",
         "latest_at": "2026-11-23T03:00:00.000Z",
-        "original_url": "https://x.com/AntLingAGI/status/2124523916819648945",
-        "rank": 7,
+        "original_url": "https://developer.ant-ling.com/zh-CN/blogs/lingsante-3.1-flash",
+        "rank": 9,
         "recovered": false,
-        "representative_source": "X：蚂蚁百灵 (@AntLingAGI)",
-        "signal_count": 3,
-        "source_count": 4,
+        "representative_source": "蚂蚁百灵：Developer Blog（网页）",
+        "signal_count": 6,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/5e931c88-3e7c-4f18-be7f-6c6902aa59b2",
         "title": "蚂蚁开源560B医疗MoE模型LingSante-3.1-flash"
       },
-      "observed_at": "2026-11-23T03:44:43.813407Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     },
     {
       "item": {
         "aihot_story_id": "647b0945-9244-4f55-b509-0f3fa0f6fe51",
-        "digest": "Anthropic 数学家莱文特·阿尔波格于 2026 年 11 月 20 日宣称，他与 AI 模型 Claude 合作证明了黎曼猜想，并称该方法可推广至广义黎曼猜想。他没有发表论文，只放出约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后发表声明，确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为不会接受有缺陷的证明。\n\n此前 The Verge 报道称该证明尚未经独立验证，Anthropic 也未就阿尔波格的宣布置评。菲尔兹奖得主詹姆斯·梅纳德表示相信证明正确，依据是它已通过 Lean 形式化验证并经独立核实；但他同时称，证明需被理解才可能获得认可。\n\n关于功劳归属仍有分歧：阿尔波格称 Claude 在最后阶段远超自己并提出关键步骤，Gary Marcus 则强调这不是 AI 独立完成，而是数学家数月深度协作的成果。陶哲轩此前曾表示现有 AI 无法攻克该问题。",
-        "latest_at": "2026-11-22T18:37:02.000Z",
+        "digest": "Anthropic 数学家莱文特·阿尔波格 2026 年 11 月 20 日宣称与 Claude 合作证明了黎曼猜想，并称方法可推广至广义黎曼猜想；他没有发表论文，只放出约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后发表声明确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为不会接受有缺陷的证明。\n\n此前 The Verge 报道称该证明尚未经独立验证，Anthropic 未就阿尔波格的宣布置评。菲尔兹奖得主詹姆斯·梅纳德表示相信证明正确，依据是它已通过 Lean 形式化验证并经独立核实；但他同时称，证明需被理解才可能获得认可。\n\n关于功劳归属仍有分歧：阿尔波格称 Claude 在最后阶段远超自己并提出关键步骤，Gary Marcus 则强调这不是 AI 独立完成，而是数学家数月深度协作的成果。陶哲轩此前曾表示现有 AI 无法攻克该问题。",
+        "latest_at": "2026-11-23T13:59:36.000Z",
         "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
         "rank": 1,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 49,
-        "source_count": 6,
+        "signal_count": 45,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
         "title": "Lean 社区确认阿尔波格黎曼猜想证明正确"
       },
-      "observed_at": "2026-11-23T03:44:43.813407Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "68ccf963-6e38-4e86-b2f3-289bd70774fb",
+        "digest": "NVIDIA 董事会已恢复黄仁勋（Jensen Huang）总裁、CEO 兼董事会董事职务。indigo 引用 NVIDIA 新闻室公告发布了这一消息，但未说明董事会此前罢免他的理由，也未提及继任者遴选是否终止。\n\n此前，董事会曾接触 Arm CEO Rene Haas 作为接替黄仁勋的可能人选（FT 报道），Haas 只是多位候选人之一。员工方面，数百人签署内部公开信要求董事会辞职并恢复黄仁勋职务，信中称若要求未获满足，员工可能转投 SpaceX 与 Terafab；投资者 Brad Gerstner 和 Gavin Baker 则致信董事会，敦促不要急于替换黄仁勋。\n\n关于罢免原因，The Decoder 援引 WSJ 报道称，这更多源于黄仁勋主导的高风险业务，而非私生活传闻：NVIDIA 向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。",
+        "latest_at": "2026-11-23T14:12:44.000Z",
+        "original_url": "https://x.com/thexpin/status/2121156882064937448",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "X：X.PIN (@thexpin)",
+        "signal_count": 19,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/68ccf963-6e38-4e86-b2f3-289bd70774fb",
+        "title": "NVIDIA董事会恢复黄仁勋CEO职务"
+      },
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     },
     {
       "item": {
         "aihot_story_id": "7a64c34c-2019-47e0-9ceb-2faff7425307",
-        "digest": "蚂蚁集团发布并开源了多模态医疗大模型 LingSante-3.1-air-VL，称这是其首个多模态医疗大模型。模型基于 Ling-3.0-flash-VL 构建，总参数 124B、激活参数 5.5B，上下文窗口最高 256K token，权重已在 Hugging Face 和 ModelScope 开放，同时开放 API 接入。\n\n据蚂蚁百灵介绍，该模型能力覆盖医学影像理解、报告生成、医疗推理，以及多模态搜索和工具调用；Rohan Paul 的报道称其可生成胸片报告。蚂蚁百灵邀请用户用真实医疗图片、报告与业务场景测试其实际表现，但未公布测试结果。\n\n在阿福医疗健康生态大会上，蚂蚁进一步宣布蚂蚁百灵医疗健康大模型家族全面开源，家族含大语言模型、实时音视频模型、预测模型和安全防护模型，其中医生专业个人版多模态模型为 124B、医疗机构版医疗智能体大模型为 562B；官方称最轻量版一台笔记本即可部署，并称疾病种类、准确率超越全球多个专用模型。上述性能说法来自蚂蚁方面，尚未见独立验证。",
+        "digest": "蚂蚁集团发布并开源了多模态医疗大模型 LingSante-3.1-air-VL，称这是其首个开源的多模态医疗大模型。模型基于 Ling-3.0-flash-VL 构建，总参数 124B、激活参数 5.5B，上下文窗口最高 256K token，权重已在 Hugging Face 和 ModelScope 开放，同时开放 API 接入。\n\n据蚂蚁百灵介绍，该模型能力覆盖医学影像理解、报告生成、医疗推理，以及多模态搜索和工具调用；Rohan Paul 的报道称其可生成胸片报告。蚂蚁百灵邀请用户用真实医疗图片、报告与业务场景测试其实际表现，但未公布测试结果。\n\n在阿福医疗健康生态大会上，蚂蚁进一步宣布蚂蚁百灵医疗健康大模型家族全面开源，家族含大语言模型、实时音视频模型、预测模型和安全防护模型，其中医生专业个人版多模态模型为 124B、医疗机构版医疗智能体大模型为 562B；官方称最轻量版一台笔记本即可部署，并称疾病种类、准确率超越全球多个专用模型。上述性能说法来自蚂蚁方面，尚未见独立验证。",
         "latest_at": "2026-11-23T03:00:00.000Z",
-        "original_url": "https://x.com/rohanpaul_ai/status/2124615279108137021",
-        "rank": 6,
+        "original_url": "https://developer.ant-ling.com/zh-CN/blogs/lingsante-3.1-air-vl",
+        "rank": 8,
         "recovered": false,
-        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 3,
-        "source_count": 4,
+        "representative_source": "蚂蚁百灵：Developer Blog（网页）",
+        "signal_count": 7,
+        "source_count": 5,
         "status": "active",
         "story_url": "https://aihot.news/story/7a64c34c-2019-47e0-9ceb-2faff7425307",
-        "title": "蚂蚁开源医疗多模态模型 LingSante-3.1-air-VL"
+        "title": "蚂蚁开源首个多模态医疗大模型 LingSante-3.1-air-VL"
       },
-      "observed_at": "2026-11-23T03:44:43.813407Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     },
     {
       "item": {
@@ -174,36 +191,36 @@
     {
       "item": {
         "aihot_story_id": "c5ab5cf5-6316-4ad6-9d74-f0b378a2b064",
-        "digest": "OpenAI 首席科学家 Jakub Pachocki 发表《Perplexity and Intelligence》，提议把困惑度（交叉熵损失）作为跨模型开发者的共享比较指标，并据此设立共同安全上限：超过门槛的进展须以人类理解 AI 行为的能力为前提。OpenAI 同时公开预训练 log-perplexity 走势图，覆盖 GPT-3.5 到 GPT-6.2 Astra 的 base model，并标注一个 internal model 点位。\n\nCEO Sam Altman 表态支持，称 OpenAI 正在大幅公开预训练进展，希望各方就共同限制达成一致；他还提议前沿模型开发者共同建立评估模型、红线测试安全案例的行业规范，包括共享透明度标准，并以困惑度等测量设定开发者承诺不逾越的共同上限，直到理解与监控 AI 行为的能力达到具体里程碑（如 CoT 监控器的后继技术）。首席研究官 Mark Chen 呼吁前沿实验室披露追踪进展的关键指标，并提出困惑度作为候选标准。\n\n微软 AI CEO Mustafa Suleyman 表示完全支持该倡议，并公布 MAI-2 Base 在 OpenAI 评测集上的 log-perplexity 为 0.819，与 GPT-5.6 Sol base 相当；他称两者使用同一 tokenizer 因而可直接比较，且微软能访问 OpenAI 评测集属于特殊情况。Dan Hendrycks 引用该文及公开曲线估算，自 GPT-4 以来预训练计算效率平均每年提升约 3–5 倍，大部分增益来自最近一年。上述内容目前仍是 OpenAI 方面的提议，尚未成为行业或公司的既定规则。",
+        "digest": null,
         "latest_at": "2026-11-23T01:00:23.127Z",
         "original_url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 23,
+        "signal_count": 31,
         "source_count": 7,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/c5ab5cf5-6316-4ad6-9d74-f0b378a2b064",
         "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据"
       },
-      "observed_at": "2026-11-23T03:44:43.813407Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     },
     {
       "item": {
         "aihot_story_id": "d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
-        "digest": null,
+        "digest": "英伟达董事会11月12日宣布，联合创始人、总裁兼CEO黄仁勋即刻辞去CEO及董事职务，结束33年执掌；自2013年起任CFO的Colette Kress出任临时CEO，前Synopsys CEO Harvey Jones成为公司首位董事长，董事会已启动内外部继任者遴选。\n\n辞职源于其婚外情风波：黄仁勋此前向员工承认与客户Megaspeed高管Alice Huang的关系，美国情报界认为后者涉外国情报活动；《纽约时报》随后报道他与一名直接下属存在第二段婚外情，路透社又披露第三段。董事会一度称无理由认为公司机密受损并启动独立调查，据《华尔街日报》报道，董事会此后接近决定罢免他。\n\n消息公布后英伟达股价大跌，有报道称市值蒸发约1.4万亿美元。Alice Huang被指牵涉将受出口限制的英伟达芯片转运至中国买家的网络，相关交易金额报道不一（70亿至75亿美元）；新加坡政府否认曾就她展开调查。美国国会已要求英伟达作出解释，众议院中国特设委员会主席Moolenaar称其被解职是“本可避免的不幸结局”。",
         "latest_at": "2026-11-22T00:47:52.000Z",
         "original_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-        "rank": 8,
+        "rank": 5,
         "recovered": false,
         "representative_source": "NVIDIA：Newsroom（RSS）",
-        "signal_count": 7,
+        "signal_count": 12,
         "source_count": 1,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.news/story/d01448e7-e6ef-4224-9e13-5f4b350dd6ed",
         "title": "黄仁勋因婚外情风波辞任英伟达CEO，CFO临时接任"
       },
-      "observed_at": "2026-11-22T16:21:05.814906Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     },
     {
       "item": {
@@ -224,20 +241,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "fc5a905b-54af-4de4-9c7c-a366a60a9f84",
+        "digest": "智谱发布旗舰模型 GLM-5.4，并已向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder 等编码平台；用户将模型名设置为 glm-5.4 即可使用。智谱称，这是其首个采用 Loop Transformer 架构的旗舰模型，在 GLM-5 基座模型上让 28 层共享权重循环执行两轮，在参数量不变的情况下获得更深推理，智能水平达到 2-3T 级模型效果。\n\n该模型新增视觉能力，模型列表标注“1M”和“视觉”。智谱称其能力从传统编程延伸至视频、游戏、3D 着色器与 CAD 建模。Coding Plan V2、V3 及团队版用户使用 GLM-5.4 的额度提升至 1.5 倍。\n\n智谱称，API 将在完成安全评估后开放，模型权重计划以负责任的方式开源。",
+        "latest_at": "2026-11-23T10:27:11.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "公众号：智谱（GLM）",
+        "signal_count": 27,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/fc5a905b-54af-4de4-9c7c-a366a60a9f84",
+        "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan"
+      },
+      "observed_at": "2026-11-23T14:49:44.171521Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3",
-        "digest": "特斯拉 FSD v15 将于下个月开始推送。马斯克转发更新说明称，v15 升级了端到端驾驶网络的各部分，包括与 Robotaxi 和 Optimus 共享的视觉编码器，将关键干预率提升 25 倍；官方还称体验更丝滑，并支持实时街景渲染。这些安全与体验说法目前没有验证数据。\n\n马斯克介绍，v15 中特斯拉 AI 计算机会像电子游戏一样，用天空中的箭头重新渲染现实来指示转弯，用户可点击“现实重现器”上的任意一点让车辆驶向该处。更新说明还列出导航、泊车选择、驾驶员监测、障碍物检测、坑洼与积水规避及 Autoshift 换挡等改进。\n\n据作者 Dash 引用马斯克的解释，新版 FSD 显示画面由车机端约 1B 的条件 mean-flow diffusion 模型实时生成，而非传统 3D 渲染；该模型基于 Universal Vision Encoder 特征，每秒 18 帧时用半个 TRIP 引擎算力生成 8 帧 36fps 的视频块，当前延迟偏高，但已有可削减约 35% 延迟的方案。",
+        "digest": null,
         "latest_at": "2026-11-22T23:40:36.000Z",
         "original_url": "https://x.com/indigox/status/2124264257273643371",
-        "rank": 4,
+        "rank": 6,
         "recovered": false,
         "representative_source": "X：indigo (@indigox)",
-        "signal_count": 16,
+        "signal_count": 17,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/fcbdc9a0-bdf5-473c-9f26-7a51a8deb2e3",
         "title": "特斯拉FSD v15下月推送，马斯克介绍天空箭头导航"
       },
-      "observed_at": "2026-11-23T03:44:43.813407Z"
+      "observed_at": "2026-11-23T14:49:44.171521Z"
     }
   ],
   "version": 1
