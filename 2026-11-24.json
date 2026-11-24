@@ -37,37 +37,71 @@
     },
     {
       "item": {
+        "aihot_story_id": "50791fe9-0b68-466e-8922-3219704de57a",
+        "digest": "豆包官方宣布，AI个人助理“小豆”正式开启公测，采用邀请制开放：用户凭邀请码即可体验，并获得一定量免费额度。\n\n小豆以对话方式交互，在用户授权范围内协助处理日常事务，覆盖信息查询、日程待办、生活服务、购物售后、健康提醒和办公辅助六类能力。豆包方面称，相关能力未来将逐步在豆包App上线。",
+        "latest_at": "2026-11-24T03:06:48.833Z",
+        "original_url": "https://www.ithome.com/1/031/329.htm",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "IT之家·人工智能",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/50791fe9-0b68-466e-8922-3219704de57a",
+        "title": "豆包AI个人助理“小豆”开启邀请制公测"
+      },
+      "observed_at": "2026-11-24T12:39:32.567396Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "51379310-d375-40d8-88e1-a8112bca2c10",
-        "digest": "亚马逊已同意以约75亿美元收购以色列AI初创公司Decart的大部分业务，包括其Decart Optimization Stack（DOS）优化技术、创始团队及AI研究与工程团队。亚马逊已宣布这一收购并邀请Decart联合创始人及员工加入，但未披露财务条款；75亿美元金额来自彭博社援引知情人士的说法。\n\n此前《金融时报》报道称双方处于深入谈判阶段，交易最早可能在本周初达成，但仍存在破裂风险。DOS是一款软件引擎，可提升AI系统运行速度，并支持在英伟达、谷歌、亚马逊等厂商的AI芯片间切换；Decart已获得亚马逊Trainium3芯片的早期访问权限，亚马逊称该芯片运行其实时视频模型的速度比GPU快4倍、成本减半。\n\n75亿美元对价接近Decart最新一轮40亿美元估值的两倍，具体交割安排尚未披露。",
+        "digest": null,
         "latest_at": "2026-11-24T00:13:49.970Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2124294348712092061",
         "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 16,
+        "signal_count": 21,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/51379310-d375-40d8-88e1-a8112bca2c10",
         "title": "亚马逊75亿美元收购Decart大部分业务"
       },
-      "observed_at": "2026-11-24T02:16:19.882570Z"
+      "observed_at": "2026-11-24T12:39:32.567396Z"
     },
     {
       "item": {
         "aihot_story_id": "647b0945-9244-4f55-b509-0f3fa0f6fe51",
-        "digest": null,
+        "digest": "Anthropic 数学家莱文特·阿尔波格 2026 年 11 月 20 日宣称与 Claude 合作证明了黎曼猜想，并称方法可推广至广义黎曼猜想；他没有发表论文，只放出约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后发表声明确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为不会接受有缺陷的证明。\n\n此前 The Verge 报道称该证明尚未经独立验证，Anthropic 未就阿尔波格的宣布置评。菲尔兹奖得主詹姆斯·梅纳德表示相信证明正确，依据是它已通过 Lean 形式化验证并经独立核实；但他同时称，证明需被理解才可能获得认可。\n\n关于功劳归属仍有分歧：阿尔波格称 Claude 在最后阶段远超自己并提出关键步骤，Gary Marcus 则强调这不是 AI 独立完成，而是数学家数月深度协作的成果。陶哲轩此前曾表示现有 AI 无法攻克该问题。",
         "latest_at": "2026-11-23T13:59:36.000Z",
         "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
         "rank": 4,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 32,
-        "source_count": 3,
-        "status": null,
+        "signal_count": 30,
+        "source_count": 2,
+        "status": "active",
         "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
         "title": "Lean 社区确认阿尔波格黎曼猜想证明正确"
       },
-      "observed_at": "2026-11-24T02:16:19.882570Z"
+      "observed_at": "2026-11-24T12:39:32.567396Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "68abb2b5-1d0f-4c37-8ad9-72fcbc771eef",
+        "digest": "OpenAI与Cisco联合推出开源Linux运行时Shirudo，基于eBPF生成可密码签名验证的shield，在服务不重启的情况下拦截漏洞利用，为防御方争取测试和部署补丁的时间。项目以BSD 2-Clause许可开源，其BPF程序为BSD与GPL双许可。\n\nOpenAI称，在受控测试中，用Codex生成的shield为运行中的Elasticsearch的Java Base64解码器加入输入检查，成功拦下Java4Shell攻击。两家公司称这是迈向自防御基础设施的第一步，目标是让防御者与AI Agent协作定位受影响系统、测试共享shield并在不干扰工作负载的情况下部署。上述防护效果来自两家公司的说法，尚未见独立验证。",
+        "latest_at": "2026-11-24T08:15:44.000Z",
+        "original_url": "https://x.com/thsottiaux/status/2125141302501417232",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 15,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/68abb2b5-1d0f-4c37-8ad9-72fcbc771eef",
+        "title": "OpenAI与Cisco开源Shirudo：eBPF护住补丁窗口"
+      },
+      "observed_at": "2026-11-24T12:39:32.567396Z"
     },
     {
       "item": {
@@ -78,30 +112,30 @@
         "rank": 1,
         "recovered": false,
         "representative_source": "X：X.PIN (@thexpin)",
-        "signal_count": 108,
+        "signal_count": 117,
         "source_count": 6,
         "status": "active",
         "story_url": "https://aihot.news/story/68ccf963-6e38-4e86-b2f3-289bd70774fb",
         "title": "英伟达董事会全票恢复黄仁勋职务"
       },
-      "observed_at": "2026-11-24T02:16:19.882570Z"
+      "observed_at": "2026-11-24T12:39:32.567396Z"
     },
     {
       "item": {
         "aihot_story_id": "9474636b-5271-405b-91d7-b469bdf1aa8f",
-        "digest": "Anthropic 发布 Claude Ship 测试版，让 Claude 审查 pull request、推送修复，并按团队写进仓库的策略文件决定能否批准合并。产品由已正式可用的 Code Review 和处于 beta 的 PR Steward、Claude Approvals 两个智能体组成：PR Steward 处理失败的 CI 检查、合并冲突和审查反馈并留言说明改动；Claude Approvals 依据仓库中的 .claude/approvals.yml 策略批准常规改动，可配置通过人数和路径规则。\n\nClaude Ship 面向 Claude Team 和 Enterprise 客户、支持 GitHub 仓库，不适用于启用零数据保留、HIPAA 配置或客户自管密钥的组织。符合条件的 Claude Enterprise 组织可申领至少 1 万美元额度，须在申领后 30 天内使用，申领截止 2027 年 1 月 15 日。Team 或 Enterprise 管理员可按 GitHub repo 为整个仓库开启，团队 PR 无需 /ship 即可自动运行；Claude Code 的 /ship 命令正在 CLI 和桌面应用中逐步开放，任何人可使用。费用按 token 计费，随 PR 数量、审查深度和 PR Steward 投入的工作量变化。合并仍由用户的权限和分支规则决定。\n\nAnthropic 建议团队先以观察模式运行审批功能，在不实际执行审批的情况下观察其判断结果，也可先在单个仓库启用并设置每月支出上限。Boris Cherny 称，这些功能成倍提升了他的开发速度，无需等待 code review 或盯着 PR，结果也更好。Claude Devs 提示 Claude Ship 使用 AI，可能遗漏 bug 或安全问题。",
-        "latest_at": "2026-11-24T00:02:39.000Z",
+        "digest": "Anthropic 发布 Claude Ship 测试版，让 Claude 审查 pull request、处理修复，并按团队策略批准可合并的改动。它由三部分组成：Code Review 已正式可用，PR Steward 和 Claude Approvals 两个智能体处于 beta；前者处理失败的 CI 检查、合并冲突和审查反馈，后者在政策允许时批准常规改动。\n\nClaude Ship 面向 Claude Team 和 Enterprise 计划、GitHub 仓库开放，不适用于启用 Zero Data Retention、HIPAA 配置或客户自管密钥的组织。管理员可按仓库开启，团队 PR 无需运行 /ship 即可自动运行；审批策略以仓库中的 .claude/approvals.yml 配置。Anthropic 建议先以 observe 模式运行审批，并称符合条件的 Enterprise 组织可在 2027 年 1 月 15 日前申领至少 1 万美元额度，费用按 token 计。The Decoder 称 PR Steward 默认没有支出上限，团队需自行设置预算。\n\nClaude Code 同时推出 /ship 命令，正在 CLI 和桌面应用中逐步开放，任何人都可使用。合并最终仍由用户权限和分支规则决定；Claude Ship 使用 AI，可能遗漏 bug 或安全问题。",
+        "latest_at": "2026-11-24T11:26:23.000Z",
         "original_url": "https://claude.com/blog/introducing-claude-ship",
-        "rank": 6,
+        "rank": 3,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 9,
-        "source_count": 6,
+        "signal_count": 23,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.news/story/9474636b-5271-405b-91d7-b469bdf1aa8f",
         "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR"
       },
-      "observed_at": "2026-11-24T02:16:19.882570Z"
+      "observed_at": "2026-11-24T12:39:32.567396Z"
     },
     {
       "item": {
@@ -109,33 +143,33 @@
         "digest": "美国商务部已将新加坡芯片采购商 Megaspeed 列入实体清单，禁止美国供应商在无许可证情况下向其及海外关联公司出售半导体等受控技术。此前数月，国务院、财政部、国防部等机构已同意列名，但负责发布规则的商务部一直搁置；财政部长贝森特曾就此质问商务部长卢特尼克，白宫官员也被曝在权衡是否撤换卢特尼克。\n\n背景是这家英伟达前主要客户被指将受限芯片转运至中国客户在东南亚的数据中心。美国商务部 2024 年启动出口调查，英伟达于 2025 年 6 月停止供货并将其列入禁售名单；商务部和司法部随后发布联合声明称刑事调查由司法部牵头，未指英伟达违规。由于英伟达已断供，此次列名主要封堵其他美国供应商的服务器销售及对关联公司销售等间接渠道。Megaspeed 否认存在不当行为。",
         "latest_at": "2026-11-23T21:48:25.000Z",
         "original_url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
-        "rank": 10,
+        "rank": 9,
         "recovered": false,
         "representative_source": "TechCrunch：AI（RSS）",
-        "signal_count": 7,
+        "signal_count": 12,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.news/story/b8056250-7988-49be-a8a0-4c9425a3b63c",
         "title": "美国商务部将新加坡Megaspeed列入实体清单"
       },
-      "observed_at": "2026-11-24T02:16:19.882570Z"
+      "observed_at": "2026-11-24T12:39:32.567396Z"
     },
     {
       "item": {
         "aihot_story_id": "c5ab5cf5-6316-4ad6-9d74-f0b378a2b064",
-        "digest": "OpenAI 首席科学家 Jakub Pachocki 发表《Perplexity and Intelligence》，提议把困惑度（交叉熵损失）作为跨模型开发者的共享比较指标，并据此设立共同安全上限：超过门槛的进展须以人类理解 AI 行为的能力为前提。OpenAI 同时公开预训练 log-perplexity 走势图，覆盖 GPT-3.5 到 GPT-6.2 Astra 的 base model，并标注一个 internal model 点位。\n\nCEO Sam Altman 表态支持，称 OpenAI 正在大幅公开预训练进展，希望各方就共同限制达成一致；他还提议前沿模型开发者共同建立评估模型、红线测试安全案例的行业规范，包括共享透明度标准，并以困惑度等测量设定开发者承诺不逾越的共同上限，直到理解与监控 AI 行为的能力达到具体里程碑（如 CoT 监控器的后继技术）。首席研究官 Mark Chen 呼吁前沿实验室披露追踪进展的关键指标，并提出困惑度作为候选标准。\n\n微软 AI CEO Mustafa Suleyman 表示完全支持该倡议，并公布 MAI-2 Base 在 OpenAI 评测集上的 log-perplexity 为 0.819，与 GPT-5.6 Sol base 相当；他称两者使用同一 tokenizer 因而可直接比较，且微软能访问 OpenAI 评测集属于特殊情况。Dan Hendrycks 引用该文及公开曲线估算，自 GPT-4 以来预训练计算效率平均每年提升约 3–5 倍，大部分增益来自最近一年。上述内容目前仍是 OpenAI 方面的提议，尚未成为行业或公司的既定规则。",
+        "digest": null,
         "latest_at": "2026-11-23T18:42:38.000Z",
         "original_url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
-        "rank": 3,
+        "rank": 6,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 32,
+        "signal_count": 33,
         "source_count": 8,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/c5ab5cf5-6316-4ad6-9d74-f0b378a2b064",
         "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据"
       },
-      "observed_at": "2026-11-24T02:16:19.882570Z"
+      "observed_at": "2026-11-24T12:39:32.567396Z"
     },
     {
       "item": {
@@ -156,20 +190,37 @@
     },
     {
       "item": {
+        "aihot_story_id": "ee282aa9-469a-4555-8fbb-d171abad1e4d",
+        "digest": "OpenAI 在 ChatGPT 的 Chat 标签页推出面向日常对话优化的 GPT-6.2 Sol，向 Plus、Pro、Business 和 Enterprise 用户开放。The Decoder 称此次为全球推送；Enterprise 管理员可决定其用户是否获得 GPT-6.2 访问权限。IT之家称，该模型此前已在 ChatGPT Work 和 Codex 上线不到一周，GPT-5.6 Sol 与 GPT-5.6 Terra 将于 12 月 23 日分别从 ChatGPT 聊天页面及 ChatGPT Work、Codex 退役。\n\nOpenAI 称，该版本更擅长处理复杂请求，尤其是用户给出详细指令或要求联网查信息时；图片可识别标签文字、标识符号等细节，比较选项时能按价格、位置等偏好收窄范围。转发该消息的 Tibo 称答案质量会有明显提升，年底前应用体验还会更快、更简洁；Greg Brockman 转发时称“it's a great model”。\n\n据 The Decoder 报道，OpenAI 给出的对比数据显示，该版本图像理解得分 71.7%，GPT-6 为 47.4%；困难指令遵循 78.1% 对 62.5%；专家级任务基准在全部四个推理级别上领先，约为 65% 至 71% 以上对 52% 至 66%。这些为官方说法，报道未独立验证。",
+        "latest_at": "2026-11-24T07:42:05.000Z",
+        "original_url": "https://x.com/thsottiaux/status/2124998553856844186",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "X：Tibo (@thsottiaux)",
+        "signal_count": 11,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/ee282aa9-469a-4555-8fbb-d171abad1e4d",
+        "title": "OpenAI在Chat标签页推送GPT-6.2 Sol对话版"
+      },
+      "observed_at": "2026-11-24T12:39:32.567396Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "fc5a905b-54af-4de4-9c7c-a366a60a9f84",
-        "digest": "智谱发布旗舰模型 GLM-5.4，并已向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder 等编码平台；用户将模型名设置为 glm-5.4 即可使用。智谱称，这是其首个采用 Loop Transformer 架构的旗舰模型，在 GLM-5 基座模型上让 28 层共享权重循环执行两轮，在参数量不变的情况下获得更深推理，智能水平达到 2-3T 级模型效果。The Decoder 与 MarkTechPost 报道称该模型参数量为 750B。\n\n该模型新增视觉能力，模型列表标注“1M”和“视觉”。智谱称其能力从传统编程延伸至视频、游戏、3D 着色器与 CAD 建模。Coding Plan V2、V3 及团队版用户使用 GLM-5.4 的额度提升至 1.5 倍。\n\n智谱称，API 将在完成安全评估后开放，模型权重计划以负责任的方式开源；The Decoder 称 token 定价尚未公布。MarkTechPost 称目前仅由 Z.ai 托管，自托管硬件要求待权重发布后才会披露。Simon Willison 实测后称，GLM-5.4 目前尚未以开放权重形式提供，且无法通过常规 API 访问，他需订阅 Coding Plan 才能使用。",
+        "digest": null,
         "latest_at": "2026-11-23T23:40:49.000Z",
         "original_url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
         "rank": 2,
         "recovered": false,
         "representative_source": "公众号：智谱（GLM）",
-        "signal_count": 36,
+        "signal_count": 46,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/fc5a905b-54af-4de4-9c7c-a366a60a9f84",
         "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan"
       },
-      "observed_at": "2026-11-24T02:16:19.882570Z"
+      "observed_at": "2026-11-24T12:39:32.567396Z"
     }
   ],
   "version": 1
