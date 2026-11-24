@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-24",
+  "items": [
+    {
+      "item": {
+        "aihot_story_id": "0cf0f02a-0464-43db-b253-ed1878937b74",
+        "digest": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，采用循环 Transformer 架构：24 层中中间 12 层对每个 token 循环运行三次，首尾各六层只运行一次。模型总参数 26.4B，以 Apache 2.0 许可在 Hugging Face 发布完整权重及可变循环研究版本，并上线 Tinker 供推理和微调。\n\n官方称其可在 32GB 以上内存的 Mac 本地运行，也可在 NVIDIA DGX Spark 上运行；vLLM 提供 Day-0 支持，Ollama 预发布版可一条命令运行，Unsloth 称 1-bit 量化仅需 9GB 内存，并称其 GGUF 本地推理提速约 1.9 倍、在 RTX Pro 6000 上达 125 tokens/s 且无精度损失。评测方面，Artificial Analysis 智能指数得 20 分，ARC Prize 公布 ARC-AGI-2 得分 49.3%、每任务 $0.14，ARC-AGI-1 得分 84.5%、每任务 $0.06；Arena 称其进入 Agent Arena Index，在开源模型中排第 18（996 分）、美国开放权重模型中排第 3。\n\n循环架构引发可监控性担忧，Thinking Machines 称研究发现多次循环下 no-CoT 能力上升、思维链变短但仍可读，可监测性没有明显下降，并同步开源可变循环研究模型供外部实验；NDIF 已托管该模型及变体，提供白盒访问。各来源对激活参数表述不一，有 3B、3.4B、5.4B 三种说法。",
+        "latest_at": "2026-11-23T21:39:25.000Z",
+        "original_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "Thinking Machines Lab：News（网页）",
+        "signal_count": 19,
+        "source_count": 3,
+        "status": "active",
+        "story_url": "https://aihot.news/story/0cf0f02a-0464-43db-b253-ed1878937b74",
+        "title": "Thinking Machines 开源循环模型 Inkling 2 Mini"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "2d0a9c1a-2a0a-41b6-a7ef-776ef03a783b",
+        "digest": "安全公司 Dragos 首席研究官 HD Moore 在 2026 年 7 月至 11 月间，经 OpenRouter 等 AI 路由向多家服务商发送近 200 万条带可追踪诱饵和假凭证的请求，发现提示词被窃、转售商外传数据、隐私设置未被执行。部分凭证被外部人员用于尝试访问受控测试系统和 AWS 测试账户，表明提示词已流出预期处理范围；部分标记“零数据保留”（ZDR）的请求，其私密网址数日后仍被抓取。\n\nOpenRouter 回应称未发现自身被入侵，问题出在部分推理提供商数据泄露或数据政策未被执行。OpenRouter 已清退 Together AI、Phala 和 Novita 三家服务商，撤销 125 个端点的 ZDR 资格并通知可能受影响的客户；被移出的端点须提供适当保证并通过验证，才能恢复 ZDR 资格。\n\nMoore 建议敏感业务本地部署或直接选择可信服务商；Dragos 还建议企业控制 AI 请求的路由方式、检查隐私设置并植入自有的金丝雀令牌。",
+        "latest_at": "2026-11-24T01:23:02.687Z",
+        "original_url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "Ars Technica：AI（RSS）",
+        "signal_count": 11,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/2d0a9c1a-2a0a-41b6-a7ef-776ef03a783b",
+        "title": "200万诱饵请求测出AI服务链数据外泄"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "51379310-d375-40d8-88e1-a8112bca2c10",
+        "digest": "亚马逊已同意以约75亿美元收购以色列AI初创公司Decart的大部分业务，包括其Decart Optimization Stack（DOS）优化技术、创始团队及AI研究与工程团队。亚马逊已宣布这一收购并邀请Decart联合创始人及员工加入，但未披露财务条款；75亿美元金额来自彭博社援引知情人士的说法。\n\n此前《金融时报》报道称双方处于深入谈判阶段，交易最早可能在本周初达成，但仍存在破裂风险。DOS是一款软件引擎，可提升AI系统运行速度，并支持在英伟达、谷歌、亚马逊等厂商的AI芯片间切换；Decart已获得亚马逊Trainium3芯片的早期访问权限，亚马逊称该芯片运行其实时视频模型的速度比GPU快4倍、成本减半。\n\n75亿美元对价接近Decart最新一轮40亿美元估值的两倍，具体交割安排尚未披露。",
+        "latest_at": "2026-11-24T00:13:49.970Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2124294348712092061",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 16,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/51379310-d375-40d8-88e1-a8112bca2c10",
+        "title": "亚马逊75亿美元收购Decart大部分业务"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "647b0945-9244-4f55-b509-0f3fa0f6fe51",
+        "digest": null,
+        "latest_at": "2026-11-23T13:59:36.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
+        "rank": 4,
+        "recovered": false,
+        "representative_source": "公众号：数字生命卡兹克",
+        "signal_count": 32,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
+        "title": "Lean 社区确认阿尔波格黎曼猜想证明正确"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "68ccf963-6e38-4e86-b2f3-289bd70774fb",
+        "digest": "英伟达董事会11月23日一致投票，即刻恢复黄仁勋的总裁、CEO及董事职务，距其辞职不到两周。董事会称，在咨询美国政府高层后认定黄仁勋回归不构成国家安全风险，并称后续会谈确认了他的坦率；临时CEO Colette Kress继续担任CFO。消息公布后股价盘初大涨约30%至31%。\n\n黄仁勋辞职期间，数百名员工签署内部信要求董事会辞职并恢复其职务，投资人Brad Gerstner和Gavin Baker致信董事会呼吁保留其回归选项，请愿网站显示逾20万人签名。FT曾报道董事会接触Arm CEO Rene Haas作为潜在继任人选；董事长Harvey Jones在复职前不到一周还表示无意让其回归。\n\n针对黄仁勋成为境外情报行动目标的独立董事调查将继续进行，公司另设国家安全与出口管制委员会并招聘首席合规官；The Verge称美国证券交易委员会也在审查英伟达的会计操作。WSJ曾报道，黄仁勋被罢免更多源于公司高风险业务，而非私生活。",
+        "latest_at": "2026-11-23T20:46:15.000Z",
+        "original_url": "https://x.com/thexpin/status/2124866686025400819",
+        "rank": 1,
+        "recovered": false,
+        "representative_source": "X：X.PIN (@thexpin)",
+        "signal_count": 108,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.news/story/68ccf963-6e38-4e86-b2f3-289bd70774fb",
+        "title": "英伟达董事会全票恢复黄仁勋职务"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9474636b-5271-405b-91d7-b469bdf1aa8f",
+        "digest": "Anthropic 发布 Claude Ship 测试版，让 Claude 审查 pull request、推送修复，并按团队写进仓库的策略文件决定能否批准合并。产品由已正式可用的 Code Review 和处于 beta 的 PR Steward、Claude Approvals 两个智能体组成：PR Steward 处理失败的 CI 检查、合并冲突和审查反馈并留言说明改动；Claude Approvals 依据仓库中的 .claude/approvals.yml 策略批准常规改动，可配置通过人数和路径规则。\n\nClaude Ship 面向 Claude Team 和 Enterprise 客户、支持 GitHub 仓库，不适用于启用零数据保留、HIPAA 配置或客户自管密钥的组织。符合条件的 Claude Enterprise 组织可申领至少 1 万美元额度，须在申领后 30 天内使用，申领截止 2027 年 1 月 15 日。Team 或 Enterprise 管理员可按 GitHub repo 为整个仓库开启，团队 PR 无需 /ship 即可自动运行；Claude Code 的 /ship 命令正在 CLI 和桌面应用中逐步开放，任何人可使用。费用按 token 计费，随 PR 数量、审查深度和 PR Steward 投入的工作量变化。合并仍由用户的权限和分支规则决定。\n\nAnthropic 建议团队先以观察模式运行审批功能，在不实际执行审批的情况下观察其判断结果，也可先在单个仓库启用并设置每月支出上限。Boris Cherny 称，这些功能成倍提升了他的开发速度，无需等待 code review 或盯着 PR，结果也更好。Claude Devs 提示 Claude Ship 使用 AI，可能遗漏 bug 或安全问题。",
+        "latest_at": "2026-11-24T00:02:39.000Z",
+        "original_url": "https://claude.com/blog/introducing-claude-ship",
+        "rank": 6,
+        "recovered": false,
+        "representative_source": "Claude：Blog（网页）",
+        "signal_count": 9,
+        "source_count": 6,
+        "status": "active",
+        "story_url": "https://aihot.news/story/9474636b-5271-405b-91d7-b469bdf1aa8f",
+        "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "b8056250-7988-49be-a8a0-4c9425a3b63c",
+        "digest": "美国商务部已将新加坡芯片采购商 Megaspeed 列入实体清单，禁止美国供应商在无许可证情况下向其及海外关联公司出售半导体等受控技术。此前数月，国务院、财政部、国防部等机构已同意列名，但负责发布规则的商务部一直搁置；财政部长贝森特曾就此质问商务部长卢特尼克，白宫官员也被曝在权衡是否撤换卢特尼克。\n\n背景是这家英伟达前主要客户被指将受限芯片转运至中国客户在东南亚的数据中心。美国商务部 2024 年启动出口调查，英伟达于 2025 年 6 月停止供货并将其列入禁售名单；商务部和司法部随后发布联合声明称刑事调查由司法部牵头，未指英伟达违规。由于英伟达已断供，此次列名主要封堵其他美国供应商的服务器销售及对关联公司销售等间接渠道。Megaspeed 否认存在不当行为。",
+        "latest_at": "2026-11-23T21:48:25.000Z",
+        "original_url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 7,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/b8056250-7988-49be-a8a0-4c9425a3b63c",
+        "title": "美国商务部将新加坡Megaspeed列入实体清单"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "c5ab5cf5-6316-4ad6-9d74-f0b378a2b064",
+        "digest": "OpenAI 首席科学家 Jakub Pachocki 发表《Perplexity and Intelligence》，提议把困惑度（交叉熵损失）作为跨模型开发者的共享比较指标，并据此设立共同安全上限：超过门槛的进展须以人类理解 AI 行为的能力为前提。OpenAI 同时公开预训练 log-perplexity 走势图，覆盖 GPT-3.5 到 GPT-6.2 Astra 的 base model，并标注一个 internal model 点位。\n\nCEO Sam Altman 表态支持，称 OpenAI 正在大幅公开预训练进展，希望各方就共同限制达成一致；他还提议前沿模型开发者共同建立评估模型、红线测试安全案例的行业规范，包括共享透明度标准，并以困惑度等测量设定开发者承诺不逾越的共同上限，直到理解与监控 AI 行为的能力达到具体里程碑（如 CoT 监控器的后继技术）。首席研究官 Mark Chen 呼吁前沿实验室披露追踪进展的关键指标，并提出困惑度作为候选标准。\n\n微软 AI CEO Mustafa Suleyman 表示完全支持该倡议，并公布 MAI-2 Base 在 OpenAI 评测集上的 log-perplexity 为 0.819，与 GPT-5.6 Sol base 相当；他称两者使用同一 tokenizer 因而可直接比较，且微软能访问 OpenAI 评测集属于特殊情况。Dan Hendrycks 引用该文及公开曲线估算，自 GPT-4 以来预训练计算效率平均每年提升约 3–5 倍，大部分增益来自最近一年。上述内容目前仍是 OpenAI 方面的提议，尚未成为行业或公司的既定规则。",
+        "latest_at": "2026-11-23T18:42:38.000Z",
+        "original_url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+        "rank": 3,
+        "recovered": false,
+        "representative_source": "The Decoder：AI News（RSS）",
+        "signal_count": 32,
+        "source_count": 8,
+        "status": "active",
+        "story_url": "https://aihot.news/story/c5ab5cf5-6316-4ad6-9d74-f0b378a2b064",
+        "title": "OpenAI 提议以困惑度设共同安全上限，微软公布可比数据"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "e04baccb-6e1d-4072-8167-8272457c90d1",
+        "digest": null,
+        "latest_at": "2026-11-23T15:04:01.000Z",
+        "original_url": "https://techcrunch.com/2026/11/23/trump-endorses-jensen-huangs-return-to-nvidia-says-us-has-no-evidence-of-wrongdoing/",
+        "rank": 8,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 10,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/e04baccb-6e1d-4072-8167-8272457c90d1",
+        "title": "特朗普公开支持黄仁勋回归英伟达"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "fc5a905b-54af-4de4-9c7c-a366a60a9f84",
+        "digest": "智谱发布旗舰模型 GLM-5.4，并已向 GLM Coding Plan 全量用户开放，同步上线 ZCode、Trae、WorkBuddy、Qoder 等编码平台；用户将模型名设置为 glm-5.4 即可使用。智谱称，这是其首个采用 Loop Transformer 架构的旗舰模型，在 GLM-5 基座模型上让 28 层共享权重循环执行两轮，在参数量不变的情况下获得更深推理，智能水平达到 2-3T 级模型效果。The Decoder 与 MarkTechPost 报道称该模型参数量为 750B。\n\n该模型新增视觉能力，模型列表标注“1M”和“视觉”。智谱称其能力从传统编程延伸至视频、游戏、3D 着色器与 CAD 建模。Coding Plan V2、V3 及团队版用户使用 GLM-5.4 的额度提升至 1.5 倍。\n\n智谱称，API 将在完成安全评估后开放，模型权重计划以负责任的方式开源；The Decoder 称 token 定价尚未公布。MarkTechPost 称目前仅由 Z.ai 托管，自托管硬件要求待权重发布后才会披露。Simon Willison 实测后称，GLM-5.4 目前尚未以开放权重形式提供，且无法通过常规 API 访问，他需订阅 Coding Plan 才能使用。",
+        "latest_at": "2026-11-23T23:40:49.000Z",
+        "original_url": "https://mp.weixin.qq.com/s/D-IZr-QaT1or_chminK8IQ",
+        "rank": 2,
+        "recovered": false,
+        "representative_source": "公众号：智谱（GLM）",
+        "signal_count": 36,
+        "source_count": 5,
+        "status": "active",
+        "story_url": "https://aihot.news/story/fc5a905b-54af-4de4-9c7c-a366a60a9f84",
+        "title": "智谱发布GLM-5.4旗舰模型并上线Coding Plan"
+      },
+      "observed_at": "2026-11-24T02:16:19.882570Z"
+    }
+  ],
+  "version": 1
+}
