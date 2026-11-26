@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "349e4eb0-98c5-4d3d-8ae9-549f9eb0a7f1",
-        "digest": "音乐流媒体平台 Tidal 宣布，将从 12 月 9 日起封禁并下架完全由 AI 生成的曲目，成为首个全面封禁 AI 音乐的流媒体平台。Tidal 负责人 Robert Anderson 称，过去 90 天分发的曲目中 43% 被检测为 AI 生成，96% 的 AI 歌曲播放量为零。\n\n关于清理规模，各报道说法不一：TechCrunch 称到年底将删除超过 2900 万首，Ars Technica 则称将删除 2700 万首、占其曲库 6.3%。新规生效后，Tidal 预计每天拒绝约 8 万至 8.5 万首投稿，并使用 Ircam Amplify 检测工具和元数据核查来拦截纯 AI 投稿。\n\nTidal 表示仍接受 AI 辅助创作的作品，前提是 AI 不构成“唯一输出”、最终成品含人类创作元素。作为对比，Deezer 提供过滤开关，Spotify 和 YouTube Music 仅对 AI 内容打标签。",
+        "digest": null,
         "latest_at": "2026-11-24T22:41:34.377Z",
         "original_url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "The Verge：AI（RSS）",
-        "signal_count": 14,
+        "signal_count": 15,
         "source_count": 5,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/349e4eb0-98c5-4d3d-8ae9-549f9eb0a7f1",
         "title": "Tidal将于12月9日起下架纯AI生成音乐"
       },
-      "observed_at": "2026-11-25T17:21:10.484262Z"
+      "observed_at": "2026-11-26T01:48:49.606553Z"
     },
     {
       "item": {
@@ -24,16 +24,16 @@
         "digest": null,
         "latest_at": "2026-11-24T16:06:27.000Z",
         "original_url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
-        "rank": 9,
+        "rank": 10,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 17,
+        "signal_count": 18,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/352fff72-a318-46a8-9820-a84e33ea566a",
         "title": "OpenAI与Anthropic员工警告内部模型难安全发布"
       },
-      "observed_at": "2026-11-25T17:21:10.484262Z"
+      "observed_at": "2026-11-26T01:48:49.606553Z"
     },
     {
       "item": {
@@ -41,33 +41,33 @@
         "digest": null,
         "latest_at": "2026-11-25T00:56:27.000Z",
         "original_url": "https://claude.com/blog/install-as-app",
-        "rank": 3,
+        "rank": 1,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 21,
+        "signal_count": 24,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/3e6c5690-bc7f-4ed5-b970-1fd6b1c2edac",
         "title": "Claude artifacts 可安装为 Mac 和 Windows 桌面应用"
       },
-      "observed_at": "2026-11-25T17:21:10.484262Z"
+      "observed_at": "2026-11-26T01:48:49.606553Z"
     },
     {
       "item": {
         "aihot_story_id": "647b0945-9244-4f55-b509-0f3fa0f6fe51",
-        "digest": null,
-        "latest_at": "2026-11-24T21:43:33.000Z",
+        "digest": "Anthropic 数学家莱文特·阿尔波格 2026 年 11 月 20 日宣称与 Claude 合作证明了黎曼猜想，并称方法可推广至广义黎曼猜想。他没有发表论文，只公开了约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后发表声明确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为不会接受有缺陷的证明。\n\n阿尔波格本人在《Stupid things I did》中坚持证明在数学上有效，但承认发布过程有多处失误：关于工作长度的说法只是玩笑；未清理就公开的代码虽通过形式化验证，却充满冗余步骤、难以阅读；他还指出编译成功本身不能证明代码陈述的是正确定理且没有隐藏假设。\n\n功劳归属仍有分歧。阿尔波格称 Claude 在最后阶段远超自己并提出关键步骤；Gary Marcus 则强调这不是 AI 独立完成，而是数学家数月深度协作的成果。菲尔兹奖得主詹姆斯·梅纳德表示相信证明正确，依据是它已通过 Lean 形式化验证并经独立核实，但他同时称，证明需被理解才可能获得认可。",
+        "latest_at": "2026-11-25T18:41:16.000Z",
         "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
-        "rank": 7,
+        "rank": 3,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 26,
-        "source_count": 3,
-        "status": null,
+        "signal_count": 25,
+        "source_count": 4,
+        "status": "active",
         "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
         "title": "Lean 社区确认阿尔波格黎曼猜想证明正确"
       },
-      "observed_at": "2026-11-25T17:21:10.484262Z"
+      "observed_at": "2026-11-26T01:48:49.606553Z"
     },
     {
       "item": {
@@ -105,11 +105,28 @@
     },
     {
       "item": {
+        "aihot_story_id": "81de20a5-02a9-44a4-bc64-da0b8b916ab5",
+        "digest": null,
+        "latest_at": "2026-11-24T22:44:58.033Z",
+        "original_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+        "signal_count": 15,
+        "source_count": 3,
+        "status": null,
+        "story_url": "https://aihot.news/story/81de20a5-02a9-44a4-bc64-da0b8b916ab5",
+        "title": "OpenAI公布GPT-6.2蛋白质设计湿实验验证结果"
+      },
+      "observed_at": "2026-11-26T01:48:49.606553Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "digest": null,
         "latest_at": "2026-11-25T03:29:13.877Z",
         "original_url": "https://www.anthropic.com/news/s1-sec",
-        "rank": 2,
+        "rank": 4,
         "recovered": false,
         "representative_source": "Anthropic：Newsroom（网页）",
         "signal_count": 24,
@@ -118,41 +135,75 @@
         "story_url": "https://aihot.news/story/82c796c0-3bf1-4c3a-8368-56913b4bf85d",
         "title": "Anthropic 上市首日涨 17%，一周内跌破发行价"
       },
-      "observed_at": "2026-11-25T17:21:10.484262Z"
+      "observed_at": "2026-11-26T01:48:49.606553Z"
     },
     {
       "item": {
         "aihot_story_id": "9474636b-5271-405b-91d7-b469bdf1aa8f",
-        "digest": "Anthropic 发布 Claude Ship 测试版，让 Claude 审查 pull request、处理修复，并按团队策略批准可合并的改动。它由三部分组成：Code Review 已正式可用，PR Steward 和 Claude Approvals 两个智能体处于 beta；前者处理失败的 CI 检查、合并冲突和审查反馈，后者在政策允许时批准常规改动。\n\nClaude Ship 面向 Claude Team 和 Enterprise 计划、GitHub 仓库开放，不适用于启用 Zero Data Retention、HIPAA 配置或客户自管密钥的组织。管理员可按仓库开启，团队 PR 无需运行 /ship 即可自动运行；审批策略以仓库中的 .claude/approvals.yml 配置。Anthropic 建议先以 observe 模式运行审批，并称符合条件的 Enterprise 组织可在 2027 年 1 月 15 日前申领至少 1 万美元额度，费用按 token 计。The Decoder 称 PR Steward 默认没有支出上限，团队需自行设置预算。\n\nClaude Code 同时推出 /ship 命令，正在 CLI 和桌面应用中逐步开放，任何人都可使用。合并最终仍由用户权限和分支规则决定；Claude Ship 使用 AI，可能遗漏 bug 或安全问题。",
+        "digest": null,
         "latest_at": "2026-11-25T07:30:08.000Z",
         "original_url": "https://claude.com/blog/introducing-claude-ship",
-        "rank": 4,
+        "rank": 8,
         "recovered": false,
         "representative_source": "Claude：Blog（网页）",
-        "signal_count": 33,
-        "source_count": 7,
-        "status": "active",
+        "signal_count": 25,
+        "source_count": 2,
+        "status": null,
         "story_url": "https://aihot.news/story/9474636b-5271-405b-91d7-b469bdf1aa8f",
         "title": "Anthropic 发布 Claude Ship 测试版，自动审查并批准 PR"
       },
-      "observed_at": "2026-11-25T17:21:10.484262Z"
+      "observed_at": "2026-11-26T01:48:49.606553Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "99a822a0-0b83-4aff-8f65-02c408205578",
+        "digest": "Meta 首席 AI 科学家杨立昆在 X 发文，指责 Anthropic CEO 达里奥·阿莫迪自 GPT-2 发布以来一直炒作 AI 危险性，目的是推动开源模型被列为非法、让自己掌握控制权；他还称阿莫迪离开 OpenAI 只是因为在那里无法掌握控制权，并将这种做法比作奥斯曼帝国禁止阿拉伯语印刷机。上述说法均出自杨立昆本人。\n\n阿莫迪随后在 X 发长文回应，否认自己主张把人类自由意志交给 AI，称这一指控荒谬，并重申人类应保留最终决策权、AI 须受合法民主程序治理。他同时区分治理之争与任务自动化之争，并提议以递归自我改进（RSI）作为划线点。\n\n阿莫迪的回应针对 Axios 一篇援引知情人士、涉及 Anthropic 内部讨论的报道。他称政治决策应留在人类手中，并认为反对比拒绝独裁更强。这些均为阿莫迪本人的说法。",
+        "latest_at": "2026-11-25T20:15:50.000Z",
+        "original_url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+        "rank": 5,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 11,
+        "source_count": 4,
+        "status": "active",
+        "story_url": "https://aihot.news/story/99a822a0-0b83-4aff-8f65-02c408205578",
+        "title": "杨立昆指阿莫迪炒作AI危险论，阿莫迪否认"
+      },
+      "observed_at": "2026-11-26T01:48:49.606553Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "9dbfd26c-982c-409f-9e94-a22a3bde77ed",
+        "digest": "美国联邦通信委员会（FCC）批准SpaceX在“Starmind”计划下部署至多100万颗搭载AI芯片的卫星，这是该机构首次批准完整的AI卫星星座。\n\n批准附带部署时间表：SpaceX须在2033年前部署至少一颗卫星，并在2040年达到100万颗的里程碑。FCC同时搁置了SpaceX的一项请求——将600公里以上轨道的卫星送入“坟墓轨道”处置，而非让其在地球大气层中烧毁；FCC称其处置方案信息不足。",
+        "latest_at": "2026-11-25T17:44:51.000Z",
+        "original_url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "The Verge：AI（RSS）",
+        "signal_count": 11,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/9dbfd26c-982c-409f-9e94-a22a3bde77ed",
+        "title": "FCC批准SpaceX部署百万颗AI卫星"
+      },
+      "observed_at": "2026-11-26T01:48:49.606553Z"
     },
     {
       "item": {
         "aihot_story_id": "c241df7c-8594-4077-8325-8fb43645c8ae",
-        "digest": "Sand.ai（三呆科技）发布视频生成模型 MAGI-2，总参数量从 114B 扩至 480B、激活参数 28B，支持单次生成 4–30 秒视频、最多 20 份素材输入和 2 万字符提示词，并已完成海光、摩尔线程等国产芯片适配。API 即日起开放申请，首批优先战略合作客户；个人创作者可通过 LibTV 体验。\n\nHiggsfield 称 MAGI-2 独家上线其平台和 API，支持最长 30 秒、1080p 带声视频，定价每秒 0.08 美元，并公布其在自家 Video Arena 排名第 2、得分 1146、整体胜率 60.5%，盲测对 Seedance 2.0、Wan 3.0、Kling 4.0 胜率分别为 71%、79%、83%。Higgsfield 还称一个 400B 参数的开源权重视频模型即将推出，未说明时间与获取方式。\n\n公众号“数字生命卡兹克”作者实测称 MAGI-2 质量接近 Seedance 2.3、音频偏弱，1080P 下每秒 0.5 元、约为 Seedance 2.5 的 1/10；该文称模型已独家上线 LibTV、Sand.ai 称后续将开源。公众号“卡尔的AI沃茨”则称 MAGI-2 在 C 端独家于 LibTV 内测、价格为每秒 0.05 元。480B 参数与 IT之家一致，但价格、上线渠道与 Higgsfield 的说法不一致，实测评价属作者个人判断。",
-        "latest_at": "2026-11-25T13:54:00.000Z",
+        "digest": "Sand.ai（三呆科技）发布视频生成模型 MAGI-2，总参数量从 114B 扩至 480B、激活参数 28B，支持单次生成 4–30 秒视频、最多 20 份素材输入和 2 万字符提示词，并已完成海光、摩尔线程等国产芯片适配。API 即日起开放申请，首批优先战略合作客户；个人创作者可通过 LibTV 体验。\n\nHiggsfield 称 MAGI-2 独家上线其平台和 API，支持最长 30 秒、1080p 带声视频，定价每秒 0.08 美元；后续又称可免费试用，并可通过 Higgsfield MCP 使用。Higgsfield 公布其在自家 Video Arena 排名第 2、得分 1146、整体胜率 60.5%，盲测对 Seedance 2.0、Wan 3.0、Kling 4.0 胜率分别为 71%、79%、83%。Higgsfield 还称一个 400B 参数的开源权重视频模型即将推出，未说明时间与获取方式。\n\n公众号“数字生命卡兹克”作者实测称 MAGI-2 质量接近 Seedance 2.3、音频偏弱，1080P 下每秒 0.5 元、约为 Seedance 2.5 的 1/10；该文称模型已独家上线 LibTV、Sand.ai 称后续将开源。公众号“卡尔的AI沃茨”则称 MAGI-2 在 C 端独家于 LibTV 内测、价格为每秒 0.05 元。Artificial Analysis 称 MAGI-2 在其 AA-Video-I2V v2.1 图生视频榜排名第一、与 Dreamina Seedance 2.5 统计打平，文本生视频榜第 7。480B 参数与 IT之家一致，但价格、上线渠道与 Higgsfield 的说法不一致，实测评价属作者个人判断。",
+        "latest_at": "2026-11-26T01:13:12.000Z",
         "original_url": "https://mp.weixin.qq.com/s/JkZM9s6tC_Wz5MKeYcccxw",
-        "rank": 5,
+        "rank": 2,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 14,
-        "source_count": 6,
+        "signal_count": 16,
+        "source_count": 7,
         "status": "active",
         "story_url": "https://aihot.news/story/c241df7c-8594-4077-8325-8fb43645c8ae",
         "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一"
       },
-      "observed_at": "2026-11-25T17:21:10.484262Z"
+      "observed_at": "2026-11-26T01:48:49.606553Z"
     },
     {
       "item": {
