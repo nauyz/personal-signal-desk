@@ -4,19 +4,36 @@
     {
       "item": {
         "aihot_story_id": "03ddd2b0-2237-47fa-a85c-8b3981cde081",
-        "digest": "据英国《金融时报》报道，SAP 正考虑在 AI 驱动的重组中裁员至少 1 万人，约占其岗位总数的十分之一。这一裁员计划出现在公司业绩增长期：第三季度总营收增长 13% 至约 113 亿美元，非 IFRS 营业利润增长 18% 至约 33 亿美元，云销售增长 26% 至约 73 亿美元。\n\n目前裁员仍处于考虑阶段，SAP 尚未公布具体方案或时间表。",
+        "digest": null,
         "latest_at": "2026-11-26T19:53:13.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2126041605144739986",
-        "rank": 10,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 8,
+        "signal_count": 12,
         "source_count": 1,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/03ddd2b0-2237-47fa-a85c-8b3981cde081",
         "title": "SAP拟在AI重组中裁员至少1万人"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "1f457523-63e7-48f2-9c9c-1871165c4fb0",
+        "digest": "蚂蚁集团具身智能公司 Robbyant（蚂蚁灵波）发布 LingBot-Map 2.0，在 4 月发布的 1.0 基础上新增 Refine 能力：模型从连续单目 RGB 视频中逐帧估计相机运动、重建三维场景，并可在运行中途修正已累积的漂移。该修正由 Geometric Context Reconsolidation（GCR）驱动，完全依靠模型推理，无需外部优化后端。据 Rohan Paul 的报道，Streaming 版本的代码与权重已开放获取。\n\n蚂蚁灵波随后开源导航模型 LingBot-Navi，它基于 LingBot-Map 2.0 可跨任务复用的 3D 空间记忆，让机器人按自然语言指令寻找目标、规划路径并导航至附近停靠点。据 Rohan Paul 的报道，多数视觉语言导航模型每次任务都从零开始，而 Navi 无需预先地图，探索时构建包含布局、物体位置和可行路径的 3D 记忆，将 3D 表面位置与视觉语言特征配对，可定位窗外桌子等视线外目标；模型在任务间复用记忆，减少重复搜索，使机器人越熟悉场景导航越快。",
+        "latest_at": "2026-11-26T21:05:18.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2126019340525056182",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 7,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/1f457523-63e7-48f2-9c9c-1871165c4fb0",
+        "title": "蚂蚁灵波发布 LingBot-Map 2.0 并开源导航模型 LingBot-Navi"
+      },
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
@@ -38,36 +55,36 @@
     {
       "item": {
         "aihot_story_id": "647b0945-9244-4f55-b509-0f3fa0f6fe51",
-        "digest": null,
+        "digest": "Anthropic 数学家莱文特·阿尔波格 2026 年 11 月 20 日宣称与 Claude 合作证明了黎曼猜想及广义黎曼猜想，未发表论文，只公开约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后发表声明确认该证明正确：数十人独立运行得到相同结果，验证程序被设计为不会接受有缺陷的证明。\n\n阿尔波格本人在《Stupid things I did》中坚持证明在数学上有效，但承认发布过程有多处失误：关于工作长度的说法只是玩笑；未清理就公开的代码虽通过形式化验证，却充满冗余步骤、难以阅读；他还指出编译成功本身不能证明代码陈述的是正确定理且没有隐藏假设。Anthropic 研究员 Luke Sernau 与同事及 Claude 随后发布 grh-lean 项目，将 1740 万行证明重写为约 7.6 万行紧凑版和约 30 万行可读版。\n\n功劳归属仍有分歧。阿尔波格称 Claude 在最后阶段远超自己并提出关键步骤；Gary Marcus 则强调这不是 AI 独立完成，而是数学家数月深度协作的成果。菲尔兹奖得主詹姆斯·梅纳德表示相信证明正确，依据是它已通过 Lean 形式化验证并经独立核实，但他同时称，证明需被理解才可能获得认可。",
         "latest_at": "2026-11-26T03:01:11.990Z",
         "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
-        "rank": 5,
+        "rank": 7,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 17,
+        "signal_count": 15,
         "source_count": 2,
-        "status": null,
+        "status": "active",
         "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
         "title": "Lean 社区确认阿尔波格黎曼猜想证明正确"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
         "aihot_story_id": "86e2fa50-91df-43e8-ab8a-6948255ec46f",
-        "digest": "据 FT 与 WSJ 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴，暂停向马来西亚、新加坡、泰国和印尼发运服务器，以评估当地伙伴是否符合美国出口要求；TechCrunch 引述 WSJ 称暂停为无限期。此举针对的是美国商务部本月生效的临时规定：向上述四国及巴西出口先进 AI 芯片需申请许可。\n\n背景是中国企业此前通过这四国的数据中心远程租用 Nvidia 算力，绕开直接出口禁令。Institute for Progress 估算，这类远程数据中心约供给中国 24% 的 AI 算力。\n\n云厂商现有 90 天时间申请许可，并证明其用户中不含受限实体，但目前无人说明具体如何申请。Nvidia 2025 年经新加坡部门入账 1040 亿美元，同比增长 72%。",
-        "latest_at": "2026-11-26T20:03:54.000Z",
+        "digest": "Nvidia 已通知 Dell、Supermicro 等制造伙伴，暂停向马来西亚、新加坡、泰国和印尼发运服务器，以评估当地伙伴是否符合美国出口要求。TechCrunch 引述 WSJ 称暂停为无限期。此举针对美国商务部本月生效的临时规定：向上述四国及巴西出口先进 AI 芯片需申请许可。\n\n背景是中国企业此前通过这四国的数据中心远程租用 Nvidia 算力，绕开直接出口禁令。Institute for Progress 估算，这类远程数据中心约供给中国 24% 的 AI 算力。\n\n据 FT 报道，新规已于上周四生效，数百个亚洲数据中心项目因此面临许可审查、融资延迟和更长的尽职调查。云厂商须在 90 天内取得批准，并证明其用户中不含受限实体，但目前无人说明具体如何申请。Nvidia 2025 年经新加坡部门入账 1040 亿美元，同比增长 72%。",
+        "latest_at": "2026-11-27T07:07:27.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2125847124600656142",
-        "rank": 2,
+        "rank": 1,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 21,
+        "signal_count": 26,
         "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.news/story/86e2fa50-91df-43e8-ab8a-6948255ec46f",
         "title": "Nvidia 暂停向东南亚四国发运服务器"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
@@ -75,16 +92,16 @@
         "digest": null,
         "latest_at": "2026-11-25T20:15:50.000Z",
         "original_url": "https://x.com/elonmusk/status/2125669066388209784",
-        "rank": 6,
+        "rank": 8,
         "recovered": false,
         "representative_source": "X：Elon Musk (@elonmusk, xAI)",
-        "signal_count": 17,
+        "signal_count": 16,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/99a822a0-0b83-4aff-8f65-02c408205578",
         "title": "杨立昆指阿莫迪炒作AI危险论，阿莫迪否认"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
@@ -92,16 +109,16 @@
         "digest": null,
         "latest_at": "2026-11-26T13:41:07.000Z",
         "original_url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
-        "rank": 1,
+        "rank": 2,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 29,
+        "signal_count": 30,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.news/story/9dbfd26c-982c-409f-9e94-a22a3bde77ed",
         "title": "FCC批准SpaceX部署百万颗AI卫星"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
@@ -146,13 +163,13 @@
         "rank": 4,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 23,
-        "source_count": 6,
+        "signal_count": 18,
+        "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/c241df7c-8594-4077-8325-8fb43645c8ae",
         "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
@@ -160,33 +177,33 @@
         "digest": null,
         "latest_at": "2026-11-26T17:04:31.000Z",
         "original_url": "https://www.anthropic.com/research/migrating-api-to-rust",
-        "rank": 8,
+        "rank": 6,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 16,
+        "signal_count": 18,
         "source_count": 3,
         "status": null,
         "story_url": "https://aihot.news/story/c38b8a26-309e-4ed2-841e-c4821cf589fe",
         "title": "Anthropic 将 Claude Messages API 从 Python 迁至 Rust"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
         "aihot_story_id": "cc2d9727-4547-44f7-b2fe-f16bdbf84b42",
-        "digest": "OpenAI承认GPT-6.2上线时计费出错，多数用户的GPT-6.2 Astra和Sol用量被错误打折，现已修复。修复后完成同样任务会消耗更多套餐额度：Codex工程师Thibault Sottiaux称，Astra达到用量上限的速度比上周快40%，Sol快25%，但仍比GPT-6 Astra和6.1 Sol更耐用。\n\nOpenAI表示，不会就历史用量差额向用户补收费，其他模型不受影响。作为补偿，Go、Plus、Pro、Business用户各获得一次banked reset（可留存的一次额度重置），Sottiaux随后宣布该功能已上线。The Decoder另称，Business用户还可免费使用Fast Mode至年底。",
+        "digest": null,
         "latest_at": "2026-11-26T17:28:56.000Z",
         "original_url": "https://x.com/thsottiaux/status/2125784147889393806",
         "rank": 3,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 21,
+        "signal_count": 24,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/cc2d9727-4547-44f7-b2fe-f16bdbf84b42",
         "title": "OpenAI修复GPT-6.2计费错误并补偿用户"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     },
     {
       "item": {
@@ -194,16 +211,16 @@
         "digest": null,
         "latest_at": "2026-11-25T16:44:37.000Z",
         "original_url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-        "rank": 7,
+        "rank": 9,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 14,
+        "signal_count": 12,
         "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/fe966e0f-8db8-449a-9770-2a3a5c63c37d",
         "title": "亚马逊与Meta洽谈解封AI购物智能体Muse"
       },
-      "observed_at": "2026-11-27T02:56:04.057735Z"
+      "observed_at": "2026-11-27T12:39:36.376150Z"
     }
   ],
   "version": 1
