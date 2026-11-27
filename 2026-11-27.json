@@ -3,6 +3,23 @@
   "items": [
     {
       "item": {
+        "aihot_story_id": "03ddd2b0-2237-47fa-a85c-8b3981cde081",
+        "digest": "据英国《金融时报》报道，SAP 正考虑在 AI 驱动的重组中裁员至少 1 万人，约占其岗位总数的十分之一。这一裁员计划出现在公司业绩增长期：第三季度总营收增长 13% 至约 113 亿美元，非 IFRS 营业利润增长 18% 至约 33 亿美元，云销售增长 26% 至约 73 亿美元。\n\n目前裁员仍处于考虑阶段，SAP 尚未公布具体方案或时间表。",
+        "latest_at": "2026-11-26T19:53:13.000Z",
+        "original_url": "https://x.com/rohanpaul_ai/status/2126041605144739986",
+        "rank": 10,
+        "recovered": false,
+        "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
+        "signal_count": 8,
+        "source_count": 1,
+        "status": "active",
+        "story_url": "https://aihot.news/story/03ddd2b0-2237-47fa-a85c-8b3981cde081",
+        "title": "SAP拟在AI重组中裁员至少1万人"
+      },
+      "observed_at": "2026-11-27T02:56:04.057735Z"
+    },
+    {
+      "item": {
         "aihot_story_id": "3e6c5690-bc7f-4ed5-b970-1fd6b1c2edac",
         "digest": null,
         "latest_at": "2026-11-25T00:56:27.000Z",
@@ -24,33 +41,33 @@
         "digest": null,
         "latest_at": "2026-11-26T03:01:11.990Z",
         "original_url": "https://mp.weixin.qq.com/s/8Zi3nfwddzFy6cZsK2_KxA",
-        "rank": 7,
+        "rank": 5,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 15,
-        "source_count": 4,
+        "signal_count": 17,
+        "source_count": 2,
         "status": null,
         "story_url": "https://aihot.news/story/647b0945-9244-4f55-b509-0f3fa0f6fe51",
         "title": "Lean 社区确认阿尔波格黎曼猜想证明正确"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     },
     {
       "item": {
         "aihot_story_id": "86e2fa50-91df-43e8-ab8a-6948255ec46f",
-        "digest": "据 FT 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴，停止向马来西亚、新加坡、泰国和印尼发运服务器。此举是对美国商务部工业与安全局一项临时规定的回应：向上述四国及巴西出口先进 AI 芯片需申请许可。此前，中国 AI 实验室通过租用当地云厂商的 Nvidia 算力，绕开直接出口禁令。\n\n云厂商现有 90 天时间申请许可，并证明其用户中不含受限实体，但目前无人说明具体如何申请。\n\nNvidia 2025 年经新加坡部门入账 1040 亿美元，同比增长 72%。",
-        "latest_at": "2026-11-26T11:21:16.000Z",
+        "digest": "据 FT 与 WSJ 报道，Nvidia 已通知 Dell、Supermicro 等制造伙伴，暂停向马来西亚、新加坡、泰国和印尼发运服务器，以评估当地伙伴是否符合美国出口要求；TechCrunch 引述 WSJ 称暂停为无限期。此举针对的是美国商务部本月生效的临时规定：向上述四国及巴西出口先进 AI 芯片需申请许可。\n\n背景是中国企业此前通过这四国的数据中心远程租用 Nvidia 算力，绕开直接出口禁令。Institute for Progress 估算，这类远程数据中心约供给中国 24% 的 AI 算力。\n\n云厂商现有 90 天时间申请许可，并证明其用户中不含受限实体，但目前无人说明具体如何申请。Nvidia 2025 年经新加坡部门入账 1040 亿美元，同比增长 72%。",
+        "latest_at": "2026-11-26T20:03:54.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2125847124600656142",
-        "rank": 4,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 17,
-        "source_count": 2,
+        "signal_count": 21,
+        "source_count": 3,
         "status": "active",
         "story_url": "https://aihot.news/story/86e2fa50-91df-43e8-ab8a-6948255ec46f",
         "title": "Nvidia 暂停向东南亚四国发运服务器"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     },
     {
       "item": {
@@ -62,29 +79,46 @@
         "recovered": false,
         "representative_source": "X：Elon Musk (@elonmusk, xAI)",
         "signal_count": 17,
-        "source_count": 5,
+        "source_count": 4,
         "status": null,
         "story_url": "https://aihot.news/story/99a822a0-0b83-4aff-8f65-02c408205578",
         "title": "杨立昆指阿莫迪炒作AI危险论，阿莫迪否认"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     },
     {
       "item": {
         "aihot_story_id": "9dbfd26c-982c-409f-9e94-a22a3bde77ed",
-        "digest": "美国联邦通信委员会（FCC）批准SpaceX在“Starmind”计划下部署至多100万颗搭载AI芯片的卫星，用于在轨处理AI数据。这是FCC首次批准完整的AI卫星星座。\n\n批准附带部署时间表：SpaceX须在2033年前部署至少一颗卫星，并在2040年达到100万颗的里程碑。FCC同时批准了无线电链路，在光学连接失效时供SpaceX监控和控制这些卫星。\n\nFCC搁置了SpaceX的另一项请求：将600公里以上轨道的卫星送入“坟墓轨道”处置，而非让其在地球大气层中烧毁。FCC称其处置方案信息不足。",
+        "digest": null,
         "latest_at": "2026-11-26T13:41:07.000Z",
         "original_url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
         "rank": 1,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 28,
+        "signal_count": 29,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/9dbfd26c-982c-409f-9e94-a22a3bde77ed",
         "title": "FCC批准SpaceX部署百万颗AI卫星"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "a21a2e58-aa61-4c96-ae55-5ae8de400da5",
+        "digest": "纽约州长 Kathy Hochul 于当地时间 11 月 24 日签署法案，未来五年禁止在该州制造、分销和销售内置 AI 聊天机器人的玩具，成为继加州之后第二个实施此类禁令的州。禁令针对依赖联网与儿童互动的会说话毛绒玩具、玩偶和机器人。\n\n法律在签署后 90 天生效。TechCrunch 称违规每天罚款 15,000 美元；IT之家称对不遵守法案的玩具制造商处罚上限为每日 15,000 美元。\n\n支持者列举的案例包括 AI 聊天玩具输出不当或性相关对话，以及“如何找到刀具”等危险建议。",
+        "latest_at": "2026-11-25T23:07:43.263Z",
+        "original_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+        "rank": 9,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 12,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/a21a2e58-aa61-4c96-ae55-5ae8de400da5",
+        "title": "纽约州签署法案禁售AI聊天玩具五年"
+      },
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     },
     {
       "item": {
@@ -106,36 +140,36 @@
     {
       "item": {
         "aihot_story_id": "c241df7c-8594-4077-8325-8fb43645c8ae",
-        "digest": "Sand.ai（三呆科技）发布视频生成模型 MAGI-2，总参数量从 114B 扩至 480B、激活参数 28B，支持单次生成 4–30 秒视频、最多 20 份素材输入和 2 万字符提示词，并已完成海光、摩尔线程等国产芯片适配。API 即日起开放申请，首批优先战略合作客户；个人创作者可通过 LibTV 体验。\n\nHiggsfield 称 MAGI-2 独家上线其平台和 API，支持最长 30 秒、1080p 带声视频，定价每秒 0.08 美元；后续又称可免费试用，并可通过 Higgsfield MCP 使用。Higgsfield 公布其在自家 Video Arena 排名第 2、得分 1146、整体胜率 60.5%，盲测对 Seedance 2.0、Wan 3.0、Kling 4.0 胜率分别为 71%、79%、83%。Higgsfield 还称一个 400B 参数的开源权重视频模型即将推出，未说明时间与获取方式。\n\n公众号“数字生命卡兹克”作者实测称 MAGI-2 质量接近 Seedance 2.3、音频偏弱，1080P 下每秒 0.5 元、约为 Seedance 2.5 的 1/10；该文称模型已独家上线 LibTV、Sand.ai 称后续将开源。公众号“卡尔的AI沃茨”则称 MAGI-2 在 C 端独家于 LibTV 内测、价格为每秒 0.05 元。Artificial Analysis 称 MAGI-2 在其 AA-Video-I2V v2.1 图生视频榜排名第一、与 Dreamina Seedance 2.5 统计打平，文本生视频榜第 7。480B 参数与 IT之家一致，但价格、上线渠道与 Higgsfield 的说法不一致，实测评价属作者个人判断。",
+        "digest": null,
         "latest_at": "2026-11-26T17:11:25.000Z",
         "original_url": "https://mp.weixin.qq.com/s/JkZM9s6tC_Wz5MKeYcccxw",
-        "rank": 3,
+        "rank": 4,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 24,
-        "source_count": 7,
-        "status": "active",
+        "signal_count": 23,
+        "source_count": 6,
+        "status": null,
         "story_url": "https://aihot.news/story/c241df7c-8594-4077-8325-8fb43645c8ae",
         "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     },
     {
       "item": {
         "aihot_story_id": "c38b8a26-309e-4ed2-841e-c4821cf589fe",
-        "digest": "Anthropic 称已将 Claude Messages API 从 Python 迁移到 Rust，并把原有 Python 服务当作校验基准：用生产流量测试新版本，由多组 Claude 智能体追踪并修复两个版本之间的差异，直到 Rust 版本与生产环境的可观察行为一致。\n\n据 Anthropic 工程博客，该 API 流量从 2024 年初到 2026 年秋增长约 1800 倍；迁移后每请求 CPU 降低约 70%，首 token 中位时间缩短约 20%，期间未停服，也未冻结功能开发。上述效果数据均出自 Anthropic 自述。\n\nRohan Paul 的转述补充称，Claude 约一周写出 Rust 初稿，但让新版本行为与 Python 完全一致更难，验证环节才是主要工作量。",
+        "digest": null,
         "latest_at": "2026-11-26T17:04:31.000Z",
         "original_url": "https://www.anthropic.com/research/migrating-api-to-rust",
         "rank": 8,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 15,
+        "signal_count": 16,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/c38b8a26-309e-4ed2-841e-c4821cf589fe",
         "title": "Anthropic 将 Claude Messages API 从 Python 迁至 Rust"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     },
     {
       "item": {
@@ -143,33 +177,33 @@
         "digest": "OpenAI承认GPT-6.2上线时计费出错，多数用户的GPT-6.2 Astra和Sol用量被错误打折，现已修复。修复后完成同样任务会消耗更多套餐额度：Codex工程师Thibault Sottiaux称，Astra达到用量上限的速度比上周快40%，Sol快25%，但仍比GPT-6 Astra和6.1 Sol更耐用。\n\nOpenAI表示，不会就历史用量差额向用户补收费，其他模型不受影响。作为补偿，Go、Plus、Pro、Business用户各获得一次banked reset（可留存的一次额度重置），Sottiaux随后宣布该功能已上线。The Decoder另称，Business用户还可免费使用Fast Mode至年底。",
         "latest_at": "2026-11-26T17:28:56.000Z",
         "original_url": "https://x.com/thsottiaux/status/2125784147889393806",
-        "rank": 2,
+        "rank": 3,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 20,
+        "signal_count": 21,
         "source_count": 2,
         "status": "active",
         "story_url": "https://aihot.news/story/cc2d9727-4547-44f7-b2fe-f16bdbf84b42",
         "title": "OpenAI修复GPT-6.2计费错误并补偿用户"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     },
     {
       "item": {
         "aihot_story_id": "fe966e0f-8db8-449a-9770-2a3a5c63c37d",
-        "digest": "亚马逊与Meta正进行多轮谈判，可能允许Meta的AI购物智能体Muse直接接入亚马逊商城代用户购物，与此前封禁形成反转。据Fortune援引知情人士报道，谈判焦点是商品搜索结果的展示方式和广告处理；亚马逊担心第三方智能体冲击其广告收入、削弱与消费者的直接关系，协议还需两家公司CEO批准。两家公司均未回应TechCrunch的置评请求。\n\n此前亚马逊于9月阻止Muse代用户下单，并对所有外部智能体统一执行平台政策。亚马逊CEO安迪·贾西随后在Semafor大会上称，公司从未说过绝对不会向外部智能体开放，前提是能为消费者提供良好体验并实现公平的价值交换，而目前尚未达到这一条件。",
+        "digest": null,
         "latest_at": "2026-11-25T16:44:37.000Z",
         "original_url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-        "rank": 9,
+        "rank": 7,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 10,
+        "signal_count": 14,
         "source_count": 4,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/fe966e0f-8db8-449a-9770-2a3a5c63c37d",
         "title": "亚马逊与Meta洽谈解封AI购物智能体Muse"
       },
-      "observed_at": "2026-11-26T20:13:25.891355Z"
+      "observed_at": "2026-11-27T02:56:04.057735Z"
     }
   ],
   "version": 1
