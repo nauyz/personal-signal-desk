@@ -4,19 +4,19 @@
     {
       "item": {
         "aihot_story_id": "03ddd2b0-2237-47fa-a85c-8b3981cde081",
-        "digest": "SAP 正考虑在 AI 驱动的重组中裁减至少 1 万个岗位。据英国《金融时报》报道，这一规模约占其岗位总数的十分之一；彭博社援引知情人士称，裁员比例约为全球逾 11 万名员工的 9%，产品开发、工程和销售受影响最大。裁员仍处于考虑阶段，最终人数尚未确定，可能在与员工代表谈判后调整。\n\n这一计划出现在业绩增长期：SAP 第三季度总营收增长 13% 至约 113 亿美元，非 IFRS 营业利润增长 18% 至约 33 亿美元，云销售增长 26% 至约 73 亿美元。\n\n在德国，约四分之一员工享有至 2028 年的职位保障，这可能限制裁员在当地的落地范围。",
+        "digest": null,
         "latest_at": "2026-11-27T14:57:25.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2126041605144739986",
-        "rank": 4,
+        "rank": 5,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 16,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/03ddd2b0-2237-47fa-a85c-8b3981cde081",
         "title": "SAP拟AI重组裁员至少1万人，德国岗位保障至2028年"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
@@ -24,7 +24,7 @@
         "digest": null,
         "latest_at": "2026-11-26T21:05:18.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2126019340525056182",
-        "rank": 10,
+        "rank": 9,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 8,
@@ -33,24 +33,41 @@
         "story_url": "https://aihot.news/story/1f457523-63e7-48f2-9c9c-1871165c4fb0",
         "title": "蚂蚁灵波发布 LingBot-Map 2.0 并开源导航模型 LingBot-Navi"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
+    },
+    {
+      "item": {
+        "aihot_story_id": "5525eb2a-16ec-491d-bf45-89cf70e7966a",
+        "digest": "美国42个州的总检察长组成联盟，介入Character.AI的Chapter 11破产程序，试图阻止其拍卖用户私密聊天记录。联盟称，拟出售数据集包含超过2100万美国账户的聊天记录，其中逾210万属于未成年人，还涉及IP地址等信息，且交易未设保护措施。\n\n此前，41个州及哥伦比亚特区总检察长已对这笔交易提出质疑，要求保障儿童等用户数据安全。联盟指出，拟议协议未约束买方，买方无需遵守隐私政策、可自由出售数据；联盟要求法院驳回出售条款、拒绝该竞标者、禁止其收取35万美元分手费，并要求出售至少排除儿童聊天记录等敏感数据。\n\n目前唯一披露的竞拍方是2026年11月13日在特拉华州注册的Smirks and Pangs Acquisition LLC，其身份受到质疑。拍卖定于12月1日举行。",
+        "latest_at": "2026-11-27T09:51:35.000Z",
+        "original_url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+        "rank": 7,
+        "recovered": false,
+        "representative_source": "TechCrunch：AI（RSS）",
+        "signal_count": 8,
+        "source_count": 2,
+        "status": "active",
+        "story_url": "https://aihot.news/story/5525eb2a-16ec-491d-bf45-89cf70e7966a",
+        "title": "42州总检察长介入阻止Character.AI出售聊天记录"
+      },
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
         "aihot_story_id": "5c1b6a93-9dc8-488c-ac5b-1e6c7fe626f8",
-        "digest": "据路透社报道，黑客利用一个软件漏洞进入美国空军核心云基础设施 Cloud One 的控制面，可能暴露战术、人员和后勤方面的敏感数据。入侵在上月例行系统升级时被发现。\n\n美国空军已暂停新应用迁移、封锁更新并撤销管理员权限，美国网络司令部正在评估损失。后续报道称，攻击者身份、入侵深度及是否窃取数据尚不明确；封锁更新意味着新漏洞披露期间平台无法修补。\n\nCloud One 整合北美防空雷达并追踪超过 200 个空军基地的弹药。2023 年该平台领导层曾称对入侵尝试有 100% 防御成功率。",
+        "digest": null,
         "latest_at": "2026-11-27T18:48:45.000Z",
         "original_url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
-        "rank": 6,
+        "rank": 4,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 8,
+        "signal_count": 10,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/5c1b6a93-9dc8-488c-ac5b-1e6c7fe626f8",
         "title": "美空军 Cloud One 云平台遭黑客入侵控制面"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
@@ -72,36 +89,36 @@
     {
       "item": {
         "aihot_story_id": "840b7bfa-805e-41d3-b87e-0ba20fb08d69",
-        "digest": "OpenAI 在加州法院对苹果提起反诉，指控苹果窃取商业机密、实施不正当商业行为，并胁迫同时与两家公司合作的供应商。这起诉讼针对的是苹果今年 7 月提起的诉讼。\n\n诉状称，一名前 OpenAI 工程师在 OpenAI 任职约 6 个月期间自行带走供应商数据和一份 76 页的检验程序，回到苹果后向苹果亚太运营高层展示了 OpenAI 未发布的产品路线图。OpenAI 还称，苹果鼓励员工把公司数据存在个人设备上，再以此制约离职员工。上述指控均来自 OpenAI 的诉状，苹果方面尚未回应。",
+        "digest": null,
         "latest_at": "2026-11-27T21:31:29.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2126428722907812197",
-        "rank": 2,
+        "rank": 1,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
-        "signal_count": 10,
+        "signal_count": 12,
         "source_count": 2,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/840b7bfa-805e-41d3-b87e-0ba20fb08d69",
         "title": "OpenAI反诉苹果窃取商业机密并胁迫供应商"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
         "aihot_story_id": "86e2fa50-91df-43e8-ab8a-6948255ec46f",
-        "digest": "Nvidia 已通知 Dell、Supermicro 等制造伙伴，暂停向马来西亚、新加坡、泰国和印尼发运服务器，以评估当地伙伴是否符合美国出口要求。TechCrunch 引述 WSJ 称暂停为无限期。此举针对美国商务部本月生效的临时规定：向上述四国及巴西出口先进 AI 芯片需申请许可。\n\n背景是中国企业此前通过这四国的数据中心远程租用 Nvidia 算力，绕开直接出口禁令。Institute for Progress 估算，这类远程数据中心约供给中国 24% 的 AI 算力。\n\n据 FT 报道，新规已于上周四生效，数百个亚洲数据中心项目因此面临许可审查、融资延迟和更长的尽职调查。云厂商须在 90 天内取得批准，并证明其用户中不含受限实体，但目前无人说明具体如何申请。Nvidia 2025 年经新加坡部门入账 1040 亿美元，同比增长 72%。",
+        "digest": null,
         "latest_at": "2026-11-27T07:07:27.000Z",
         "original_url": "https://x.com/rohanpaul_ai/status/2125847124600656142",
-        "rank": 1,
+        "rank": 2,
         "recovered": false,
         "representative_source": "X：Rohan Paul (@rohanpaul_ai)",
         "signal_count": 26,
         "source_count": 3,
-        "status": "active",
+        "status": null,
         "story_url": "https://aihot.news/story/86e2fa50-91df-43e8-ab8a-6948255ec46f",
         "title": "Nvidia 暂停向东南亚四国发运服务器"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
@@ -109,16 +126,16 @@
         "digest": null,
         "latest_at": "2026-11-26T13:41:07.000Z",
         "original_url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
-        "rank": 5,
+        "rank": 6,
         "recovered": false,
         "representative_source": "The Decoder：AI News（RSS）",
-        "signal_count": 24,
+        "signal_count": 19,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/9dbfd26c-982c-409f-9e94-a22a3bde77ed",
         "title": "FCC批准SpaceX部署百万颗AI卫星"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
@@ -126,16 +143,16 @@
         "digest": null,
         "latest_at": "2026-11-26T17:11:25.000Z",
         "original_url": "https://mp.weixin.qq.com/s/JkZM9s6tC_Wz5MKeYcccxw",
-        "rank": 7,
+        "rank": 8,
         "recovered": false,
         "representative_source": "公众号：数字生命卡兹克",
-        "signal_count": 16,
-        "source_count": 2,
+        "signal_count": 12,
+        "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/c241df7c-8594-4077-8325-8fb43645c8ae",
         "title": "Sand.ai 发布 MAGI-2，上线渠道与定价说法不一"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
@@ -143,16 +160,16 @@
         "digest": null,
         "latest_at": "2026-11-26T17:04:31.000Z",
         "original_url": "https://www.anthropic.com/research/migrating-api-to-rust",
-        "rank": 8,
+        "rank": 10,
         "recovered": false,
         "representative_source": "Anthropic：Research（发表成果 · 网页）",
-        "signal_count": 14,
+        "signal_count": 9,
         "source_count": 1,
         "status": null,
         "story_url": "https://aihot.news/story/c38b8a26-309e-4ed2-841e-c4821cf589fe",
         "title": "Anthropic 将 Claude Messages API 从 Python 迁至 Rust"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     },
     {
       "item": {
@@ -163,13 +180,13 @@
         "rank": 3,
         "recovered": false,
         "representative_source": "X：Tibo (@thsottiaux)",
-        "signal_count": 25,
+        "signal_count": 23,
         "source_count": 2,
         "status": null,
         "story_url": "https://aihot.news/story/cc2d9727-4547-44f7-b2fe-f16bdbf84b42",
         "title": "OpenAI修复GPT-6.2计费错误并补偿用户"
       },
-      "observed_at": "2026-11-27T22:03:46.735486Z"
+      "observed_at": "2026-11-28T03:58:14.136527Z"
     }
   ],
   "version": 1
